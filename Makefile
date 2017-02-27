@@ -5,4 +5,4 @@ tag: build
 	./tag.sh $(VERSION)
 
 publish: tag
-	git push origin gh-pages
+	git push origin gh-pages && git push --tags
