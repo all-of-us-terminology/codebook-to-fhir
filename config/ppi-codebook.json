@@ -1,0 +1,15 @@
+{
+  "id":  "ppi",
+  "system":  "http://terminology.pmi-ops.org/CodeSystem/ppi",
+  "valueSetBase":  "http://terminology.pmi-ops.org/ValueSet/ppi-%s",
+  "version": "0.0.1",
+  "publisher":  "Precision Medicine Initiative: All of Us Resarch Program",
+  "sheetId":  "1TNqJ1ekLFHF4vYA2SNCb-4NL8QgoJrfuJsxnUuXd-is",
+  "sheets": {
+    "PMI": "1791570240",
+    "ConsentPII": "328858697",
+    "OverallHealth": "448841041",
+    "PersonalHabits": "1838424427",
+    "Sociodemographic": "551947635"
+  }
+}
