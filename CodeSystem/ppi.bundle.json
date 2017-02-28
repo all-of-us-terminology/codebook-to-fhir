@@ -1107,6 +1107,80 @@
                 "display": "In what country were you born?"
               }, 
               {
+                "concept": [
+                  {
+                    "concept": [
+                      {
+                        "property": [
+                          {
+                            "valueCode": "Answer", 
+                            "code": "concept-type"
+                          }, 
+                          {
+                            "valueCode": "Home Ownership", 
+                            "code": "concept-topic"
+                          }
+                        ], 
+                        "code": "CurrentHomeOwn_OtherArrangement", 
+                        "display": "Other Arrangement"
+                      }, 
+                      {
+                        "property": [
+                          {
+                            "valueCode": "Answer", 
+                            "code": "concept-type"
+                          }, 
+                          {
+                            "valueCode": "Home Ownership", 
+                            "code": "concept-topic"
+                          }
+                        ], 
+                        "code": "CurrentHomeOwn_Own", 
+                        "display": "Own"
+                      }, 
+                      {
+                        "property": [
+                          {
+                            "valueCode": "Answer", 
+                            "code": "concept-type"
+                          }, 
+                          {
+                            "valueCode": "Home Ownership", 
+                            "code": "concept-topic"
+                          }
+                        ], 
+                        "code": "CurrentHomeOwn_Rent", 
+                        "display": "Rent"
+                      }
+                    ], 
+                    "property": [
+                      {
+                        "valueCode": "Question", 
+                        "code": "concept-type"
+                      }, 
+                      {
+                        "valueCode": "Home Ownership", 
+                        "code": "concept-topic"
+                      }
+                    ], 
+                    "code": "HomeOwn_CurrentHomeOwn", 
+                    "display": "Do you own or rent your home?"
+                  }
+                ], 
+                "property": [
+                  {
+                    "valueCode": "Topic", 
+                    "code": "concept-type"
+                  }, 
+                  {
+                    "valueCode": "Home Ownership", 
+                    "code": "concept-topic"
+                  }
+                ], 
+                "code": "Sociodemographic_HomeOwn", 
+                "display": "Home Ownership"
+              }, 
+              {
                 "property": [
                   {
                     "valueCode": "Question", 
@@ -1955,80 +2029,6 @@
                 ], 
                 "code": "Sociodemographic_Employment", 
                 "display": "Employment"
-              }, 
-              {
-                "concept": [
-                  {
-                    "concept": [
-                      {
-                        "property": [
-                          {
-                            "valueCode": "Answer", 
-                            "code": "concept-type"
-                          }, 
-                          {
-                            "valueCode": "Home Ownership", 
-                            "code": "concept-topic"
-                          }
-                        ], 
-                        "code": "CurrentHomeOwn_OtherArrangement", 
-                        "display": "Other Arrangement"
-                      }, 
-                      {
-                        "property": [
-                          {
-                            "valueCode": "Answer", 
-                            "code": "concept-type"
-                          }, 
-                          {
-                            "valueCode": "Home Ownership", 
-                            "code": "concept-topic"
-                          }
-                        ], 
-                        "code": "CurrentHomeOwn_Own", 
-                        "display": "Own"
-                      }, 
-                      {
-                        "property": [
-                          {
-                            "valueCode": "Answer", 
-                            "code": "concept-type"
-                          }, 
-                          {
-                            "valueCode": "Home Ownership", 
-                            "code": "concept-topic"
-                          }
-                        ], 
-                        "code": "CurrentHomeOwn_Rent", 
-                        "display": "Rent"
-                      }
-                    ], 
-                    "property": [
-                      {
-                        "valueCode": "Question", 
-                        "code": "concept-type"
-                      }, 
-                      {
-                        "valueCode": "Home Ownership", 
-                        "code": "concept-topic"
-                      }
-                    ], 
-                    "code": "HomeOwn_CurrentHomeOwn", 
-                    "display": "Do you own or rent your home?"
-                  }
-                ], 
-                "property": [
-                  {
-                    "valueCode": "Topic", 
-                    "code": "concept-type"
-                  }, 
-                  {
-                    "valueCode": "Home Ownership", 
-                    "code": "concept-topic"
-                  }
-                ], 
-                "code": "Sociodemographic_HomeOwn", 
-                "display": "Home Ownership"
               }, 
               {
                 "concept": [
@@ -6079,20 +6079,6 @@
                                 "code": "concept-topic"
                               }
                             ], 
-                            "code": "CurrentHookahFrequency_NotAtAll", 
-                            "display": "Not at all"
-                          }, 
-                          {
-                            "property": [
-                              {
-                                "valueCode": "Answer", 
-                                "code": "concept-type"
-                              }, 
-                              {
-                                "valueCode": "Hookah Smoking", 
-                                "code": "concept-topic"
-                              }
-                            ], 
                             "code": "CurrentHookahFrequency_SomeDays", 
                             "display": "Some days"
                           }, 
@@ -6109,6 +6095,20 @@
                             ], 
                             "code": "CurrentHookahFrequency_EveryDay", 
                             "display": "Every day"
+                          }, 
+                          {
+                            "property": [
+                              {
+                                "valueCode": "Answer", 
+                                "code": "concept-type"
+                              }, 
+                              {
+                                "valueCode": "Hookah Smoking", 
+                                "code": "concept-topic"
+                              }
+                            ], 
+                            "code": "CurrentHookahFrequency_NotAtAll", 
+                            "display": "Not at all"
                           }
                         ], 
                         "property": [
@@ -8114,14 +8114,14 @@
         "name": "pmi-codebook", 
         "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
         "resourceType": "CodeSystem", 
-        "count": 573, 
+        "count": 572, 
         "compositional": false, 
         "content": "complete", 
         "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
         "caseSensitive": true, 
-        "version": "v0.0.1", 
+        "version": "0.0.2", 
         "hierarchyMeaning": "grouped-by", 
-        "date": "2017-02-27", 
+        "date": "2017-02-28", 
         "property": [
           {
             "code": "concept-type", 
@@ -8141,8 +8141,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-Past3MonthUseFrequency_OtherStimulant3MonthUse", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-Past3MonthUseFrequency_OtherStimulant3MonthUse", 
         "title": "Values for d. Other stimulants (methamphetamine (speed, crystal meth, ice, etc.), k2/spice, bath salts)", 
         "resourceType": "ValueSet", 
@@ -8211,8 +8211,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-OverallHealth_AveragePain7Days", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-OverallHealth_AveragePain7Days", 
         "title": "Values for In the past 7 days, how would you rate your pain on average?", 
         "resourceType": "ValueSet", 
@@ -8305,8 +8305,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-OverallHealth_GeneralQuality", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-OverallHealth_GeneralQuality", 
         "title": "Values for In general, would you say your quality of life is:", 
         "resourceType": "ValueSet", 
@@ -8375,8 +8375,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-OverallHealth_DifficultUnderstandInfo", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-OverallHealth_DifficultUnderstandInfo", 
         "title": "Values for How often do you have problems learning about your medical condition because of difficulty understanding written information?", 
         "resourceType": "ValueSet", 
@@ -8445,8 +8445,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-CurrentLiving_HowManyLivingYears", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-CurrentLiving_HowManyLivingYears", 
         "title": "Values for How many years have you lived at your current address?", 
         "resourceType": "ValueSet", 
@@ -8519,8 +8519,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-Past3MonthUseFrequency_Hallucinogen3MonthUse", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-Past3MonthUseFrequency_Hallucinogen3MonthUse", 
         "title": "Values for g. Hallucinogens (LSD, acid, mushrooms, PCP, Special K, ecstasy, etc.)", 
         "resourceType": "ValueSet", 
@@ -8589,8 +8589,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-WhichDrugsUsed_StreetOpioidsUse", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-WhichDrugsUsed_StreetOpioidsUse", 
         "title": "Values for h. Street opioids (heroin, opium, etc.)", 
         "resourceType": "ValueSet", 
@@ -8647,8 +8647,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-Sociodemographic_ActiveDuty", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-Sociodemographic_ActiveDuty", 
         "title": "Values for Have you ever served on active duty in the United States Armed forces, either in the regular military or in a National Guard or military reserve unit?", 
         "resourceType": "ValueSet", 
@@ -8705,8 +8705,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-Alcohol_DrinkFrequencyPastYear", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-Alcohol_DrinkFrequencyPastYear", 
         "title": "Values for How often did you have a drink containing alcohol in the past year?", 
         "resourceType": "ValueSet", 
@@ -8775,8 +8775,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-Past3MonthUseFrequency_Marijuana3MonthUse", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-Past3MonthUseFrequency_Marijuana3MonthUse", 
         "title": "Values for a. Marijuana (cannabis, pot, grass, hash, weed, etc.)", 
         "resourceType": "ValueSet", 
@@ -8845,8 +8845,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-OverallHealth_AverageFatigue7Days", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-OverallHealth_AverageFatigue7Days", 
         "title": "Values for In the past 7 days, how would you rate your fatigue on average?", 
         "resourceType": "ValueSet", 
@@ -8915,8 +8915,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-Insurance_HealthInsurance", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-Insurance_HealthInsurance", 
         "title": "Values for Are you covered by health insurance or some other kind of health care plan?", 
         "resourceType": "ValueSet", 
@@ -8977,8 +8977,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-WhichDrugsUsed_HallucinogensUse", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-WhichDrugsUsed_HallucinogensUse", 
         "title": "Values for g. Hallucinogens (LSD, acid, mushrooms, PCP, Special K, ecstasy, etc.)", 
         "resourceType": "ValueSet", 
@@ -9035,8 +9035,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-RecreationalDrugUse_WhichDrugsUsed", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-RecreationalDrugUse_WhichDrugsUsed", 
         "title": "Values for In your LIFETIME, which of the following substances have you ever used?", 
         "resourceType": "ValueSet", 
@@ -9121,8 +9121,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-Ethnicity_TonganFijanMarshallese", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-Ethnicity_TonganFijanMarshallese", 
         "title": "Values for Tongan, Fijian, Marshallese, etc.)*", 
         "resourceType": "ValueSet", 
@@ -9183,8 +9183,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-WhichDrugsUsed_CocaineUse", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-WhichDrugsUsed_CocaineUse", 
         "title": "Values for b. Cocaine (coke, crack, etc.)", 
         "resourceType": "ValueSet", 
@@ -9241,8 +9241,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-Alcohol_AlcoholParticipant", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-Alcohol_AlcoholParticipant", 
         "title": "Values for In your entire life, have you had at least 1 drink of any kind of alcohol, not counting small tastes or sips? (By a \u201cdrink,\u201d we mean a can or bottle of beer, a glass of wine or a wine cooler, a shot of liquor, or a mixed drink with liquor in it.)", 
         "resourceType": "ValueSet", 
@@ -9299,8 +9299,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-MaritalStatus_CurrentMaritalStatus", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-MaritalStatus_CurrentMaritalStatus", 
         "title": "Values for What is your current marital status?", 
         "resourceType": "ValueSet", 
@@ -9373,8 +9373,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-HomeOwn_CurrentHomeOwn", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-HomeOwn_CurrentHomeOwn", 
         "title": "Values for Do you own or rent your home?", 
         "resourceType": "ValueSet", 
@@ -9435,8 +9435,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-Smoking_SmokeFrequency", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-Smoking_SmokeFrequency", 
         "title": "Values for Do you now smoke cigarettes every day, some days, or not at all?", 
         "resourceType": "ValueSet", 
@@ -9497,8 +9497,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-Ethnicity_Hispanic", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-Ethnicity_Hispanic", 
         "title": "Values for Hispanic, Latino, or of Spanish origin", 
         "resourceType": "ValueSet", 
@@ -9643,8 +9643,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-OverallHealth_MentrualStoppedReason", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-OverallHealth_MentrualStoppedReason", 
         "title": "Values for Why did your periods stop?", 
         "resourceType": "ValueSet", 
@@ -9709,8 +9709,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-PhoneInformation_AlternateNumber", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-PhoneInformation_AlternateNumber", 
         "title": "Values for Another Number to be Reached at?", 
         "resourceType": "ValueSet", 
@@ -9767,8 +9767,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-OverallHealth_GeneralHealth", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-OverallHealth_GeneralHealth", 
         "title": "Values for In general, would you say your health is:", 
         "resourceType": "ValueSet", 
@@ -9837,8 +9837,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-Pregnancy_PregnancyStatus", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-Pregnancy_PregnancyStatus", 
         "title": "Values for Are you currently pregnant?", 
         "resourceType": "ValueSet", 
@@ -9895,8 +9895,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-SmokelessTobacco_SmokelessTobaccoParticipant", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-SmokelessTobacco_SmokelessTobaccoParticipant", 
         "title": "Values for Have you ever used smokeless tobacco products, even one or two times?  (Smokeless tobacco products include snus pouches, Skoal Bandits, loose snus, moist snuff, dip, spit, and chewing tobacco.)", 
         "resourceType": "ValueSet", 
@@ -9953,8 +9953,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-CigarSmoking_CigarSmokeParticipant", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-CigarSmoking_CigarSmokeParticipant", 
         "title": "Values for Have you ever smoked a traditional cigar, cigarillo, or filtered cigar, even one or two puffs?", 
         "resourceType": "ValueSet", 
@@ -10015,8 +10015,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-StressLevel_MortgageRentStress", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-StressLevel_MortgageRentStress", 
         "title": "Values for Mortgage/Rent Based Stress in past 12 Months", 
         "resourceType": "ValueSet", 
@@ -10085,8 +10085,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-Past3MonthUseFrequency_Sedative3MonthUse", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-Past3MonthUseFrequency_Sedative3MonthUse", 
         "title": "Values for f. Sedatives or sleeping pills for non-medical reasons (Valium, Serepax, Ativan, Xanax, Librium, Rohypnol, GHB, etc.)", 
         "resourceType": "ValueSet", 
@@ -10155,8 +10155,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-OverallHealth_GeneralPhysicalHealth", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-OverallHealth_GeneralPhysicalHealth", 
         "title": "Values for In general, how would you rate your physical health?", 
         "resourceType": "ValueSet", 
@@ -10225,8 +10225,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-Past3MonthUseFrequency_PrescriptionOpiod3MonthUse", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-Past3MonthUseFrequency_PrescriptionOpiod3MonthUse", 
         "title": "Values for i. Prescription opioids for non-medical reasons (obana, fentanyl, oxycodone [OxyContin, Percocet], hydrocodone [Vicodin], methadone, buprenorphine [Supoxone], etc.)", 
         "resourceType": "ValueSet", 
@@ -10295,8 +10295,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-OverallHealth_HealthSolutionDifficulty", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-OverallHealth_HealthSolutionDifficulty", 
         "title": "Values for It is difficult for me to find effective solutions to the health problems that come my way.", 
         "resourceType": "ValueSet", 
@@ -10365,8 +10365,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-CigarSmoking_CurrentCigarFrequency", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-CigarSmoking_CurrentCigarFrequency", 
         "title": "Values for Do you now smoke a traditional cigar, cigarillo, or filtered cigar\u2026.", 
         "resourceType": "ValueSet", 
@@ -10427,8 +10427,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-SmokelessTobacco_SmokelessTobaccoFrequency", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-SmokelessTobacco_SmokelessTobaccoFrequency", 
         "title": "Values for Do you now use smokeless tobacco products\u2026", 
         "resourceType": "ValueSet", 
@@ -10489,8 +10489,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-PhoneInformation_NumberType", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-PhoneInformation_NumberType", 
         "title": "Values for Type of Phone Number", 
         "resourceType": "ValueSet", 
@@ -10551,8 +10551,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-Past3MonthUseFrequency_StreetOpioid3MonthUse", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-Past3MonthUseFrequency_StreetOpioid3MonthUse", 
         "title": "Values for h. Street opioids (heroin, opium, etc.)", 
         "resourceType": "ValueSet", 
@@ -10621,8 +10621,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-Past3MonthUseFrequency_PrescriptionStimulant3MonthUse", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-Past3MonthUseFrequency_PrescriptionStimulant3MonthUse", 
         "title": "Values for c. Prescription stimulants for non-medical reasons (Vyvanse, Ritalin, Concerta, Dexedrine, Adderall, diet pills, etc.)", 
         "resourceType": "ValueSet", 
@@ -10691,8 +10691,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-OverallHealth_GeneralMentalHealth", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-OverallHealth_GeneralMentalHealth", 
         "title": "Values for In general, how would you rate your mental health, including your mood and your ability to think?", 
         "resourceType": "ValueSet", 
@@ -10761,8 +10761,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-ElectronicSmoking_ElectricSmokeParticipant", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-ElectronicSmoking_ElectricSmokeParticipant", 
         "title": "Values for Have you ever used an electronic nicotine product, even one or two times?  (Electronic nicotine products include e-cigarettes, vape pens, hookah pens, personal vaporizers and mods, e-cigars, e-pipes, and e-hookahs.)", 
         "resourceType": "ValueSet", 
@@ -10819,8 +10819,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-Ethnicity_NHPI", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-Ethnicity_NHPI", 
         "title": "Values for Native Hawaiian or Pacific Islander", 
         "resourceType": "ValueSet", 
@@ -10893,8 +10893,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-WhichDrugsUsed_MethamphetamineUse", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-WhichDrugsUsed_MethamphetamineUse", 
         "title": "Values for d. Methamphetamine (speed, crystal meth, ice, etc.)", 
         "resourceType": "ValueSet", 
@@ -10951,8 +10951,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-Alcohol_AverageDailyDrinkCount", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-Alcohol_AverageDailyDrinkCount", 
         "title": "Values for How many drinks did you have on a typical day when you were drinking in the past year?", 
         "resourceType": "ValueSet", 
@@ -11021,8 +11021,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-Education_EducationLevel", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-Education_EducationLevel", 
         "title": "Values for What is the highest grade or year of school you completed?", 
         "resourceType": "ValueSet", 
@@ -11107,8 +11107,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-Sociodemographic_SexualOrientation", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-Sociodemographic_SexualOrientation", 
         "title": "Values for Which of the following best represents how you think of yourself?", 
         "resourceType": "ValueSet", 
@@ -11173,8 +11173,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-OverallHealth_HysterectomyHistory", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-OverallHealth_HysterectomyHistory", 
         "title": "Values for Have you ever had a hysterectomy (that is, surgery to remove your uterus or womb)?", 
         "resourceType": "ValueSet", 
@@ -11239,8 +11239,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-OverallHealth_OrganTransplant", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-OverallHealth_OrganTransplant", 
         "title": "Values for Have you had a transplant of any type?", 
         "resourceType": "ValueSet", 
@@ -11305,8 +11305,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-WhichDrugsUsed_SedativesUse", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-WhichDrugsUsed_SedativesUse", 
         "title": "Values for f. Sedatives or sleeping pills for non-medical reasons (Valium, Serepax, Ativan, Xanax, Librium, Rohypnol, GHB, etc.)", 
         "resourceType": "ValueSet", 
@@ -11363,8 +11363,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-OverallHealth_OvaryRemovalHistory", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-OverallHealth_OvaryRemovalHistory", 
         "title": "Values for Have you ever had an ovary removed?", 
         "resourceType": "ValueSet", 
@@ -11437,8 +11437,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-Ethnicity_Asian", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-Ethnicity_Asian", 
         "title": "Values for Asian", 
         "resourceType": "ValueSet", 
@@ -11507,8 +11507,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-Past3MonthUseFrequency_Cocaine3MonthUse", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-Past3MonthUseFrequency_Cocaine3MonthUse", 
         "title": "Values for b. Cocaine (coke, crack, etc.)", 
         "resourceType": "ValueSet", 
@@ -11577,8 +11577,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-Past3MonthUseFrequency_Inhalant3MonthUse", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-Past3MonthUseFrequency_Inhalant3MonthUse", 
         "title": "Values for e. Inhalants (nitrous oxide, glue, gas, paint thinner, etc.)", 
         "resourceType": "ValueSet", 
@@ -11647,8 +11647,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-OverallHealth_MedicalFormConfidence", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-OverallHealth_MedicalFormConfidence", 
         "title": "Values for How confident are you filling out medical forms by yourself?", 
         "resourceType": "ValueSet", 
@@ -11717,8 +11717,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-OverallHealth_SocialSatisfaction", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-OverallHealth_SocialSatisfaction", 
         "title": "Values for In general, how would you rate your satisfaction with your social activities and relationships?", 
         "resourceType": "ValueSet", 
@@ -11787,8 +11787,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-Income_AnnualIncome", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-Income_AnnualIncome", 
         "title": "Values for What is your annual household income from all sources?", 
         "resourceType": "ValueSet", 
@@ -11873,8 +11873,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-HookahSmoking_HookahSmokeParticipant", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-HookahSmoking_HookahSmokeParticipant", 
         "title": "Values for Have you ever smoked tobacco in a hookah, even one or two puffs?", 
         "resourceType": "ValueSet", 
@@ -11931,8 +11931,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-Alcohol_6orMoreDrinksOccurence", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-Alcohol_6orMoreDrinksOccurence", 
         "title": "Values for How often did you have six or more drinks on one occasion in the past year?", 
         "resourceType": "ValueSet", 
@@ -12001,8 +12001,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-HookahSmoking_CurrentHookahFrequency", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-HookahSmoking_CurrentHookahFrequency", 
         "title": "Values for Do you now smoke hookah\u2026", 
         "resourceType": "ValueSet", 
@@ -12012,16 +12012,16 @@
             {
               "concept": [
                 {
-                  "code": "CurrentHookahFrequency_NotAtAll", 
-                  "display": "Not at all"
-                }, 
-                {
                   "code": "CurrentHookahFrequency_SomeDays", 
                   "display": "Some days"
                 }, 
                 {
                   "code": "CurrentHookahFrequency_EveryDay", 
                   "display": "Every day"
+                }, 
+                {
+                  "code": "CurrentHookahFrequency_NotAtAll", 
+                  "display": "Not at all"
                 }
               ], 
               "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
@@ -12063,8 +12063,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-Employment_CurrentEmployment", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-Employment_CurrentEmployment", 
         "title": "Values for Current Employment Status", 
         "resourceType": "ValueSet", 
@@ -12145,8 +12145,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-WhichDrugsUsed_MarijuanaUse", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-WhichDrugsUsed_MarijuanaUse", 
         "title": "Values for a. Marijuana (cannabis, pot, grass, hash, weed, etc.)", 
         "resourceType": "ValueSet", 
@@ -12203,8 +12203,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-CurrentLiving_StableHouseConcern", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-CurrentLiving_StableHouseConcern", 
         "title": "Values for In the past 6 months, have you been worried or concerned about NOT having stable housing that you own, rent, or stay in as part of a household?", 
         "resourceType": "ValueSet", 
@@ -12261,8 +12261,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-OutsideTravel6Month_WhereTraveled", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-OutsideTravel6Month_WhereTraveled", 
         "title": "Values for If yes, where?", 
         "resourceType": "ValueSet", 
@@ -12495,8 +12495,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-Smoking_SeriousQuitAttempt", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-Smoking_SeriousQuitAttempt", 
         "title": "Values for In the past, have you ever made a serious attempt to quit smoking? That is, have you stopped smoking for at least one day or longer because you were trying to quit?", 
         "resourceType": "ValueSet", 
@@ -12553,8 +12553,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-Past3MonthUseFrequency_Other3MonthUse", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-Past3MonthUseFrequency_Other3MonthUse", 
         "title": "Values for j. Other [INSERT LANGUAGE FROM SU01j]", 
         "resourceType": "ValueSet", 
@@ -12623,8 +12623,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-OverallHealth_GeneralSocial", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-OverallHealth_GeneralSocial", 
         "title": "Values for In general, please rate how well you carry out your usual social roles.", 
         "resourceType": "ValueSet", 
@@ -12693,8 +12693,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-LivingSituation_CurrentLiving", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-LivingSituation_CurrentLiving", 
         "title": "Values for Where are you currently living?", 
         "resourceType": "ValueSet", 
@@ -12795,8 +12795,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-Sociodemographic_PhoneInformation", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-Sociodemographic_PhoneInformation", 
         "title": "Values for Phone Information", 
         "resourceType": "ValueSet", 
@@ -12853,8 +12853,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-WhichDrugsUsed_PrescriptionOpioidsUse", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-WhichDrugsUsed_PrescriptionOpioidsUse", 
         "title": "Values for i. Prescription opioids for non-medical reasons (fentanyl, oxycodone [OxyContin, Percocet], hydrocodone [Vicodin], methadone, buprenorphine, etc.)", 
         "resourceType": "ValueSet", 
@@ -12911,8 +12911,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-OverallHealth_EverydayActivities", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-OverallHealth_EverydayActivities", 
         "title": "Values for To what extent are you able to carry out your everyday physical activities such as walking, climbing stairs, carrying groceries, or moving a chair?", 
         "resourceType": "ValueSet", 
@@ -12981,8 +12981,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-ElectronicSmoking_ElectricSmokeFrequency", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-ElectronicSmoking_ElectricSmokeFrequency", 
         "title": "Values for Do you now use electronic nicotine products\u2026", 
         "resourceType": "ValueSet", 
@@ -13043,8 +13043,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-OverallHealth_HealthMaterialAssistance", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-OverallHealth_HealthMaterialAssistance", 
         "title": "Values for How often do you have someone help you read health-related materials?", 
         "resourceType": "ValueSet", 
@@ -13113,8 +13113,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-Gender_BiologicalSexBirth", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-Gender_BiologicalSexBirth", 
         "title": "Values for What was your biological sex assigned at birth?", 
         "resourceType": "ValueSet", 
@@ -13175,8 +13175,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-WhichDrugsUsed_InhalantsUse", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-WhichDrugsUsed_InhalantsUse", 
         "title": "Values for e. Inhalants (nitrous oxide, glue, gas, paint thinner, etc.)", 
         "resourceType": "ValueSet", 
@@ -13233,8 +13233,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-Ethnicity_AIAN", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-Ethnicity_AIAN", 
         "title": "Values for American Indian or Alaskan Native", 
         "resourceType": "ValueSet", 
@@ -13299,8 +13299,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-WhichDrugsUsed_PrescriptionStimulantsUse", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-WhichDrugsUsed_PrescriptionStimulantsUse", 
         "title": "Values for c. Prescription stimulants for non-medical reasons (Ritalin, Concerta, Dexedrine, Adderall, diet pills, etc.)", 
         "resourceType": "ValueSet", 
@@ -13357,8 +13357,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-OverallHealth_MentrualStopped", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-OverallHealth_MentrualStopped", 
         "title": "Values for Have your menstrual periods stopped permanently?", 
         "resourceType": "ValueSet", 
@@ -13423,8 +13423,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-StressLevel_HealthyMealStress", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-StressLevel_HealthyMealStress", 
         "title": "Values for Meal Based Stress in past 12 Months", 
         "resourceType": "ValueSet", 
@@ -13493,8 +13493,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-OverallHealth_EmotionalProblem7Days", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-OverallHealth_EmotionalProblem7Days", 
         "title": "Values for In the past 7 days, how often have you been bothered by emotional problems such as feeling anxious, depressed or irritable?", 
         "resourceType": "ValueSet", 
@@ -13563,8 +13563,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-Ethnicity_MENA", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-Ethnicity_MENA", 
         "title": "Values for Middle Eastern or North African", 
         "resourceType": "ValueSet", 
@@ -13641,8 +13641,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-GenderIdentity_GenderCloserDescription", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-GenderIdentity_GenderCloserDescription", 
         "title": "Values for Are any of these a closer description of how you think of yourself?", 
         "resourceType": "ValueSet", 
@@ -13727,8 +13727,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-OverallHealth_OutsideTravel6Month", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-OverallHealth_OutsideTravel6Month", 
         "title": "Values for Have you traveled outside of the United States within the past 6 months?", 
         "resourceType": "ValueSet", 
@@ -13793,8 +13793,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-RecreationalDrugUse_Past3MonthUseFrequency", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-RecreationalDrugUse_Past3MonthUseFrequency", 
         "title": "Values for In the past three months, how often have you used the substances you mentioned (first drug, second drug, etc)?", 
         "resourceType": "ValueSet", 
@@ -13883,8 +13883,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-HealthInsurance_HealthInsuranceType", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-HealthInsurance_HealthInsuranceType", 
         "title": "Values for What kind of health insurance or health care coverage do you have?", 
         "resourceType": "ValueSet", 
@@ -13977,8 +13977,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-Ethnicity_Black", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-Ethnicity_Black", 
         "title": "Values for Black or African American", 
         "resourceType": "ValueSet", 
@@ -14051,8 +14051,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-Smoking_100CigsLifetime", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-Smoking_100CigsLifetime", 
         "title": "Values for Have you smoked at least 100 cigarettes in your entire life? (There are 20 cigarettes in a pack.)", 
         "resourceType": "ValueSet", 
@@ -14109,8 +14109,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-Ethnicity_White", 
-        "version": "v0.0.1", 
-        "date": "2017-02-27", 
+        "version": "0.0.2", 
+        "date": "2017-02-28", 
         "name": "values-for-Ethnicity_White", 
         "title": "Values for White", 
         "resourceType": "ValueSet", 

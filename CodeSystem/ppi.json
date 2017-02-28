@@ -1103,6 +1103,80 @@
           "display": "In what country were you born?"
         }, 
         {
+          "concept": [
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Home Ownership", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "CurrentHomeOwn_OtherArrangement", 
+                  "display": "Other Arrangement"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Home Ownership", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "CurrentHomeOwn_Own", 
+                  "display": "Own"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Home Ownership", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "CurrentHomeOwn_Rent", 
+                  "display": "Rent"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Home Ownership", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "HomeOwn_CurrentHomeOwn", 
+              "display": "Do you own or rent your home?"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Topic", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Home Ownership", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "Sociodemographic_HomeOwn", 
+          "display": "Home Ownership"
+        }, 
+        {
           "property": [
             {
               "valueCode": "Question", 
@@ -1951,80 +2025,6 @@
           ], 
           "code": "Sociodemographic_Employment", 
           "display": "Employment"
-        }, 
-        {
-          "concept": [
-            {
-              "concept": [
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Home Ownership", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "CurrentHomeOwn_OtherArrangement", 
-                  "display": "Other Arrangement"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Home Ownership", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "CurrentHomeOwn_Own", 
-                  "display": "Own"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Home Ownership", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "CurrentHomeOwn_Rent", 
-                  "display": "Rent"
-                }
-              ], 
-              "property": [
-                {
-                  "valueCode": "Question", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Home Ownership", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "HomeOwn_CurrentHomeOwn", 
-              "display": "Do you own or rent your home?"
-            }
-          ], 
-          "property": [
-            {
-              "valueCode": "Topic", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Home Ownership", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "Sociodemographic_HomeOwn", 
-          "display": "Home Ownership"
         }, 
         {
           "concept": [
@@ -6075,20 +6075,6 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "CurrentHookahFrequency_NotAtAll", 
-                      "display": "Not at all"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Hookah Smoking", 
-                          "code": "concept-topic"
-                        }
-                      ], 
                       "code": "CurrentHookahFrequency_SomeDays", 
                       "display": "Some days"
                     }, 
@@ -6105,6 +6091,20 @@
                       ], 
                       "code": "CurrentHookahFrequency_EveryDay", 
                       "display": "Every day"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Hookah Smoking", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "CurrentHookahFrequency_NotAtAll", 
+                      "display": "Not at all"
                     }
                   ], 
                   "property": [
@@ -8110,14 +8110,14 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 573, 
+  "count": 572, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "v0.0.1", 
+  "version": "0.0.2", 
   "hierarchyMeaning": "grouped-by", 
-  "date": "2017-02-27", 
+  "date": "2017-02-28", 
   "property": [
     {
       "code": "concept-type", 

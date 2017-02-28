@@ -1,5 +1,4 @@
 [
-  "PMI Code is not defined in: {'': None, 'UMLS (SnoMed) DescriptionID': None, 'LOINC Answer ID': None, 'LOINC Category ID': None, 'Standard Code Source': 'LOINC', 'UMLS (SnoMed) ConceptID': None, 'Parent code': None, 'PMI System': None, 'Topic': 'Alcohol, Tobacco, Substance Use', 'Source URL': 'http://r.details.loinc.org/LOINC/62541-8.html?sections=Comprehensive', 'FHIR Code': None, 'FHIR System OID': None, 'PMI Code': None, 'LOINC Category Code (Search This)': '62541-8', 'FHIR Level': None, 'Type': 'Topic', 'Display': 'Alcohol, tobacco and other substances (Reference Page)', 'Item ID': None}", 
   "Term 'PIIBirthInformation_BirthDate' has type=Question, but no answers assocaited with it", 
   "Term 'Smoking_DailySmokeStartingAge' has type=Question, but no answers assocaited with it", 
   "Term 'OutsideTravel6Month_HowLong' has type=Question, but no answers assocaited with it", 
