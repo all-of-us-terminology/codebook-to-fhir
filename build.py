@@ -66,11 +66,12 @@ def strip_empty_concepts(concept):
     return concept
 
 class SheetProcessor(object):
-    def __init__(self, config, version):
+    def __init__(self, config):
         self.config = config
-        self.version = version
         self.download_sheets()
         self.process_sheets()
+        with open('./dist/version', 'w') as outfile:
+            outfile.write(self.version + '\n')
         print "# terms:", len(self.terms_by_coding)
         print "# issues:", len(CodebookEntry.issues)
         print "Top-level concepts", "\n  ".join([str(t.coding) for t in self.terms_by_parent[Coding(self.config['system'],None)]])
@@ -80,14 +81,22 @@ class SheetProcessor(object):
     def output_file(self):
         return OUTPUT_FILE+self.config['id']
 
+
+
     def download_sheets(self):
-        for name, gid in self.config['sheets'].iteritems():
+        for name, gid in list(self.config['sheets'].iteritems()) + [("version", self.config['versionSheet'])]:
             target = SHEET_URL%{"sid": self.config['sheetId'], "gid": gid}
             subprocess.call(["mkdir", "-p", "dist/sheets"])
             subprocess.call(["mkdir", "-p", "dist/CodeSystem"])
             subprocess.call(["wget", target, "-O", "dist/sheets/%s.csv"%name])
 
     def process_sheets(self):
+        with open("dist/sheets/version.csv", "rb") as csvfile:
+            reader = csv.DictReader(csvfile)
+            row = list(reader)[0]
+            self.version = row['Current Codebook Version']
+            self.changeDate = row['Date of Version Update']
+
         CodebookEntry.issues = []
         terms = []
         for name in self.config['sheets']:
@@ -145,7 +154,7 @@ class SheetProcessor(object):
         'name': 'pmi-codebook',
         'title': "Codebook for PMI's All of Us Research Program Participant-Provided Information",
         'status': 'draft',
-        'date': self.config['changeDate'],
+        'date': self.changeDate,
         'publisher': self.config['publisher'],
         'description': """
     # PMI Codebook
@@ -187,7 +196,7 @@ class SheetProcessor(object):
             'name': 'values-for-%s'%question_entry.coding.code,
             'title': 'Values for %s'%question_entry.display,
             'status': 'draft',
-            'date': self.config['changeDate'],
+            'date': self.changeDate,
             'publisher': self.config['publisher'],
             'compose': {
                 'include': [
@@ -222,12 +231,9 @@ class SheetProcessor(object):
 
 @click.command()
 @click.option('--config', default='config/ppi-codebook.json', help='Path to config file')
-@click.option('--version',  help='Version, like v0.0.1')
-def run(config, version):
-    assert version[0]=='v', 'version must start with "v", like v0.0.1'
+def run(config):
     config = json.load(open(config, 'r'))
-    config['changeDate'] = datetime.datetime.now().isoformat()[:10]
-    SheetProcessor(config, version)
+    SheetProcessor(config)
 
 if __name__ == '__main__':
     run()

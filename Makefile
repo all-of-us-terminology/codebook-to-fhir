@@ -1,8 +1,8 @@
 build:
-	python build.py --config config/ppi-codebook.json --version $(VERSION)
+	python build.py --config config/ppi-codebook.json
 
 tag: build
-	./tag.sh $(VERSION)
+	./tag.sh
 
 publish: tag
 	git push origin gh-pages && git push --tags
