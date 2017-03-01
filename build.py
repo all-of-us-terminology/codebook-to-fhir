@@ -110,15 +110,22 @@ class SheetProcessor(object):
         for term in terms:
             assert 'Parent code' in term
             assert 'PMI Code' in term
-            assert term['PMI Code'] not in self.terms_by_coding, "Redefined!"
             entry = CodebookEntry(term)
+            if entry.coding in self.terms_by_coding:
+                CodebookEntry.issues.append("Redefined! %s : %s"%entry.coding)
             self.terms_by_coding[entry.coding] = entry
 
         for term in self.terms_by_coding.values():
+            if term.concept_type == 'Answer' and term.parent_coding and term.parent_coding in self.terms_by_coding:
+                parent_term = self.terms_by_coding[term.parent_coding]
+                if parent_term.concept_type != 'Question':
+                    CodebookEntry.issues.append("Parent of '%s' is '%s' and has type '%s' instaed of 'Question'"%(
+                            term._dict['PMI Code'], parent_term.coding.code, parent_term.concept_type))
             if term.parent_coding and term.parent_coding not in self.terms_by_coding:
                 if term.coding.code not in self.config['sheets']:
                     CodebookEntry.issues.append("Parent of '%s' is '%s' but does not exist"%(
                             term._dict['PMI Code'], term._dict['Parent code']))
+
                 term._dict['Parent code'] = None
                 # TODO: Remove this when it's fixed in the codebook
                 if term.coding.code.startswith("PMI"):
@@ -129,7 +136,7 @@ class SheetProcessor(object):
 
         for term in self.terms_by_coding.values():
             if term.concept_type == "Question" and term.coding not in self.terms_by_parent:
-                CodebookEntry.issues.append("Term '%s' has type=Question, but no answers assocaited with it"%(
+                CodebookEntry.issues.append("Term '%s' has type=Question, but no answers associated with it"%(
                         term._dict['PMI Code']))
 
     def concepts_with_parent(self, parent=None):
