@@ -45,6 +45,10 @@ class CodebookEntry(object):
         return self._dict['Type']
 
     @property
+    def answer_type(self):
+        return self._dict.get('Answer Type', '')
+
+    @property
     def concept_topic(self):
         return self._dict['Topic']
 
@@ -81,7 +85,12 @@ class SheetProcessor(object):
     def output_file(self):
         return OUTPUT_FILE+self.config['id']
 
-
+    def ancestor_terms(self, term):
+        parent_term = self.terms_by_coding.get(term.parent_coding, None)
+        if parent_term and parent_term != term:
+            return self.ancestor_terms(parent_term) + [term]
+        else:
+            return [term]
 
     def download_sheets(self):
         for name, gid in list(self.config['sheets'].iteritems()) + [("version", self.config['versionSheet'])]:
@@ -116,11 +125,20 @@ class SheetProcessor(object):
             self.terms_by_coding[entry.coding] = entry
 
         for term in self.terms_by_coding.values():
+            """ # this isn't specific enough to produce helpful output right now
+            if term.concept_type == 'Question'and '?' not in term.display:
+                    CodebookEntry.issues.append("Term '%s' is a question but does not include '?' (%s)"%
+                            (term._dict['PMI Code'], term.display))
+                            """
+            if term.concept_type != 'Question'and '?' in term.display:
+                    CodebookEntry.issues.append("Term '%s' has type '%s' but includes a '?' (%s)"%
+                            (term._dict['PMI Code'], term.concept_type, term.display))
             if term.concept_type == 'Answer' and term.parent_coding and term.parent_coding in self.terms_by_coding:
-                parent_term = self.terms_by_coding[term.parent_coding]
-                if parent_term.concept_type != 'Question':
-                    CodebookEntry.issues.append("Parent of '%s' is '%s' and has type '%s' instaed of 'Question'"%(
-                            term._dict['PMI Code'], parent_term.coding.code, parent_term.concept_type))
+                ancestor_terms =  self.ancestor_terms(term)
+                if 'Question' not in [t.concept_type for t in ancestor_terms]:
+                    CodebookEntry.issues.append("Ancestors of '%s' don't include a 'Question', but this term is an 'Answer' %s"%
+                            (term._dict['PMI Code'],
+                                ["%s: %s"%(t.coding.code, t.concept_type) for t in ancestor_terms]))
             if term.parent_coding and term.parent_coding not in self.terms_by_coding:
                 if term.coding.code not in self.config['sheets']:
                     CodebookEntry.issues.append("Parent of '%s' is '%s' but does not exist"%(
@@ -135,9 +153,17 @@ class SheetProcessor(object):
             self.terms_by_parent[term.parent_coding].append(term)
 
         for term in self.terms_by_coding.values():
-            if term.concept_type == "Question" and term.coding not in self.terms_by_parent:
-                CodebookEntry.issues.append("Term '%s' has type=Question, but no answers associated with it"%(
-                        term._dict['PMI Code']))
+            ancestor_terms = self.ancestor_terms(term)
+            answer_types = [t.answer_type for t in ancestor_terms if t.answer_type]
+            is_choice_type = (set(['open-choice', 'choice']) & set(answer_types))
+            if term.concept_type == "Question" and is_choice_type and term.coding not in self.terms_by_parent:
+                CodebookEntry.issues.append("Term '%s' has type=Question and which is a choice type, but no answers associated with it. Hierarchy: %s"%(
+                    term._dict['PMI Code'], ["%s: %s"%(t.coding.code, t.answer_type) for t in ancestor_terms]))
+            parent_term = self.terms_by_coding.get(term.parent_coding, None)
+            if parent_term == term:
+                CodebookEntry.issues.append("Term has itself as a parent: of '%s'"%
+                        term._dict['PMI Code'])
+
 
     def concepts_with_parent(self, parent=None):
         return [strip_empty_concepts({
