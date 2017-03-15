@@ -92,6 +92,9 @@ class SheetProcessor(object):
         else:
             return [term]
 
+    def is_ancestor_exception(self, term):
+        return term.coding.code.startswith("PMI_")
+
     def download_sheets(self):
         for name, gid in list(self.config['sheets'].iteritems()) + [("version", self.config['versionSheet'])]:
             target = SHEET_URL%{"sid": self.config['sheetId'], "gid": gid}
@@ -135,7 +138,7 @@ class SheetProcessor(object):
                             (term._dict['PMI Code'], term.concept_type, term.display))
             if term.concept_type == 'Answer' and term.parent_coding and term.parent_coding in self.terms_by_coding:
                 ancestor_terms =  self.ancestor_terms(term)
-                if 'Question' not in [t.concept_type for t in ancestor_terms]:
+                if 'Question' not in [t.concept_type for t in ancestor_terms] and not self.is_ancestor_exception(term):
                     CodebookEntry.issues.append("Ancestors of '%s' don't include a 'Question', but this term is an 'Answer' %s"%
                             (term._dict['PMI Code'],
                                 ["%s: %s"%(t.coding.code, t.concept_type) for t in ancestor_terms]))
@@ -154,7 +157,7 @@ class SheetProcessor(object):
             answer_types = [t.answer_type for t in ancestor_terms if t.answer_type]
             is_choice_type = (set(['open-choice', 'choice']) & set(answer_types))
             if term.concept_type == "Question" and is_choice_type and term.coding not in self.terms_by_parent:
-                CodebookEntry.issues.append("Term '%s' has type=Question and which is a choice type, but no answers associated with it. Hierarchy: %s"%(
+                CodebookEntry.issues.append("Term '%s' has type=Question which is a choice type, but no answers associated with it. Hierarchy: %s"%(
                     term._dict['PMI Code'], ["%s: %s"%(t.coding.code, t.answer_type) for t in ancestor_terms]))
             parent_term = self.terms_by_coding.get(term.parent_coding, None)
             if parent_term == term:
