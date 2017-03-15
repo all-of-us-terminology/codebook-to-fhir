@@ -3,6 +3,132 @@
   "publisher": "Precision Medicine Initiative: All of Us Resarch Program", 
   "concept": [
     {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Travel", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "WhereTraveled_Singapore", 
+      "display": "Singapore"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Travel", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "WhereTraveled_Bolivia", 
+      "display": "Bolivia"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Travel", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "WhereTraveled_Honduras", 
+      "display": "Honduras"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Travel", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "WhereTraveled_Maldives", 
+      "display": "Maldives"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Travel", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "WhereTraveled_SriLanka", 
+      "display": "Sri Lanka"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Travel", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "WhereTraveled_Belize", 
+      "display": "Belize"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Travel", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "WhereTraveled_Argentina", 
+      "display": "Argentina"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Travel", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "WhereTraveled_Columbia", 
+      "display": "Columbia"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Travel", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "WhereTraveled_Spain", 
+      "display": "Spain"
+    }, 
+    {
       "concept": [
         {
           "property": [
@@ -87,6 +213,48 @@
       ], 
       "code": "PMI", 
       "display": "PMI"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Travel", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "WhereTraveled_Panama", 
+      "display": "Panama"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Travel", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "WhereTraveled_India", 
+      "display": "India"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Travel", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "WhereTraveled_Laos", 
+      "display": "Laos"
     }, 
     {
       "concept": [
@@ -3229,6 +3397,76 @@
       "display": "Sociodemographic"
     }, 
     {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Travel", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "WhereTraveled_Ecuador", 
+      "display": "Ecuador"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Travel", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "WhereTraveled_BurmaMyanmar", 
+      "display": "Burma/Myanmar"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Travel", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "WhereTraveled_Peru", 
+      "display": "Peru"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Travel", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "WhereTraveled_PuertoRico", 
+      "display": "Puerto Rico"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Travel", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "WhereTraveled_Chile", 
+      "display": "Chile"
+    }, 
+    {
       "concept": [
         {
           "concept": [
@@ -3571,6 +3809,34 @@
           ], 
           "code": "OverallHealth_DifficultUnderstandInfo", 
           "display": "How often do you have problems learning about your medical condition because of difficulty understanding written information?"
+        }, 
+        {
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Travel", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "OverallHealth_OutsideTravel6MonthWhereTraveled", 
+          "display": "If yes, where?"
+        }, 
+        {
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Travel", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "OverallHealth_OutsideTravel6MonthHowLong", 
+          "display": "If yes, how long?"
         }, 
         {
           "concept": [
@@ -4177,20 +4443,6 @@
               ], 
               "code": "HysterectomyHistory_NotSure", 
               "display": "Not sure"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Question", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Surgery", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "HysterectomyHistory_Age", 
-              "display": "If Yes to hysterectomy, age at surgery?"
             }
           ], 
           "property": [
@@ -4335,20 +4587,6 @@
               ], 
               "code": "OvaryRemovalHistory_YesUnsure", 
               "display": "Yes, but don\u2019t know whether one or both ovaries"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Question", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Surgery", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "OvaryRemovalHistory_Age", 
-              "display": "If Yes to ovary removal, age at surgery?"
             }, 
             {
               "property": [
@@ -4549,6 +4787,20 @@
           ], 
           "code": "OverallHealth_SocialSatisfaction", 
           "display": "In general, how would you rate your satisfaction with your social activities and relationships?"
+        }, 
+        {
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Surgery", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "OverallHealth_HysterectomyHistoryAge", 
+          "display": "If Yes to hysterectomy, age at surgery?"
         }, 
         {
           "concept": [
@@ -4809,6 +5061,20 @@
           "display": "How often do you have someone help you read health-related materials?"
         }, 
         {
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Surgery", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "OverallHealthOvaryRemovalHistoryAge", 
+          "display": "If Yes to ovary removal, age at surgery?"
+        }, 
+        {
           "concept": [
             {
               "property": [
@@ -4971,20 +5237,6 @@
             {
               "property": [
                 {
-                  "valueCode": "Question", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Travel", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "OutsideTravel6Month_HowLong", 
-              "display": "If yes, how long?"
-            }, 
-            {
-              "property": [
-                {
                   "valueCode": "Answer", 
                   "code": "concept-type"
                 }, 
@@ -5009,666 +5261,6 @@
               ], 
               "code": "OutsideTravel6Month_Yes", 
               "display": "Yes"
-            }, 
-            {
-              "concept": [
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Travel", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "WhereTraveled_Singapore", 
-                  "display": "Singapore"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Travel", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "WhereTraveled_Bolivia", 
-                  "display": "Bolivia"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Travel", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "WhereTraveled_Honduras", 
-                  "display": "Honduras"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Travel", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "WhereTraveled_Maldives", 
-                  "display": "Maldives"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Travel", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "WhereTraveled_SriLanka", 
-                  "display": "Sri Lanka"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Travel", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "WhereTraveled_Belize", 
-                  "display": "Belize"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Travel", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "WhereTraveled_Argentina", 
-                  "display": "Argentina"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Travel", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "WhereTraveled_Columbia", 
-                  "display": "Columbia"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Travel", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "WhereTraveled_Spain", 
-                  "display": "Spain"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Travel", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "WhereTraveled_Panama", 
-                  "display": "Panama"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Travel", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "WhereTraveled_India", 
-                  "display": "India"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Travel", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "WhereTraveled_Laos", 
-                  "display": "Laos"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Travel", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "WhereTraveled_Ecuador", 
-                  "display": "Ecuador"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Travel", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "WhereTraveled_BurmaMyanmar", 
-                  "display": "Burma/Myanmar"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Travel", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "WhereTraveled_Peru", 
-                  "display": "Peru"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Travel", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "WhereTraveled_PuertoRico", 
-                  "display": "Puerto Rico"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Travel", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "WhereTraveled_Chile", 
-                  "display": "Chile"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Travel", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "WhereTraveled_Philippines", 
-                  "display": "Philippines"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Travel", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "WhereTraveled_Vietnam", 
-                  "display": "Vietnam"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Travel", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "WhereTraveled_DominicanRepublic", 
-                  "display": "Dominican Republic"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Travel", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "WhereTraveled_Taiwan", 
-                  "display": "Taiwan"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Travel", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "WhereTraveled_Bhutan", 
-                  "display": "Bhutan"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Travel", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "WhereTraveled_Indonesia", 
-                  "display": "Indonesia"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Travel", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "WhereTraveled_Venezuela", 
-                  "display": "Venezuela"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Travel", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "WhereTraveled_Japan", 
-                  "display": "Japan"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Travel", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "WhereTraveled_Malaysia", 
-                  "display": "Malaysia"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Travel", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "WhereTraveled_Guatemala", 
-                  "display": "Guatemala"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Travel", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "WhereTraveled_Cuba", 
-                  "display": "Cuba"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Travel", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "WhereTraveled_Korea", 
-                  "display": "Korea"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Travel", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "WhereTraveled_HongKong9", 
-                  "display": "Hong Kong 9"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Travel", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "WhereTraveled_Tibet", 
-                  "display": "Tibet"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Travel", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "WhereTraveled_Pakistan", 
-                  "display": "Pakistan"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Travel", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "WhereTraveled_Bangladesh", 
-                  "display": "Bangladesh"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Travel", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "WhereTraveled_Nepal", 
-                  "display": "Nepal"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Travel", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "WhereTraveled_Brazil", 
-                  "display": "Brazil"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Travel", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "WhereTraveled_Paraguay", 
-                  "display": "Paraguay"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Travel", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "WhereTraveled_CostaRica", 
-                  "display": "Costa Rica"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Travel", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "WhereTraveled_ElSalvador", 
-                  "display": "El Salvador"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Travel", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "WhereTraveled_Madagascar", 
-                  "display": "Madagascar"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Travel", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "WhereTraveled_Cambodia", 
-                  "display": "Cambodia"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Travel", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "WhereTraveled_Thailand", 
-                  "display": "Thailand"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Travel", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "WhereTraveled_Nicaragua", 
-                  "display": "Nicaragua"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Travel", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "WhereTraveled_Macua", 
-                  "display": "Macua"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Travel", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "WhereTraveled_Mexico", 
-                  "display": "Mexico"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Travel", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "WhereTraveled_Uruguay", 
-                  "display": "Uruguay"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Travel", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "WhereTraveled_China", 
-                  "display": "China"
-                }
-              ], 
-              "property": [
-                {
-                  "valueCode": "Question", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Travel", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "OutsideTravel6Month_WhereTraveled", 
-              "display": "If yes, where?"
             }
           ], 
           "property": [
@@ -5697,6 +5289,188 @@
       ], 
       "code": "OverallHealth", 
       "display": "Overall Health"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Travel", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "WhereTraveled_Philippines", 
+      "display": "Philippines"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Travel", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "WhereTraveled_Vietnam", 
+      "display": "Vietnam"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Travel", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "WhereTraveled_DominicanRepublic", 
+      "display": "Dominican Republic"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Travel", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "WhereTraveled_Taiwan", 
+      "display": "Taiwan"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Travel", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "WhereTraveled_Bhutan", 
+      "display": "Bhutan"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Travel", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "WhereTraveled_Indonesia", 
+      "display": "Indonesia"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Travel", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "WhereTraveled_Venezuela", 
+      "display": "Venezuela"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Travel", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "WhereTraveled_Japan", 
+      "display": "Japan"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Travel", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "WhereTraveled_Malaysia", 
+      "display": "Malaysia"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Travel", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "WhereTraveled_Guatemala", 
+      "display": "Guatemala"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Travel", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "WhereTraveled_Cuba", 
+      "display": "Cuba"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Travel", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "WhereTraveled_Korea", 
+      "display": "Korea"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Travel", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "WhereTraveled_HongKong9", 
+      "display": "Hong Kong 9"
     }, 
     {
       "concept": [
@@ -8259,6 +8033,230 @@
       ], 
       "code": "PersonalHabits", 
       "display": "Personal Habits"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Travel", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "WhereTraveled_Tibet", 
+      "display": "Tibet"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Travel", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "WhereTraveled_Pakistan", 
+      "display": "Pakistan"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Travel", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "WhereTraveled_Bangladesh", 
+      "display": "Bangladesh"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Travel", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "WhereTraveled_Nepal", 
+      "display": "Nepal"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Travel", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "WhereTraveled_Brazil", 
+      "display": "Brazil"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Travel", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "WhereTraveled_Paraguay", 
+      "display": "Paraguay"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Travel", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "WhereTraveled_CostaRica", 
+      "display": "Costa Rica"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Travel", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "WhereTraveled_ElSalvador", 
+      "display": "El Salvador"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Travel", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "WhereTraveled_Madagascar", 
+      "display": "Madagascar"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Travel", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "WhereTraveled_Cambodia", 
+      "display": "Cambodia"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Travel", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "WhereTraveled_Thailand", 
+      "display": "Thailand"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Travel", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "WhereTraveled_Nicaragua", 
+      "display": "Nicaragua"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Travel", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "WhereTraveled_Macua", 
+      "display": "Macua"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Travel", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "WhereTraveled_Mexico", 
+      "display": "Mexico"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Travel", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "WhereTraveled_Uruguay", 
+      "display": "Uruguay"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Travel", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "WhereTraveled_China", 
+      "display": "China"
     }
   ], 
   "name": "pmi-codebook", 
@@ -8269,7 +8267,7 @@
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.0.5", 
+  "version": "0.0.6", 
   "hierarchyMeaning": "grouped-by", 
   "date": "2017-03-15", 
   "property": [

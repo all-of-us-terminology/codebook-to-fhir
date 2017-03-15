@@ -104,14 +104,14 @@ Endometrial ablation,Menstrual Information,Answer,,http://terminology.pmi-ops.or
 No ,Surgery,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,HysterectomyHistory_No,OverallHealth_HysterectomyHistory,WH5,,,,,,,,,,,,
 Yes,Surgery,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,HysterectomyHistory_Yes,OverallHealth_HysterectomyHistory,WH6,,,,,,,,,,,,
 Not sure,Surgery,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,HysterectomyHistory_NotSure,OverallHealth_HysterectomyHistory,WH7,,,,,,,,,,,,
-"If Yes to hysterectomy, age at surgery? ",Surgery,Question,integer,http://terminology.pmi-ops.org/CodeSystem/ppi,HysterectomyHistory_Age,OverallHealth_HysterectomyHistory,WH4A,,,,,,,,,,,,
+"If Yes to hysterectomy, age at surgery? ",Surgery,Question,integer,http://terminology.pmi-ops.org/CodeSystem/ppi,OverallHealth_HysterectomyHistoryAge,OverallHealth,WH4A,,,,,,,,,,,,
 Have you ever had an ovary removed?,Surgery,Question,open-choice,http://terminology.pmi-ops.org/CodeSystem/ppi,OverallHealth_OvaryRemovalHistory,OverallHealth,WH5,,,,,,,,,,,,
 No ,Surgery,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,OvaryRemovalHistory_No,OverallHealth_OvaryRemovalHistory,WH5,,,,,,,,,,,,
 "Yes, but only one ovary or part of one ovary",Surgery,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,OvaryRemovalHistory_YesSectioned,OverallHealth_OvaryRemovalHistory,WH5,,,,,,,,,,,,
 "Yes, both ovaries",Surgery,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,OvaryRemovalHistory_YesBoth,OverallHealth_OvaryRemovalHistory,WH5,,,,,,,,,,,,
 "Yes, but don’t know whether one or both ovaries",Surgery,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,OvaryRemovalHistory_YesUnsure,OverallHealth_OvaryRemovalHistory,WH5,,,,,,,,,,,,
 Not sure,Surgery,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,OvaryRemovalHistory_NotSure,OverallHealth_OvaryRemovalHistory,WH5,,,,,,,,,,,,
-"If Yes to ovary removal, age at surgery? ",Surgery,Question,integer,http://terminology.pmi-ops.org/CodeSystem/ppi,OvaryRemovalHistory_Age,OverallHealth_OvaryRemovalHistory,WH5A,,,,,,,,,,,,
+"If Yes to ovary removal, age at surgery? ",Surgery,Question,integer,http://terminology.pmi-ops.org/CodeSystem/ppi,OverallHealthOvaryRemovalHistoryAge,OverallHealth,WH5A,,,,,,,,,,,,
 Have you had a transplant of any type?  ,Surgery,Question,boolean,http://terminology.pmi-ops.org/CodeSystem/ppi,OverallHealth_OrganTransplant,OverallHealth,BS1,,,,,,,,,,,,
 Yes,Surgery,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,OrganTransplant_Yes,OverallHealth_OrganTransplant,BS1,,,,,,,,,,,,
 No,Surgery,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,OrganTransplant_No,OverallHealth_OrganTransplant,BS1,,,,,,,,,,,,
@@ -124,8 +124,8 @@ No,Pregnancy,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,PregnancyStat
 Have you traveled outside of the United States within the past 6 months?,Travel,Question,boolean,http://terminology.pmi-ops.org/CodeSystem/ppi,OverallHealth_OutsideTravel6Month,OverallHealth,BS2,,,,,,,,,,,,
 Yes,Travel,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,OutsideTravel6Month_Yes,OverallHealth_OutsideTravel6Month,BS2,,,,,,,,,,,,
 No,Travel,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,OutsideTravel6Month_No,OverallHealth_OutsideTravel6Month,BS2,,,,,,,,,,,,
-"If yes, where?",Travel,Question,open-choice,http://terminology.pmi-ops.org/CodeSystem/ppi,OutsideTravel6Month_WhereTraveled,OverallHealth_OutsideTravel6Month,BS2A,,,,,,,,,,,,
-"If yes, how long? ",Travel,Question,string,http://terminology.pmi-ops.org/CodeSystem/ppi,OutsideTravel6Month_HowLong,OverallHealth_OutsideTravel6Month,BS2A,,,,,,,,,,,,
+"If yes, where?",Travel,Question,open-choice,http://terminology.pmi-ops.org/CodeSystem/ppi,OverallHealth_OutsideTravel6MonthWhereTraveled,OverallHealth,BS2A,,,,,,,,,,,,
+"If yes, how long? ",Travel,Question,string,http://terminology.pmi-ops.org/CodeSystem/ppi,OverallHealth_OutsideTravel6MonthHowLong,OverallHealth,BS2A,,,,,,,,,,,,
 Argentina,Travel,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,WhereTraveled_Argentina,OutsideTravel6Month_WhereTraveled,BS2A,,CDC,https://phinvads.cdc.gov/vads/ViewValueSet.action?id=40BCCA82-819B-E111-972B-0050568D00F8,,,,,,,,,See CDC Country Codes Sheet
 Bangladesh,Travel,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,WhereTraveled_Bangladesh,OutsideTravel6Month_WhereTraveled,BS2A,,CDC,https://phinvads.cdc.gov/vads/ViewValueSet.action?id=40BCCA82-819B-E111-972B-0050568D00F8,,,,,,,,,See CDC Country Codes Sheet
 Belize,Travel,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,WhereTraveled_Belize,OutsideTravel6Month_WhereTraveled,BS2A,,CDC,https://phinvads.cdc.gov/vads/ViewValueSet.action?id=40BCCA82-819B-E111-972B-0050568D00F8,,,,,,,,,See CDC Country Codes Sheet
