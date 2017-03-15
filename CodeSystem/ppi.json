@@ -5,6 +5,92 @@
     {
       "concept": [
         {
+          "property": [
+            {
+              "valueCode": "Answer", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "PMI", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "PMI_Unanswered", 
+          "display": "PMI Question Unanswered"
+        }, 
+        {
+          "property": [
+            {
+              "valueCode": "Answer", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "PMI", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "PMI_Other", 
+          "display": "PMI Other (Qualifier Value)"
+        }, 
+        {
+          "property": [
+            {
+              "valueCode": "Answer", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "PMI", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "PMI_FreeText", 
+          "display": "PMI Free Text Answer"
+        }, 
+        {
+          "property": [
+            {
+              "valueCode": "Answer", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "PMI", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "PMI_Skip", 
+          "display": "PMI Skip"
+        }, 
+        {
+          "property": [
+            {
+              "valueCode": "Answer", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "PMI", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "PMI_PreferNotToAnswer", 
+          "display": "PMI Prefer Not To Answer"
+        }
+      ], 
+      "property": [
+        {
+          "valueCode": "Module", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "PMI", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "PMI", 
+      "display": "PMI"
+    }, 
+    {
+      "concept": [
+        {
           "concept": [
             {
               "property": [
@@ -1543,99 +1629,13 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "CurrentLiving_Shelter", 
-                  "display": "Emergency shelter or homeless shelter"
+                  "code": "HowManyLivingYears_1to2", 
+                  "display": "1-2 years"
                 }, 
                 {
-                  "concept": [
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Living Situation", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "HowManyLivingYears_1to2", 
-                      "display": "1-2 years"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Living Situation", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "HowManyLivingYears_less1", 
-                      "display": "Less than 1 year"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Living Situation", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "HowManyLivingYears_11to20", 
-                      "display": "11-20 years"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Living Situation", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "HowManyLivingYears_3to5", 
-                      "display": "3-5 years"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Living Situation", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "HowManyLivingYears_6to10", 
-                      "display": "6-10 years"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Living Situation", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "HowManyLivingYears_more20", 
-                      "display": "More than 20 years"
-                    }
-                  ], 
                   "property": [
                     {
-                      "valueCode": "Question", 
+                      "valueCode": "Answer", 
                       "code": "concept-type"
                     }, 
                     {
@@ -1643,8 +1643,108 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "CurrentLiving_HowManyLivingYears", 
-                  "display": "How many years have you lived at your current address?"
+                  "code": "HowManyLivingYears_less1", 
+                  "display": "Less than 1 year"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Living Situation", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "HowManyLivingYears_11to20", 
+                  "display": "11-20 years"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Living Situation", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "HowManyLivingYears_3to5", 
+                  "display": "3-5 years"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Living Situation", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "HowManyLivingYears_6to10", 
+                  "display": "6-10 years"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Living Situation", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "HowManyLivingYears_more20", 
+                  "display": "More than 20 years"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Living Situation", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "LivingSituation_HowManyLivingYears", 
+              "display": "How many years have you lived at your current address?"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Living Situation", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "LivingSituation_HowManyPeople", 
+              "display": "Not including yourself, how many other people live at home with you?"
+            }, 
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Living Situation", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "CurrentLiving_Shelter", 
+                  "display": "Emergency shelter or homeless shelter"
                 }, 
                 {
                   "property": [
@@ -1703,50 +1803,6 @@
                   "display": "With family"
                 }, 
                 {
-                  "concept": [
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Living Situation", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "StableHouseConcern_Yes", 
-                      "display": "Yes"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Living Situation", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "StableHouseConcern_No", 
-                      "display": "No"
-                    }
-                  ], 
-                  "property": [
-                    {
-                      "valueCode": "Question", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Living Situation", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "CurrentLiving_StableHouseConcern", 
-                  "display": "In the past 6 months, have you been worried or concerned about NOT having stable housing that you own, rent, or stay in as part of a household?"
-                }, 
-                {
                   "property": [
                     {
                       "valueCode": "Answer", 
@@ -1759,20 +1815,6 @@
                   ], 
                   "code": "CurrentLiving_TemporaryInstitute", 
                   "display": "Hospital, rehabilitation center, drug treatment center, or other temporary institution"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Question", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Living Situation", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "CurrentLiving_HowManyPeople", 
-                  "display": "Not including yourself, how many other people live at home with you?"
                 }, 
                 {
                   "property": [
@@ -1805,20 +1847,6 @@
                 {
                   "property": [
                     {
-                      "valueCode": "Question", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Living Situation", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "CurrentLiving_PeopleUnder18", 
-                  "display": "Think of other people who live with you. How many are under the age of 18 years?"
-                }, 
-                {
-                  "property": [
-                    {
                       "valueCode": "Answer", 
                       "code": "concept-type"
                     }, 
@@ -1843,6 +1871,64 @@
               ], 
               "code": "LivingSituation_CurrentLiving", 
               "display": "Where are you currently living?"
+            }, 
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Living Situation", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "StableHouseConcern_Yes", 
+                  "display": "Yes"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Living Situation", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "StableHouseConcern_No", 
+                  "display": "No"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Living Situation", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "LivingSituation_StableHouseConcern", 
+              "display": "In the past 6 months, have you been worried or concerned about NOT having stable housing that you own, rent, or stay in as part of a household?"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Living Situation", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "LivingSituation_PeopleUnder18", 
+              "display": "Think of other people who live with you. How many are under the age of 18 years?"
             }
           ], 
           "property": [
@@ -2959,7 +3045,7 @@
               ], 
               "property": [
                 {
-                  "valueCode": "Answer", 
+                  "valueCode": "Question", 
                   "code": "concept-type"
                 }, 
                 {
@@ -6173,6 +6259,50 @@
                           "code": "concept-topic"
                         }
                       ], 
+                      "code": "CigarSmokeParticipant_No", 
+                      "display": "No"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Cigar Smoking", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "CigarSmokeParticipant_Yes", 
+                      "display": "Yes"
+                    }
+                  ], 
+                  "property": [
+                    {
+                      "valueCode": "Question", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Cigar Smoking", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "CigarSmoking_CigarSmokeParticipant", 
+                  "display": "Have you ever smoked a traditional cigar, cigarillo, or filtered cigar, even one or two puffs?"
+                }, 
+                {
+                  "concept": [
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Cigar Smoking", 
+                          "code": "concept-topic"
+                        }
+                      ], 
                       "code": "CurrentCigarFrequency_NotAtAll", 
                       "display": "Not at all"
                     }, 
@@ -7081,8 +7211,8 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "Marijuana3MonthUse_Daily", 
-                      "display": "Daily or almost daily"
+                      "code": "Marijuana3MonthUse_OneOrTwice", 
+                      "display": "Once or twice"
                     }, 
                     {
                       "property": [
@@ -7095,8 +7225,8 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "Marijuana3MonthUse_OneOrTwice", 
-                      "display": "Once or twice"
+                      "code": "Marijuana3MonthUse_Daily", 
+                      "display": "Daily or almost daily"
                     }, 
                     {
                       "property": [
@@ -8015,8 +8145,22 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "6orMoreDrinksOccurence_Never", 
+                  "code": "6orMoreDrinksOccurence_NeverInLastYear", 
                   "display": "Never in the last year"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Alcohol", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "6orMoreDrinksOccurence_Never", 
+                  "display": "Never"
                 }, 
                 {
                   "property": [
@@ -8120,14 +8264,14 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 573, 
+  "count": 574, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.0.4", 
+  "version": "0.0.5", 
   "hierarchyMeaning": "grouped-by", 
-  "date": "2017-03-13", 
+  "date": "2017-03-15", 
   "property": [
     {
       "code": "concept-type", 
