@@ -145,9 +145,6 @@ class SheetProcessor(object):
                             term._dict['PMI Code'], term._dict['Parent code']))
 
                 term._dict['Parent code'] = None
-                # TODO: Remove this when it's fixed in the codebook
-                if term.coding.code.startswith("PMI"):
-                    term._dict['Parent code'] = "PMI"
             if term.parent_coding not in self.terms_by_parent:
                 self.terms_by_parent[term.parent_coding] = []
             self.terms_by_parent[term.parent_coding].append(term)
