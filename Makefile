@@ -1,5 +1,5 @@
 build:
-	python build.py --config config/ppi-codebook.json
+	rm -rf dist/* && python build.py --config config/ppi-codebook.json
 
 tag: build
 	./tag.sh
