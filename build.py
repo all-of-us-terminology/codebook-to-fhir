@@ -133,7 +133,10 @@ class SheetProcessor(object):
                     CodebookEntry.issues.append("Term '%s' is a question but does not include '?' (%s)"%
                             (term._dict['PMI Code'], term.display))
                             """
-            if term.concept_type != 'Question'and '?' in term.display:
+            if not term.display:
+                CodebookEntry.issues.append("Term '%s' has display value"%term._dict['PMI Code'])
+                print("no display for", term._dict)
+            if term.concept_type != 'Question'and term.display and '?' in term.display:
                     CodebookEntry.issues.append("Term '%s' has type '%s' but includes a '?' (%s)"%
                             (term._dict['PMI Code'], term.concept_type, term.display))
             if term.concept_type == 'Answer' and term.parent_coding and term.parent_coding in self.terms_by_coding:
@@ -144,6 +147,7 @@ class SheetProcessor(object):
                                 ["%s: %s"%(t.coding.code, t.concept_type) for t in ancestor_terms]))
             if term.parent_coding and term.parent_coding not in self.terms_by_coding:
                 if term.coding.code not in self.config['sheets']:
+                    print("missing parent coding", term.parent_coding)
                     CodebookEntry.issues.append("Parent of '%s' is '%s' but does not exist"%(
                             term._dict['PMI Code'], term._dict['Parent code']))
 
