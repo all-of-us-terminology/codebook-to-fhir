@@ -476,7 +476,7 @@
             }
           ], 
           "code": "TheBasics_SecondaryContactInfo", 
-          "display": null
+          "display": "Secondary Contact Information"
         }, 
         {
           "concept": [
@@ -8369,9 +8369,9 @@
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.0.8", 
+  "version": "0.0.9", 
   "hierarchyMeaning": "grouped-by", 
-  "date": "2017-03-16", 
+  "date": "2017-03-17", 
   "property": [
     {
       "code": "concept-type", 
