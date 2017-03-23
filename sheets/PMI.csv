@@ -1,5 +1,5 @@
 Display,Topic,Type,PMI System,PMI Code,Parent code
-PMI,PMI,Module,http://terminology.pmi-ops.org/CodeSystem/ppi,PMI,
+PMI,PMI,Module Name,http://terminology.pmi-ops.org/CodeSystem/ppi,PMI,
 PMI Skip,PMI,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PMI_Skip,PMI
 PMI Prefer Not To Answer,PMI,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PMI_PreferNotToAnswer,PMI
 PMI Other (Qualifier Value),PMI,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PMI_Other,PMI

@@ -3289,7 +3289,7 @@
       ], 
       "property": [
         {
-          "valueCode": "Module", 
+          "valueCode": "Module Name", 
           "code": "concept-type"
         }, 
         {
@@ -8341,7 +8341,7 @@
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.1.1", 
+  "version": "0.1.2", 
   "hierarchyMeaning": "grouped-by", 
   "date": "2017-03-23", 
   "property": [
