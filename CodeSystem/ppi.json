@@ -709,6 +709,20 @@
                           "code": "concept-topic"
                         }
                       ], 
+                      "code": "Hispanic_Colombian", 
+                      "display": "Colombian"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
                       "code": "Hispanic_CostaRican", 
                       "display": "Costa Rican"
                     }, 
@@ -821,36 +835,8 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "Hispanic_Latino", 
-                      "display": "Hispanic/Latino"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Race Ethnicity Subcategory", 
-                          "code": "concept-topic"
-                        }
-                      ], 
                       "code": "Hispanic_Dominican", 
                       "display": "Dominican"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Race Ethnicity Subcategory", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "Hispanic_Chicano", 
-                      "display": "Chicana/Chicano"
                     }, 
                     {
                       "property": [
@@ -921,20 +907,6 @@
                       ], 
                       "code": "Hispanic_PuertoRican", 
                       "display": "Puerto Rican"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Race Ethnicity Subcategory", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "Hispanic_Columbian", 
-                      "display": "Columbian"
                     }, 
                     {
                       "property": [
@@ -2651,20 +2623,6 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "CloserGenderDescription_Unsure", 
-                  "display": "Questioning or unsure of your gender identity"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Gender", 
-                      "code": "concept-topic"
-                    }
-                  ], 
                   "code": "CloserGenderDescription_GenderVariant", 
                   "display": "Gender Variant"
                 }, 
@@ -2809,6 +2767,20 @@
                   ], 
                   "code": "GenderIdentity_SexualityCloserDescription", 
                   "display": "Are any of these a closer description of how you think of yourself?"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Gender", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "CloserGenderDescription_Unsure", 
+                  "display": "Questioning or unsure of your gender identity"
                 }, 
                 {
                   "property": [
@@ -8364,14 +8336,14 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 581, 
+  "count": 579, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.1.0", 
+  "version": "0.1.1", 
   "hierarchyMeaning": "grouped-by", 
-  "date": "2017-03-20", 
+  "date": "2017-03-23", 
   "property": [
     {
       "code": "concept-type", 
