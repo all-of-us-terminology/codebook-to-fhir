@@ -891,20 +891,6 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "Hispanic_Argentinean", 
-                      "display": "Argentinean"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Race Ethnicity Subcategory", 
-                          "code": "concept-topic"
-                        }
-                      ], 
                       "code": "Hispanic_PuertoRican", 
                       "display": "Puerto Rican"
                     }, 
@@ -963,6 +949,20 @@
                       ], 
                       "code": "Hispanic_Nicaraguan", 
                       "display": "Nicaraguan"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "Hispanic_Argentinean", 
+                      "display": "Argentinean"
                     }, 
                     {
                       "property": [
@@ -1217,8 +1217,8 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "NHPI_Marshallese", 
-                      "display": "Marshallese"
+                      "code": "NHPI_Chamorro", 
+                      "display": "Chamorro"
                     }, 
                     {
                       "property": [
@@ -1231,8 +1231,8 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "NHPI_Chamorro", 
-                      "display": "Chamorro"
+                      "code": "NHPI_Marshallese", 
+                      "display": "Marshallese"
                     }, 
                     {
                       "property": [
@@ -1729,20 +1729,6 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "EducationLevel_5to8", 
-                  "display": "Grades 5-8 (Secondary)"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Education", 
-                      "code": "concept-topic"
-                    }
-                  ], 
                   "code": "EducationLevel_Advanced", 
                   "display": "Advanced Degree (Master's, Doctorate, etc.)"
                 }, 
@@ -1771,8 +1757,8 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "EducationLevel_College1to3", 
-                  "display": "College 1-3 Years (Some college or technical school)"
+                  "code": "EducationLevel_Kindergarden", 
+                  "display": "Only Kindergarten"
                 }, 
                 {
                   "property": [
@@ -1799,8 +1785,22 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "EducationLevel_Kindergarden", 
-                  "display": "Only Kindergarten"
+                  "code": "EducationLevel_College1to3", 
+                  "display": "College 1-3 Years (Some college or technical school)"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Education", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "EducationLevel_5to8", 
+                  "display": "Grades 5-8 (Secondary)"
                 }, 
                 {
                   "property": [
@@ -2277,8 +2277,8 @@
                   "code": "concept-topic"
                 }
               ], 
-              "code": "SexualOrientation_Lesbian", 
-              "display": "Lesbian"
+              "code": "SexualOrientation_Gay", 
+              "display": "Gay"
             }, 
             {
               "property": [
@@ -2291,8 +2291,8 @@
                   "code": "concept-topic"
                 }
               ], 
-              "code": "SexualOrientation_Gay", 
-              "display": "Gay"
+              "code": "SexualOrientation_Lesbian", 
+              "display": "Lesbian"
             }
           ], 
           "property": [
@@ -2312,6 +2312,20 @@
           "concept": [
             {
               "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Insurance", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "HealthInsurance_Yes", 
+                  "display": "Yes"
+                }, 
                 {
                   "concept": [
                     {
@@ -2481,20 +2495,6 @@
                   ], 
                   "code": "HealthInsurance_HealthInsuranceType", 
                   "display": "What kind of health insurance or health care coverage do you have? Include those that pay for only one type of service (nursing home care, accidents, or dental care). Exclude private plans that only provide extra cash while hospitalized. If you have more than one kind of health insurance, mark all plans that you have."
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Insurance", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "HealthInsurance_Yes", 
-                  "display": "Yes"
                 }, 
                 {
                   "property": [
@@ -3085,6 +3085,20 @@
                       "code": "concept-topic"
                     }
                   ], 
+                  "code": "CurrentEmployment_Retired", 
+                  "display": "Retired"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Employment", 
+                      "code": "concept-topic"
+                    }
+                  ], 
                   "code": "CurrentEmployment_Unable", 
                   "display": "Unable to work (disabled)"
                 }, 
@@ -3115,20 +3129,6 @@
                   ], 
                   "code": "CurrentEmployment_Homemaker", 
                   "display": "A homemaker"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Employment", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "CurrentEmployment_Retired", 
-                  "display": "Retired"
                 }, 
                 {
                   "property": [
@@ -3213,64 +3213,6 @@
       ], 
       "code": "TheBasics", 
       "display": "The Basics"
-    }, 
-    {
-      "concept": [
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Cigar Smoking", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "CurrentCigarFrequency_NotAtAll", 
-          "display": "Not at all"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Cigar Smoking", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "CurrentCigarFrequency_EveryDay", 
-          "display": "Every day"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Cigar Smoking", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "CurrentCigarFrequency_SomeDays", 
-          "display": "Some days"
-        }
-      ], 
-      "property": [
-        {
-          "valueCode": "Question", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "Cigar Smoking", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "CigarSmoking_CurrentCigarFrequency", 
-      "display": "Do you now smoke a traditional cigar, cigarillo, or filtered cigar\u2026."
     }, 
     {
       "concept": [
@@ -3731,652 +3673,6 @@
           "display": "How often do you have problems learning about your medical condition because of difficulty understanding written information?"
         }, 
         {
-          "concept": [
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Travel", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "OutsideTravel6MonthWhereTraveled_Tibet", 
-              "display": "Tibet"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Travel", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "OutsideTravel6MonthWhereTraveled_Taiwan", 
-              "display": "Taiwan"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Travel", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "OutsideTravel6MonthWhereTraveled_Spain", 
-              "display": "Spain"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Travel", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "OutsideTravel6MonthWhereTraveled_Brazil", 
-              "display": "Brazil"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Travel", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "OutsideTravel6MonthWhereTraveled_Madagascar", 
-              "display": "Madagascar"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Travel", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "OutsideTravel6MonthWhereTraveled_Singapore", 
-              "display": "Singapore"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Travel", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "OutsideTravel6MonthWhereTraveled_Philippines", 
-              "display": "Philippines"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Travel", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "OutsideTravel6MonthWhereTraveled_ElSalvador", 
-              "display": "El Salvador"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Travel", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "OutsideTravel6MonthWhereTraveled_Maldives", 
-              "display": "Maldives"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Travel", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "OutsideTravel6MonthWhereTraveled_Indonesia", 
-              "display": "Indonesia"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Travel", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "OutsideTravel6MonthWhereTraveled_Peru", 
-              "display": "Peru"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Travel", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "OutsideTravel6MonthWhereTraveled_Uruguay", 
-              "display": "Uruguay"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Travel", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "OutsideTravel6MonthWhereTraveled_Honduras", 
-              "display": "Honduras"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Travel", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "OutsideTravel6MonthWhereTraveled_Venezuela", 
-              "display": "Venezuela"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Travel", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "OutsideTravel6MonthWhereTraveled_CostaRica", 
-              "display": "Costa Rica"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Travel", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "OutsideTravel6MonthWhereTraveled_India", 
-              "display": "India"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Travel", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "OutsideTravel6MonthWhereTraveled_Cuba", 
-              "display": "Cuba"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Travel", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "OutsideTravel6MonthWhereTraveled_Laos", 
-              "display": "Laos"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Travel", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "OutsideTravel6MonthWhereTraveled_Macua", 
-              "display": "Macua"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Travel", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "OutsideTravel6MonthWhereTraveled_Japan", 
-              "display": "Japan"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Travel", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "OutsideTravel6MonthWhereTraveled_Panama", 
-              "display": "Panama"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Travel", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "OutsideTravel6MonthWhereTraveled_Nepal", 
-              "display": "Nepal"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Travel", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "OutsideTravel6MonthWhereTraveled_BurmaMyanmar", 
-              "display": "Burma/Myanmar"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Travel", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "OutsideTravel6MonthWhereTraveled_Ecuador", 
-              "display": "Ecuador"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Travel", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "OutsideTravel6MonthWhereTraveled_China", 
-              "display": "China"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Travel", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "OutsideTravel6MonthWhereTraveled_Pakistan", 
-              "display": "Pakistan"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Travel", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "OutsideTravel6MonthWhereTraveled_PuertoRico", 
-              "display": "Puerto Rico"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Travel", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "OutsideTravel6MonthWhereTraveled_Bolivia", 
-              "display": "Bolivia"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Travel", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "OutsideTravel6MonthWhereTraveled_Chile", 
-              "display": "Chile"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Travel", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "OutsideTravel6MonthWhereTraveled_Thailand", 
-              "display": "Thailand"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Travel", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "OutsideTravel6MonthWhereTraveled_Guatemala", 
-              "display": "Guatemala"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Travel", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "OutsideTravel6MonthWhereTraveled_DominicanRepublic", 
-              "display": "Dominican Republic"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Travel", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "OutsideTravel6MonthWhereTraveled_Columbia", 
-              "display": "Columbia"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Travel", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "OutsideTravel6MonthWhereTraveled_Nicaragua", 
-              "display": "Nicaragua"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Travel", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "OutsideTravel6MonthWhereTraveled_Argentina", 
-              "display": "Argentina"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Travel", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "OutsideTravel6MonthWhereTraveled_Mexico", 
-              "display": "Mexico"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Travel", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "OutsideTravel6MonthWhereTraveled_Paraguay", 
-              "display": "Paraguay"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Travel", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "OutsideTravel6MonthWhereTraveled_Bangladesh", 
-              "display": "Bangladesh"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Travel", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "OutsideTravel6MonthWhereTraveled_Vietnam", 
-              "display": "Vietnam"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Travel", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "OutsideTravel6MonthWhereTraveled_HongKong", 
-              "display": "Hong Kong"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Travel", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "OutsideTravel6MonthWhereTraveled_SriLanka", 
-              "display": "Sri Lanka"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Travel", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "OutsideTravel6MonthWhereTraveled_Cambodia", 
-              "display": "Cambodia"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Travel", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "OutsideTravel6MonthWhereTraveled_Bhutan", 
-              "display": "Bhutan"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Travel", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "OutsideTravel6MonthWhereTraveled_Korea", 
-              "display": "Korea"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Travel", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "OutsideTravel6MonthWhereTraveled_Malaysia", 
-              "display": "Malaysia"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Travel", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "OutsideTravel6MonthWhereTraveled_Belize", 
-              "display": "Belize"
-            }
-          ], 
           "property": [
             {
               "valueCode": "Question", 
@@ -5283,92 +4579,6 @@
           "display": "If Yes to hysterectomy, age at surgery?"
         }, 
         {
-          "concept": [
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Mental Health", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "EmotionalProblem7Days_Often", 
-              "display": "Often"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Mental Health", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "EmotionalProblem7Days_Always", 
-              "display": "Always"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Mental Health", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "EmotionalProblem7Days_Rarely", 
-              "display": "Rarely"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Mental Health", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "EmotionalProblem7Days_Sometimes", 
-              "display": "Sometimes"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Mental Health", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "EmotionalProblem7Days_Never", 
-              "display": "Never"
-            }
-          ], 
-          "property": [
-            {
-              "valueCode": "Question", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Mental Health", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "OverallHealth_EmotionalProblem7Days", 
-          "display": "In the past 7 days, how often have you been bothered by emotional problems such as feeling anxious, depressed or irritable?"
-        }, 
-        {
           "property": [
             {
               "valueCode": "Question", 
@@ -5721,6 +4931,92 @@
                   "code": "concept-type"
                 }, 
                 {
+                  "valueCode": "Mental Health", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "EmotionalProblem7Days_Often", 
+              "display": "Often"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Mental Health", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "EmotionalProblem7Days_Always", 
+              "display": "Always"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Mental Health", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "EmotionalProblem7Days_Rarely", 
+              "display": "Rarely"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Mental Health", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "EmotionalProblem7Days_Sometimes", 
+              "display": "Sometimes"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Mental Health", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "EmotionalProblem7Days_Never", 
+              "display": "Never"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Mental Health", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "OverallHealth_EmotionalProblem7Days", 
+          "display": "In the past 7 days, how often have you been bothered by emotional problems such as feeling anxious, depressed or irritable?"
+        }, 
+        {
+          "concept": [
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
                   "valueCode": "Travel", 
                   "code": "concept-topic"
                 }
@@ -5769,50 +5065,6 @@
       ], 
       "code": "OverallHealth", 
       "display": "Overall Health"
-    }, 
-    {
-      "concept": [
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Cigar Smoking", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "CigarSmokeParticipant_No", 
-          "display": "No"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Cigar Smoking", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "CigarSmokeParticipant_Yes", 
-          "display": "Yes"
-        }
-      ], 
-      "property": [
-        {
-          "valueCode": "Question", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "Cigar Smoking", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "CigarSmoking_CigarSmokeParticipant", 
-      "display": "Have you ever smoked a traditional cigar, cigarillo, or filtered cigar, even one or two puffs?"
     }, 
     {
       "concept": [
@@ -6097,8 +5349,8 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "SmokelessTobaccoFrequency_NotAtAll", 
-                      "display": "Not at all"
+                      "code": "SmokelessTobaccoFrequency_EveryDay", 
+                      "display": "Every day"
                     }, 
                     {
                       "property": [
@@ -6111,8 +5363,8 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "SmokelessTobaccoFrequency_EveryDay", 
-                      "display": "Every day"
+                      "code": "SmokelessTobaccoFrequency_NotAtAll", 
+                      "display": "Not at all"
                     }
                   ], 
                   "property": [
@@ -6155,6 +5407,124 @@
               ], 
               "code": "Smoking_DailySmokeStartingAge", 
               "display": "How old were you when you first started regular cigarette smoking every day?"
+            }, 
+            {
+              "concept": [
+                {
+                  "concept": [
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Electronic Smoking", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "ElectricSmokeParticipant_No", 
+                      "display": "No"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Electronic Smoking", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "ElectricSmokeParticipant_Yes", 
+                      "display": "Yes"
+                    }
+                  ], 
+                  "property": [
+                    {
+                      "valueCode": "Question", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Electronic Smoking", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "ElectronicSmoking_ElectricSmokeParticipant", 
+                  "display": "Have you ever used an electronic nicotine product, even one or two times?  (Electronic nicotine products include e-cigarettes, vape pens, hookah pens, personal vaporizers and mods, e-cigars, e-pipes, and e-hookahs.)"
+                }, 
+                {
+                  "concept": [
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Electronic Smoking", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "ElectricSmokeFrequency_EveryDay", 
+                      "display": "Every day"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Electronic Smoking", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "ElectricSmokeFrequency_SomeDays", 
+                      "display": "Some days"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Electronic Smoking", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "ElectricSmokeFrequency_NotAtAll", 
+                      "display": "Not at all"
+                    }
+                  ], 
+                  "property": [
+                    {
+                      "valueCode": "Question", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Electronic Smoking", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "ElectronicSmoking_ElectricSmokeFrequency", 
+                  "display": "Do you now use electronic nicotine products\u2026"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Topic", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Electronic Smoking", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Smoking_ElectronicSmoking", 
+              "display": "Electronic Smoking"
             }, 
             {
               "property": [
@@ -6363,6 +5733,124 @@
             {
               "concept": [
                 {
+                  "concept": [
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Cigar Smoking", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "CurrentCigarFrequency_NotAtAll", 
+                      "display": "Not at all"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Cigar Smoking", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "CurrentCigarFrequency_EveryDay", 
+                      "display": "Every day"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Cigar Smoking", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "CurrentCigarFrequency_SomeDays", 
+                      "display": "Some days"
+                    }
+                  ], 
+                  "property": [
+                    {
+                      "valueCode": "Question", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Cigar Smoking", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "CigarSmoking_CurrentCigarFrequency", 
+                  "display": "Do you now smoke a traditional cigar, cigarillo, or filtered cigar\u2026."
+                }, 
+                {
+                  "concept": [
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Cigar Smoking", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "CigarSmokeParticipant_No", 
+                      "display": "No"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Cigar Smoking", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "CigarSmokeParticipant_Yes", 
+                      "display": "Yes"
+                    }
+                  ], 
+                  "property": [
+                    {
+                      "valueCode": "Question", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Cigar Smoking", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "CigarSmoking_CigarSmokeParticipant", 
+                  "display": "Have you ever smoked a traditional cigar, cigarillo, or filtered cigar, even one or two puffs?"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Topic", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Cigar Smoking", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Smoking_CigarSmoking", 
+              "display": "Cigar Smoking"
+            }, 
+            {
+              "concept": [
+                {
                   "property": [
                     {
                       "valueCode": "Answer", 
@@ -6417,124 +5905,6 @@
               ], 
               "code": "Smoking_NumberOfYears", 
               "display": "How many years have you or did you smoke cigarettes?"
-            }, 
-            {
-              "concept": [
-                {
-                  "concept": [
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Electronic Smoking", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "ElectricSmokeParticipant_No", 
-                      "display": "No"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Electronic Smoking", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "ElectricSmokeParticipant_Yes", 
-                      "display": "Yes"
-                    }
-                  ], 
-                  "property": [
-                    {
-                      "valueCode": "Question", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Electronic Smoking", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "ElectronicSmoking_ElectricSmokeParticipant", 
-                  "display": "Have you ever used an electronic nicotine product, even one or two times?  (Electronic nicotine products include e-cigarettes, vape pens, hookah pens, personal vaporizers and mods, e-cigars, e-pipes, and e-hookahs.)"
-                }, 
-                {
-                  "concept": [
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Electronic Smoking", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "ElectricSmokeFrequency_EveryDay", 
-                      "display": "Every day"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Electronic Smoking", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "ElectricSmokeFrequency_SomeDays", 
-                      "display": "Some days"
-                    }
-                  ], 
-                  "property": [
-                    {
-                      "valueCode": "Question", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Electronic Smoking", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "ElectronicSmoking_ElectricSmokeFrequency", 
-                  "display": "Do you now use electronic nicotine products\u2026"
-                }
-              ], 
-              "property": [
-                {
-                  "valueCode": "Topic", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Electronic Smoking", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "Smoking_ElectronicSmoking", 
-              "display": "Electronic Smoking"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Topic", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Cigar Smoking", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "ElectricSmokeFrequency_NotAtAll", 
-              "display": "Cigar Smoking"
             }, 
             {
               "property": [
@@ -6795,8 +6165,8 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "AverageDailyDrinkCount_7to9", 
-                  "display": "7 to 9"
+                  "code": "AverageDailyDrinkCount_5or6", 
+                  "display": "5 or 6"
                 }, 
                 {
                   "property": [
@@ -6809,8 +6179,8 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "AverageDailyDrinkCount_5or6", 
-                  "display": "5 or 6"
+                  "code": "AverageDailyDrinkCount_7to9", 
+                  "display": "7 to 9"
                 }
               ], 
               "property": [
@@ -7455,6 +6825,92 @@
                           "code": "concept-topic"
                         }
                       ], 
+                      "code": "Sedative3MonthUse_Daily", 
+                      "display": "Daily or almost daily"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Recreational Drugs", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "Sedative3MonthUse_Monthly", 
+                      "display": "Monthly"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Recreational Drugs", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "Sedative3MonthUse_Never", 
+                      "display": "Never"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Recreational Drugs", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "Sedative3MonthUse_OnceOrTwice", 
+                      "display": "Once or twice"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Recreational Drugs", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "Sedative3MonthUse_Weekly", 
+                      "display": "Weekly"
+                    }
+                  ], 
+                  "property": [
+                    {
+                      "valueCode": "Question", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Recreational Drugs", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "Past3MonthUseFrequency_Sedative3MonthUse", 
+                  "display": "f. Sedatives or sleeping pills for non-medical reasons (Valium, Serepax, Ativan, Xanax, Librium, Rohypnol, GHB, etc.)"
+                }, 
+                {
+                  "concept": [
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Recreational Drugs", 
+                          "code": "concept-topic"
+                        }
+                      ], 
                       "code": "PrescriptionOpiod3MonthUse_Weekly", 
                       "display": "Weekly"
                     }, 
@@ -7541,8 +6997,8 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "StreetOpioid3MonthUse_Daily", 
-                      "display": "Daily or almost daily"
+                      "code": "StreetOpioid3MonthUse_Monthly", 
+                      "display": "Monthly"
                     }, 
                     {
                       "property": [
@@ -7555,8 +7011,8 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "StreetOpioid3MonthUse_Monthly", 
-                      "display": "Monthly"
+                      "code": "StreetOpioid3MonthUse_Daily", 
+                      "display": "Daily or almost daily"
                     }, 
                     {
                       "property": [
@@ -8129,92 +7585,6 @@
                   ], 
                   "code": "Past3MonthUseFrequency_OtherStimulant3MonthUse", 
                   "display": "Other stimulants (methamphetamine (speed, crystal meth, ice, etc.), k2/spice, bath salts)"
-                }, 
-                {
-                  "concept": [
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Recreational Drugs", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "Sedative3MonthUse_Daily", 
-                      "display": "Daily or almost daily"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Recreational Drugs", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "Sedative3MonthUse_Monthly", 
-                      "display": "Monthly"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Recreational Drugs", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "Sedative3MonthUse_Never", 
-                      "display": "Never"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Recreational Drugs", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "Sedative3MonthUse_OnceOrTwice", 
-                      "display": "Once or twice"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Recreational Drugs", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "Sedative3MonthUse_Weekly", 
-                      "display": "Weekly"
-                    }
-                  ], 
-                  "property": [
-                    {
-                      "valueCode": "Question", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Recreational Drugs", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "Past3MonthUseFrequency_Sedative3MonthUse", 
-                  "display": "f. Sedatives or sleeping pills for non-medical reasons (Valium, Serepax, Ativan, Xanax, Librium, Rohypnol, GHB, etc.)"
                 }
               ], 
               "property": [
@@ -8262,14 +7632,14 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 574, 
+  "count": 529, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.1.4", 
+  "version": "0.1.5", 
   "hierarchyMeaning": "grouped-by", 
-  "date": "2017-03-24", 
+  "date": "2017-03-27", 
   "property": [
     {
       "code": "concept-type", 
