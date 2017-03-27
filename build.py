@@ -4,6 +4,7 @@ import datetime
 import json
 import os
 import subprocess
+import sys
 
 from collections import namedtuple
 
@@ -86,14 +87,17 @@ class SheetProcessor(object):
         return OUTPUT_FILE+self.config['id']
 
     def ancestor_terms(self, term):
+        if not term.coding.code:
+            return [term]
+
         parent_term = self.terms_by_coding.get(term.parent_coding, None)
-        if parent_term and parent_term != term:
+        if term.coding.code and parent_term and parent_term != term:
             return self.ancestor_terms(parent_term) + [term]
         else:
             return [term]
 
     def is_ancestor_exception(self, term):
-        return term.coding.code.startswith("PMI_")
+        return term.coding.code and term.coding.code.startswith("PMI_")
 
     def download_sheets(self):
         for name, gid in list(self.config['sheets'].iteritems()) + [("version", self.config['versionSheet'])]:
@@ -125,7 +129,10 @@ class SheetProcessor(object):
             entry = CodebookEntry(term)
             if entry.coding in self.terms_by_coding:
                 CodebookEntry.issues.append("Redefined! %s : %s"%entry.coding)
-            self.terms_by_coding[entry.coding] = entry
+            if not term['PMI Code']:
+                CodebookEntry.issues.append("Missing code for: %s"%entry._dict)
+            else:
+                self.terms_by_coding[entry.coding] = entry
 
         for term in self.terms_by_coding.values():
             """ # this isn't specific enough to produce helpful output right now
@@ -147,14 +154,17 @@ class SheetProcessor(object):
                                 ["%s: %s"%(t.coding.code, t.concept_type) for t in ancestor_terms]))
             if term.parent_coding and term.parent_coding not in self.terms_by_coding:
                 if term.coding.code not in self.config['sheets']:
-                    print("missing parent coding", term.parent_coding)
                     CodebookEntry.issues.append("Parent of '%s' is '%s' but does not exist"%(
                             term._dict['PMI Code'], term._dict['Parent code']))
 
                 term._dict['Parent code'] = None
             if term.parent_coding not in self.terms_by_parent:
                 self.terms_by_parent[term.parent_coding] = []
-            self.terms_by_parent[term.parent_coding].append(term)
+            if term.parent_coding == term.coding:
+                CodebookEntry.issues.append("Parent of '%s' is '%s'"%(
+                        term._dict['PMI Code'], term._dict['Parent code']))
+            else:
+                self.terms_by_parent[term.parent_coding].append(term)
 
         for term in self.terms_by_coding.values():
             ancestor_terms = self.ancestor_terms(term)
