@@ -1,1 +1,6 @@
-[]
+[
+  "PMI Code is not defined in: {'': None, 'UMLS (SnoMed) DescriptionID': None, 'LOINC Answer ID': None, 'LOINC Category ID': None, 'Standard Code Source': None, 'UMLS (SnoMed) ConceptID': None, 'Parent code': 'ElectronicSmoking_ElectricSmokeFrequency', 'PMI System': 'http://terminology.pmi-ops.org/CodeSystem/ppi', 'Topic': 'Electronic Smoking', 'Answer Type': None, 'Source URL': None, 'FHIR Code': None, 'FHIR System OID': None, 'PMI Code': None, 'LOINC Category Code (Search This)': None, 'FHIR Level': None, 'Type': 'Answer', 'Display': 'Not at all', 'Item ID': 'NCTP1a'}", 
+  "Missing code for: {'': None, 'UMLS (SnoMed) DescriptionID': None, 'LOINC Answer ID': None, 'LOINC Category ID': None, 'Standard Code Source': None, 'UMLS (SnoMed) ConceptID': None, 'Parent code': 'ElectronicSmoking_ElectricSmokeFrequency', 'PMI System': 'http://terminology.pmi-ops.org/CodeSystem/ppi', 'Topic': 'Electronic Smoking', 'Answer Type': None, 'Source URL': None, 'FHIR Code': None, 'FHIR System OID': None, 'PMI Code': None, 'LOINC Category Code (Search This)': None, 'FHIR Level': None, 'Type': 'Answer', 'Display': 'Not at all', 'Item ID': 'NCTP1a'}", 
+  "Parent of 'CigarSmoking_CurrentCigarFrequency' is 'Smoking_CigarSmoking' but does not exist", 
+  "Parent of 'CigarSmoking_CigarSmokeParticipant' is 'Smoking_CigarSmoking' but does not exist"
+]

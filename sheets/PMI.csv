@@ -5,3 +5,5 @@ PMI Prefer Not To Answer,PMI,Answer,http://terminology.pmi-ops.org/CodeSystem/pp
 PMI Other (Qualifier Value),PMI,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PMI_Other,PMI
 PMI Free Text Answer,PMI,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PMI_FreeText,PMI
 PMI Question Unanswered,PMI,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PMI_Unanswered,PMI
+PMI Don't Know,PMI,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PMI_DontKnow,PMI
+PMI Not Sure,PMI,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PMI_NotSure,PMI

@@ -1203,20 +1203,6 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "NHPI_Palauan", 
-                      "display": "Palauan"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Race Ethnicity Subcategory", 
-                          "code": "concept-topic"
-                        }
-                      ], 
                       "code": "NHPI_Tongan", 
                       "display": "Tongan"
                     }, 
@@ -1275,6 +1261,20 @@
                       ], 
                       "code": "NHPI_Chuukese", 
                       "display": "Chuukese"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "NHPI_Palauan", 
+                      "display": "Palauan"
                     }, 
                     {
                       "property": [
@@ -2239,6 +2239,78 @@
         {
           "concept": [
             {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Sexual Orientation", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "SexualOrientation_Straight", 
+              "display": "Straight; that is, not gay or lesbian"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Sexual Orientation", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "SexualOrientation_Bisexual", 
+              "display": "Bisexual"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Sexual Orientation", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "SexualOrientation_Lesbian", 
+              "display": "Lesbian"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Sexual Orientation", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "SexualOrientation_Gay", 
+              "display": "Gay"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Sexual Orientation", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "TheBasics_SexualOrientation", 
+          "display": "Which of the following best represents how you think of yourself?"
+        }, 
+        {
+          "concept": [
+            {
               "concept": [
                 {
                   "concept": [
@@ -2465,78 +2537,6 @@
           ], 
           "code": "TheBasics_Insurance", 
           "display": "Insurance"
-        }, 
-        {
-          "concept": [
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Sexual Orientation", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "SexualOrientation_Bisexual", 
-              "display": "Bisexual"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Sexual Orientation", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "SexualOrientation_Straight", 
-              "display": "Straight; that is, not gay or lesbian"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Sexual Orientation", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "SexualOrientation_Lesbian", 
-              "display": "Lesbian"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Sexual Orientation", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "SexualOrientation_Gay", 
-              "display": "Gay"
-            }
-          ], 
-          "property": [
-            {
-              "valueCode": "Question", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Sexual Orientation", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "TheBasics_SexualOrientation", 
-          "display": "Which of the following best represents how you think of yourself?"
         }, 
         {
           "property": [
@@ -3223,12 +3223,98 @@
               "code": "concept-type"
             }, 
             {
+              "valueCode": "Cigar Smoking", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "CurrentCigarFrequency_NotAtAll", 
+          "display": "Not at all"
+        }, 
+        {
+          "property": [
+            {
+              "valueCode": "Answer", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Cigar Smoking", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "CurrentCigarFrequency_EveryDay", 
+          "display": "Every day"
+        }, 
+        {
+          "property": [
+            {
+              "valueCode": "Answer", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Cigar Smoking", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "CurrentCigarFrequency_SomeDays", 
+          "display": "Some days"
+        }
+      ], 
+      "property": [
+        {
+          "valueCode": "Question", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Cigar Smoking", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "CigarSmoking_CurrentCigarFrequency", 
+      "display": "Do you now smoke a traditional cigar, cigarillo, or filtered cigar\u2026."
+    }, 
+    {
+      "concept": [
+        {
+          "property": [
+            {
+              "valueCode": "Answer", 
+              "code": "concept-type"
+            }, 
+            {
               "valueCode": "PMI", 
               "code": "concept-topic"
             }
           ], 
           "code": "PMI_Unanswered", 
           "display": "PMI Question Unanswered"
+        }, 
+        {
+          "property": [
+            {
+              "valueCode": "Answer", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "PMI", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "PMI_NotSure", 
+          "display": "PMI Not Sure"
+        }, 
+        {
+          "property": [
+            {
+              "valueCode": "Answer", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "PMI", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "PMI_DontKnow", 
+          "display": "PMI Don't Know"
         }, 
         {
           "property": [
@@ -3386,7 +3472,7 @@
                 }
               ], 
               "code": "AveragePain7Days_10", 
-              "display": "10"
+              "display": "10 Worst pain imaginable"
             }, 
             {
               "property": [
@@ -3769,6 +3855,20 @@
                   "code": "concept-topic"
                 }
               ], 
+              "code": "OutsideTravel6MonthWhereTraveled_Maldives", 
+              "display": "Maldives"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Travel", 
+                  "code": "concept-topic"
+                }
+              ], 
               "code": "OutsideTravel6MonthWhereTraveled_Indonesia", 
               "display": "Indonesia"
             }, 
@@ -3855,6 +3955,20 @@
               ], 
               "code": "OutsideTravel6MonthWhereTraveled_India", 
               "display": "India"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Travel", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "OutsideTravel6MonthWhereTraveled_Cuba", 
+              "display": "Cuba"
             }, 
             {
               "property": [
@@ -4021,20 +4135,6 @@
                   "code": "concept-topic"
                 }
               ], 
-              "code": "OutsideTravel6MonthWhereTraveled_HongKong9", 
-              "display": "Hong Kong 9"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Travel", 
-                  "code": "concept-topic"
-                }
-              ], 
               "code": "OutsideTravel6MonthWhereTraveled_Chile", 
               "display": "Chile"
             }, 
@@ -4189,22 +4289,8 @@
                   "code": "concept-topic"
                 }
               ], 
-              "code": "OutsideTravel6MonthWhereTraveled_Maldives", 
-              "display": "Maldives"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Travel", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "OutsideTravel6MonthWhereTraveled_Cuba", 
-              "display": "Cuba"
+              "code": "OutsideTravel6MonthWhereTraveled_HongKong", 
+              "display": "Hong Kong"
             }, 
             {
               "property": [
@@ -4879,92 +4965,6 @@
           ], 
           "code": "OverallHealth_Pregnancy", 
           "display": "Pregnancy"
-        }, 
-        {
-          "concept": [
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Health Problem Solutions", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "HealthSolutionDifficulty_StronglyAgree", 
-              "display": "Strongly agree"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Health Problem Solutions", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "HealthSolutionDifficulty_StronglyDisagree", 
-              "display": "Strongly disagree"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Health Problem Solutions", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "HealthSolutionDifficulty_Disagree", 
-              "display": "Disagree"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Health Problem Solutions", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "HealthSolutionDifficulty_Agree", 
-              "display": "Agree"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Health Problem Solutions", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "HealthSolutionDifficulty_Neither", 
-              "display": "Neither agree nor disagree"
-            }
-          ], 
-          "property": [
-            {
-              "valueCode": "Question", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Health Problem Solutions", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "OverallHealth_HealthSolutionDifficulty", 
-          "display": "It is difficult for me to find effective solutions to the health problems that come my way."
         }, 
         {
           "concept": [
@@ -5773,6 +5773,50 @@
     {
       "concept": [
         {
+          "property": [
+            {
+              "valueCode": "Answer", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Cigar Smoking", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "CigarSmokeParticipant_No", 
+          "display": "No"
+        }, 
+        {
+          "property": [
+            {
+              "valueCode": "Answer", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Cigar Smoking", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "CigarSmokeParticipant_Yes", 
+          "display": "Yes"
+        }
+      ], 
+      "property": [
+        {
+          "valueCode": "Question", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Cigar Smoking", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "CigarSmoking_CigarSmokeParticipant", 
+      "display": "Have you ever smoked a traditional cigar, cigarillo, or filtered cigar, even one or two puffs?"
+    }, 
+    {
+      "concept": [
+        {
           "concept": [
             {
               "property": [
@@ -6113,124 +6157,6 @@
               "display": "How old were you when you first started regular cigarette smoking every day?"
             }, 
             {
-              "concept": [
-                {
-                  "concept": [
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Electronic Smoking", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "ElectricSmokeParticipant_No", 
-                      "display": "No"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Electronic Smoking", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "ElectricSmokeParticipant_Yes", 
-                      "display": "Yes"
-                    }
-                  ], 
-                  "property": [
-                    {
-                      "valueCode": "Question", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Electronic Smoking", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "ElectronicSmoking_ElectricSmokeParticipant", 
-                  "display": "Have you ever used an electronic nicotine product, even one or two times?  (Electronic nicotine products include e-cigarettes, vape pens, hookah pens, personal vaporizers and mods, e-cigars, e-pipes, and e-hookahs.)"
-                }, 
-                {
-                  "concept": [
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Electronic Smoking", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "ElectricSmokeFrequency_EveryDay", 
-                      "display": "Every day"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Electronic Smoking", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "ElectricSmokeFrequency_SomeDays", 
-                      "display": "Some days"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Electronic Smoking", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "ElectricSmokeFrequency_NotAtAll", 
-                      "display": "Not at all"
-                    }
-                  ], 
-                  "property": [
-                    {
-                      "valueCode": "Question", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Electronic Smoking", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "ElectronicSmoking_ElectricSmokeFrequency", 
-                  "display": "Do you now use electronic nicotine products\u2026"
-                }
-              ], 
-              "property": [
-                {
-                  "valueCode": "Topic", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Electronic Smoking", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "Smoking_ElectronicSmoking", 
-              "display": "Electronic Smoking"
-            }, 
-            {
               "property": [
                 {
                   "valueCode": "Question", 
@@ -6437,124 +6363,6 @@
             {
               "concept": [
                 {
-                  "concept": [
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Cigar Smoking", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "CurrentCigarFrequency_NotAtAll", 
-                      "display": "Not at all"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Cigar Smoking", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "CurrentCigarFrequency_EveryDay", 
-                      "display": "Every day"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Cigar Smoking", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "CurrentCigarFrequency_SomeDays", 
-                      "display": "Some days"
-                    }
-                  ], 
-                  "property": [
-                    {
-                      "valueCode": "Question", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Cigar Smoking", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "CigarSmoking_CurrentCigarFrequency", 
-                  "display": "Do you now smoke a traditional cigar, cigarillo, or filtered cigar\u2026."
-                }, 
-                {
-                  "concept": [
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Cigar Smoking", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "CigarSmokeParticipant_No", 
-                      "display": "No"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Cigar Smoking", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "CigarSmokeParticipant_Yes", 
-                      "display": "Yes"
-                    }
-                  ], 
-                  "property": [
-                    {
-                      "valueCode": "Question", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Cigar Smoking", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "CigarSmoking_CigarSmokeParticipant", 
-                  "display": "Have you ever smoked a traditional cigar, cigarillo, or filtered cigar, even one or two puffs?"
-                }
-              ], 
-              "property": [
-                {
-                  "valueCode": "Topic", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Cigar Smoking", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "Smoking_CigarSmoking", 
-              "display": "Cigar Smoking"
-            }, 
-            {
-              "concept": [
-                {
                   "property": [
                     {
                       "valueCode": "Answer", 
@@ -6609,6 +6417,124 @@
               ], 
               "code": "Smoking_NumberOfYears", 
               "display": "How many years have you or did you smoke cigarettes?"
+            }, 
+            {
+              "concept": [
+                {
+                  "concept": [
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Electronic Smoking", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "ElectricSmokeParticipant_No", 
+                      "display": "No"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Electronic Smoking", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "ElectricSmokeParticipant_Yes", 
+                      "display": "Yes"
+                    }
+                  ], 
+                  "property": [
+                    {
+                      "valueCode": "Question", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Electronic Smoking", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "ElectronicSmoking_ElectricSmokeParticipant", 
+                  "display": "Have you ever used an electronic nicotine product, even one or two times?  (Electronic nicotine products include e-cigarettes, vape pens, hookah pens, personal vaporizers and mods, e-cigars, e-pipes, and e-hookahs.)"
+                }, 
+                {
+                  "concept": [
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Electronic Smoking", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "ElectricSmokeFrequency_EveryDay", 
+                      "display": "Every day"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Electronic Smoking", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "ElectricSmokeFrequency_SomeDays", 
+                      "display": "Some days"
+                    }
+                  ], 
+                  "property": [
+                    {
+                      "valueCode": "Question", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Electronic Smoking", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "ElectronicSmoking_ElectricSmokeFrequency", 
+                  "display": "Do you now use electronic nicotine products\u2026"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Topic", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Electronic Smoking", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Smoking_ElectronicSmoking", 
+              "display": "Electronic Smoking"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Topic", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Cigar Smoking", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "ElectricSmokeFrequency_NotAtAll", 
+              "display": "Cigar Smoking"
             }, 
             {
               "property": [
@@ -7192,7 +7118,7 @@
                     }
                   ], 
                   "code": "WhichDrugsUsed_MethamphetamineUse", 
-                  "display": "d. Methamphetamine (speed, crystal meth, ice, etc.)"
+                  "display": "d. Other stimulants (methamphetamine (speed, crystal meth, ice, etc.), k2/spice, bath salts)"
                 }, 
                 {
                   "concept": [
@@ -8202,7 +8128,7 @@
                     }
                   ], 
                   "code": "Past3MonthUseFrequency_OtherStimulant3MonthUse", 
-                  "display": "d. Other stimulants (methamphetamine (speed, crystal meth, ice, etc.), k2/spice, bath salts)"
+                  "display": "Other stimulants (methamphetamine (speed, crystal meth, ice, etc.), k2/spice, bath salts)"
                 }, 
                 {
                   "concept": [
@@ -8336,14 +8262,14 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 579, 
+  "count": 574, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.1.2", 
+  "version": "0.1.4", 
   "hierarchyMeaning": "grouped-by", 
-  "date": "2017-03-23", 
+  "date": "2017-03-24", 
   "property": [
     {
       "code": "concept-type", 
