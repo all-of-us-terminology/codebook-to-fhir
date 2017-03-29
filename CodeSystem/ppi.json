@@ -7,9 +7,95 @@
         {
           "concept": [
             {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Living Situation", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "HowManyLivingYears_1to2", 
+                  "display": "1-2 years"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Living Situation", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "HowManyLivingYears_less1", 
+                  "display": "Less than 1 year"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Living Situation", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "HowManyLivingYears_11to20", 
+                  "display": "11-20 years"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Living Situation", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "HowManyLivingYears_3to5", 
+                  "display": "3-5 years"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Living Situation", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "HowManyLivingYears_6to10", 
+                  "display": "6-10 years"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Living Situation", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "HowManyLivingYears_more20", 
+                  "display": "More than 20 years"
+                }
+              ], 
               "property": [
                 {
-                  "valueCode": "Answer", 
+                  "valueCode": "Question", 
                   "code": "concept-type"
                 }, 
                 {
@@ -17,13 +103,13 @@
                   "code": "concept-topic"
                 }
               ], 
-              "code": "HowManyLivingYears_1to2", 
-              "display": "1-2 years"
+              "code": "LivingSituation_HowManyLivingYears", 
+              "display": "How many years have you lived at your current address?"
             }, 
             {
               "property": [
                 {
-                  "valueCode": "Answer", 
+                  "valueCode": "Question", 
                   "code": "concept-type"
                 }, 
                 {
@@ -31,13 +117,199 @@
                   "code": "concept-topic"
                 }
               ], 
-              "code": "HowManyLivingYears_less1", 
-              "display": "Less than 1 year"
+              "code": "LivingSituation_HowManyPeople", 
+              "display": "Not including yourself, how many other people live at home with you?"
+            }, 
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Living Situation", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "CurrentLiving_Shelter", 
+                  "display": "Emergency shelter or homeless shelter"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Living Situation", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "CurrentLiving_ResidentialFacility", 
+                  "display": "In a group home, nursing home, or other residential facility"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Living Situation", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "CurrentLiving_Friend", 
+                  "display": "With a friend/roommate"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Living Situation", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "CurrentLiving_CollegeCamp", 
+                  "display": "On a college campus"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Living Situation", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "CurrentLiving_Family", 
+                  "display": "With family"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Living Situation", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "CurrentLiving_TemporaryInstitute", 
+                  "display": "Hospital, rehabilitation center, drug treatment center, or other temporary institution"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Living Situation", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "CurrentLiving_Outside", 
+                  "display": "Anywhere outside (e.g., street, vehicle, abandoned building)"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Living Situation", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "CurrentLiving_Transitional", 
+                  "display": "Transitional housing"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Living Situation", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "CurrentLiving_MotelHotel", 
+                  "display": "Motel/hotel"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Living Situation", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "LivingSituation_CurrentLiving", 
+              "display": "Where are you currently living?"
+            }, 
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Living Situation", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "StableHouseConcern_Yes", 
+                  "display": "Yes"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Living Situation", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "StableHouseConcern_No", 
+                  "display": "No"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Living Situation", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "LivingSituation_StableHouseConcern", 
+              "display": "In the past 6 months, have you been worried or concerned about NOT having stable housing that you own, rent, or stay in as part of a household?"
             }, 
             {
               "property": [
                 {
-                  "valueCode": "Answer", 
+                  "valueCode": "Question", 
                   "code": "concept-type"
                 }, 
                 {
@@ -45,55 +317,13 @@
                   "code": "concept-topic"
                 }
               ], 
-              "code": "HowManyLivingYears_11to20", 
-              "display": "11-20 years"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Living Situation", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "HowManyLivingYears_3to5", 
-              "display": "3-5 years"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Living Situation", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "HowManyLivingYears_6to10", 
-              "display": "6-10 years"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Living Situation", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "HowManyLivingYears_more20", 
-              "display": "More than 20 years"
+              "code": "LivingSituation_PeopleUnder18", 
+              "display": "Think of other people who live with you. How many are under the age of 18 years?"
             }
           ], 
           "property": [
             {
-              "valueCode": "Question", 
+              "valueCode": "Topic", 
               "code": "concept-type"
             }, 
             {
@@ -101,22 +331,2122 @@
               "code": "concept-topic"
             }
           ], 
-          "code": "LivingSituation_HowManyLivingYears", 
-          "display": "How many years have you lived at your current address?"
+          "code": "TheBasics_LivingSituation", 
+          "display": "Living Situation"
         }, 
         {
+          "concept": [
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Secondary Contact", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "SecondaryContactInfo_PersonOneName", 
+              "display": "Person 1 name (Last, First, MI)"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Secondary Contact", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "SecondaryContactInfo_PersonOneRelationship", 
+              "display": "Relationship to respondent"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Secondary Contact", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "SecondaryContactInfo_SecondContactsName", 
+              "display": "What is this second person's full name?"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Secondary Contact", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "SecondaryContactInfo_FirstContactsInfo", 
+              "display": "The PMI will contact you periodically to gather additional health related information. In case we cannot contact you, please provide the names, addresses, and telephone numbers of 2 relatives or friends who would know where you could be reached in case we have trouble reaching you. (Please give us the names of persons not currently living in the household)."
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Secondary Contact", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "SecondaryContactInfo_SecondContactsNumber", 
+              "display": "What is this second person's telephone number, beginning with the area code?"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Secondary Contact", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "SecondaryContactInfo_SecondContactsRelationship", 
+              "display": "What is this second person's relationship to you?"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Secondary Contact", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "SecondaryContactInfo_PersonOneEmail", 
+              "display": "Person 1 Email Address"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Secondary Contact", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "SecondaryContactInfo_SecondContactsAddress", 
+              "display": "What is this second person's mailing address?"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Secondary Contact", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "SecondaryContactInfo_SecondContactsEmail", 
+              "display": "What is this second person's email address?"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Secondary Contact", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "SecondaryContactInfo_PersonOneAddress", 
+              "display": "Person 1 Address (Number and street, city, state, zip code)"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Secondary Contact", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "SecondaryContactInfo_PersonOneTelephone", 
+              "display": "Person 1 Area code/Telephone number (allow none refused or dk)"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Topic", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Secondary Contact", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "TheBasics_SecondaryContactInfo", 
+          "display": "Secondary Contact Information"
+        }, 
+        {
+          "concept": [
+            {
+              "concept": [
+                {
+                  "concept": [
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "Asian_Korean", 
+                      "display": "Korean"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "Asian_Hmong", 
+                      "display": "Hmong"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "Asian_Filipino", 
+                      "display": "Filipino"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "Asian_Vietnamese", 
+                      "display": "Vietnamese"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "Asian_Chinese", 
+                      "display": "Chinese"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "Asian_Pakistani", 
+                      "display": "Pakistani"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "Asian_Cambodian", 
+                      "display": "Cambodian"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "Asian_Japanese", 
+                      "display": "Japanese"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "Asian_AsianIndian", 
+                      "display": "Asian Indian"
+                    }
+                  ], 
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Race Ethnicity", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "WhatRaceEthnicity_Asian", 
+                  "display": "Asian (For example: Asian Indian, Chinese, Filipino, Japanese, Korean, Vietnamese, etc.) *"
+                }, 
+                {
+                  "concept": [
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "AIAN_AlaskaNative", 
+                      "display": "Alaska Native"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "AIAN_CentralSouthAmericanIndian", 
+                      "display": "Central or South American Indian"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "AIAN_AmericanIndian", 
+                      "display": "American Indian"
+                    }
+                  ], 
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Race Ethnicity", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "WhatRaceEthnicity_AIAN", 
+                  "display": "American Indian or Alaska Native (For example: Aztec, Blackfeet Tribe, Mayan, Navajo Nation, Native Village of Barrow Inupiat Traditional Government, Nome Eskimo Community, etc.)*"
+                }, 
+                {
+                  "concept": [
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "Hispanic_Colombian", 
+                      "display": "Colombian"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "Hispanic_CostaRican", 
+                      "display": "Costa Rican"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "Hispanic_Bolivian", 
+                      "display": "Bolivian"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "Hispanic_Ecuadorian", 
+                      "display": "Ecuadorian"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "Hispanic_Honduran", 
+                      "display": "Honduran"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "Hispanic_Salvadoran", 
+                      "display": "Salvadoran"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "Hispanic_Paraguayan", 
+                      "display": "Paraguayan"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "Hispanic_Spanish", 
+                      "display": "Spanish"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "Hispanic_Filipino", 
+                      "display": "Filipino"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "Hispanic_Peruvian", 
+                      "display": "Peruvian"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "Hispanic_Dominican", 
+                      "display": "Dominican"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "Hispanic_Mexican", 
+                      "display": "Mexican or Mexican American"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "Hispanic_Guatemalan", 
+                      "display": "Guatemalan"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "Hispanic_Cuban", 
+                      "display": "Cuban"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "Hispanic_PuertoRican", 
+                      "display": "Puerto Rican"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "Hispanic_Uruguayan", 
+                      "display": "Uruguayan"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "Hispanic_Panamanian", 
+                      "display": "Panamanian"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "Hispanic_Nicaraguan", 
+                      "display": "Nicaraguan"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "Hispanic_Argentinean", 
+                      "display": "Argentinean"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "Hispanic_Venezuelan", 
+                      "display": "Venezuelan"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "Hispanic_Chilean", 
+                      "display": "Chilean"
+                    }
+                  ], 
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Race Ethnicity", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "WhatRaceEthnicity_Hispanic", 
+                  "display": "Hispanic, Latino, or Spanish (For example: Columbian, Cuban, Dominican, Mexican or Mexican American, Puerto Rican, Salvadoran, etc.) *"
+                }, 
+                {
+                  "concept": [
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "White_German", 
+                      "display": "German"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "White_European", 
+                      "display": "European"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "White_Scottish", 
+                      "display": "Scottish"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "White_Irish", 
+                      "display": "Irish"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "White_Italian", 
+                      "display": "Italian"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "White_Dutch", 
+                      "display": "Dutch"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "White_Norwegian", 
+                      "display": "Norwegian"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "White_French", 
+                      "display": "French"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "White_Spanish", 
+                      "display": "Spanish"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "White_Polish", 
+                      "display": "Polish"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "White_English", 
+                      "display": "English"
+                    }
+                  ], 
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Race Ethnicity", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "WhatRaceEthnicity_White", 
+                  "display": "White (For example: English, European, French, German, Irish, Italian, Polish, etc.) *"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Race Ethnicity", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "WhatRaceEthnicity_FreeText", 
+                  "display": "None of these fully describe me (optional free text answer)"
+                }, 
+                {
+                  "concept": [
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "NHPI_Tongan", 
+                      "display": "Tongan"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "NHPI_Chamorro", 
+                      "display": "Chamorro"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "NHPI_Marshallese", 
+                      "display": "Marshallese"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "NHPI_Fijian", 
+                      "display": "Fijian"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "NHPI_Chuukese", 
+                      "display": "Chuukese"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "NHPI_Palauan", 
+                      "display": "Palauan"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "NHPI_Samoan", 
+                      "display": "Samoan"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "NHPI_NativeHawaiian", 
+                      "display": "Native Hawaiian"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "NHPI_Tihitian", 
+                      "display": "Tihitian"
+                    }
+                  ], 
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Race Ethnicity", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "WhatRaceEthnicity_NHPI", 
+                  "display": "Native Hawaiian or other Pacific Islander (For example: Chamorro, Fijian, Marshallese, Native Hawaiian, Tongan, etc.) *"
+                }, 
+                {
+                  "concept": [
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "Black_Jamaican", 
+                      "display": "Jamaican"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "Black_Ghanaian", 
+                      "display": "Ghanaian"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "Black_Liberian", 
+                      "display": "Liberian"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "Black_Nigerian", 
+                      "display": "Nigerian"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "Black_Somali", 
+                      "display": "Somali"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "Black_Caribbean", 
+                      "display": "Caribbean"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "Black_AfricanAmerican", 
+                      "display": "African American"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "Black_Ethiopian", 
+                      "display": "Ethiopian"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "Black_SouthAfrican", 
+                      "display": "South African"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "Black_Haitian", 
+                      "display": "Haitian"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "Black_Barbadian", 
+                      "display": "Barbadian"
+                    }
+                  ], 
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Race Ethnicity", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "WhatRaceEthnicity_Black", 
+                  "display": "Black, African American, or African (For example: African American, Ethiopian, Haitian, Jamaican, Nigerian, Somali, etc.) *"
+                }, 
+                {
+                  "concept": [
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "MENA_Lebanese", 
+                      "display": "Lebanese"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "MENA_Iranian", 
+                      "display": "Iranian"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "MENA_Syrian", 
+                      "display": "Syrian"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "MENA_Israeli", 
+                      "display": "Israeli"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "MENA_Egypt", 
+                      "display": "Egyptian"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "MENA_Algerian", 
+                      "display": "Algerian"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "MENA_Iraqi", 
+                      "display": "Iraqi"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "MENA_Afghan", 
+                      "display": "Afghan"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "MENA_Tunisian", 
+                      "display": "Tunisian"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "MENA_Moroccan", 
+                      "display": "Moroccan"
+                    }
+                  ], 
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Race Ethnicity", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "WhatRaceEthnicity_MENA", 
+                  "display": "Middle Eastern or North African (For example: Algerian, Egyptian, Iranian, Lebanese, Moroccan, Syrian, etc.) *"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Race Ethnicity", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Race_WhatRaceEthnicity", 
+              "display": "Which categories describe you? Select all that apply. Note, you may select more than one group."
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Topic", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Race Ethnicity", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "TheBasics_Race", 
+          "display": "Race"
+        }, 
+        {
+          "concept": [
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Gender", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "CloserGenderDescription_Genderqueer", 
+                  "display": "Genderqueer"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Gender", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "CloserGenderDescription_TransWoman", 
+                  "display": "Transwoman/Transgender Woman/MTF"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Gender", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "CloserGenderDescription_SpecifiedGender", 
+                  "display": "None of these describe me, and I want to specify (optional free text)"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Gender", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "CloserGenderDescription_Genderfluid", 
+                  "display": "Genderfluid"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Gender", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "CloserGenderDescription_GenderVariant", 
+                  "display": "Gender Variant"
+                }, 
+                {
+                  "concept": [
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Gender", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "SexualityCloserDescription_Queer", 
+                      "display": "Queer"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Gender", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "SexualityCloserDescription_NoLabels", 
+                      "display": "Do not use labels to identity yourself"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Gender", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "SexualityCloserDescription_TwoSpirit", 
+                      "display": "Two-spirit"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Gender", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "SexualityCloserDescription_Asexual", 
+                      "display": "Asexual"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Gender", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "SexualityCloserDescription_NoSexuality", 
+                      "display": "Do not think of yourself as having sexuality"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Gender", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "SexualityCloserDescription_MostlyStraight", 
+                      "display": "Mostly straight, but sometimes attracted to people of your own sex"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Gender", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "SexualityCloserDescription_SomethingElse", 
+                      "display": "No, I mean something else (optional free text)"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Gender", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "SexualityCloserDescription_NotFiguredOut", 
+                      "display": "Have not figured out or are in the process of figuring our your sexuality"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Gender", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "SexualityCloserDescription_PolyOmniSapioPansexual", 
+                      "display": "Polysexual, omnisexual, sapiosexual or pansexual"
+                    }
+                  ], 
+                  "property": [
+                    {
+                      "valueCode": "Question", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Gender", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "GenderIdentity_SexualityCloserDescription", 
+                  "display": "Are any of these a closer description of how you think of yourself?"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Gender", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "CloserGenderDescription_Unsure", 
+                  "display": "Questioning or unsure of your gender identity"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Gender", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "CloserGenderDescription_TransMan", 
+                  "display": "Transman/Transgender Man/FTM"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Gender", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Gender_CloserGenderDescription", 
+              "display": "Are any of these a closer description to your gender identity?"
+            }, 
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Gender", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "GenderIdentity_Woman", 
+                  "display": "Woman"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Gender", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "GenderIdentity_Transgender", 
+                  "display": "Transgender (include jump)"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Gender", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "GenderIdentity_Man", 
+                  "display": "Man"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Gender", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "GenderIdentity_AdditionalOptions", 
+                  "display": "None of these describe me, and Id like to consider additional options (include jump)"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Gender", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "GenderIdentity_NonBinary", 
+                  "display": "Non-binary (include jump)"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Gender", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Gender_GenderIdentity", 
+              "display": "What terms best express how you describe your gender identity?"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Topic", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Gender", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "TheBasics_Gender", 
+          "display": "Gender"
+        }, 
+        {
+          "concept": [
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Marital Status", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "CurrentMaritalStatus_Separated", 
+                  "display": "Separated"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Marital Status", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "CurrentMaritalStatus_Divorced", 
+                  "display": "Divorced"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Marital Status", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "CurrentMaritalStatus_NeverMarried", 
+                  "display": "Never Married"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Marital Status", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "CurrentMaritalStatus_Widowed", 
+                  "display": "Widowed"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Marital Status", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "CurrentMaritalStatus_Married", 
+                  "display": "Married"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Marital Status", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "CurrentMaritalStatus_LivingWithPartner", 
+                  "display": "Living with partner"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Marital Status", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "MaritalStatus_CurrentMaritalStatus", 
+              "display": "What is your current marital status?"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Topic", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Marital Status", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "TheBasics_MaritalStatus", 
+          "display": "Marital Status"
+        }, 
+        {
+          "concept": [
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Telephone Info", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "AlternateNumber_Yes", 
+                  "display": "Other Phone: Yes"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Telephone Info", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "AlternateNumber_No", 
+                  "display": "Other Phone:No"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Telephone Info", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "PhoneInformation_AlternateNumber", 
+              "display": "Another Number to be Reached at?"
+            }, 
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Telephone Info", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "NumberType_Home", 
+                  "display": "Home"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Telephone Info", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "NumberType_Mobile", 
+                  "display": "Mobile (cell)"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Telephone Info", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "NumberType_Work", 
+                  "display": "Work"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Telephone Info", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "PhoneInformation_NumberType", 
+              "display": "Type of Phone Number"
+            }
+          ], 
           "property": [
             {
               "valueCode": "Question", 
               "code": "concept-type"
             }, 
             {
-              "valueCode": "Living Situation", 
+              "valueCode": "Telephone Info", 
               "code": "concept-topic"
             }
           ], 
-          "code": "LivingSituation_HowManyPeople", 
-          "display": "Not including yourself, how many other people live at home with you?"
+          "code": "TheBasics_PhoneInformation", 
+          "display": "Phone Information"
+        }, 
+        {
+          "concept": [
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Income", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "AnnualIncome_10k25k", 
+                  "display": "$10,000- $24,999"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Income", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "AnnualIncome_75k100k", 
+                  "display": "$75,000-$99,999$"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Income", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "AnnualIncome_100k150k", 
+                  "display": "$100,000- $149,999"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Income", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "AnnualIncome_25k35k", 
+                  "display": "$25,000- $34,999"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Income", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "AnnualIncome_50k75k", 
+                  "display": "$50,000- $74,999"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Income", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "AnnualIncome_less10k", 
+                  "display": "Less than $10,000"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Income", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "AnnualIncome_35k50k", 
+                  "display": "$35,000- $49,999"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Income", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "AnnualIncome_150k200k", 
+                  "display": "$150,000- $199,999"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Income", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "AnnualIncome_more200k", 
+                  "display": "$200,000 or more"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Income", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Income_AnnualIncome", 
+              "display": "What is your annual household income from all sources?"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Topic", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Income", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "TheBasics_Income", 
+          "display": "Income"
         }, 
         {
           "concept": [
@@ -127,12 +2457,12 @@
                   "code": "concept-type"
                 }, 
                 {
-                  "valueCode": "Living Situation", 
+                  "valueCode": "Sexual Orientation", 
                   "code": "concept-topic"
                 }
               ], 
-              "code": "CurrentLiving_Shelter", 
-              "display": "Emergency shelter or homeless shelter"
+              "code": "SexualOrientation_Straight", 
+              "display": "Straight; that is, not gay or lesbian"
             }, 
             {
               "property": [
@@ -141,12 +2471,12 @@
                   "code": "concept-type"
                 }, 
                 {
-                  "valueCode": "Living Situation", 
+                  "valueCode": "Sexual Orientation", 
                   "code": "concept-topic"
                 }
               ], 
-              "code": "CurrentLiving_ResidentialFacility", 
-              "display": "In a group home, nursing home, or other residential facility"
+              "code": "SexualOrientation_Bisexual", 
+              "display": "Bisexual"
             }, 
             {
               "property": [
@@ -155,12 +2485,12 @@
                   "code": "concept-type"
                 }, 
                 {
-                  "valueCode": "Living Situation", 
+                  "valueCode": "Sexual Orientation", 
                   "code": "concept-topic"
                 }
               ], 
-              "code": "CurrentLiving_Friend", 
-              "display": "With a friend/roommate"
+              "code": "SexualOrientation_Gay", 
+              "display": "Gay"
             }, 
             {
               "property": [
@@ -169,12 +2499,12 @@
                   "code": "concept-type"
                 }, 
                 {
-                  "valueCode": "Living Situation", 
+                  "valueCode": "Sexual Orientation", 
                   "code": "concept-topic"
                 }
               ], 
-              "code": "CurrentLiving_CollegeCamp", 
-              "display": "On a college campus"
+              "code": "SexualOrientation_None", 
+              "display": "None of these describe me, and I'd like to see additional options (include jump)"
             }, 
             {
               "property": [
@@ -183,68 +2513,12 @@
                   "code": "concept-type"
                 }, 
                 {
-                  "valueCode": "Living Situation", 
+                  "valueCode": "Sexual Orientation", 
                   "code": "concept-topic"
                 }
               ], 
-              "code": "CurrentLiving_Family", 
-              "display": "With family"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Living Situation", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "CurrentLiving_TemporaryInstitute", 
-              "display": "Hospital, rehabilitation center, drug treatment center, or other temporary institution"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Living Situation", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "CurrentLiving_Outside", 
-              "display": "Anywhere outside (e.g., street, vehicle, abandoned building)"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Living Situation", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "CurrentLiving_Transitional", 
-              "display": "Transitional housing"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Living Situation", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "CurrentLiving_MotelHotel", 
-              "display": "Motel/hotel"
+              "code": "SexualOrientation_Lesbian", 
+              "display": "Lesbian"
             }
           ], 
           "property": [
@@ -253,12 +2527,242 @@
               "code": "concept-type"
             }, 
             {
-              "valueCode": "Living Situation", 
+              "valueCode": "Sexual Orientation", 
               "code": "concept-topic"
             }
           ], 
-          "code": "LivingSituation_CurrentLiving", 
-          "display": "Where are you currently living?"
+          "code": "TheBasics_SexualOrientation", 
+          "display": "Which of the following best represents how you think of yourself?"
+        }, 
+        {
+          "concept": [
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Insurance", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "HealthInsurance_Yes", 
+                  "display": "Yes"
+                }, 
+                {
+                  "concept": [
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Insurance", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "HealthInsuranceType_StateSponsored", 
+                      "display": "State-sponsored health plan"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Insurance", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "HealthInsuranceType_MediGAP", 
+                      "display": "MEDI-GAP"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Insurance", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "HealthInsuranceType_Private", 
+                      "display": "Private health insurance (includes employer-based)"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Insurance", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "HealthInsuranceType_Medicaid", 
+                      "display": "MEDICAID"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Insurance", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "HealthInsuranceType_NoCoverage", 
+                      "display": "No coverage of any type"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Insurance", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "HealthInsuranceType_SingleService", 
+                      "display": "Single service plan (e.g., dental, vision,  prescriptions)"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Insurance", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "HealthInsuranceType_Medicare", 
+                      "display": "MEDICARE"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Insurance", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "HealthInsuranceType_Military", 
+                      "display": "Military health care (TRICARE/VA/CHAMP-VA)"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Insurance", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "HealthInsuranceType_Indian", 
+                      "display": "Indian health service"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Insurance", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "HealthInsuranceType_OtherGovernment", 
+                      "display": "Other government program"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Insurance", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "HealthInsuranceType_Schip", 
+                      "display": "SCHIP (CHIP/Children\u2019s Health Insurance Program)"
+                    }
+                  ], 
+                  "property": [
+                    {
+                      "valueCode": "Question", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Insurance", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "HealthInsurance_HealthInsuranceType", 
+                  "display": "What kind of health insurance or health care coverage do you have? Include those that pay for only one type of service (nursing home care, accidents, or dental care). Exclude private plans that only provide extra cash while hospitalized. If you have more than one kind of health insurance, mark all plans that you have."
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Insurance", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "HealthInsurance_No", 
+                  "display": "No"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Insurance", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Insurance_HealthInsurance", 
+              "display": "Are you covered by health insurance or some other kind of health care plan?"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Topic", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Insurance", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "TheBasics_Insurance", 
+          "display": "Insurance"
         }, 
         {
           "concept": [
@@ -269,68 +2773,114 @@
                   "code": "concept-type"
                 }, 
                 {
-                  "valueCode": "Living Situation", 
+                  "valueCode": "Birthplace", 
                   "code": "concept-topic"
                 }
               ], 
-              "code": "StableHouseConcern_Yes", 
-              "display": "Yes"
+              "code": "Birthplace_USA", 
+              "display": "USA"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
             }, 
             {
+              "valueCode": "Birthplace", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "TheBasics_Birthplace", 
+          "display": "In what country were you born?"
+        }, 
+        {
+          "concept": [
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Home Ownership", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "CurrentHomeOwn_OtherArrangement", 
+                  "display": "Other Arrangement"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Home Ownership", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "CurrentHomeOwn_Rent", 
+                  "display": "Rent"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Home Ownership", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "CurrentHomeOwn_Own", 
+                  "display": "Own"
+                }
+              ], 
               "property": [
                 {
-                  "valueCode": "Answer", 
+                  "valueCode": "Question", 
                   "code": "concept-type"
                 }, 
                 {
-                  "valueCode": "Living Situation", 
+                  "valueCode": "Home Ownership", 
                   "code": "concept-topic"
                 }
               ], 
-              "code": "StableHouseConcern_No", 
-              "display": "No"
+              "code": "HomeOwn_CurrentHomeOwn", 
+              "display": "Do you own or rent your home?"
             }
           ], 
           "property": [
             {
-              "valueCode": "Question", 
+              "valueCode": "Topic", 
               "code": "concept-type"
             }, 
             {
-              "valueCode": "Living Situation", 
+              "valueCode": "Home Ownership", 
               "code": "concept-topic"
             }
           ], 
-          "code": "LivingSituation_StableHouseConcern", 
-          "display": "In the past 6 months, have you been worried or concerned about NOT having stable housing that you own, rent, or stay in as part of a household?"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Question", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Living Situation", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "LivingSituation_PeopleUnder18", 
-          "display": "Think of other people who live with you. How many are under the age of 18 years?"
+          "code": "TheBasics_HomeOwn", 
+          "display": "Home Ownership"
         }
       ], 
       "property": [
         {
-          "valueCode": "Topic", 
+          "valueCode": "Module Name", 
           "code": "concept-type"
         }, 
         {
-          "valueCode": "Living Situation", 
+          "valueCode": "Module Name", 
           "code": "concept-topic"
         }
       ], 
-      "code": "TheBasics_LivingSituation", 
-      "display": "Living Situation"
+      "code": "TheBasics", 
+      "display": "The Basics"
     }, 
     {
       "concept": [
@@ -445,176 +2995,6 @@
       ], 
       "code": "PMI", 
       "display": "PMI"
-    }, 
-    {
-      "concept": [
-        {
-          "property": [
-            {
-              "valueCode": "Question", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Secondary Contact", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "SecondaryContactInfo_PersonOneName", 
-          "display": "Person 1 name (Last, First, MI)"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Question", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Secondary Contact", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "SecondaryContactInfo_PersonOneRelationship", 
-          "display": "Relationship to respondent"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Question", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Secondary Contact", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "SecondaryContactInfo_SecondContactsName", 
-          "display": "What is this second person's full name?"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Question", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Secondary Contact", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "SecondaryContactInfo_FirstContactsInfo", 
-          "display": "The PMI will contact you periodically to gather additional health related information. In case we cannot contact you, please provide the names, addresses, and telephone numbers of 2 relatives or friends who would know where you could be reached in case we have trouble reaching you. (Please give us the names of persons not currently living in the household)."
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Question", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Secondary Contact", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "SecondaryContactInfo_SecondContactsNumber", 
-          "display": "What is this second person's telephone number, beginning with the area code?"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Question", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Secondary Contact", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "SecondaryContactInfo_SecondContactsRelationship", 
-          "display": "What is this second person's relationship to you?"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Question", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Secondary Contact", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "SecondaryContactInfo_PersonOneEmail", 
-          "display": "Person 1 Email Address"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Question", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Secondary Contact", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "SecondaryContactInfo_SecondContactsAddress", 
-          "display": "What is this second person's mailing address?"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Question", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Secondary Contact", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "SecondaryContactInfo_SecondContactsEmail", 
-          "display": "What is this second person's email address?"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Question", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Secondary Contact", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "SecondaryContactInfo_PersonOneAddress", 
-          "display": "Person 1 Address (Number and street, city, state, zip code)"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Question", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Secondary Contact", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "SecondaryContactInfo_PersonOneTelephone", 
-          "display": "Person 1 Area code/Telephone number (allow none refused or dk)"
-        }
-      ], 
-      "property": [
-        {
-          "valueCode": "Topic", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "Secondary Contact", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "TheBasics_SecondaryContactInfo", 
-      "display": "Secondary Contact Information"
     }, 
     {
       "concept": [
@@ -2359,2266 +4739,6 @@
         {
           "concept": [
             {
-              "concept": [
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "Asian_Korean", 
-                  "display": "Korean"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "Asian_Hmong", 
-                  "display": "Hmong"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "Asian_Filipino", 
-                  "display": "Filipino"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "Asian_Vietnamese", 
-                  "display": "Vietnamese"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "Asian_Chinese", 
-                  "display": "Chinese"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "Asian_Pakistani", 
-                  "display": "Pakistani"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "Asian_Cambodian", 
-                  "display": "Cambodian"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "Asian_Japanese", 
-                  "display": "Japanese"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "Asian_AsianIndian", 
-                  "display": "Asian Indian"
-                }
-              ], 
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Race Ethnicity", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "WhatRaceEthnicity_Asian", 
-              "display": "Asian (For example: Asian Indian, Chinese, Filipino, Japanese, Korean, Vietnamese, etc.) *"
-            }, 
-            {
-              "concept": [
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "AIAN_AlaskaNative", 
-                  "display": "Alaska Native"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "AIAN_CentralSouthAmericanIndian", 
-                  "display": "Central or South American Indian"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "AIAN_AmericanIndian", 
-                  "display": "American Indian"
-                }
-              ], 
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Race Ethnicity", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "WhatRaceEthnicity_AIAN", 
-              "display": "American Indian or Alaska Native (For example: Aztec, Blackfeet Tribe, Mayan, Navajo Nation, Native Village of Barrow Inupiat Traditional Government, Nome Eskimo Community, etc.)*"
-            }, 
-            {
-              "concept": [
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "Hispanic_Colombian", 
-                  "display": "Colombian"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "Hispanic_CostaRican", 
-                  "display": "Costa Rican"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "Hispanic_Bolivian", 
-                  "display": "Bolivian"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "Hispanic_Ecuadorian", 
-                  "display": "Ecuadorian"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "Hispanic_Honduran", 
-                  "display": "Honduran"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "Hispanic_Salvadoran", 
-                  "display": "Salvadoran"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "Hispanic_Paraguayan", 
-                  "display": "Paraguayan"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "Hispanic_Spanish", 
-                  "display": "Spanish"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "Hispanic_Filipino", 
-                  "display": "Filipino"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "Hispanic_Peruvian", 
-                  "display": "Peruvian"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "Hispanic_Dominican", 
-                  "display": "Dominican"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "Hispanic_Mexican", 
-                  "display": "Mexican or Mexican American"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "Hispanic_Guatemalan", 
-                  "display": "Guatemalan"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "Hispanic_Cuban", 
-                  "display": "Cuban"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "Hispanic_PuertoRican", 
-                  "display": "Puerto Rican"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "Hispanic_Uruguayan", 
-                  "display": "Uruguayan"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "Hispanic_Panamanian", 
-                  "display": "Panamanian"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "Hispanic_Nicaraguan", 
-                  "display": "Nicaraguan"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "Hispanic_Argentinean", 
-                  "display": "Argentinean"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "Hispanic_Venezuelan", 
-                  "display": "Venezuelan"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "Hispanic_Chilean", 
-                  "display": "Chilean"
-                }
-              ], 
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Race Ethnicity", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "WhatRaceEthnicity_Hispanic", 
-              "display": "Hispanic, Latino, or Spanish (For example: Columbian, Cuban, Dominican, Mexican or Mexican American, Puerto Rican, Salvadoran, etc.) *"
-            }, 
-            {
-              "concept": [
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "White_German", 
-                  "display": "German"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "White_European", 
-                  "display": "European"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "White_Scottish", 
-                  "display": "Scottish"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "White_Irish", 
-                  "display": "Irish"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "White_Italian", 
-                  "display": "Italian"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "White_Dutch", 
-                  "display": "Dutch"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "White_Norwegian", 
-                  "display": "Norwegian"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "White_French", 
-                  "display": "French"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "White_Spanish", 
-                  "display": "Spanish"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "White_Polish", 
-                  "display": "Polish"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "White_English", 
-                  "display": "English"
-                }
-              ], 
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Race Ethnicity", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "WhatRaceEthnicity_White", 
-              "display": "White (For example: English, European, French, German, Irish, Italian, Polish, etc.) *"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Race Ethnicity", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "WhatRaceEthnicity_FreeText", 
-              "display": "None of these fully describe me (optional free text answer)"
-            }, 
-            {
-              "concept": [
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "NHPI_Tongan", 
-                  "display": "Tongan"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "NHPI_Chamorro", 
-                  "display": "Chamorro"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "NHPI_Marshallese", 
-                  "display": "Marshallese"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "NHPI_Fijian", 
-                  "display": "Fijian"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "NHPI_Chuukese", 
-                  "display": "Chuukese"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "NHPI_Palauan", 
-                  "display": "Palauan"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "NHPI_Samoan", 
-                  "display": "Samoan"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "NHPI_NativeHawaiian", 
-                  "display": "Native Hawaiian"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "NHPI_Tihitian", 
-                  "display": "Tihitian"
-                }
-              ], 
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Race Ethnicity", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "WhatRaceEthnicity_NHPI", 
-              "display": "Native Hawaiian or other Pacific Islander (For example: Chamorro, Fijian, Marshallese, Native Hawaiian, Tongan, etc.) *"
-            }, 
-            {
-              "concept": [
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "Black_Jamaican", 
-                  "display": "Jamaican"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "Black_Ghanaian", 
-                  "display": "Ghanaian"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "Black_Liberian", 
-                  "display": "Liberian"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "Black_Nigerian", 
-                  "display": "Nigerian"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "Black_Somali", 
-                  "display": "Somali"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "Black_Caribbean", 
-                  "display": "Caribbean"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "Black_AfricanAmerican", 
-                  "display": "African American"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "Black_Ethiopian", 
-                  "display": "Ethiopian"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "Black_SouthAfrican", 
-                  "display": "South African"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "Black_Haitian", 
-                  "display": "Haitian"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "Black_Barbadian", 
-                  "display": "Barbadian"
-                }
-              ], 
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Race Ethnicity", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "WhatRaceEthnicity_Black", 
-              "display": "Black, African American, or African (For example: African American, Ethiopian, Haitian, Jamaican, Nigerian, Somali, etc.) *"
-            }, 
-            {
-              "concept": [
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "MENA_Lebanese", 
-                  "display": "Lebanese"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "MENA_Iranian", 
-                  "display": "Iranian"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "MENA_Syrian", 
-                  "display": "Syrian"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "MENA_Israeli", 
-                  "display": "Israeli"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "MENA_Egypt", 
-                  "display": "Egyptian"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "MENA_Algerian", 
-                  "display": "Algerian"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "MENA_Iraqi", 
-                  "display": "Iraqi"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "MENA_Afghan", 
-                  "display": "Afghan"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "MENA_Tunisian", 
-                  "display": "Tunisian"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity Subcategory", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "MENA_Moroccan", 
-                  "display": "Moroccan"
-                }
-              ], 
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Race Ethnicity", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "WhatRaceEthnicity_MENA", 
-              "display": "Middle Eastern or North African (For example: Algerian, Egyptian, Iranian, Lebanese, Moroccan, Syrian, etc.) *"
-            }
-          ], 
-          "property": [
-            {
-              "valueCode": "Question", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Race Ethnicity", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "Race_WhatRaceEthnicity", 
-          "display": "Which categories describe you? Select all that apply. Note, you may select more than one group."
-        }
-      ], 
-      "property": [
-        {
-          "valueCode": "Topic", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "Race Ethnicity", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "TheBasics_Race", 
-      "display": "Race"
-    }, 
-    {
-      "concept": [
-        {
-          "concept": [
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Gender", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "CloserGenderDescription_Genderqueer", 
-              "display": "Genderqueer"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Gender", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "CloserGenderDescription_TransWoman", 
-              "display": "Transwoman/Transgender Woman/MTF"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Gender", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "CloserGenderDescription_SpecifiedGender", 
-              "display": "None of these describe me, and I want to specify (optional free text)"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Gender", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "CloserGenderDescription_Genderfluid", 
-              "display": "Genderfluid"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Gender", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "CloserGenderDescription_GenderVariant", 
-              "display": "Gender Variant"
-            }, 
-            {
-              "concept": [
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Gender", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "SexualityCloserDescription_Queer", 
-                  "display": "Queer"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Gender", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "SexualityCloserDescription_NoLabels", 
-                  "display": "Do not use labels to identity yourself"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Gender", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "SexualityCloserDescription_TwoSpirit", 
-                  "display": "Two-spirit"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Gender", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "SexualityCloserDescription_Asexual", 
-                  "display": "Asexual"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Gender", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "SexualityCloserDescription_NoSexuality", 
-                  "display": "Do not think of yourself as having sexuality"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Gender", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "SexualityCloserDescription_MostlyStraight", 
-                  "display": "Mostly straight, but sometimes attracted to people of your own sex"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Gender", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "SexualityCloserDescription_SomethingElse", 
-                  "display": "No, I mean something else (optional free text)"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Gender", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "SexualityCloserDescription_NotFiguredOut", 
-                  "display": "Have not figured out or are in the process of figuring our your sexuality"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Gender", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "SexualityCloserDescription_PolyOmniSapioPansexual", 
-                  "display": "Polysexual, omnisexual, sapiosexual or pansexual"
-                }
-              ], 
-              "property": [
-                {
-                  "valueCode": "Question", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Gender", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "GenderIdentity_SexualityCloserDescription", 
-              "display": "Are any of these a closer description of how you think of yourself?"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Gender", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "CloserGenderDescription_Unsure", 
-              "display": "Questioning or unsure of your gender identity"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Gender", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "CloserGenderDescription_TransMan", 
-              "display": "Transman/Transgender Man/FTM"
-            }
-          ], 
-          "property": [
-            {
-              "valueCode": "Question", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Gender", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "Gender_CloserGenderDescription", 
-          "display": "Are any of these a closer description to your gender identity?"
-        }, 
-        {
-          "concept": [
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Gender", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "GenderIdentity_Woman", 
-              "display": "Woman"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Gender", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "GenderIdentity_Transgender", 
-              "display": "Transgender (include jump)"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Gender", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "GenderIdentity_Man", 
-              "display": "Man"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Gender", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "GenderIdentity_AdditionalOptions", 
-              "display": "None of these describe me, and Id like to consider additional options (include jump)"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Gender", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "GenderIdentity_NonBinary", 
-              "display": "Non-binary (include jump)"
-            }
-          ], 
-          "property": [
-            {
-              "valueCode": "Question", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Gender", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "Gender_GenderIdentity", 
-          "display": "What terms best express how you describe your gender identity?"
-        }
-      ], 
-      "property": [
-        {
-          "valueCode": "Topic", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "Gender", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "TheBasics_Gender", 
-      "display": "Gender"
-    }, 
-    {
-      "concept": [
-        {
-          "concept": [
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Marital Status", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "CurrentMaritalStatus_Separated", 
-              "display": "Separated"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Marital Status", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "CurrentMaritalStatus_Divorced", 
-              "display": "Divorced"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Marital Status", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "CurrentMaritalStatus_NeverMarried", 
-              "display": "Never Married"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Marital Status", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "CurrentMaritalStatus_Widowed", 
-              "display": "Widowed"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Marital Status", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "CurrentMaritalStatus_Married", 
-              "display": "Married"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Marital Status", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "CurrentMaritalStatus_LivingWithPartner", 
-              "display": "Living with partner"
-            }
-          ], 
-          "property": [
-            {
-              "valueCode": "Question", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Marital Status", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "MaritalStatus_CurrentMaritalStatus", 
-          "display": "What is your current marital status?"
-        }
-      ], 
-      "property": [
-        {
-          "valueCode": "Topic", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "Marital Status", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "TheBasics_MaritalStatus", 
-      "display": "Marital Status"
-    }, 
-    {
-      "concept": [
-        {
-          "concept": [
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Telephone Info", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "AlternateNumber_Yes", 
-              "display": "Other Phone: Yes"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Telephone Info", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "AlternateNumber_No", 
-              "display": "Other Phone:No"
-            }
-          ], 
-          "property": [
-            {
-              "valueCode": "Question", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Telephone Info", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "PhoneInformation_AlternateNumber", 
-          "display": "Another Number to be Reached at?"
-        }, 
-        {
-          "concept": [
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Telephone Info", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "NumberType_Home", 
-              "display": "Home"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Telephone Info", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "NumberType_Mobile", 
-              "display": "Mobile (cell)"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Telephone Info", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "NumberType_Work", 
-              "display": "Work"
-            }
-          ], 
-          "property": [
-            {
-              "valueCode": "Question", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Telephone Info", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "PhoneInformation_NumberType", 
-          "display": "Type of Phone Number"
-        }
-      ], 
-      "property": [
-        {
-          "valueCode": "Question", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "Telephone Info", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "TheBasics_PhoneInformation", 
-      "display": "Phone Information"
-    }, 
-    {
-      "concept": [
-        {
-          "concept": [
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Income", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "AnnualIncome_10k25k", 
-              "display": "$10,000- $24,999"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Income", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "AnnualIncome_75k100k", 
-              "display": "$75,000-$99,999$"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Income", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "AnnualIncome_100k150k", 
-              "display": "$100,000- $149,999"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Income", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "AnnualIncome_25k35k", 
-              "display": "$25,000- $34,999"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Income", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "AnnualIncome_50k75k", 
-              "display": "$50,000- $74,999"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Income", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "AnnualIncome_less10k", 
-              "display": "Less than $10,000"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Income", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "AnnualIncome_35k50k", 
-              "display": "$35,000- $49,999"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Income", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "AnnualIncome_150k200k", 
-              "display": "$150,000- $199,999"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Income", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "AnnualIncome_more200k", 
-              "display": "$200,000 or more"
-            }
-          ], 
-          "property": [
-            {
-              "valueCode": "Question", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Income", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "Income_AnnualIncome", 
-          "display": "What is your annual household income from all sources?"
-        }
-      ], 
-      "property": [
-        {
-          "valueCode": "Topic", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "Income", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "TheBasics_Income", 
-      "display": "Income"
-    }, 
-    {
-      "concept": [
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Sexual Orientation", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "SexualOrientation_Straight", 
-          "display": "Straight; that is, not gay or lesbian"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Sexual Orientation", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "SexualOrientation_Bisexual", 
-          "display": "Bisexual"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Sexual Orientation", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "SexualOrientation_Gay", 
-          "display": "Gay"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Sexual Orientation", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "SexualOrientation_None", 
-          "display": "None of these describe me, and I'd like to see additional options (include jump)"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Sexual Orientation", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "SexualOrientation_Lesbian", 
-          "display": "Lesbian"
-        }
-      ], 
-      "property": [
-        {
-          "valueCode": "Question", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "Sexual Orientation", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "TheBasics_SexualOrientation", 
-      "display": "Which of the following best represents how you think of yourself?"
-    }, 
-    {
-      "concept": [
-        {
-          "concept": [
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Insurance", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "HealthInsurance_Yes", 
-              "display": "Yes"
-            }, 
-            {
-              "concept": [
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Insurance", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "HealthInsuranceType_StateSponsored", 
-                  "display": "State-sponsored health plan"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Insurance", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "HealthInsuranceType_MediGAP", 
-                  "display": "MEDI-GAP"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Insurance", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "HealthInsuranceType_Private", 
-                  "display": "Private health insurance (includes employer-based)"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Insurance", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "HealthInsuranceType_Medicaid", 
-                  "display": "MEDICAID"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Insurance", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "HealthInsuranceType_NoCoverage", 
-                  "display": "No coverage of any type"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Insurance", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "HealthInsuranceType_SingleService", 
-                  "display": "Single service plan (e.g., dental, vision,  prescriptions)"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Insurance", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "HealthInsuranceType_Medicare", 
-                  "display": "MEDICARE"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Insurance", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "HealthInsuranceType_Military", 
-                  "display": "Military health care (TRICARE/VA/CHAMP-VA)"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Insurance", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "HealthInsuranceType_Indian", 
-                  "display": "Indian health service"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Insurance", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "HealthInsuranceType_OtherGovernment", 
-                  "display": "Other government program"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Insurance", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "HealthInsuranceType_Schip", 
-                  "display": "SCHIP (CHIP/Children\u2019s Health Insurance Program)"
-                }
-              ], 
-              "property": [
-                {
-                  "valueCode": "Question", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Insurance", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "HealthInsurance_HealthInsuranceType", 
-              "display": "What kind of health insurance or health care coverage do you have? Include those that pay for only one type of service (nursing home care, accidents, or dental care). Exclude private plans that only provide extra cash while hospitalized. If you have more than one kind of health insurance, mark all plans that you have."
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Insurance", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "HealthInsurance_No", 
-              "display": "No"
-            }
-          ], 
-          "property": [
-            {
-              "valueCode": "Question", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Insurance", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "Insurance_HealthInsurance", 
-          "display": "Are you covered by health insurance or some other kind of health care plan?"
-        }
-      ], 
-      "property": [
-        {
-          "valueCode": "Topic", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "Insurance", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "TheBasics_Insurance", 
-      "display": "Insurance"
-    }, 
-    {
-      "concept": [
-        {
-          "concept": [
-            {
               "property": [
                 {
                   "valueCode": "Question", 
@@ -5647,36 +5767,6 @@
       ], 
       "code": "ConsentPII", 
       "display": "Consent PII"
-    }, 
-    {
-      "concept": [
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Birthplace", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "Birthplace_USA", 
-          "display": "USA"
-        }
-      ], 
-      "property": [
-        {
-          "valueCode": "Question", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "Birthplace", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "TheBasics_Birthplace", 
-      "display": "In what country were you born?"
     }, 
     {
       "concept": [
@@ -8033,93 +8123,19 @@
       ], 
       "code": "Lifestyle", 
       "display": "Lifestyle"
-    }, 
-    {
-      "concept": [
-        {
-          "concept": [
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Home Ownership", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "CurrentHomeOwn_OtherArrangement", 
-              "display": "Other Arrangement"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Home Ownership", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "CurrentHomeOwn_Rent", 
-              "display": "Rent"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Home Ownership", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "CurrentHomeOwn_Own", 
-              "display": "Own"
-            }
-          ], 
-          "property": [
-            {
-              "valueCode": "Question", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Home Ownership", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "HomeOwn_CurrentHomeOwn", 
-          "display": "Do you own or rent your home?"
-        }
-      ], 
-      "property": [
-        {
-          "valueCode": "Topic", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "Home Ownership", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "TheBasics_HomeOwn", 
-      "display": "Home Ownership"
     }
   ], 
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 564, 
+  "count": 565, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.1.8", 
+  "version": "0.1.9", 
   "hierarchyMeaning": "grouped-by", 
-  "date": "2017-03-28", 
+  "date": "2017-03-29", 
   "property": [
     {
       "code": "concept-type", 

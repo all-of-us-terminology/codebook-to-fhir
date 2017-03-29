@@ -30,16 +30,5 @@
   "Redefined! http://terminology.pmi-ops.org/CodeSystem/ppi : Hispanic_Colombian", 
   "Redefined! http://terminology.pmi-ops.org/CodeSystem/ppi : Hispanic_Ecuadorian", 
   "Redefined! http://terminology.pmi-ops.org/CodeSystem/ppi : Hispanic_Spanish", 
-  "Parent of 'TheBasics_LivingSituation' is 'TheBasics' but does not exist", 
-  "Parent of 'TheBasics_SecondaryContactInfo' is 'TheBasics' but does not exist", 
-  "Parent of 'TheBasics_Race' is 'TheBasics' but does not exist", 
-  "Parent of 'TheBasics_Gender' is 'TheBasics' but does not exist", 
-  "Parent of 'TheBasics_MaritalStatus' is 'TheBasics' but does not exist", 
-  "Parent of 'TheBasics_PhoneInformation' is 'TheBasics' but does not exist", 
-  "Parent of 'TheBasics_Income' is 'TheBasics' but does not exist", 
-  "Parent of 'TheBasics_SexualOrientation' is 'TheBasics' but does not exist", 
-  "Parent of 'TheBasics_Insurance' is 'TheBasics' but does not exist", 
-  "Parent of 'TheBasics_Birthplace' is 'TheBasics' but does not exist", 
-  "Parent of 'TheBasics_HomeOwn' is 'TheBasics' but does not exist", 
   "Term 'OverallHealth_OutsideTravel6MonthWhereTraveled' has type=Question which is a choice type, but no answers associated with it. Hierarchy: ['OverallHealth: None', 'OverallHealth_OutsideTravel6MonthWhereTraveled: open-choice']"
 ]
