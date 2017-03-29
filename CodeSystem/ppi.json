@@ -3,34 +3,6 @@
   "publisher": "Precision Medicine Initiative: All of Us Resarch Program", 
   "concept": [
     {
-      "property": [
-        {
-          "valueCode": "Answer", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "States", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "PIIState_GA", 
-      "display": "Georgia"
-    }, 
-    {
-      "property": [
-        {
-          "valueCode": "Answer", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "States", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "PIIState_WV", 
-      "display": "West Virginia"
-    }, 
-    {
       "concept": [
         {
           "concept": [
@@ -2911,76 +2883,6 @@
       "display": "The Basics"
     }, 
     {
-      "property": [
-        {
-          "valueCode": "Answer", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "States", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "PIIState_IN", 
-      "display": "Indiana"
-    }, 
-    {
-      "property": [
-        {
-          "valueCode": "Answer", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "States", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "PIIState_AZ", 
-      "display": "Arizona"
-    }, 
-    {
-      "property": [
-        {
-          "valueCode": "Answer", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "States", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "PIIState_UT", 
-      "display": "Utah"
-    }, 
-    {
-      "property": [
-        {
-          "valueCode": "Answer", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "States", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "PIIState_MO", 
-      "display": "Missouri"
-    }, 
-    {
-      "property": [
-        {
-          "valueCode": "Answer", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "States", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "PIIState_FL", 
-      "display": "Florida"
-    }, 
-    {
       "concept": [
         {
           "property": [
@@ -3093,104 +2995,6 @@
       ], 
       "code": "PMI", 
       "display": "PMI"
-    }, 
-    {
-      "property": [
-        {
-          "valueCode": "Answer", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "States", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "PIIState_OK", 
-      "display": "Oklahoma"
-    }, 
-    {
-      "property": [
-        {
-          "valueCode": "Answer", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "States", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "PIIState_MT", 
-      "display": "Montana"
-    }, 
-    {
-      "property": [
-        {
-          "valueCode": "Answer", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "States", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "PIIState_ND", 
-      "display": "North Dakota"
-    }, 
-    {
-      "property": [
-        {
-          "valueCode": "Answer", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "States", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "PIIState_OR", 
-      "display": "Oregon"
-    }, 
-    {
-      "property": [
-        {
-          "valueCode": "Answer", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "States", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "PIIState_RI", 
-      "display": "Rhode Island"
-    }, 
-    {
-      "property": [
-        {
-          "valueCode": "Answer", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "States", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "PIIState_MS", 
-      "display": "Mississippi"
-    }, 
-    {
-      "property": [
-        {
-          "valueCode": "Answer", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "States", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "PIIState_MI", 
-      "display": "Michigan"
     }, 
     {
       "concept": [
@@ -4931,314 +4735,6 @@
       "display": "Overall Health"
     }, 
     {
-      "property": [
-        {
-          "valueCode": "Answer", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "States", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "PIIState_AS", 
-      "display": "American Samoa"
-    }, 
-    {
-      "property": [
-        {
-          "valueCode": "Answer", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "States", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "PIIState_NH", 
-      "display": "New Hampshire"
-    }, 
-    {
-      "property": [
-        {
-          "valueCode": "Answer", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "States", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "PIIState_ID", 
-      "display": "Idaho"
-    }, 
-    {
-      "property": [
-        {
-          "valueCode": "Answer", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "States", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "PIIState_WA", 
-      "display": "Washington"
-    }, 
-    {
-      "property": [
-        {
-          "valueCode": "Answer", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "States", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "PIIState_TX", 
-      "display": "Texas"
-    }, 
-    {
-      "property": [
-        {
-          "valueCode": "Answer", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "States", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "PIIState_AK", 
-      "display": "Alaska"
-    }, 
-    {
-      "property": [
-        {
-          "valueCode": "Answer", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "States", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "PIIState_VI", 
-      "display": "Virgin Islands"
-    }, 
-    {
-      "property": [
-        {
-          "valueCode": "Answer", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "States", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "PIIState_NJ", 
-      "display": "New Jersey"
-    }, 
-    {
-      "property": [
-        {
-          "valueCode": "Answer", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "States", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "PIIState_WY", 
-      "display": "Wyoming"
-    }, 
-    {
-      "property": [
-        {
-          "valueCode": "Answer", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "States", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "PIIState_LA", 
-      "display": "Louisiana"
-    }, 
-    {
-      "property": [
-        {
-          "valueCode": "Answer", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "States", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "PIIState_NC", 
-      "display": "North Carolina"
-    }, 
-    {
-      "property": [
-        {
-          "valueCode": "Answer", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "States", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "PIIState_KY", 
-      "display": "Kentucky"
-    }, 
-    {
-      "property": [
-        {
-          "valueCode": "Answer", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "States", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "PIIState_CO", 
-      "display": "Colorado"
-    }, 
-    {
-      "property": [
-        {
-          "valueCode": "Answer", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "States", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "PIIState_MP", 
-      "display": "North Marianas Islands"
-    }, 
-    {
-      "property": [
-        {
-          "valueCode": "Answer", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "States", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "PIIState_MN", 
-      "display": "Minnesota"
-    }, 
-    {
-      "property": [
-        {
-          "valueCode": "Answer", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "States", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "PIIState_ME", 
-      "display": "Maine"
-    }, 
-    {
-      "property": [
-        {
-          "valueCode": "Answer", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "States", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "PIIState_FM", 
-      "display": "Federated States of Micronesia"
-    }, 
-    {
-      "property": [
-        {
-          "valueCode": "Answer", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "States", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "PIIState_IA", 
-      "display": "Iowa"
-    }, 
-    {
-      "property": [
-        {
-          "valueCode": "Answer", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "States", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "PIIState_NV", 
-      "display": "Nevada"
-    }, 
-    {
-      "property": [
-        {
-          "valueCode": "Answer", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "States", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "PIIState_NE", 
-      "display": "Nebraska"
-    }, 
-    {
-      "property": [
-        {
-          "valueCode": "Answer", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "States", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "PIIState_DC", 
-      "display": "District of Columbia"
-    }, 
-    {
-      "property": [
-        {
-          "valueCode": "Answer", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "States", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "PIIState_MH", 
-      "display": "Marshall Islands"
-    }, 
-    {
       "concept": [
         {
           "concept": [
@@ -6133,6 +5629,834 @@
                   "display": "ZIP"
                 }, 
                 {
+                  "concept": [
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "States", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PIIState_GA", 
+                      "display": "Georgia"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "States", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PIIState_WV", 
+                      "display": "West Virginia"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "States", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PIIState_IN", 
+                      "display": "Indiana"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "States", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PIIState_AZ", 
+                      "display": "Arizona"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "States", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PIIState_UT", 
+                      "display": "Utah"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "States", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PIIState_MO", 
+                      "display": "Missouri"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "States", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PIIState_FL", 
+                      "display": "Florida"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "States", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PIIState_OK", 
+                      "display": "Oklahoma"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "States", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PIIState_MT", 
+                      "display": "Montana"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "States", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PIIState_ND", 
+                      "display": "North Dakota"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "States", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PIIState_OR", 
+                      "display": "Oregon"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "States", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PIIState_RI", 
+                      "display": "Rhode Island"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "States", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PIIState_MS", 
+                      "display": "Mississippi"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "States", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PIIState_MI", 
+                      "display": "Michigan"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "States", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PIIState_AS", 
+                      "display": "American Samoa"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "States", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PIIState_NH", 
+                      "display": "New Hampshire"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "States", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PIIState_ID", 
+                      "display": "Idaho"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "States", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PIIState_WA", 
+                      "display": "Washington"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "States", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PIIState_TX", 
+                      "display": "Texas"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "States", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PIIState_AK", 
+                      "display": "Alaska"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "States", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PIIState_VI", 
+                      "display": "Virgin Islands"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "States", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PIIState_NJ", 
+                      "display": "New Jersey"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "States", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PIIState_WY", 
+                      "display": "Wyoming"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "States", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PIIState_LA", 
+                      "display": "Louisiana"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "States", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PIIState_NC", 
+                      "display": "North Carolina"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "States", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PIIState_KY", 
+                      "display": "Kentucky"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "States", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PIIState_CO", 
+                      "display": "Colorado"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "States", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PIIState_MP", 
+                      "display": "North Marianas Islands"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "States", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PIIState_MN", 
+                      "display": "Minnesota"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "States", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PIIState_ME", 
+                      "display": "Maine"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "States", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PIIState_FM", 
+                      "display": "Federated States of Micronesia"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "States", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PIIState_IA", 
+                      "display": "Iowa"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "States", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PIIState_NV", 
+                      "display": "Nevada"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "States", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PIIState_NE", 
+                      "display": "Nebraska"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "States", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PIIState_DC", 
+                      "display": "District of Columbia"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "States", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PIIState_MH", 
+                      "display": "Marshall Islands"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "States", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PIIState_AR", 
+                      "display": "Arkansas"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "States", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PIIState_WI", 
+                      "display": "Wisconsin"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "States", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PIIState_PW", 
+                      "display": "Palau"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "States", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PIIState_CT", 
+                      "display": "Connecticut"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "States", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PIIState_TN", 
+                      "display": "Tennessee"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "States", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PIIState_CA", 
+                      "display": "California"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "States", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PIIState_SD", 
+                      "display": "South Dakota"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "States", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PIIState_OH", 
+                      "display": "Ohio"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "States", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PIIState_DE", 
+                      "display": "Delaware"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "States", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PIIState_PA", 
+                      "display": "Pennsylvania"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "States", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PIIState_HI", 
+                      "display": "Hawaii"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "States", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PIIState_VA", 
+                      "display": "Virginia"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "States", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PIIState_SC", 
+                      "display": "South Carolina"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "States", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PIIState_MA", 
+                      "display": "Massachusetts"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "States", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PIIState_IL", 
+                      "display": "Illinois"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "States", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PIIState_VT", 
+                      "display": "Vermont"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "States", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PIIState_NY", 
+                      "display": "New York"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "States", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PIIState_KS", 
+                      "display": "Kansas"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "States", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PIIState_GU", 
+                      "display": "Guam"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "States", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PIIState_PR", 
+                      "display": "Puerto Rico"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "States", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PIIState_MD", 
+                      "display": "Maryland"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "States", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PIIState_AL", 
+                      "display": "Alabama"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "States", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PIIState_NM", 
+                      "display": "New Mexico"
+                    }
+                  ], 
                   "property": [
                     {
                       "valueCode": "Question", 
@@ -6275,174 +6599,6 @@
       ], 
       "code": "ConsentPII", 
       "display": "Consent PII"
-    }, 
-    {
-      "property": [
-        {
-          "valueCode": "Answer", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "States", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "PIIState_AR", 
-      "display": "Arkansas"
-    }, 
-    {
-      "property": [
-        {
-          "valueCode": "Answer", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "States", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "PIIState_WI", 
-      "display": "Wisconsin"
-    }, 
-    {
-      "property": [
-        {
-          "valueCode": "Answer", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "States", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "PIIState_PW", 
-      "display": "Palau"
-    }, 
-    {
-      "property": [
-        {
-          "valueCode": "Answer", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "States", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "PIIState_CT", 
-      "display": "Connecticut"
-    }, 
-    {
-      "property": [
-        {
-          "valueCode": "Answer", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "States", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "PIIState_TN", 
-      "display": "Tennessee"
-    }, 
-    {
-      "property": [
-        {
-          "valueCode": "Answer", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "States", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "PIIState_CA", 
-      "display": "California"
-    }, 
-    {
-      "property": [
-        {
-          "valueCode": "Answer", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "States", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "PIIState_SD", 
-      "display": "South Dakota"
-    }, 
-    {
-      "property": [
-        {
-          "valueCode": "Answer", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "States", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "PIIState_OH", 
-      "display": "Ohio"
-    }, 
-    {
-      "property": [
-        {
-          "valueCode": "Answer", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "States", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "PIIState_DE", 
-      "display": "Delaware"
-    }, 
-    {
-      "property": [
-        {
-          "valueCode": "Answer", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "States", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "PIIState_PA", 
-      "display": "Pennsylvania"
-    }, 
-    {
-      "property": [
-        {
-          "valueCode": "Answer", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "States", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "PIIState_HI", 
-      "display": "Hawaii"
-    }, 
-    {
-      "property": [
-        {
-          "valueCode": "Answer", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "States", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "PIIState_VA", 
-      "display": "Virginia"
     }, 
     {
       "concept": [
@@ -8799,160 +8955,6 @@
       ], 
       "code": "Lifestyle", 
       "display": "Lifestyle"
-    }, 
-    {
-      "property": [
-        {
-          "valueCode": "Answer", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "States", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "PIIState_SC", 
-      "display": "South Carolina"
-    }, 
-    {
-      "property": [
-        {
-          "valueCode": "Answer", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "States", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "PIIState_MA", 
-      "display": "Massachusetts"
-    }, 
-    {
-      "property": [
-        {
-          "valueCode": "Answer", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "States", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "PIIState_IL", 
-      "display": "Illinois"
-    }, 
-    {
-      "property": [
-        {
-          "valueCode": "Answer", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "States", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "PIIState_VT", 
-      "display": "Vermont"
-    }, 
-    {
-      "property": [
-        {
-          "valueCode": "Answer", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "States", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "PIIState_NY", 
-      "display": "New York"
-    }, 
-    {
-      "property": [
-        {
-          "valueCode": "Answer", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "States", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "PIIState_KS", 
-      "display": "Kansas"
-    }, 
-    {
-      "property": [
-        {
-          "valueCode": "Answer", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "States", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "PIIState_GU", 
-      "display": "Guam"
-    }, 
-    {
-      "property": [
-        {
-          "valueCode": "Answer", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "States", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "PIIState_PR", 
-      "display": "Puerto Rico"
-    }, 
-    {
-      "property": [
-        {
-          "valueCode": "Answer", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "States", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "PIIState_MD", 
-      "display": "Maryland"
-    }, 
-    {
-      "property": [
-        {
-          "valueCode": "Answer", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "States", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "PIIState_AL", 
-      "display": "Alabama"
-    }, 
-    {
-      "property": [
-        {
-          "valueCode": "Answer", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "States", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "PIIState_NM", 
-      "display": "New Mexico"
     }
   ], 
   "name": "pmi-codebook", 
@@ -8963,7 +8965,7 @@
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.2.2", 
+  "version": "0.2.3", 
   "hierarchyMeaning": "grouped-by", 
   "date": "2017-03-29", 
   "property": [
