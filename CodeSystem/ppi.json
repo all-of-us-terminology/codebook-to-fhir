@@ -3,6 +3,34 @@
   "publisher": "Precision Medicine Initiative: All of Us Resarch Program", 
   "concept": [
     {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "States", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "PIIState_GA", 
+      "display": "Georgia"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "States", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "PIIState_WV", 
+      "display": "West Virginia"
+    }, 
+    {
       "concept": [
         {
           "concept": [
@@ -175,20 +203,6 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "CurrentLiving_CollegeCamp", 
-                  "display": "On a college campus"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Living Situation", 
-                      "code": "concept-topic"
-                    }
-                  ], 
                   "code": "CurrentLiving_Family", 
                   "display": "With family"
                 }, 
@@ -205,6 +219,20 @@
                   ], 
                   "code": "CurrentLiving_TemporaryInstitute", 
                   "display": "Hospital, rehabilitation center, drug treatment center, or other temporary institution"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Living Situation", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "CurrentLiving_CollegeCamp", 
+                  "display": "On a college campus"
                 }, 
                 {
                   "property": [
@@ -1215,6 +1243,20 @@
                           "code": "concept-topic"
                         }
                       ], 
+                      "code": "NHPI_Palauan", 
+                      "display": "Palauan"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
                       "code": "NHPI_Tongan", 
                       "display": "Tongan"
                     }, 
@@ -1273,20 +1315,6 @@
                       ], 
                       "code": "NHPI_Chuukese", 
                       "display": "Chuukese"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Race Ethnicity Subcategory", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "NHPI_Palauan", 
-                      "display": "Palauan"
                     }, 
                     {
                       "property": [
@@ -1441,20 +1469,6 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "Black_AfricanAmerican", 
-                      "display": "African American"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Race Ethnicity Subcategory", 
-                          "code": "concept-topic"
-                        }
-                      ], 
                       "code": "Black_Ethiopian", 
                       "display": "Ethiopian"
                     }, 
@@ -1471,6 +1485,20 @@
                       ], 
                       "code": "Black_SouthAfrican", 
                       "display": "South African"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "Black_AfricanAmerican", 
+                      "display": "African American"
                     }, 
                     {
                       "property": [
@@ -1583,6 +1611,20 @@
                           "code": "concept-topic"
                         }
                       ], 
+                      "code": "MENA_Iraqi", 
+                      "display": "Iraqi"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity Subcategory", 
+                          "code": "concept-topic"
+                        }
+                      ], 
                       "code": "MENA_Egypt", 
                       "display": "Egyptian"
                     }, 
@@ -1599,20 +1641,6 @@
                       ], 
                       "code": "MENA_Algerian", 
                       "display": "Algerian"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Race Ethnicity Subcategory", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "MENA_Iraqi", 
-                      "display": "Iraqi"
                     }, 
                     {
                       "property": [
@@ -2621,20 +2649,6 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "HealthInsuranceType_NoCoverage", 
-                      "display": "No coverage of any type"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Insurance", 
-                          "code": "concept-topic"
-                        }
-                      ], 
                       "code": "HealthInsuranceType_SingleService", 
                       "display": "Single service plan (e.g., dental, vision,  prescriptions)"
                     }, 
@@ -2651,6 +2665,20 @@
                       ], 
                       "code": "HealthInsuranceType_Medicare", 
                       "display": "MEDICARE"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Insurance", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "HealthInsuranceType_NoCoverage", 
+                      "display": "No coverage of any type"
                     }, 
                     {
                       "property": [
@@ -2883,6 +2911,76 @@
       "display": "The Basics"
     }, 
     {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "States", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "PIIState_IN", 
+      "display": "Indiana"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "States", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "PIIState_AZ", 
+      "display": "Arizona"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "States", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "PIIState_UT", 
+      "display": "Utah"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "States", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "PIIState_MO", 
+      "display": "Missouri"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "States", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "PIIState_FL", 
+      "display": "Florida"
+    }, 
+    {
       "concept": [
         {
           "property": [
@@ -2995,6 +3093,104 @@
       ], 
       "code": "PMI", 
       "display": "PMI"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "States", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "PIIState_OK", 
+      "display": "Oklahoma"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "States", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "PIIState_MT", 
+      "display": "Montana"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "States", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "PIIState_ND", 
+      "display": "North Dakota"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "States", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "PIIState_OR", 
+      "display": "Oregon"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "States", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "PIIState_RI", 
+      "display": "Rhode Island"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "States", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "PIIState_MS", 
+      "display": "Mississippi"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "States", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "PIIState_MI", 
+      "display": "Michigan"
     }, 
     {
       "concept": [
@@ -4735,7 +4931,1117 @@
       "display": "Overall Health"
     }, 
     {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "States", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "PIIState_AS", 
+      "display": "American Samoa"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "States", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "PIIState_NH", 
+      "display": "New Hampshire"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "States", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "PIIState_ID", 
+      "display": "Idaho"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "States", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "PIIState_WA", 
+      "display": "Washington"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "States", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "PIIState_TX", 
+      "display": "Texas"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "States", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "PIIState_AK", 
+      "display": "Alaska"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "States", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "PIIState_VI", 
+      "display": "Virgin Islands"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "States", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "PIIState_NJ", 
+      "display": "New Jersey"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "States", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "PIIState_WY", 
+      "display": "Wyoming"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "States", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "PIIState_LA", 
+      "display": "Louisiana"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "States", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "PIIState_NC", 
+      "display": "North Carolina"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "States", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "PIIState_KY", 
+      "display": "Kentucky"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "States", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "PIIState_CO", 
+      "display": "Colorado"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "States", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "PIIState_MP", 
+      "display": "North Marianas Islands"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "States", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "PIIState_MN", 
+      "display": "Minnesota"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "States", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "PIIState_ME", 
+      "display": "Maine"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "States", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "PIIState_FM", 
+      "display": "Federated States of Micronesia"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "States", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "PIIState_IA", 
+      "display": "Iowa"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "States", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "PIIState_NV", 
+      "display": "Nevada"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "States", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "PIIState_NE", 
+      "display": "Nebraska"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "States", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "PIIState_DC", 
+      "display": "District of Columbia"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "States", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "PIIState_MH", 
+      "display": "Marshall Islands"
+    }, 
+    {
       "concept": [
+        {
+          "concept": [
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Language", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SpokenWrittenLanguage_ChineseChina", 
+                  "display": "Chinese (China)"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Language", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SpokenWrittenLanguage_Punjabi", 
+                  "display": "Punjabi"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Language", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SpokenWrittenLanguage_English", 
+                  "display": "English"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Language", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SpokenWrittenLanguage_ChineseHongKong", 
+                  "display": "Chinese (Hong Kong)"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Language", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SpokenWrittenLanguage_ItalianSwitzerland", 
+                  "display": "Italian (Switzerland)"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Language", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SpokenWrittenLanguage_Croatian", 
+                  "display": "Croatian"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Language", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SpokenWrittenLanguage_Japanese", 
+                  "display": "Japanese"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Language", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SpokenWrittenLanguage_Norwegian", 
+                  "display": "Norwegian"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Language", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SpokenWrittenLanguage_SpanishArgentina", 
+                  "display": "Spanish (Argentina)"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Language", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SpokenWrittenLanguage_Portuguese", 
+                  "display": "Portuguese"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Language", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SpokenWrittenLanguage_FrysianNetherlands", 
+                  "display": "Frysian (Netherlands)"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Language", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SpokenWrittenLanguage_Korean", 
+                  "display": "Korean"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Language", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SpokenWrittenLanguage_ItalianItaly", 
+                  "display": "Italian (Italy)"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Language", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SpokenWrittenLanguage_EnglishIndia", 
+                  "display": "English (India)"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Language", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SpokenWrittenLanguage_PortugueseBrazil", 
+                  "display": "Portuguese (Brazil)"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Language", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SpokenWrittenLanguage_FrenchSwitzerland", 
+                  "display": "French (Switzerland)"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Language", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SpokenWrittenLanguage_SerbianSerbia", 
+                  "display": "Serbian (Serbia)"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Language", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SpokenWrittenLanguage_French", 
+                  "display": "French"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Language", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SpokenWrittenLanguage_Czech", 
+                  "display": "Czech"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Language", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SpokenWrittenLanguage_EnglishAustralia", 
+                  "display": "English (Australia)"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Language", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SpokenWrittenLanguage_Italian", 
+                  "display": "Italian"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Language", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SpokenWrittenLanguage_SwedishSweden", 
+                  "display": "Swedish (Sweden)"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Language", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SpokenWrittenLanguage_FrenchBelgium", 
+                  "display": "French (Belgium)"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Language", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SpokenWrittenLanguage_DutchNetherlands", 
+                  "display": "Dutch (Netherlands)"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Language", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SpokenWrittenLanguage_Telegu", 
+                  "display": "Telegu"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Language", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SpokenWrittenLanguage_SpanishSpain", 
+                  "display": "Spanish (Spain)"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Language", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SpokenWrittenLanguage_Danish", 
+                  "display": "Danish"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Language", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SpokenWrittenLanguage_Chinese", 
+                  "display": "Chinese"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Language", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SpokenWrittenLanguage_SpanishUruguay", 
+                  "display": "Spanish (Uruguay)"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Language", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SpokenWrittenLanguage_Dutch", 
+                  "display": "Dutch"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Language", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SpokenWrittenLanguage_EnglishSingapore", 
+                  "display": "English (Singapore)"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Language", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SpokenWrittenLanguage_NorwegianNorway", 
+                  "display": "Norwegian (Norway)"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Language", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SpokenWrittenLanguage_Finnish", 
+                  "display": "Finnish"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Language", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SpokenWrittenLanguage_ChineseTaiwan", 
+                  "display": "Chinese (Taiwan)"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Language", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SpokenWrittenLanguage_DutchBelgium", 
+                  "display": "Dutch (Belgium)"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Language", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SpokenWrittenLanguage_Serbian", 
+                  "display": "Serbian"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Language", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SpokenWrittenLanguage_German", 
+                  "display": "German"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Language", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SpokenWrittenLanguage_GermanGermany", 
+                  "display": "German (Germany)"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Language", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SpokenWrittenLanguage_EnglishGreatBritain", 
+                  "display": "English (Great Britain)"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Language", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SpokenWrittenLanguage_Spanish", 
+                  "display": "Spanish"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Language", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SpokenWrittenLanguage_EnglishNewZeland", 
+                  "display": "English (New Zeland)"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Language", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SpokenWrittenLanguage_FrenchFrance", 
+                  "display": "French (France)"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Language", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SpokenWrittenLanguage_Russian", 
+                  "display": "Russian"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Language", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SpokenWrittenLanguage_Hindi", 
+                  "display": "Hindi"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Language", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SpokenWrittenLanguage_Greek", 
+                  "display": "Greek"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Language", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SpokenWrittenLanguage_Swedish", 
+                  "display": "Swedish"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Language", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SpokenWrittenLanguage_Arabic", 
+                  "display": "Arabic"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Language", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SpokenWrittenLanguage_GermanSwitzerland", 
+                  "display": "German (Switzerland)"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Language", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SpokenWrittenLanguage_GermanAustria", 
+                  "display": "German (Austria)"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Language", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SpokenWrittenLanguage_EnglishUnitedStates", 
+                  "display": "English (United States)"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Language", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SpokenWrittenLanguage_RussianRussia", 
+                  "display": "Russian (Russia)"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Language", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SpokenWrittenLanguage_Bengali", 
+                  "display": "Bengali"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Language", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SpokenWrittenLanguage_ChineseSingapore", 
+                  "display": "Chinese (Singapore)"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Language", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SpokenWrittenLanguage_Frysian", 
+                  "display": "Frysian"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Language", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SpokenWrittenLanguage_EnglishCanada", 
+                  "display": "English (Canada)"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Language", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Language_SpokenWrittenLanguage", 
+              "display": "Spoken/Written Language"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Topic", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Language", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "ConsentPII_Language", 
+          "display": "Language"
+        }, 
         {
           "concept": [
             {
@@ -4797,846 +6103,48 @@
         {
           "concept": [
             {
-              "property": [
-                {
-                  "valueCode": "Question", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Address", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "PIIAddress_PIIZIP", 
-              "display": "ZIP"
-            }, 
-            {
               "concept": [
                 {
                   "property": [
                     {
-                      "valueCode": "Answer", 
+                      "valueCode": "Question", 
                       "code": "concept-type"
                     }, 
                     {
-                      "valueCode": "States", 
+                      "valueCode": "Address", 
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "PIIState_GA", 
-                  "display": "Georgia"
+                  "code": "StreetAddress_PIICity", 
+                  "display": "City"
                 }, 
                 {
                   "property": [
                     {
-                      "valueCode": "Answer", 
+                      "valueCode": "Question", 
                       "code": "concept-type"
                     }, 
                     {
-                      "valueCode": "States", 
+                      "valueCode": "Address", 
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "PIIState_WV", 
-                  "display": "West Virginia"
+                  "code": "StreetAddress_PIIZIP", 
+                  "display": "ZIP"
                 }, 
                 {
                   "property": [
                     {
-                      "valueCode": "Answer", 
+                      "valueCode": "Question", 
                       "code": "concept-type"
                     }, 
                     {
-                      "valueCode": "States", 
+                      "valueCode": "Address", 
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "PIIState_IN", 
-                  "display": "Indiana"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "States", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PIIState_AZ", 
-                  "display": "Arizona"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "States", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PIIState_UT", 
-                  "display": "Utah"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "States", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PIIState_MO", 
-                  "display": "Missouri"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "States", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PIIState_FL", 
-                  "display": "Florida"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "States", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PIIState_OK", 
-                  "display": "Oklahoma"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "States", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PIIState_MT", 
-                  "display": "Montana"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "States", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PIIState_ND", 
-                  "display": "North Dakota"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "States", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PIIState_OR", 
-                  "display": "Oregon"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "States", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PIIState_RI", 
-                  "display": "Rhode Island"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "States", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PIIState_MS", 
-                  "display": "Mississippi"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "States", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PIIState_MI", 
-                  "display": "Michigan"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "States", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PIIState_AS", 
-                  "display": "American Samoa"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "States", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PIIState_NH", 
-                  "display": "New Hampshire"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "States", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PIIState_ID", 
-                  "display": "Idaho"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "States", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PIIState_WA", 
-                  "display": "Washington"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "States", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PIIState_TX", 
-                  "display": "Texas"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "States", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PIIState_AK", 
-                  "display": "Alaska"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "States", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PIIState_VI", 
-                  "display": "Virgin Islands"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "States", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PIIState_NJ", 
-                  "display": "New Jersey"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "States", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PIIState_WY", 
-                  "display": "Wyoming"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "States", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PIIState_LA", 
-                  "display": "Louisiana"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "States", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PIIState_NC", 
-                  "display": "North Carolina"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "States", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PIIState_KY", 
-                  "display": "Kentucky"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "States", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PIIState_CO", 
-                  "display": "Colorado"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "States", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PIIState_MP", 
-                  "display": "North Marianas Islands"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "States", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PIIState_MN", 
-                  "display": "Minnesota"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "States", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PIIState_ME", 
-                  "display": "Maine"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "States", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PIIState_FM", 
-                  "display": "Federated States of Micronesia"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "States", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PIIState_IA", 
-                  "display": "Iowa"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "States", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PIIState_NV", 
-                  "display": "Nevada"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "States", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PIIState_NE", 
-                  "display": "Nebraska"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "States", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PIIState_DC", 
-                  "display": "District of Columbia"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "States", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PIIState_MH", 
-                  "display": "Marshall Islands"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "States", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PIIState_AR", 
-                  "display": "Arkansas"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "States", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PIIState_WI", 
-                  "display": "Wisconsin"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "States", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PIIState_PW", 
-                  "display": "Palau"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "States", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PIIState_CT", 
-                  "display": "Connecticut"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "States", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PIIState_TN", 
-                  "display": "Tennessee"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "States", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PIIState_CA", 
-                  "display": "California"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "States", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PIIState_SD", 
-                  "display": "South Dakota"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "States", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PIIState_OH", 
-                  "display": "Ohio"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "States", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PIIState_DE", 
-                  "display": "Delaware"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "States", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PIIState_PA", 
-                  "display": "Pennsylvania"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "States", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PIIState_HI", 
-                  "display": "Hawaii"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "States", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PIIState_VA", 
-                  "display": "Virginia"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "States", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PIIState_SC", 
-                  "display": "South Carolina"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "States", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PIIState_MA", 
-                  "display": "Massachusetts"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "States", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PIIState_IL", 
-                  "display": "Illinois"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "States", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PIIState_VT", 
-                  "display": "Vermont"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "States", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PIIState_NY", 
-                  "display": "New York"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "States", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PIIState_KS", 
-                  "display": "Kansas"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "States", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PIIState_GU", 
-                  "display": "Guam"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "States", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PIIState_PR", 
-                  "display": "Puerto Rico"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "States", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PIIState_MD", 
-                  "display": "Maryland"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "States", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PIIState_AL", 
-                  "display": "Alabama"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "States", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PIIState_NM", 
-                  "display": "New Mexico"
+                  "code": "StreetAddress_PIIState", 
+                  "display": "State"
                 }
               ], 
               "property": [
@@ -5649,22 +6157,8 @@
                   "code": "concept-topic"
                 }
               ], 
-              "code": "PIIAddress_PIIState", 
-              "display": "State"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Question", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Address", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "PIIAddress_PIICity", 
-              "display": "City"
+              "code": "PIIAddress_StreetAddress", 
+              "display": "Street Address"
             }
           ], 
           "property": [
@@ -5753,6 +6247,20 @@
           ], 
           "code": "ConsentPII_PIIContactInformation", 
           "display": "Contact Information"
+        }, 
+        {
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Email Address", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "ConsentPII_EmailAddress", 
+          "display": "Email Address"
         }
       ], 
       "property": [
@@ -5767,6 +6275,174 @@
       ], 
       "code": "ConsentPII", 
       "display": "Consent PII"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "States", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "PIIState_AR", 
+      "display": "Arkansas"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "States", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "PIIState_WI", 
+      "display": "Wisconsin"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "States", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "PIIState_PW", 
+      "display": "Palau"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "States", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "PIIState_CT", 
+      "display": "Connecticut"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "States", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "PIIState_TN", 
+      "display": "Tennessee"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "States", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "PIIState_CA", 
+      "display": "California"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "States", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "PIIState_SD", 
+      "display": "South Dakota"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "States", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "PIIState_OH", 
+      "display": "Ohio"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "States", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "PIIState_DE", 
+      "display": "Delaware"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "States", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "PIIState_PA", 
+      "display": "Pennsylvania"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "States", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "PIIState_HI", 
+      "display": "Hawaii"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "States", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "PIIState_VA", 
+      "display": "Virginia"
     }, 
     {
       "concept": [
@@ -8123,17 +8799,171 @@
       ], 
       "code": "Lifestyle", 
       "display": "Lifestyle"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "States", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "PIIState_SC", 
+      "display": "South Carolina"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "States", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "PIIState_MA", 
+      "display": "Massachusetts"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "States", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "PIIState_IL", 
+      "display": "Illinois"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "States", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "PIIState_VT", 
+      "display": "Vermont"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "States", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "PIIState_NY", 
+      "display": "New York"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "States", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "PIIState_KS", 
+      "display": "Kansas"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "States", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "PIIState_GU", 
+      "display": "Guam"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "States", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "PIIState_PR", 
+      "display": "Puerto Rico"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "States", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "PIIState_MD", 
+      "display": "Maryland"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "States", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "PIIState_AL", 
+      "display": "Alabama"
+    }, 
+    {
+      "property": [
+        {
+          "valueCode": "Answer", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "States", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "PIIState_NM", 
+      "display": "New Mexico"
     }
   ], 
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 565, 
+  "count": 624, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.1.9", 
+  "version": "0.2.2", 
   "hierarchyMeaning": "grouped-by", 
   "date": "2017-03-29", 
   "property": [
