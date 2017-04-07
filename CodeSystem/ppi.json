@@ -337,6 +337,150 @@
         {
           "concept": [
             {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Education Level", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "HighestGrade_NineThroughEleven", 
+                  "display": "Grades 9 through 11 (Some high school)"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Education Level", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "HighestGrade_CollegeGraduate", 
+                  "display": "College 4 years or more (College graduate)"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Education Level", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "HighestGrade_TwelveOrGED", 
+                  "display": "Grade 12 or GED (High school graduate)"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Education Level", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "HighestGrade_FiveThroughEight", 
+                  "display": "Grades 5 through 8 (Secondary)"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Education Level", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "HighestGrade_CollegeOnetoThree", 
+                  "display": "College 1 to 3 years (Some college or technical school)"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Education Level", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "HighestGrade_OneThroughFour", 
+                  "display": "Grades 1 through 4 (Primary)"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Education Level", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "HighestGrade_NeverAttended", 
+                  "display": "Never attended school or only attended kindergarten"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Education Level", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "HighestGrade_AdvancedDegree", 
+                  "display": "Advanced degree (Master's, Doctorate, etc.)"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Education Level", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "EducationLevel_HighestGrade", 
+              "display": "What is the highest grade or year of school you completed?"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Topic", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Education Level", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "TheBasics_EducationLevel", 
+          "display": "Education Level"
+        }, 
+        {
+          "concept": [
+            {
               "property": [
                 {
                   "valueCode": "Question", 
@@ -1969,8 +2113,8 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "GenderIdentity_Woman", 
-                  "display": "Woman"
+                  "code": "GenderIdentity_Transgender", 
+                  "display": "Transgender (include jump)"
                 }, 
                 {
                   "property": [
@@ -1983,8 +2127,8 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "GenderIdentity_Transgender", 
-                  "display": "Transgender (include jump)"
+                  "code": "GenderIdentity_Woman", 
+                  "display": "Woman"
                 }, 
                 {
                   "property": [
@@ -2765,6 +2909,20 @@
           "display": "Insurance"
         }, 
         {
+          "property": [
+            {
+              "valueCode": "Topic", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Biological Sex", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "TheBasics_BiologicalSexAtBirth", 
+          "display": "Biological Sex at Birth"
+        }, 
+        {
           "concept": [
             {
               "property": [
@@ -2881,6 +3039,78 @@
       ], 
       "code": "TheBasics", 
       "display": "The Basics"
+    }, 
+    {
+      "concept": [
+        {
+          "property": [
+            {
+              "valueCode": null, 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Biological Sex", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "SexAtBirth_None", 
+          "display": "None of these describe me (optional free text)"
+        }, 
+        {
+          "property": [
+            {
+              "valueCode": null, 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Biological Sex", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "SexAtBirth_Intersex", 
+          "display": "Intersex"
+        }, 
+        {
+          "property": [
+            {
+              "valueCode": null, 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Biological Sex", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "SexAtBirth_Female", 
+          "display": "Female"
+        }, 
+        {
+          "property": [
+            {
+              "valueCode": "Answer", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Biological Sex", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "SexAtBirth_Male", 
+          "display": "Male"
+        }
+      ], 
+      "property": [
+        {
+          "valueCode": "Question", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Biological Sex", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "BiologicalSex_SexAtBirth", 
+      "display": "What was your biological sex assigned at birth?"
     }, 
     {
       "concept": [
@@ -5935,20 +6165,6 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "PIIState_NJ", 
-                      "display": "New Jersey"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "States", 
-                          "code": "concept-topic"
-                        }
-                      ], 
                       "code": "PIIState_WY", 
                       "display": "Wyoming"
                     }, 
@@ -6021,6 +6237,20 @@
                       ], 
                       "code": "PIIState_MP", 
                       "display": "North Marianas Islands"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "States", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PIIState_NJ", 
+                      "display": "New Jersey"
                     }, 
                     {
                       "property": [
@@ -6545,6 +6775,64 @@
               "display": "Phone"
             }, 
             {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Contact Information", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "RecontactMethod_CellPhone", 
+                  "display": "Recontact Cell Phone"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Contact Information", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "RecontactMethod_Address", 
+                  "display": "Recontact Physical Address"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Contact Information", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "RecontactMethod_HousePhone", 
+                  "display": "Recontact House Phone"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Contact Information", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "RecontactMethod_Email", 
+                  "display": "Recontact Email"
+                }
+              ], 
               "property": [
                 {
                   "valueCode": "Question", 
@@ -8960,14 +9248,14 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 624, 
+  "count": 644, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.2.3", 
+  "version": "0.2.5", 
   "hierarchyMeaning": "grouped-by", 
-  "date": "2017-03-29", 
+  "date": "2017-04-07", 
   "property": [
     {
       "code": "concept-type", 
