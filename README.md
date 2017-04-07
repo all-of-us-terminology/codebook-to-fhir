@@ -1,5 +1,6 @@
 ## Setup
 
+    pip install click
     git clone git@github.com:all-of-us-terminology/codebook-to-fhir.git
     cd codebook-to-fhir
     
