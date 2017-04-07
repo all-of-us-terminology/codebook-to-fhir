@@ -10,7 +10,7 @@
 
 ## Build locally
 
-`   git checkout gh-pages && git pull && git checkout master`.
+    git checkout gh-pages && git pull && git checkout master
     make build
     cat dist/CodeSystem/ppi.issues.json
 
