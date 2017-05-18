@@ -1,137 +1,186 @@
-Display,Topic,Type,PMI System,PMI Code,Parent code,,Standard Code Source,Source URL,LOINC Category Code (Search This),LOINC Category ID,LOINC Answer ID,FHIR System OID,FHIR Level,FHIR Code,UMLS (SNOMED) ConceptID,UMLS (SNOMED) DescriptionID,bcp47 Language Code
-Consent PII ,Module Name,Module Name,http://terminology.pmi-ops.org/CodeSystem/ppi,ConsentPII,                                                 ,,,,,,,,,,,,
-Name,Name,Topic,http://terminology.pmi-ops.org/CodeSystem/ppi,ConsentPII_PIIName,ConsentPII,,,,,,,,,,,,
-First name,Name,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIName_First,ConsentPII_PIIName,,,,,,,,,,,,
-Middle name,Name,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIName_Middle,ConsentPII_PIIName,,,,,,,,,,,,
-Last name,Name,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIName_Last,ConsentPII_PIIName,,,,,,,,,,,,
-Address ,Address,Topic,http://terminology.pmi-ops.org/CodeSystem/ppi,ConsentPII_PIIAddress,ConsentPII,,,,,,,,,,,,
-Street Address,Address,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIAddress_StreetAddress,ConsentPII_PIIAddress,,,,,,,,,,,,
-City,Address,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,StreetAddress_PIICity,PIIAddress_StreetAddress,,,,,,,,,,,,
-State,Address,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,StreetAddress_PIIState,PIIAddress_StreetAddress,,,,,,,,,,,,
-ZIP,Address,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,StreetAddress_PIIZIP,PIIAddress_StreetAddress,,,,,,,,,,,,
-Contact Information,Contact Information,Topic,http://terminology.pmi-ops.org/CodeSystem/ppi,ConsentPII_PIIContactInformation,ConsentPII,,,,,,,,,,,,
-Phone,Contact Information,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIContactInformation_Phone,ConsentPII_PIIContactInformation,,,,,,,,,,,,
-Method of Recontact,Contact Information,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIContactInformation_RecontactMethod,ConsentPII_PIIContactInformation,,,,,,,,,,,,
-Recontact House Phone,Contact Information,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,RecontactMethod_HousePhone,PIIContactInformation_RecontactMethod,,,,,,,,,,,,
-Recontact Cell Phone,Contact Information,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,RecontactMethod_CellPhone,PIIContactInformation_RecontactMethod,,,,,,,,,,,,
-Recontact Email,Contact Information,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,RecontactMethod_Email,PIIContactInformation_RecontactMethod,,,,,,,,,,,,
-Recontact Physical Address,Contact Information,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,RecontactMethod_Address,PIIContactInformation_RecontactMethod,,,,,,,,,,,,
-Birth Information,Birth Information,Topic,http://terminology.pmi-ops.org/CodeSystem/ppi,ConsentPII_PIIBirthInformation,ConsentPII,,,,,,,,,,,,
-Date of Birth,Birth Information,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIBirthInformation_BirthDate,ConsentPII_PIIBirthInformation,,,,,,,,,,,,
-Email Address,Email Address,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,ConsentPII_EmailAddress,ConsentPII,,,,,,,,,,,,
-Alabama,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_AL,StreetAddress_PIIState,,,,,,,,,,,,
-Alaska,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_AK,StreetAddress_PIIState,,,,,,,,,,,,
-American Samoa,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_AS,StreetAddress_PIIState,,,,,,,,,,,,
-Arizona,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_AZ,StreetAddress_PIIState,,,,,,,,,,,,
-Arkansas,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_AR,StreetAddress_PIIState,,,,,,,,,,,,
-California,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_CA,StreetAddress_PIIState,,,,,,,,,,,,
-Colorado,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_CO,StreetAddress_PIIState,,,,,,,,,,,,
-Connecticut,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_CT,StreetAddress_PIIState,,,,,,,,,,,,
-District of Columbia,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_DC,StreetAddress_PIIState,,,,,,,,,,,,
-Delaware,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_DE,StreetAddress_PIIState,,,,,,,,,,,,
-Federated States of Micronesia,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_FM,StreetAddress_PIIState,,,,,,,,,,,,
-Florida,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_FL,StreetAddress_PIIState,,,,,,,,,,,,
-Georgia,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_GA,StreetAddress_PIIState,,,,,,,,,,,,
-Guam,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_GU,StreetAddress_PIIState,,,,,,,,,,,,
-Hawaii,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_HI,StreetAddress_PIIState,,,,,,,,,,,,
-Idaho,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_ID,StreetAddress_PIIState,,,,,,,,,,,,
-Illinois,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_IL,StreetAddress_PIIState,,,,,,,,,,,,
-Indiana,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_IN,StreetAddress_PIIState,,,,,,,,,,,,
-Iowa,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_IA,StreetAddress_PIIState,,,,,,,,,,,,
-Kansas,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_KS,StreetAddress_PIIState,,,,,,,,,,,,
-Kentucky,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_KY,StreetAddress_PIIState,,,,,,,,,,,,
-Louisiana,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_LA,StreetAddress_PIIState,,,,,,,,,,,,
-Maine,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_ME,StreetAddress_PIIState,,,,,,,,,,,,
-Marshall Islands,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_MH,StreetAddress_PIIState,,,,,,,,,,,,
-Maryland,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_MD,StreetAddress_PIIState,,,,,,,,,,,,
-Massachusetts,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_MA,StreetAddress_PIIState,,,,,,,,,,,,
-Michigan,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_MI,StreetAddress_PIIState,,,,,,,,,,,,
-Minnesota,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_MN,StreetAddress_PIIState,,,,,,,,,,,,
-Mississippi,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_MS,StreetAddress_PIIState,,,,,,,,,,,,
-Missouri,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_MO,StreetAddress_PIIState,,,,,,,,,,,,
-Montana,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_MT,StreetAddress_PIIState,,,,,,,,,,,,
-Nebraska,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_NE,StreetAddress_PIIState,,,,,,,,,,,,
-Nevada,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_NV,StreetAddress_PIIState,,,,,,,,,,,,
-New Hampshire,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_NH,StreetAddress_PIIState,,,,,,,,,,,,
-New Jersey,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_NJ,StreetAddress_PIIState,,,,,,,,,,,,
-New Mexico,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_NM,StreetAddress_PIIState,,,,,,,,,,,,
-New York,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_NY,StreetAddress_PIIState,,,,,,,,,,,,
-North Carolina,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_NC,StreetAddress_PIIState,,,,,,,,,,,,
-North Marianas Islands,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_MP,StreetAddress_PIIState,,,,,,,,,,,,
-North Dakota,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_ND,StreetAddress_PIIState,,,,,,,,,,,,
-Ohio,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_OH,StreetAddress_PIIState,,,,,,,,,,,,
-Oklahoma,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_OK,StreetAddress_PIIState,,,,,,,,,,,,
-Oregon,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_OR,StreetAddress_PIIState,,,,,,,,,,,,
-Palau,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_PW,StreetAddress_PIIState,,,,,,,,,,,,
-Pennsylvania,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_PA,StreetAddress_PIIState,,,,,,,,,,,,
-Puerto Rico,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_PR,StreetAddress_PIIState,,,,,,,,,,,,
-Rhode Island,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_RI,StreetAddress_PIIState,,,,,,,,,,,,
-South Carolina,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_SC,StreetAddress_PIIState,,,,,,,,,,,,
-South Dakota,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_SD,StreetAddress_PIIState,,,,,,,,,,,,
-Tennessee,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_TN,StreetAddress_PIIState,,,,,,,,,,,,
-Texas,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_TX,StreetAddress_PIIState,,,,,,,,,,,,
-Utah,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_UT,StreetAddress_PIIState,,,,,,,,,,,,
-Vermont,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_VT,StreetAddress_PIIState,,,,,,,,,,,,
-Virginia,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_VA,StreetAddress_PIIState,,,,,,,,,,,,
-Virgin Islands,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_VI,StreetAddress_PIIState,,,,,,,,,,,,
-Washington,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_WA,StreetAddress_PIIState,,,,,,,,,,,,
-West Virginia,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_WV,StreetAddress_PIIState,,,,,,,,,,,,
-Wisconsin,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_WI,StreetAddress_PIIState,,,,,,,,,,,,
-Wyoming,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_WY,StreetAddress_PIIState,,,,,,,,,,,,
-Language,Language,Topic,http://terminology.pmi-ops.org/CodeSystem/ppi,ConsentPII_Language,ConsentPII,,,,,,,,,,,,
-Spoken/Written Language,Language,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,Language_SpokenWrittenLanguage,ConsentPII_Language,,,,,,,,,,,,
-Arabic,Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_Arabic,Language_SpokenWrittenLanguage,,,,,,,,,,,,ar
-Bengali,Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_Bengali,Language_SpokenWrittenLanguage,,,,,,,,,,,,bn
-Czech,Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_Czech,Language_SpokenWrittenLanguage,,,,,,,,,,,,cs
-Danish,Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_Danish,Language_SpokenWrittenLanguage,,,,,,,,,,,,da
-German,Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_German,Language_SpokenWrittenLanguage,,,,,,,,,,,,de
-German (Austria),Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_GermanAustria,Language_SpokenWrittenLanguage,,,,,,,,,,,,de-AT
-German (Switzerland),Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_GermanSwitzerland,Language_SpokenWrittenLanguage,,,,,,,,,,,,de-CH
-German (Germany),Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_GermanGermany,Language_SpokenWrittenLanguage,,,,,,,,,,,,de-DE
-Greek,Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_Greek,Language_SpokenWrittenLanguage,,,,,,,,,,,,el
-English,Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_English,Language_SpokenWrittenLanguage,,,,,,,,,,,,en
-English (Australia),Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_EnglishAustralia,Language_SpokenWrittenLanguage,,,,,,,,,,,,en-AU
-English (Canada),Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_EnglishCanada,Language_SpokenWrittenLanguage,,,,,,,,,,,,en-CA
-English (Great Britain),Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_EnglishGreatBritain,Language_SpokenWrittenLanguage,,,,,,,,,,,,en-GB
-English (India),Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_EnglishIndia,Language_SpokenWrittenLanguage,,,,,,,,,,,,en-IN
-English (New Zeland),Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_EnglishNewZeland,Language_SpokenWrittenLanguage,,,,,,,,,,,,en-NZ
-English (Singapore),Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_EnglishSingapore,Language_SpokenWrittenLanguage,,,,,,,,,,,,en-SG
-English (United States),Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_EnglishUnitedStates,Language_SpokenWrittenLanguage,,,,,,,,,,,,en-US
-Spanish,Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_Spanish,Language_SpokenWrittenLanguage,,,,,,,,,,,,es
-Spanish (Argentina),Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_SpanishArgentina,Language_SpokenWrittenLanguage,,,,,,,,,,,,es-AR
-Spanish (Spain),Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_SpanishSpain,Language_SpokenWrittenLanguage,,,,,,,,,,,,es-ES
-Spanish (Uruguay),Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_SpanishUruguay,Language_SpokenWrittenLanguage,,,,,,,,,,,,es-UY
-Finnish,Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_Finnish,Language_SpokenWrittenLanguage,,,,,,,,,,,,fi
-French,Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_French,Language_SpokenWrittenLanguage,,,,,,,,,,,,fr
-French (Belgium),Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_FrenchBelgium,Language_SpokenWrittenLanguage,,,,,,,,,,,,fr-BE
-French (Switzerland),Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_FrenchSwitzerland,Language_SpokenWrittenLanguage,,,,,,,,,,,,fr-CH
-French (France),Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_FrenchFrance,Language_SpokenWrittenLanguage,,,,,,,,,,,,fr-FR
-Frysian,Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_Frysian,Language_SpokenWrittenLanguage,,,,,,,,,,,,fy
-Frysian (Netherlands),Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_FrysianNetherlands,Language_SpokenWrittenLanguage,,,,,,,,,,,,fy-NL
-Hindi,Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_Hindi,Language_SpokenWrittenLanguage,,,,,,,,,,,,hi
-Croatian,Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_Croatian,Language_SpokenWrittenLanguage,,,,,,,,,,,,hr
-Italian,Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_Italian,Language_SpokenWrittenLanguage,,,,,,,,,,,,it
-Italian (Switzerland),Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_ItalianSwitzerland,Language_SpokenWrittenLanguage,,,,,,,,,,,,it-CH
-Italian (Italy),Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_ItalianItaly,Language_SpokenWrittenLanguage,,,,,,,,,,,,it-IT
-Japanese,Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_Japanese,Language_SpokenWrittenLanguage,,,,,,,,,,,,ja
-Korean,Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_Korean,Language_SpokenWrittenLanguage,,,,,,,,,,,,ko
-Dutch,Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_Dutch,Language_SpokenWrittenLanguage,,,,,,,,,,,,nl
-Dutch (Belgium),Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_DutchBelgium,Language_SpokenWrittenLanguage,,,,,,,,,,,,nl-BE
-Dutch (Netherlands),Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_DutchNetherlands,Language_SpokenWrittenLanguage,,,,,,,,,,,,nl-NL
-Norwegian,Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_Norwegian,Language_SpokenWrittenLanguage,,,,,,,,,,,,no
-Norwegian (Norway),Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_NorwegianNorway,Language_SpokenWrittenLanguage,,,,,,,,,,,,no-NO
-Punjabi,Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_Punjabi,Language_SpokenWrittenLanguage,,,,,,,,,,,,pa
-Portuguese,Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_Portuguese,Language_SpokenWrittenLanguage,,,,,,,,,,,,pt
-Portuguese (Brazil),Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_PortugueseBrazil,Language_SpokenWrittenLanguage,,,,,,,,,,,,pt-BR
-Russian,Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_Russian,Language_SpokenWrittenLanguage,,,,,,,,,,,,ru
-Russian (Russia),Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_RussianRussia,Language_SpokenWrittenLanguage,,,,,,,,,,,,ru-RU
-Serbian,Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_Serbian,Language_SpokenWrittenLanguage,,,,,,,,,,,,sr
-Serbian (Serbia),Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_SerbianSerbia,Language_SpokenWrittenLanguage,,,,,,,,,,,,sr-SP
-Swedish,Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_Swedish,Language_SpokenWrittenLanguage,,,,,,,,,,,,sv
-Swedish (Sweden),Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_SwedishSweden,Language_SpokenWrittenLanguage,,,,,,,,,,,,sv-SE
-Telegu,Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_Telegu,Language_SpokenWrittenLanguage,,,,,,,,,,,,te
-Chinese,Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_Chinese,Language_SpokenWrittenLanguage,,,,,,,,,,,,zh
-Chinese (China),Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_ChineseChina,Language_SpokenWrittenLanguage,,,,,,,,,,,,zh-CN
-Chinese (Hong Kong),Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_ChineseHongKong,Language_SpokenWrittenLanguage,,,,,,,,,,,,zh-HK
-Chinese (Singapore),Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_ChineseSingapore,Language_SpokenWrittenLanguage,,,,,,,,,,,,zh-SG
-Chinese (Taiwan),Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_ChineseTaiwan,Language_SpokenWrittenLanguage,,,,,,,,,,,,zh-TW
+Display,Topic,Type,PMI System,PMI Code,Parent code,Date of Last Update,,Standard Code Source,Source URL,LOINC Category Code (Search This),LOINC Category ID,LOINC Answer ID,FHIR System OID,FHIR Level,FHIR Code,UMLS (SNOMED) ConceptID,UMLS (SNOMED) DescriptionID,bcp47 Language Code
+Consent PII ,Module Name,Module Name,http://terminology.pmi-ops.org/CodeSystem/ppi,ConsentPII,                                                 ,4/24/2017,,,,,,,,,,,,
+Name,Name,Topic,http://terminology.pmi-ops.org/CodeSystem/ppi,ConsentPII_PIIName,ConsentPII,4/24/2017,,,,,,,,,,,,
+First name,Name,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIName_First,ConsentPII_PIIName,4/24/2017,,,,,,,,,,,,
+Middle name,Name,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIName_Middle,ConsentPII_PIIName,4/24/2017,,,,,,,,,,,,
+Last name,Name,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIName_Last,ConsentPII_PIIName,4/24/2017,,,,,,,,,,,,
+Address ,Address,Topic,http://terminology.pmi-ops.org/CodeSystem/ppi,ConsentPII_PIIAddress,ConsentPII,4/24/2017,,,,,,,,,,,,
+Street Address,Address,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIAddress_StreetAddress,ConsentPII_PIIAddress,4/24/2017,,,,,,,,,,,,
+City,Address,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,StreetAddress_PIICity,PIIAddress_StreetAddress,4/24/2017,,,,,,,,,,,,
+State,Address,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,StreetAddress_PIIState,PIIAddress_StreetAddress,4/24/2017,,,,,,,,,,,,
+ZIP,Address,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,StreetAddress_PIIZIP,PIIAddress_StreetAddress,4/24/2017,,,,,,,,,,,,
+Contact Information,Contact Information,Topic,http://terminology.pmi-ops.org/CodeSystem/ppi,ConsentPII_PIIContactInformation,ConsentPII,4/24/2017,,,,,,,,,,,,
+Phone,Contact Information,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIContactInformation_Phone,ConsentPII_PIIContactInformation,4/24/2017,,,,,,,,,,,,
+Method of Recontact,Contact Information,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIContactInformation_RecontactMethod,ConsentPII_PIIContactInformation,4/24/2017,,,,,,,,,,,,
+Recontact House Phone,Contact Information,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,RecontactMethod_HousePhone,PIIContactInformation_RecontactMethod,4/24/2017,,,,,,,,,,,,
+Recontact Cell Phone,Contact Information,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,RecontactMethod_CellPhone,PIIContactInformation_RecontactMethod,4/24/2017,,,,,,,,,,,,
+Recontact Email,Contact Information,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,RecontactMethod_Email,PIIContactInformation_RecontactMethod,4/24/2017,,,,,,,,,,,,
+Recontact Physical Address,Contact Information,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,RecontactMethod_Address,PIIContactInformation_RecontactMethod,4/24/2017,,,,,,,,,,,,
+Birth Information,Birth Information,Topic,http://terminology.pmi-ops.org/CodeSystem/ppi,ConsentPII_PIIBirthInformation,ConsentPII,4/24/2017,,,,,,,,,,,,
+Date of Birth,Birth Information,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIBirthInformation_BirthDate,ConsentPII_PIIBirthInformation,4/24/2017,,,,,,,,,,,,
+Email Address,Email Address,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,ConsentPII_EmailAddress,ConsentPII,4/24/2017,,,,,,,,,,,,
+Alabama,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_AL,StreetAddress_PIIState,4/24/2017,,,,,,,,,,,,
+Alaska,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_AK,StreetAddress_PIIState,4/24/2017,,,,,,,,,,,,
+American Samoa,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_AS,StreetAddress_PIIState,4/24/2017,,,,,,,,,,,,
+Arizona,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_AZ,StreetAddress_PIIState,4/24/2017,,,,,,,,,,,,
+Arkansas,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_AR,StreetAddress_PIIState,4/24/2017,,,,,,,,,,,,
+California,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_CA,StreetAddress_PIIState,4/24/2017,,,,,,,,,,,,
+Colorado,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_CO,StreetAddress_PIIState,4/24/2017,,,,,,,,,,,,
+Connecticut,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_CT,StreetAddress_PIIState,4/24/2017,,,,,,,,,,,,
+District of Columbia,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_DC,StreetAddress_PIIState,4/24/2017,,,,,,,,,,,,
+Delaware,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_DE,StreetAddress_PIIState,4/24/2017,,,,,,,,,,,,
+Federated States of Micronesia,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_FM,StreetAddress_PIIState,4/24/2017,,,,,,,,,,,,
+Florida,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_FL,StreetAddress_PIIState,4/24/2017,,,,,,,,,,,,
+Georgia,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_GA,StreetAddress_PIIState,4/24/2017,,,,,,,,,,,,
+Guam,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_GU,StreetAddress_PIIState,4/24/2017,,,,,,,,,,,,
+Hawaii,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_HI,StreetAddress_PIIState,4/24/2017,,,,,,,,,,,,
+Idaho,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_ID,StreetAddress_PIIState,4/24/2017,,,,,,,,,,,,
+Illinois,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_IL,StreetAddress_PIIState,4/24/2017,,,,,,,,,,,,
+Indiana,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_IN,StreetAddress_PIIState,4/24/2017,,,,,,,,,,,,
+Iowa,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_IA,StreetAddress_PIIState,4/24/2017,,,,,,,,,,,,
+Kansas,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_KS,StreetAddress_PIIState,4/24/2017,,,,,,,,,,,,
+Kentucky,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_KY,StreetAddress_PIIState,4/24/2017,,,,,,,,,,,,
+Louisiana,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_LA,StreetAddress_PIIState,4/24/2017,,,,,,,,,,,,
+Maine,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_ME,StreetAddress_PIIState,4/24/2017,,,,,,,,,,,,
+Marshall Islands,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_MH,StreetAddress_PIIState,4/24/2017,,,,,,,,,,,,
+Maryland,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_MD,StreetAddress_PIIState,4/24/2017,,,,,,,,,,,,
+Massachusetts,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_MA,StreetAddress_PIIState,4/24/2017,,,,,,,,,,,,
+Michigan,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_MI,StreetAddress_PIIState,4/24/2017,,,,,,,,,,,,
+Minnesota,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_MN,StreetAddress_PIIState,4/24/2017,,,,,,,,,,,,
+Mississippi,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_MS,StreetAddress_PIIState,4/24/2017,,,,,,,,,,,,
+Missouri,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_MO,StreetAddress_PIIState,4/24/2017,,,,,,,,,,,,
+Montana,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_MT,StreetAddress_PIIState,4/24/2017,,,,,,,,,,,,
+Nebraska,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_NE,StreetAddress_PIIState,4/24/2017,,,,,,,,,,,,
+Nevada,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_NV,StreetAddress_PIIState,4/24/2017,,,,,,,,,,,,
+New Hampshire,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_NH,StreetAddress_PIIState,4/24/2017,,,,,,,,,,,,
+New Jersey,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_NJ,StreetAddress_PIIState,4/24/2017,,,,,,,,,,,,
+New Mexico,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_NM,StreetAddress_PIIState,4/24/2017,,,,,,,,,,,,
+New York,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_NY,StreetAddress_PIIState,4/24/2017,,,,,,,,,,,,
+North Carolina,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_NC,StreetAddress_PIIState,4/24/2017,,,,,,,,,,,,
+North Marianas Islands,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_MP,StreetAddress_PIIState,4/24/2017,,,,,,,,,,,,
+North Dakota,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_ND,StreetAddress_PIIState,4/24/2017,,,,,,,,,,,,
+Ohio,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_OH,StreetAddress_PIIState,4/24/2017,,,,,,,,,,,,
+Oklahoma,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_OK,StreetAddress_PIIState,4/24/2017,,,,,,,,,,,,
+Oregon,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_OR,StreetAddress_PIIState,4/24/2017,,,,,,,,,,,,
+Palau,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_PW,StreetAddress_PIIState,4/24/2017,,,,,,,,,,,,
+Pennsylvania,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_PA,StreetAddress_PIIState,4/24/2017,,,,,,,,,,,,
+Puerto Rico,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_PR,StreetAddress_PIIState,4/24/2017,,,,,,,,,,,,
+Rhode Island,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_RI,StreetAddress_PIIState,4/24/2017,,,,,,,,,,,,
+South Carolina,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_SC,StreetAddress_PIIState,4/24/2017,,,,,,,,,,,,
+South Dakota,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_SD,StreetAddress_PIIState,4/24/2017,,,,,,,,,,,,
+Tennessee,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_TN,StreetAddress_PIIState,4/24/2017,,,,,,,,,,,,
+Texas,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_TX,StreetAddress_PIIState,4/24/2017,,,,,,,,,,,,
+Utah,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_UT,StreetAddress_PIIState,4/24/2017,,,,,,,,,,,,
+Vermont,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_VT,StreetAddress_PIIState,4/24/2017,,,,,,,,,,,,
+Virginia,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_VA,StreetAddress_PIIState,4/24/2017,,,,,,,,,,,,
+Virgin Islands,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_VI,StreetAddress_PIIState,4/24/2017,,,,,,,,,,,,
+Washington,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_WA,StreetAddress_PIIState,4/24/2017,,,,,,,,,,,,
+West Virginia,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_WV,StreetAddress_PIIState,4/24/2017,,,,,,,,,,,,
+Wisconsin,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_WI,StreetAddress_PIIState,4/24/2017,,,,,,,,,,,,
+Wyoming,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_WY,StreetAddress_PIIState,4/24/2017,,,,,,,,,,,,
+Language,Language,Topic,http://terminology.pmi-ops.org/CodeSystem/ppi,ConsentPII_Language,ConsentPII,4/24/2017,,,,,,,,,,,,
+Spoken/Written Language,Language,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,Language_SpokenWrittenLanguage,ConsentPII_Language,4/24/2017,,,,,,,,,,,,
+Arabic,Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_Arabic,Language_SpokenWrittenLanguage,4/24/2017,,,,,,,,,,,,ar
+Bengali,Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_Bengali,Language_SpokenWrittenLanguage,4/24/2017,,,,,,,,,,,,bn
+Czech,Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_Czech,Language_SpokenWrittenLanguage,4/24/2017,,,,,,,,,,,,cs
+Danish,Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_Danish,Language_SpokenWrittenLanguage,4/24/2017,,,,,,,,,,,,da
+German,Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_German,Language_SpokenWrittenLanguage,4/24/2017,,,,,,,,,,,,de
+German (Austria),Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_GermanAustria,Language_SpokenWrittenLanguage,4/24/2017,,,,,,,,,,,,de-AT
+German (Switzerland),Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_GermanSwitzerland,Language_SpokenWrittenLanguage,4/24/2017,,,,,,,,,,,,de-CH
+German (Germany),Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_GermanGermany,Language_SpokenWrittenLanguage,4/24/2017,,,,,,,,,,,,de-DE
+Greek,Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_Greek,Language_SpokenWrittenLanguage,4/24/2017,,,,,,,,,,,,el
+English,Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_English,Language_SpokenWrittenLanguage,4/24/2017,,,,,,,,,,,,en
+English (Australia),Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_EnglishAustralia,Language_SpokenWrittenLanguage,4/24/2017,,,,,,,,,,,,en-AU
+English (Canada),Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_EnglishCanada,Language_SpokenWrittenLanguage,4/24/2017,,,,,,,,,,,,en-CA
+English (Great Britain),Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_EnglishGreatBritain,Language_SpokenWrittenLanguage,4/24/2017,,,,,,,,,,,,en-GB
+English (India),Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_EnglishIndia,Language_SpokenWrittenLanguage,4/24/2017,,,,,,,,,,,,en-IN
+English (New Zeland),Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_EnglishNewZeland,Language_SpokenWrittenLanguage,4/24/2017,,,,,,,,,,,,en-NZ
+English (Singapore),Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_EnglishSingapore,Language_SpokenWrittenLanguage,4/24/2017,,,,,,,,,,,,en-SG
+English (United States),Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_EnglishUnitedStates,Language_SpokenWrittenLanguage,4/24/2017,,,,,,,,,,,,en-US
+Spanish,Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_Spanish,Language_SpokenWrittenLanguage,4/24/2017,,,,,,,,,,,,es
+Spanish (Argentina),Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_SpanishArgentina,Language_SpokenWrittenLanguage,4/24/2017,,,,,,,,,,,,es-AR
+Spanish (Spain),Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_SpanishSpain,Language_SpokenWrittenLanguage,4/24/2017,,,,,,,,,,,,es-ES
+Spanish (Uruguay),Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_SpanishUruguay,Language_SpokenWrittenLanguage,4/24/2017,,,,,,,,,,,,es-UY
+Finnish,Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_Finnish,Language_SpokenWrittenLanguage,4/24/2017,,,,,,,,,,,,fi
+French,Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_French,Language_SpokenWrittenLanguage,4/24/2017,,,,,,,,,,,,fr
+French (Belgium),Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_FrenchBelgium,Language_SpokenWrittenLanguage,4/24/2017,,,,,,,,,,,,fr-BE
+French (Switzerland),Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_FrenchSwitzerland,Language_SpokenWrittenLanguage,4/24/2017,,,,,,,,,,,,fr-CH
+French (France),Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_FrenchFrance,Language_SpokenWrittenLanguage,4/24/2017,,,,,,,,,,,,fr-FR
+Frysian,Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_Frysian,Language_SpokenWrittenLanguage,4/24/2017,,,,,,,,,,,,fy
+Frysian (Netherlands),Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_FrysianNetherlands,Language_SpokenWrittenLanguage,4/24/2017,,,,,,,,,,,,fy-NL
+Hindi,Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_Hindi,Language_SpokenWrittenLanguage,4/24/2017,,,,,,,,,,,,hi
+Croatian,Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_Croatian,Language_SpokenWrittenLanguage,4/24/2017,,,,,,,,,,,,hr
+Italian,Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_Italian,Language_SpokenWrittenLanguage,4/24/2017,,,,,,,,,,,,it
+Italian (Switzerland),Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_ItalianSwitzerland,Language_SpokenWrittenLanguage,4/24/2017,,,,,,,,,,,,it-CH
+Italian (Italy),Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_ItalianItaly,Language_SpokenWrittenLanguage,4/24/2017,,,,,,,,,,,,it-IT
+Japanese,Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_Japanese,Language_SpokenWrittenLanguage,4/24/2017,,,,,,,,,,,,ja
+Korean,Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_Korean,Language_SpokenWrittenLanguage,4/24/2017,,,,,,,,,,,,ko
+Dutch,Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_Dutch,Language_SpokenWrittenLanguage,4/24/2017,,,,,,,,,,,,nl
+Dutch (Belgium),Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_DutchBelgium,Language_SpokenWrittenLanguage,4/24/2017,,,,,,,,,,,,nl-BE
+Dutch (Netherlands),Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_DutchNetherlands,Language_SpokenWrittenLanguage,4/24/2017,,,,,,,,,,,,nl-NL
+Norwegian,Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_Norwegian,Language_SpokenWrittenLanguage,4/24/2017,,,,,,,,,,,,no
+Norwegian (Norway),Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_NorwegianNorway,Language_SpokenWrittenLanguage,4/24/2017,,,,,,,,,,,,no-NO
+Punjabi,Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_Punjabi,Language_SpokenWrittenLanguage,4/24/2017,,,,,,,,,,,,pa
+Portuguese,Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_Portuguese,Language_SpokenWrittenLanguage,4/24/2017,,,,,,,,,,,,pt
+Portuguese (Brazil),Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_PortugueseBrazil,Language_SpokenWrittenLanguage,4/24/2017,,,,,,,,,,,,pt-BR
+Russian,Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_Russian,Language_SpokenWrittenLanguage,4/24/2017,,,,,,,,,,,,ru
+Russian (Russia),Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_RussianRussia,Language_SpokenWrittenLanguage,4/24/2017,,,,,,,,,,,,ru-RU
+Serbian,Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_Serbian,Language_SpokenWrittenLanguage,4/24/2017,,,,,,,,,,,,sr
+Serbian (Serbia),Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_SerbianSerbia,Language_SpokenWrittenLanguage,4/24/2017,,,,,,,,,,,,sr-SP
+Swedish,Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_Swedish,Language_SpokenWrittenLanguage,4/24/2017,,,,,,,,,,,,sv
+Swedish (Sweden),Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_SwedishSweden,Language_SpokenWrittenLanguage,4/24/2017,,,,,,,,,,,,sv-SE
+Telegu,Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_Telegu,Language_SpokenWrittenLanguage,4/24/2017,,,,,,,,,,,,te
+Chinese,Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_Chinese,Language_SpokenWrittenLanguage,4/24/2017,,,,,,,,,,,,zh
+Chinese (China),Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_ChineseChina,Language_SpokenWrittenLanguage,4/24/2017,,,,,,,,,,,,zh-CN
+Chinese (Hong Kong),Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_ChineseHongKong,Language_SpokenWrittenLanguage,4/24/2017,,,,,,,,,,,,zh-HK
+Chinese (Singapore),Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_ChineseSingapore,Language_SpokenWrittenLanguage,4/24/2017,,,,,,,,,,,,zh-SG
+Chinese (Taiwan),Language,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenWrittenLanguage_ChineseTaiwan,Language_SpokenWrittenLanguage,4/24/2017,,,,,,,,,,,,zh-TW
+Site Pairing,SitePairing,Topic,http://terminology.pmi-ops.org/CodeSystem/ppi,ConsentPII_SitePairing,ConsentPII,5/17/2017,,,,,,,,,,,,
+SArizona,SitePairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SitePairing_AZSArizona,ConsentPII_SitePairing,5/17/2017,,,,,,,,,,,,
+Banner Behavioral Health,SitePairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SitePairing_BannerBehavioralHealth,ConsentPII_SitePairing,5/17/2017,,,,,,,,,,,,
+CArizona,SitePairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SitePairing_AZCArizona,ConsentPII_SitePairing,5/17/2017,,,,,,,,,,,,
+Banner Goldfield Medical,SitePairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SitePairing_AZBannerGoldfieldMedical,ConsentPII_SitePairing,5/17/2017,,,,,,,,,,,,
+Banner Casa Grande Medical,SitePairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SitePairing_AZBannerCasaGrande,ConsentPII_SitePairing,5/17/2017,,,,,,,,,,,,
+Banner Ironwood Medical,SitePairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SitePairing_AZBannerIronwoodMedical,ConsentPII_SitePairing,5/17/2017,,,,,,,,,,,,
+University of Arizona Medical Center,SitePairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SitePairing_AZUofArizona,ConsentPII_SitePairing,5/17/2017,,,,,,,,,,,,
+Banner Gateway Medical,SitePairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SitePairing_AZBannerGatewayMed,ConsentPII_SitePairing,5/17/2017,,,,,,,,,,,,
+Banner Thunderbird Medical,SitePairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SitePairing_AZBannerThunderbirdMed,ConsentPII_SitePairing,5/17/2017,,,,,,,,,,,,
+Banner MD Anderson Cancer,SitePairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SitePairing_AZBannerMDAnderson,ConsentPII_SitePairing,5/17/2017,,,,,,,,,,,,
+Banner Del E. Webb Medical,SitePairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SitePairing_AZBannerDelEWebbMed,ConsentPII_SitePairing,5/17/2017,,,,,,,,,,,,
+Banner Boswell Medical,SitePairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SitePairing_AZBannerBoswellMed,ConsentPII_SitePairing,5/17/2017,,,,,,,,,,,,
+University of Arizona Health Network (UAHN),SitePairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SitePairing_AZUAHN,ConsentPII_SitePairing,5/17/2017,,,,,,,,,,,,
+no,SitePairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SitePairing_AZ_no,ConsentPII_SitePairing,5/17/2017,,,,,,,,,,,,
+University Physicians Healthcare (UPH),SitePairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SitePairing_AZUPH,ConsentPII_SitePairing,5/17/2017,,,,,,,,,,,,
+University of Arizona Cancer Center,SitePairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SitePairing_AZUofACancerCenter,ConsentPII_SitePairing,5/17/2017,,,,,,,,,,,,
+Banner Desert Medical Center,SitePairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SitePairing_AZBannerDesertMed,ConsentPII_SitePairing,5/17/2017,,,,,,,,,,,,
+yes,SitePairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SitePairing_AZ_yes,ConsentPII_SitePairing,5/17/2017,,,,,,,,,,,,
+Banner University Medical,SitePairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SitePairing_AZBannerUMed,ConsentPII_SitePairing,5/17/2017,,,,,,,,,,,,
+Banner Estrella Medical,SitePairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SitePairing_AZBannerEstrellaMed,ConsentPII_SitePairing,5/17/2017,,,,,,,,,,,,
+University Medical Imaging (UMI),SitePairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SitePairing_AZUMI,ConsentPII_SitePairing,5/17/2017,,,,,,,,,,,,
+Banner Baywood Medical,SitePairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SitePairing_AZBannerBaywoodMed,ConsentPII_SitePairing,5/17/2017,,,,,,,,,,,,
+Banner Heart Hospital,SitePairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SitePairing_AZBannerHeartHospital,ConsentPII_SitePairing,5/17/2017,,,,,,,,,,,,
+Neither,SitePairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SitePairing_Neither,ConsentPII_SitePairing,5/17/2017,,,,,,,,,,,,
+"(u'http://terminology.pmi-ops.org/CodeSystem/ppi'u""Cardon Children's Medical"") ",SitePairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SitePairing_CardonChildrensMedical,ConsentPII_SitePairing,5/17/2017,,,,,,,,,,,,
+ExtraConsent_FitnessTracker_Video,SitePairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SitePairing_FitnessTrackerVideo,ConsentPII_SitePairing,5/17/2017,,,,,,,,,,,,
+Extra Consent,,,http://terminology.pmi-ops.org/CodeSystem/ppi,ConsentPII_ExtraConsent,ConsentPII,5/17/2017,,,,,,,,,,,,
+later,Extra Consent Items,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,ConsentPII_later,ConsentPII_ExtraConsent,5/17/2017,,,,,,,,,,,,
+Copy of Multi Selector,Extra Consent Items,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,ExtraConsent_18YearsofAge,ConsentPII_ExtraConsent,5/17/2017,,,,,,,,,,,,
+Copy of Copy of Copy of Youtube Video,Extra Consent Items,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,ExtraConsent_PhysicalMeausrements_Video,ConsentPII_ExtraConsent,5/17/2017,,,,,,,,,,,,
+help,Extra Consent Items,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,ExtraConsent_help,ConsentPII_ExtraConsent,5/17/2017,,,,,,,,,,,,
+review,Extra Consent Items,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,ExtraConsent_review,ConsentPII_ExtraConsent,5/17/2017,,,,,,,,,,,,
+Youtube Video,Extra Consent Items,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,ExtraConsent_Welcome_Video,ConsentPII_ExtraConsent,5/17/2017,,,,,,,,,,,,
+New Day Selector,Extra Consent Items,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,ExtraConsent_TodaysDate,ConsentPII_ExtraConsent,5/17/2017,,,,,,,,,,,,
+Copy of Copy of Youtube Video,Extra Consent Items,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,ExtraConsent_HealthData_Video,ConsentPII_ExtraConsent,5/17/2017,,,,,,,,,,,,
+Copy of Copy of Copy of Copy of Youtube Video,Extra Consent Items,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,ExtraConsent_Samples_Video,ConsentPII_ExtraConsent,5/17/2017,,,,,,,,,,,,
+Copy of Copy of Copy of Copy of Copy of Copy of Youtube Video,Extra Consent Items,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,ExtraConsent_HealthRecord_Video,ConsentPII_ExtraConsent,5/17/2017,,,,,,,,,,,,
+Signature Box,Extra Consent Items,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,ExtraConsent_Signature,ConsentPII_ExtraConsent,5/17/2017,,,,,,,,,,,,
+Copy of New Day Selector,Extra Consent Items,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,ExtraConsent__CABoR_TodaysDate,ConsentPII_ExtraConsent,5/17/2017,,,,,,,,,,,,
+Copy of Youtube Video,Extra Consent Items,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,ExtraConsent_KeepinginTouch_Video,ConsentPII_ExtraConsent,5/17/2017,,,,,,,,,,,,
+Copy of Copy of Copy of Copy of Copy of Copy of Copy of Youtube Video,Extra Consent Items,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,ExtraConsent_OtherHealthData_Video,ConsentPII_ExtraConsent,5/17/2017,,,,,,,,,,,,
+Copy of Signature Box,Extra Consent Items,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,ExtraConsent_CABoR_Signature,ConsentPII_ExtraConsent,5/17/2017,,,,,,,,,,,,
+Copy of Copy of Copy of Copy of Copy of Youtube Video,Extra Consent Items,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,ExtraConsent_DataSharing_Video,ConsentPII_ExtraConsent,5/17/2017,,,,,,,,,,,,
+next,Extra Consent Items,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,ExtraConsent_next,ConsentPII_ExtraConsent,5/17/2017,,,,,,,,,,,,
+Boolean selector,Extra Consent Items,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,ExtraConsent_EmailACopyToMe,ConsentPII_ExtraConsent,5/17/2017,,,,,,,,,,,,
+Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Youtube Video,Extra Consent Items,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,ExtraConsent_DataShaing_Video,ConsentPII_ExtraConsent,5/17/2017,,,,,,,,,,,,
+ready,Extra Consent Items,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,ExtraConsent_Ready,ConsentPII_ExtraConsent,5/17/2017,,,,,,,,,,,,
+Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Youtube Video,Extra Consent Items,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,ExtraConsent_RisktoPrivacy_Video,ConsentPII_ExtraConsent,5/17/2017,,,,,,,,,,,,
