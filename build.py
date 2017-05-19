@@ -117,8 +117,14 @@ class SheetProcessor(object):
         terms = []
         for name in self.config['sheets']:
             with open("dist/sheets/%s.csv"%name, "rb") as csvfile:
+                rownum = 0
                 reader = csv.DictReader(csvfile)
-                terms += [row for row in reader]
+                for row in reader:
+                    if "".join(row.values()):
+                        terms += [row]
+                        terms[-1]['source'] = name
+                        terms[-1]['row'] = str(rownum)
+                        rownum += 1
 
         self.terms_by_coding = {}
         self.terms_by_parent = {}
