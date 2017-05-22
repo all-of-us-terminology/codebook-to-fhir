@@ -3,7 +3,7 @@ PMI,PMI,Module Name,http://terminology.pmi-ops.org/CodeSystem/ppi,PMI,,4/24/2017
 PMI Skip,PMI,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PMI_Skip,PMI,4/24/2017,,,,,,,,,,,
 PMI Prefer Not To Answer,PMI,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PMI_PreferNotToAnswer,PMI,4/24/2017,,,,,,,,,,,
 PMI Other (Qualifier Value),PMI,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PMI_Other,PMI,4/24/2017,,,,,,,,,,,
-PMI Free Text Answer,PMI,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PMI_FreeText,PMI,4/24/2017,,,,,,,,,,,
+PMI Free Text Answer,PMI,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,PMI_FreeText,PMI,5/17/2017,,,,,,,,,,,
 PMI Question Unanswered,PMI,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PMI_Unanswered,PMI,4/24/2017,,,,,,,,,,,
 PMI Don't Know,PMI,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PMI_DontKnow,PMI,4/24/2017,,,,,,,,,,,
 PMI Not Sure,PMI,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PMI_NotSure,PMI,4/24/2017,,,,,,,,,,,

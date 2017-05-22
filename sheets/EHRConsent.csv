@@ -1,5 +1,5 @@
 Display,Topic,Type,Answer Type,PMI System,PMI Code,Parent code,Date of Last Update,,Standard Code Source,Source URL,LOINC Category Code (Search This),LOINC Category ID,LOINC Answer ID,FHIR System OID,FHIR Level,FHIR Code,UMLS (SNOMED) ConceptID,UMLS (SNOMED) DescriptionID,bcp47 Language Code
-EHRConsent PII ,Module Name,Module Name,,http://terminology.pmi-ops.org/CodeSystem/ppi,EHRConsentPII,                                                 ,4/24/2017,,,,,,,,,,,,
+EHRConsent PII ,Module Name,Module Name,,http://terminology.pmi-ops.org/CodeSystem/ppi,EHRConsentPII,,4/24/2017,,,,,,,,,,,,
 Do you consent?,Consent Permission,Question,,http://terminology.pmi-ops.org/CodeSystem/ppi,EHRConsentPII_ConsentPermission,EHRConsentPII,4/24/2017,,,,,,,,,,,,
 Yes,Consent Permission,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,ConsentPermission_Yes,EHRConsentPII_ConsentPermission,4/24/2017,,,,,,,,,,,,
 No,Consent Permission,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,ConsentPermission_No,EHRConsentPII_ConsentPermission,4/24/2017,,,,,,,,,,,,
@@ -20,3 +20,15 @@ No,Access Questioning,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Acce
 If give access to my EHR is my privacy guaranteed?,Access Questioning,Question,,http://terminology.pmi-ops.org/CodeSystem/ppi,EHRConsentPII_AccessPrivacyGuaruntee,EHRConsentPII,4/24/2017,,,,,,,,,,,,
 Yes,Access Questioning,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,AccessPrivacyGuaruntee_Yes,EHRConsentPII_AccessPrivacyGuaruntee,4/24/2017,,,,,,,,,,,,
 No,Access Questioning,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,AccessPrivacyGuaruntee_No,EHRConsentPII_AccessPrivacyGuaruntee,4/24/2017,,,,,,,,,,,,
+ready,Extra Consent Items,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,EHRConsentPII_Ready,EHRConsentPII,5/19/2017,,,,,,,,,,,,
+later,Extra Consent Items,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,EHRConsentPII_later,EHRConsentPII,5/19/2017,,,,,,,,,,,,
+Access your HER,Extra Consent Items,Question,,http://terminology.pmi-ops.org/CodeSystem/ppi,EHRConsentPII_AccessHER,EHRConsentPII,5/19/2017,,,,,,,,,,,,
+Risk to Privacy,Extra Consent Items,Question,,http://terminology.pmi-ops.org/CodeSystem/ppi,EHRConsentPII_PrivacyRisk,EHRConsentPII,5/19/2017,,,,,,,,,,,,
+"Take as much time you need to decide about giving All of Us access to your EHR. You can review these screens as many times as you like. 
+",Extra Consent Items,Question,multi-selector,http://terminology.pmi-ops.org/CodeSystem/ppi,EHRConsentPII_TakeAsMuchTime,EHRConsentPII,5/19/2017,,,,,,,,,,,,
+review,Extra Consent Items,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,TakeAsMuchTime_Review,EHRConsentPII_TakeAsMuchTime,5/19/2017,,,,,,,,,,,,
+next,Extra Consent Items,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,TakeAsMuchTime_Next,EHRConsentPII_TakeAsMuchTime,5/19/2017,,,,,,,,,,,,
+Take the time you need to decide about joining All of Us. We are here to answer any questions you have.,Extra Consent Items,Question,multi-selector,http://terminology.pmi-ops.org/CodeSystem/ppi,EHRConsentPII_JoinAllOfUs,EHRConsentPII,5/19/2017,,,,,,,,,,,,
+ready,Extra Consent Items,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,JoinAllOfUs_Ready,EHRConsentPII_JoinAllOfUs,5/19/2017,,,,,,,,,,,,
+help,Extra Consent Items,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,JoinAllOfUs_Help,EHRConsentPII_JoinAllOfUs,5/19/2017,,,,,,,,,,,,
+Email a copy to me,,Question,Boolean,http://terminology.pmi-ops.org/CodeSystem/ppi,EHRConsentPII_EmailCopy,EHRConsentPII,5/19/2017,,,,,,,,,,,,
