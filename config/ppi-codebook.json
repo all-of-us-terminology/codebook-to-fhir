@@ -10,11 +10,13 @@
     "PMI": "1791570240",
     "ConsentPII": "328858697",
     "EHRConsent": "709158500",
-    "FamilyHistory": "2141379887",
-    "PersonalMedicalHistory": "1876758546",
-    "MedicationsPPI": "1952525453",
     "OverallHealth": "448841041",
     "Lifestyle": "1838424427",
     "TheBasics": "551947635"
+  },
+  "sheetsToIgnore": {
+    "FamilyHistory": "2141379887",
+    "PersonalMedicalHistory": "1876758546",
+    "MedicationsPPI": "1952525453"
   }
 }
