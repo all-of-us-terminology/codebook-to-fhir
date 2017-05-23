@@ -1,4 +1,4 @@
-import click
+import argparse
 import csv
 import datetime
 import json
@@ -290,11 +290,14 @@ class SheetProcessor(object):
         with open(self.output_file+".bundle.json", "wb") as json_file:
             json.dump(bundle, json_file, indent=2)
 
-@click.command()
-@click.option('--config', default='config/ppi-codebook.json', help='Path to config file')
 def run(config):
     config = json.load(open(config, 'r'))
     SheetProcessor(config)
 
 if __name__ == '__main__':
-    run()
+    parser = argparse.ArgumentParser(description='Build the codebook')
+    parser.add_argument('--config', dest='config',
+                           action='store', default='config/ppi-codebook.json',
+                           help='Path to config file')
+    args = parser.parse_args()
+    run(args.config)
