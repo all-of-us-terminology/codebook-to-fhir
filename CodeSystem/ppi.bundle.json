@@ -571,6 +571,20 @@
                             "code": "concept-topic"
                           }
                         ], 
+                        "code": "PersonOneRelationship_Child", 
+                        "display": "Child"
+                      }, 
+                      {
+                        "property": [
+                          {
+                            "valueCode": "Answer", 
+                            "code": "concept-type"
+                          }, 
+                          {
+                            "valueCode": "Secondary Contact", 
+                            "code": "concept-topic"
+                          }
+                        ], 
                         "code": "PersonOneRelationship_Relative", 
                         "display": "Relative"
                       }, 
@@ -601,20 +615,6 @@
                         ], 
                         "code": "PersonOneRelationship_Friend", 
                         "display": "Friend"
-                      }, 
-                      {
-                        "property": [
-                          {
-                            "valueCode": "Answer", 
-                            "code": "concept-type"
-                          }, 
-                          {
-                            "valueCode": "Secondary Contact", 
-                            "code": "concept-topic"
-                          }
-                        ], 
-                        "code": "PersonOneRelationship_Child", 
-                        "display": "Child"
                       }, 
                       {
                         "property": [
@@ -2647,6 +2647,20 @@
                                     "code": "concept-topic"
                                   }
                                 ], 
+                                "code": "AsianSpecific_Vietnamese", 
+                                "display": "Vietnamese"
+                              }, 
+                              {
+                                "property": [
+                                  {
+                                    "valueCode": "Answer", 
+                                    "code": "concept-type"
+                                  }, 
+                                  {
+                                    "valueCode": "Race Ethnicity Subcategory", 
+                                    "code": "concept-topic"
+                                  }
+                                ], 
                                 "code": "AsianSpecific_Hmong", 
                                 "display": "Hmong"
                               }, 
@@ -2703,20 +2717,6 @@
                                     "code": "concept-topic"
                                   }
                                 ], 
-                                "code": "AsianSpecific_AsianSpecificIndian", 
-                                "display": "Asian Indian"
-                              }, 
-                              {
-                                "property": [
-                                  {
-                                    "valueCode": "Answer", 
-                                    "code": "concept-type"
-                                  }, 
-                                  {
-                                    "valueCode": "Race Ethnicity Subcategory", 
-                                    "code": "concept-topic"
-                                  }
-                                ], 
                                 "code": "AsianSpecific_Pakistani", 
                                 "display": "Pakistani"
                               }, 
@@ -2731,8 +2731,8 @@
                                     "code": "concept-topic"
                                   }
                                 ], 
-                                "code": "AsianSpecific_Cambodian", 
-                                "display": "Cambodian"
+                                "code": "AsianSpecific_AsianSpecificIndian", 
+                                "display": "Asian Indian"
                               }, 
                               {
                                 "property": [
@@ -2745,8 +2745,8 @@
                                     "code": "concept-topic"
                                   }
                                 ], 
-                                "code": "AsianSpecific_Vietnamese", 
-                                "display": "Vietnamese"
+                                "code": "AsianSpecific_Cambodian", 
+                                "display": "Cambodian"
                               }, 
                               {
                                 "property": [
@@ -2789,158 +2789,6 @@
                         ], 
                         "code": "WhatRaceEthnicity_Asian", 
                         "display": "Asian (For example: Asian Indian, Chinese, Filipino, Japanese, Korean, Vietnamese, etc.) *"
-                      }, 
-                      {
-                        "concept": [
-                          {
-                            "concept": [
-                              {
-                                "concept": [
-                                  {
-                                    "property": [
-                                      {
-                                        "valueCode": "Question", 
-                                        "code": "concept-type"
-                                      }, 
-                                      {
-                                        "valueCode": "Race Ethnicity", 
-                                        "code": "concept-topic"
-                                      }
-                                    ], 
-                                    "code": "AmericanIndian_WhatTribeAffiliation", 
-                                    "display": "Provide the name of the tribe in which you are enrolled or affiliated or your tribal descent. (for example, Navajo Nation, Blackfeet Tribe, Mayan, Aztec, Native Village of Barrow Inupiat Traditional Government, Nome Eskimo Community, etc.)"
-                                  }
-                                ], 
-                                "property": [
-                                  {
-                                    "valueCode": "Answer", 
-                                    "code": "concept-type"
-                                  }, 
-                                  {
-                                    "valueCode": "Race Ethnicity Subcategory", 
-                                    "code": "concept-topic"
-                                  }
-                                ], 
-                                "code": "AIANSpecific_AmericanIndian", 
-                                "display": "American Indian"
-                              }, 
-                              {
-                                "concept": [
-                                  {
-                                    "concept": [
-                                      {
-                                        "property": [
-                                          {
-                                            "valueCode": "Answer", 
-                                            "code": "concept-type"
-                                          }, 
-                                          {
-                                            "valueCode": "Race Ethnicity", 
-                                            "code": "concept-topic"
-                                          }
-                                        ], 
-                                        "code": "WhatTribeAffiliation_NotSure", 
-                                        "display": "I'm not sure."
-                                      }, 
-                                      {
-                                        "property": [
-                                          {
-                                            "valueCode": "Answer", 
-                                            "code": "concept-type"
-                                          }, 
-                                          {
-                                            "valueCode": "Race Ethnicity", 
-                                            "code": "concept-topic"
-                                          }
-                                        ], 
-                                        "code": "WhatTribeAffiliation_FreeText", 
-                                        "display": "Free Text Answer (Tribe related)"
-                                      }
-                                    ], 
-                                    "property": [
-                                      {
-                                        "valueCode": "Question", 
-                                        "code": "concept-type"
-                                      }, 
-                                      {
-                                        "valueCode": "Race Ethnicity", 
-                                        "code": "concept-topic"
-                                      }
-                                    ], 
-                                    "code": "CentralSouthAmericanIndian_WhatTribeAffiliation", 
-                                    "display": "Provide the name of the tribe in which you are enrolled or affiliated or your tribal descent. (for example, Navajo Nation, Blackfeet Tribe, Mayan, Aztec, Native Village of Barrow Inupiat Traditional Government, Nome Eskimo Community, etc.)"
-                                  }
-                                ], 
-                                "property": [
-                                  {
-                                    "valueCode": "Answer", 
-                                    "code": "concept-type"
-                                  }, 
-                                  {
-                                    "valueCode": "Race Ethnicity Subcategory", 
-                                    "code": "concept-topic"
-                                  }
-                                ], 
-                                "code": "AIANSpecific_CentralSouthAmericanIndian", 
-                                "display": "Central or South American Indian"
-                              }, 
-                              {
-                                "concept": [
-                                  {
-                                    "property": [
-                                      {
-                                        "valueCode": "Question", 
-                                        "code": "concept-type"
-                                      }, 
-                                      {
-                                        "valueCode": "Race Ethnicity", 
-                                        "code": "concept-topic"
-                                      }
-                                    ], 
-                                    "code": "AlaskaNative_WhatTribeAffiliation", 
-                                    "display": "Provide the name of the tribe in which you are enrolled or affiliated or your tribal descent. (for example, Navajo Nation, Blackfeet Tribe, Mayan, Aztec, Native Village of Barrow Inupiat Traditional Government, Nome Eskimo Community, etc.)"
-                                  }
-                                ], 
-                                "property": [
-                                  {
-                                    "valueCode": "Answer", 
-                                    "code": "concept-type"
-                                  }, 
-                                  {
-                                    "valueCode": "Race Ethnicity Subcategory", 
-                                    "code": "concept-topic"
-                                  }
-                                ], 
-                                "code": "AIANSpecific_AlaskaNative", 
-                                "display": "Alaska Native"
-                              }
-                            ], 
-                            "property": [
-                              {
-                                "valueCode": "Question", 
-                                "code": "concept-type"
-                              }, 
-                              {
-                                "valueCode": "Race Ethnicity", 
-                                "code": "concept-topic"
-                              }
-                            ], 
-                            "code": "AIAN_AIANSpecific", 
-                            "display": "American Indian or Alaska Native (For example: Aztec, Blackfeet Tribe, Mayan, Navajo Nation, Native Village of Barrow Inupiat Traditional Government, Nome Eskimo Community, etc.)*"
-                          }
-                        ], 
-                        "property": [
-                          {
-                            "valueCode": "Answer", 
-                            "code": "concept-type"
-                          }, 
-                          {
-                            "valueCode": "Race Ethnicity", 
-                            "code": "concept-topic"
-                          }
-                        ], 
-                        "code": "WhatRaceEthnicity_AIAN", 
-                        "display": "American Indian or Alaska Native (For example: Aztec, Blackfeet Tribe, Mayan, Navajo Nation, Native Village of Barrow Inupiat Traditional Government, Nome Eskimo Community, etc.)*"
                       }, 
                       {
                         "concept": [
@@ -3199,6 +3047,20 @@
                                     "code": "concept-topic"
                                   }
                                 ], 
+                                "code": "WhiteSpecific_Scottish", 
+                                "display": "Scottish"
+                              }, 
+                              {
+                                "property": [
+                                  {
+                                    "valueCode": "Answer", 
+                                    "code": "concept-type"
+                                  }, 
+                                  {
+                                    "valueCode": "Race Ethnicity Subcategory", 
+                                    "code": "concept-topic"
+                                  }
+                                ], 
                                 "code": "WhiteSpecific_Norwegian", 
                                 "display": "Norwegian"
                               }, 
@@ -3215,20 +3077,6 @@
                                 ], 
                                 "code": "WhiteSpecific_English", 
                                 "display": "English"
-                              }, 
-                              {
-                                "property": [
-                                  {
-                                    "valueCode": "Answer", 
-                                    "code": "concept-type"
-                                  }, 
-                                  {
-                                    "valueCode": "Race Ethnicity Subcategory", 
-                                    "code": "concept-topic"
-                                  }
-                                ], 
-                                "code": "WhiteSpecific_Scottish", 
-                                "display": "Scottish"
                               }, 
                               {
                                 "property": [
@@ -3495,6 +3343,158 @@
                           {
                             "concept": [
                               {
+                                "concept": [
+                                  {
+                                    "property": [
+                                      {
+                                        "valueCode": "Question", 
+                                        "code": "concept-type"
+                                      }, 
+                                      {
+                                        "valueCode": "Race Ethnicity", 
+                                        "code": "concept-topic"
+                                      }
+                                    ], 
+                                    "code": "AmericanIndian_WhatTribeAffiliation", 
+                                    "display": "Provide the name of the tribe in which you are enrolled or affiliated or your tribal descent. (for example, Navajo Nation, Blackfeet Tribe, Mayan, Aztec, Native Village of Barrow Inupiat Traditional Government, Nome Eskimo Community, etc.)"
+                                  }
+                                ], 
+                                "property": [
+                                  {
+                                    "valueCode": "Answer", 
+                                    "code": "concept-type"
+                                  }, 
+                                  {
+                                    "valueCode": "Race Ethnicity Subcategory", 
+                                    "code": "concept-topic"
+                                  }
+                                ], 
+                                "code": "AIANSpecific_AmericanIndian", 
+                                "display": "American Indian"
+                              }, 
+                              {
+                                "concept": [
+                                  {
+                                    "concept": [
+                                      {
+                                        "property": [
+                                          {
+                                            "valueCode": "Answer", 
+                                            "code": "concept-type"
+                                          }, 
+                                          {
+                                            "valueCode": "Race Ethnicity", 
+                                            "code": "concept-topic"
+                                          }
+                                        ], 
+                                        "code": "WhatTribeAffiliation_NotSure", 
+                                        "display": "I'm not sure."
+                                      }, 
+                                      {
+                                        "property": [
+                                          {
+                                            "valueCode": "Answer", 
+                                            "code": "concept-type"
+                                          }, 
+                                          {
+                                            "valueCode": "Race Ethnicity", 
+                                            "code": "concept-topic"
+                                          }
+                                        ], 
+                                        "code": "WhatTribeAffiliation_FreeText", 
+                                        "display": "Free Text Answer (Tribe related)"
+                                      }
+                                    ], 
+                                    "property": [
+                                      {
+                                        "valueCode": "Question", 
+                                        "code": "concept-type"
+                                      }, 
+                                      {
+                                        "valueCode": "Race Ethnicity", 
+                                        "code": "concept-topic"
+                                      }
+                                    ], 
+                                    "code": "CentralSouthAmericanIndian_WhatTribeAffiliation", 
+                                    "display": "Provide the name of the tribe in which you are enrolled or affiliated or your tribal descent. (for example, Navajo Nation, Blackfeet Tribe, Mayan, Aztec, Native Village of Barrow Inupiat Traditional Government, Nome Eskimo Community, etc.)"
+                                  }
+                                ], 
+                                "property": [
+                                  {
+                                    "valueCode": "Answer", 
+                                    "code": "concept-type"
+                                  }, 
+                                  {
+                                    "valueCode": "Race Ethnicity Subcategory", 
+                                    "code": "concept-topic"
+                                  }
+                                ], 
+                                "code": "AIANSpecific_CentralSouthAmericanIndian", 
+                                "display": "Central or South American Indian"
+                              }, 
+                              {
+                                "concept": [
+                                  {
+                                    "property": [
+                                      {
+                                        "valueCode": "Question", 
+                                        "code": "concept-type"
+                                      }, 
+                                      {
+                                        "valueCode": "Race Ethnicity", 
+                                        "code": "concept-topic"
+                                      }
+                                    ], 
+                                    "code": "AlaskaNative_WhatTribeAffiliation", 
+                                    "display": "Provide the name of the tribe in which you are enrolled or affiliated or your tribal descent. (for example, Navajo Nation, Blackfeet Tribe, Mayan, Aztec, Native Village of Barrow Inupiat Traditional Government, Nome Eskimo Community, etc.)"
+                                  }
+                                ], 
+                                "property": [
+                                  {
+                                    "valueCode": "Answer", 
+                                    "code": "concept-type"
+                                  }, 
+                                  {
+                                    "valueCode": "Race Ethnicity Subcategory", 
+                                    "code": "concept-topic"
+                                  }
+                                ], 
+                                "code": "AIANSpecific_AlaskaNative", 
+                                "display": "Alaska Native"
+                              }
+                            ], 
+                            "property": [
+                              {
+                                "valueCode": "Question", 
+                                "code": "concept-type"
+                              }, 
+                              {
+                                "valueCode": "Race Ethnicity", 
+                                "code": "concept-topic"
+                              }
+                            ], 
+                            "code": "AIAN_AIANSpecific", 
+                            "display": "American Indian or Alaska Native (For example: Aztec, Blackfeet Tribe, Mayan, Navajo Nation, Native Village of Barrow Inupiat Traditional Government, Nome Eskimo Community, etc.)*"
+                          }
+                        ], 
+                        "property": [
+                          {
+                            "valueCode": "Answer", 
+                            "code": "concept-type"
+                          }, 
+                          {
+                            "valueCode": "Race Ethnicity", 
+                            "code": "concept-topic"
+                          }
+                        ], 
+                        "code": "WhatRaceEthnicity_AIAN", 
+                        "display": "American Indian or Alaska Native (For example: Aztec, Blackfeet Tribe, Mayan, Navajo Nation, Native Village of Barrow Inupiat Traditional Government, Nome Eskimo Community, etc.)*"
+                      }, 
+                      {
+                        "concept": [
+                          {
+                            "concept": [
+                              {
                                 "property": [
                                   {
                                     "valueCode": "Answer", 
@@ -3521,6 +3521,20 @@
                                 ], 
                                 "code": "BlackSpecific_Ghanaian", 
                                 "display": "Ghanaian"
+                              }, 
+                              {
+                                "property": [
+                                  {
+                                    "valueCode": "Answer", 
+                                    "code": "concept-type"
+                                  }, 
+                                  {
+                                    "valueCode": "Race Ethnicity Subcategory", 
+                                    "code": "concept-topic"
+                                  }
+                                ], 
+                                "code": "BlackSpecific_Ethiopian", 
+                                "display": "Ethiopian"
                               }, 
                               {
                                 "property": [
@@ -3577,20 +3591,6 @@
                                 ], 
                                 "code": "BlackSpecific_Caribbean", 
                                 "display": "Caribbean"
-                              }, 
-                              {
-                                "property": [
-                                  {
-                                    "valueCode": "Answer", 
-                                    "code": "concept-type"
-                                  }, 
-                                  {
-                                    "valueCode": "Race Ethnicity Subcategory", 
-                                    "code": "concept-topic"
-                                  }
-                                ], 
-                                "code": "BlackSpecific_Ethiopian", 
-                                "display": "Ethiopian"
                               }, 
                               {
                                 "property": [
@@ -5315,20 +5315,6 @@
                             "code": "concept-topic"
                           }
                         ], 
-                        "code": "EmploymentStatus_UnableToWork", 
-                        "display": "Unable to work (disabled)"
-                      }, 
-                      {
-                        "property": [
-                          {
-                            "valueCode": "Answer", 
-                            "code": "concept-type"
-                          }, 
-                          {
-                            "valueCode": "Employment", 
-                            "code": "concept-topic"
-                          }
-                        ], 
                         "code": "EmploymentStatus_SelfEmployed", 
                         "display": "Self-\u00ad\u2010employed"
                       }, 
@@ -5345,6 +5331,20 @@
                         ], 
                         "code": "EmploymentStatus_Student", 
                         "display": "A student"
+                      }, 
+                      {
+                        "property": [
+                          {
+                            "valueCode": "Answer", 
+                            "code": "concept-type"
+                          }, 
+                          {
+                            "valueCode": "Employment", 
+                            "code": "concept-topic"
+                          }
+                        ], 
+                        "code": "EmploymentStatus_UnableToWork", 
+                        "display": "Unable to work (disabled)"
                       }, 
                       {
                         "property": [
@@ -5891,92 +5891,6 @@
                 ], 
                 "code": "OverallHealth_DifficultUnderstandInfo", 
                 "display": "How often do you have problems learning about your medical condition because of difficulty understanding written information?"
-              }, 
-              {
-                "concept": [
-                  {
-                    "property": [
-                      {
-                        "valueCode": "Answer", 
-                        "code": "concept-type"
-                      }, 
-                      {
-                        "valueCode": "Mental Health", 
-                        "code": "concept-topic"
-                      }
-                    ], 
-                    "code": "EmotionalProblem7Days_Often", 
-                    "display": "Often"
-                  }, 
-                  {
-                    "property": [
-                      {
-                        "valueCode": "Answer", 
-                        "code": "concept-type"
-                      }, 
-                      {
-                        "valueCode": "Mental Health", 
-                        "code": "concept-topic"
-                      }
-                    ], 
-                    "code": "EmotionalProblem7Days_Always", 
-                    "display": "Always"
-                  }, 
-                  {
-                    "property": [
-                      {
-                        "valueCode": "Answer", 
-                        "code": "concept-type"
-                      }, 
-                      {
-                        "valueCode": "Mental Health", 
-                        "code": "concept-topic"
-                      }
-                    ], 
-                    "code": "EmotionalProblem7Days_Rarely", 
-                    "display": "Rarely"
-                  }, 
-                  {
-                    "property": [
-                      {
-                        "valueCode": "Answer", 
-                        "code": "concept-type"
-                      }, 
-                      {
-                        "valueCode": "Mental Health", 
-                        "code": "concept-topic"
-                      }
-                    ], 
-                    "code": "EmotionalProblem7Days_Sometimes", 
-                    "display": "Sometimes"
-                  }, 
-                  {
-                    "property": [
-                      {
-                        "valueCode": "Answer", 
-                        "code": "concept-type"
-                      }, 
-                      {
-                        "valueCode": "Mental Health", 
-                        "code": "concept-topic"
-                      }
-                    ], 
-                    "code": "EmotionalProblem7Days_Never", 
-                    "display": "Never"
-                  }
-                ], 
-                "property": [
-                  {
-                    "valueCode": "Question", 
-                    "code": "concept-type"
-                  }, 
-                  {
-                    "valueCode": "Mental Health", 
-                    "code": "concept-topic"
-                  }
-                ], 
-                "code": "OverallHealth_EmotionalProblem7Days", 
-                "display": "In the past 7 days, how often have you been bothered by emotional problems such as feeling anxious, depressed or irritable?"
               }, 
               {
                 "concept": [
@@ -6941,6 +6855,92 @@
                         "code": "concept-type"
                       }, 
                       {
+                        "valueCode": "Surgery", 
+                        "code": "concept-topic"
+                      }
+                    ], 
+                    "code": "OvaryRemovalHistory_YesBoth", 
+                    "display": "Yes, both ovaries"
+                  }, 
+                  {
+                    "property": [
+                      {
+                        "valueCode": "Answer", 
+                        "code": "concept-type"
+                      }, 
+                      {
+                        "valueCode": "Surgery", 
+                        "code": "concept-topic"
+                      }
+                    ], 
+                    "code": "OvaryRemovalHistory_NotSure", 
+                    "display": "Not sure"
+                  }, 
+                  {
+                    "property": [
+                      {
+                        "valueCode": "Answer", 
+                        "code": "concept-type"
+                      }, 
+                      {
+                        "valueCode": "Surgery", 
+                        "code": "concept-topic"
+                      }
+                    ], 
+                    "code": "OvaryRemovalHistory_No", 
+                    "display": "No"
+                  }, 
+                  {
+                    "property": [
+                      {
+                        "valueCode": "Answer", 
+                        "code": "concept-type"
+                      }, 
+                      {
+                        "valueCode": "Surgery", 
+                        "code": "concept-topic"
+                      }
+                    ], 
+                    "code": "OvaryRemovalHistory_YesUnsure", 
+                    "display": "Yes, but don\u2019t know whether one or both ovaries"
+                  }, 
+                  {
+                    "property": [
+                      {
+                        "valueCode": "Answer", 
+                        "code": "concept-type"
+                      }, 
+                      {
+                        "valueCode": "Surgery", 
+                        "code": "concept-topic"
+                      }
+                    ], 
+                    "code": "OvaryRemovalHistory_YesSectioned", 
+                    "display": "Yes, but only one ovary or part of one ovary"
+                  }
+                ], 
+                "property": [
+                  {
+                    "valueCode": "Question", 
+                    "code": "concept-type"
+                  }, 
+                  {
+                    "valueCode": "Surgery", 
+                    "code": "concept-topic"
+                  }
+                ], 
+                "code": "OverallHealth_OvaryRemovalHistory", 
+                "display": "Have you ever had an ovary removed?"
+              }, 
+              {
+                "concept": [
+                  {
+                    "property": [
+                      {
+                        "valueCode": "Answer", 
+                        "code": "concept-type"
+                      }, 
+                      {
                         "valueCode": "Medical Form Confidence", 
                         "code": "concept-topic"
                       }
@@ -7399,12 +7399,12 @@
                         "code": "concept-type"
                       }, 
                       {
-                        "valueCode": "Surgery", 
+                        "valueCode": "Mental Health", 
                         "code": "concept-topic"
                       }
                     ], 
-                    "code": "OvaryRemovalHistory_YesBoth", 
-                    "display": "Yes, both ovaries"
+                    "code": "EmotionalProblem7Days_Often", 
+                    "display": "Often"
                   }, 
                   {
                     "property": [
@@ -7413,12 +7413,12 @@
                         "code": "concept-type"
                       }, 
                       {
-                        "valueCode": "Surgery", 
+                        "valueCode": "Mental Health", 
                         "code": "concept-topic"
                       }
                     ], 
-                    "code": "OvaryRemovalHistory_NotSure", 
-                    "display": "Not sure"
+                    "code": "EmotionalProblem7Days_Always", 
+                    "display": "Always"
                   }, 
                   {
                     "property": [
@@ -7427,12 +7427,12 @@
                         "code": "concept-type"
                       }, 
                       {
-                        "valueCode": "Surgery", 
+                        "valueCode": "Mental Health", 
                         "code": "concept-topic"
                       }
                     ], 
-                    "code": "OvaryRemovalHistory_No", 
-                    "display": "No"
+                    "code": "EmotionalProblem7Days_Rarely", 
+                    "display": "Rarely"
                   }, 
                   {
                     "property": [
@@ -7441,12 +7441,12 @@
                         "code": "concept-type"
                       }, 
                       {
-                        "valueCode": "Surgery", 
+                        "valueCode": "Mental Health", 
                         "code": "concept-topic"
                       }
                     ], 
-                    "code": "OvaryRemovalHistory_YesUnsure", 
-                    "display": "Yes, but don\u2019t know whether one or both ovaries"
+                    "code": "EmotionalProblem7Days_Sometimes", 
+                    "display": "Sometimes"
                   }, 
                   {
                     "property": [
@@ -7455,12 +7455,12 @@
                         "code": "concept-type"
                       }, 
                       {
-                        "valueCode": "Surgery", 
+                        "valueCode": "Mental Health", 
                         "code": "concept-topic"
                       }
                     ], 
-                    "code": "OvaryRemovalHistory_YesSectioned", 
-                    "display": "Yes, but only one ovary or part of one ovary"
+                    "code": "EmotionalProblem7Days_Never", 
+                    "display": "Never"
                   }
                 ], 
                 "property": [
@@ -7469,12 +7469,12 @@
                     "code": "concept-type"
                   }, 
                   {
-                    "valueCode": "Surgery", 
+                    "valueCode": "Mental Health", 
                     "code": "concept-topic"
                   }
                 ], 
-                "code": "OverallHealth_OvaryRemovalHistory", 
-                "display": "Have you ever had an ovary removed?"
+                "code": "OverallHealth_EmotionalProblem7Days", 
+                "display": "In the past 7 days, how often have you been bothered by emotional problems such as feeling anxious, depressed or irritable?"
               }, 
               {
                 "concept": [
@@ -7577,472 +7577,6 @@
             ], 
             "code": "OverallHealth", 
             "display": "Overall Health"
-          }, 
-          {
-            "concept": [
-              {
-                "concept": [
-                  {
-                    "property": [
-                      {
-                        "valueCode": "Answer", 
-                        "code": "concept-type"
-                      }, 
-                      {
-                        "valueCode": "Extra Consent Items", 
-                        "code": "concept-topic"
-                      }
-                    ], 
-                    "code": "TakeAsMuchTime_Next", 
-                    "display": "next"
-                  }, 
-                  {
-                    "property": [
-                      {
-                        "valueCode": "Answer", 
-                        "code": "concept-type"
-                      }, 
-                      {
-                        "valueCode": "Extra Consent Items", 
-                        "code": "concept-topic"
-                      }
-                    ], 
-                    "code": "TakeAsMuchTime_Review", 
-                    "display": "review"
-                  }
-                ], 
-                "property": [
-                  {
-                    "valueCode": "Question", 
-                    "code": "concept-type"
-                  }, 
-                  {
-                    "valueCode": "Extra Consent Items", 
-                    "code": "concept-topic"
-                  }
-                ], 
-                "code": "EHRConsentPII_TakeAsMuchTime", 
-                "display": "Take as much time you need to decide about giving All of Us access to your EHR. You can review these screens as many times as you like."
-              }, 
-              {
-                "concept": [
-                  {
-                    "property": [
-                      {
-                        "valueCode": "Answer", 
-                        "code": "concept-type"
-                      }, 
-                      {
-                        "valueCode": "Access Questioning", 
-                        "code": "concept-topic"
-                      }
-                    ], 
-                    "code": "AccessPrivacyGuaruntee_Yes", 
-                    "display": "Yes"
-                  }, 
-                  {
-                    "property": [
-                      {
-                        "valueCode": "Answer", 
-                        "code": "concept-type"
-                      }, 
-                      {
-                        "valueCode": "Access Questioning", 
-                        "code": "concept-topic"
-                      }
-                    ], 
-                    "code": "AccessPrivacyGuaruntee_No", 
-                    "display": "No"
-                  }
-                ], 
-                "property": [
-                  {
-                    "valueCode": "Question", 
-                    "code": "concept-type"
-                  }, 
-                  {
-                    "valueCode": "Access Questioning", 
-                    "code": "concept-topic"
-                  }
-                ], 
-                "code": "EHRConsentPII_AccessPrivacyGuaruntee", 
-                "display": "If give access to my EHR is my privacy guaranteed?"
-              }, 
-              {
-                "property": [
-                  {
-                    "valueCode": "Question", 
-                    "code": "concept-type"
-                  }, 
-                  {
-                    "valueCode": "Date", 
-                    "code": "concept-topic"
-                  }
-                ], 
-                "code": "EHRConsentPII_TodaysDate", 
-                "display": "Today's Date"
-              }, 
-              {
-                "concept": [
-                  {
-                    "property": [
-                      {
-                        "valueCode": "Answer", 
-                        "code": "concept-type"
-                      }, 
-                      {
-                        "valueCode": "Extra Consent Items", 
-                        "code": "concept-topic"
-                      }
-                    ], 
-                    "code": "JoinAllOfUs_Ready", 
-                    "display": "ready"
-                  }, 
-                  {
-                    "property": [
-                      {
-                        "valueCode": "Answer", 
-                        "code": "concept-type"
-                      }, 
-                      {
-                        "valueCode": "Extra Consent Items", 
-                        "code": "concept-topic"
-                      }
-                    ], 
-                    "code": "JoinAllOfUs_Help", 
-                    "display": "help"
-                  }
-                ], 
-                "property": [
-                  {
-                    "valueCode": "Question", 
-                    "code": "concept-type"
-                  }, 
-                  {
-                    "valueCode": "Extra Consent Items", 
-                    "code": "concept-topic"
-                  }
-                ], 
-                "code": "EHRConsentPII_JoinAllOfUs", 
-                "display": "Take the time you need to decide about joining All of Us. We are here to answer any questions you have."
-              }, 
-              {
-                "property": [
-                  {
-                    "valueCode": "Answer", 
-                    "code": "concept-type"
-                  }, 
-                  {
-                    "valueCode": "Extra Consent Items", 
-                    "code": "concept-topic"
-                  }
-                ], 
-                "code": "EHRConsentPII_later", 
-                "display": "later"
-              }, 
-              {
-                "concept": [
-                  {
-                    "property": [
-                      {
-                        "valueCode": "Answer", 
-                        "code": "concept-type"
-                      }, 
-                      {
-                        "valueCode": "Consent Permission", 
-                        "code": "concept-topic"
-                      }
-                    ], 
-                    "code": "ConsentPermission_No", 
-                    "display": "No"
-                  }, 
-                  {
-                    "property": [
-                      {
-                        "valueCode": "Answer", 
-                        "code": "concept-type"
-                      }, 
-                      {
-                        "valueCode": "Consent Permission", 
-                        "code": "concept-topic"
-                      }
-                    ], 
-                    "code": "ConsentPermission_Yes", 
-                    "display": "Yes"
-                  }
-                ], 
-                "property": [
-                  {
-                    "valueCode": "Question", 
-                    "code": "concept-type"
-                  }, 
-                  {
-                    "valueCode": "Consent Permission", 
-                    "code": "concept-topic"
-                  }
-                ], 
-                "code": "EHRConsentPII_ConsentPermission", 
-                "display": "Do you consent?"
-              }, 
-              {
-                "concept": [
-                  {
-                    "property": [
-                      {
-                        "valueCode": "Answer", 
-                        "code": "concept-type"
-                      }, 
-                      {
-                        "valueCode": "Access Questioning", 
-                        "code": "concept-topic"
-                      }
-                    ], 
-                    "code": "SensitiveInfoAccess_No", 
-                    "display": "No"
-                  }, 
-                  {
-                    "property": [
-                      {
-                        "valueCode": "Answer", 
-                        "code": "concept-type"
-                      }, 
-                      {
-                        "valueCode": "Access Questioning", 
-                        "code": "concept-topic"
-                      }
-                    ], 
-                    "code": "SensitiveInfoAccess_Yes", 
-                    "display": "Yes"
-                  }
-                ], 
-                "property": [
-                  {
-                    "valueCode": "Question", 
-                    "code": "concept-type"
-                  }, 
-                  {
-                    "valueCode": "Access Questioning", 
-                    "code": "concept-topic"
-                  }
-                ], 
-                "code": "EHRConsentPII_SensitiveInfoAccess", 
-                "display": "Will all of us access sensitive information in the EHR?"
-              }, 
-              {
-                "property": [
-                  {
-                    "valueCode": "Question", 
-                    "code": "concept-type"
-                  }, 
-                  {
-                    "valueCode": "Extra Consent Items", 
-                    "code": "concept-topic"
-                  }
-                ], 
-                "code": "EHRConsentPII_AccessHER", 
-                "display": "Access your HER"
-              }, 
-              {
-                "property": [
-                  {
-                    "valueCode": "Question", 
-                    "code": "concept-type"
-                  }, 
-                  {
-                    "valueCode": "Signature", 
-                    "code": "concept-topic"
-                  }
-                ], 
-                "code": "EHRConsentPII_Signature", 
-                "display": "Signature Box"
-              }, 
-              {
-                "property": [
-                  {
-                    "valueCode": "Question", 
-                    "code": "concept-type"
-                  }, 
-                  {
-                    "valueCode": "Extra Consent Items", 
-                    "code": "concept-topic"
-                  }
-                ], 
-                "code": "EHRConsentPII_PrivacyRisk", 
-                "display": "Risk to Privacy"
-              }, 
-              {
-                "concept": [
-                  {
-                    "property": [
-                      {
-                        "valueCode": "Answer", 
-                        "code": "concept-type"
-                      }, 
-                      {
-                        "valueCode": "Quiz Ready", 
-                        "code": "concept-topic"
-                      }
-                    ], 
-                    "code": "AreYouReady_No", 
-                    "display": "No"
-                  }, 
-                  {
-                    "property": [
-                      {
-                        "valueCode": "Answer", 
-                        "code": "concept-type"
-                      }, 
-                      {
-                        "valueCode": "Quiz Ready", 
-                        "code": "concept-topic"
-                      }
-                    ], 
-                    "code": "AreYouReady_Yes", 
-                    "display": "Yes"
-                  }
-                ], 
-                "property": [
-                  {
-                    "valueCode": "Question", 
-                    "code": "concept-type"
-                  }, 
-                  {
-                    "valueCode": "Quiz Ready", 
-                    "code": "concept-topic"
-                  }
-                ], 
-                "code": "EHRConsentPII_AreYouReady", 
-                "display": "Are you ready to take the quiz?"
-              }, 
-              {
-                "concept": [
-                  {
-                    "property": [
-                      {
-                        "valueCode": "Answer", 
-                        "code": "concept-type"
-                      }, 
-                      {
-                        "valueCode": "Access Questioning", 
-                        "code": "concept-topic"
-                      }
-                    ], 
-                    "code": "AllOfAccess_No", 
-                    "display": "No"
-                  }, 
-                  {
-                    "property": [
-                      {
-                        "valueCode": "Answer", 
-                        "code": "concept-type"
-                      }, 
-                      {
-                        "valueCode": "Access Questioning", 
-                        "code": "concept-topic"
-                      }
-                    ], 
-                    "code": "AllOfAccess_Yes", 
-                    "display": "Yes"
-                  }
-                ], 
-                "property": [
-                  {
-                    "valueCode": "Question", 
-                    "code": "concept-type"
-                  }, 
-                  {
-                    "valueCode": "Access Questioning", 
-                    "code": "concept-topic"
-                  }
-                ], 
-                "code": "EHRConsentPII_AllOfAccess", 
-                "display": "Do I have to give all of us access to my EHR?"
-              }, 
-              {
-                "property": [
-                  {
-                    "valueCode": "Answer", 
-                    "code": "concept-type"
-                  }, 
-                  {
-                    "valueCode": "Extra Consent Items", 
-                    "code": "concept-topic"
-                  }
-                ], 
-                "code": "EHRConsentPII_Ready", 
-                "display": "ready"
-              }, 
-              {
-                "concept": [
-                  {
-                    "property": [
-                      {
-                        "valueCode": "Answer", 
-                        "code": "concept-type"
-                      }, 
-                      {
-                        "valueCode": "Access Questioning", 
-                        "code": "concept-topic"
-                      }
-                    ], 
-                    "code": "AccessChangeMind_Yes", 
-                    "display": "Yes"
-                  }, 
-                  {
-                    "property": [
-                      {
-                        "valueCode": "Answer", 
-                        "code": "concept-type"
-                      }, 
-                      {
-                        "valueCode": "Access Questioning", 
-                        "code": "concept-topic"
-                      }
-                    ], 
-                    "code": "AccessChangeMind_No", 
-                    "display": "No"
-                  }
-                ], 
-                "property": [
-                  {
-                    "valueCode": "Question", 
-                    "code": "concept-type"
-                  }, 
-                  {
-                    "valueCode": "Access Questioning", 
-                    "code": "concept-topic"
-                  }
-                ], 
-                "code": "EHRConsentPII_AccessChangeMind", 
-                "display": "Once I give access to my EHR can I change my mind?"
-              }, 
-              {
-                "property": [
-                  {
-                    "valueCode": "Question", 
-                    "code": "concept-type"
-                  }, 
-                  {
-                    "valueCode": null, 
-                    "code": "concept-topic"
-                  }
-                ], 
-                "code": "EHRConsentPII_EmailCopy", 
-                "display": "Email a copy to me"
-              }
-            ], 
-            "property": [
-              {
-                "valueCode": "Module Name", 
-                "code": "concept-type"
-              }, 
-              {
-                "valueCode": "Module Name", 
-                "code": "concept-topic"
-              }
-            ], 
-            "code": "EHRConsentPII", 
-            "display": "EHRConsent PII"
           }, 
           {
             "concept": [
@@ -11039,6 +10573,472 @@
               {
                 "concept": [
                   {
+                    "property": [
+                      {
+                        "valueCode": "Answer", 
+                        "code": "concept-type"
+                      }, 
+                      {
+                        "valueCode": "Extra Consent Items", 
+                        "code": "concept-topic"
+                      }
+                    ], 
+                    "code": "TakeAsMuchTime_Next", 
+                    "display": "next"
+                  }, 
+                  {
+                    "property": [
+                      {
+                        "valueCode": "Answer", 
+                        "code": "concept-type"
+                      }, 
+                      {
+                        "valueCode": "Extra Consent Items", 
+                        "code": "concept-topic"
+                      }
+                    ], 
+                    "code": "TakeAsMuchTime_Review", 
+                    "display": "review"
+                  }
+                ], 
+                "property": [
+                  {
+                    "valueCode": "Question", 
+                    "code": "concept-type"
+                  }, 
+                  {
+                    "valueCode": "Extra Consent Items", 
+                    "code": "concept-topic"
+                  }
+                ], 
+                "code": "EHRConsentPII_TakeAsMuchTime", 
+                "display": "Take as much time you need to decide about giving All of Us access to your EHR. You can review these screens as many times as you like."
+              }, 
+              {
+                "concept": [
+                  {
+                    "property": [
+                      {
+                        "valueCode": "Answer", 
+                        "code": "concept-type"
+                      }, 
+                      {
+                        "valueCode": "Access Questioning", 
+                        "code": "concept-topic"
+                      }
+                    ], 
+                    "code": "AccessPrivacyGuaruntee_No", 
+                    "display": "No"
+                  }, 
+                  {
+                    "property": [
+                      {
+                        "valueCode": "Answer", 
+                        "code": "concept-type"
+                      }, 
+                      {
+                        "valueCode": "Access Questioning", 
+                        "code": "concept-topic"
+                      }
+                    ], 
+                    "code": "AccessPrivacyGuaruntee_Yes", 
+                    "display": "Yes"
+                  }
+                ], 
+                "property": [
+                  {
+                    "valueCode": "Question", 
+                    "code": "concept-type"
+                  }, 
+                  {
+                    "valueCode": "Access Questioning", 
+                    "code": "concept-topic"
+                  }
+                ], 
+                "code": "EHRConsentPII_AccessPrivacyGuaruntee", 
+                "display": "If give access to my EHR is my privacy guaranteed?"
+              }, 
+              {
+                "property": [
+                  {
+                    "valueCode": "Question", 
+                    "code": "concept-type"
+                  }, 
+                  {
+                    "valueCode": "Extra Consent Items", 
+                    "code": "concept-topic"
+                  }
+                ], 
+                "code": "EHRConsentPII_AccessHER", 
+                "display": "Access your HER"
+              }, 
+              {
+                "property": [
+                  {
+                    "valueCode": "Question", 
+                    "code": "concept-type"
+                  }, 
+                  {
+                    "valueCode": "Date", 
+                    "code": "concept-topic"
+                  }
+                ], 
+                "code": "EHRConsentPII_TodaysDate", 
+                "display": "Today's Date"
+              }, 
+              {
+                "concept": [
+                  {
+                    "property": [
+                      {
+                        "valueCode": "Answer", 
+                        "code": "concept-type"
+                      }, 
+                      {
+                        "valueCode": "Extra Consent Items", 
+                        "code": "concept-topic"
+                      }
+                    ], 
+                    "code": "JoinAllOfUs_Ready", 
+                    "display": "ready"
+                  }, 
+                  {
+                    "property": [
+                      {
+                        "valueCode": "Answer", 
+                        "code": "concept-type"
+                      }, 
+                      {
+                        "valueCode": "Extra Consent Items", 
+                        "code": "concept-topic"
+                      }
+                    ], 
+                    "code": "JoinAllOfUs_Help", 
+                    "display": "help"
+                  }
+                ], 
+                "property": [
+                  {
+                    "valueCode": "Question", 
+                    "code": "concept-type"
+                  }, 
+                  {
+                    "valueCode": "Extra Consent Items", 
+                    "code": "concept-topic"
+                  }
+                ], 
+                "code": "EHRConsentPII_JoinAllOfUs", 
+                "display": "Take the time you need to decide about joining All of Us. We are here to answer any questions you have."
+              }, 
+              {
+                "property": [
+                  {
+                    "valueCode": "Question", 
+                    "code": "concept-type"
+                  }, 
+                  {
+                    "valueCode": "Extra Consent Items", 
+                    "code": "concept-topic"
+                  }
+                ], 
+                "code": "EHRConsentPII_PrivacyRisk", 
+                "display": "Risk to Privacy"
+              }, 
+              {
+                "concept": [
+                  {
+                    "property": [
+                      {
+                        "valueCode": "Answer", 
+                        "code": "concept-type"
+                      }, 
+                      {
+                        "valueCode": "Access Questioning", 
+                        "code": "concept-topic"
+                      }
+                    ], 
+                    "code": "SensitiveInfoAccess_No", 
+                    "display": "No"
+                  }, 
+                  {
+                    "property": [
+                      {
+                        "valueCode": "Answer", 
+                        "code": "concept-type"
+                      }, 
+                      {
+                        "valueCode": "Access Questioning", 
+                        "code": "concept-topic"
+                      }
+                    ], 
+                    "code": "SensitiveInfoAccess_Yes", 
+                    "display": "Yes"
+                  }
+                ], 
+                "property": [
+                  {
+                    "valueCode": "Question", 
+                    "code": "concept-type"
+                  }, 
+                  {
+                    "valueCode": "Access Questioning", 
+                    "code": "concept-topic"
+                  }
+                ], 
+                "code": "EHRConsentPII_SensitiveInfoAccess", 
+                "display": "Will all of us access sensitive information in the EHR?"
+              }, 
+              {
+                "concept": [
+                  {
+                    "property": [
+                      {
+                        "valueCode": "Answer", 
+                        "code": "concept-type"
+                      }, 
+                      {
+                        "valueCode": "Consent Permission", 
+                        "code": "concept-topic"
+                      }
+                    ], 
+                    "code": "ConsentPermission_No", 
+                    "display": "No"
+                  }, 
+                  {
+                    "property": [
+                      {
+                        "valueCode": "Answer", 
+                        "code": "concept-type"
+                      }, 
+                      {
+                        "valueCode": "Consent Permission", 
+                        "code": "concept-topic"
+                      }
+                    ], 
+                    "code": "ConsentPermission_Yes", 
+                    "display": "Yes"
+                  }
+                ], 
+                "property": [
+                  {
+                    "valueCode": "Question", 
+                    "code": "concept-type"
+                  }, 
+                  {
+                    "valueCode": "Consent Permission", 
+                    "code": "concept-topic"
+                  }
+                ], 
+                "code": "EHRConsentPII_ConsentPermission", 
+                "display": "Do you consent?"
+              }, 
+              {
+                "property": [
+                  {
+                    "valueCode": "Question", 
+                    "code": "concept-type"
+                  }, 
+                  {
+                    "valueCode": "Signature", 
+                    "code": "concept-topic"
+                  }
+                ], 
+                "code": "EHRConsentPII_Signature", 
+                "display": "Signature Box"
+              }, 
+              {
+                "concept": [
+                  {
+                    "property": [
+                      {
+                        "valueCode": "Answer", 
+                        "code": "concept-type"
+                      }, 
+                      {
+                        "valueCode": "Quiz Ready", 
+                        "code": "concept-topic"
+                      }
+                    ], 
+                    "code": "AreYouReady_No", 
+                    "display": "No"
+                  }, 
+                  {
+                    "property": [
+                      {
+                        "valueCode": "Answer", 
+                        "code": "concept-type"
+                      }, 
+                      {
+                        "valueCode": "Quiz Ready", 
+                        "code": "concept-topic"
+                      }
+                    ], 
+                    "code": "AreYouReady_Yes", 
+                    "display": "Yes"
+                  }
+                ], 
+                "property": [
+                  {
+                    "valueCode": "Question", 
+                    "code": "concept-type"
+                  }, 
+                  {
+                    "valueCode": "Quiz Ready", 
+                    "code": "concept-topic"
+                  }
+                ], 
+                "code": "EHRConsentPII_AreYouReady", 
+                "display": "Are you ready to take the quiz?"
+              }, 
+              {
+                "property": [
+                  {
+                    "valueCode": "Answer", 
+                    "code": "concept-type"
+                  }, 
+                  {
+                    "valueCode": "Extra Consent Items", 
+                    "code": "concept-topic"
+                  }
+                ], 
+                "code": "EHRConsentPII_later", 
+                "display": "later"
+              }, 
+              {
+                "concept": [
+                  {
+                    "property": [
+                      {
+                        "valueCode": "Answer", 
+                        "code": "concept-type"
+                      }, 
+                      {
+                        "valueCode": "Access Questioning", 
+                        "code": "concept-topic"
+                      }
+                    ], 
+                    "code": "AllOfAccess_No", 
+                    "display": "No"
+                  }, 
+                  {
+                    "property": [
+                      {
+                        "valueCode": "Answer", 
+                        "code": "concept-type"
+                      }, 
+                      {
+                        "valueCode": "Access Questioning", 
+                        "code": "concept-topic"
+                      }
+                    ], 
+                    "code": "AllOfAccess_Yes", 
+                    "display": "Yes"
+                  }
+                ], 
+                "property": [
+                  {
+                    "valueCode": "Question", 
+                    "code": "concept-type"
+                  }, 
+                  {
+                    "valueCode": "Access Questioning", 
+                    "code": "concept-topic"
+                  }
+                ], 
+                "code": "EHRConsentPII_AllOfAccess", 
+                "display": "Do I have to give all of us access to my EHR?"
+              }, 
+              {
+                "property": [
+                  {
+                    "valueCode": "Answer", 
+                    "code": "concept-type"
+                  }, 
+                  {
+                    "valueCode": "Extra Consent Items", 
+                    "code": "concept-topic"
+                  }
+                ], 
+                "code": "EHRConsentPII_Ready", 
+                "display": "ready"
+              }, 
+              {
+                "concept": [
+                  {
+                    "property": [
+                      {
+                        "valueCode": "Answer", 
+                        "code": "concept-type"
+                      }, 
+                      {
+                        "valueCode": "Access Questioning", 
+                        "code": "concept-topic"
+                      }
+                    ], 
+                    "code": "AccessChangeMind_Yes", 
+                    "display": "Yes"
+                  }, 
+                  {
+                    "property": [
+                      {
+                        "valueCode": "Answer", 
+                        "code": "concept-type"
+                      }, 
+                      {
+                        "valueCode": "Access Questioning", 
+                        "code": "concept-topic"
+                      }
+                    ], 
+                    "code": "AccessChangeMind_No", 
+                    "display": "No"
+                  }
+                ], 
+                "property": [
+                  {
+                    "valueCode": "Question", 
+                    "code": "concept-type"
+                  }, 
+                  {
+                    "valueCode": "Access Questioning", 
+                    "code": "concept-topic"
+                  }
+                ], 
+                "code": "EHRConsentPII_AccessChangeMind", 
+                "display": "Once I give access to my EHR can I change my mind?"
+              }, 
+              {
+                "property": [
+                  {
+                    "valueCode": "Question", 
+                    "code": "concept-type"
+                  }, 
+                  {
+                    "valueCode": null, 
+                    "code": "concept-topic"
+                  }
+                ], 
+                "code": "EHRConsentPII_EmailCopy", 
+                "display": "Email a copy to me"
+              }
+            ], 
+            "property": [
+              {
+                "valueCode": "Module Name", 
+                "code": "concept-type"
+              }, 
+              {
+                "valueCode": "Module Name", 
+                "code": "concept-topic"
+              }
+            ], 
+            "code": "EHRConsentPII", 
+            "display": "EHRConsent PII"
+          }, 
+          {
+            "concept": [
+              {
+                "concept": [
+                  {
                     "concept": [
                       {
                         "concept": [
@@ -11753,338 +11753,6 @@
                             "code": "concept-type"
                           }, 
                           {
-                            "valueCode": "Alcohol", 
-                            "code": "concept-topic"
-                          }
-                        ], 
-                        "code": "DrinkFrequencyPastYear_4orMorePerWeek", 
-                        "display": "Four or more times a week"
-                      }, 
-                      {
-                        "property": [
-                          {
-                            "valueCode": "Answer", 
-                            "code": "concept-type"
-                          }, 
-                          {
-                            "valueCode": "Alcohol", 
-                            "code": "concept-topic"
-                          }
-                        ], 
-                        "code": "DrinkFrequencyPastYear_2to3PerWeek", 
-                        "display": "Two to three times a week"
-                      }, 
-                      {
-                        "property": [
-                          {
-                            "valueCode": "Answer", 
-                            "code": "concept-type"
-                          }, 
-                          {
-                            "valueCode": "Alcohol", 
-                            "code": "concept-topic"
-                          }
-                        ], 
-                        "code": "DrinkFrequencyPastYear_2to4PerMonth", 
-                        "display": "Two to four times a month"
-                      }, 
-                      {
-                        "property": [
-                          {
-                            "valueCode": "Answer", 
-                            "code": "concept-type"
-                          }, 
-                          {
-                            "valueCode": "Alcohol", 
-                            "code": "concept-topic"
-                          }
-                        ], 
-                        "code": "DrinkFrequencyPastYear_Never", 
-                        "display": "Never"
-                      }, 
-                      {
-                        "property": [
-                          {
-                            "valueCode": "Answer", 
-                            "code": "concept-type"
-                          }, 
-                          {
-                            "valueCode": "Alcohol", 
-                            "code": "concept-topic"
-                          }
-                        ], 
-                        "code": "DrinkFrequencyPastYear_MonthlyOrLess", 
-                        "display": "Monthly or less"
-                      }
-                    ], 
-                    "property": [
-                      {
-                        "valueCode": "Question", 
-                        "code": "concept-type"
-                      }, 
-                      {
-                        "valueCode": "Alcohol", 
-                        "code": "concept-topic"
-                      }
-                    ], 
-                    "code": "Alcohol_DrinkFrequencyPastYear", 
-                    "display": "How often did you have a drink containing alcohol in the past year?"
-                  }, 
-                  {
-                    "concept": [
-                      {
-                        "property": [
-                          {
-                            "valueCode": "Answer", 
-                            "code": "concept-type"
-                          }, 
-                          {
-                            "valueCode": "Alcohol", 
-                            "code": "concept-topic"
-                          }
-                        ], 
-                        "code": "AlcoholParticipant_No", 
-                        "display": "No"
-                      }, 
-                      {
-                        "property": [
-                          {
-                            "valueCode": "Answer", 
-                            "code": "concept-type"
-                          }, 
-                          {
-                            "valueCode": "Alcohol", 
-                            "code": "concept-topic"
-                          }
-                        ], 
-                        "code": "AlcoholParticipant_Yes", 
-                        "display": "Yes"
-                      }
-                    ], 
-                    "property": [
-                      {
-                        "valueCode": "Question", 
-                        "code": "concept-type"
-                      }, 
-                      {
-                        "valueCode": "Alcohol", 
-                        "code": "concept-topic"
-                      }
-                    ], 
-                    "code": "Alcohol_AlcoholParticipant", 
-                    "display": "In your entire life, have you had at least 1 drink of any kind of alcohol, not counting small tastes or sips? (By a \u201cdrink,\u201d we mean a can or bottle of beer, a glass of wine or a wine cooler, a shot of liquor, or a mixed drink with liquor in it.)"
-                  }, 
-                  {
-                    "concept": [
-                      {
-                        "property": [
-                          {
-                            "valueCode": "Answer", 
-                            "code": "concept-type"
-                          }, 
-                          {
-                            "valueCode": "Alcohol", 
-                            "code": "concept-topic"
-                          }
-                        ], 
-                        "code": "AverageDailyDrinkCount_1or2", 
-                        "display": "1 or 2"
-                      }, 
-                      {
-                        "property": [
-                          {
-                            "valueCode": "Answer", 
-                            "code": "concept-type"
-                          }, 
-                          {
-                            "valueCode": "Alcohol", 
-                            "code": "concept-topic"
-                          }
-                        ], 
-                        "code": "AverageDailyDrinkCount_3or4", 
-                        "display": "3 or 4"
-                      }, 
-                      {
-                        "property": [
-                          {
-                            "valueCode": "Answer", 
-                            "code": "concept-type"
-                          }, 
-                          {
-                            "valueCode": "Alcohol", 
-                            "code": "concept-topic"
-                          }
-                        ], 
-                        "code": "AverageDailyDrinkCount_10orMore", 
-                        "display": "10 or more"
-                      }, 
-                      {
-                        "property": [
-                          {
-                            "valueCode": "Answer", 
-                            "code": "concept-type"
-                          }, 
-                          {
-                            "valueCode": "Alcohol", 
-                            "code": "concept-topic"
-                          }
-                        ], 
-                        "code": "AverageDailyDrinkCount_5or6", 
-                        "display": "5 or 6"
-                      }, 
-                      {
-                        "property": [
-                          {
-                            "valueCode": "Answer", 
-                            "code": "concept-type"
-                          }, 
-                          {
-                            "valueCode": "Alcohol", 
-                            "code": "concept-topic"
-                          }
-                        ], 
-                        "code": "AverageDailyDrinkCount_7to9", 
-                        "display": "7 to 9"
-                      }
-                    ], 
-                    "property": [
-                      {
-                        "valueCode": "Question", 
-                        "code": "concept-type"
-                      }, 
-                      {
-                        "valueCode": "Alcohol", 
-                        "code": "concept-topic"
-                      }
-                    ], 
-                    "code": "Alcohol_AverageDailyDrinkCount", 
-                    "display": "On a typical day when you drink, how many drinks do you have?"
-                  }, 
-                  {
-                    "concept": [
-                      {
-                        "property": [
-                          {
-                            "valueCode": "Answer", 
-                            "code": "concept-type"
-                          }, 
-                          {
-                            "valueCode": "Alcohol", 
-                            "code": "concept-topic"
-                          }
-                        ], 
-                        "code": "6orMoreDrinksOccurence_NeverInLastYear", 
-                        "display": "Never in the last year"
-                      }, 
-                      {
-                        "property": [
-                          {
-                            "valueCode": "Answer", 
-                            "code": "concept-type"
-                          }, 
-                          {
-                            "valueCode": "Alcohol", 
-                            "code": "concept-topic"
-                          }
-                        ], 
-                        "code": "6orMoreDrinksOccurence_Never", 
-                        "display": "Never"
-                      }, 
-                      {
-                        "property": [
-                          {
-                            "valueCode": "Answer", 
-                            "code": "concept-type"
-                          }, 
-                          {
-                            "valueCode": "Alcohol", 
-                            "code": "concept-topic"
-                          }
-                        ], 
-                        "code": "6orMoreDrinksOccurence_Weekly", 
-                        "display": "Weekly"
-                      }, 
-                      {
-                        "property": [
-                          {
-                            "valueCode": "Answer", 
-                            "code": "concept-type"
-                          }, 
-                          {
-                            "valueCode": "Alcohol", 
-                            "code": "concept-topic"
-                          }
-                        ], 
-                        "code": "6orMoreDrinksOccurence_LessThanMonthly", 
-                        "display": "Less than monthly"
-                      }, 
-                      {
-                        "property": [
-                          {
-                            "valueCode": "Answer", 
-                            "code": "concept-type"
-                          }, 
-                          {
-                            "valueCode": "Alcohol", 
-                            "code": "concept-topic"
-                          }
-                        ], 
-                        "code": "6orMoreDrinksOccurence_Monthly", 
-                        "display": "Monthly"
-                      }, 
-                      {
-                        "property": [
-                          {
-                            "valueCode": "Answer", 
-                            "code": "concept-type"
-                          }, 
-                          {
-                            "valueCode": "Alcohol", 
-                            "code": "concept-topic"
-                          }
-                        ], 
-                        "code": "6orMoreDrinksOccurence_Daily", 
-                        "display": "Daily or almost daily"
-                      }
-                    ], 
-                    "property": [
-                      {
-                        "valueCode": "Question", 
-                        "code": "concept-type"
-                      }, 
-                      {
-                        "valueCode": "Alcohol", 
-                        "code": "concept-topic"
-                      }
-                    ], 
-                    "code": "Alcohol_6orMoreDrinksOccurence", 
-                    "display": "How often did you have six or more drinks on one occasion in the past year?"
-                  }
-                ], 
-                "property": [
-                  {
-                    "valueCode": "Topic", 
-                    "code": "concept-type"
-                  }, 
-                  {
-                    "valueCode": "Alcohol", 
-                    "code": "concept-topic"
-                  }
-                ], 
-                "code": "Lifestyle_Alcohol", 
-                "display": "Alcohol"
-              }, 
-              {
-                "concept": [
-                  {
-                    "concept": [
-                      {
-                        "property": [
-                          {
-                            "valueCode": "Answer", 
-                            "code": "concept-type"
-                          }, 
-                          {
                             "valueCode": "Recreational Drugs", 
                             "code": "concept-topic"
                           }
@@ -12248,92 +11916,6 @@
                   }, 
                   {
                     "concept": [
-                      {
-                        "concept": [
-                          {
-                            "property": [
-                              {
-                                "valueCode": "Answer", 
-                                "code": "concept-type"
-                              }, 
-                              {
-                                "valueCode": "Recreational Drugs", 
-                                "code": "concept-topic"
-                              }
-                            ], 
-                            "code": "OtherStimulant3MonthUse_Never", 
-                            "display": "Never"
-                          }, 
-                          {
-                            "property": [
-                              {
-                                "valueCode": "Answer", 
-                                "code": "concept-type"
-                              }, 
-                              {
-                                "valueCode": "Recreational Drugs", 
-                                "code": "concept-topic"
-                              }
-                            ], 
-                            "code": "OtherStimulant3MonthUse_OnceOrTwice", 
-                            "display": "Once or twice"
-                          }, 
-                          {
-                            "property": [
-                              {
-                                "valueCode": "Answer", 
-                                "code": "concept-type"
-                              }, 
-                              {
-                                "valueCode": "Recreational Drugs", 
-                                "code": "concept-topic"
-                              }
-                            ], 
-                            "code": "OtherStimulant3MonthUse_Weekly", 
-                            "display": "Weekly"
-                          }, 
-                          {
-                            "property": [
-                              {
-                                "valueCode": "Answer", 
-                                "code": "concept-type"
-                              }, 
-                              {
-                                "valueCode": "Recreational Drugs", 
-                                "code": "concept-topic"
-                              }
-                            ], 
-                            "code": "OtherStimulant3MonthUse_Monthly", 
-                            "display": "Monthly"
-                          }, 
-                          {
-                            "property": [
-                              {
-                                "valueCode": "Answer", 
-                                "code": "concept-type"
-                              }, 
-                              {
-                                "valueCode": "Recreational Drugs", 
-                                "code": "concept-topic"
-                              }
-                            ], 
-                            "code": "OtherStimulant3MonthUse_Daily", 
-                            "display": "Daily or almost daily"
-                          }
-                        ], 
-                        "property": [
-                          {
-                            "valueCode": "Question", 
-                            "code": "concept-type"
-                          }, 
-                          {
-                            "valueCode": "Recreational Drugs", 
-                            "code": "concept-topic"
-                          }
-                        ], 
-                        "code": "Past3MonthUseFrequency_OtherStimulant3MonthUse", 
-                        "display": "d. Other stimulants (methamphetamine, speed, crystal meth, ice, k2/spice, bath salts, etc.)"
-                      }, 
                       {
                         "concept": [
                           {
@@ -12591,6 +12173,92 @@
                         ], 
                         "code": "Past3MonthUseFrequency_StreetOpioid3MonthUse", 
                         "display": "h. Street opioids (heroin, opium, etc.)"
+                      }, 
+                      {
+                        "concept": [
+                          {
+                            "property": [
+                              {
+                                "valueCode": "Answer", 
+                                "code": "concept-type"
+                              }, 
+                              {
+                                "valueCode": "Recreational Drugs", 
+                                "code": "concept-topic"
+                              }
+                            ], 
+                            "code": "PrescriptionStimulant3MonthUse_OnceOrTwice", 
+                            "display": "Once or twice"
+                          }, 
+                          {
+                            "property": [
+                              {
+                                "valueCode": "Answer", 
+                                "code": "concept-type"
+                              }, 
+                              {
+                                "valueCode": "Recreational Drugs", 
+                                "code": "concept-topic"
+                              }
+                            ], 
+                            "code": "PrescriptionStimulant3MonthUse_Monthly", 
+                            "display": "Monthly"
+                          }, 
+                          {
+                            "property": [
+                              {
+                                "valueCode": "Answer", 
+                                "code": "concept-type"
+                              }, 
+                              {
+                                "valueCode": "Recreational Drugs", 
+                                "code": "concept-topic"
+                              }
+                            ], 
+                            "code": "PrescriptionStimulant3MonthUse_Daily", 
+                            "display": "Daily or almost daily"
+                          }, 
+                          {
+                            "property": [
+                              {
+                                "valueCode": "Answer", 
+                                "code": "concept-type"
+                              }, 
+                              {
+                                "valueCode": "Recreational Drugs", 
+                                "code": "concept-topic"
+                              }
+                            ], 
+                            "code": "PrescriptionStimulant3MonthUse_Never", 
+                            "display": "Never"
+                          }, 
+                          {
+                            "property": [
+                              {
+                                "valueCode": "Answer", 
+                                "code": "concept-type"
+                              }, 
+                              {
+                                "valueCode": "Recreational Drugs", 
+                                "code": "concept-topic"
+                              }
+                            ], 
+                            "code": "PrescriptionStimulant3MonthUse_Weekly", 
+                            "display": "Weekly"
+                          }
+                        ], 
+                        "property": [
+                          {
+                            "valueCode": "Question", 
+                            "code": "concept-type"
+                          }, 
+                          {
+                            "valueCode": "Recreational Drugs", 
+                            "code": "concept-topic"
+                          }
+                        ], 
+                        "code": "Past3MonthUseFrequency_PrescriptionStimulant3MonthUse", 
+                        "display": "c. Prescription stimulants for non-medical reasons (Vyvanse, Ritalin, Concerta, Dexedrine, Adderall, diet pills, etc.)"
                       }, 
                       {
                         "concept": [
@@ -12949,49 +12617,7 @@
                                 "code": "concept-topic"
                               }
                             ], 
-                            "code": "PrescriptionStimulant3MonthUse_OnceOrTwice", 
-                            "display": "Once or twice"
-                          }, 
-                          {
-                            "property": [
-                              {
-                                "valueCode": "Answer", 
-                                "code": "concept-type"
-                              }, 
-                              {
-                                "valueCode": "Recreational Drugs", 
-                                "code": "concept-topic"
-                              }
-                            ], 
-                            "code": "PrescriptionStimulant3MonthUse_Monthly", 
-                            "display": "Monthly"
-                          }, 
-                          {
-                            "property": [
-                              {
-                                "valueCode": "Answer", 
-                                "code": "concept-type"
-                              }, 
-                              {
-                                "valueCode": "Recreational Drugs", 
-                                "code": "concept-topic"
-                              }
-                            ], 
-                            "code": "PrescriptionStimulant3MonthUse_Daily", 
-                            "display": "Daily or almost daily"
-                          }, 
-                          {
-                            "property": [
-                              {
-                                "valueCode": "Answer", 
-                                "code": "concept-type"
-                              }, 
-                              {
-                                "valueCode": "Recreational Drugs", 
-                                "code": "concept-topic"
-                              }
-                            ], 
-                            "code": "PrescriptionStimulant3MonthUse_Never", 
+                            "code": "OtherStimulant3MonthUse_Never", 
                             "display": "Never"
                           }, 
                           {
@@ -13005,8 +12631,50 @@
                                 "code": "concept-topic"
                               }
                             ], 
-                            "code": "PrescriptionStimulant3MonthUse_Weekly", 
+                            "code": "OtherStimulant3MonthUse_OnceOrTwice", 
+                            "display": "Once or twice"
+                          }, 
+                          {
+                            "property": [
+                              {
+                                "valueCode": "Answer", 
+                                "code": "concept-type"
+                              }, 
+                              {
+                                "valueCode": "Recreational Drugs", 
+                                "code": "concept-topic"
+                              }
+                            ], 
+                            "code": "OtherStimulant3MonthUse_Weekly", 
                             "display": "Weekly"
+                          }, 
+                          {
+                            "property": [
+                              {
+                                "valueCode": "Answer", 
+                                "code": "concept-type"
+                              }, 
+                              {
+                                "valueCode": "Recreational Drugs", 
+                                "code": "concept-topic"
+                              }
+                            ], 
+                            "code": "OtherStimulant3MonthUse_Monthly", 
+                            "display": "Monthly"
+                          }, 
+                          {
+                            "property": [
+                              {
+                                "valueCode": "Answer", 
+                                "code": "concept-type"
+                              }, 
+                              {
+                                "valueCode": "Recreational Drugs", 
+                                "code": "concept-topic"
+                              }
+                            ], 
+                            "code": "OtherStimulant3MonthUse_Daily", 
+                            "display": "Daily or almost daily"
                           }
                         ], 
                         "property": [
@@ -13019,8 +12687,8 @@
                             "code": "concept-topic"
                           }
                         ], 
-                        "code": "Past3MonthUseFrequency_PrescriptionStimulant3MonthUse", 
-                        "display": "c. Prescription stimulants for non-medical reasons (Vyvanse, Ritalin, Concerta, Dexedrine, Adderall, diet pills, etc.)"
+                        "code": "Past3MonthUseFrequency_OtherStimulant3MonthUse", 
+                        "display": "d. Other stimulants (methamphetamine, speed, crystal meth, ice, k2/spice, bath salts, etc.)"
                       }, 
                       {
                         "concept": [
@@ -13135,6 +12803,338 @@
                 ], 
                 "code": "Lifestyle_RecreationalDrugUse", 
                 "display": "Recreational Drug Use"
+              }, 
+              {
+                "concept": [
+                  {
+                    "concept": [
+                      {
+                        "property": [
+                          {
+                            "valueCode": "Answer", 
+                            "code": "concept-type"
+                          }, 
+                          {
+                            "valueCode": "Alcohol", 
+                            "code": "concept-topic"
+                          }
+                        ], 
+                        "code": "DrinkFrequencyPastYear_4orMorePerWeek", 
+                        "display": "Four or more times a week"
+                      }, 
+                      {
+                        "property": [
+                          {
+                            "valueCode": "Answer", 
+                            "code": "concept-type"
+                          }, 
+                          {
+                            "valueCode": "Alcohol", 
+                            "code": "concept-topic"
+                          }
+                        ], 
+                        "code": "DrinkFrequencyPastYear_2to3PerWeek", 
+                        "display": "Two to three times a week"
+                      }, 
+                      {
+                        "property": [
+                          {
+                            "valueCode": "Answer", 
+                            "code": "concept-type"
+                          }, 
+                          {
+                            "valueCode": "Alcohol", 
+                            "code": "concept-topic"
+                          }
+                        ], 
+                        "code": "DrinkFrequencyPastYear_2to4PerMonth", 
+                        "display": "Two to four times a month"
+                      }, 
+                      {
+                        "property": [
+                          {
+                            "valueCode": "Answer", 
+                            "code": "concept-type"
+                          }, 
+                          {
+                            "valueCode": "Alcohol", 
+                            "code": "concept-topic"
+                          }
+                        ], 
+                        "code": "DrinkFrequencyPastYear_Never", 
+                        "display": "Never"
+                      }, 
+                      {
+                        "property": [
+                          {
+                            "valueCode": "Answer", 
+                            "code": "concept-type"
+                          }, 
+                          {
+                            "valueCode": "Alcohol", 
+                            "code": "concept-topic"
+                          }
+                        ], 
+                        "code": "DrinkFrequencyPastYear_MonthlyOrLess", 
+                        "display": "Monthly or less"
+                      }
+                    ], 
+                    "property": [
+                      {
+                        "valueCode": "Question", 
+                        "code": "concept-type"
+                      }, 
+                      {
+                        "valueCode": "Alcohol", 
+                        "code": "concept-topic"
+                      }
+                    ], 
+                    "code": "Alcohol_DrinkFrequencyPastYear", 
+                    "display": "How often did you have a drink containing alcohol in the past year?"
+                  }, 
+                  {
+                    "concept": [
+                      {
+                        "property": [
+                          {
+                            "valueCode": "Answer", 
+                            "code": "concept-type"
+                          }, 
+                          {
+                            "valueCode": "Alcohol", 
+                            "code": "concept-topic"
+                          }
+                        ], 
+                        "code": "AlcoholParticipant_No", 
+                        "display": "No"
+                      }, 
+                      {
+                        "property": [
+                          {
+                            "valueCode": "Answer", 
+                            "code": "concept-type"
+                          }, 
+                          {
+                            "valueCode": "Alcohol", 
+                            "code": "concept-topic"
+                          }
+                        ], 
+                        "code": "AlcoholParticipant_Yes", 
+                        "display": "Yes"
+                      }
+                    ], 
+                    "property": [
+                      {
+                        "valueCode": "Question", 
+                        "code": "concept-type"
+                      }, 
+                      {
+                        "valueCode": "Alcohol", 
+                        "code": "concept-topic"
+                      }
+                    ], 
+                    "code": "Alcohol_AlcoholParticipant", 
+                    "display": "In your entire life, have you had at least 1 drink of any kind of alcohol, not counting small tastes or sips? (By a \u201cdrink,\u201d we mean a can or bottle of beer, a glass of wine or a wine cooler, a shot of liquor, or a mixed drink with liquor in it.)"
+                  }, 
+                  {
+                    "concept": [
+                      {
+                        "property": [
+                          {
+                            "valueCode": "Answer", 
+                            "code": "concept-type"
+                          }, 
+                          {
+                            "valueCode": "Alcohol", 
+                            "code": "concept-topic"
+                          }
+                        ], 
+                        "code": "AverageDailyDrinkCount_1or2", 
+                        "display": "1 or 2"
+                      }, 
+                      {
+                        "property": [
+                          {
+                            "valueCode": "Answer", 
+                            "code": "concept-type"
+                          }, 
+                          {
+                            "valueCode": "Alcohol", 
+                            "code": "concept-topic"
+                          }
+                        ], 
+                        "code": "AverageDailyDrinkCount_3or4", 
+                        "display": "3 or 4"
+                      }, 
+                      {
+                        "property": [
+                          {
+                            "valueCode": "Answer", 
+                            "code": "concept-type"
+                          }, 
+                          {
+                            "valueCode": "Alcohol", 
+                            "code": "concept-topic"
+                          }
+                        ], 
+                        "code": "AverageDailyDrinkCount_10orMore", 
+                        "display": "10 or more"
+                      }, 
+                      {
+                        "property": [
+                          {
+                            "valueCode": "Answer", 
+                            "code": "concept-type"
+                          }, 
+                          {
+                            "valueCode": "Alcohol", 
+                            "code": "concept-topic"
+                          }
+                        ], 
+                        "code": "AverageDailyDrinkCount_5or6", 
+                        "display": "5 or 6"
+                      }, 
+                      {
+                        "property": [
+                          {
+                            "valueCode": "Answer", 
+                            "code": "concept-type"
+                          }, 
+                          {
+                            "valueCode": "Alcohol", 
+                            "code": "concept-topic"
+                          }
+                        ], 
+                        "code": "AverageDailyDrinkCount_7to9", 
+                        "display": "7 to 9"
+                      }
+                    ], 
+                    "property": [
+                      {
+                        "valueCode": "Question", 
+                        "code": "concept-type"
+                      }, 
+                      {
+                        "valueCode": "Alcohol", 
+                        "code": "concept-topic"
+                      }
+                    ], 
+                    "code": "Alcohol_AverageDailyDrinkCount", 
+                    "display": "On a typical day when you drink, how many drinks do you have?"
+                  }, 
+                  {
+                    "concept": [
+                      {
+                        "property": [
+                          {
+                            "valueCode": "Answer", 
+                            "code": "concept-type"
+                          }, 
+                          {
+                            "valueCode": "Alcohol", 
+                            "code": "concept-topic"
+                          }
+                        ], 
+                        "code": "6orMoreDrinksOccurence_NeverInLastYear", 
+                        "display": "Never in the last year"
+                      }, 
+                      {
+                        "property": [
+                          {
+                            "valueCode": "Answer", 
+                            "code": "concept-type"
+                          }, 
+                          {
+                            "valueCode": "Alcohol", 
+                            "code": "concept-topic"
+                          }
+                        ], 
+                        "code": "6orMoreDrinksOccurence_Never", 
+                        "display": "Never"
+                      }, 
+                      {
+                        "property": [
+                          {
+                            "valueCode": "Answer", 
+                            "code": "concept-type"
+                          }, 
+                          {
+                            "valueCode": "Alcohol", 
+                            "code": "concept-topic"
+                          }
+                        ], 
+                        "code": "6orMoreDrinksOccurence_Weekly", 
+                        "display": "Weekly"
+                      }, 
+                      {
+                        "property": [
+                          {
+                            "valueCode": "Answer", 
+                            "code": "concept-type"
+                          }, 
+                          {
+                            "valueCode": "Alcohol", 
+                            "code": "concept-topic"
+                          }
+                        ], 
+                        "code": "6orMoreDrinksOccurence_LessThanMonthly", 
+                        "display": "Less than monthly"
+                      }, 
+                      {
+                        "property": [
+                          {
+                            "valueCode": "Answer", 
+                            "code": "concept-type"
+                          }, 
+                          {
+                            "valueCode": "Alcohol", 
+                            "code": "concept-topic"
+                          }
+                        ], 
+                        "code": "6orMoreDrinksOccurence_Monthly", 
+                        "display": "Monthly"
+                      }, 
+                      {
+                        "property": [
+                          {
+                            "valueCode": "Answer", 
+                            "code": "concept-type"
+                          }, 
+                          {
+                            "valueCode": "Alcohol", 
+                            "code": "concept-topic"
+                          }
+                        ], 
+                        "code": "6orMoreDrinksOccurence_Daily", 
+                        "display": "Daily or almost daily"
+                      }
+                    ], 
+                    "property": [
+                      {
+                        "valueCode": "Question", 
+                        "code": "concept-type"
+                      }, 
+                      {
+                        "valueCode": "Alcohol", 
+                        "code": "concept-topic"
+                      }
+                    ], 
+                    "code": "Alcohol_6orMoreDrinksOccurence", 
+                    "display": "How often did you have six or more drinks on one occasion in the past year?"
+                  }
+                ], 
+                "property": [
+                  {
+                    "valueCode": "Topic", 
+                    "code": "concept-type"
+                  }, 
+                  {
+                    "valueCode": "Alcohol", 
+                    "code": "concept-topic"
+                  }
+                ], 
+                "code": "Lifestyle_Alcohol", 
+                "display": "Alcohol"
               }
             ], 
             "property": [
@@ -13404,84 +13404,6 @@
                 {
                   "code": "2PregnancyStatus_Yes", 
                   "display": "Yes"
-                }
-              ], 
-              "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-            }, 
-            {
-              "concept": [
-                {
-                  "code": "PMI_NotSure", 
-                  "display": "PMI Not Sure"
-                }, 
-                {
-                  "code": "PMI_DontKnow", 
-                  "display": "PMI Don't Know"
-                }, 
-                {
-                  "code": "PMI_Other", 
-                  "display": "PMI Other (Qualifier Value)"
-                }, 
-                {
-                  "code": "PMI_FreeText", 
-                  "display": "PMI Free Text Answer"
-                }, 
-                {
-                  "code": "PMI_None", 
-                  "display": "None"
-                }, 
-                {
-                  "code": "PMI_PreferNotToAnswer", 
-                  "display": "PMI Prefer Not To Answer"
-                }, 
-                {
-                  "code": "PMI_Unanswered", 
-                  "display": "PMI Question Unanswered"
-                }, 
-                {
-                  "code": "PMI_Skip", 
-                  "display": "PMI Skip"
-                }
-              ], 
-              "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-            }
-          ]
-        }
-      }
-    }, 
-    {
-      "resource": {
-        "status": "draft", 
-        "url": "http://terminology.pmi-ops.org/ValueSet/ppi-Past3MonthUseFrequency_OtherStimulant3MonthUse", 
-        "version": "0.2.24", 
-        "date": "2017-05-22", 
-        "name": "values-for-Past3MonthUseFrequency_OtherStimulant3MonthUse", 
-        "title": "Values for d. Other stimulants (methamphetamine, speed, crystal meth, ice, k2/spice, bath salts, etc.)", 
-        "resourceType": "ValueSet", 
-        "publisher": "Precision Medicine Initiative: All of Us Resarch Program", 
-        "compose": {
-          "include": [
-            {
-              "concept": [
-                {
-                  "code": "OtherStimulant3MonthUse_Never", 
-                  "display": "Never"
-                }, 
-                {
-                  "code": "OtherStimulant3MonthUse_OnceOrTwice", 
-                  "display": "Once or twice"
-                }, 
-                {
-                  "code": "OtherStimulant3MonthUse_Weekly", 
-                  "display": "Weekly"
-                }, 
-                {
-                  "code": "OtherStimulant3MonthUse_Monthly", 
-                  "display": "Monthly"
-                }, 
-                {
-                  "code": "OtherStimulant3MonthUse_Daily", 
-                  "display": "Daily or almost daily"
                 }
               ], 
               "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
@@ -14158,6 +14080,10 @@
             {
               "concept": [
                 {
+                  "code": "AsianSpecific_Vietnamese", 
+                  "display": "Vietnamese"
+                }, 
+                {
                   "code": "AsianSpecific_Hmong", 
                   "display": "Hmong"
                 }, 
@@ -14174,20 +14100,16 @@
                   "display": "Filipino"
                 }, 
                 {
-                  "code": "AsianSpecific_AsianSpecificIndian", 
-                  "display": "Asian Indian"
-                }, 
-                {
                   "code": "AsianSpecific_Pakistani", 
                   "display": "Pakistani"
                 }, 
                 {
-                  "code": "AsianSpecific_Cambodian", 
-                  "display": "Cambodian"
+                  "code": "AsianSpecific_AsianSpecificIndian", 
+                  "display": "Asian Indian"
                 }, 
                 {
-                  "code": "AsianSpecific_Vietnamese", 
-                  "display": "Vietnamese"
+                  "code": "AsianSpecific_Cambodian", 
+                  "display": "Cambodian"
                 }, 
                 {
                   "code": "AsianSpecific_Korean", 
@@ -14252,90 +14174,12 @@
             {
               "concept": [
                 {
-                  "code": "AccessPrivacyGuaruntee_Yes", 
-                  "display": "Yes"
-                }, 
-                {
                   "code": "AccessPrivacyGuaruntee_No", 
                   "display": "No"
-                }
-              ], 
-              "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-            }, 
-            {
-              "concept": [
-                {
-                  "code": "PMI_NotSure", 
-                  "display": "PMI Not Sure"
                 }, 
                 {
-                  "code": "PMI_DontKnow", 
-                  "display": "PMI Don't Know"
-                }, 
-                {
-                  "code": "PMI_Other", 
-                  "display": "PMI Other (Qualifier Value)"
-                }, 
-                {
-                  "code": "PMI_FreeText", 
-                  "display": "PMI Free Text Answer"
-                }, 
-                {
-                  "code": "PMI_None", 
-                  "display": "None"
-                }, 
-                {
-                  "code": "PMI_PreferNotToAnswer", 
-                  "display": "PMI Prefer Not To Answer"
-                }, 
-                {
-                  "code": "PMI_Unanswered", 
-                  "display": "PMI Question Unanswered"
-                }, 
-                {
-                  "code": "PMI_Skip", 
-                  "display": "PMI Skip"
-                }
-              ], 
-              "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-            }
-          ]
-        }
-      }
-    }, 
-    {
-      "resource": {
-        "status": "draft", 
-        "url": "http://terminology.pmi-ops.org/ValueSet/ppi-OverallHealth_EmotionalProblem7Days", 
-        "version": "0.2.24", 
-        "date": "2017-05-22", 
-        "name": "values-for-OverallHealth_EmotionalProblem7Days", 
-        "title": "Values for In the past 7 days, how often have you been bothered by emotional problems such as feeling anxious, depressed or irritable?", 
-        "resourceType": "ValueSet", 
-        "publisher": "Precision Medicine Initiative: All of Us Resarch Program", 
-        "compose": {
-          "include": [
-            {
-              "concept": [
-                {
-                  "code": "EmotionalProblem7Days_Often", 
-                  "display": "Often"
-                }, 
-                {
-                  "code": "EmotionalProblem7Days_Always", 
-                  "display": "Always"
-                }, 
-                {
-                  "code": "EmotionalProblem7Days_Rarely", 
-                  "display": "Rarely"
-                }, 
-                {
-                  "code": "EmotionalProblem7Days_Sometimes", 
-                  "display": "Sometimes"
-                }, 
-                {
-                  "code": "EmotionalProblem7Days_Never", 
-                  "display": "Never"
+                  "code": "AccessPrivacyGuaruntee_Yes", 
+                  "display": "Yes"
                 }
               ], 
               "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
@@ -15054,72 +14898,6 @@
     {
       "resource": {
         "status": "draft", 
-        "url": "http://terminology.pmi-ops.org/ValueSet/ppi-EHRConsentPII_ConsentPermission", 
-        "version": "0.2.24", 
-        "date": "2017-05-22", 
-        "name": "values-for-EHRConsentPII_ConsentPermission", 
-        "title": "Values for Do you consent?", 
-        "resourceType": "ValueSet", 
-        "publisher": "Precision Medicine Initiative: All of Us Resarch Program", 
-        "compose": {
-          "include": [
-            {
-              "concept": [
-                {
-                  "code": "ConsentPermission_No", 
-                  "display": "No"
-                }, 
-                {
-                  "code": "ConsentPermission_Yes", 
-                  "display": "Yes"
-                }
-              ], 
-              "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-            }, 
-            {
-              "concept": [
-                {
-                  "code": "PMI_NotSure", 
-                  "display": "PMI Not Sure"
-                }, 
-                {
-                  "code": "PMI_DontKnow", 
-                  "display": "PMI Don't Know"
-                }, 
-                {
-                  "code": "PMI_Other", 
-                  "display": "PMI Other (Qualifier Value)"
-                }, 
-                {
-                  "code": "PMI_FreeText", 
-                  "display": "PMI Free Text Answer"
-                }, 
-                {
-                  "code": "PMI_None", 
-                  "display": "None"
-                }, 
-                {
-                  "code": "PMI_PreferNotToAnswer", 
-                  "display": "PMI Prefer Not To Answer"
-                }, 
-                {
-                  "code": "PMI_Unanswered", 
-                  "display": "PMI Question Unanswered"
-                }, 
-                {
-                  "code": "PMI_Skip", 
-                  "display": "PMI Skip"
-                }
-              ], 
-              "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-            }
-          ]
-        }
-      }
-    }, 
-    {
-      "resource": {
-        "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-ExtraConsent_ScheduledWithPACares", 
         "version": "0.2.24", 
         "date": "2017-05-22", 
@@ -15456,6 +15234,10 @@
             {
               "concept": [
                 {
+                  "code": "PersonOneRelationship_Child", 
+                  "display": "Child"
+                }, 
+                {
                   "code": "PersonOneRelationship_Relative", 
                   "display": "Relative"
                 }, 
@@ -15466,10 +15248,6 @@
                 {
                   "code": "PersonOneRelationship_Friend", 
                   "display": "Friend"
-                }, 
-                {
-                  "code": "PersonOneRelationship_Child", 
-                  "display": "Child"
                 }, 
                 {
                   "code": "PersonOneRelationship_ParentGuardian", 
@@ -16420,6 +16198,72 @@
     {
       "resource": {
         "status": "draft", 
+        "url": "http://terminology.pmi-ops.org/ValueSet/ppi-EHRConsentPII_ConsentPermission", 
+        "version": "0.2.24", 
+        "date": "2017-05-22", 
+        "name": "values-for-EHRConsentPII_ConsentPermission", 
+        "title": "Values for Do you consent?", 
+        "resourceType": "ValueSet", 
+        "publisher": "Precision Medicine Initiative: All of Us Resarch Program", 
+        "compose": {
+          "include": [
+            {
+              "concept": [
+                {
+                  "code": "ConsentPermission_No", 
+                  "display": "No"
+                }, 
+                {
+                  "code": "ConsentPermission_Yes", 
+                  "display": "Yes"
+                }
+              ], 
+              "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+            }, 
+            {
+              "concept": [
+                {
+                  "code": "PMI_NotSure", 
+                  "display": "PMI Not Sure"
+                }, 
+                {
+                  "code": "PMI_DontKnow", 
+                  "display": "PMI Don't Know"
+                }, 
+                {
+                  "code": "PMI_Other", 
+                  "display": "PMI Other (Qualifier Value)"
+                }, 
+                {
+                  "code": "PMI_FreeText", 
+                  "display": "PMI Free Text Answer"
+                }, 
+                {
+                  "code": "PMI_None", 
+                  "display": "None"
+                }, 
+                {
+                  "code": "PMI_PreferNotToAnswer", 
+                  "display": "PMI Prefer Not To Answer"
+                }, 
+                {
+                  "code": "PMI_Unanswered", 
+                  "display": "PMI Question Unanswered"
+                }, 
+                {
+                  "code": "PMI_Skip", 
+                  "display": "PMI Skip"
+                }
+              ], 
+              "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+            }
+          ]
+        }
+      }
+    }, 
+    {
+      "resource": {
+        "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-PhoneInformation_NumberType", 
         "version": "0.2.24", 
         "date": "2017-05-22", 
@@ -16594,6 +16438,84 @@
                 {
                   "code": "RecontactMethod_HousePhone", 
                   "display": "Recontact House Phone"
+                }
+              ], 
+              "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+            }, 
+            {
+              "concept": [
+                {
+                  "code": "PMI_NotSure", 
+                  "display": "PMI Not Sure"
+                }, 
+                {
+                  "code": "PMI_DontKnow", 
+                  "display": "PMI Don't Know"
+                }, 
+                {
+                  "code": "PMI_Other", 
+                  "display": "PMI Other (Qualifier Value)"
+                }, 
+                {
+                  "code": "PMI_FreeText", 
+                  "display": "PMI Free Text Answer"
+                }, 
+                {
+                  "code": "PMI_None", 
+                  "display": "None"
+                }, 
+                {
+                  "code": "PMI_PreferNotToAnswer", 
+                  "display": "PMI Prefer Not To Answer"
+                }, 
+                {
+                  "code": "PMI_Unanswered", 
+                  "display": "PMI Question Unanswered"
+                }, 
+                {
+                  "code": "PMI_Skip", 
+                  "display": "PMI Skip"
+                }
+              ], 
+              "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+            }
+          ]
+        }
+      }
+    }, 
+    {
+      "resource": {
+        "status": "draft", 
+        "url": "http://terminology.pmi-ops.org/ValueSet/ppi-Past3MonthUseFrequency_PrescriptionStimulant3MonthUse", 
+        "version": "0.2.24", 
+        "date": "2017-05-22", 
+        "name": "values-for-Past3MonthUseFrequency_PrescriptionStimulant3MonthUse", 
+        "title": "Values for c. Prescription stimulants for non-medical reasons (Vyvanse, Ritalin, Concerta, Dexedrine, Adderall, diet pills, etc.)", 
+        "resourceType": "ValueSet", 
+        "publisher": "Precision Medicine Initiative: All of Us Resarch Program", 
+        "compose": {
+          "include": [
+            {
+              "concept": [
+                {
+                  "code": "PrescriptionStimulant3MonthUse_OnceOrTwice", 
+                  "display": "Once or twice"
+                }, 
+                {
+                  "code": "PrescriptionStimulant3MonthUse_Monthly", 
+                  "display": "Monthly"
+                }, 
+                {
+                  "code": "PrescriptionStimulant3MonthUse_Daily", 
+                  "display": "Daily or almost daily"
+                }, 
+                {
+                  "code": "PrescriptionStimulant3MonthUse_Never", 
+                  "display": "Never"
+                }, 
+                {
+                  "code": "PrescriptionStimulant3MonthUse_Weekly", 
+                  "display": "Weekly"
                 }
               ], 
               "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
@@ -17214,6 +17136,10 @@
                   "display": "Ghanaian"
                 }, 
                 {
+                  "code": "BlackSpecific_Ethiopian", 
+                  "display": "Ethiopian"
+                }, 
+                {
                   "code": "BlackSpecific_Jamaican", 
                   "display": "Jamaican"
                 }, 
@@ -17228,10 +17154,6 @@
                 {
                   "code": "BlackSpecific_Caribbean", 
                   "display": "Caribbean"
-                }, 
-                {
-                  "code": "BlackSpecific_Ethiopian", 
-                  "display": "Ethiopian"
                 }, 
                 {
                   "code": "BlackSpecific_Haitian", 
@@ -18090,6 +18012,84 @@
                 {
                   "code": "OrganTransplant_OrganTransplantDescription", 
                   "display": "If yes, please check all that apply."
+                }
+              ], 
+              "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+            }, 
+            {
+              "concept": [
+                {
+                  "code": "PMI_NotSure", 
+                  "display": "PMI Not Sure"
+                }, 
+                {
+                  "code": "PMI_DontKnow", 
+                  "display": "PMI Don't Know"
+                }, 
+                {
+                  "code": "PMI_Other", 
+                  "display": "PMI Other (Qualifier Value)"
+                }, 
+                {
+                  "code": "PMI_FreeText", 
+                  "display": "PMI Free Text Answer"
+                }, 
+                {
+                  "code": "PMI_None", 
+                  "display": "None"
+                }, 
+                {
+                  "code": "PMI_PreferNotToAnswer", 
+                  "display": "PMI Prefer Not To Answer"
+                }, 
+                {
+                  "code": "PMI_Unanswered", 
+                  "display": "PMI Question Unanswered"
+                }, 
+                {
+                  "code": "PMI_Skip", 
+                  "display": "PMI Skip"
+                }
+              ], 
+              "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+            }
+          ]
+        }
+      }
+    }, 
+    {
+      "resource": {
+        "status": "draft", 
+        "url": "http://terminology.pmi-ops.org/ValueSet/ppi-OverallHealth_OvaryRemovalHistory", 
+        "version": "0.2.24", 
+        "date": "2017-05-22", 
+        "name": "values-for-OverallHealth_OvaryRemovalHistory", 
+        "title": "Values for Have you ever had an ovary removed?", 
+        "resourceType": "ValueSet", 
+        "publisher": "Precision Medicine Initiative: All of Us Resarch Program", 
+        "compose": {
+          "include": [
+            {
+              "concept": [
+                {
+                  "code": "OvaryRemovalHistory_YesBoth", 
+                  "display": "Yes, both ovaries"
+                }, 
+                {
+                  "code": "OvaryRemovalHistory_NotSure", 
+                  "display": "Not sure"
+                }, 
+                {
+                  "code": "OvaryRemovalHistory_No", 
+                  "display": "No"
+                }, 
+                {
+                  "code": "OvaryRemovalHistory_YesUnsure", 
+                  "display": "Yes, but don\u2019t know whether one or both ovaries"
+                }, 
+                {
+                  "code": "OvaryRemovalHistory_YesSectioned", 
+                  "display": "Yes, but only one ovary or part of one ovary"
                 }
               ], 
               "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
@@ -19650,10 +19650,6 @@
                   "display": "Asian (For example: Asian Indian, Chinese, Filipino, Japanese, Korean, Vietnamese, etc.) *"
                 }, 
                 {
-                  "code": "WhatRaceEthnicity_AIAN", 
-                  "display": "American Indian or Alaska Native (For example: Aztec, Blackfeet Tribe, Mayan, Navajo Nation, Native Village of Barrow Inupiat Traditional Government, Nome Eskimo Community, etc.)*"
-                }, 
-                {
                   "code": "WhatRaceEthnicity_Hispanic", 
                   "display": "Hispanic, Latino, or Spanish (For example: Columbian, Cuban, Dominican, Mexican or Mexican American, Puerto Rican, Salvadoran, etc.) *"
                 }, 
@@ -19668,6 +19664,10 @@
                 {
                   "code": "WhatRaceEthnicity_NHPI", 
                   "display": "Native Hawaiian or other Pacific Islander (For example: Chamorro, Fijian, Marshallese, Native Hawaiian, Tongan, etc.) *"
+                }, 
+                {
+                  "code": "WhatRaceEthnicity_AIAN", 
+                  "display": "American Indian or Alaska Native (For example: Aztec, Blackfeet Tribe, Mayan, Navajo Nation, Native Village of Barrow Inupiat Traditional Government, Nome Eskimo Community, etc.)*"
                 }, 
                 {
                   "code": "WhatRaceEthnicity_Black", 
@@ -19886,84 +19886,6 @@
                 {
                   "code": "StableHouseConcern_No", 
                   "display": "No"
-                }
-              ], 
-              "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-            }, 
-            {
-              "concept": [
-                {
-                  "code": "PMI_NotSure", 
-                  "display": "PMI Not Sure"
-                }, 
-                {
-                  "code": "PMI_DontKnow", 
-                  "display": "PMI Don't Know"
-                }, 
-                {
-                  "code": "PMI_Other", 
-                  "display": "PMI Other (Qualifier Value)"
-                }, 
-                {
-                  "code": "PMI_FreeText", 
-                  "display": "PMI Free Text Answer"
-                }, 
-                {
-                  "code": "PMI_None", 
-                  "display": "None"
-                }, 
-                {
-                  "code": "PMI_PreferNotToAnswer", 
-                  "display": "PMI Prefer Not To Answer"
-                }, 
-                {
-                  "code": "PMI_Unanswered", 
-                  "display": "PMI Question Unanswered"
-                }, 
-                {
-                  "code": "PMI_Skip", 
-                  "display": "PMI Skip"
-                }
-              ], 
-              "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-            }
-          ]
-        }
-      }
-    }, 
-    {
-      "resource": {
-        "status": "draft", 
-        "url": "http://terminology.pmi-ops.org/ValueSet/ppi-Past3MonthUseFrequency_PrescriptionStimulant3MonthUse", 
-        "version": "0.2.24", 
-        "date": "2017-05-22", 
-        "name": "values-for-Past3MonthUseFrequency_PrescriptionStimulant3MonthUse", 
-        "title": "Values for c. Prescription stimulants for non-medical reasons (Vyvanse, Ritalin, Concerta, Dexedrine, Adderall, diet pills, etc.)", 
-        "resourceType": "ValueSet", 
-        "publisher": "Precision Medicine Initiative: All of Us Resarch Program", 
-        "compose": {
-          "include": [
-            {
-              "concept": [
-                {
-                  "code": "PrescriptionStimulant3MonthUse_OnceOrTwice", 
-                  "display": "Once or twice"
-                }, 
-                {
-                  "code": "PrescriptionStimulant3MonthUse_Monthly", 
-                  "display": "Monthly"
-                }, 
-                {
-                  "code": "PrescriptionStimulant3MonthUse_Daily", 
-                  "display": "Daily or almost daily"
-                }, 
-                {
-                  "code": "PrescriptionStimulant3MonthUse_Never", 
-                  "display": "Never"
-                }, 
-                {
-                  "code": "PrescriptionStimulant3MonthUse_Weekly", 
-                  "display": "Weekly"
                 }
               ], 
               "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
@@ -21392,6 +21314,84 @@
     {
       "resource": {
         "status": "draft", 
+        "url": "http://terminology.pmi-ops.org/ValueSet/ppi-Past3MonthUseFrequency_OtherStimulant3MonthUse", 
+        "version": "0.2.24", 
+        "date": "2017-05-22", 
+        "name": "values-for-Past3MonthUseFrequency_OtherStimulant3MonthUse", 
+        "title": "Values for d. Other stimulants (methamphetamine, speed, crystal meth, ice, k2/spice, bath salts, etc.)", 
+        "resourceType": "ValueSet", 
+        "publisher": "Precision Medicine Initiative: All of Us Resarch Program", 
+        "compose": {
+          "include": [
+            {
+              "concept": [
+                {
+                  "code": "OtherStimulant3MonthUse_Never", 
+                  "display": "Never"
+                }, 
+                {
+                  "code": "OtherStimulant3MonthUse_OnceOrTwice", 
+                  "display": "Once or twice"
+                }, 
+                {
+                  "code": "OtherStimulant3MonthUse_Weekly", 
+                  "display": "Weekly"
+                }, 
+                {
+                  "code": "OtherStimulant3MonthUse_Monthly", 
+                  "display": "Monthly"
+                }, 
+                {
+                  "code": "OtherStimulant3MonthUse_Daily", 
+                  "display": "Daily or almost daily"
+                }
+              ], 
+              "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+            }, 
+            {
+              "concept": [
+                {
+                  "code": "PMI_NotSure", 
+                  "display": "PMI Not Sure"
+                }, 
+                {
+                  "code": "PMI_DontKnow", 
+                  "display": "PMI Don't Know"
+                }, 
+                {
+                  "code": "PMI_Other", 
+                  "display": "PMI Other (Qualifier Value)"
+                }, 
+                {
+                  "code": "PMI_FreeText", 
+                  "display": "PMI Free Text Answer"
+                }, 
+                {
+                  "code": "PMI_None", 
+                  "display": "None"
+                }, 
+                {
+                  "code": "PMI_PreferNotToAnswer", 
+                  "display": "PMI Prefer Not To Answer"
+                }, 
+                {
+                  "code": "PMI_Unanswered", 
+                  "display": "PMI Question Unanswered"
+                }, 
+                {
+                  "code": "PMI_Skip", 
+                  "display": "PMI Skip"
+                }
+              ], 
+              "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+            }
+          ]
+        }
+      }
+    }, 
+    {
+      "resource": {
+        "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-ResideAZCArizona_AZCArizonaSpecific", 
         "version": "0.2.24", 
         "date": "2017-05-22", 
@@ -21808,16 +21808,16 @@
                   "display": "Employed for wages (part-\u00ad\u2010 time or full-\u00ad\u2010time)"
                 }, 
                 {
-                  "code": "EmploymentStatus_UnableToWork", 
-                  "display": "Unable to work (disabled)"
-                }, 
-                {
                   "code": "EmploymentStatus_SelfEmployed", 
                   "display": "Self-\u00ad\u2010employed"
                 }, 
                 {
                   "code": "EmploymentStatus_Student", 
                   "display": "A student"
+                }, 
+                {
+                  "code": "EmploymentStatus_UnableToWork", 
+                  "display": "Unable to work (disabled)"
                 }, 
                 {
                   "code": "EmploymentStatus_Homemaker", 
@@ -21870,11 +21870,11 @@
     {
       "resource": {
         "status": "draft", 
-        "url": "http://terminology.pmi-ops.org/ValueSet/ppi-OverallHealth_OvaryRemovalHistory", 
+        "url": "http://terminology.pmi-ops.org/ValueSet/ppi-OverallHealth_EmotionalProblem7Days", 
         "version": "0.2.24", 
         "date": "2017-05-22", 
-        "name": "values-for-OverallHealth_OvaryRemovalHistory", 
-        "title": "Values for Have you ever had an ovary removed?", 
+        "name": "values-for-OverallHealth_EmotionalProblem7Days", 
+        "title": "Values for In the past 7 days, how often have you been bothered by emotional problems such as feeling anxious, depressed or irritable?", 
         "resourceType": "ValueSet", 
         "publisher": "Precision Medicine Initiative: All of Us Resarch Program", 
         "compose": {
@@ -21882,24 +21882,24 @@
             {
               "concept": [
                 {
-                  "code": "OvaryRemovalHistory_YesBoth", 
-                  "display": "Yes, both ovaries"
+                  "code": "EmotionalProblem7Days_Often", 
+                  "display": "Often"
                 }, 
                 {
-                  "code": "OvaryRemovalHistory_NotSure", 
-                  "display": "Not sure"
+                  "code": "EmotionalProblem7Days_Always", 
+                  "display": "Always"
                 }, 
                 {
-                  "code": "OvaryRemovalHistory_No", 
-                  "display": "No"
+                  "code": "EmotionalProblem7Days_Rarely", 
+                  "display": "Rarely"
                 }, 
                 {
-                  "code": "OvaryRemovalHistory_YesUnsure", 
-                  "display": "Yes, but don\u2019t know whether one or both ovaries"
+                  "code": "EmotionalProblem7Days_Sometimes", 
+                  "display": "Sometimes"
                 }, 
                 {
-                  "code": "OvaryRemovalHistory_YesSectioned", 
-                  "display": "Yes, but only one ovary or part of one ovary"
+                  "code": "EmotionalProblem7Days_Never", 
+                  "display": "Never"
                 }
               ], 
               "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
@@ -22046,16 +22046,16 @@
                   "display": "Irish"
                 }, 
                 {
+                  "code": "WhiteSpecific_Scottish", 
+                  "display": "Scottish"
+                }, 
+                {
                   "code": "WhiteSpecific_Norwegian", 
                   "display": "Norwegian"
                 }, 
                 {
                   "code": "WhiteSpecific_English", 
                   "display": "English"
-                }, 
-                {
-                  "code": "WhiteSpecific_Scottish", 
-                  "display": "Scottish"
                 }, 
                 {
                   "code": "WhiteSpecific_French", 
@@ -22264,10 +22264,6 @@
             {
               "concept": [
                 {
-                  "code": "Past3MonthUseFrequency_OtherStimulant3MonthUse", 
-                  "display": "d. Other stimulants (methamphetamine, speed, crystal meth, ice, k2/spice, bath salts, etc.)"
-                }, 
-                {
                   "code": "Past3MonthUseFrequency_Marijuana3MonthUse", 
                   "display": "a. Marijuana (cannabis, pot, grass, hash, weed, etc.)"
                 }, 
@@ -22278,6 +22274,10 @@
                 {
                   "code": "Past3MonthUseFrequency_StreetOpioid3MonthUse", 
                   "display": "h. Street opioids (heroin, opium, etc.)"
+                }, 
+                {
+                  "code": "Past3MonthUseFrequency_PrescriptionStimulant3MonthUse", 
+                  "display": "c. Prescription stimulants for non-medical reasons (Vyvanse, Ritalin, Concerta, Dexedrine, Adderall, diet pills, etc.)"
                 }, 
                 {
                   "code": "Past3MonthUseFrequency_Hallucinogen3MonthUse", 
@@ -22296,8 +22296,8 @@
                   "display": "j. Other [INSERT LANGUAGE FROM SU01j]"
                 }, 
                 {
-                  "code": "Past3MonthUseFrequency_PrescriptionStimulant3MonthUse", 
-                  "display": "c. Prescription stimulants for non-medical reasons (Vyvanse, Ritalin, Concerta, Dexedrine, Adderall, diet pills, etc.)"
+                  "code": "Past3MonthUseFrequency_OtherStimulant3MonthUse", 
+                  "display": "d. Other stimulants (methamphetamine, speed, crystal meth, ice, k2/spice, bath salts, etc.)"
                 }, 
                 {
                   "code": "Past3MonthUseFrequency_Sedative3MonthUse", 

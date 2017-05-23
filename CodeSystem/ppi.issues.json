@@ -161,7 +161,6 @@
   "Ancestors of 'ExtraConsent_next' don't include a 'Question', but this term is an 'Answer' ['ConsentPII: Module Name', 'ConsentPII_ExtraConsent: Topic', 'ExtraConsent_next: Answer']", 
   "Ancestors of 'ExtraConsent_review' don't include a 'Question', but this term is an 'Answer' ['ConsentPII: Module Name', 'ConsentPII_ExtraConsent: Topic', 'ExtraConsent_review: Answer']", 
   "Ancestors of 'EHRConsentPII_later' don't include a 'Question', but this term is an 'Answer' ['EHRConsentPII: Module Name', 'EHRConsentPII_later: Answer']", 
-  "Parent of 'EHRConsentPII' is 'None' but does not exist", 
   "Ancestors of 'EHRConsentPII_Ready' don't include a 'Question', but this term is an 'Answer' ['EHRConsentPII: Module Name', 'EHRConsentPII_Ready: Answer']", 
   "Term 'Transgender_CloserGenderDescription' has type=Question which is a choice type, but no answers associated with it. Hierarchy: ['TheBasics: None', 'TheBasics_Gender: None', 'Gender_GenderIdentity: open-choice', 'GenderIdentity_Transgender: None', 'Transgender_CloserGenderDescription: open-choice']", 
   "Term 'AmericanIndian_WhatTribeAffiliation' has type=Question which is a choice type, but no answers associated with it. Hierarchy: ['TheBasics: None', 'TheBasics_Race: None', 'Race_WhatRaceEthnicity: open-choice', 'WhatRaceEthnicity_AIAN: None', 'AIAN_AIANSpecific: open-choice', 'AIANSpecific_AmericanIndian: None', 'AmericanIndian_WhatTribeAffiliation: text']", 
