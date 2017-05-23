@@ -4,19 +4,19 @@
   "valueSetBase":  "http://terminology.pmi-ops.org/ValueSet/ppi-%s",
   "version": "0.0.1",
   "publisher":  "Precision Medicine Initiative: All of Us Resarch Program",
-  "sheetId":  "1TNqJ1ekLFHF4vYA2SNCb-4NL8QgoJrfuJsxnUuXd-is",
-  "versionSheet": "84597692",
+  "sheetId":  "1b1lmf2KywIVx3-WJBnsR21ImF6Bl345n5VMSdUNBwQI",
+  "versionSheet": "608737947",
   "sheets": {
     "PMI": "1791570240",
     "ConsentPII": "328858697",
-    "EHRConsentPII": "709158500",
+    "EHRConsentPII": "33202640",
     "OverallHealth": "448841041",
     "Lifestyle": "1838424427",
     "TheBasics": "551947635"
   },
   "sheetsToIgnore": {
-    "FamilyHistory": "2141379887",
-    "PersonalMedicalHistory": "1876758546",
-    "MedicationsPPI": "1952525453"
+    "FamilyHistory": "337657447",
+    "PersonalMedicalHistory": "2098376012",
+    "MedicationsPPI": "1001827794"
   }
 }
