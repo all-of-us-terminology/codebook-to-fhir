@@ -3,10 +3,10 @@ import csv
 import datetime
 import json
 import os
-import subprocess
 import sys
 
 from collections import namedtuple
+from urllib2 import urlopen
 
 SHEET_URL = 'https://docs.google.com/spreadsheets/d/%(sid)s/export?format=csv&gid=%(gid)s'
 OUTPUT_FILE = 'dist/CodeSystem/'
@@ -102,9 +102,17 @@ class SheetProcessor(object):
     def download_sheets(self):
         for name, gid in list(self.config['sheets'].iteritems()) + [("version", self.config['versionSheet'])]:
             target = SHEET_URL%{"sid": self.config['sheetId'], "gid": gid}
-            subprocess.call(["mkdir", "-p", "dist/sheets"])
-            subprocess.call(["mkdir", "-p", "dist/CodeSystem"])
-            subprocess.call(["wget", target, "-O", "dist/sheets/%s.csv"%name])
+            if not os.path.exists("dist"):
+                os.mkdir("dist")
+            if not os.path.exists("dist/sheets"):
+                os.mkdir("dist/sheets")
+            if not os.path.exists("dist/CodeSystem"):
+                os.mkdir("dist/CodeSystem")
+
+            print "Downloading %s"%target
+            sheet = urlopen(target).read()
+            with open("dist/sheets/%s.csv"%name, "w") as sheetfile:
+                sheetfile.write(sheet)
 
     def process_sheets(self):
         with open("dist/sheets/version.csv", "rb") as csvfile:
