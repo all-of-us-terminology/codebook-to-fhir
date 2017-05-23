@@ -167,6 +167,8 @@ Banner Heart Hospital,SitePairing,Answer,http://terminology.pmi-ops.org/CodeSyst
 ExtraConsent_FitnessTracker_Video,Extra Consent Items,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,ExtraConsent_FitnessTrackerVideo,ConsentPII_ExtraConsent,5/17/2017,,,,,,,,,,,,
 Extra Consent,Extra Consent Items,Topic,http://terminology.pmi-ops.org/CodeSystem/ppi,ConsentPII_ExtraConsent,ConsentPII,5/17/2017,,,,,,,,,,,,
 Copy of Multi Selector,Extra Consent Items,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,ExtraConsent_18YearsofAge,ConsentPII_ExtraConsent,5/17/2017,,,,,,,,,,,,
+18 Years Yes,Extra Consent Items,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,18YearsofAge_18YearsYes,ExtraConsent_18YearsofAge,5/23/2017,,,,,,,,,,,,
+19 Years No,Extra Consent Items,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,18YearsofAge_18YearsNo,ExtraConsent_18YearsofAge,5/23/2017,,,,,,,,,,,,
 Copy of Copy of Copy of Youtube Video,Extra Consent Items,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,ExtraConsent_PhysicalMeausrementsVideo,ConsentPII_ExtraConsent,5/17/2017,,,,,,,,,,,,
 review,Extra Consent Items,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,ExtraConsent_review,ConsentPII_ExtraConsent,5/17/2017,,,,,,,,,,,,
 Youtube Video,Extra Consent Items,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,ExtraConsent_WelcomeVideo,ConsentPII_ExtraConsent,5/17/2017,,,,,,,,,,,,
