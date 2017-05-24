@@ -567,20 +567,6 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "PersonOneRelationship_Child", 
-                  "display": "Child"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Secondary Contact", 
-                      "code": "concept-topic"
-                    }
-                  ], 
                   "code": "PersonOneRelationship_Relative", 
                   "display": "Relative"
                 }, 
@@ -611,6 +597,20 @@
                   ], 
                   "code": "PersonOneRelationship_Friend", 
                   "display": "Friend"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Secondary Contact", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PersonOneRelationship_Child", 
+                  "display": "Child"
                 }, 
                 {
                   "property": [
@@ -8477,8 +8477,8 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "ScheduledWithPACares_Yes", 
-                  "display": "yes"
+                  "code": "ScheduledWithPACares_No", 
+                  "display": "no"
                 }, 
                 {
                   "property": [
@@ -8491,8 +8491,8 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "ScheduledWithPACares_No", 
-                  "display": "no"
+                  "code": "ScheduledWithPACares_Yes", 
+                  "display": "yes"
                 }
               ], 
               "property": [
@@ -10221,8 +10221,8 @@
                               "code": "concept-topic"
                             }
                           ], 
-                          "code": "AZSArizonaSpecific_AZBannerBoswellMed", 
-                          "display": "Banner Boswell Medical"
+                          "code": "AZCArizonaSpecific_BannerBehavioralHealth", 
+                          "display": "Banner Behavioral Health"
                         }, 
                         {
                           "property": [
@@ -10235,8 +10235,8 @@
                               "code": "concept-topic"
                             }
                           ], 
-                          "code": "AZCArizonaSpecific_BannerBehavioralHealth", 
-                          "display": "Banner Behavioral Health"
+                          "code": "AZSArizonaSpecific_AZBannerBoswellMed", 
+                          "display": "Banner Boswell Medical"
                         }, 
                         {
                           "property": [
@@ -10757,6 +10757,50 @@
           "display": "Take the time you need to decide about joining All of Us. We are here to answer any questions you have."
         }, 
         {
+          "concept": [
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Extra Consent Items", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "YoutubeVideos_WhatAreWeAsking", 
+              "display": "what are we asking you to do?"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Extra Consent Items", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "YoutubeVideos_RiskToPrivacy", 
+              "display": "risk to privacy"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Extra Consent Items", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "EHRConsentPII_YoutubeVideos", 
+          "display": "Youtube Videos"
+        }, 
+        {
           "property": [
             {
               "valueCode": "Question", 
@@ -10881,6 +10925,50 @@
                   "code": "concept-type"
                 }, 
                 {
+                  "valueCode": "Extra Consent Items", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "NavigationalText_Ready", 
+              "display": "ready"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Extra Consent Items", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "NavigationalText_later", 
+              "display": "later"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Extra Consent Items", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "EHRConsentPII_NavigationalText", 
+          "display": "Navigational Text"
+        }, 
+        {
+          "concept": [
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
                   "valueCode": "Quiz Ready", 
                   "code": "concept-topic"
                 }
@@ -10915,20 +11003,6 @@
           ], 
           "code": "EHRConsentPII_AreYouReady", 
           "display": "Are you ready to take the quiz?"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Extra Consent Items", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "EHRConsentPII_later", 
-          "display": "later"
         }, 
         {
           "concept": [
@@ -10973,20 +11047,6 @@
           ], 
           "code": "EHRConsentPII_AllOfAccess", 
           "display": "Do I have to give all of us access to my EHR?"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Extra Consent Items", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "EHRConsentPII_Ready", 
-          "display": "ready"
         }, 
         {
           "concept": [
@@ -11039,7 +11099,7 @@
               "code": "concept-type"
             }, 
             {
-              "valueCode": null, 
+              "valueCode": "Extra Consent Items", 
               "code": "concept-topic"
             }
           ], 
@@ -13223,7 +13283,7 @@
         {
           "property": [
             {
-              "valueCode": "Question", 
+              "valueCode": "Answer", 
               "code": "concept-type"
             }, 
             {
@@ -13247,6 +13307,20 @@
           ], 
           "code": "PMI_None", 
           "display": "None"
+        }, 
+        {
+          "property": [
+            {
+              "valueCode": "Answer", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "PMI", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "PMI_DoesNotApplyToMe", 
+          "display": "Does Not Apply To Me"
         }, 
         {
           "property": [
@@ -13308,12 +13382,12 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 926, 
+  "count": 931, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.2.25", 
+  "version": "0.2.26", 
   "hierarchyMeaning": "grouped-by", 
   "date": "2017-05-23", 
   "property": [
