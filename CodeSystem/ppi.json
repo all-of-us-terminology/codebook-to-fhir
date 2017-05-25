@@ -825,6 +825,20 @@
                           "code": "concept-topic"
                         }
                       ], 
+                      "code": "PersonOneAddressState_MD", 
+                      "display": "Maryland"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Secondary Contact", 
+                          "code": "concept-topic"
+                        }
+                      ], 
                       "code": "PersonOneAddressState_WI", 
                       "display": "Wisconsin"
                     }, 
@@ -939,20 +953,6 @@
                       ], 
                       "code": "PersonOneAddressState_KS", 
                       "display": "Kansas"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Secondary Contact", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PersonOneAddressState_MD", 
-                      "display": "Maryland"
                     }, 
                     {
                       "property": [
@@ -1245,6 +1245,20 @@
                           "code": "concept-topic"
                         }
                       ], 
+                      "code": "PersonOneAddressState_CO", 
+                      "display": "Colorado"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Secondary Contact", 
+                          "code": "concept-topic"
+                        }
+                      ], 
                       "code": "PersonOneAddressState_GU", 
                       "display": "Guam"
                     }, 
@@ -1275,20 +1289,6 @@
                       ], 
                       "code": "PersonOneAddressState_VI", 
                       "display": "Virgin Islands"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Secondary Contact", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PersonOneAddressState_CO", 
-                      "display": "Colorado"
                     }, 
                     {
                       "property": [
@@ -1921,20 +1921,6 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "SecondContactState_Arkansas", 
-                      "display": "Arkansas"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Secondary Contact", 
-                          "code": "concept-topic"
-                        }
-                      ], 
                       "code": "SecondContactState_Maine", 
                       "display": "Maine"
                     }, 
@@ -2035,6 +2021,20 @@
                       ], 
                       "code": "SecondContactState_SouthCarolina", 
                       "display": "SouthCarolina"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Secondary Contact", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "SecondContactState_Arkansas", 
+                      "display": "Arkansas"
                     }, 
                     {
                       "property": [
@@ -2627,25 +2627,97 @@
         {
           "concept": [
             {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Sexual Orientation", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "SexualOrientation_Bisexual", 
+              "display": "Bisexual"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Sexual Orientation", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "SexualOrientation_Straight", 
+              "display": "Straight; that is, not gay or lesbian"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Sexual Orientation", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "SexualOrientation_None", 
+              "display": "None of these describe me, and I'd like to see additional options"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Sexual Orientation", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "SexualOrientation_Lesbian", 
+              "display": "Lesbian"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Sexual Orientation", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "SexualOrientation_Gay", 
+              "display": "Gay"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Sexual Orientation", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "TheBasics_SexualOrientation", 
+          "display": "Which of the following best represents how you think of yourself?"
+        }, 
+        {
+          "concept": [
+            {
               "concept": [
                 {
                   "concept": [
                     {
                       "concept": [
-                        {
-                          "property": [
-                            {
-                              "valueCode": "Answer", 
-                              "code": "concept-type"
-                            }, 
-                            {
-                              "valueCode": "Race Ethnicity Subcategory", 
-                              "code": "concept-topic"
-                            }
-                          ], 
-                          "code": "AsianSpecific_Vietnamese", 
-                          "display": "Vietnamese"
-                        }, 
                         {
                           "property": [
                             {
@@ -2685,20 +2757,6 @@
                               "code": "concept-topic"
                             }
                           ], 
-                          "code": "AsianSpecific_Chinese", 
-                          "display": "Chinese"
-                        }, 
-                        {
-                          "property": [
-                            {
-                              "valueCode": "Answer", 
-                              "code": "concept-type"
-                            }, 
-                            {
-                              "valueCode": "Race Ethnicity Subcategory", 
-                              "code": "concept-topic"
-                            }
-                          ], 
                           "code": "AsianSpecific_Filipino", 
                           "display": "Filipino"
                         }, 
@@ -2713,8 +2771,8 @@
                               "code": "concept-topic"
                             }
                           ], 
-                          "code": "AsianSpecific_Pakistani", 
-                          "display": "Pakistani"
+                          "code": "AsianSpecific_Chinese", 
+                          "display": "Chinese"
                         }, 
                         {
                           "property": [
@@ -2741,8 +2799,36 @@
                               "code": "concept-topic"
                             }
                           ], 
+                          "code": "AsianSpecific_Pakistani", 
+                          "display": "Pakistani"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Race Ethnicity Subcategory", 
+                              "code": "concept-topic"
+                            }
+                          ], 
                           "code": "AsianSpecific_Cambodian", 
                           "display": "Cambodian"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Race Ethnicity Subcategory", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "AsianSpecific_Vietnamese", 
+                          "display": "Vietnamese"
                         }, 
                         {
                           "property": [
@@ -3325,6 +3411,36 @@
                         {
                           "concept": [
                             {
+                              "concept": [
+                                {
+                                  "property": [
+                                    {
+                                      "valueCode": "Answer", 
+                                      "code": "concept-type"
+                                    }, 
+                                    {
+                                      "valueCode": "Race Ethnicity", 
+                                      "code": "concept-topic"
+                                    }
+                                  ], 
+                                  "code": "WhatTribeAffiliation_NotSure1", 
+                                  "display": "I'm not sure."
+                                }, 
+                                {
+                                  "property": [
+                                    {
+                                      "valueCode": "Answer", 
+                                      "code": "concept-type"
+                                    }, 
+                                    {
+                                      "valueCode": "Race Ethnicity", 
+                                      "code": "concept-topic"
+                                    }
+                                  ], 
+                                  "code": "WhatTribeAffiliation_FreeText1", 
+                                  "display": "Free Text Answer (Tribe related)"
+                                }
+                              ], 
                               "property": [
                                 {
                                   "valueCode": "Question", 
@@ -3367,7 +3483,7 @@
                                       "code": "concept-topic"
                                     }
                                   ], 
-                                  "code": "WhatTribeAffiliation_NotSure", 
+                                  "code": "WhatTribeAffiliation_NotSure3", 
                                   "display": "I'm not sure."
                                 }, 
                                 {
@@ -3381,7 +3497,7 @@
                                       "code": "concept-topic"
                                     }
                                   ], 
-                                  "code": "WhatTribeAffiliation_FreeText", 
+                                  "code": "WhatTribeAffiliation_FreeText3", 
                                   "display": "Free Text Answer (Tribe related)"
                                 }
                               ], 
@@ -3415,6 +3531,36 @@
                         {
                           "concept": [
                             {
+                              "concept": [
+                                {
+                                  "property": [
+                                    {
+                                      "valueCode": "Answer", 
+                                      "code": "concept-type"
+                                    }, 
+                                    {
+                                      "valueCode": "Race Ethnicity", 
+                                      "code": "concept-topic"
+                                    }
+                                  ], 
+                                  "code": "WhatTribeAffiliation_FreeText2", 
+                                  "display": "Free Text Answer (Tribe related)"
+                                }, 
+                                {
+                                  "property": [
+                                    {
+                                      "valueCode": "Answer", 
+                                      "code": "concept-type"
+                                    }, 
+                                    {
+                                      "valueCode": "Race Ethnicity", 
+                                      "code": "concept-topic"
+                                    }
+                                  ], 
+                                  "code": "WhatTribeAffiliation_NotSure2", 
+                                  "display": "I'm not sure."
+                                }
+                              ], 
                               "property": [
                                 {
                                   "valueCode": "Question", 
@@ -3474,20 +3620,6 @@
                   "concept": [
                     {
                       "concept": [
-                        {
-                          "property": [
-                            {
-                              "valueCode": "Answer", 
-                              "code": "concept-type"
-                            }, 
-                            {
-                              "valueCode": "Race Ethnicity Subcategory", 
-                              "code": "concept-topic"
-                            }
-                          ], 
-                          "code": "BlackSpecific_Nigerian", 
-                          "display": "Nigerian"
-                        }, 
                         {
                           "property": [
                             {
@@ -3613,6 +3745,20 @@
                           ], 
                           "code": "BlackSpecific_AfricanAmerican", 
                           "display": "African American"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Race Ethnicity Subcategory", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "BlackSpecific_Nigerian", 
+                          "display": "Nigerian"
                         }, 
                         {
                           "property": [
@@ -3989,20 +4135,6 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "AnnualIncome_75k100k", 
-                  "display": "$75,000-$99,999$"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Income", 
-                      "code": "concept-topic"
-                    }
-                  ], 
                   "code": "AnnualIncome_100k150k", 
                   "display": "$100,000- $149,999"
                 }, 
@@ -4045,6 +4177,20 @@
                       "code": "concept-topic"
                     }
                   ], 
+                  "code": "AnnualIncome_75k100k", 
+                  "display": "$75,000-$99,999$"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Income", 
+                      "code": "concept-topic"
+                    }
+                  ], 
                   "code": "AnnualIncome_50k75k", 
                   "display": "$50,000- $74,999"
                 }, 
@@ -4059,8 +4205,8 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "AnnualIncome_less10k", 
-                  "display": "Less than $10,000"
+                  "code": "AnnualIncome_150k200k", 
+                  "display": "$150,000- $199,999"
                 }, 
                 {
                   "property": [
@@ -4073,8 +4219,8 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "AnnualIncome_150k200k", 
-                  "display": "$150,000- $199,999"
+                  "code": "AnnualIncome_less10k", 
+                  "display": "Less than $10,000"
                 }, 
                 {
                   "property": [
@@ -4219,92 +4365,6 @@
           ], 
           "code": "TheBasics_BiologicalSexAtBirth", 
           "display": "Biological Sex at Birth"
-        }, 
-        {
-          "concept": [
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Sexual Orientation", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "SexualOrientation_Bisexual", 
-              "display": "Bisexual"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Sexual Orientation", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "SexualOrientation_Straight", 
-              "display": "Straight; that is, not gay or lesbian"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Sexual Orientation", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "SexualOrientation_None", 
-              "display": "None of these describe me, and I'd like to see additional options"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Sexual Orientation", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "SexualOrientation_Lesbian", 
-              "display": "Lesbian"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Sexual Orientation", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "SexualOrientation_Gay", 
-              "display": "Gay"
-            }
-          ], 
-          "property": [
-            {
-              "valueCode": "Question", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Sexual Orientation", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "TheBasics_SexualOrientation", 
-          "display": "Which of the following best represents how you think of yourself?"
         }, 
         {
           "concept": [
@@ -4571,8 +4631,80 @@
             {
               "concept": [
                 {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Gender", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "CloserGenderDescription_Genderqueer", 
+                  "display": "Genderqueer"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Gender", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "CloserGenderDescription_TransWoman", 
+                  "display": "Transwoman/Transgender Woman/MTF"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Gender", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "CloserGenderDescription_Genderfluid", 
+                  "display": "Genderfluid"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Gender", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "CloserGenderDescription_GenderVariant", 
+                  "display": "Gender Variant"
+                }, 
+                {
                   "concept": [
                     {
+                      "concept": [
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Gender", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "SpecifiedGenderIdentityTextBox_IdentityFreeTextBox", 
+                          "display": "Specified Gender Identity Text Box Answer"
+                        }
+                      ], 
                       "property": [
                         {
                           "valueCode": "Question", 
@@ -4599,6 +4731,190 @@
                   ], 
                   "code": "CloserGenderDescription_SpecifiedGenderIdentity", 
                   "display": "None of these describe me, and I want to specify"
+                }, 
+                {
+                  "concept": [
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Sexual Orientation", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "SexualityCloserDescription_Queer", 
+                      "display": "Queer"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Sexual Orientation", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "SexualityCloserDescription_NoLabels", 
+                      "display": "Do not use labels to identity yourself"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Sexual Orientation", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "SexualityCloserDescription_TwoSpirit", 
+                      "display": "Two-spirit"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Sexual Orientation", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "SexualityCloserDescription_DontKnow", 
+                      "display": "Don't know the answer"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Sexual Orientation", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "SexualityCloserDescription_NoSexuality", 
+                      "display": "Do not think of yourself as having sexuality"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Sexual Orientation", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "SexualityCloserDescription_Asexual", 
+                      "display": "Asexual"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Sexual Orientation", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "SexualityCloserDescription_MostlyStraight", 
+                      "display": "Mostly straight, but sometimes attracted to people of your own sex"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Sexual Orientation", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "SexualityCloserDescription_SomethingElse", 
+                      "display": "No, I mean something else"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Sexual Orientation", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "SexualityCloserDescription_NotFiguredOut", 
+                      "display": "Have not figured out or are in the process of figuring our your sexuality"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Sexual Orientation", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "SexualityCloserDescription_PolyOmniSapioPansexual", 
+                      "display": "Polysexual, omnisexual, sapiosexual or pansexual"
+                    }
+                  ], 
+                  "property": [
+                    {
+                      "valueCode": "Question", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Sexual Orientation", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "GenderIdentity_SexualityCloserDescription", 
+                  "display": "Are any of these a closer description of how you think of yourself?"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Gender", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "CloserGenderDescription_Unsure", 
+                  "display": "Questioning or unsure of your gender identity"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Gender", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "CloserGenderDescription_TransMan", 
+                  "display": "Transman/Transgender Man/FTM"
                 }
               ], 
               "property": [
@@ -4633,6 +4949,106 @@
                 {
                   "concept": [
                     {
+                      "concept": [
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Gender", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "CloserGenderDescription_GenderVariant2", 
+                          "display": "Gender Variant"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Gender", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "CloserGenderDescription_SpecifiedGender2", 
+                          "display": "None of these describe me, and I want to specify"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Gender", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "CloserGenderDescription_TransWoman2", 
+                          "display": "Transwoman/Transgender Woman/MTF"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Gender", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "CloserGenderDescription_Genderqueer2", 
+                          "display": "Genderqueer"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Gender", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "CloserGenderDescription_Genderfluid2", 
+                          "display": "Genderfluid"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Gender", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "CloserGenderDescription_TransMan2", 
+                          "display": "Transman/Transgender Man/FTM"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Gender", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "CloserGenderDescription_Unsure2", 
+                          "display": "Questioning or unsure of your gender identity"
+                        }
+                      ], 
                       "property": [
                         {
                           "valueCode": "Question", 
@@ -4689,35 +5105,7 @@
                               "code": "concept-topic"
                             }
                           ], 
-                          "code": "CloserGenderDescription_Genderqueer", 
-                          "display": "Genderqueer"
-                        }, 
-                        {
-                          "property": [
-                            {
-                              "valueCode": "Answer", 
-                              "code": "concept-type"
-                            }, 
-                            {
-                              "valueCode": "Gender", 
-                              "code": "concept-topic"
-                            }
-                          ], 
-                          "code": "CloserGenderDescription_TransWoman", 
-                          "display": "Transwoman/Transgender Woman/MTF"
-                        }, 
-                        {
-                          "property": [
-                            {
-                              "valueCode": "Answer", 
-                              "code": "concept-type"
-                            }, 
-                            {
-                              "valueCode": "Gender", 
-                              "code": "concept-topic"
-                            }
-                          ], 
-                          "code": "CloserGenderDescription_SpecifiedGender", 
+                          "code": "CloserGenderDescription_SpecifiedGender3", 
                           "display": "None of these describe me, and I want to specify"
                         }, 
                         {
@@ -4731,7 +5119,7 @@
                               "code": "concept-topic"
                             }
                           ], 
-                          "code": "CloserGenderDescription_Genderfluid", 
+                          "code": "CloserGenderDescription_Genderfluid3", 
                           "display": "Genderfluid"
                         }, 
                         {
@@ -4745,21 +5133,7 @@
                               "code": "concept-topic"
                             }
                           ], 
-                          "code": "CloserGenderDescription_GenderVariant", 
-                          "display": "Gender Variant"
-                        }, 
-                        {
-                          "property": [
-                            {
-                              "valueCode": "Answer", 
-                              "code": "concept-type"
-                            }, 
-                            {
-                              "valueCode": "Gender", 
-                              "code": "concept-topic"
-                            }
-                          ], 
-                          "code": "CloserGenderDescription_Unsure", 
+                          "code": "CloserGenderDescription_Unsure3", 
                           "display": "Questioning or unsure of your gender identity"
                         }, 
                         {
@@ -4773,8 +5147,50 @@
                               "code": "concept-topic"
                             }
                           ], 
-                          "code": "CloserGenderDescription_TransMan", 
+                          "code": "CloserGenderDescription_GenderVariant3", 
+                          "display": "Gender Variant"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Gender", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "CloserGenderDescription_TransMan3", 
                           "display": "Transman/Transgender Man/FTM"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Gender", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "CloserGenderDescription_TransWoman3", 
+                          "display": "Transwoman/Transgender Woman/MTF"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Gender", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "CloserGenderDescription_Genderqueer3", 
+                          "display": "Genderqueer"
                         }
                       ], 
                       "property": [
@@ -4807,6 +5223,106 @@
                 {
                   "concept": [
                     {
+                      "concept": [
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Gender", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "CloserGenderDescription_Genderfluid1", 
+                          "display": "Genderfluid"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Gender", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "CloserGenderDescription_Unsure1", 
+                          "display": "Questioning or unsure of your gender identity"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Gender", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "CloserGenderDescription_GenderVariant1", 
+                          "display": "Gender Variant"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Gender", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "CloserGenderDescription_TransWoman1", 
+                          "display": "Transwoman/Transgender Woman/MTF"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Gender", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "CloserGenderDescription_SpecifiedGender1", 
+                          "display": "None of these describe me, and I want to specify"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Gender", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "CloserGenderDescription_Genderqueer1", 
+                          "display": "Genderqueer"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Gender", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "CloserGenderDescription_TransMan1", 
+                          "display": "Transman/Transgender Man/FTM"
+                        }
+                      ], 
                       "property": [
                         {
                           "valueCode": "Question", 
@@ -4937,164 +5453,6 @@
           "display": "Home Ownership"
         }, 
         {
-          "concept": [
-            {
-              "concept": [
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Gender", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "SexualityCloserDescription_Queer", 
-                  "display": "Queer"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Gender", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "SexualityCloserDescription_TwoSpirit", 
-                  "display": "Two-spirit"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Gender", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "SexualityCloserDescription_DontKnow", 
-                  "display": "Don't know the answer"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Gender", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "SexualityCloserDescription_Asexual", 
-                  "display": "Asexual"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Gender", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "SexualityCloserDescription_NoSexuality", 
-                  "display": "Do not think of yourself as having sexuality"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Gender", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "SexualityCloserDescription_NoLabels", 
-                  "display": "Do not use labels to identity yourself"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Gender", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "SexualityCloserDescription_MostlyStraight", 
-                  "display": "Mostly straight, but sometimes attracted to people of your own sex"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Gender", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "SexualityCloserDescription_SomethingElse", 
-                  "display": "No, I mean something else"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Gender", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "SexualityCloserDescription_NotFiguredOut", 
-                  "display": "Have not figured out or are in the process of figuring our your sexuality"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Gender", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "SexualityCloserDescription_PolyOmniSapioPansexual", 
-                  "display": "Polysexual, omnisexual, sapiosexual or pansexual"
-                }
-              ], 
-              "property": [
-                {
-                  "valueCode": "Question", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Gender", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "GenderIdentity_SexualityCloserDescription", 
-              "display": "Are any of these a closer description of how you think of yourself?"
-            }
-          ], 
           "property": [
             {
               "valueCode": "Topic", 
@@ -5137,6 +5495,20 @@
                       "code": "concept-topic"
                     }
                   ], 
+                  "code": "EmploymentWorkAddress_City", 
+                  "display": "City"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Question", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Employment", 
+                      "code": "concept-topic"
+                    }
+                  ], 
                   "code": "EmploymentWorkAddress_AddressLineTwo", 
                   "display": "Address Line 2 (optional)"
                 }, 
@@ -5167,20 +5539,6 @@
                   ], 
                   "code": "EmploymentWorkAddress_AddressLineOne", 
                   "display": "Address Line 1"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Question", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Employment", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "EmploymentWorkAddress_City", 
-                  "display": "City"
                 }, 
                 {
                   "property": [
@@ -5515,92 +5873,6 @@
     {
       "concept": [
         {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Recreational Drugs", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "Marijuana3MonthUse_Daily", 
-          "display": "Daily or almost daily"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Recreational Drugs", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "Marijuana3MonthUse_OneOrTwice", 
-          "display": "Once or twice"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Recreational Drugs", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "Marijuana3MonthUse_Never", 
-          "display": "Never"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Recreational Drugs", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "Marijuana3MonthUse_Monthly", 
-          "display": "Monthly"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Recreational Drugs", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "Marijuana3MonthUse_Weekly", 
-          "display": "Weekly"
-        }
-      ], 
-      "property": [
-        {
-          "valueCode": "Question", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "Recreational Drugs", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "Past3MonthUseFrequency_Marijuana3MonthUse", 
-      "display": "In the PAST THREE MONTHS, how often have you used Marijuana (cannabis, pot, grass, hash, weed, etc.)"
-    }, 
-    {
-      "concept": [
-        {
           "concept": [
             {
               "property": [
@@ -5883,6 +6155,20 @@
                   "code": "concept-topic"
                 }
               ], 
+              "code": "DifficultUnderstandInfo_Always", 
+              "display": "Always"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Information Understanding", 
+                  "code": "concept-topic"
+                }
+              ], 
               "code": "DifficultUnderstandInfo_Often", 
               "display": "Often"
             }, 
@@ -5899,20 +6185,6 @@
               ], 
               "code": "DifficultUnderstandInfo_Occasionally", 
               "display": "Occasionally"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Information Understanding", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "DifficultUnderstandInfo_Always", 
-              "display": "Always"
             }, 
             {
               "property": [
@@ -7631,522 +7903,6 @@
     {
       "concept": [
         {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Recreational Drugs", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "PrescriptionOpiod3MonthUse_Weekly", 
-          "display": "Weekly"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Recreational Drugs", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "PrescriptionOpiod3MonthUse_Monthly", 
-          "display": "Monthly"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Recreational Drugs", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "PrescriptionOpiod3MonthUse_OnceOrTwice", 
-          "display": "Once or twice"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Recreational Drugs", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "PrescriptionOpiod3MonthUse_Never", 
-          "display": "Never"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Recreational Drugs", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "PrescriptionOpiod3MonthUse_Daily", 
-          "display": "Daily or almost daily"
-        }
-      ], 
-      "property": [
-        {
-          "valueCode": "Question", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "Recreational Drugs", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "Past3MonthUseFrequency_PrescriptionOpiod3MonthUse", 
-      "display": "In the PAST THREE MONTHS, how often have you used Prescription opioids for non-medical reasons (obana, fentanyl, oxycodone [OxyContin, Percocet], hydrocodone [Vicodin], methadone, buprenorphine [Supoxone], etc.)"
-    }, 
-    {
-      "concept": [
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Recreational Drugs", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "StreetOpioid3MonthUse_Monthly", 
-          "display": "Monthly"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Recreational Drugs", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "StreetOpioid3MonthUse_Never", 
-          "display": "Never"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Recreational Drugs", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "StreetOpioid3MonthUse_Daily", 
-          "display": "Daily or almost daily"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Recreational Drugs", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "StreetOpioid3MonthUse_Weekly", 
-          "display": "Weekly"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Recreational Drugs", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "StreetOpioid3MonthUse_OnceOrTwice", 
-          "display": "Once or twice"
-        }
-      ], 
-      "property": [
-        {
-          "valueCode": "Question", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "Recreational Drugs", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "Past3MonthUseFrequency_StreetOpioid3MonthUse", 
-      "display": "In the PAST THREE MONTHS, how often have you used Street opioids (heroin, opium, etc.)"
-    }, 
-    {
-      "concept": [
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Recreational Drugs", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "PrescriptionStimulant3MonthUse_OnceOrTwice", 
-          "display": "Once or twice"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Recreational Drugs", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "PrescriptionStimulant3MonthUse_Monthly", 
-          "display": "Monthly"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Recreational Drugs", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "PrescriptionStimulant3MonthUse_Daily", 
-          "display": "Daily or almost daily"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Recreational Drugs", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "PrescriptionStimulant3MonthUse_Never", 
-          "display": "Never"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Recreational Drugs", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "PrescriptionStimulant3MonthUse_Weekly", 
-          "display": "Weekly"
-        }
-      ], 
-      "property": [
-        {
-          "valueCode": "Question", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "Recreational Drugs", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "Past3MonthUseFrequency_PrescriptionStimulant3MonthUse", 
-      "display": "In the PAST THREE MONTHS, how often have you used Prescription stimulants for non-medical reasons (Vyvanse, Ritalin, Concerta, Dexedrine, Adderall, diet pills, etc.)"
-    }, 
-    {
-      "concept": [
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Recreational Drugs", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "Hallucinogen3MonthUse_Weekly", 
-          "display": "Weekly"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Recreational Drugs", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "Hallucinogen3MonthUse_Daily", 
-          "display": "Daily or almost daily"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Recreational Drugs", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "Hallucinogen3MonthUse_Never", 
-          "display": "Never"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Recreational Drugs", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "Hallucinogen3MonthUse_OnceOrTwice", 
-          "display": "Once or twice"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Recreational Drugs", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "Hallucinogen3MonthUse_Monthly", 
-          "display": "Monthly"
-        }
-      ], 
-      "property": [
-        {
-          "valueCode": "Question", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "Recreational Drugs", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "Past3MonthUseFrequency_Hallucinogen3MonthUse", 
-      "display": "In the PAST THREE MONTHS, how often have you used Hallucinogens (LSD, acid, mushrooms, PCP, Special K, ecstasy, etc.)"
-    }, 
-    {
-      "concept": [
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Recreational Drugs", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "Cocaine3MonthUse_Never", 
-          "display": "Never"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Recreational Drugs", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "Cocaine3MonthUse_OnceOrTwice", 
-          "display": "Once or twice"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Recreational Drugs", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "Cocaine3MonthUse_Daily", 
-          "display": "Daily or almost daily"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Recreational Drugs", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "Cocaine3MonthUse_Weekly", 
-          "display": "Weekly"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Recreational Drugs", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "Cocaine3MonthUse_Monthly", 
-          "display": "Monthly"
-        }
-      ], 
-      "property": [
-        {
-          "valueCode": "Question", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "Recreational Drugs", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "Past3MonthUseFrequency_Cocaine3MonthUse", 
-      "display": "In the PAST THREE MONTHS, how often have you used Cocaine (coke, crack, etc.)"
-    }, 
-    {
-      "concept": [
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Recreational Drugs", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "Inhalant3MonthUse_Monthly", 
-          "display": "Monthly"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Recreational Drugs", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "Inhalant3MonthUse_OnceOrTwice", 
-          "display": "Once or twice"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Recreational Drugs", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "Inhalant3MonthUse_Weekly", 
-          "display": "Weekly"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Recreational Drugs", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "Inhalant3MonthUse_Daily", 
-          "display": "Daily or almost daily"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Recreational Drugs", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "Inhalant3MonthUse_Never", 
-          "display": "Never"
-        }
-      ], 
-      "property": [
-        {
-          "valueCode": "Question", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "Recreational Drugs", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "Past3MonthUseFrequency_Inhalant3MonthUse", 
-      "display": "In the PAST THREE MONTHS, how often have you used Inhalants (nitrous oxide, glue, gas, paint thinner, etc.)"
-    }, 
-    {
-      "concept": [
-        {
           "concept": [
             {
               "concept": [
@@ -8177,20 +7933,6 @@
                   ], 
                   "code": "SpokenWrittenLanguage_English", 
                   "display": "English"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Language", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "SpokenWrittenLanguage_ChineseHongKong", 
-                  "display": "Chinese (Hong Kong)"
                 }, 
                 {
                   "property": [
@@ -8399,6 +8141,20 @@
                       "code": "concept-topic"
                     }
                   ], 
+                  "code": "SpokenWrittenLanguage_ChineseHongKong", 
+                  "display": "Chinese (Hong Kong)"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Language", 
+                      "code": "concept-topic"
+                    }
+                  ], 
                   "code": "SpokenWrittenLanguage_Czech", 
                   "display": "Czech"
                 }, 
@@ -8443,20 +8199,6 @@
                   ], 
                   "code": "SpokenWrittenLanguage_FrenchFrance", 
                   "display": "French (France)"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Language", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "SpokenWrittenLanguage_FrenchBelgium", 
-                  "display": "French (Belgium)"
                 }, 
                 {
                   "property": [
@@ -8595,6 +8337,20 @@
                       "code": "concept-topic"
                     }
                   ], 
+                  "code": "SpokenWrittenLanguage_FrenchBelgium", 
+                  "display": "French (Belgium)"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Language", 
+                      "code": "concept-topic"
+                    }
+                  ], 
                   "code": "SpokenWrittenLanguage_Korean", 
                   "display": "Korean"
                 }, 
@@ -8695,20 +8451,6 @@
                   ], 
                   "code": "SpokenWrittenLanguage_German", 
                   "display": "German"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Language", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "SpokenWrittenLanguage_GermanGermany", 
-                  "display": "German (Germany)"
                 }, 
                 {
                   "property": [
@@ -8847,6 +8589,20 @@
                       "code": "concept-topic"
                     }
                   ], 
+                  "code": "SpokenWrittenLanguage_GermanGermany", 
+                  "display": "German (Germany)"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Language", 
+                      "code": "concept-topic"
+                    }
+                  ], 
                   "code": "SpokenWrittenLanguage_EnglishUnitedStates", 
                   "display": "English (United States)"
                 }, 
@@ -8967,20 +8723,6 @@
             {
               "property": [
                 {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Extra Consent Items", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "ExtraConsent_next", 
-              "display": "next"
-            }, 
-            {
-              "property": [
-                {
                   "valueCode": "Question", 
                   "code": "concept-type"
                 }, 
@@ -9091,6 +8833,20 @@
               ], 
               "code": "ExtraConsent_HealthRecordVideo", 
               "display": "Copy of Copy of Copy of Copy of Copy of Copy of Youtube Video"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Extra Consent Items", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "ExtraConsent_next", 
+              "display": "next"
             }, 
             {
               "property": [
@@ -9207,50 +8963,6 @@
               ], 
               "code": "ExtraConsent_18YearsofAge", 
               "display": "Copy of Multi Selector"
-            }, 
-            {
-              "concept": [
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Extra Consent Items", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "EverReceivedUPMCCare_Yes", 
-                  "display": "yes"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Extra Consent Items", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "EverReceivedUPMCCare_No", 
-                  "display": "no"
-                }
-              ], 
-              "property": [
-                {
-                  "valueCode": "Question", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Extra Consent Items", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "ExtraConsent_EverReceivedUPMCCare", 
-              "display": "Have you ever received care at a UPMC healthcare provider?"
             }, 
             {
               "property": [
@@ -9381,6 +9093,50 @@
               ], 
               "code": "ExtraConsent_EmailACopyToMe", 
               "display": "Boolean selector"
+            }, 
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Extra Consent Items", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "EverReceivedUPMCCare_Yes", 
+                  "display": "yes"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Extra Consent Items", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "EverReceivedUPMCCare_No", 
+                  "display": "no"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Extra Consent Items", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "ExtraConsent_EverReceivedUPMCCare", 
+              "display": "Have you ever received care at a UPMC healthcare provider?"
             }, 
             {
               "property": [
@@ -9897,6 +9653,20 @@
                           "code": "concept-topic"
                         }
                       ], 
+                      "code": "PIIState_AL", 
+                      "display": "Alabama"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "States", 
+                          "code": "concept-topic"
+                        }
+                      ], 
                       "code": "PIIState_MI", 
                       "display": "Michigan"
                     }, 
@@ -10079,20 +9849,6 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "PIIState_CO", 
-                      "display": "Colorado"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "States", 
-                          "code": "concept-topic"
-                        }
-                      ], 
                       "code": "PIIState_MN", 
                       "display": "Minnesota"
                     }, 
@@ -10163,8 +9919,8 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "PIIState_NV", 
-                      "display": "Nevada"
+                      "code": "PIIState_DC", 
+                      "display": "District of Columbia"
                     }, 
                     {
                       "property": [
@@ -10179,20 +9935,6 @@
                       ], 
                       "code": "PIIState_NE", 
                       "display": "Nebraska"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "States", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PIIState_DC", 
-                      "display": "District of Columbia"
                     }, 
                     {
                       "property": [
@@ -10291,6 +10033,20 @@
                       ], 
                       "code": "PIIState_MP", 
                       "display": "North Marianas Islands"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "States", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PIIState_NV", 
+                      "display": "Nevada"
                     }, 
                     {
                       "property": [
@@ -10443,20 +10199,6 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "PIIState_AL", 
-                      "display": "Alabama"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "States", 
-                          "code": "concept-topic"
-                        }
-                      ], 
                       "code": "PIIState_IL", 
                       "display": "Illinois"
                     }, 
@@ -10529,6 +10271,20 @@
                       ], 
                       "code": "PIIState_GU", 
                       "display": "Guam"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "States", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PIIState_CO", 
+                      "display": "Colorado"
                     }, 
                     {
                       "property": [
@@ -10777,6 +10533,20 @@
                               "code": "concept-topic"
                             }
                           ], 
+                          "code": "AZSArizonaSpecific_AZBannerDesertMed", 
+                          "display": "Banner Desert Medical Center"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "SitePairing", 
+                              "code": "concept-topic"
+                            }
+                          ], 
                           "code": "AZSArizonaSpecific_AZBannerDelEWebbMed", 
                           "display": "Banner Del E. Webb Medical"
                         }, 
@@ -10863,20 +10633,6 @@
                           ], 
                           "code": "AZSArizonaSpecific_AZBannerGatewayMed", 
                           "display": "Banner Gateway Medical"
-                        }, 
-                        {
-                          "property": [
-                            {
-                              "valueCode": "Answer", 
-                              "code": "concept-type"
-                            }, 
-                            {
-                              "valueCode": "SitePairing", 
-                              "code": "concept-topic"
-                            }
-                          ], 
-                          "code": "AZSArizonaSpecific_AZBannerDesertMed", 
-                          "display": "Banner Desert Medical Center"
                         }, 
                         {
                           "property": [
@@ -11167,92 +10923,6 @@
     {
       "concept": [
         {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Recreational Drugs", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "Other3MonthUse_Daily", 
-          "display": "Daily or almost daily"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Recreational Drugs", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "Other3MonthUse_Monthly", 
-          "display": "Monthly"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Recreational Drugs", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "Other3MonthUse_Never", 
-          "display": "Never"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Recreational Drugs", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "Other3MonthUse_Weekly", 
-          "display": "Weekly"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Recreational Drugs", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "Other3MonthUse_OnceOrTwice", 
-          "display": "Once or twice"
-        }
-      ], 
-      "property": [
-        {
-          "valueCode": "Question", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "Recreational Drugs", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "Past3MonthUseFrequency_Other3MonthUse", 
-      "display": "In the PAST THREE MONTHS, how often have you used Other [INSERT LANGUAGE FROM SU01j]"
-    }, 
-    {
-      "concept": [
-        {
           "concept": [
             {
               "property": [
@@ -11479,50 +11149,6 @@
                   "code": "concept-type"
                 }, 
                 {
-                  "valueCode": "Access Questioning", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "SensitiveInfoAccess_No", 
-              "display": "No"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Access Questioning", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "SensitiveInfoAccess_Yes", 
-              "display": "Yes"
-            }
-          ], 
-          "property": [
-            {
-              "valueCode": "Question", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Access Questioning", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "EHRConsentPII_SensitiveInfoAccess", 
-          "display": "Will all of us access sensitive information in the EHR?"
-        }, 
-        {
-          "concept": [
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
                   "valueCode": "Consent Permission", 
                   "code": "concept-topic"
                 }
@@ -11703,6 +11329,50 @@
           ], 
           "code": "EHRConsentPII_AllOfAccess", 
           "display": "Do I have to give all of us access to my EHR?"
+        }, 
+        {
+          "concept": [
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Access Questioning", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "SensitiveInfoAccess_No", 
+              "display": "No"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Access Questioning", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "SensitiveInfoAccess_Yes", 
+              "display": "Yes"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Access Questioning", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "EHRConsentPII_SensitiveInfoAccess", 
+          "display": "Will all of us access sensitive information in the EHR?"
         }, 
         {
           "concept": [
@@ -12489,6 +12159,94 @@
             {
               "concept": [
                 {
+                  "concept": [
+                    {
+                      "concept": [
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Recreational Drugs", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "StreetOpioid3MonthUse_Monthly", 
+                          "display": "Monthly"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Recreational Drugs", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "StreetOpioid3MonthUse_Never", 
+                          "display": "Never"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Recreational Drugs", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "StreetOpioid3MonthUse_Daily", 
+                          "display": "Daily or almost daily"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Recreational Drugs", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "StreetOpioid3MonthUse_Weekly", 
+                          "display": "Weekly"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Recreational Drugs", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "StreetOpioid3MonthUse_OnceOrTwice", 
+                          "display": "Once or twice"
+                        }
+                      ], 
+                      "property": [
+                        {
+                          "valueCode": "Question", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Recreational Drugs", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "StreetOpioidsUse_StreetOpioid3MonthUse", 
+                      "display": "In the PAST THREE MONTHS, how often have you used Street opioids (heroin, opium, etc.)"
+                    }
+                  ], 
                   "property": [
                     {
                       "valueCode": "Answer", 
@@ -12503,6 +12261,94 @@
                   "display": "h. Street opioids (heroin, opium, etc.)"
                 }, 
                 {
+                  "concept": [
+                    {
+                      "concept": [
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Recreational Drugs", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "Hallucinogen3MonthUse_Weekly", 
+                          "display": "Weekly"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Recreational Drugs", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "Hallucinogen3MonthUse_Daily", 
+                          "display": "Daily or almost daily"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Recreational Drugs", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "Hallucinogen3MonthUse_Never", 
+                          "display": "Never"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Recreational Drugs", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "Hallucinogen3MonthUse_OnceOrTwice", 
+                          "display": "Once or twice"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Recreational Drugs", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "Hallucinogen3MonthUse_Monthly", 
+                          "display": "Monthly"
+                        }
+                      ], 
+                      "property": [
+                        {
+                          "valueCode": "Question", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Recreational Drugs", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "HallucinogensUse_Hallucinogen3MonthUse", 
+                      "display": "In the PAST THREE MONTHS, how often have you used Hallucinogens (LSD, acid, mushrooms, PCP, Special K, ecstasy, etc.)"
+                    }
+                  ], 
                   "property": [
                     {
                       "valueCode": "Answer", 
@@ -12517,6 +12363,94 @@
                   "display": "g. Hallucinogens (LSD, acid, mushrooms, PCP, Special K, ecstasy, etc.)"
                 }, 
                 {
+                  "concept": [
+                    {
+                      "concept": [
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Recreational Drugs", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "Cocaine3MonthUse_Never", 
+                          "display": "Never"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Recreational Drugs", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "Cocaine3MonthUse_OnceOrTwice", 
+                          "display": "Once or twice"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Recreational Drugs", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "Cocaine3MonthUse_Daily", 
+                          "display": "Daily or almost daily"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Recreational Drugs", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "Cocaine3MonthUse_Weekly", 
+                          "display": "Weekly"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Recreational Drugs", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "Cocaine3MonthUse_Monthly", 
+                          "display": "Monthly"
+                        }
+                      ], 
+                      "property": [
+                        {
+                          "valueCode": "Question", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Recreational Drugs", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "CocaineUse_Cocaine3MonthUse", 
+                      "display": "In the PAST THREE MONTHS, how often have you used Cocaine (coke, crack, etc.)"
+                    }
+                  ], 
                   "property": [
                     {
                       "valueCode": "Answer", 
@@ -12545,6 +12479,94 @@
                   "display": "None of these drugs"
                 }, 
                 {
+                  "concept": [
+                    {
+                      "concept": [
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Recreational Drugs", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "OtherStimulant3MonthUse_Never", 
+                          "display": "Never"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Recreational Drugs", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "OtherStimulant3MonthUse_OnceOrTwice", 
+                          "display": "Once or twice"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Recreational Drugs", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "OtherStimulant3MonthUse_Weekly", 
+                          "display": "Weekly"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Recreational Drugs", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "OtherStimulant3MonthUse_Monthly", 
+                          "display": "Monthly"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Recreational Drugs", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "OtherStimulant3MonthUse_Daily", 
+                          "display": "Daily or almost daily"
+                        }
+                      ], 
+                      "property": [
+                        {
+                          "valueCode": "Question", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Recreational Drugs", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "MethamphetamineUse_OtherStimulant3MonthUse", 
+                      "display": "In the PAST THREE MONTHS, how often have you used Other stimulants (methamphetamine, speed, crystal meth, ice, k2/spice, bath salts, etc.)"
+                    }
+                  ], 
                   "property": [
                     {
                       "valueCode": "Answer", 
@@ -12559,6 +12581,94 @@
                   "display": "d. Other stimulants  (methamphetamine, speed, crystal meth, ice, k2/spice, bath salts, etc.)"
                 }, 
                 {
+                  "concept": [
+                    {
+                      "concept": [
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Recreational Drugs", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "Sedative3MonthUse_Daily", 
+                          "display": "Daily or almost daily"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Recreational Drugs", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "Sedative3MonthUse_Monthly", 
+                          "display": "Monthly"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Recreational Drugs", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "Sedative3MonthUse_Never", 
+                          "display": "Never"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Recreational Drugs", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "Sedative3MonthUse_OnceOrTwice", 
+                          "display": "Once or twice"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Recreational Drugs", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "Sedative3MonthUse_Weekly", 
+                          "display": "Weekly"
+                        }
+                      ], 
+                      "property": [
+                        {
+                          "valueCode": "Question", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Recreational Drugs", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "SedativesUse_Sedative3MonthUse", 
+                      "display": "In the PAST THREE MONTHS, how often have you used Sedatives or sleeping pills for non-medical reasons (Valium, Serepax, Ativan, Xanax, Librium, Rohypnol, GHB, etc.)"
+                    }
+                  ], 
                   "property": [
                     {
                       "valueCode": "Answer", 
@@ -12573,6 +12683,94 @@
                   "display": "f. Sedatives or sleeping pills for non-medical reasons (Valium, Serepax, Ativan, Xanax, Librium, Rohypnol, GHB, etc.)"
                 }, 
                 {
+                  "concept": [
+                    {
+                      "concept": [
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Recreational Drugs", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "Marijuana3MonthUse_Daily", 
+                          "display": "Daily or almost daily"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Recreational Drugs", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "Marijuana3MonthUse_OneOrTwice", 
+                          "display": "Once or twice"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Recreational Drugs", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "Marijuana3MonthUse_Never", 
+                          "display": "Never"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Recreational Drugs", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "Marijuana3MonthUse_Monthly", 
+                          "display": "Monthly"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Recreational Drugs", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "Marijuana3MonthUse_Weekly", 
+                          "display": "Weekly"
+                        }
+                      ], 
+                      "property": [
+                        {
+                          "valueCode": "Question", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Recreational Drugs", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "WhichDrugsUsed_Marijuana3MonthUse", 
+                      "display": "In the PAST THREE MONTHS, how often have you used Marijuana (cannabis, pot, grass, hash, weed, etc.)"
+                    }
+                  ], 
                   "property": [
                     {
                       "valueCode": "Answer", 
@@ -12587,6 +12785,94 @@
                   "display": "a. Marijuana (cannabis, pot, grass, hash, weed, etc.)"
                 }, 
                 {
+                  "concept": [
+                    {
+                      "concept": [
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Recreational Drugs", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "Other3MonthUse_Daily", 
+                          "display": "Daily or almost daily"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Recreational Drugs", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "Other3MonthUse_Monthly", 
+                          "display": "Monthly"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Recreational Drugs", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "Other3MonthUse_Never", 
+                          "display": "Never"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Recreational Drugs", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "Other3MonthUse_Weekly", 
+                          "display": "Weekly"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Recreational Drugs", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "Other3MonthUse_OnceOrTwice", 
+                          "display": "Once or twice"
+                        }
+                      ], 
+                      "property": [
+                        {
+                          "valueCode": "Question", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Recreational Drugs", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "OtherSpecify_Other3MonthUse", 
+                      "display": "In the PAST THREE MONTHS, how often have you used Other [INSERT LANGUAGE FROM SU01j]"
+                    }
+                  ], 
                   "property": [
                     {
                       "valueCode": "Answer", 
@@ -12601,6 +12887,94 @@
                   "display": "j. Other (Specify)"
                 }, 
                 {
+                  "concept": [
+                    {
+                      "concept": [
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Recreational Drugs", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "PrescriptionOpiod3MonthUse_Weekly", 
+                          "display": "Weekly"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Recreational Drugs", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "PrescriptionOpiod3MonthUse_Monthly", 
+                          "display": "Monthly"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Recreational Drugs", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "PrescriptionOpiod3MonthUse_OnceOrTwice", 
+                          "display": "Once or twice"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Recreational Drugs", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "PrescriptionOpiod3MonthUse_Never", 
+                          "display": "Never"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Recreational Drugs", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "PrescriptionOpiod3MonthUse_Daily", 
+                          "display": "Daily or almost daily"
+                        }
+                      ], 
+                      "property": [
+                        {
+                          "valueCode": "Question", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Recreational Drugs", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PrescriptionOpioidsUse_PrescriptionOpiod3MonthUse", 
+                      "display": "In the PAST THREE MONTHS, how often have you used Prescription opioids for non-medical reasons (obana, fentanyl, oxycodone [OxyContin, Percocet], hydrocodone [Vicodin], methadone, buprenorphine [Supoxone], etc.)"
+                    }
+                  ], 
                   "property": [
                     {
                       "valueCode": "Answer", 
@@ -12615,6 +12989,94 @@
                   "display": "i. Prescription opioids for non-medical reasons (fentanyl, oxycodone [OxyContin, Percocet], hydrocodone [Vicodin], methadone, buprenorphine, etc.)"
                 }, 
                 {
+                  "concept": [
+                    {
+                      "concept": [
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Recreational Drugs", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "Inhalant3MonthUse_Monthly", 
+                          "display": "Monthly"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Recreational Drugs", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "Inhalant3MonthUse_OnceOrTwice", 
+                          "display": "Once or twice"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Recreational Drugs", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "Inhalant3MonthUse_Weekly", 
+                          "display": "Weekly"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Recreational Drugs", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "Inhalant3MonthUse_Daily", 
+                          "display": "Daily or almost daily"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Recreational Drugs", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "Inhalant3MonthUse_Never", 
+                          "display": "Never"
+                        }
+                      ], 
+                      "property": [
+                        {
+                          "valueCode": "Question", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Recreational Drugs", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "InhalantsUse_Inhalant3MonthUse", 
+                      "display": "In the PAST THREE MONTHS, how often have you used Inhalants (nitrous oxide, glue, gas, paint thinner, etc.)"
+                    }
+                  ], 
                   "property": [
                     {
                       "valueCode": "Answer", 
@@ -12629,6 +13091,94 @@
                   "display": "e. Inhalants (nitrous oxide, glue, gas, paint thinner, etc.)"
                 }, 
                 {
+                  "concept": [
+                    {
+                      "concept": [
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Recreational Drugs", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "PrescriptionStimulant3MonthUse_OnceOrTwice", 
+                          "display": "Once or twice"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Recreational Drugs", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "PrescriptionStimulant3MonthUse_Monthly", 
+                          "display": "Monthly"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Recreational Drugs", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "PrescriptionStimulant3MonthUse_Daily", 
+                          "display": "Daily or almost daily"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Recreational Drugs", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "PrescriptionStimulant3MonthUse_Never", 
+                          "display": "Never"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Recreational Drugs", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "PrescriptionStimulant3MonthUse_Weekly", 
+                          "display": "Weekly"
+                        }
+                      ], 
+                      "property": [
+                        {
+                          "valueCode": "Question", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Recreational Drugs", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PrescriptionStimulantsUse_PrescriptionStimulant3MonthUse", 
+                      "display": "In the PAST THREE MONTHS, how often have you used Prescription stimulants for non-medical reasons (Vyvanse, Ritalin, Concerta, Dexedrine, Adderall, diet pills, etc.)"
+                    }
+                  ], 
                   "property": [
                     {
                       "valueCode": "Answer", 
@@ -13025,92 +13575,6 @@
               "code": "concept-type"
             }, 
             {
-              "valueCode": "Recreational Drugs", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "OtherStimulant3MonthUse_Never", 
-          "display": "Never"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Recreational Drugs", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "OtherStimulant3MonthUse_OnceOrTwice", 
-          "display": "Once or twice"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Recreational Drugs", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "OtherStimulant3MonthUse_Weekly", 
-          "display": "Weekly"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Recreational Drugs", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "OtherStimulant3MonthUse_Monthly", 
-          "display": "Monthly"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Recreational Drugs", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "OtherStimulant3MonthUse_Daily", 
-          "display": "Daily or almost daily"
-        }
-      ], 
-      "property": [
-        {
-          "valueCode": "Question", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "Recreational Drugs", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "Past3MonthUseFrequency_OtherStimulant3MonthUse", 
-      "display": "In the PAST THREE MONTHS, how often have you used Other stimulants (methamphetamine, speed, crystal meth, ice, k2/spice, bath salts, etc.)"
-    }, 
-    {
-      "concept": [
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
               "valueCode": "PMI", 
               "code": "concept-topic"
             }
@@ -13243,103 +13707,17 @@
       ], 
       "code": "PMI", 
       "display": "PMI"
-    }, 
-    {
-      "concept": [
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Recreational Drugs", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "Sedative3MonthUse_Daily", 
-          "display": "Daily or almost daily"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Recreational Drugs", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "Sedative3MonthUse_Monthly", 
-          "display": "Monthly"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Recreational Drugs", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "Sedative3MonthUse_Never", 
-          "display": "Never"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Recreational Drugs", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "Sedative3MonthUse_OnceOrTwice", 
-          "display": "Once or twice"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Recreational Drugs", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "Sedative3MonthUse_Weekly", 
-          "display": "Weekly"
-        }
-      ], 
-      "property": [
-        {
-          "valueCode": "Question", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "Recreational Drugs", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "Past3MonthUseFrequency_Sedative3MonthUse", 
-      "display": "In the PAST THREE MONTHS, how often have you used Sedatives or sleeping pills for non-medical reasons (Valium, Serepax, Ativan, Xanax, Librium, Rohypnol, GHB, etc.)"
     }
   ], 
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 928, 
+  "count": 953, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.2.28", 
+  "version": "0.2.30", 
   "hierarchyMeaning": "grouped-by", 
   "date": "2017-05-25", 
   "property": [
