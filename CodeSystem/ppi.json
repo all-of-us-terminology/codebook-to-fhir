@@ -1451,6 +1451,20 @@
                   "code": "concept-topic"
                 }
               ], 
+              "code": "SecondaryContactInfo_SecondContactsLastName", 
+              "display": "Person 2 name (Last)"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": null, 
+                  "code": "concept-topic"
+                }
+              ], 
               "code": "SecondaryContactInfo_SecondContactsMiddleInitial", 
               "display": "Person 2 name (MI)"
             }, 
@@ -2589,20 +2603,6 @@
                   "code": "concept-type"
                 }, 
                 {
-                  "valueCode": null, 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "SecondaryContactInfo_SecondContactsLastName", 
-              "display": "Person 2 name (Last)"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Question", 
-                  "code": "concept-type"
-                }, 
-                {
                   "valueCode": "Secondary Contact", 
                   "code": "concept-topic"
                 }
@@ -2813,8 +2813,8 @@
                               "code": "concept-topic"
                             }
                           ], 
-                          "code": "AsianSpecific_AsianSpecificIndian", 
-                          "display": "Asian Indian"
+                          "code": "AsianSpecific_Pakistani", 
+                          "display": "Pakistani"
                         }, 
                         {
                           "property": [
@@ -2827,8 +2827,8 @@
                               "code": "concept-topic"
                             }
                           ], 
-                          "code": "AsianSpecific_Pakistani", 
-                          "display": "Pakistani"
+                          "code": "AsianSpecific_AsianSpecificIndian", 
+                          "display": "Asian Indian"
                         }, 
                         {
                           "property": [
@@ -8453,8 +8453,8 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "EverReceivedUPMCCare_Yes", 
-                  "display": "yes"
+                  "code": "EverReceivedUPMCCare_No", 
+                  "display": "no"
                 }, 
                 {
                   "property": [
@@ -8467,8 +8467,8 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "EverReceivedUPMCCare_No", 
-                  "display": "no"
+                  "code": "EverReceivedUPMCCare_Yes", 
+                  "display": "yes"
                 }
               ], 
               "property": [
@@ -9143,20 +9143,6 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "PIIState_FM", 
-                      "display": "Federated States of Micronesia"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "States", 
-                          "code": "concept-topic"
-                        }
-                      ], 
                       "code": "PIIState_MS", 
                       "display": "Mississippi"
                     }, 
@@ -9453,6 +9439,20 @@
                       ], 
                       "code": "PIIState_DC", 
                       "display": "District of Columbia"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "States", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PIIState_FM", 
+                      "display": "Federated States of Micronesia"
                     }, 
                     {
                       "property": [
@@ -9893,6 +9893,20 @@
                               "code": "concept-topic"
                             }
                           ], 
+                          "code": "AZSArizonaSpecific_AZUAHN", 
+                          "display": "University of Arizona Health Network (UAHN)"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "SitePairing", 
+                              "code": "concept-topic"
+                            }
+                          ], 
                           "code": "AZSArizonaSpecific_AZUofArizona", 
                           "display": "University of Arizona Medical Center"
                         }, 
@@ -9923,20 +9937,6 @@
                           ], 
                           "code": "AZSArizonaSpecific_AZUPH", 
                           "display": "University Physicians Healthcare (UPH)"
-                        }, 
-                        {
-                          "property": [
-                            {
-                              "valueCode": "Answer", 
-                              "code": "concept-type"
-                            }, 
-                            {
-                              "valueCode": "SitePairing", 
-                              "code": "concept-topic"
-                            }
-                          ], 
-                          "code": "AZSArizonaSpecific_AZUAHN", 
-                          "display": "University of Arizona Health Network (UAHN)"
                         }
                       ], 
                       "property": [
@@ -11205,6 +11205,20 @@
               "display": "Electronic Smoking"
             }, 
             {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Smoking", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Smoking_CurrentDailyCigaretteNumberDontKnow", 
+              "display": "Don't Know"
+            }, 
+            {
               "concept": [
                 {
                   "property": [
@@ -11261,6 +11275,20 @@
               ], 
               "code": "Smoking_SmokeFrequency", 
               "display": "Do you now smoke cigarettes every day, some days, or not at all?"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Smoking", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Smoking_AverageDailyCigaretteNumberDontKnow", 
+              "display": "Don't Know"
             }, 
             {
               "concept": [
@@ -11379,6 +11407,48 @@
               ], 
               "code": "Smoking_HookahSmoking", 
               "display": "Hookah Smoking"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Smoking", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Smoking_AverageDailyCigaretteNumberPreferNotToAnswer", 
+              "display": "Prefer not to answer"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Smoking", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Smoking_DailySmokeStartingAgeDontKnow", 
+              "display": "Don't Know"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Smoking", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Smoking_CurrentDailyCigaretteNumberPreferNotToAnswer", 
+              "display": "Prefer not to answer"
             }, 
             {
               "property": [
@@ -11527,8 +11597,36 @@
                           "code": "concept-topic"
                         }
                       ], 
+                      "code": "AttemptQuitSmoking_CompletelyQuitAgeDontKnow", 
+                      "display": "Don't Know"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Question", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Smoking", 
+                          "code": "concept-topic"
+                        }
+                      ], 
                       "code": "AttemptQuitSmoking_CompletelyQuitAge", 
                       "display": "If you have completely stopped smoking cigarettes, how old were you when you stopped?"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Question", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Smoking", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "AttemptQuitSmoking_CompletelyQuitAgePreferNotToAnswer", 
+                      "display": "Prefer not to answer"
                     }
                   ], 
                   "property": [
@@ -11583,8 +11681,36 @@
                   "code": "concept-topic"
                 }
               ], 
+              "code": "Smoking_NumberOfYearsDontKnow", 
+              "display": "Don't Know"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Smoking", 
+                  "code": "concept-topic"
+                }
+              ], 
               "code": "Smoking_NumberOfYears", 
               "display": "How many years have you or did you smoke cigarettes?"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Smoking", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Smoking_NumberOfYearsPreferNotToKnow", 
+              "display": "Prefer not to answer"
             }, 
             {
               "property": [
@@ -11643,6 +11769,20 @@
               ], 
               "code": "Smoking_100CigsLifetime", 
               "display": "Have you smoked at least 100 cigarettes in your entire life? (There are 20 cigarettes in a pack.)"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Smoking", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Smoking_DailySmokeStartingAgePreferNotToAnswer", 
+              "display": "Prefer not to answer"
             }
           ], 
           "property": [
@@ -12119,6 +12259,92 @@
                           "code": "concept-topic"
                         }
                       ], 
+                      "code": "PrescriptionStimulant3MonthUse_OnceOrTwice", 
+                      "display": "Once or twice"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Recreational Drugs", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PrescriptionStimulant3MonthUse_Monthly", 
+                      "display": "Monthly"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Recreational Drugs", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PrescriptionStimulant3MonthUse_Daily", 
+                      "display": "Daily or almost daily"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Recreational Drugs", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PrescriptionStimulant3MonthUse_Never", 
+                      "display": "Never"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Recreational Drugs", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PrescriptionStimulant3MonthUse_Weekly", 
+                      "display": "Weekly"
+                    }
+                  ], 
+                  "property": [
+                    {
+                      "valueCode": "Question", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Recreational Drugs", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "Past3MonthUseFrequency_PrescriptionStimulant3MonthUse", 
+                  "display": "In the PAST THREE MONTHS, how often have you used Prescription stimulants for non-medical reasons (Vyvanse, Ritalin, Concerta, Dexedrine, Adderall, diet pills, etc.)"
+                }, 
+                {
+                  "concept": [
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Recreational Drugs", 
+                          "code": "concept-topic"
+                        }
+                      ], 
                       "code": "Hallucinogen3MonthUse_Weekly", 
                       "display": "Weekly"
                     }, 
@@ -12133,8 +12359,8 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "Hallucinogen3MonthUse_Daily", 
-                      "display": "Daily or almost daily"
+                      "code": "Hallucinogen3MonthUse_Never", 
+                      "display": "Never"
                     }, 
                     {
                       "property": [
@@ -12147,8 +12373,8 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "Hallucinogen3MonthUse_Never", 
-                      "display": "Never"
+                      "code": "Hallucinogen3MonthUse_Daily", 
+                      "display": "Daily or almost daily"
                     }, 
                     {
                       "property": [
@@ -12449,92 +12675,6 @@
                   ], 
                   "code": "Past3MonthUseFrequency_Other3MonthUse", 
                   "display": "In the PAST THREE MONTHS, how often have you used Other [INSERT LANGUAGE FROM SU01j]"
-                }, 
-                {
-                  "concept": [
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Recreational Drugs", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PrescriptionStimulant3MonthUse_OnceOrTwice", 
-                      "display": "Once or twice"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Recreational Drugs", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PrescriptionStimulant3MonthUse_Monthly", 
-                      "display": "Monthly"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Recreational Drugs", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PrescriptionStimulant3MonthUse_Daily", 
-                      "display": "Daily or almost daily"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Recreational Drugs", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PrescriptionStimulant3MonthUse_Never", 
-                      "display": "Never"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Recreational Drugs", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PrescriptionStimulant3MonthUse_Weekly", 
-                      "display": "Weekly"
-                    }
-                  ], 
-                  "property": [
-                    {
-                      "valueCode": "Question", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Recreational Drugs", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "Past3MonthUseFrequency_PrescriptionStimulant3MonthUse", 
-                  "display": "In the PAST THREE MONTHS, how often have you used Prescription stimulants for non-medical reasons (Vyvanse, Ritalin, Concerta, Dexedrine, Adderall, diet pills, etc.)"
                 }, 
                 {
                   "concept": [
@@ -12923,8 +13063,8 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "AverageDailyDrinkCount_5or6", 
-                  "display": "5 or 6"
+                  "code": "AverageDailyDrinkCount_7to9", 
+                  "display": "7 to 9"
                 }, 
                 {
                   "property": [
@@ -12937,8 +13077,8 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "AverageDailyDrinkCount_7to9", 
-                  "display": "7 to 9"
+                  "code": "AverageDailyDrinkCount_5or6", 
+                  "display": "5 or 6"
                 }
               ], 
               "property": [
@@ -13095,6 +13235,20 @@
               "code": "concept-topic"
             }
           ], 
+          "code": "PMI_Other", 
+          "display": "PMI Other (Qualifier Value)"
+        }, 
+        {
+          "property": [
+            {
+              "valueCode": "Answer", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "PMI", 
+              "code": "concept-topic"
+            }
+          ], 
           "code": "PMI_Unanswered", 
           "display": "PMI Question Unanswered"
         }, 
@@ -13139,20 +13293,6 @@
           ], 
           "code": "PMI_DontKnow", 
           "display": "PMI Don't Know"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "PMI", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "PMI_Other", 
-          "display": "PMI Other (Qualifier Value)"
         }, 
         {
           "property": [
@@ -13228,12 +13368,12 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 921, 
+  "count": 931, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.2.40", 
+  "version": "0.2.41", 
   "hierarchyMeaning": "grouped-by", 
   "date": "2017-05-26", 
   "property": [
