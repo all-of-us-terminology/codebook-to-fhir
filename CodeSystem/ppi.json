@@ -2443,7 +2443,7 @@
             {
               "property": [
                 {
-                  "valueCode": "Question", 
+                  "valueCode": "Topic", 
                   "code": "concept-type"
                 }, 
                 {
@@ -3703,6 +3703,22 @@
                           "display": "Jamaican"
                         }, 
                         {
+                          "concept": [
+                            {
+                              "property": [
+                                {
+                                  "valueCode": "Question", 
+                                  "code": "concept-type"
+                                }, 
+                                {
+                                  "valueCode": "Race Ethnicity Subcategory", 
+                                  "code": "concept-topic"
+                                }
+                              ], 
+                              "code": "NoneOfTheseDescribeMe_BlackFreeText", 
+                              "display": "Black Free Text"
+                            }
+                          ], 
                           "property": [
                             {
                               "valueCode": "Answer", 
@@ -7607,20 +7623,6 @@
       "display": "Overall Health"
     }, 
     {
-      "property": [
-        {
-          "valueCode": "Question", 
-          "code": "concept-type"
-        }, 
-        {
-          "valueCode": "Race Ethnicity Subcategory", 
-          "code": "concept-topic"
-        }
-      ], 
-      "code": "BlackNoneOfTheseDescribeMe_BlackFreeText", 
-      "display": "Black Free Text"
-    }, 
-    {
       "concept": [
         {
           "concept": [
@@ -9163,6 +9165,20 @@
         {
           "concept": [
             {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Address", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "PIIAddress_StreetAddress2", 
+              "display": "Street Address 2"
+            }, 
+            {
               "concept": [
                 {
                   "property": [
@@ -10045,8 +10061,8 @@
                   "code": "concept-topic"
                 }
               ], 
-              "code": "PIIAddress_StreetAddress", 
-              "display": "Street Address"
+              "code": "PIIAddress_StreetAddress1", 
+              "display": "Street Address1"
             }
           ], 
           "property": [
@@ -13444,12 +13460,12 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 936, 
+  "count": 937, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.2.34", 
+  "version": "0.2.37", 
   "hierarchyMeaning": "grouped-by", 
   "date": "2017-05-26", 
   "property": [

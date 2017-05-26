@@ -5,7 +5,6 @@
   "Redefined! http://terminology.pmi-ops.org/CodeSystem/ppi : MenstrualStoppedReason_MedicationTherapy", 
   "Redefined! http://terminology.pmi-ops.org/CodeSystem/ppi : OrganTransplantDescription_Heart", 
   "Ancestors of 'ExtraConsent_next' don't include a 'Question', but this term is an 'Answer' ['ConsentPII: Module Name', 'ConsentPII_ExtraConsent: Topic', 'ExtraConsent_next: Answer']", 
-  "Parent of 'BlackNoneOfTheseDescribeMe_BlackFreeText' is 'BlackSpecific_BlackNoneOfTheseDescribeMe' but does not exist", 
   "Ancestors of 'ExtraConsent_review' don't include a 'Question', but this term is an 'Answer' ['ConsentPII: Module Name', 'ConsentPII_ExtraConsent: Topic', 'ExtraConsent_review: Answer']", 
   "Term 'OutsideTravel6Month_OutsideTravel6MonthWhereTraveled' has type=Question which is a choice type, but no answers associated with it. Hierarchy: ['OverallHealth: None', 'OverallHealth_OutsideTravel6Month: open-choice', 'OutsideTravel6Month_Yes: None', 'OutsideTravel6Month_OutsideTravel6MonthWhereTraveled: open-choice']", 
   "Term 'YesNone_MenstrualStoppedReason' has type=Question which is a choice type, but no answers associated with it. Hierarchy: ['OverallHealth: None', 'OverallHealth_MenstrualStopped: open-choice', 'MenstrualStopped_YesNone: None', 'YesNone_MenstrualStoppedReason: open-choice']"
