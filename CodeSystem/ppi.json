@@ -259,6 +259,20 @@
                   "code": "concept-topic"
                 }
               ], 
+              "code": "LivingSituation_LivingSituationFreeText", 
+              "display": "Living Situation Free Text"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Living Situation", 
+                  "code": "concept-topic"
+                }
+              ], 
               "code": "LivingSituation_HowManyPeople", 
               "display": "Not including yourself, how many other people live at home with you?"
             }, 
@@ -541,1163 +555,7 @@
         {
           "concept": [
             {
-              "property": [
-                {
-                  "valueCode": "Question", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Secondary Contact", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "SecondaryContactInfo_PersonOneName", 
-              "display": "Person 1 name (Last, First, MI)"
-            }, 
-            {
               "concept": [
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Secondary Contact", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PersonOneRelationship_Relative", 
-                  "display": "Relative"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Secondary Contact", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PersonOneRelationship_SpousePartner", 
-                  "display": "Spouse or Partner"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Secondary Contact", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PersonOneRelationship_Friend", 
-                  "display": "Friend"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Secondary Contact", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PersonOneRelationship_Child", 
-                  "display": "Child"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Secondary Contact", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PersonOneRelationship_ParentGuardian", 
-                  "display": "Parent or Guardian"
-                }
-              ], 
-              "property": [
-                {
-                  "valueCode": "Question", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Secondary Contact", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "SecondaryContactInfo_PersonOneRelationship", 
-              "display": "Relationship to respondent"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Question", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Secondary Contact", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "SecondaryContactInfo_SecondContactsName", 
-              "display": "What is this second person's full name?"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Question", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Secondary Contact", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "SecondaryContactInfo_FirstContactsInfo", 
-              "display": "The PMI will contact you periodically to gather additional health related information. In case we cannot contact you, please provide the names, addresses, and telephone numbers of 2 relatives or friends who would know where you could be reached in case we have trouble reaching you. (Please give us the names of persons not currently living in the household)."
-            }, 
-            {
-              "concept": [
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Secondary Contact", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "SecondContactsRelationship_ParentGuardian", 
-                  "display": "Parent or Guardian"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Secondary Contact", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "SecondContactsRelationship_Child", 
-                  "display": "Child"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Secondary Contact", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "SecondContactsRelationship_Friend", 
-                  "display": "Friend"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Secondary Contact", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "SecondContactsRelationship_SpousePartner", 
-                  "display": "Spouse or Partner"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Secondary Contact", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "SecondContactsRelationship_Relative", 
-                  "display": "Relative"
-                }
-              ], 
-              "property": [
-                {
-                  "valueCode": "Question", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Secondary Contact", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "SecondaryContactInfo_SecondContactsRelationship", 
-              "display": "What is this second person's relationship to you?"
-            }, 
-            {
-              "concept": [
-                {
-                  "property": [
-                    {
-                      "valueCode": "Question", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Secondary Contact", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PersonOneAddress_PersonOneAddressCity", 
-                  "display": "City"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Secondary Contact", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PersonOneAddress_PersonOneAddressStreetNumber", 
-                  "display": "Number and street"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Question", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Secondary Contact", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PersonOneAddress_PersonOneAddressZipCode", 
-                  "display": "Zip-Code"
-                }, 
-                {
-                  "concept": [
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Secondary Contact", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PersonOneAddressState_AR", 
-                      "display": "Arkansas"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Secondary Contact", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PersonOneAddressState_WI", 
-                      "display": "Wisconsin"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Secondary Contact", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PersonOneAddressState_GA", 
-                      "display": "Georgia"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Secondary Contact", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PersonOneAddressState_MT", 
-                      "display": "Montana"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Secondary Contact", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PersonOneAddressState_NH", 
-                      "display": "New Hampshire"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Secondary Contact", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PersonOneAddressState_WV", 
-                      "display": "West Virginia"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Secondary Contact", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PersonOneAddressState_OK", 
-                      "display": "Oklahoma"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Secondary Contact", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PersonOneAddressState_ID", 
-                      "display": "Idaho"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Secondary Contact", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PersonOneAddressState_DC", 
-                      "display": "District of Columbia"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Secondary Contact", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PersonOneAddressState_KS", 
-                      "display": "Kansas"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Secondary Contact", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PersonOneAddressState_MD", 
-                      "display": "Maryland"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Secondary Contact", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PersonOneAddressState_WY", 
-                      "display": "Wyoming"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Secondary Contact", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PersonOneAddressState_TX", 
-                      "display": "Texas"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Secondary Contact", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PersonOneAddressState_CT", 
-                      "display": "Connecticut"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Secondary Contact", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PersonOneAddressState_UT", 
-                      "display": "Utah"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Secondary Contact", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PersonOneAddressState_MN", 
-                      "display": "Minnesota"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Secondary Contact", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PersonOneAddressState_NY", 
-                      "display": "New York"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Secondary Contact", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PersonOneAddressState_MI", 
-                      "display": "Michigan"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Secondary Contact", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PersonOneAddressState_HI", 
-                      "display": "Hawaii"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Secondary Contact", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PersonOneAddressState_CA", 
-                      "display": "California"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Secondary Contact", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PersonOneAddressState_TN", 
-                      "display": "Tennessee"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Secondary Contact", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PersonOneAddressState_OR", 
-                      "display": "Oregon"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Secondary Contact", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PersonOneAddressState_OH", 
-                      "display": "Ohio"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Secondary Contact", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PersonOneAddressState_IA", 
-                      "display": "Iowa"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Secondary Contact", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PersonOneAddressState_AZ", 
-                      "display": "Arizona"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Secondary Contact", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PersonOneAddressState_NV", 
-                      "display": "Nevada"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Secondary Contact", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PersonOneAddressState_ME", 
-                      "display": "Maine"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Secondary Contact", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PersonOneAddressState_FL", 
-                      "display": "Florida"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Secondary Contact", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PersonOneAddressState_NE", 
-                      "display": "Nebraska"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Secondary Contact", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PersonOneAddressState_MP", 
-                      "display": "North Marianas Islands"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Secondary Contact", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PersonOneAddressState_NJ", 
-                      "display": "New Jersey"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Secondary Contact", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PersonOneAddressState_GU", 
-                      "display": "Guam"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Secondary Contact", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PersonOneAddressState_IN", 
-                      "display": "Indiana"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Secondary Contact", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PersonOneAddressState_VI", 
-                      "display": "Virgin Islands"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Secondary Contact", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PersonOneAddressState_CO", 
-                      "display": "Colorado"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Secondary Contact", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PersonOneAddressState_PW", 
-                      "display": "Palau"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Secondary Contact", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PersonOneAddressState_KY", 
-                      "display": "Kentucky"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Secondary Contact", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PersonOneAddressState_AL", 
-                      "display": "Alabama"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Secondary Contact", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PersonOneAddressState_LA", 
-                      "display": "Louisiana"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Secondary Contact", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PersonOneAddressState_WA", 
-                      "display": "Washington"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Secondary Contact", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PersonOneAddressState_DE", 
-                      "display": "Delaware"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Secondary Contact", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PersonOneAddressState_IL", 
-                      "display": "Illinois"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Secondary Contact", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PersonOneAddressState_MA", 
-                      "display": "Massachusetts"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Secondary Contact", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PersonOneAddressState_AK", 
-                      "display": "Alaska"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Secondary Contact", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PersonOneAddressState_MH", 
-                      "display": "Marshall Islands"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Secondary Contact", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PersonOneAddressState_VT", 
-                      "display": "Vermont"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Secondary Contact", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PersonOneAddressState_MS", 
-                      "display": "Mississippi"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Secondary Contact", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PersonOneAddressState_NM", 
-                      "display": "New Mexico"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Secondary Contact", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PersonOneAddressState_PA", 
-                      "display": "Pennsylvania"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Secondary Contact", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PersonOneAddressState_SD", 
-                      "display": "South Dakota"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Secondary Contact", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PersonOneAddressState_SC", 
-                      "display": "South Carolina"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Secondary Contact", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PersonOneAddressState_MO", 
-                      "display": "Missouri"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Secondary Contact", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PersonOneAddressState_PR", 
-                      "display": "Puerto Rico"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Secondary Contact", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PersonOneAddressState_RI", 
-                      "display": "Rhode Island"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Secondary Contact", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PersonOneAddressState_ND", 
-                      "display": "North Dakota"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Secondary Contact", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PersonOneAddressState_NC", 
-                      "display": "North Carolina"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Secondary Contact", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PersonOneAddressState_FM", 
-                      "display": "Federated States of Micronesia"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Secondary Contact", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PersonOneAddressState_VA", 
-                      "display": "Virginia"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Secondary Contact", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PersonOneAddressState_AS", 
-                      "display": "American Samoa"
-                    }
-                  ], 
-                  "property": [
-                    {
-                      "valueCode": "Question", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Secondary Contact", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PersonOneAddress_PersonOneAddressState", 
-                  "display": "State"
-                }
-              ], 
-              "property": [
-                {
-                  "valueCode": "Question", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Secondary Contact", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "SecondaryContactInfo_PersonOneAddress", 
-              "display": "Person 1 Address"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Question", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Secondary Contact", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "SecondaryContactInfo_PersonOneEmail", 
-              "display": "Person 1 Email Address"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Question", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Secondary Contact", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "SecondaryContactInfo_SecondContactsNumber", 
-              "display": "What is this second person's telephone number, beginning with the area code?"
-            }, 
-            {
-              "concept": [
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Secondary Contact", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "SecondContactsAddress_SecondContactStreetNumber", 
-                  "display": "Number and street"
-                }, 
                 {
                   "property": [
                     {
@@ -1728,6 +586,20 @@
                 }, 
                 {
                   "concept": [
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Secondary Contact", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "SecondContactState_FederatedStatesofMicronesia", 
+                      "display": "FederatedStatesofMicronesia"
+                    }, 
                     {
                       "property": [
                         {
@@ -1991,20 +863,6 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "SecondContactState_FederatedStatesofMicronesia", 
-                      "display": "FederatedStatesofMicronesia"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Secondary Contact", 
-                          "code": "concept-topic"
-                        }
-                      ], 
                       "code": "SecondContactState_DistrictofColumbia", 
                       "display": "DistrictofColumbia"
                     }, 
@@ -2077,20 +935,6 @@
                       ], 
                       "code": "SecondContactState_Montana", 
                       "display": "Montana"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Secondary Contact", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "SecondContactState_Wyoming", 
-                      "display": "Wyoming"
                     }, 
                     {
                       "property": [
@@ -2189,6 +1033,20 @@
                       ], 
                       "code": "SecondContactState_Connecticut", 
                       "display": "Connecticut"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Secondary Contact", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "SecondContactState_Nevada", 
+                      "display": "Nevada"
                     }, 
                     {
                       "property": [
@@ -2343,6 +1201,20 @@
                       ], 
                       "code": "SecondContactState_Delaware", 
                       "display": "Delaware"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Secondary Contact", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "SecondContactState_Wyoming", 
+                      "display": "Wyoming"
                     }, 
                     {
                       "property": [
@@ -2539,20 +1411,6 @@
                       ], 
                       "code": "SecondContactState_Washington", 
                       "display": "Washington"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Secondary Contact", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "SecondContactState_Nevada", 
-                      "display": "Nevada"
                     }
                   ], 
                   "property": [
@@ -2579,8 +1437,1220 @@
                   "code": "concept-topic"
                 }
               ], 
-              "code": "SecondaryContactInfo_SecondContactsAddress", 
-              "display": "What is this second person's mailing address?"
+              "code": "SecondaryContactInfo_SecondContactsAddressOne", 
+              "display": "Person 2 Address Line 1"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": null, 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "SecondaryContactInfo_SecondContactsMiddleInitial", 
+              "display": "Person 2 name (MI)"
+            }, 
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Secondary Contact", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PersonOneRelationship_Relative", 
+                  "display": "Relative"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Secondary Contact", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PersonOneRelationship_SpousePartner", 
+                  "display": "Spouse or Partner"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Secondary Contact", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PersonOneRelationship_Friend", 
+                  "display": "Friend"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Secondary Contact", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PersonOneRelationship_Child", 
+                  "display": "Child"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Secondary Contact", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PersonOneRelationship_ParentGuardian", 
+                  "display": "Parent or Guardian"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Secondary Contact", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "SecondaryContactInfo_PersonOneRelationship", 
+              "display": "Relationship to respondent"
+            }, 
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Question", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Secondary Contact", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PersonOneAddress_PersonOneAddressCity", 
+                  "display": "City"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Question", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Secondary Contact", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PersonOneAddress_PersonOneAddressZipCode", 
+                  "display": "Zip-Code"
+                }, 
+                {
+                  "concept": [
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Secondary Contact", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PersonOneAddressState_AR", 
+                      "display": "Arkansas"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Secondary Contact", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PersonOneAddressState_WI", 
+                      "display": "Wisconsin"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Secondary Contact", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PersonOneAddressState_GA", 
+                      "display": "Georgia"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Secondary Contact", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PersonOneAddressState_MT", 
+                      "display": "Montana"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Secondary Contact", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PersonOneAddressState_NH", 
+                      "display": "New Hampshire"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Secondary Contact", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PersonOneAddressState_WV", 
+                      "display": "West Virginia"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Secondary Contact", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PersonOneAddressState_OK", 
+                      "display": "Oklahoma"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Secondary Contact", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PersonOneAddressState_ID", 
+                      "display": "Idaho"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Secondary Contact", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PersonOneAddressState_DC", 
+                      "display": "District of Columbia"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Secondary Contact", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PersonOneAddressState_KS", 
+                      "display": "Kansas"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Secondary Contact", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PersonOneAddressState_MD", 
+                      "display": "Maryland"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Secondary Contact", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PersonOneAddressState_WY", 
+                      "display": "Wyoming"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Secondary Contact", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PersonOneAddressState_TX", 
+                      "display": "Texas"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Secondary Contact", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PersonOneAddressState_CT", 
+                      "display": "Connecticut"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Secondary Contact", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PersonOneAddressState_PW", 
+                      "display": "Palau"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Secondary Contact", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PersonOneAddressState_UT", 
+                      "display": "Utah"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Secondary Contact", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PersonOneAddressState_MN", 
+                      "display": "Minnesota"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Secondary Contact", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PersonOneAddressState_NY", 
+                      "display": "New York"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Secondary Contact", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PersonOneAddressState_MI", 
+                      "display": "Michigan"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Secondary Contact", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PersonOneAddressState_HI", 
+                      "display": "Hawaii"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Secondary Contact", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PersonOneAddressState_CA", 
+                      "display": "California"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Secondary Contact", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PersonOneAddressState_TN", 
+                      "display": "Tennessee"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Secondary Contact", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PersonOneAddressState_OR", 
+                      "display": "Oregon"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Secondary Contact", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PersonOneAddressState_OH", 
+                      "display": "Ohio"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Secondary Contact", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PersonOneAddressState_IA", 
+                      "display": "Iowa"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Secondary Contact", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PersonOneAddressState_AZ", 
+                      "display": "Arizona"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Secondary Contact", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PersonOneAddressState_NV", 
+                      "display": "Nevada"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Secondary Contact", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PersonOneAddressState_ME", 
+                      "display": "Maine"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Secondary Contact", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PersonOneAddressState_FL", 
+                      "display": "Florida"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Secondary Contact", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PersonOneAddressState_NE", 
+                      "display": "Nebraska"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Secondary Contact", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PersonOneAddressState_MP", 
+                      "display": "North Marianas Islands"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Secondary Contact", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PersonOneAddressState_NJ", 
+                      "display": "New Jersey"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Secondary Contact", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PersonOneAddressState_CO", 
+                      "display": "Colorado"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Secondary Contact", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PersonOneAddressState_GU", 
+                      "display": "Guam"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Secondary Contact", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PersonOneAddressState_IN", 
+                      "display": "Indiana"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Secondary Contact", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PersonOneAddressState_VI", 
+                      "display": "Virgin Islands"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Secondary Contact", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PersonOneAddressState_KY", 
+                      "display": "Kentucky"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Secondary Contact", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PersonOneAddressState_AL", 
+                      "display": "Alabama"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Secondary Contact", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PersonOneAddressState_LA", 
+                      "display": "Louisiana"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Secondary Contact", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PersonOneAddressState_WA", 
+                      "display": "Washington"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Secondary Contact", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PersonOneAddressState_DE", 
+                      "display": "Delaware"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Secondary Contact", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PersonOneAddressState_IL", 
+                      "display": "Illinois"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Secondary Contact", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PersonOneAddressState_MA", 
+                      "display": "Massachusetts"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Secondary Contact", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PersonOneAddressState_AK", 
+                      "display": "Alaska"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Secondary Contact", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PersonOneAddressState_MH", 
+                      "display": "Marshall Islands"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Secondary Contact", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PersonOneAddressState_VT", 
+                      "display": "Vermont"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Secondary Contact", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PersonOneAddressState_MS", 
+                      "display": "Mississippi"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Secondary Contact", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PersonOneAddressState_NM", 
+                      "display": "New Mexico"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Secondary Contact", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PersonOneAddressState_PA", 
+                      "display": "Pennsylvania"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Secondary Contact", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PersonOneAddressState_VA", 
+                      "display": "Virginia"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Secondary Contact", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PersonOneAddressState_SD", 
+                      "display": "South Dakota"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Secondary Contact", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PersonOneAddressState_SC", 
+                      "display": "South Carolina"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Secondary Contact", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PersonOneAddressState_MO", 
+                      "display": "Missouri"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Secondary Contact", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PersonOneAddressState_PR", 
+                      "display": "Puerto Rico"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Secondary Contact", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PersonOneAddressState_RI", 
+                      "display": "Rhode Island"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Secondary Contact", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PersonOneAddressState_ND", 
+                      "display": "North Dakota"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Secondary Contact", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PersonOneAddressState_NC", 
+                      "display": "North Carolina"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Secondary Contact", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PersonOneAddressState_FM", 
+                      "display": "Federated States of Micronesia"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Secondary Contact", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PersonOneAddressState_AS", 
+                      "display": "American Samoa"
+                    }
+                  ], 
+                  "property": [
+                    {
+                      "valueCode": "Question", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Secondary Contact", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PersonOneAddress_PersonOneAddressState", 
+                  "display": "State"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Secondary Contact", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "SecondaryContactInfo_PersonOneAddressOne", 
+              "display": "Person 1 Address Line 1"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Secondary Contact", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "SecondaryContactInfo_PersonOneLastName", 
+              "display": "Person 1 name (Last)"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Secondary Contact", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "SecondaryContactInfo_FirstContactsInfo", 
+              "display": "The PMI will contact you periodically to gather additional health related information. In case we cannot contact you, please provide the names, addresses, and telephone numbers of 2 relatives or friends who would know where you could be reached in case we have trouble reaching you. (Please give us the names of persons not currently living in the household)."
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Secondary Contact", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "SecondaryContactInfo_PersonOneMiddleInitial", 
+              "display": "Person 1 name (MI)"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Secondary Contact", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "SecondaryContactInfo_SecondContactsAddressTwo", 
+              "display": "Person 2 Address Line 2"
+            }, 
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Secondary Contact", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SecondContactsRelationship_ParentGuardian", 
+                  "display": "Parent or Guardian"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Secondary Contact", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SecondContactsRelationship_Child", 
+                  "display": "Child"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Secondary Contact", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SecondContactsRelationship_Friend", 
+                  "display": "Friend"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Secondary Contact", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SecondContactsRelationship_SpousePartner", 
+                  "display": "Spouse or Partner"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Secondary Contact", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SecondContactsRelationship_Relative", 
+                  "display": "Relative"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Secondary Contact", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "SecondaryContactInfo_SecondContactsRelationship", 
+              "display": "What is this second person's relationship to you?"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Secondary Contact", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "SecondaryContactInfo_PersonOneAddressTwo", 
+              "display": "Person 1 Address Line 2"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": null, 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "SecondaryContactInfo_SecondContactsLastName", 
+              "display": "Person 2 name (Last)"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Secondary Contact", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "SecondaryContactInfo_PersonOneEmail", 
+              "display": "Person 1 Email Address"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Secondary Contact", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "SecondaryContactInfo_SecondContactsNumber", 
+              "display": "What is this second person's telephone number, beginning with the area code?"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Secondary Contact", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "SecondaryContactInfo_PersonOneFirstName", 
+              "display": "Person 1 name (First)"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Secondary Contact", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "SecondaryContactInfo_SecondContactsFirstName", 
+              "display": "Person 2 name (First)"
             }, 
             {
               "property": [
@@ -2701,6 +2771,36 @@
                           ], 
                           "code": "AsianSpecific_Filipino", 
                           "display": "Filipino"
+                        }, 
+                        {
+                          "concept": [
+                            {
+                              "property": [
+                                {
+                                  "valueCode": "Question", 
+                                  "code": "concept-type"
+                                }, 
+                                {
+                                  "valueCode": "Race Ethnicity Subcategory", 
+                                  "code": "concept-topic"
+                                }
+                              ], 
+                              "code": "NoneOfTheseDescribeMe_AsianFreeText", 
+                              "display": "Asian Free Text"
+                            }
+                          ], 
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Race Ethnicity Subcategory", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "AsianSpecific_NoneOfTheseDescribeMe", 
+                          "display": "Asian None of These Describe Me"
                         }, 
                         {
                           "property": [
@@ -2861,6 +2961,36 @@
                           "display": "Colombian"
                         }, 
                         {
+                          "concept": [
+                            {
+                              "property": [
+                                {
+                                  "valueCode": "Question", 
+                                  "code": "concept-type"
+                                }, 
+                                {
+                                  "valueCode": "Race Ethnicity Subcategory", 
+                                  "code": "concept-topic"
+                                }
+                              ], 
+                              "code": "HispanicNoneOfTheseDescribeMe_HispanicFreeText", 
+                              "display": "Hispamic Free Text"
+                            }
+                          ], 
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Race Ethnicity Subcategory", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "HispanicSpecific_HispanicNoneOfTheseDescribeMe", 
+                          "display": "Hispanic None of These Describe Me"
+                        }, 
+                        {
                           "property": [
                             {
                               "valueCode": "Answer", 
@@ -2948,6 +3078,36 @@
                   "concept": [
                     {
                       "concept": [
+                        {
+                          "concept": [
+                            {
+                              "property": [
+                                {
+                                  "valueCode": "Question", 
+                                  "code": "concept-type"
+                                }, 
+                                {
+                                  "valueCode": "Race Ethnicity Subcategory", 
+                                  "code": "concept-topic"
+                                }
+                              ], 
+                              "code": "WhiteNoneOfTheseDescribeMe_WhiteFreeText", 
+                              "display": "White Free Text"
+                            }
+                          ], 
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Race Ethnicity Subcategory", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "WhiteSpecific_WhiteNoneOfTheseDescribeMe", 
+                          "display": "White None of These Describe Me"
+                        }, 
                         {
                           "property": [
                             {
@@ -3289,6 +3449,36 @@
                           ], 
                           "code": "NHPISpecific_Chamorro", 
                           "display": "Chamorro"
+                        }, 
+                        {
+                          "concept": [
+                            {
+                              "property": [
+                                {
+                                  "valueCode": "Question", 
+                                  "code": "concept-type"
+                                }, 
+                                {
+                                  "valueCode": "Race Ethnicity Subcategory", 
+                                  "code": "concept-topic"
+                                }
+                              ], 
+                              "code": "NHPINoneOfTheseDescribeMe_NHPIFreeText", 
+                              "display": "NHPI Free Text"
+                            }
+                          ], 
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Race Ethnicity Subcategory", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "NHPISpecific_NHPINoneOfTheseDescribeMe", 
+                          "display": "NHPI None of These Describe Me"
                         }
                       ], 
                       "property": [
@@ -3321,24 +3511,38 @@
                 {
                   "concept": [
                     {
+                      "property": [
+                        {
+                          "valueCode": "Question", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "WhatTribeAffiliation_FreeText", 
+                      "display": "Provide the name of the tribe in which you are enrolled or affiliated or your tribal descent. (for example, Navajo Nation, Blackfeet Tribe, Mayan, Aztec, Native Village of Barrow Inupiat Traditional Government, Nome Eskimo Community, etc.)"
+                    }
+                  ], 
+                  "property": [
+                    {
+                      "valueCode": "Topic", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": null, 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "WhatRaceEthnicity_WhatTribeAffiliation", 
+                  "display": "What Tribe"
+                }, 
+                {
+                  "concept": [
+                    {
                       "concept": [
                         {
-                          "concept": [
-                            {
-                              "property": [
-                                {
-                                  "valueCode": "Question", 
-                                  "code": "concept-type"
-                                }, 
-                                {
-                                  "valueCode": "Race Ethnicity", 
-                                  "code": "concept-topic"
-                                }
-                              ], 
-                              "code": "AmericanIndian_WhatTribeAffiliation", 
-                              "display": "Provide the name of the tribe in which you are enrolled or affiliated or your tribal descent. (for example, Navajo Nation, Blackfeet Tribe, Mayan, Aztec, Native Village of Barrow Inupiat Traditional Government, Nome Eskimo Community, etc.)"
-                            }
-                          ], 
                           "property": [
                             {
                               "valueCode": "Answer", 
@@ -3355,50 +3559,34 @@
                         {
                           "concept": [
                             {
-                              "concept": [
-                                {
-                                  "property": [
-                                    {
-                                      "valueCode": "Answer", 
-                                      "code": "concept-type"
-                                    }, 
-                                    {
-                                      "valueCode": "Race Ethnicity", 
-                                      "code": "concept-topic"
-                                    }
-                                  ], 
-                                  "code": "WhatTribeAffiliation_NotSure", 
-                                  "display": "I'm not sure."
-                                }, 
-                                {
-                                  "property": [
-                                    {
-                                      "valueCode": "Answer", 
-                                      "code": "concept-type"
-                                    }, 
-                                    {
-                                      "valueCode": "Race Ethnicity", 
-                                      "code": "concept-topic"
-                                    }
-                                  ], 
-                                  "code": "WhatTribeAffiliation_FreeText", 
-                                  "display": "Free Text Answer (Tribe related)"
-                                }
-                              ], 
                               "property": [
                                 {
                                   "valueCode": "Question", 
                                   "code": "concept-type"
                                 }, 
                                 {
-                                  "valueCode": "Race Ethnicity", 
+                                  "valueCode": "Race Ethnicity Subcategory", 
                                   "code": "concept-topic"
                                 }
                               ], 
-                              "code": "CentralSouthAmericanIndian_WhatTribeAffiliation", 
-                              "display": "Provide the name of the tribe in which you are enrolled or affiliated or your tribal descent. (for example, Navajo Nation, Blackfeet Tribe, Mayan, Aztec, Native Village of Barrow Inupiat Traditional Government, Nome Eskimo Community, etc.)"
+                              "code": "AIANNoneOfTheseDescribeMe_AIANFreeText", 
+                              "display": "AIAN Free Text"
                             }
                           ], 
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Race Ethnicity Subcategory", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "AIANSpecific_AIANNoneOfTheseDescribeMe", 
+                          "display": "AIAN None of These Describe Me"
+                        }, 
+                        {
                           "property": [
                             {
                               "valueCode": "Answer", 
@@ -3413,22 +3601,6 @@
                           "display": "Central or South American Indian"
                         }, 
                         {
-                          "concept": [
-                            {
-                              "property": [
-                                {
-                                  "valueCode": "Question", 
-                                  "code": "concept-type"
-                                }, 
-                                {
-                                  "valueCode": "Race Ethnicity", 
-                                  "code": "concept-topic"
-                                }
-                              ], 
-                              "code": "AlaskaNative_WhatTribeAffiliation", 
-                              "display": "Provide the name of the tribe in which you are enrolled or affiliated or your tribal descent. (for example, Navajo Nation, Blackfeet Tribe, Mayan, Aztec, Native Village of Barrow Inupiat Traditional Government, Nome Eskimo Community, etc.)"
-                            }
-                          ], 
                           "property": [
                             {
                               "valueCode": "Answer", 
@@ -3615,6 +3787,36 @@
                           "display": "African American"
                         }, 
                         {
+                          "concept": [
+                            {
+                              "property": [
+                                {
+                                  "valueCode": "Question", 
+                                  "code": "concept-type"
+                                }, 
+                                {
+                                  "valueCode": "Race Ethnicity Subcategory", 
+                                  "code": "concept-topic"
+                                }
+                              ], 
+                              "code": "BlackNoneOfTheseDescribeMe_BlackFreeText", 
+                              "display": "Black Free Text"
+                            }
+                          ], 
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Race Ethnicity Subcategory", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "BlackSpecific_BlackNoneOfTheseDescribeMe", 
+                          "display": "Black None of These Describe Me"
+                        }, 
+                        {
                           "property": [
                             {
                               "valueCode": "Answer", 
@@ -3729,6 +3931,36 @@
                           ], 
                           "code": "MENASpecific_Iraqi", 
                           "display": "Iraqi"
+                        }, 
+                        {
+                          "concept": [
+                            {
+                              "property": [
+                                {
+                                  "valueCode": "Question", 
+                                  "code": "concept-type"
+                                }, 
+                                {
+                                  "valueCode": "Race Ethnicity Subcategory", 
+                                  "code": "concept-topic"
+                                }
+                              ], 
+                              "code": "MENANoneOfTheseDescribeMe_MENAFreeText", 
+                              "display": "MENA Free Text"
+                            }
+                          ], 
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Race Ethnicity Subcategory", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "MENASpecific_MENANoneOfTheseDescribeMe", 
+                          "display": "MENA None of These Describe Me"
                         }, 
                         {
                           "property": [
@@ -3855,124 +4087,6 @@
           ], 
           "code": "TheBasics_Race", 
           "display": "Race"
-        }, 
-        {
-          "concept": [
-            {
-              "concept": [
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Telephone Info", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "AlternateNumber_Yes", 
-                  "display": "Other Phone: Yes"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Telephone Info", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "AlternateNumber_No", 
-                  "display": "Other Phone:No"
-                }
-              ], 
-              "property": [
-                {
-                  "valueCode": "Question", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Telephone Info", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "PhoneInformation_AlternateNumber", 
-              "display": "Another Number to be Reached at?"
-            }, 
-            {
-              "concept": [
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Telephone Info", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "NumberType_Home", 
-                  "display": "Home"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Telephone Info", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "NumberType_Mobile", 
-                  "display": "Mobile (cell)"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Telephone Info", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "NumberType_Work", 
-                  "display": "Work"
-                }
-              ], 
-              "property": [
-                {
-                  "valueCode": "Question", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Telephone Info", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "PhoneInformation_NumberType", 
-              "display": "Type of Phone Number"
-            }
-          ], 
-          "property": [
-            {
-              "valueCode": "Question", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Telephone Info", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "TheBasics_PhoneInformation", 
-          "display": "Phone Information"
         }, 
         {
           "concept": [
@@ -4147,20 +4261,6 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "SexAtBirth_None", 
-                  "display": "None of these describe me"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Biological Sex", 
-                      "code": "concept-topic"
-                    }
-                  ], 
                   "code": "SexAtBirth_Intersex", 
                   "display": "Intersex"
                 }, 
@@ -4191,6 +4291,36 @@
                   ], 
                   "code": "SexAtBirth_Female", 
                   "display": "Female"
+                }, 
+                {
+                  "concept": [
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Question", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Biological Sex", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "SexAtBirthNoneOfThese_SexAtBirthTextBox", 
+                      "display": "None of these Text Box"
+                    }
+                  ], 
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Biological Sex", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SexAtBirth_SexAtBirthNoneOfThese", 
+                  "display": "None of these describe me"
                 }
               ], 
               "property": [
@@ -4305,6 +4435,20 @@
           ], 
           "code": "TheBasics_SexualOrientation", 
           "display": "Which of the following best represents how you think of yourself?"
+        }, 
+        {
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Birthplace", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "TheBasics_CountryBornTextBox", 
+          "display": "Country Text Box Question"
         }, 
         {
           "concept": [
@@ -4571,6 +4715,62 @@
             {
               "concept": [
                 {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Gender", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "CloserGenderDescription_Genderqueer", 
+                  "display": "Genderqueer"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Gender", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "CloserGenderDescription_TransWoman", 
+                  "display": "Transwoman/Transgender Woman/MTF"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Gender", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "CloserGenderDescription_Genderfluid", 
+                  "display": "Genderfluid"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Gender", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "CloserGenderDescription_GenderVariant", 
+                  "display": "Gender Variant"
+                }, 
+                {
                   "concept": [
                     {
                       "property": [
@@ -4701,6 +4901,22 @@
                       "display": "Mostly straight, but sometimes attracted to people of your own sex"
                     }, 
                     {
+                      "concept": [
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Question", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Sexual Orientation", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "SomethingElse_SexualitySomethingElseTextBox", 
+                          "display": "Something Else Text Box"
+                        }
+                      ], 
                       "property": [
                         {
                           "valueCode": "Answer", 
@@ -4755,6 +4971,34 @@
                   ], 
                   "code": "GenderIdentity_SexualityCloserDescription", 
                   "display": "Are any of these a closer description of how you think of yourself?"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Gender", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "CloserGenderDescription_Unsure", 
+                  "display": "Questioning or unsure of your gender identity"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Gender", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "CloserGenderDescription_TransMan", 
+                  "display": "Transman/Transgender Man/FTM"
                 }
               ], 
               "property": [
@@ -4787,22 +5031,6 @@
                   "display": "Woman"
                 }, 
                 {
-                  "concept": [
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Question", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Gender", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "Transgender_CloserGenderDescription", 
-                      "display": "Are any of these a closer description to your gender identity?"
-                    }
-                  ], 
                   "property": [
                     {
                       "valueCode": "Answer", 
@@ -4831,122 +5059,6 @@
                   "display": "Man"
                 }, 
                 {
-                  "concept": [
-                    {
-                      "concept": [
-                        {
-                          "property": [
-                            {
-                              "valueCode": "Answer", 
-                              "code": "concept-type"
-                            }, 
-                            {
-                              "valueCode": "Gender", 
-                              "code": "concept-topic"
-                            }
-                          ], 
-                          "code": "CloserGenderDescription_Genderqueer", 
-                          "display": "Genderqueer"
-                        }, 
-                        {
-                          "property": [
-                            {
-                              "valueCode": "Answer", 
-                              "code": "concept-type"
-                            }, 
-                            {
-                              "valueCode": "Gender", 
-                              "code": "concept-topic"
-                            }
-                          ], 
-                          "code": "CloserGenderDescription_TransWoman", 
-                          "display": "Transwoman/Transgender Woman/MTF"
-                        }, 
-                        {
-                          "property": [
-                            {
-                              "valueCode": "Answer", 
-                              "code": "concept-type"
-                            }, 
-                            {
-                              "valueCode": "Gender", 
-                              "code": "concept-topic"
-                            }
-                          ], 
-                          "code": "CloserGenderDescription_SpecifiedGender", 
-                          "display": "None of these describe me, and I want to specify"
-                        }, 
-                        {
-                          "property": [
-                            {
-                              "valueCode": "Answer", 
-                              "code": "concept-type"
-                            }, 
-                            {
-                              "valueCode": "Gender", 
-                              "code": "concept-topic"
-                            }
-                          ], 
-                          "code": "CloserGenderDescription_Genderfluid", 
-                          "display": "Genderfluid"
-                        }, 
-                        {
-                          "property": [
-                            {
-                              "valueCode": "Answer", 
-                              "code": "concept-type"
-                            }, 
-                            {
-                              "valueCode": "Gender", 
-                              "code": "concept-topic"
-                            }
-                          ], 
-                          "code": "CloserGenderDescription_GenderVariant", 
-                          "display": "Gender Variant"
-                        }, 
-                        {
-                          "property": [
-                            {
-                              "valueCode": "Answer", 
-                              "code": "concept-type"
-                            }, 
-                            {
-                              "valueCode": "Gender", 
-                              "code": "concept-topic"
-                            }
-                          ], 
-                          "code": "CloserGenderDescription_Unsure", 
-                          "display": "Questioning or unsure of your gender identity"
-                        }, 
-                        {
-                          "property": [
-                            {
-                              "valueCode": "Answer", 
-                              "code": "concept-type"
-                            }, 
-                            {
-                              "valueCode": "Gender", 
-                              "code": "concept-topic"
-                            }
-                          ], 
-                          "code": "CloserGenderDescription_TransMan", 
-                          "display": "Transman/Transgender Man/FTM"
-                        }
-                      ], 
-                      "property": [
-                        {
-                          "valueCode": "Question", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Gender", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "AdditionalOptions_CloserGenderDescription", 
-                      "display": "Are any of these a closer description to your gender identity?"
-                    }
-                  ], 
                   "property": [
                     {
                       "valueCode": "Answer", 
@@ -4961,22 +5073,6 @@
                   "display": "None of these describe me, and Id like to consider additional options"
                 }, 
                 {
-                  "concept": [
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Question", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Gender", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "NonBinary_CloserGenderDescription", 
-                      "display": "Are any of these a closer description to your gender identity?"
-                    }
-                  ], 
                   "property": [
                     {
                       "valueCode": "Answer", 
@@ -5093,20 +5189,6 @@
           "display": "Home Ownership"
         }, 
         {
-          "property": [
-            {
-              "valueCode": "Topic", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Gender", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "TheBasics_GenderIdentity", 
-          "display": "Gender Identity"
-        }, 
-        {
           "concept": [
             {
               "concept": [
@@ -5221,6 +5303,20 @@
                       "code": "concept-topic"
                     }
                   ], 
+                  "code": "EmploymentStatus_Retired", 
+                  "display": "Retired"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Employment", 
+                      "code": "concept-topic"
+                    }
+                  ], 
                   "code": "EmploymentStatus_OutOfWorkLessThanOne", 
                   "display": "Out of work for less than 1 year"
                 }, 
@@ -5237,20 +5333,6 @@
                   ], 
                   "code": "EmploymentStatus_OutOfWorkOneOrMore", 
                   "display": "Out of work for 1 year or more"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Employment", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "EmploymentStatus_Retired", 
-                  "display": "Retired"
                 }, 
                 {
                   "property": [
@@ -7121,6 +7203,20 @@
                   "code": "concept-topic"
                 }
               ], 
+              "code": "GeneralSocial_Poor", 
+              "display": "Poor"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Social Health", 
+                  "code": "concept-topic"
+                }
+              ], 
               "code": "GeneralSocial_Excellent", 
               "display": "Excellent"
             }, 
@@ -7151,20 +7247,6 @@
               ], 
               "code": "GeneralSocial_VeryGood", 
               "display": "Very Good"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Social Health", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "GeneralSocial_Poor", 
-              "display": "Poor"
             }
           ], 
           "property": [
@@ -7683,20 +7765,6 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "SpokenWrittenLanguage_RussianRussia", 
-                  "display": "Russian (Russia)"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Language", 
-                      "code": "concept-topic"
-                    }
-                  ], 
                   "code": "SpokenWrittenLanguage_Portuguese", 
                   "display": "Portuguese"
                 }, 
@@ -7879,6 +7947,20 @@
                       "code": "concept-topic"
                     }
                   ], 
+                  "code": "SpokenWrittenLanguage_ChineseTaiwan", 
+                  "display": "Chinese (Taiwan)"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Language", 
+                      "code": "concept-topic"
+                    }
+                  ], 
                   "code": "SpokenWrittenLanguage_EnglishCanada", 
                   "display": "English (Canada)"
                 }, 
@@ -8035,20 +8117,6 @@
                   ], 
                   "code": "SpokenWrittenLanguage_Bengali", 
                   "display": "Bengali"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Language", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "SpokenWrittenLanguage_ChineseTaiwan", 
-                  "display": "Chinese (Taiwan)"
                 }, 
                 {
                   "property": [
@@ -8257,6 +8325,20 @@
                       "code": "concept-topic"
                     }
                   ], 
+                  "code": "SpokenWrittenLanguage_RussianRussia", 
+                  "display": "Russian (Russia)"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Language", 
+                      "code": "concept-topic"
+                    }
+                  ], 
                   "code": "SpokenWrittenLanguage_EnglishSingapore", 
                   "display": "English (Singapore)"
                 }, 
@@ -8415,20 +8497,6 @@
               ], 
               "code": "ExtraConsent_DataSharingVideo", 
               "display": "Copy of Copy of Copy of Copy of Copy of Youtube Video"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Extra Consent Items", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "ExtraConsent_review", 
-              "display": "review"
             }, 
             {
               "concept": [
@@ -8927,6 +8995,20 @@
             {
               "property": [
                 {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Extra Consent Items", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "ExtraConsent_review", 
+              "display": "review"
+            }, 
+            {
+              "property": [
+                {
                   "valueCode": "Question", 
                   "code": "concept-type"
                 }, 
@@ -8937,6 +9019,20 @@
               ], 
               "code": "ExtraConsent_RisktoPrivacyVideo", 
               "display": "Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Youtube Video"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Extra Consent Items", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "ExtraConsent__CABoRTodaysDate", 
+              "display": "Copy of New Day Selector"
             }, 
             {
               "property": [
@@ -8993,20 +9089,6 @@
               ], 
               "code": "ExtraConsent_PhysicalMeausrementsVideo", 
               "display": "Copy of Copy of Copy of Youtube Video"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Question", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Extra Consent Items", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "ExtraConsent__CABoRTodaysDate", 
-              "display": "Copy of New Day Selector"
             }
           ], 
           "property": [
@@ -9279,6 +9361,20 @@
                           "code": "concept-topic"
                         }
                       ], 
+                      "code": "PIIState_FM", 
+                      "display": "Federated States of Micronesia"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "States", 
+                          "code": "concept-topic"
+                        }
+                      ], 
                       "code": "PIIState_MS", 
                       "display": "Mississippi"
                     }, 
@@ -9405,6 +9501,20 @@
                           "code": "concept-topic"
                         }
                       ], 
+                      "code": "PIIState_VI", 
+                      "display": "Virgin Islands"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "States", 
+                          "code": "concept-topic"
+                        }
+                      ], 
                       "code": "PIIState_MO", 
                       "display": "Missouri"
                     }, 
@@ -9435,20 +9545,6 @@
                       ], 
                       "code": "PIIState_LA", 
                       "display": "Louisiana"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "States", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PIIState_VI", 
-                      "display": "Virgin Islands"
                     }, 
                     {
                       "property": [
@@ -9533,20 +9629,6 @@
                       ], 
                       "code": "PIIState_ME", 
                       "display": "Maine"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "States", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PIIState_FM", 
-                      "display": "Federated States of Micronesia"
                     }, 
                     {
                       "property": [
@@ -10173,6 +10255,20 @@
                               "code": "concept-topic"
                             }
                           ], 
+                          "code": "AZSArizonaSpecific_AZBannerDesertMed", 
+                          "display": "Banner Desert Medical Center"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "SitePairing", 
+                              "code": "concept-topic"
+                            }
+                          ], 
                           "code": "AZSArizonaSpecific_AZBannerDelEWebbMed", 
                           "display": "Banner Del E. Webb Medical"
                         }, 
@@ -10259,20 +10355,6 @@
                           ], 
                           "code": "AZSArizonaSpecific_AZBannerGatewayMed", 
                           "display": "Banner Gateway Medical"
-                        }, 
-                        {
-                          "property": [
-                            {
-                              "valueCode": "Answer", 
-                              "code": "concept-type"
-                            }, 
-                            {
-                              "valueCode": "SitePairing", 
-                              "code": "concept-topic"
-                            }
-                          ], 
-                          "code": "AZSArizonaSpecific_AZBannerDesertMed", 
-                          "display": "Banner Desert Medical Center"
                         }, 
                         {
                           "property": [
@@ -11897,6 +11979,22 @@
                   "display": "a. Marijuana (cannabis, pot, grass, hash, weed, etc.)"
                 }, 
                 {
+                  "concept": [
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Question", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Recreational Drugs", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "OtherSpecify_OtherDrugsTextBox", 
+                      "display": "Other Drug(s) Free Text"
+                    }
+                  ], 
                   "property": [
                     {
                       "valueCode": "Answer", 
@@ -13215,6 +13313,34 @@
               "code": "concept-topic"
             }
           ], 
+          "code": "PMI_Unanswered", 
+          "display": "PMI Question Unanswered"
+        }, 
+        {
+          "property": [
+            {
+              "valueCode": "Answer", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "PMI", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "PMI_PreferNotToAnswer", 
+          "display": "PMI Prefer Not To Answer"
+        }, 
+        {
+          "property": [
+            {
+              "valueCode": "Answer", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "PMI", 
+              "code": "concept-topic"
+            }
+          ], 
           "code": "PMI_NotSure", 
           "display": "PMI Not Sure"
         }, 
@@ -13249,7 +13375,7 @@
         {
           "property": [
             {
-              "valueCode": "Question", 
+              "valueCode": "Answer", 
               "code": "concept-type"
             }, 
             {
@@ -13299,34 +13425,6 @@
               "code": "concept-topic"
             }
           ], 
-          "code": "PMI_PreferNotToAnswer", 
-          "display": "PMI Prefer Not To Answer"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "PMI", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "PMI_Unanswered", 
-          "display": "PMI Question Unanswered"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "PMI", 
-              "code": "concept-topic"
-            }
-          ], 
           "code": "PMI_Skip", 
           "display": "PMI Skip"
         }
@@ -13348,14 +13446,14 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 929, 
+  "count": 936, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.2.31", 
+  "version": "0.2.32", 
   "hierarchyMeaning": "grouped-by", 
-  "date": "2017-05-25", 
+  "date": "2017-05-26", 
   "property": [
     {
       "code": "concept-type", 
