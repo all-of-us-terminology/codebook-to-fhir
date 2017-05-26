@@ -50,8 +50,8 @@ Haitian,Race Ethnicity Subcategory,Answer,,http://terminology.pmi-ops.org/CodeSy
 Nigerian,Race Ethnicity Subcategory,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,BlackSpecific_Nigerian,Black_BlackSpecific,,5/22/2017,,FHIR,http://www.hl7.org/FHIR/v3/Race/index.html,,,,2.16.840.1.113883.5.104,1900-1,2065-1,,
 Ethiopian,Race Ethnicity Subcategory,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,BlackSpecific_Ethiopian,Black_BlackSpecific,,5/22/2017,,FHIR,http://www.hl7.org/FHIR/v3/Race/index.html,,,,2.16.840.1.113883.5.104,1900-1,2062-8,,
 Ghanaian,Race Ethnicity Subcategory,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,BlackSpecific_Ghanaian,Black_BlackSpecific,,5/22/2017,,UMLS,http://www.hl7.org/FHIR/v3/Race/index.html,,,,,,,315432000,712321018
-Black None of These Describe Me,Race Ethnicity Subcategory,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,BlackSpecific_NoneOfTheseDescribeMe,Black_BlackSpecific,,5/26/2017,,,,,,,,,,,
-Black Free Text,Race Ethnicity Subcategory,Question,text,http://terminology.pmi-ops.org/CodeSystem/ppi,NoneOfTheseDescribeMe_BlackFreeText,BlackSpecific_NoneOfTheseDescribeMe,,5/26/2017,,,,,,,,,,,
+Black None of These Describe Me,Race Ethnicity Subcategory,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,BlackSpecific_BlackNoneOfTheseDescribeMe,Black_BlackSpecific,,5/26/2017,,,,,,,,,,,
+Black Free Text,Race Ethnicity Subcategory,Question,text,http://terminology.pmi-ops.org/CodeSystem/ppi,BlackNoneOfTheseDescribeMe_BlackFreeText,BlackSpecific_BlackNoneOfTheseDescribeMe,,5/26/2017,,,,,,,,,,,
 Lebanese,Race Ethnicity Subcategory,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,MENASpecific_Lebanese,MENA_MENASpecific,,5/22/2017,,FHIR,http://www.hl7.org/FHIR/v3/Race/index.html,,,,2.16.840.1.113883.5.104,1900-1,2123-8,,
 Iraqi,Race Ethnicity Subcategory,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,MENASpecific_Iraqi,MENA_MENASpecific,,5/22/2017,,,,,,,,,,,
 Israeli,Race Ethnicity Subcategory,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,MENASpecific_Israeli,MENA_MENASpecific,,5/22/2017,,,,,,,,,,,

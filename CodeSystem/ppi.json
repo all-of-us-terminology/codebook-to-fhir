@@ -107,6 +107,34 @@
               "display": "How many years have you lived at your current address?"
             }, 
             {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Living Situation", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "LivingSituation_LivingSituationFreeText", 
+              "display": "Living Situation Free Text"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Living Situation", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "LivingSituation_HowManyPeople", 
+              "display": "Not including yourself, how many other people live at home with you?"
+            }, 
+            {
               "concept": [
                 {
                   "property": [
@@ -247,34 +275,6 @@
               ], 
               "code": "LivingSituation_CurrentLiving", 
               "display": "Where are you currently living?"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Question", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Living Situation", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "LivingSituation_LivingSituationFreeText", 
-              "display": "Living Situation Free Text"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Question", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Living Situation", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "LivingSituation_HowManyPeople", 
-              "display": "Not including yourself, how many other people live at home with you?"
             }, 
             {
               "concept": [
@@ -961,6 +961,20 @@
                           "code": "concept-topic"
                         }
                       ], 
+                      "code": "SecondContactState_Nebraska", 
+                      "display": "Nebraska"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Secondary Contact", 
+                          "code": "concept-topic"
+                        }
+                      ], 
                       "code": "SecondContactState_NewHampshire", 
                       "display": "NewHampshire"
                     }, 
@@ -1229,20 +1243,6 @@
                       ], 
                       "code": "SecondContactState_Maryland", 
                       "display": "Maryland"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Secondary Contact", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "SecondContactState_Nebraska", 
-                      "display": "Nebraska"
                     }, 
                     {
                       "property": [
@@ -3703,36 +3703,6 @@
                           "display": "Jamaican"
                         }, 
                         {
-                          "concept": [
-                            {
-                              "property": [
-                                {
-                                  "valueCode": "Question", 
-                                  "code": "concept-type"
-                                }, 
-                                {
-                                  "valueCode": "Race Ethnicity Subcategory", 
-                                  "code": "concept-topic"
-                                }
-                              ], 
-                              "code": "NoneOfTheseDescribeMe_BlackFreeText", 
-                              "display": "Black Free Text"
-                            }
-                          ], 
-                          "property": [
-                            {
-                              "valueCode": "Answer", 
-                              "code": "concept-type"
-                            }, 
-                            {
-                              "valueCode": "Race Ethnicity Subcategory", 
-                              "code": "concept-topic"
-                            }
-                          ], 
-                          "code": "BlackSpecific_NoneOfTheseDescribeMe", 
-                          "display": "Black None of These Describe Me"
-                        }, 
-                        {
                           "property": [
                             {
                               "valueCode": "Answer", 
@@ -3815,6 +3785,36 @@
                           ], 
                           "code": "BlackSpecific_AfricanAmerican", 
                           "display": "African American"
+                        }, 
+                        {
+                          "concept": [
+                            {
+                              "property": [
+                                {
+                                  "valueCode": "Question", 
+                                  "code": "concept-type"
+                                }, 
+                                {
+                                  "valueCode": "Race Ethnicity Subcategory", 
+                                  "code": "concept-topic"
+                                }
+                              ], 
+                              "code": "BlackNoneOfTheseDescribeMe_BlackFreeText", 
+                              "display": "Black Free Text"
+                            }
+                          ], 
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Race Ethnicity Subcategory", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "BlackSpecific_BlackNoneOfTheseDescribeMe", 
+                          "display": "Black None of These Describe Me"
                         }, 
                         {
                           "property": [
@@ -4117,6 +4117,20 @@
                       "code": "concept-topic"
                     }
                   ], 
+                  "code": "AnnualIncome_10k25k", 
+                  "display": "$10,000- $24,999"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Income", 
+                      "code": "concept-topic"
+                    }
+                  ], 
                   "code": "AnnualIncome_100k150k", 
                   "display": "$100,000- $149,999"
                 }, 
@@ -4189,20 +4203,6 @@
                   ], 
                   "code": "AnnualIncome_150k200k", 
                   "display": "$150,000- $199,999"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Income", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "AnnualIncome_10k25k", 
-                  "display": "$10,000- $24,999"
                 }, 
                 {
                   "property": [
@@ -5595,162 +5595,6 @@
     {
       "concept": [
         {
-          "concept": [
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Pain", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "AveragePain7Days_3", 
-              "display": "3"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Pain", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "AveragePain7Days_6", 
-              "display": "6"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Pain", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "AveragePain7Days_1", 
-              "display": "1"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Pain", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "AveragePain7Days_8", 
-              "display": "8"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Pain", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "AveragePain7Days_4", 
-              "display": "4"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Pain", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "AveragePain7Days_10", 
-              "display": "10 Worst pain imaginable"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Pain", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "AveragePain7Days_2", 
-              "display": "2"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Pain", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "AveragePain7Days_0", 
-              "display": "0 No Pain"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Pain", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "AveragePain7Days_7", 
-              "display": "7"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Pain", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "AveragePain7Days_9", 
-              "display": "9"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Pain", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "AveragePain7Days_5", 
-              "display": "5"
-            }
-          ], 
           "property": [
             {
               "valueCode": "Question", 
@@ -5939,66 +5783,6 @@
         {
           "concept": [
             {
-              "concept": [
-                {
-                  "concept": [
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Pregnancy", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "2PregnancyStatus_DontKnow", 
-                      "display": "Not Sure"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Pregnancy", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "2PregnancyStatus_No", 
-                      "display": "No"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Pregnancy", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "2PregnancyStatus_Yes", 
-                      "display": "Yes"
-                    }
-                  ], 
-                  "property": [
-                    {
-                      "valueCode": "Question", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Pregnancy", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "NotSureMenstrualStopped_2PregnancyStatus", 
-                  "display": "Are you currently pregnant?"
-                }
-              ], 
               "property": [
                 {
                   "valueCode": "Answer", 
@@ -6131,66 +5915,6 @@
               "display": "Yes, but I have periods induced by hormones."
             }, 
             {
-              "concept": [
-                {
-                  "concept": [
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Pregnancy", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "1PregnancyStatus_Yes", 
-                      "display": "Yes"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Pregnancy", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "1PregnancyStatus_DontKnow", 
-                      "display": "Not Sure"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Pregnancy", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "1PregnancyStatus_No", 
-                      "display": "No"
-                    }
-                  ], 
-                  "property": [
-                    {
-                      "valueCode": "Question", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Pregnancy", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PeriodsHaventStopped_1PregnancyStatus", 
-                  "display": "Are you currently pregnant?"
-                }
-              ], 
               "property": [
                 {
                   "valueCode": "Answer", 
@@ -6563,6 +6287,66 @@
           "display": "In general, how would you rate your physical health?"
         }, 
         {
+          "concept": [
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Pregnancy", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "1PregnancyStatus_Yes", 
+                  "display": "Yes"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Pregnancy", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "1PregnancyStatus_DontKnow", 
+                  "display": "Not Sure"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Pregnancy", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "1PregnancyStatus_No", 
+                  "display": "No"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Pregnancy", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Pregnancy_1PregnancyStatus", 
+              "display": "Are you currently pregnant?"
+            }
+          ], 
           "property": [
             {
               "valueCode": "Topic", 
@@ -7203,20 +6987,6 @@
                   "code": "concept-topic"
                 }
               ], 
-              "code": "GeneralSocial_Poor", 
-              "display": "Poor"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Social Health", 
-                  "code": "concept-topic"
-                }
-              ], 
               "code": "GeneralSocial_Excellent", 
               "display": "Excellent"
             }, 
@@ -7247,6 +7017,20 @@
               ], 
               "code": "GeneralSocial_VeryGood", 
               "display": "Very Good"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Social Health", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "GeneralSocial_Poor", 
+              "display": "Poor"
             }
           ], 
           "property": [
@@ -7289,8 +7073,8 @@
                   "code": "concept-topic"
                 }
               ], 
-              "code": "EverydayActivities_Completely", 
-              "display": "Completely"
+              "code": "EverydayActivities_Moderately", 
+              "display": "Moderately"
             }, 
             {
               "property": [
@@ -7303,8 +7087,8 @@
                   "code": "concept-topic"
                 }
               ], 
-              "code": "EverydayActivities_Moderately", 
-              "display": "Moderately"
+              "code": "EverydayActivities_Completely", 
+              "display": "Completely"
             }, 
             {
               "property": [
@@ -7877,6 +7661,20 @@
                       "code": "concept-topic"
                     }
                   ], 
+                  "code": "SpokenWrittenLanguage_Telegu", 
+                  "display": "Telegu"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Language", 
+                      "code": "concept-topic"
+                    }
+                  ], 
                   "code": "SpokenWrittenLanguage_SwedishSweden", 
                   "display": "Swedish (Sweden)"
                 }, 
@@ -8047,20 +7845,6 @@
                   ], 
                   "code": "SpokenWrittenLanguage_Dutch", 
                   "display": "Dutch"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Language", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "SpokenWrittenLanguage_Telegu", 
-                  "display": "Telegu"
                 }, 
                 {
                   "property": [
@@ -9031,6 +8815,20 @@
                   "code": "concept-topic"
                 }
               ], 
+              "code": "ExtraConsent__CABoRTodaysDate", 
+              "display": "Copy of New Day Selector"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Extra Consent Items", 
+                  "code": "concept-topic"
+                }
+              ], 
               "code": "ExtraConsent_CABoRSignature", 
               "display": "Copy of Signature Box"
             }, 
@@ -9075,20 +8873,6 @@
               ], 
               "code": "ExtraConsent_PhysicalMeausrementsVideo", 
               "display": "Copy of Copy of Copy of Youtube Video"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Question", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Extra Consent Items", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "ExtraConsent__CABoRTodaysDate", 
-              "display": "Copy of New Day Selector"
             }
           ], 
           "property": [
@@ -10297,8 +10081,8 @@
                               "code": "concept-topic"
                             }
                           ], 
-                          "code": "AZCArizonaSpecific_BannerBehavioralHealth", 
-                          "display": "Banner Behavioral Health"
+                          "code": "AZSArizonaSpecific_AZBannerBoswellMed", 
+                          "display": "Banner Boswell Medical"
                         }, 
                         {
                           "property": [
@@ -10311,8 +10095,8 @@
                               "code": "concept-topic"
                             }
                           ], 
-                          "code": "AZSArizonaSpecific_AZBannerBoswellMed", 
-                          "display": "Banner Boswell Medical"
+                          "code": "AZCArizonaSpecific_BannerBehavioralHealth", 
+                          "display": "Banner Behavioral Health"
                         }, 
                         {
                           "property": [
@@ -13460,12 +13244,12 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 937, 
+  "count": 922, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.2.37", 
+  "version": "0.2.39", 
   "hierarchyMeaning": "grouped-by", 
   "date": "2017-05-26", 
   "property": [
