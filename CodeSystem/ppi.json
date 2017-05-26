@@ -13121,20 +13121,6 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "6orMoreDrinksOccurence_Never", 
-                  "display": "Never"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Alcohol", 
-                      "code": "concept-topic"
-                    }
-                  ], 
                   "code": "6orMoreDrinksOccurence_Weekly", 
                   "display": "Weekly"
                 }, 
@@ -13368,12 +13354,12 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 931, 
+  "count": 930, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.2.41", 
+  "version": "0.2.42", 
   "hierarchyMeaning": "grouped-by", 
   "date": "2017-05-26", 
   "property": [

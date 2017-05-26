@@ -80,7 +80,6 @@ Monthly,Alcohol,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,6orMoreDri
 Weekly,Alcohol,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,6orMoreDrinksOccurence_Weekly,Alcohol_6orMoreDrinksOccurence,AU03,4/24/2017,,,,,,,,,,,
 Daily or almost daily,Alcohol,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,6orMoreDrinksOccurence_Daily,Alcohol_6orMoreDrinksOccurence,AU03,4/24/2017,,,,,,,,,,,
 Never in the last year,Alcohol,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,6orMoreDrinksOccurence_NeverInLastYear,Alcohol_6orMoreDrinksOccurence,AU03,4/24/2017,,,,,,,,,,,
-Never,Alcohol,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,6orMoreDrinksOccurence_Never,Alcohol_6orMoreDrinksOccurence,AU03,5/19/2017,,,,,,,,,,,
 Recreational Drug Use,Recreational Drugs,Topic,,http://terminology.pmi-ops.org/CodeSystem/ppi,Lifestyle_RecreationalDrugUse,Lifestyle,,4/24/2017,,,,,,,,,,,
 "In your LIFETIME, which of the following substances have you ever used?",Recreational Drugs,Question,open-choice,http://terminology.pmi-ops.org/CodeSystem/ppi,RecreationalDrugUse_WhichDrugsUsed,Lifestyle_RecreationalDrugUse,SU01,5/17/2017,,,,,,,,,,,
 "a. Marijuana (cannabis, pot, grass, hash, weed, etc.)",Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,WhichDrugsUsed_MarijuanaUse,RecreationalDrugUse_WhichDrugsUsed,SU01,5/17/2017,,,,,,,,,,,
