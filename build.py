@@ -182,7 +182,7 @@ class SheetProcessor(object):
 
         for term in self.terms_by_coding.values():
             ancestor_terms = self.ancestor_terms(term)
-            answer_types = [t.answer_type for t in ancestor_terms if t.answer_type]
+            answer_types = [term.answer_type]
             is_choice_type = (set(['open-choice', 'choice']) & set(answer_types))
             if term.concept_type == "Question" and is_choice_type and term.coding not in self.terms_by_parent:
                 CodebookEntry.issues.append("Term '%s' has type=Question which is a choice type, but no answers associated with it. Hierarchy: %s"%(
