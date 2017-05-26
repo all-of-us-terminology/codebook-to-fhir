@@ -1,10 +1,4 @@
 [
-  "Redefined! http://terminology.pmi-ops.org/CodeSystem/ppi : MenstrualStoppedReason_NaturalMenopause", 
-  "Redefined! http://terminology.pmi-ops.org/CodeSystem/ppi : MenstrualStoppedReason_Surgery", 
-  "Redefined! http://terminology.pmi-ops.org/CodeSystem/ppi : MenstrualStoppedReason_EndometrialAblation", 
-  "Redefined! http://terminology.pmi-ops.org/CodeSystem/ppi : MenstrualStoppedReason_MedicationTherapy", 
-  "Redefined! http://terminology.pmi-ops.org/CodeSystem/ppi : OrganTransplantDescription_Heart", 
   "Ancestors of 'ExtraConsent_next' don't include a 'Question', but this term is an 'Answer' ['ConsentPII: Module Name', 'ConsentPII_ExtraConsent: Topic', 'ExtraConsent_next: Answer']", 
-  "Ancestors of 'ExtraConsent_review' don't include a 'Question', but this term is an 'Answer' ['ConsentPII: Module Name', 'ConsentPII_ExtraConsent: Topic', 'ExtraConsent_review: Answer']", 
-  "Term 'YesNone_MenstrualStoppedReason' has type=Question which is a choice type, but no answers associated with it. Hierarchy: ['OverallHealth: None', 'OverallHealth_MenstrualStopped: open-choice', 'MenstrualStopped_YesNone: None', 'YesNone_MenstrualStoppedReason: open-choice']"
+  "Ancestors of 'ExtraConsent_review' don't include a 'Question', but this term is an 'Answer' ['ConsentPII: Module Name', 'ConsentPII_ExtraConsent: Topic', 'ExtraConsent_review: Answer']"
 ]

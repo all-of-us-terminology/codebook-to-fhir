@@ -2813,8 +2813,8 @@
                               "code": "concept-topic"
                             }
                           ], 
-                          "code": "AsianSpecific_Pakistani", 
-                          "display": "Pakistani"
+                          "code": "AsianSpecific_AsianSpecificIndian", 
+                          "display": "Asian Indian"
                         }, 
                         {
                           "property": [
@@ -2827,8 +2827,8 @@
                               "code": "concept-topic"
                             }
                           ], 
-                          "code": "AsianSpecific_AsianSpecificIndian", 
-                          "display": "Asian Indian"
+                          "code": "AsianSpecific_Pakistani", 
+                          "display": "Pakistani"
                         }, 
                         {
                           "property": [
@@ -5799,36 +5799,6 @@
             {
               "concept": [
                 {
-                  "property": [
-                    {
-                      "valueCode": "Question", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Menstrual Information", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "YesNone_MenstrualStoppedReason", 
-                  "display": "Why did your periods stop?"
-                }
-              ], 
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Menstrual Information", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "MenstrualStopped_YesNone", 
-              "display": "Yes, I have no menstrual periods."
-            }, 
-            {
-              "concept": [
-                {
                   "concept": [
                     {
                       "property": [
@@ -5897,10 +5867,24 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "YesButHormone_MenstrualStoppedReason", 
+                  "code": "YesNone_MenstrualStoppedReason", 
                   "display": "Why did your periods stop?"
                 }
               ], 
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Menstrual Information", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "MenstrualStopped_YesNone", 
+              "display": "Yes, I have no menstrual periods."
+            }, 
+            {
               "property": [
                 {
                   "valueCode": "Answer", 
@@ -12135,92 +12119,6 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "PrescriptionStimulant3MonthUse_OnceOrTwice", 
-                      "display": "Once or twice"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Recreational Drugs", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PrescriptionStimulant3MonthUse_Monthly", 
-                      "display": "Monthly"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Recreational Drugs", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PrescriptionStimulant3MonthUse_Daily", 
-                      "display": "Daily or almost daily"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Recreational Drugs", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PrescriptionStimulant3MonthUse_Never", 
-                      "display": "Never"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Recreational Drugs", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PrescriptionStimulant3MonthUse_Weekly", 
-                      "display": "Weekly"
-                    }
-                  ], 
-                  "property": [
-                    {
-                      "valueCode": "Question", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Recreational Drugs", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "Past3MonthUseFrequency_PrescriptionStimulant3MonthUse", 
-                  "display": "In the PAST THREE MONTHS, how often have you used Prescription stimulants for non-medical reasons (Vyvanse, Ritalin, Concerta, Dexedrine, Adderall, diet pills, etc.)"
-                }, 
-                {
-                  "concept": [
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Recreational Drugs", 
-                          "code": "concept-topic"
-                        }
-                      ], 
                       "code": "Hallucinogen3MonthUse_Weekly", 
                       "display": "Weekly"
                     }, 
@@ -12551,6 +12449,92 @@
                   ], 
                   "code": "Past3MonthUseFrequency_Other3MonthUse", 
                   "display": "In the PAST THREE MONTHS, how often have you used Other [INSERT LANGUAGE FROM SU01j]"
+                }, 
+                {
+                  "concept": [
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Recreational Drugs", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PrescriptionStimulant3MonthUse_OnceOrTwice", 
+                      "display": "Once or twice"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Recreational Drugs", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PrescriptionStimulant3MonthUse_Monthly", 
+                      "display": "Monthly"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Recreational Drugs", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PrescriptionStimulant3MonthUse_Daily", 
+                      "display": "Daily or almost daily"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Recreational Drugs", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PrescriptionStimulant3MonthUse_Never", 
+                      "display": "Never"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Recreational Drugs", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PrescriptionStimulant3MonthUse_Weekly", 
+                      "display": "Weekly"
+                    }
+                  ], 
+                  "property": [
+                    {
+                      "valueCode": "Question", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Recreational Drugs", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "Past3MonthUseFrequency_PrescriptionStimulant3MonthUse", 
+                  "display": "In the PAST THREE MONTHS, how often have you used Prescription stimulants for non-medical reasons (Vyvanse, Ritalin, Concerta, Dexedrine, Adderall, diet pills, etc.)"
                 }, 
                 {
                   "concept": [
@@ -13244,12 +13228,12 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 922, 
+  "count": 921, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.2.39", 
+  "version": "0.2.40", 
   "hierarchyMeaning": "grouped-by", 
   "date": "2017-05-26", 
   "property": [
