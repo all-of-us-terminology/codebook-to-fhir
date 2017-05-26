@@ -3713,6 +3713,20 @@
                               "code": "concept-topic"
                             }
                           ], 
+                          "code": "BlackSpecific_NoneOfTheseDescribeMe", 
+                          "display": "Black None of These Describe Me"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Race Ethnicity Subcategory", 
+                              "code": "concept-topic"
+                            }
+                          ], 
                           "code": "BlackSpecific_Barbadian", 
                           "display": "Barbadian"
                         }, 
@@ -3785,36 +3799,6 @@
                           ], 
                           "code": "BlackSpecific_AfricanAmerican", 
                           "display": "African American"
-                        }, 
-                        {
-                          "concept": [
-                            {
-                              "property": [
-                                {
-                                  "valueCode": "Question", 
-                                  "code": "concept-type"
-                                }, 
-                                {
-                                  "valueCode": "Race Ethnicity Subcategory", 
-                                  "code": "concept-topic"
-                                }
-                              ], 
-                              "code": "BlackNoneOfTheseDescribeMe_BlackFreeText", 
-                              "display": "Black Free Text"
-                            }
-                          ], 
-                          "property": [
-                            {
-                              "valueCode": "Answer", 
-                              "code": "concept-type"
-                            }, 
-                            {
-                              "valueCode": "Race Ethnicity Subcategory", 
-                              "code": "concept-topic"
-                            }
-                          ], 
-                          "code": "BlackSpecific_BlackNoneOfTheseDescribeMe", 
-                          "display": "Black None of These Describe Me"
                         }, 
                         {
                           "property": [
@@ -4743,6 +4727,36 @@
                   "display": "Transwoman/Transgender Woman/MTF"
                 }, 
                 {
+                  "concept": [
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Question", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Gender", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "SpecifiedGender_SpecifiedGenderTextBox", 
+                      "display": "Specified Gender Identity Text Box"
+                    }
+                  ], 
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Gender", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "CloserGenderDescription_SpecifiedGender", 
+                  "display": "None of these describe me, and I want to specify"
+                }, 
+                {
                   "property": [
                     {
                       "valueCode": "Answer", 
@@ -4769,36 +4783,6 @@
                   ], 
                   "code": "CloserGenderDescription_GenderVariant", 
                   "display": "Gender Variant"
-                }, 
-                {
-                  "concept": [
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Question", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Gender", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "SpecifiedGenderIdentity_SpecifiedGenderIdentityTextBox", 
-                      "display": "Specified Gender Identity Text Box"
-                    }
-                  ], 
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Gender", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "CloserGenderDescription_SpecifiedGenderIdentity", 
-                  "display": "None of these describe me, and I want to specify"
                 }, 
                 {
                   "concept": [
@@ -7623,6 +7607,20 @@
       "display": "Overall Health"
     }, 
     {
+      "property": [
+        {
+          "valueCode": "Question", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Race Ethnicity Subcategory", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "BlackNoneOfTheseDescribeMe_BlackFreeText", 
+      "display": "Black Free Text"
+    }, 
+    {
       "concept": [
         {
           "concept": [
@@ -9031,20 +9029,6 @@
                   "code": "concept-topic"
                 }
               ], 
-              "code": "ExtraConsent__CABoRTodaysDate", 
-              "display": "Copy of New Day Selector"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Question", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Extra Consent Items", 
-                  "code": "concept-topic"
-                }
-              ], 
               "code": "ExtraConsent_CABoRSignature", 
               "display": "Copy of Signature Box"
             }, 
@@ -9089,6 +9073,20 @@
               ], 
               "code": "ExtraConsent_PhysicalMeausrementsVideo", 
               "display": "Copy of Copy of Copy of Youtube Video"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Extra Consent Items", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "ExtraConsent__CABoRTodaysDate", 
+              "display": "Copy of New Day Selector"
             }
           ], 
           "property": [
@@ -13451,7 +13449,7 @@
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.2.33", 
+  "version": "0.2.34", 
   "hierarchyMeaning": "grouped-by", 
   "date": "2017-05-26", 
   "property": [
