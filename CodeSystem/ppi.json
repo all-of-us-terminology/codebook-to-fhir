@@ -8213,20 +8213,6 @@
             {
               "property": [
                 {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Extra Consent Items", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "ExtraConsent_next", 
-              "display": "next"
-            }, 
-            {
-              "property": [
-                {
                   "valueCode": "Question", 
                   "code": "concept-type"
                 }, 
@@ -8759,20 +8745,6 @@
               ], 
               "code": "ExtraConsent_TakePartAllOfUs", 
               "display": "Do I have to take part in All of Us?"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Extra Consent Items", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "ExtraConsent_review", 
-              "display": "review"
             }, 
             {
               "property": [
@@ -10263,6 +10235,126 @@
           ], 
           "code": "ConsentPII_SitePairing", 
           "display": "Site Pairing"
+        }, 
+        {
+          "concept": [
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Michigan Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "LiveInFollowingAreas_DoNotLiveInListedAreas", 
+                  "display": "*I do not live in any listed area"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Michigan Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "LiveInFollowingAreas_LiveInEastSouthEastMichigan", 
+                  "display": "*East/Southeast Michigan (Metropolitan Detroit area)"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Michigan Site Pairing", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "MichiganSitePairing_LiveInFollowingAreas", 
+              "display": "Do you live in any of the following general areas? (others coming soon!)"
+            }, 
+            {
+              "concept": [
+                {
+                  "concept": [
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Michigan Site Pairing", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "CareAtHenryFord_YesCareAtHenryFord", 
+                      "display": "Yes"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Michigan Site Pairing", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "CareAtHenryFord_NoCareAtHenryFord", 
+                      "display": "No"
+                    }
+                  ], 
+                  "property": [
+                    {
+                      "valueCode": "Question", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Michigan Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "EastSoutheastMichigan_CareAtHenryFord", 
+                  "display": "Have you ever received care at a Henry Ford Health System facility or are you currently affiliated with the institution? This many include receiving care in a HFHS hospital, urgent care, emergency department, outpatient clinic or thru HFHS employee health."
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Topic", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Michigan Site Pairing", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "MichiganSitePairing_EastSoutheastMichigan", 
+              "display": "If participant lives in the East/Southeast Michigan Area:"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Topic", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Michigan Site Pairing", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "ConsentPII_MichiganSitePairing", 
+          "display": "If participant lives in Michigan, at the conclusion of the consent process (same location as UPMC)"
         }, 
         {
           "concept": [
@@ -13354,14 +13446,14 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 930, 
+  "count": 936, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.2.43", 
+  "version": "0.2.45", 
   "hierarchyMeaning": "grouped-by", 
-  "date": "2017-05-26", 
+  "date": "2017-06-09", 
   "property": [
     {
       "code": "concept-type", 
