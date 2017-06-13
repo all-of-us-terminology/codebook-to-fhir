@@ -8905,6 +8905,66 @@
         {
           "concept": [
             {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Tennessee Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "CherokeeHealthPatient_NoCherokeeHealthPatient", 
+                  "display": "No"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Tennessee Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "CherokeeHealthPatient_YesCherokeeHealthPatient", 
+                  "display": "Yes"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Tennessee Site Pairing", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "TennesseeSitePairing_CherokeeHealthPatient", 
+              "display": "Are you a Cherokee Health Systems patient?"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Topic", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Tennessee Site Pairing", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "ConsentPII_TennesseeSitePairing", 
+          "display": "If participant lives in Tennessee, at the conclusion of the consent process"
+        }, 
+        {
+          "concept": [
+            {
               "property": [
                 {
                   "valueCode": "Question", 
@@ -13446,14 +13506,14 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 936, 
+  "count": 940, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.2.45", 
+  "version": "0.2.46", 
   "hierarchyMeaning": "grouped-by", 
-  "date": "2017-06-09", 
+  "date": "2017-06-13", 
   "property": [
     {
       "code": "concept-type", 
