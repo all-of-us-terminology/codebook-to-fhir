@@ -597,20 +597,6 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "SecondContactState_FederatedStatesofMicronesia", 
-                      "display": "FederatedStatesofMicronesia"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Secondary Contact", 
-                          "code": "concept-topic"
-                        }
-                      ], 
                       "code": "SecondContactState_NewYork", 
                       "display": "NewYork"
                     }, 
@@ -851,6 +837,20 @@
                       ], 
                       "code": "SecondContactState_Georgia", 
                       "display": "Georgia"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Secondary Contact", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "SecondContactState_FederatedStatesofMicronesia", 
+                      "display": "FederatedStatesofMicronesia"
                     }, 
                     {
                       "property": [
@@ -2727,8 +2727,8 @@
                               "code": "concept-topic"
                             }
                           ], 
-                          "code": "AsianSpecific_Hmong", 
-                          "display": "Hmong"
+                          "code": "AsianSpecific_Japanese", 
+                          "display": "Japanese"
                         }, 
                         {
                           "property": [
@@ -2741,8 +2741,8 @@
                               "code": "concept-topic"
                             }
                           ], 
-                          "code": "AsianSpecific_Japanese", 
-                          "display": "Japanese"
+                          "code": "AsianSpecific_Hmong", 
+                          "display": "Hmong"
                         }, 
                         {
                           "property": [
@@ -3363,6 +3363,20 @@
                               "code": "concept-topic"
                             }
                           ], 
+                          "code": "NHPISpecific_Tongan", 
+                          "display": "Tongan"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Race Ethnicity Subcategory", 
+                              "code": "concept-topic"
+                            }
+                          ], 
                           "code": "NHPISpecific_Palauan", 
                           "display": "Palauan"
                         }, 
@@ -3407,20 +3421,6 @@
                           ], 
                           "code": "NHPISpecific_Tahitian", 
                           "display": "Tahitian"
-                        }, 
-                        {
-                          "property": [
-                            {
-                              "valueCode": "Answer", 
-                              "code": "concept-type"
-                            }, 
-                            {
-                              "valueCode": "Race Ethnicity Subcategory", 
-                              "code": "concept-topic"
-                            }
-                          ], 
-                          "code": "NHPISpecific_Tongan", 
-                          "display": "Tongan"
                         }, 
                         {
                           "property": [
@@ -6971,6 +6971,20 @@
                   "code": "concept-topic"
                 }
               ], 
+              "code": "GeneralSocial_Poor", 
+              "display": "Poor"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Social Health", 
+                  "code": "concept-topic"
+                }
+              ], 
               "code": "GeneralSocial_Excellent", 
               "display": "Excellent"
             }, 
@@ -7001,20 +7015,6 @@
               ], 
               "code": "GeneralSocial_VeryGood", 
               "display": "Very Good"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Social Health", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "GeneralSocial_Poor", 
-              "display": "Poor"
             }
           ], 
           "property": [
@@ -9077,20 +9077,6 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "PIIState_UT", 
-                      "display": "Utah"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "States", 
-                          "code": "concept-topic"
-                        }
-                      ], 
                       "code": "PIIState_MT", 
                       "display": "Montana"
                     }, 
@@ -9315,20 +9301,6 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "PIIState_MO", 
-                      "display": "Missouri"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "States", 
-                          "code": "concept-topic"
-                        }
-                      ], 
                       "code": "PIIState_WY", 
                       "display": "Wyoming"
                     }, 
@@ -9345,6 +9317,20 @@
                       ], 
                       "code": "PIIState_LA", 
                       "display": "Louisiana"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "States", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PIIState_UT", 
+                      "display": "Utah"
                     }, 
                     {
                       "property": [
@@ -9569,6 +9555,20 @@
                       ], 
                       "code": "PIIState_TN", 
                       "display": "Tennessee"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "States", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PIIState_MO", 
+                      "display": "Missouri"
                     }, 
                     {
                       "property": [
@@ -10579,6 +10579,108 @@
     {
       "concept": [
         {
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Video", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "RefresherConsent_PhysicalMeasurements", 
+          "display": "Physical Measurements Youtube Video"
+        }, 
+        {
+          "concept": [
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Agreeing to Participate", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "VoluntaryParticipation_DoNotWantToGiveSamples", 
+              "display": "I don't want to give samples"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Agreeing to Participate", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "VoluntaryParticipation_DoNotWantToHaveMeasurements", 
+              "display": "I don't want to have measurements"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Agreeing to Participate", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "VoluntaryParticipation_IAmReadyToParticipate", 
+              "display": "I am ready to participate"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Agreeing to Participate", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "RefresherConsent_VoluntaryParticipation", 
+          "display": "Participation is voluntary. You do not have to have measurements taken or give samples."
+        }, 
+        {
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Video", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "RefresherConsent_SamplesVideo", 
+          "display": "Samples Youtube Video"
+        }
+      ], 
+      "property": [
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "RefresherConsent", 
+      "display": "Refresher Consent"
+    }, 
+    {
+      "concept": [
+        {
           "concept": [
             {
               "property": [
@@ -11253,50 +11355,6 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "ElectricSmokeParticipant_No", 
-                      "display": "No"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Electronic Smoking", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "ElectricSmokeParticipant_Yes", 
-                      "display": "Yes"
-                    }
-                  ], 
-                  "property": [
-                    {
-                      "valueCode": "Question", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Electronic Smoking", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "ElectronicSmoking_ElectricSmokeParticipant", 
-                  "display": "Have you ever used an electronic nicotine product, even one or two times? (Electronic nicotine products include e-cigarettes, vape pens, hookah pens, personal vaporizers and mods, e-cigars, e-pipes, and e-hookahs.)"
-                }, 
-                {
-                  "concept": [
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Electronic Smoking", 
-                          "code": "concept-topic"
-                        }
-                      ], 
                       "code": "ElectricSmokeFrequency_EveryDay", 
                       "display": "Every day"
                     }, 
@@ -11341,6 +11399,50 @@
                   ], 
                   "code": "ElectronicSmoking_ElectricSmokeFrequency", 
                   "display": "Do you now use electronic nicotine products\u2026"
+                }, 
+                {
+                  "concept": [
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Electronic Smoking", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "ElectricSmokeParticipant_No", 
+                      "display": "No"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Electronic Smoking", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "ElectricSmokeParticipant_Yes", 
+                      "display": "Yes"
+                    }
+                  ], 
+                  "property": [
+                    {
+                      "valueCode": "Question", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Electronic Smoking", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "ElectronicSmoking_ElectricSmokeParticipant", 
+                  "display": "Have you ever used an electronic nicotine product, even one or two times? (Electronic nicotine products include e-cigarettes, vape pens, hookah pens, personal vaporizers and mods, e-cigars, e-pipes, and e-hookahs.)"
                 }
               ], 
               "property": [
@@ -13506,14 +13608,14 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 940, 
+  "count": 947, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.2.46", 
+  "version": "0.2.47", 
   "hierarchyMeaning": "grouped-by", 
-  "date": "2017-06-13", 
+  "date": "2017-06-14", 
   "property": [
     {
       "code": "concept-type", 
