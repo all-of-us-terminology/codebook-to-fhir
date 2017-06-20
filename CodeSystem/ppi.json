@@ -10561,6 +10561,66 @@
           ], 
           "code": "ConsentPII_EmailAddress", 
           "display": "Email Address"
+        }, 
+        {
+          "concept": [
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "California Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "CaliforniaUniversityCare_CaliforniaHealthCareYes", 
+                  "display": "Yes"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "California Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "CaliforniaUniversityCare_CaliforniaHealthCareNo", 
+                  "display": "No"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "California Site Pairing", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "CaliforniaSitePairing_CaliforniaUniversityCare", 
+              "display": "Have you ever received care at any of the following health centers?\nUniversity of California Irvine Health\nUniversity of Southern California\nUniversity of California San Diego"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Topic", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "California Site Pairing", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "ConsentPII_CaliforniaSitePairing", 
+          "display": "California Site Pairing"
         }
       ], 
       "property": [
@@ -13608,14 +13668,14 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 947, 
+  "count": 951, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.2.47", 
+  "version": "0.2.48", 
   "hierarchyMeaning": "grouped-by", 
-  "date": "2017-06-14", 
+  "date": "2017-06-20", 
   "property": [
     {
       "code": "concept-type", 
