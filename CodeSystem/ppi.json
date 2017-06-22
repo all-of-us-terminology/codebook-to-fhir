@@ -10549,6 +10549,94 @@
           "display": "Contact Information"
         }, 
         {
+          "concept": [
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Columbia Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "ColumbiaCare_ColumbiaCareNone", 
+                  "display": "None of these"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Columbia Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "ColumbiaCare_WeillCornell", 
+                  "display": "Weill Cornell Medicine / New York-Presbyterian"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Columbia Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "ColumbiaCare_ColumbiaUniversityMedCenter", 
+                  "display": "Columbia University Medical Center / New York-Presbyterian"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Columbia Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "ColumbiaCare_HarlemHospital", 
+                  "display": "Harlem Hospital"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Columbia Site Pairing", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "ColumbiaSitePairing_ColumbiaCare", 
+              "display": "Have you ever received care at any of the following?"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Topic", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Columbia Site Pairing", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "ConsentPII_ColumbiaSitePairing", 
+          "display": "Columbia Site Pairing"
+        }, 
+        {
           "property": [
             {
               "valueCode": "Question", 
@@ -13668,14 +13756,14 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 951, 
+  "count": 957, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.2.48", 
+  "version": "0.2.50", 
   "hierarchyMeaning": "grouped-by", 
-  "date": "2017-06-20", 
+  "date": "2017-06-21", 
   "property": [
     {
       "code": "concept-type", 
