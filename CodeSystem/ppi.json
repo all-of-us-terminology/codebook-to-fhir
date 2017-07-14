@@ -8965,6 +8965,110 @@
         {
           "concept": [
             {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "South Carolina Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "EauClaire_No", 
+                  "display": "No"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "South Carolina Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "EauClaire_Yes", 
+                  "display": "Yes"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "South Carolina Site Pairing", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "SouthCarolinaSitePairing_EauClaire", 
+              "display": "Are you currently a patient at any of the following Eau Claire clinics or health centers?\nWaverly Family Practice\nPelion Family Practice"
+            }, 
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "South Carolina Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "EauClaireAppointment_Yes", 
+                  "display": "Yes"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "South Carolina Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "EauClaireAppointment_No", 
+                  "display": "No"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "South Carolina Site Pairing", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "SouthCarolinaSitePairing_EauClaireAppointment", 
+              "display": "Have you already scheduled an appointment with the All of Us Research Program team?"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Topic", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "South Carolina Site Pairing", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "ConsentPII_SouthCarolinaSitePairing", 
+          "display": "South Carolina Pairing"
+        }, 
+        {
+          "concept": [
+            {
               "property": [
                 {
                   "valueCode": "Question", 
@@ -10649,6 +10753,182 @@
           ], 
           "code": "ConsentPII_EmailAddress", 
           "display": "Email Address"
+        }, 
+        {
+          "concept": [
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Community Health Center Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "CHCCareatLocation_Yes", 
+                  "display": "yes"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Community Health Center Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "CHCCareatLocation_No", 
+                  "display": "no"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Community Health Center Site Pairing", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "CHCSitePairing_CHCCareatLocation", 
+              "display": "Please indicate where you have received care at one of the following locations: CHC Inc Middletown CHC Inc Meriden"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Topic", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Community Health Center Site Pairing", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "ConsentPII_CHCSitePairing", 
+          "display": "Community Health Center Site Pairing"
+        }, 
+        {
+          "concept": [
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Illinois Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "IllinoisInstitution_Northwestern", 
+                  "display": "Northwestern Medicine"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Illinois Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "IllinoisInstitution_NorthShoreU", 
+                  "display": "NorthShore University HealthSystem"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Illinois Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "IllinoisInstitution_MileSquare", 
+                  "display": "Mile Square Health Center"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Illinois Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "IllinoisInstitution_UIllinoisHealth", 
+                  "display": "University of Illinois (UI) Health"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Illinois Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "IllinoisInstitution_UChicagoMed", 
+                  "display": "University of Chicago Medicine"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Illinois Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "IllinoisInstitution_RushU", 
+                  "display": "Rush University Medical Center"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Illinois Site Pairing", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "IllinoisSitePairing_IllinoisInstitution", 
+              "display": "The following Healthcare Providers in your area are enrolling participants into the All of Us Research Program. At which institution do you receive care and wish to schedule an enrollment visit with? Please choose 1 institution"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Topic", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Illinois Site Pairing", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "ConsentPII_IllinoisSitePairing", 
+          "display": "Illinois Site Pairing"
         }, 
         {
           "concept": [
@@ -13637,20 +13917,6 @@
               "code": "concept-topic"
             }
           ], 
-          "code": "PMI_Unanswered", 
-          "display": "PMI Question Unanswered"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "PMI", 
-              "code": "concept-topic"
-            }
-          ], 
           "code": "PMI_PreferNotToAnswer", 
           "display": "PMI Prefer Not To Answer"
         }, 
@@ -13695,6 +13961,20 @@
           ], 
           "code": "PMI_FreeText", 
           "display": "PMI Free Text Answer"
+        }, 
+        {
+          "property": [
+            {
+              "valueCode": "Answer", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "PMI", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "PMI_Unanswered", 
+          "display": "PMI Question Unanswered"
         }, 
         {
           "property": [
@@ -13756,14 +14036,14 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 957, 
+  "count": 976, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.2.50", 
+  "version": "0.2.51", 
   "hierarchyMeaning": "grouped-by", 
-  "date": "2017-06-21", 
+  "date": "2017-07-12", 
   "property": [
     {
       "code": "concept-type", 
