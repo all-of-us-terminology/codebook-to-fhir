@@ -256,3 +256,15 @@ Northwestern Medicine,Illinois Site Pairing,Answer,http://terminology.pmi-ops.or
 Rush University Medical Center,Illinois Site Pairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,IllinoisInstitution_RushU,IllinoisSitePairing_IllinoisInstitution,7/14/2017,,,,,,,,,,,,
 University of Chicago Medicine,Illinois Site Pairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,IllinoisInstitution_UChicagoMed,IllinoisSitePairing_IllinoisInstitution,7/14/2017,,,,,,,,,,,,
 University of Illinois (UI) Health,Illinois Site Pairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,IllinoisInstitution_UIllinoisHealth,IllinoisSitePairing_IllinoisInstitution,7/14/2017,,,,,,,,,,,,
+None of these,Illinois Site Pairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,IllinoisInstitution_Noneofthese,IllinoisSitePairing_IllinoisInstitution,7/18/2017,,,,,,,,,,,,
+Texas Site Pairing,Texas Site Pairing,Topic,http://terminology.pmi-ops.org/CodeSystem/ppi,ConsentPII_TexasSitePairing,ConsentPII,7/19/2017,,,,,,,,,,,,
+"Have you ever received care at any Baylor Scott & White Healthcare and/or Health Texas Provider Network facility such as:
+BSWH hospitals
+BSWH Urgent care centers
+BSWH Emergency rooms
+Hillcrest Health Clinics
+Health Texas Physician Network (HTPN) clinics/physician offices
+For the full list, please click on this link: https://www.bswhealth.com/locations/pages/default.aspx?type=All%20Locations
+If you are uncertain, please call at 844-4US-BSWH (1-844-487-2794).",Texas Site Pairing,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,TexasSitePairing_BaylorScott,ConsentPII_TexasSitePairing,7/19/2017,,,,,,,,,,,,
+Yes,Texas Site Pairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,BaylorScott_Yes,TexasSitePairing_BaylorScott,7/19/2017,,,,,,,,,,,,
+No,Texas Site Pairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,BaylorScott_No,TexasSitePairing_BaylorScott,7/19/2017,,,,,,,,,,,,

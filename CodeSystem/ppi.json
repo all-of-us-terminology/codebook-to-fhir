@@ -9993,6 +9993,66 @@
                       "code": "concept-type"
                     }, 
                     {
+                      "valueCode": "Texas Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "BaylorScott_No", 
+                  "display": "No"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Texas Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "BaylorScott_Yes", 
+                  "display": "Yes"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Texas Site Pairing", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "TexasSitePairing_BaylorScott", 
+              "display": "Have you ever received care at any Baylor Scott & White Healthcare and/or Health Texas Provider Network facility such as:\nBSWH hospitals\nBSWH Urgent care centers\nBSWH Emergency rooms\nHillcrest Health Clinics\nHealth Texas Physician Network (HTPN) clinics/physician offices\nFor the full list, please click on this link: https://www.bswhealth.com/locations/pages/default.aspx?type=All%20Locations\nIf you are uncertain, please call at 844-4US-BSWH (1-844-487-2794)."
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Topic", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Texas Site Pairing", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "ConsentPII_TexasSitePairing", 
+          "display": "Texas Site Pairing"
+        }, 
+        {
+          "concept": [
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
                       "valueCode": "SitePairing", 
                       "code": "concept-topic"
                     }
@@ -10887,6 +10947,20 @@
                   ], 
                   "code": "IllinoisInstitution_UChicagoMed", 
                   "display": "University of Chicago Medicine"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Illinois Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "IllinoisInstitution_Noneofthese", 
+                  "display": "None of these"
                 }, 
                 {
                   "property": [
@@ -14036,7 +14110,7 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 976, 
+  "count": 981, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
