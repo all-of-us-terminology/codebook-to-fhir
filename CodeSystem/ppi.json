@@ -10127,6 +10127,66 @@
                       "code": "concept-type"
                     }, 
                     {
+                      "valueCode": "San Diego Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SanDiegoBloodBank_Yes", 
+                  "display": "Yes"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "San Diego Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SanDiegoBloodBank_No", 
+                  "display": "No"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "San Diego Site Pairing", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "SanDiegoSitePairing_SanDiegoBloodBank", 
+              "display": "Have you ever donated blood at the San Diego Blood Bank?"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Topic", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "San Diego Site Pairing", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "ConsentPII_SanDiegoSitePairing", 
+          "display": "San Diego Site Pairing"
+        }, 
+        {
+          "concept": [
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
                       "valueCode": "Texas Site Pairing", 
                       "code": "concept-topic"
                     }
@@ -14348,14 +14408,14 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 997, 
+  "count": 1001, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.2.53", 
+  "version": "0.2.54", 
   "hierarchyMeaning": "grouped-by", 
-  "date": "2017-07-26", 
+  "date": "2017-08-01", 
   "property": [
     {
       "code": "concept-type", 

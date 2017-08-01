@@ -284,3 +284,7 @@ New York Site Pairing,New York Site Pairing,Topic,http://terminology.pmi-ops.org
 "Have you ever received care at the Peekskill Health Center, or any other HRHCare health center?",New York Site Pairing,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,NewYorkSitePairing_HRHCare,ConsentPII_NewYorkSitePairing,7/26/2017,,,,,,,,,,,,
 Yes,New York Site Pairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,HRHCare_Yes,NewYorkSitePairing_HRHCare,7/26/2017,,,,,,,,,,,,
 No,New York Site Pairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,HRHCare_No,NewYorkSitePairing_HRHCare,7/26/2017,,,,,,,,,,,,
+San Diego Site Pairing,San Diego Site Pairing,Topic,http://terminology.pmi-ops.org/CodeSystem/ppi,ConsentPII_SanDiegoSitePairing,ConsentPII,8/1/2017,,,,,,,,,,,,
+Have you ever donated blood at the San Diego Blood Bank?,San Diego Site Pairing,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,SanDiegoSitePairing_SanDiegoBloodBank,ConsentPII_SanDiegoSitePairing,8/1/2017,,,,,,,,,,,,
+Yes,San Diego Site Pairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SanDiegoBloodBank_Yes,SanDiegoSitePairing_SanDiegoBloodBank,8/1/2017,,,,,,,,,,,,
+No,San Diego Site Pairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SanDiegoBloodBank_No,SanDiegoSitePairing_SanDiegoBloodBank,8/1/2017,,,,,,,,,,,,
