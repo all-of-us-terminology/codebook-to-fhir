@@ -11675,6 +11675,20 @@
       "display": "EHRConsent PII"
     }, 
     {
+      "property": [
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "San Diego Site Pairing", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "SanDiegoBloodBankScheduling", 
+      "display": "San Diego Blood Bank Scheduling"
+    }, 
+    {
       "concept": [
         {
           "concept": [
@@ -14078,14 +14092,14 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 978, 
+  "count": 979, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.2.55", 
+  "version": "0.2.57", 
   "hierarchyMeaning": "grouped-by", 
-  "date": "2017-08-15", 
+  "date": "2017-08-17", 
   "property": [
     {
       "code": "concept-type", 
