@@ -10251,6 +10251,20 @@
                       "code": "concept-topic"
                     }
                   ], 
+                  "code": "LiveInFollowingAreas_LiveInWesternMichigan", 
+                  "display": "Western Michigan"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Michigan Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
                   "code": "LiveInFollowingAreas_DoNotLiveInListedAreas", 
                   "display": "*I do not live in any listed area"
                 }, 
@@ -10459,6 +10473,66 @@
           ], 
           "code": "ConsentPII_MississippiSitePairing", 
           "display": "Mississippi Site Pairing"
+        }, 
+        {
+          "concept": [
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Western MIchigan Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SpectrumHealthSitePairing_Yes", 
+                  "display": "Yes"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Western MIchigan Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SpectrumHealthSitePairing_No", 
+                  "display": "No"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Western MIchigan Site Pairing", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "WesternMichiganSitePairing_SpectrumHealthSitePairing", 
+              "display": "Have you ever received care at a Spectrum Health System facility or are you currently affiliated with the system? This may include receiving care in a Spectrum hospital, urgent care, emergency department, outpatient clinic or through employee health"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Topic", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Western MIchigan Site Pairing", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "ConsentPII_WesternMichiganSitePairing", 
+          "display": "Western MIchigan Site Pairing"
         }, 
         {
           "concept": [
@@ -14092,14 +14166,14 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 979, 
+  "count": 984, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.2.57", 
+  "version": "0.2.59", 
   "hierarchyMeaning": "grouped-by", 
-  "date": "2017-08-17", 
+  "date": "2017-08-28", 
   "property": [
     {
       "code": "concept-type", 
