@@ -10247,6 +10247,424 @@
                       "code": "concept-type"
                     }, 
                     {
+                      "valueCode": "AZ Site Pairing - OLD", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "AZSArizonaSpecific_AZ_no", 
+                  "display": "no"
+                }, 
+                {
+                  "concept": [
+                    {
+                      "concept": [
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "AZ Site Pairing - OLD", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "AZSArizonaSpecific_AZUMI", 
+                          "display": "University Medical Imaging (UMI)"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "AZ Site Pairing - OLD", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "AZSArizonaSpecific_AZUAHN", 
+                          "display": "University of Arizona Health Network (UAHN)"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "AZ Site Pairing - OLD", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "AZSArizonaSpecific_AZUPH", 
+                          "display": "University Physicians Healthcare (UPH)"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "AZ Site Pairing - OLD", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "AZSArizonaSpecific_AZUofArizona", 
+                          "display": "University of Arizona Medical Center"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "AZ Site Pairing - OLD", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "AZSArizonaSpecific_AZUofACancerCenter", 
+                          "display": "University of Arizona Cancer Center"
+                        }
+                      ], 
+                      "property": [
+                        {
+                          "valueCode": "Question", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "AZ Site Pairing - OLD", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "ResideAZSArizona_AZSArizonaSpecific", 
+                      "display": "SArizona"
+                    }
+                  ], 
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "AZ Site Pairing - OLD", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "CurrentlyReside_ResideAZSArizona", 
+                  "display": "SArizona"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "AZ Site Pairing - OLD", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "CurrentlyReside_ResideNeither", 
+                  "display": "Neither"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "AZ Site Pairing - OLD", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "AZSArizonaSpecific_AZ_yes", 
+                  "display": "yes"
+                }, 
+                {
+                  "concept": [
+                    {
+                      "concept": [
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "AZ Site Pairing - OLD", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "AZSArizonaSpecific_AZBannerThunderbirdMed", 
+                          "display": "Banner Thunderbird Medical"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "AZ Site Pairing - OLD", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "AZSArizonaSpecific_AZBannerDesertMed", 
+                          "display": "Banner Desert Medical Center"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "AZ Site Pairing - OLD", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "AZSArizonaSpecific_AZBannerDelEWebbMed", 
+                          "display": "Banner Del E. Webb Medical"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "AZ Site Pairing - OLD", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "AZSArizonaSpecific_AZBannerBoswellMed", 
+                          "display": "Banner Boswell Medical"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "AZ Site Pairing - OLD", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "AZCArizonaSpecific_BannerBehavioralHealth", 
+                          "display": "Banner Behavioral Health"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "AZ Site Pairing - OLD", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "AZSArizonaSpecific_AZBannerUMed", 
+                          "display": "Banner University Medical"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "AZ Site Pairing - OLD", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "AZCArizonaSpecific_AZBannerHeartHospital", 
+                          "display": "Banner Heart Hospital"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "AZ Site Pairing - OLD", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "AZSArizonaSpecific_AZBannerEstrellaMed", 
+                          "display": "Banner Estrella Medical"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "AZ Site Pairing - OLD", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "AZCArizonaSpecific_AZBannerBaywoodMed", 
+                          "display": "Banner Baywood Medical"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "AZ Site Pairing - OLD", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "AZSArizonaSpecific_AZBannerGatewayMed", 
+                          "display": "Banner Gateway Medical"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "AZ Site Pairing - OLD", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "AZCArizonaSpecific_AZBannerCasaGrande", 
+                          "display": "Banner Casa Grande Medical"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "AZ Site Pairing - OLD", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "AZCArizonaSpecific_AZBannerIronwoodMedical", 
+                          "display": "Banner Ironwood Medical"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "AZ Site Pairing - OLD", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "AZCArizonaSpecific_CardonChildrensMedical", 
+                          "display": "(u'http://terminology.pmi-ops.org/CodeSystem/ppi'u\"Cardon Children's Medical\")"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "AZ Site Pairing - OLD", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "AZCArizonaSpecific_AZBannerGoldfieldMedical", 
+                          "display": "Banner Goldfield Medical"
+                        }, 
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Answer", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "AZ Site Pairing - OLD", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "AZSArizonaSpecific_AZBannerMDAnderson", 
+                          "display": "Banner MD Anderson Cancer"
+                        }
+                      ], 
+                      "property": [
+                        {
+                          "valueCode": "Question", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "AZ Site Pairing - OLD", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "ResideAZCArizona_AZCArizonaSpecific", 
+                      "display": "CArizona"
+                    }
+                  ], 
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "AZ Site Pairing - OLD", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "CurrentlyReside_ResideAZCArizona", 
+                  "display": "CArizona"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "AZ Site Pairing - OLD", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "SitePairing_CurrentlyReside", 
+              "display": "Where do you currently reside?"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Topic", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "AZ Site Pairing - OLD", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "ConsentPII_SitePairing", 
+          "display": "Site Pairing"
+        }, 
+        {
+          "concept": [
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
                       "valueCode": "Michigan Site Pairing", 
                       "code": "concept-topic"
                     }
@@ -14166,14 +14584,14 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 984, 
+  "count": 1013, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.2.59", 
+  "version": "0.2.61", 
   "hierarchyMeaning": "grouped-by", 
-  "date": "2017-08-28", 
+  "date": "2017-09-12", 
   "property": [
     {
       "code": "concept-type", 
