@@ -210,8 +210,8 @@ class SheetProcessor(object):
                 },{
                     'code': 'concept-topic',
                     'valueCode': t.concept_topic
-                }] + [{ 'code': 'short-code',
-                        'valueCode': t.short_code }] if t.short_code else [],
+                }] + ([{ 'code': 'short-code',
+                        'valueCode': t.short_code }] if t.short_code else []),
                 'concept': self.concepts_with_parent(t.coding.code) or None
             }) for t in self.terms_by_parent.get(Coding(self.config['system'], parent), [])]
 
