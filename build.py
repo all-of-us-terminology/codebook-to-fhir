@@ -34,6 +34,9 @@ class CodebookEntry(object):
         if term['PMI Code'] and ' ' in term['PMI Code']:
             self.issues.append("unexpected space in code  '%s'"%term['PMI Code'])
             term['PMI Code'] = term['PMI Code'].replace(" ", "")
+        if term.get('Short Code') and ' ' in term['Short Code']:
+            self.issues.append("unexpected space in short code  '%s'"%term['Short Code'])
+            term['Short Code'] = term['Short Code'].replace(" ", "")
         if 'Type' not in term:
             self.issues.append("No type is defined for code '%s'"%term['PMI Code'])
             term['Type'] = 'Unknown'
@@ -56,6 +59,10 @@ class CodebookEntry(object):
     @property
     def display(self):
         return self._dict['Display']
+
+    @property
+    def short_code(self):
+        return self._dict.get('Short Code')
 
     @property
     def coding(self):
@@ -203,7 +210,8 @@ class SheetProcessor(object):
                 },{
                     'code': 'concept-topic',
                     'valueCode': t.concept_topic
-                }],
+                }] + [{ 'code': 'short-code',
+                        'valueCode': t.short_code }] if t.short_code else [],
                 'concept': self.concepts_with_parent(t.coding.code) or None
             }) for t in self.terms_by_parent.get(Coding(self.config['system'], parent), [])]
 
