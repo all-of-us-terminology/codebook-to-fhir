@@ -555,6 +555,20 @@
         {
           "concept": [
             {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Secondary Contact", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "SecondaryContactInfo_PersonOneAddressTwo", 
+              "display": "Person 1 Address Line 2"
+            }, 
+            {
               "concept": [
                 {
                   "property": [
@@ -2593,20 +2607,6 @@
                   "code": "concept-topic"
                 }
               ], 
-              "code": "SecondaryContactInfo_PersonOneAddressTwo", 
-              "display": "Person 1 Address Line 2"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Question", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Secondary Contact", 
-                  "code": "concept-topic"
-                }
-              ], 
               "code": "SecondaryContactInfo_PersonOneEmail", 
               "display": "Person 1 Email Address"
             }, 
@@ -3293,36 +3293,6 @@
                 {
                   "concept": [
                     {
-                      "property": [
-                        {
-                          "valueCode": "Question", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Race Ethnicity", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "RaceEthnicityNoneOfThese_RaceEthnicityFreeTextBox", 
-                      "display": "Race None of These Free Text"
-                    }
-                  ], 
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Race Ethnicity", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "WhatRaceEthnicity_RaceEthnicityNoneOfThese", 
-                  "display": "None of these fully describe me"
-                }, 
-                {
-                  "concept": [
-                    {
                       "concept": [
                         {
                           "property": [
@@ -3507,6 +3477,36 @@
                   ], 
                   "code": "WhatRaceEthnicity_NHPI", 
                   "display": "Native Hawaiian or other Pacific Islander (For example: Chamorro, Fijian, Marshallese, Native Hawaiian, Tongan, etc.) *"
+                }, 
+                {
+                  "concept": [
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Question", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Race Ethnicity", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "RaceEthnicityNoneOfThese_RaceEthnicityFreeTextBox", 
+                      "display": "Race None of These Free Text"
+                    }
+                  ], 
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Race Ethnicity", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "WhatRaceEthnicity_RaceEthnicityNoneOfThese", 
+                  "display": "None of these fully describe me"
                 }, 
                 {
                   "concept": [
@@ -11913,6 +11913,34 @@
           "display": "Will all of us access sensitive information in the EHR?"
         }, 
         {
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "IL HIPPA", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "EHRConsentPII_TodaysDateILHIPPAWitness", 
+          "display": "IL Date Box"
+        }, 
+        {
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "IL HIPPA", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "EHRConsentPII_ILHIPPAWitnessSignature", 
+          "display": "IL Signature Box"
+        }, 
+        {
           "concept": [
             {
               "property": [
@@ -12013,6 +12041,50 @@
           ], 
           "code": "EHRConsentPII_NavigationalText", 
           "display": "Navigational Text"
+        }, 
+        {
+          "concept": [
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "IL HIPPA", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "ILHIPPAReminder_Yes", 
+              "display": "Yes, remind me"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "IL HIPPA", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "ILHIPPAReminder_No", 
+              "display": "No, do not remind me"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "IL HIPPA", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "EHRConsentPII_ILHIPPAReminder", 
+          "display": "If you live in the state of Illinois, we can not access your EHR (electronic health record) unless you get someone to sign as your witness. Do you want us to remind you about the witness signature?"
         }, 
         {
           "concept": [
@@ -12159,6 +12231,50 @@
           ], 
           "code": "EHRConsentPII_EmailCopy", 
           "display": "Email a copy to me"
+        }, 
+        {
+          "concept": [
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "TX and MA HIPPA", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "TXandMAHIPPA_IDoAgree", 
+              "display": "I do agree"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "TX and MA HIPPA", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "TXandMAHIPPA_IDoNotAgree", 
+              "display": "I do not agree"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "TX and MA HIPPA", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "EHRConsentPII_TXandMAHIPPA", 
+          "display": "TX and MA two step consent"
         }
       ], 
       "property": [
@@ -14608,14 +14724,14 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 1013, 
+  "count": 1021, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.2.62", 
+  "version": "0.2.63", 
   "hierarchyMeaning": "grouped-by", 
-  "date": "2017-09-15", 
+  "date": "2017-09-25", 
   "property": [
     {
       "code": "concept-type", 
