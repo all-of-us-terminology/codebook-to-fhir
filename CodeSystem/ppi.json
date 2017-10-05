@@ -5459,6 +5459,20 @@
                   "code": "concept-topic"
                 }
               ], 
+              "code": "SocialSecurity_PreferNotToAnswer", 
+              "display": "Prefer not to answer"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Social Security", 
+                  "code": "concept-topic"
+                }
+              ], 
               "code": "SocialSecurity_SocialSecurityNumber", 
               "display": "What is your Social Security Number"
             }
@@ -10205,66 +10219,6 @@
                       "code": "concept-type"
                     }, 
                     {
-                      "valueCode": "San Diego Site Pairing", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "SanDiegoBloodBank_Yes", 
-                  "display": "Yes"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "San Diego Site Pairing", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "SanDiegoBloodBank_No", 
-                  "display": "No"
-                }
-              ], 
-              "property": [
-                {
-                  "valueCode": "Question", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "San Diego Site Pairing", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "SanDiegoSitePairing_SanDiegoBloodBank", 
-              "display": "Have you ever donated blood at the San Diego Blood Bank?"
-            }
-          ], 
-          "property": [
-            {
-              "valueCode": "Topic", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "San Diego Site Pairing", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "ConsentPII_SanDiegoSitePairing", 
-          "display": "San Diego Site Pairing"
-        }, 
-        {
-          "concept": [
-            {
-              "concept": [
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
                       "valueCode": "Texas Site Pairing", 
                       "code": "concept-topic"
                     }
@@ -11619,6 +11573,66 @@
           ], 
           "code": "ConsentPII_CaliforniaSitePairing", 
           "display": "California Site Pairing"
+        }, 
+        {
+          "concept": [
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "San Diego Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SanDiegoBloodBank_Yes", 
+                  "display": "Yes"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "San Diego Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SanDiegoBloodBank_No", 
+                  "display": "No"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "San Diego Site Pairing", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "SanDiegoSitePairing_SanDiegoBloodBank", 
+              "display": "Have you ever donated blood at the San Diego Blood Bank?"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Topic", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "San Diego Site Pairing", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "ConsentPII_SanDiegoSitePairing", 
+          "display": "San Diego Site Pairing"
         }
       ], 
       "property": [
@@ -14812,12 +14826,12 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 1027, 
+  "count": 1030, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.2.67", 
+  "version": "0.2.68", 
   "hierarchyMeaning": "grouped-by", 
   "date": "2017-10-05", 
   "property": [
