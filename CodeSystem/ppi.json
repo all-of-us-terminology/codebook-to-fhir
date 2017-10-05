@@ -639,6 +639,20 @@
                           "code": "concept-topic"
                         }
                       ], 
+                      "code": "SecondContactState_Tennessee", 
+                      "display": "Tennessee"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Secondary Contact", 
+                          "code": "concept-topic"
+                        }
+                      ], 
                       "code": "SecondContactState_Palau", 
                       "display": "Palau"
                     }, 
@@ -949,20 +963,6 @@
                       ], 
                       "code": "SecondContactState_Montana", 
                       "display": "Montana"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Secondary Contact", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "SecondContactState_Tennessee", 
-                      "display": "Tennessee"
                     }, 
                     {
                       "property": [
@@ -1625,8 +1625,8 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "PersonOneAddressState_WI", 
-                      "display": "Wisconsin"
+                      "code": "PersonOneAddressState_AR", 
+                      "display": "Arkansas"
                     }, 
                     {
                       "property": [
@@ -1639,8 +1639,8 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "PersonOneAddressState_AR", 
-                      "display": "Arkansas"
+                      "code": "PersonOneAddressState_WI", 
+                      "display": "Wisconsin"
                     }, 
                     {
                       "property": [
@@ -2651,6 +2651,34 @@
               ], 
               "code": "SecondaryContactInfo_PersonOneFirstName", 
               "display": "Person 1 name (First)"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Secondary Contact", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "SecondaryContactInfo_PersonOnePreferNotToAnswer", 
+              "display": "Prefer not to answer"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Secondary Contact", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "SecondaryContactInfo_PersonTwoPreferNotToAnswer", 
+              "display": "Prefer not to answer"
             }, 
             {
               "property": [
@@ -10279,110 +10307,6 @@
                       "code": "concept-type"
                     }, 
                     {
-                      "valueCode": "Mississippi Site Pairing", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "JacksonHinds_Yes", 
-                  "display": "Yes"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Mississippi Site Pairing", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "JacksonHinds_No", 
-                  "display": "No"
-                }
-              ], 
-              "property": [
-                {
-                  "valueCode": "Question", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Mississippi Site Pairing", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "MississippiSitePairing_JacksonHinds", 
-              "display": "Have you ever received care from a health provider at the Jackson-Hinds Comprehensive Health Center's Main Site (James Anderson Clinic) or the Copiah Clinic?"
-            }, 
-            {
-              "concept": [
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Mississippi Site Pairing", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "JacksonHindsAppointment_Yes", 
-                  "display": "Yes"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Mississippi Site Pairing", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "JacksonHindsAppointment_No", 
-                  "display": "No"
-                }
-              ], 
-              "property": [
-                {
-                  "valueCode": "Question", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Mississippi Site Pairing", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "MississippiSitePairing_JacksonHindsAppointment", 
-              "display": "Have you already scheduled an All of Us research appointment at the Jackson-Hinds Comprehensive Health Center's Main Site (James Anderson Clinic) or the Copiah Clinic?"
-            }
-          ], 
-          "property": [
-            {
-              "valueCode": "Topic", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Mississippi Site Pairing", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "ConsentPII_MississippiSitePairing", 
-          "display": "Mississippi Site Pairing"
-        }, 
-        {
-          "concept": [
-            {
-              "concept": [
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
                       "valueCode": "Texas Site Pairing", 
                       "code": "concept-topic"
                     }
@@ -10983,6 +10907,110 @@
           ], 
           "code": "ConsentPII_MichiganSitePairing", 
           "display": "If participant lives in Michigan, at the conclusion of the consent process (same location as UPMC)"
+        }, 
+        {
+          "concept": [
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Mississippi Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "JacksonHinds_Yes", 
+                  "display": "Yes"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Mississippi Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "JacksonHinds_No", 
+                  "display": "No"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Mississippi Site Pairing", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "MississippiSitePairing_JacksonHinds", 
+              "display": "Have you ever received care from a health provider at the Jackson-Hinds Comprehensive Health Center's Main Site (James Anderson Clinic) or the Copiah Clinic?"
+            }, 
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Mississippi Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "JacksonHindsAppointment_Yes", 
+                  "display": "Yes"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Mississippi Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "JacksonHindsAppointment_No", 
+                  "display": "No"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Mississippi Site Pairing", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "MississippiSitePairing_JacksonHindsAppointment", 
+              "display": "Have you already scheduled an All of Us research appointment at the Jackson-Hinds Comprehensive Health Center's Main Site (James Anderson Clinic) or the Copiah Clinic?"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Topic", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Mississippi Site Pairing", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "ConsentPII_MississippiSitePairing", 
+          "display": "Mississippi Site Pairing"
         }, 
         {
           "concept": [
@@ -14831,7 +14859,7 @@
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.2.69", 
+  "version": "0.2.70", 
   "hierarchyMeaning": "grouped-by", 
   "date": "2017-10-05", 
   "property": [

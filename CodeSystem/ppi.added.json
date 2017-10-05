@@ -1,0 +1,10 @@
+[
+  {
+    "code": "SecondaryContactInfo_PersonOnePreferNotToAnswer", 
+    "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+  }, 
+  {
+    "code": "SecondaryContactInfo_PersonTwoPreferNotToAnswer", 
+    "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+  }
+]
