@@ -142,6 +142,11 @@ PHOENIX: Banner University Medical Center – Phoenix (formerly known as Good Sa
 MESA: Banner Desert Medical Center (formerly known as Desert Samaritan),Arizona Site Pairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,AZSitepairingLocation_Mesa,,ArizonaSitePairing_AZSitepairingLocation,8/15/2017,,,,,,,,,,,,
 "TUCSON: University Campus: Banner University Medical Center – Tucson (formerly known as University of Arizona Medical Center or UMC, University Physicians or UPH)",Arizona Site Pairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,AZSitepairingLocation_TucsonUniversityCampus,,ArizonaSitePairing_AZSitepairingLocation,8/15/2017,,,,,,,,,,,,
 TUCSON: South Campus: Banner University Medical Center – South (formerly known as Kino Hospital),Arizona Site Pairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,AZSitepairingLocation_TuscsonSouthCampus,,ArizonaSitePairing_AZSitepairingLocation,8/15/2017,,,,,,,,,,,,
+ESTRELLA: Banner Estrella Medical Center ,Arizona Site Pairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,AZSitepairingLocation_Estrella,,ArizonaSitePairing_AZSitepairingLocation,10/24/2017,,,,,,,,,,,,
+CASA GRANDE: Banner Casa Grande Medical Cen,Arizona Site Pairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,AZSitepairingLocation_CasaGrande,,ArizonaSitePairing_AZSitepairingLocation,10/25/0217,,,,,,,,,,,,
+GLENDALE: Banner Thunderbird Medical Center,Arizona Site Pairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,AZSitepairingLocation_Glendale,,ArizonaSitePairing_AZSitepairingLocation,10/25/0217,,,,,,,,,,,,
+"SUN CITY: Banner Boswell Medical Center
+",Arizona Site Pairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,AZSitepairingLocation_SunCity,,ArizonaSitePairing_AZSitepairingLocation,10/25/0217,,,,,,,,,,,,
 None,Arizona Site Pairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,AZSitepairingLocation_None,,ArizonaSitePairing_AZSitepairingLocation,10/5/2017,,,,,,,,,,,,
 ExtraConsent_FitnessTracker_Video,Extra Consent Items,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,ExtraConsent_FitnessTrackerVideo,,ConsentPII_ExtraConsent,5/17/2017,,,,,,,,,,,,
 Extra Consent,Extra Consent Items,Topic,http://terminology.pmi-ops.org/CodeSystem/ppi,ConsentPII_ExtraConsent,,ConsentPII,5/17/2017,,,,,,,,,,,,

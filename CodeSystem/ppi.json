@@ -11149,8 +11149,64 @@
                       "code": "concept-topic"
                     }
                   ], 
+                  "code": "AZSitepairingLocation_CasaGrande", 
+                  "display": "CASA GRANDE: Banner Casa Grande Medical Cen"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Arizona Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "AZSitepairingLocation_Glendale", 
+                  "display": "GLENDALE: Banner Thunderbird Medical Center"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Arizona Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
                   "code": "AZSitepairingLocation_TuscsonSouthCampus", 
                   "display": "TUCSON: South Campus: Banner University Medical Center \u2013 South (formerly known as Kino Hospital)"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Arizona Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "AZSitepairingLocation_Estrella", 
+                  "display": "ESTRELLA: Banner Estrella Medical Center"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Arizona Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "AZSitepairingLocation_SunCity", 
+                  "display": "SUN CITY: Banner Boswell Medical Center"
                 }, 
                 {
                   "property": [
@@ -14854,14 +14910,14 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 1030, 
+  "count": 1034, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.2.70", 
+  "version": "0.2.71", 
   "hierarchyMeaning": "grouped-by", 
-  "date": "2017-10-05", 
+  "date": "2017-10-30", 
   "property": [
     {
       "code": "concept-type", 
