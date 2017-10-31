@@ -11,7 +11,7 @@ Did you skip any of the questions? ,PPIFeedback,Question,http://terminology.pmi-
 "YES, I skipped at least 1 question",PPIFeedback,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SkippingQuestions_Yes,PPIFeedback_SkippingQuestions,10/30/2017,,,,,,,,,,,,
 "NO, I answered every single question",PPIFeedback,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SkippingQuestions_No,PPIFeedback_SkippingQuestions,10/30/2017,,,,,,,,,,,,
 Why did you skip the question(s)? ,PPIFeedback,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,PPIFeedback_WhySkippingQuestions,PPIModuleFeedback_PPIFeedback,10/30/2017,,,,,,,,,,,,
-Did answering the survey questions take less time or more time than what you thought it would?,PPIFeedback,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PPIFeedback_TimeToAnswerQuestions,PPIModuleFeedback_PPIFeedback,10/30/2017,,,,,,,,,,,,
+Did answering the survey questions take less time or more time than what you thought it would?,PPIFeedback,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,PPIFeedback_TimeToAnswerQuestions,PPIModuleFeedback_PPIFeedback,10/30/2017,,,,,,,,,,,,
 Much less time than I thought,PPIFeedback,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,TimeToAnswerQuestions_MuchLessTime,PPIFeedback_TimeToAnswerQuestions,10/30/2017,,,,,,,,,,,,
 Slightly less time than I thought,PPIFeedback,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,TimeToAnswerQuestions_SlightlyLessTime,PPIFeedback_TimeToAnswerQuestions,10/30/2017,,,,,,,,,,,,
 No opinion,PPIFeedback,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,TimeToAnswerQuestions_NoOpinion,PPIFeedback_TimeToAnswerQuestions,10/30/2017,,,,,,,,,,,,

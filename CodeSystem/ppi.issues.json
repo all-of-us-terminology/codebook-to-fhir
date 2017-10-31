@@ -1,11 +1,1 @@
-[
-  "Ancestors of 'TimeToAnswerQuestions_NoOpinion' don't include a 'Question', but this term is an 'Answer' ['PPIModuleFeedback: Module Name', 'PPIModuleFeedback_PPIFeedback: Topic', 'PPIFeedback_TimeToAnswerQuestions: Answer', 'TimeToAnswerQuestions_NoOpinion: Answer']", 
-  "Ancestors of 'TimeToAnswerQuestions_SlightlyLessTime' don't include a 'Question', but this term is an 'Answer' ['PPIModuleFeedback: Module Name', 'PPIModuleFeedback_PPIFeedback: Topic', 'PPIFeedback_TimeToAnswerQuestions: Answer', 'TimeToAnswerQuestions_SlightlyLessTime: Answer']", 
-  "Ancestors of 'TimeToAnswerQuestions_MuchLessTime' don't include a 'Question', but this term is an 'Answer' ['PPIModuleFeedback: Module Name', 'PPIModuleFeedback_PPIFeedback: Topic', 'PPIFeedback_TimeToAnswerQuestions: Answer', 'TimeToAnswerQuestions_MuchLessTime: Answer']", 
-  "Term 'PPIFeedback_TimeToAnswerQuestions' has type 'Answer' but includes a '?' (Did answering the survey questions take less time or more time than what you thought it would?)", 
-  "Ancestors of 'PPIFeedback_TimeToAnswerQuestions' don't include a 'Question', but this term is an 'Answer' ['PPIModuleFeedback: Module Name', 'PPIModuleFeedback_PPIFeedback: Topic', 'PPIFeedback_TimeToAnswerQuestions: Answer']", 
-  "Parent of 'PostPMBFeedback' is 'None' but does not exist", 
-  "Parent of 'PPIModuleFeedback' is 'None' but does not exist", 
-  "Ancestors of 'TimeToAnswerQuestions_SlightlyMoreTime' don't include a 'Question', but this term is an 'Answer' ['PPIModuleFeedback: Module Name', 'PPIModuleFeedback_PPIFeedback: Topic', 'PPIFeedback_TimeToAnswerQuestions: Answer', 'TimeToAnswerQuestions_SlightlyMoreTime: Answer']", 
-  "Ancestors of 'TimeToAnswerQuestions_MuchMoreTime' don't include a 'Question', but this term is an 'Answer' ['PPIModuleFeedback: Module Name', 'PPIModuleFeedback_PPIFeedback: Topic', 'PPIFeedback_TimeToAnswerQuestions: Answer', 'TimeToAnswerQuestions_MuchMoreTime: Answer']"
-]
+[]
