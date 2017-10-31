@@ -173,6 +173,9 @@ class SheetProcessor(object):
                     CodebookEntry.issues.append("Ancestors of '%s' don't include a 'Question', but this term is an 'Answer' %s"%
                             (term._dict['PMI Code'],
                                 ["%s: %s"%(t.coding.code, t.concept_type) for t in ancestor_terms]))
+            # All codes must either (a) reference another valid code as their
+            # parent, or (b) be a root code with the code value also appearing
+            # in the sheets section of the config.
             if term.parent_coding and term.parent_coding not in self.terms_by_coding:
                 if term.coding.code not in self.config['sheets']:
                     CodebookEntry.issues.append("Parent of '%s' is '%s' but does not exist"%(
