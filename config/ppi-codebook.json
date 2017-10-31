@@ -17,8 +17,8 @@
     "SanDiegoBloodBankScheduling": "245111633",
     "EMSIScheduling":"1333830951",
     "QTCQuestScheduling": "152581289",
-    "PPIFeedback" : "1684008999",
-    "PMBFeedback" : "1531150956",
+    "PPIModuleFeedback" : "1684008999",
+    "PostPMBFeedback" : "1531150956",
     "GeneralFeedback" : "420818422"
   },
   "sheetsToIgnore": {
