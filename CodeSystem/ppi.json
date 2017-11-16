@@ -11815,6 +11815,106 @@
                       "code": "concept-type"
                     }, 
                     {
+                      "valueCode": "SEEC Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SEEC_UFHealthGainsville", 
+                  "display": "UF Health - Gainesville"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "SEEC Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SEEC_EmoryHealthcare", 
+                  "display": "Emory Healthcare"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "SEEC Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SEEC_MorehouseSchoolOfMed", 
+                  "display": "Morehouse School of Medicine - Westview"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "SEEC Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SEEC_NoneOfThese", 
+                  "display": "None of these"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "SEEC Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SEEC_UMiamiHealthSystem", 
+                  "display": "University of Miami Health System"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "SEEC Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SEEC_GradyMemorialHospital", 
+                  "display": "Grady Memorial Hospital"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "SEEC Site Pairing", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "SitePairing_SEEC", 
+              "display": "The following Clinics, Healthcare Providers and Hospitals in your area are enrolling participants into the All of Us Research Program. At which institution do you receive care and wish to schedule an enrollment visit with? Please choose one institution."
+            }, 
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
                       "valueCode": "AZ Site Pairing - OLD", 
                       "code": "concept-topic"
                     }
@@ -12136,7 +12236,7 @@
                             }
                           ], 
                           "code": "AZCArizonaSpecific_CardonChildrensMedical", 
-                          "display": "(u'http://terminology.pmi-ops.org/CodeSystem/ppi'u\"Cardon Children's Medical\")"
+                          "display": "Cardon Children's Medical"
                         }, 
                         {
                           "property": [
@@ -12207,6 +12307,248 @@
               ], 
               "code": "SitePairing_CurrentlyReside", 
               "display": "Where do you currently reside?"
+            }, 
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Wisconsin Consortium Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "WisconsinSitePairing_NoneOfThese", 
+                  "display": "None of these"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Wisconsin Consortium Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "WisconsinSitePairing_FroedertHealth", 
+                  "display": "Froedert Health, 16th Street Health Center, or Milwaukee Health Services, Milwaukee, Wisconsin"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Wisconsin Consortium Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "WisconsinSitePairing_Marshfield", 
+                  "display": "Marshfield Clinic or Family Health Center of Marshfield, Marshfield, Wisconsin"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Wisconsin Consortium Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "WisconsinSitePairing_UWHealth", 
+                  "display": "UW Health or ACCESS Community Health Center, Madison, Wisconsin"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Wisconsin Consortium Site Pairing", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "SitePairing_WisconsinSitePairing", 
+              "display": "The following Healthcare Providers in your area are enrolling participants into the All of Us Research Program. At which institution do you receive care and wish to schedule an enrollment visit with?"
+            }, 
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Southern Consortium Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SouthernProviders_TulaneMedicalCenter", 
+                  "display": "Tulane Medical Center, New Orleans"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Southern Consortium Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SouthernProviders_USouthAlabamaHealth", 
+                  "display": "Uniersity of South Alabama Health System, Mobile"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Southern Consortium Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SouthernProviders_HuntsvilleHospital", 
+                  "display": "Huntsville Hospital, Huntsville"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Southern Consortium Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SouthernProviders_UMississippiMedCenter", 
+                  "display": "University of Mississippi Medical Center, Mississippi"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Southern Consortium Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SouthernProviders_NoneOfThese", 
+                  "display": "None of these"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Southern Consortium Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SouthernProviders_KirklinClinic", 
+                  "display": "Kirklin Clinic, Birmingham"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Southern Consortium Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SouthernProviders_LouisianaStateUHealth", 
+                  "display": "Louisisana State University health Sciences center, New Orleans"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Southern Consortium Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SouthernProviders_UMedicalCenter", 
+                  "display": "University Medical Center, Tuscaloosa"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Southern Consortium Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SouthernProviders_UABSelmaFamily", 
+                  "display": "UAB Selma Family Practice, Selma"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Southern Consortium Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SouthernProviders_CooperGreenMercyHealth", 
+                  "display": "Cooper Green Mercy Health Services, Birmingham"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Southern Consortium Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SouthernProviders_UABMontgomery", 
+                  "display": "UAB Montgomery Internal Medicine, Montgomery"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Southern Consortium Site Pairing", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "SitePairing_SouthernProviders", 
+              "display": "The following Clinics, Healthcare Providers and Hospitals in your area are enrolling participants into the All of Us Research Program. At which institution do you receive care and wish to schedule an enrollment visit with?"
             }
           ], 
           "property": [
@@ -16753,20 +17095,6 @@
               "code": "concept-topic"
             }
           ], 
-          "code": "PMI_Unanswered", 
-          "display": "PMI Question Unanswered"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "PMI", 
-              "code": "concept-topic"
-            }
-          ], 
           "code": "PMI_NotSure", 
           "display": "PMI Not Sure"
         }, 
@@ -16797,6 +17125,20 @@
           ], 
           "code": "PMI_FreeText", 
           "display": "PMI Free Text Answer"
+        }, 
+        {
+          "property": [
+            {
+              "valueCode": "Answer", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "PMI", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "PMI_Unanswered", 
+          "display": "PMI Question Unanswered"
         }, 
         {
           "property": [
@@ -16858,14 +17200,14 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 1169, 
+  "count": 1193, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.2.73", 
+  "version": "0.2.74", 
   "hierarchyMeaning": "grouped-by", 
-  "date": "2017-10-31", 
+  "date": "2017-11-16", 
   "property": [
     {
       "code": "concept-type", 
