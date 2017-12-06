@@ -451,6 +451,20 @@
                       "code": "concept-topic"
                     }
                   ], 
+                  "code": "HighestGrade_CollegeOnetoThree", 
+                  "display": "1 to 3 years (Some college, Associate's Degree or technical school)"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Education Level", 
+                      "code": "concept-topic"
+                    }
+                  ], 
                   "code": "HighestGrade_CollegeGraduate", 
                   "display": "College 4 years or more (College graduate)"
                 }, 
@@ -481,20 +495,6 @@
                   ], 
                   "code": "HighestGrade_FiveThroughEight", 
                   "display": "Grades 5 through 8 (Middle School)"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Education Level", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "HighestGrade_CollegeOnetoThree", 
-                  "display": "1 to 3 years (Some college, Associate's Degree or technical school)"
                 }, 
                 {
                   "property": [
@@ -1495,92 +1495,6 @@
               ], 
               "code": "SecondaryContactInfo_SecondContactsMiddleInitial", 
               "display": "Person 2 name (MI)"
-            }, 
-            {
-              "concept": [
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Secondary Contact", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PersonOneRelationship_Relative", 
-                  "display": "Relative"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Secondary Contact", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PersonOneRelationship_SpousePartner", 
-                  "display": "Spouse or Partner"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Secondary Contact", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PersonOneRelationship_Friend", 
-                  "display": "Friend"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Secondary Contact", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PersonOneRelationship_Child", 
-                  "display": "Child"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Secondary Contact", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PersonOneRelationship_ParentGuardian", 
-                  "display": "Parent or Guardian"
-                }
-              ], 
-              "property": [
-                {
-                  "valueCode": "Question", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Secondary Contact", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "SecondaryContactInfo_PersonOneRelationship", 
-              "display": "Relationship to respondent"
             }, 
             {
               "concept": [
@@ -2651,6 +2565,92 @@
               ], 
               "code": "SecondaryContactInfo_SecondContactsNumber", 
               "display": "What is this second person's telephone number, beginning with the area code?"
+            }, 
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Secondary Contact", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PersonOneRelationship_Relative", 
+                  "display": "Relative"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Secondary Contact", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PersonOneRelationship_SpousePartner", 
+                  "display": "Spouse or Partner"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Secondary Contact", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PersonOneRelationship_Friend", 
+                  "display": "Friend"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Secondary Contact", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PersonOneRelationship_Child", 
+                  "display": "Child"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Secondary Contact", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PersonOneRelationship_ParentGuardian", 
+                  "display": "Parent or Guardian"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Secondary Contact", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "SecondaryContactInfo_PersonOneRelationship", 
+              "display": "Relationship to respondent"
             }, 
             {
               "property": [
@@ -10103,6 +10103,50 @@
                       "code": "concept-topic"
                     }
                   ], 
+                  "code": "PrivacyGuaranteeQuestion_PrivacyGuaranteed", 
+                  "display": "My privacy is guaranteed."
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Extra Consent Items", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PrivacyGuaranteeQuestion_RisksAreMinimized", 
+                  "display": "Risks to my privacy are minimized, but are not zero."
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Extra Consent Items", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "ExtraConsent_PrivacyGuaranteeQuestion", 
+              "display": "Using smartphones, apps, and sensors are always a potential risk to privacy. Can All of Us research guarantee your privacy?"
+            }, 
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Extra Consent Items", 
+                      "code": "concept-topic"
+                    }
+                  ], 
                   "code": "ScheduledWithPACares_No", 
                   "display": "no"
                 }, 
@@ -10161,50 +10205,6 @@
               ], 
               "code": "ExtraConsent_DataShaingVideo", 
               "display": "Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Youtube Video"
-            }, 
-            {
-              "concept": [
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Extra Consent Items", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PrivacyGuaranteeQuestion_PrivacyGuaranteed", 
-                  "display": "My privacy is guaranteed."
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Extra Consent Items", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PrivacyGuaranteeQuestion_RisksAreMinimized", 
-                  "display": "Risks to my privacy are minimized, but are not zero."
-                }
-              ], 
-              "property": [
-                {
-                  "valueCode": "Question", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Extra Consent Items", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "ExtraConsent_PrivacyGuaranteeQuestion", 
-              "display": "Using smartphones, apps, and sensors are always a potential risk to privacy. Can All of Us research guarantee your privacy?"
             }, 
             {
               "property": [
@@ -11027,20 +11027,6 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "PIIState_MI", 
-                      "display": "Michigan"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "States", 
-                          "code": "concept-topic"
-                        }
-                      ], 
                       "code": "PIIState_AS", 
                       "display": "American Samoa"
                     }, 
@@ -11113,6 +11099,20 @@
                       ], 
                       "code": "PIIState_MS", 
                       "display": "Mississippi"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "States", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "PIIState_MI", 
+                      "display": "Michigan"
                     }, 
                     {
                       "property": [
@@ -11847,6 +11847,20 @@
                       "code": "concept-topic"
                     }
                   ], 
+                  "code": "SEEC_UMiamiHealthSystem", 
+                  "display": "University of Miami Health System"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "SEEC Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
                   "code": "SEEC_MorehouseSchoolOfMed", 
                   "display": "Morehouse School of Medicine - Westview"
                 }, 
@@ -11863,20 +11877,6 @@
                   ], 
                   "code": "SEEC_NoneOfThese", 
                   "display": "None of these"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "SEEC Site Pairing", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "SEEC_UMiamiHealthSystem", 
-                  "display": "University of Miami Health System"
                 }, 
                 {
                   "property": [
@@ -14491,6 +14491,52 @@
       "display": "EHRConsent PII"
     }, 
     {
+      "concept": [
+        {
+          "concept": [
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "San Diego Site Pairing", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "EMSIOrSDBBPreference_EMSI", 
+              "display": "Home visit (EMSI)"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "San Diego Site Pairing", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "EMSIOrSDBBPreference_SDBB", 
+              "display": "San Diego Blood Bank"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "San Diego Site Pairing", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "SanDiegoBloodBankScheduling_EMSIOrSDBBPreference", 
+          "display": "Would you prefer to schedule with the San Diego Blood Bank or would you prefer a home visit?"
+        }
+      ], 
       "property": [
         {
           "valueCode": "Module Name", 
@@ -17200,14 +17246,14 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 1193, 
+  "count": 1196, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.2.74", 
+  "version": "0.2.75", 
   "hierarchyMeaning": "grouped-by", 
-  "date": "2017-11-16", 
+  "date": "2017-12-06", 
   "property": [
     {
       "code": "concept-type", 
