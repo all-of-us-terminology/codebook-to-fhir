@@ -5711,6 +5711,20 @@
     {
       "concept": [
         {
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "State of Care", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "HPOSitePairing_State", 
+          "display": "In what state do you receive care?"
+        }, 
+        {
           "concept": [
             {
               "property": [
@@ -17258,12 +17272,12 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 1197, 
+  "count": 1198, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.2.79", 
+  "version": "0.2.80", 
   "hierarchyMeaning": "grouped-by", 
   "date": "2017-12-07", 
   "property": [

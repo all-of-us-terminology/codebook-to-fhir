@@ -1,5 +1,6 @@
 Display,Topic,Type,PMI System,PMI Code,Short Code,Parent code,Date of Last Update,,Standard Code Source,Source URL,LOINC Category Code (Search This),LOINC Category ID,LOINC Answer ID,FHIR System OID,FHIR Level,FHIR Code,UMLS (SNOMED) ConceptID,UMLS (SNOMED) DescriptionID,bcp47 Language Code
 HPOSitePairing,Module Name,Module Name,http://terminology.pmi-ops.org/CodeSystem/ppi,HPOSitePairing,,,12/5/2017,,,,,,,,,,,,
+In what state do you receive care?,State of Care,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,HPOSitePairing_State,,HPOSitePairing,12/7/2017,,,,,,,,,,,,
 Have you ever received care at a UPMC healthcare provider?,Extra Consent Items,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,ExtraConsent_EverReceivedUPMCCare,,ConsentPII_ExtraConsent,12/5/2017,,,,,,,,,,,,
 yes,Extra Consent Items,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,EverReceivedUPMCCare_Yes,,ExtraConsent_EverReceivedUPMCCare,12/5/2017,,,,,,,,,,,,
 no,Extra Consent Items,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,EverReceivedUPMCCare_No,,ExtraConsent_EverReceivedUPMCCare,12/5/2017,,,,,,,,,,,,
