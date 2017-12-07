@@ -104,7 +104,8 @@ class SheetProcessor(object):
             return [term]
 
     def is_ancestor_exception(self, term):
-        return term.coding.code and term.coding.code.startswith("PMI_")
+        return (term.coding.code and term.parent_coding and
+                term.parent_coding.code == "PMI")
 
     def download_sheets(self):
         for name, gid in list(self.config['sheets'].iteritems()) + [("version", self.config['versionSheet'])]:
