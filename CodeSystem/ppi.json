@@ -5691,7 +5691,7 @@
               "code": "concept-topic"
             }
           ], 
-          "code": "MississippiSitePairing_JJH", 
+          "code": "MississippiSitePairing_JH", 
           "display": "Have you already scheduled an All of Us research appointment at the Jackson-Hinds Comprehensive Health Center's Main Site (James Anderson Clinic) or the Copiah Clinic?"
         }
       ], 
@@ -9671,20 +9671,6 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "SpokenWrittenLanguage_FrysianNetherlands", 
-                  "display": "Frysian (Netherlands)"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Language", 
-                      "code": "concept-topic"
-                    }
-                  ], 
                   "code": "SpokenWrittenLanguage_PortugueseBrazil", 
                   "display": "Portuguese (Brazil)"
                 }, 
@@ -10289,6 +10275,20 @@
                   ], 
                   "code": "SpokenWrittenLanguage_Frysian", 
                   "display": "Frysian"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Language", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SpokenWrittenLanguage_FrysianNetherlands", 
+                  "display": "Frysian (Netherlands)"
                 }
               ], 
               "property": [
@@ -17585,20 +17585,6 @@
               "code": "concept-topic"
             }
           ], 
-          "code": "PIIState_WY", 
-          "display": "Wyoming"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "States", 
-              "code": "concept-topic"
-            }
-          ], 
           "code": "PIIState_IN", 
           "display": "Indiana"
         }, 
@@ -17923,6 +17909,20 @@
           ], 
           "code": "PIIState_VT", 
           "display": "Vermont"
+        }, 
+        {
+          "property": [
+            {
+              "valueCode": "Answer", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "States", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "PIIState_WY", 
+          "display": "Wyoming"
         }, 
         {
           "property": [
@@ -18567,7 +18567,7 @@
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.2.85", 
+  "version": "0.2.86", 
   "hierarchyMeaning": "grouped-by", 
   "date": "2018-02-20", 
   "property": [
