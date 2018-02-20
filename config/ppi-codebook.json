@@ -20,7 +20,11 @@
     "PPIModuleFeedback" : "1684008999",
     "PostPMBFeedback" : "1531150956",
     "GeneralFeedback" : "420818422",
-    "HPOSitePairing" : "2019069432"
+    "HPOSitePairing" : "2019069432",
+    "QTCNBCScheduling": "1248350790",
+    "EauClaire_Additional_Scheduling_Information" : "1635167012",
+    "UPMC" : "886972091",
+    "JacksonHindsScheduling" : "1497126864",
   },
   "sheetsToIgnore": {
     "FamilyHistory": "2141379887",
