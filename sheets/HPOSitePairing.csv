@@ -126,3 +126,8 @@ No,Mississippi Site Pairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi
 Have you already scheduled an All of Us research appointment at the Jackson-Hinds Comprehensive Health Center's Main Site (James Anderson Clinic) or the Copiah Clinic?,Mississippi Site Pairing,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,MississippiSitePairing_JacksonHindsAppointment,,ConsentPII_MississippiSitePairing,12/5/2017,,,,,,,,,,,,
 Yes,Mississippi Site Pairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,JacksonHindsAppointment_Yes,,MississippiSitePairing_JacksonHindsAppointment,12/5/2017,,,,,,,,,,,,
 No,Mississippi Site Pairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,JacksonHindsAppointment_No,,MississippiSitePairing_JacksonHindsAppointment,12/5/2017,,,,,,,,,,,,
+Site Pairing Confirmation,Site Pairing Confirmation,Topic,http://terminology.pmi-ops.org/CodeSystem/ppi,ConsentPII_SitePairingConfirmation,,HPOSitePairing,2/20/2018,,,,,,,,,,,,
+"Welcome to the All of Us Research Program!
+Thank you for completing the consent process! You have been paired with [profile HPO_full_name]. Before you can proceed, please confirm this is correct.",Confirm Site Pairing,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,SitePairingConfirmation_ConfirmHPO,,ConsentPII_SitePairingConfirmation,1/25/2018,,,,,,,,,,,,
+This is correct,Confirm Site Pairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,ConfirmHPO_Correct,,SitePairingConfirmation_ConfirmHPO,1/25/2018,,,,,,,,,,,,
+This is incorrect,Confirm Site Pairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,ConfirmHPO_Incorrect,,SitePairingConfirmation_ConfirmHPO,1/25/2018,,,,,,,,,,,,

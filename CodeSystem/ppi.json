@@ -5711,6 +5711,66 @@
     {
       "concept": [
         {
+          "concept": [
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Confirm Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "ConfirmHPO_Correct", 
+                  "display": "This is correct"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Confirm Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "ConfirmHPO_Incorrect", 
+                  "display": "This is incorrect"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Confirm Site Pairing", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "SitePairingConfirmation_ConfirmHPO", 
+              "display": "Welcome to the All of Us Research Program!\nThank you for completing the consent process! You have been paired with [profile HPO_full_name]. Before you can proceed, please confirm this is correct."
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Topic", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Site Pairing Confirmation", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "ConsentPII_SitePairingConfirmation", 
+          "display": "Site Pairing Confirmation"
+        }, 
+        {
           "property": [
             {
               "valueCode": "Question", 
@@ -10275,6 +10335,892 @@
         {
           "concept": [
             {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Extra Consent Items", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "21YearsofAge_21YearsYes", 
+                  "display": "Yes"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Extra Consent Items", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "21YearsofAge_21YearsNo", 
+                  "display": "No"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Extra Consent Items", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "ExtraConsent_21YearsofAge", 
+              "display": "Because of specific laws in the territory of Puerto Rico, you need to be 21 or older to join All of Us. Are you 21 or older?"
+            }, 
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Extra Consent Items", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PIIStateCare_SD", 
+                  "display": "South Dakota"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Extra Consent Items", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PIIStateCare_KY", 
+                  "display": "Kentucky"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Extra Consent Items", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PIIStateCare_PR", 
+                  "display": "Puerto Rico"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Extra Consent Items", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PIIStateCare_NH", 
+                  "display": "New Hampshire"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Extra Consent Items", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PIIStateCare_AZ", 
+                  "display": "Arizona"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Extra Consent Items", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PIIStateCare_VT", 
+                  "display": "Vermont"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Extra Consent Items", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PIIStateCare_MN", 
+                  "display": "Minnesota"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Extra Consent Items", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PIIStateCare_OK", 
+                  "display": "Oklahoma"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Extra Consent Items", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PIIStateCare_MI", 
+                  "display": "Michigan"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Extra Consent Items", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PIIStateCare_VA", 
+                  "display": "Virginia"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Extra Consent Items", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PIIStateCare_MP", 
+                  "display": "North Marianas Islands"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Extra Consent Items", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PIIStateCare_AS", 
+                  "display": "American Samoa"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Extra Consent Items", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PIIStateCare_GA", 
+                  "display": "Georgia"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Extra Consent Items", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PIIStateCare_WY", 
+                  "display": "Wyoming"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Extra Consent Items", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PIIStateCare_ID", 
+                  "display": "Idaho"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Extra Consent Items", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PIIStateCare_IN", 
+                  "display": "Indiana"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Extra Consent Items", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PIIStateCare_AL", 
+                  "display": "Alabama"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Extra Consent Items", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PIIStateCare_MD", 
+                  "display": "Maryland"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Extra Consent Items", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PIIStateCare_DC", 
+                  "display": "District of Columbia"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Extra Consent Items", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PIIStateCare_WV", 
+                  "display": "West Virginia"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Extra Consent Items", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PIIStateCare_IA", 
+                  "display": "Iowa"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Extra Consent Items", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PIIStateCare_MA", 
+                  "display": "Massachusetts"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Extra Consent Items", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PIIStateCare_WA", 
+                  "display": "Washington"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Extra Consent Items", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PIIStateCare_NV", 
+                  "display": "Nevada"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Extra Consent Items", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PIIStateCare_CO", 
+                  "display": "Colorado"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Extra Consent Items", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PIIStateCare_UT", 
+                  "display": "Utah"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Extra Consent Items", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PIIStateCare_MS", 
+                  "display": "Mississippi"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Extra Consent Items", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PIIStateCare_CA", 
+                  "display": "California"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Extra Consent Items", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PIIStateCare_AK", 
+                  "display": "Alaska"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Extra Consent Items", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PIIStateCare_TX", 
+                  "display": "Texas"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Extra Consent Items", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PIIStateCare_OR", 
+                  "display": "Oregon"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Extra Consent Items", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PIIStateCare_KS", 
+                  "display": "Kansas"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Extra Consent Items", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PIIStateCare_RI", 
+                  "display": "Rhode Island"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Extra Consent Items", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PIIStateCare_PW", 
+                  "display": "Palau"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Extra Consent Items", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PIIStateCare_NE", 
+                  "display": "Nebraska"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Extra Consent Items", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PIIStateCare_MO", 
+                  "display": "Missouri"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Extra Consent Items", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PIIStateCare_GU", 
+                  "display": "Guam"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Extra Consent Items", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PIIStateCare_MH", 
+                  "display": "Marshall Islands"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Extra Consent Items", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PIIStateCare_IL", 
+                  "display": "Illinois"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Extra Consent Items", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PIIStateCare_SC", 
+                  "display": "South Carolina"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Extra Consent Items", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PIIStateCare_TN", 
+                  "display": "Tennessee"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Extra Consent Items", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PIIStateCare_AR", 
+                  "display": "Arkansas"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Extra Consent Items", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PIIStateCare_HI", 
+                  "display": "Hawaii"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Extra Consent Items", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PIIStateCare_DE", 
+                  "display": "Delaware"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Extra Consent Items", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PIIStateCare_MT", 
+                  "display": "Montana"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Extra Consent Items", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PIIStateCare_NC", 
+                  "display": "North Carolina"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Extra Consent Items", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PIIStateCare_FM", 
+                  "display": "Federated States of Micronesia"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Extra Consent Items", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PIIStateCare_NJ", 
+                  "display": "New Jersey"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Extra Consent Items", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PIIStateCare_OH", 
+                  "display": "Ohio"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Extra Consent Items", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PIIStateCare_VI", 
+                  "display": "Virgin Islands"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Extra Consent Items", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PIIStateCare_NY", 
+                  "display": "New York"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Extra Consent Items", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PIIStateCare_LA", 
+                  "display": "Louisiana"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Extra Consent Items", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PIIStateCare_PA", 
+                  "display": "Pennsylvania"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Extra Consent Items", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PIIStateCare_FL", 
+                  "display": "Florida"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Extra Consent Items", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PIIStateCare_NM", 
+                  "display": "New Mexico"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Extra Consent Items", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PIIStateCare_WI", 
+                  "display": "Wisconsin"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Extra Consent Items", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PIIStateCare_ND", 
+                  "display": "North Dakota"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Extra Consent Items", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PIIStateCare_CT", 
+                  "display": "Connecticut"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Extra Consent Items", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PIIStateCare_ME", 
+                  "display": "Maine"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Extra Consent Items", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "ReceiveCare_PIIState", 
+              "display": "Where do you get most of your healthcare?"
+            }, 
+            {
               "property": [
                 {
                   "valueCode": "Question", 
@@ -10765,6 +11711,50 @@
                       "code": "concept-topic"
                     }
                   ], 
+                  "code": "19YearsofAge_19YearsNo", 
+                  "display": "No"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Extra Consent Items", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "19YearsofAge_19YearsYes", 
+                  "display": "Yes"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Extra Consent Items", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "ExtraConsent_19YearsofAge", 
+              "display": "Because of specific laws in the territory of Alabama, you need to be 19 or older to join All of Us. Are you 19 or older?"
+            }, 
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Extra Consent Items", 
+                      "code": "concept-topic"
+                    }
+                  ], 
                   "code": "TakePartAllOfUs_TakingPartIsVoluntary", 
                   "display": "Taking part is voluntary. I get to choose if I want to do it."
                 }, 
@@ -11217,6 +12207,20 @@
                       "code": "concept-topic"
                     }
                   ], 
+                  "code": "SEEC_NoneOfThese", 
+                  "display": "None of these"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "SEEC Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
                   "code": "SEEC_EmoryHealthcare", 
                   "display": "Emory Healthcare"
                 }, 
@@ -11247,20 +12251,6 @@
                   ], 
                   "code": "SEEC_MorehouseSchoolOfMed", 
                   "display": "Morehouse School of Medicine - Westview"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "SEEC Site Pairing", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "SEEC_NoneOfThese", 
-                  "display": "None of these"
                 }, 
                 {
                   "property": [
@@ -11875,20 +12865,6 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "SouthernProviders_UMedicalCenter", 
-                  "display": "University Medical Center, Tuscaloosa"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Southern Consortium Site Pairing", 
-                      "code": "concept-topic"
-                    }
-                  ], 
                   "code": "SouthernProviders_UABSelmaFamily", 
                   "display": "UAB Selma Family Practice, Selma"
                 }, 
@@ -11919,6 +12895,20 @@
                   ], 
                   "code": "SouthernProviders_UABMontgomery", 
                   "display": "UAB Montgomery Internal Medicine, Montgomery"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Southern Consortium Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SouthernProviders_UMedicalCenter", 
+                  "display": "University Medical Center, Tuscaloosa"
                 }
               ], 
               "property": [
@@ -12619,6 +13609,66 @@
                       "code": "concept-type"
                     }, 
                     {
+                      "valueCode": "Veterans Health Administration", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "VeteransHealthAdministration_CareNo", 
+                  "display": "no"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Veterans Health Administration", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "VeteransHealthAdministration_CareYes", 
+                  "display": "yes"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Veterans Health Administration", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "VeteransHealthAdministration", 
+              "display": "Have you received care at the Veterans Health Administration?"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Topic", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Veterans Health Administration", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "VeteransHealthAdministration_Consent", 
+          "display": "Veterans Health Administration"
+        }, 
+        {
+          "concept": [
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
                       "valueCode": "New York Site Pairing", 
                       "code": "concept-topic"
                     }
@@ -12831,6 +13881,20 @@
                       "code": "concept-topic"
                     }
                   ], 
+                  "code": "IllinoisInstitution_Noneofthese", 
+                  "display": "None of these"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Illinois Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
                   "code": "IllinoisInstitution_NorthShoreU", 
                   "display": "NorthShore University HealthSystem"
                 }, 
@@ -12889,20 +13953,6 @@
                   ], 
                   "code": "IllinoisInstitution_UChicagoMed", 
                   "display": "University of Chicago Medicine"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Illinois Site Pairing", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "IllinoisInstitution_Noneofthese", 
-                  "display": "None of these"
                 }
               ], 
               "property": [
@@ -13755,6 +14805,20 @@
         {
           "concept": [
             {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "PPIFeedback", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "PPIFeedback_WhySkippingQuestions", 
+              "display": "Why did you skip the question(s)?"
+            }, 
+            {
               "concept": [
                 {
                   "property": [
@@ -13811,20 +14875,6 @@
               ], 
               "code": "PPIFeedback_WhatMadeItHardToUnderstand", 
               "display": "Would you be able to tell us what it was about the question(s) that made it hard to understand"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Question", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "PPIFeedback", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "PPIFeedback_WhySkippingQuestions", 
-              "display": "Why did you skip the question(s)?"
             }, 
             {
               "concept": [
@@ -16789,20 +17839,6 @@
               "code": "concept-topic"
             }
           ], 
-          "code": "PIIState_DE", 
-          "display": "Delaware"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "States", 
-              "code": "concept-topic"
-            }
-          ], 
           "code": "PIIState_ME", 
           "display": "Maine"
         }, 
@@ -17111,6 +18147,20 @@
               "code": "concept-topic"
             }
           ], 
+          "code": "PIIState_DE", 
+          "display": "Delaware"
+        }, 
+        {
+          "property": [
+            {
+              "valueCode": "Answer", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "States", 
+              "code": "concept-topic"
+            }
+          ], 
           "code": "PIIState_AL", 
           "display": "Alabama"
         }, 
@@ -17272,14 +18322,14 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 1198, 
+  "count": 1272, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.2.80", 
+  "version": "0.2.84", 
   "hierarchyMeaning": "grouped-by", 
-  "date": "2017-12-07", 
+  "date": "2018-02-20", 
   "property": [
     {
       "code": "concept-type", 
