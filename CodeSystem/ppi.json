@@ -14209,6 +14209,62 @@
                       "code": "concept-topic"
                     }
                   ], 
+                  "code": "AZSitepairingLocation_MesaBannerBaywood", 
+                  "display": "MESA: Banner Baywood Medical Center"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Arizona Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "AZSitepairingLocation_TucsonNorthCampus", 
+                  "display": "TUCSON: North Campus: Banner-University Medicine North"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Arizona Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "AZSitepairingLocation_Gilbert", 
+                  "display": "GILBERT: Banner Gateway Medical Center"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Arizona Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "AZSitepairingLocation_SunCityWest", 
+                  "display": "SUN CITY WEST: Banner Del E Webb Medical Center"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Arizona Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
                   "code": "AZSitepairingLocation_CasaGrande", 
                   "display": "CASA GRANDE: Banner Casa Grande Medical Cen"
                 }, 
@@ -14225,6 +14281,20 @@
                   ], 
                   "code": "AZSitepairingLocation_Glendale", 
                   "display": "GLENDALE: Banner Thunderbird Medical Center"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Arizona Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "AZSitepairingLocation_AlvernonClinic", 
+                  "display": "TUCSON: University of Arizona Alvernon Clinic"
                 }, 
                 {
                   "property": [
@@ -19259,50 +19329,6 @@
               "display": "Why did you skip the question(s)?"
             }, 
             {
-              "concept": [
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "PPIFeedback", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "SkippingQuestions_Yes", 
-                  "display": "YES, I skipped at least 1 question"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "PPIFeedback", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "SkippingQuestions_No", 
-                  "display": "NO, I answered every single question"
-                }
-              ], 
-              "property": [
-                {
-                  "valueCode": "Question", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "PPIFeedback", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "PPIFeedback_SkippingQuestions", 
-              "display": "Did you skip any of the questions?"
-            }, 
-            {
               "property": [
                 {
                   "valueCode": "Question", 
@@ -19401,6 +19427,50 @@
               ], 
               "code": "PPIFeedback_LikedDislikedAboutQuestions", 
               "display": "Was there anything in particular that you liked and/or disliked about the questions. For example, were the questions interesting? Did it take too much time? Were the questions too personal??"
+            }, 
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "PPIFeedback", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SkippingQuestions_Yes", 
+                  "display": "YES, I skipped at least 1 question"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "PPIFeedback", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SkippingQuestions_No", 
+                  "display": "NO, I answered every single question"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "PPIFeedback", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "PPIFeedback_SkippingQuestions", 
+              "display": "Did you skip any of the questions?"
             }, 
             {
               "concept": [
@@ -19580,7 +19650,7 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 1360, 
+  "count": 1365, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 

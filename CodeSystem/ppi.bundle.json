@@ -14213,6 +14213,62 @@
                             "code": "concept-topic"
                           }
                         ], 
+                        "code": "AZSitepairingLocation_MesaBannerBaywood", 
+                        "display": "MESA: Banner Baywood Medical Center"
+                      }, 
+                      {
+                        "property": [
+                          {
+                            "valueCode": "Answer", 
+                            "code": "concept-type"
+                          }, 
+                          {
+                            "valueCode": "Arizona Site Pairing", 
+                            "code": "concept-topic"
+                          }
+                        ], 
+                        "code": "AZSitepairingLocation_TucsonNorthCampus", 
+                        "display": "TUCSON: North Campus: Banner-University Medicine North"
+                      }, 
+                      {
+                        "property": [
+                          {
+                            "valueCode": "Answer", 
+                            "code": "concept-type"
+                          }, 
+                          {
+                            "valueCode": "Arizona Site Pairing", 
+                            "code": "concept-topic"
+                          }
+                        ], 
+                        "code": "AZSitepairingLocation_Gilbert", 
+                        "display": "GILBERT: Banner Gateway Medical Center"
+                      }, 
+                      {
+                        "property": [
+                          {
+                            "valueCode": "Answer", 
+                            "code": "concept-type"
+                          }, 
+                          {
+                            "valueCode": "Arizona Site Pairing", 
+                            "code": "concept-topic"
+                          }
+                        ], 
+                        "code": "AZSitepairingLocation_SunCityWest", 
+                        "display": "SUN CITY WEST: Banner Del E Webb Medical Center"
+                      }, 
+                      {
+                        "property": [
+                          {
+                            "valueCode": "Answer", 
+                            "code": "concept-type"
+                          }, 
+                          {
+                            "valueCode": "Arizona Site Pairing", 
+                            "code": "concept-topic"
+                          }
+                        ], 
                         "code": "AZSitepairingLocation_CasaGrande", 
                         "display": "CASA GRANDE: Banner Casa Grande Medical Cen"
                       }, 
@@ -14229,6 +14285,20 @@
                         ], 
                         "code": "AZSitepairingLocation_Glendale", 
                         "display": "GLENDALE: Banner Thunderbird Medical Center"
+                      }, 
+                      {
+                        "property": [
+                          {
+                            "valueCode": "Answer", 
+                            "code": "concept-type"
+                          }, 
+                          {
+                            "valueCode": "Arizona Site Pairing", 
+                            "code": "concept-topic"
+                          }
+                        ], 
+                        "code": "AZSitepairingLocation_AlvernonClinic", 
+                        "display": "TUCSON: University of Arizona Alvernon Clinic"
                       }, 
                       {
                         "property": [
@@ -19263,50 +19333,6 @@
                     "display": "Why did you skip the question(s)?"
                   }, 
                   {
-                    "concept": [
-                      {
-                        "property": [
-                          {
-                            "valueCode": "Answer", 
-                            "code": "concept-type"
-                          }, 
-                          {
-                            "valueCode": "PPIFeedback", 
-                            "code": "concept-topic"
-                          }
-                        ], 
-                        "code": "SkippingQuestions_Yes", 
-                        "display": "YES, I skipped at least 1 question"
-                      }, 
-                      {
-                        "property": [
-                          {
-                            "valueCode": "Answer", 
-                            "code": "concept-type"
-                          }, 
-                          {
-                            "valueCode": "PPIFeedback", 
-                            "code": "concept-topic"
-                          }
-                        ], 
-                        "code": "SkippingQuestions_No", 
-                        "display": "NO, I answered every single question"
-                      }
-                    ], 
-                    "property": [
-                      {
-                        "valueCode": "Question", 
-                        "code": "concept-type"
-                      }, 
-                      {
-                        "valueCode": "PPIFeedback", 
-                        "code": "concept-topic"
-                      }
-                    ], 
-                    "code": "PPIFeedback_SkippingQuestions", 
-                    "display": "Did you skip any of the questions?"
-                  }, 
-                  {
                     "property": [
                       {
                         "valueCode": "Question", 
@@ -19405,6 +19431,50 @@
                     ], 
                     "code": "PPIFeedback_LikedDislikedAboutQuestions", 
                     "display": "Was there anything in particular that you liked and/or disliked about the questions. For example, were the questions interesting? Did it take too much time? Were the questions too personal??"
+                  }, 
+                  {
+                    "concept": [
+                      {
+                        "property": [
+                          {
+                            "valueCode": "Answer", 
+                            "code": "concept-type"
+                          }, 
+                          {
+                            "valueCode": "PPIFeedback", 
+                            "code": "concept-topic"
+                          }
+                        ], 
+                        "code": "SkippingQuestions_Yes", 
+                        "display": "YES, I skipped at least 1 question"
+                      }, 
+                      {
+                        "property": [
+                          {
+                            "valueCode": "Answer", 
+                            "code": "concept-type"
+                          }, 
+                          {
+                            "valueCode": "PPIFeedback", 
+                            "code": "concept-topic"
+                          }
+                        ], 
+                        "code": "SkippingQuestions_No", 
+                        "display": "NO, I answered every single question"
+                      }
+                    ], 
+                    "property": [
+                      {
+                        "valueCode": "Question", 
+                        "code": "concept-type"
+                      }, 
+                      {
+                        "valueCode": "PPIFeedback", 
+                        "code": "concept-topic"
+                      }
+                    ], 
+                    "code": "PPIFeedback_SkippingQuestions", 
+                    "display": "Did you skip any of the questions?"
                   }, 
                   {
                     "concept": [
@@ -19584,7 +19654,7 @@
         "name": "pmi-codebook", 
         "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
         "resourceType": "CodeSystem", 
-        "count": 1360, 
+        "count": 1365, 
         "compositional": false, 
         "content": "complete", 
         "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
@@ -26022,312 +26092,6 @@
                 {
                   "code": "WhyWasItHard_TechnicalProblems", 
                   "display": "technical problems on computer/tablet/smartphone"
-                }
-              ], 
-              "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-            }, 
-            {
-              "concept": [
-                {
-                  "code": "PIIState_WI", 
-                  "display": "Wisconsin"
-                }, 
-                {
-                  "code": "PIIState_GA", 
-                  "display": "Georgia"
-                }, 
-                {
-                  "code": "PIIState_IN", 
-                  "display": "Indiana"
-                }, 
-                {
-                  "code": "PIIState_AZ", 
-                  "display": "Arizona"
-                }, 
-                {
-                  "code": "PMI_Other", 
-                  "display": "PMI Other (Qualifier Value)"
-                }, 
-                {
-                  "code": "PIIState_MT", 
-                  "display": "Montana"
-                }, 
-                {
-                  "code": "PIIState_WV", 
-                  "display": "West Virginia"
-                }, 
-                {
-                  "code": "PIIState_FL", 
-                  "display": "Florida"
-                }, 
-                {
-                  "code": "PIIState_ID", 
-                  "display": "Idaho"
-                }, 
-                {
-                  "code": "PIIState_OK", 
-                  "display": "Oklahoma"
-                }, 
-                {
-                  "code": "PIIState_TX", 
-                  "display": "Texas"
-                }, 
-                {
-                  "code": "PIIState_OH", 
-                  "display": "Ohio"
-                }, 
-                {
-                  "code": "PIIState_PW", 
-                  "display": "Palau"
-                }, 
-                {
-                  "code": "PMI_DoesNotApplyToMe", 
-                  "display": "Does Not Apply To Me"
-                }, 
-                {
-                  "code": "PIIState_RI", 
-                  "display": "Rhode Island"
-                }, 
-                {
-                  "code": "PIIState_OR", 
-                  "display": "Oregon"
-                }, 
-                {
-                  "code": "PIIState_AS", 
-                  "display": "American Samoa"
-                }, 
-                {
-                  "code": "PMI_Unanswered", 
-                  "display": "PMI Question Unanswered"
-                }, 
-                {
-                  "code": "PIIState_WA", 
-                  "display": "Washington"
-                }, 
-                {
-                  "code": "PIIState_MS", 
-                  "display": "Mississippi"
-                }, 
-                {
-                  "code": "PIIState_MI", 
-                  "display": "Michigan"
-                }, 
-                {
-                  "code": "PIIState_UT", 
-                  "display": "Utah"
-                }, 
-                {
-                  "code": "PIIState_VI", 
-                  "display": "Virgin Islands"
-                }, 
-                {
-                  "code": "PIIState_AK", 
-                  "display": "Alaska"
-                }, 
-                {
-                  "code": "PIIState_MP", 
-                  "display": "North Marianas Islands"
-                }, 
-                {
-                  "code": "PMI_NotSure", 
-                  "display": "PMI Not Sure"
-                }, 
-                {
-                  "code": "PIIState_VT", 
-                  "display": "Vermont"
-                }, 
-                {
-                  "code": "PIIState_WY", 
-                  "display": "Wyoming"
-                }, 
-                {
-                  "code": "PIIState_NC", 
-                  "display": "North Carolina"
-                }, 
-                {
-                  "code": "PMI_DontKnow", 
-                  "display": "PMI Don't Know"
-                }, 
-                {
-                  "code": "PMI_FreeText", 
-                  "display": "PMI Free Text Answer"
-                }, 
-                {
-                  "code": "PIIState_KY", 
-                  "display": "Kentucky"
-                }, 
-                {
-                  "code": "PIIState_ME", 
-                  "display": "Maine"
-                }, 
-                {
-                  "code": "PIIState_NV", 
-                  "display": "Nevada"
-                }, 
-                {
-                  "code": "PIIState_NH", 
-                  "display": "New Hampshire"
-                }, 
-                {
-                  "code": "PIIState_TN", 
-                  "display": "Tennessee"
-                }, 
-                {
-                  "code": "PIIState_NE", 
-                  "display": "Nebraska"
-                }, 
-                {
-                  "code": "PIIState_DC", 
-                  "display": "District of Columbia"
-                }, 
-                {
-                  "code": "PIIState_FM", 
-                  "display": "Federated States of Micronesia"
-                }, 
-                {
-                  "code": "PIIState_PA", 
-                  "display": "Pennsylvania"
-                }, 
-                {
-                  "code": "PIIState_CO", 
-                  "display": "Colorado"
-                }, 
-                {
-                  "code": "PIIState_MH", 
-                  "display": "Marshall Islands"
-                }, 
-                {
-                  "code": "PIIState_AR", 
-                  "display": "Arkansas"
-                }, 
-                {
-                  "code": "PIIState_CT", 
-                  "display": "Connecticut"
-                }, 
-                {
-                  "code": "PIIState_IA", 
-                  "display": "Iowa"
-                }, 
-                {
-                  "code": "PIIState_CA", 
-                  "display": "California"
-                }, 
-                {
-                  "code": "PIIState_SD", 
-                  "display": "South Dakota"
-                }, 
-                {
-                  "code": "PIIState_MD", 
-                  "display": "Maryland"
-                }, 
-                {
-                  "code": "PIIState_NJ", 
-                  "display": "New Jersey"
-                }, 
-                {
-                  "code": "PIIState_HI", 
-                  "display": "Hawaii"
-                }, 
-                {
-                  "code": "PIIState_VA", 
-                  "display": "Virginia"
-                }, 
-                {
-                  "code": "PIIState_LA", 
-                  "display": "Louisiana"
-                }, 
-                {
-                  "code": "PIIState_ND", 
-                  "display": "North Dakota"
-                }, 
-                {
-                  "code": "PMI_None", 
-                  "display": "None"
-                }, 
-                {
-                  "code": "PIIState_MA", 
-                  "display": "Massachusetts"
-                }, 
-                {
-                  "code": "PIIState_DE", 
-                  "display": "Delaware"
-                }, 
-                {
-                  "code": "PIIState_AL", 
-                  "display": "Alabama"
-                }, 
-                {
-                  "code": "PMI_PreferNotToAnswer", 
-                  "display": "PMI Prefer Not To Answer"
-                }, 
-                {
-                  "code": "PMI_Skip", 
-                  "display": "PMI Skip"
-                }, 
-                {
-                  "code": "PIIState_IL", 
-                  "display": "Illinois"
-                }, 
-                {
-                  "code": "PIIState_MO", 
-                  "display": "Missouri"
-                }, 
-                {
-                  "code": "PIIState_NY", 
-                  "display": "New York"
-                }, 
-                {
-                  "code": "PIIState_KS", 
-                  "display": "Kansas"
-                }, 
-                {
-                  "code": "PIIState_PR", 
-                  "display": "Puerto Rico"
-                }, 
-                {
-                  "code": "PIIState_MN", 
-                  "display": "Minnesota"
-                }, 
-                {
-                  "code": "PIIState_GU", 
-                  "display": "Guam"
-                }, 
-                {
-                  "code": "PIIState_NM", 
-                  "display": "New Mexico"
-                }, 
-                {
-                  "code": "PIIState_SC", 
-                  "display": "South Carolina"
-                }
-              ], 
-              "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-            }
-          ]
-        }
-      }
-    }, 
-    {
-      "resource": {
-        "status": "draft", 
-        "url": "http://terminology.pmi-ops.org/ValueSet/ppi-PPIFeedback_SkippingQuestions", 
-        "version": "0.2.88", 
-        "date": "2018-04-17", 
-        "name": "values-for-PPIFeedback_SkippingQuestions", 
-        "title": "Values for Did you skip any of the questions?", 
-        "resourceType": "ValueSet", 
-        "publisher": "Precision Medicine Initiative: All of Us Resarch Program", 
-        "compose": {
-          "include": [
-            {
-              "concept": [
-                {
-                  "code": "SkippingQuestions_Yes", 
-                  "display": "YES, I skipped at least 1 question"
-                }, 
-                {
-                  "code": "SkippingQuestions_No", 
-                  "display": "NO, I answered every single question"
                 }
               ], 
               "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
@@ -54598,12 +54362,32 @@
             {
               "concept": [
                 {
+                  "code": "AZSitepairingLocation_MesaBannerBaywood", 
+                  "display": "MESA: Banner Baywood Medical Center"
+                }, 
+                {
+                  "code": "AZSitepairingLocation_TucsonNorthCampus", 
+                  "display": "TUCSON: North Campus: Banner-University Medicine North"
+                }, 
+                {
+                  "code": "AZSitepairingLocation_Gilbert", 
+                  "display": "GILBERT: Banner Gateway Medical Center"
+                }, 
+                {
+                  "code": "AZSitepairingLocation_SunCityWest", 
+                  "display": "SUN CITY WEST: Banner Del E Webb Medical Center"
+                }, 
+                {
                   "code": "AZSitepairingLocation_CasaGrande", 
                   "display": "CASA GRANDE: Banner Casa Grande Medical Cen"
                 }, 
                 {
                   "code": "AZSitepairingLocation_Glendale", 
                   "display": "GLENDALE: Banner Thunderbird Medical Center"
+                }, 
+                {
+                  "code": "AZSitepairingLocation_AlvernonClinic", 
+                  "display": "TUCSON: University of Arizona Alvernon Clinic"
                 }, 
                 {
                   "code": "AZSitepairingLocation_TuscsonSouthCampus", 
@@ -61734,6 +61518,312 @@
                 {
                   "code": "HysterectomyHistory_NotSure", 
                   "display": "Not sure"
+                }
+              ], 
+              "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+            }, 
+            {
+              "concept": [
+                {
+                  "code": "PIIState_WI", 
+                  "display": "Wisconsin"
+                }, 
+                {
+                  "code": "PIIState_GA", 
+                  "display": "Georgia"
+                }, 
+                {
+                  "code": "PIIState_IN", 
+                  "display": "Indiana"
+                }, 
+                {
+                  "code": "PIIState_AZ", 
+                  "display": "Arizona"
+                }, 
+                {
+                  "code": "PMI_Other", 
+                  "display": "PMI Other (Qualifier Value)"
+                }, 
+                {
+                  "code": "PIIState_MT", 
+                  "display": "Montana"
+                }, 
+                {
+                  "code": "PIIState_WV", 
+                  "display": "West Virginia"
+                }, 
+                {
+                  "code": "PIIState_FL", 
+                  "display": "Florida"
+                }, 
+                {
+                  "code": "PIIState_ID", 
+                  "display": "Idaho"
+                }, 
+                {
+                  "code": "PIIState_OK", 
+                  "display": "Oklahoma"
+                }, 
+                {
+                  "code": "PIIState_TX", 
+                  "display": "Texas"
+                }, 
+                {
+                  "code": "PIIState_OH", 
+                  "display": "Ohio"
+                }, 
+                {
+                  "code": "PIIState_PW", 
+                  "display": "Palau"
+                }, 
+                {
+                  "code": "PMI_DoesNotApplyToMe", 
+                  "display": "Does Not Apply To Me"
+                }, 
+                {
+                  "code": "PIIState_RI", 
+                  "display": "Rhode Island"
+                }, 
+                {
+                  "code": "PIIState_OR", 
+                  "display": "Oregon"
+                }, 
+                {
+                  "code": "PIIState_AS", 
+                  "display": "American Samoa"
+                }, 
+                {
+                  "code": "PMI_Unanswered", 
+                  "display": "PMI Question Unanswered"
+                }, 
+                {
+                  "code": "PIIState_WA", 
+                  "display": "Washington"
+                }, 
+                {
+                  "code": "PIIState_MS", 
+                  "display": "Mississippi"
+                }, 
+                {
+                  "code": "PIIState_MI", 
+                  "display": "Michigan"
+                }, 
+                {
+                  "code": "PIIState_UT", 
+                  "display": "Utah"
+                }, 
+                {
+                  "code": "PIIState_VI", 
+                  "display": "Virgin Islands"
+                }, 
+                {
+                  "code": "PIIState_AK", 
+                  "display": "Alaska"
+                }, 
+                {
+                  "code": "PIIState_MP", 
+                  "display": "North Marianas Islands"
+                }, 
+                {
+                  "code": "PMI_NotSure", 
+                  "display": "PMI Not Sure"
+                }, 
+                {
+                  "code": "PIIState_VT", 
+                  "display": "Vermont"
+                }, 
+                {
+                  "code": "PIIState_WY", 
+                  "display": "Wyoming"
+                }, 
+                {
+                  "code": "PIIState_NC", 
+                  "display": "North Carolina"
+                }, 
+                {
+                  "code": "PMI_DontKnow", 
+                  "display": "PMI Don't Know"
+                }, 
+                {
+                  "code": "PMI_FreeText", 
+                  "display": "PMI Free Text Answer"
+                }, 
+                {
+                  "code": "PIIState_KY", 
+                  "display": "Kentucky"
+                }, 
+                {
+                  "code": "PIIState_ME", 
+                  "display": "Maine"
+                }, 
+                {
+                  "code": "PIIState_NV", 
+                  "display": "Nevada"
+                }, 
+                {
+                  "code": "PIIState_NH", 
+                  "display": "New Hampshire"
+                }, 
+                {
+                  "code": "PIIState_TN", 
+                  "display": "Tennessee"
+                }, 
+                {
+                  "code": "PIIState_NE", 
+                  "display": "Nebraska"
+                }, 
+                {
+                  "code": "PIIState_DC", 
+                  "display": "District of Columbia"
+                }, 
+                {
+                  "code": "PIIState_FM", 
+                  "display": "Federated States of Micronesia"
+                }, 
+                {
+                  "code": "PIIState_PA", 
+                  "display": "Pennsylvania"
+                }, 
+                {
+                  "code": "PIIState_CO", 
+                  "display": "Colorado"
+                }, 
+                {
+                  "code": "PIIState_MH", 
+                  "display": "Marshall Islands"
+                }, 
+                {
+                  "code": "PIIState_AR", 
+                  "display": "Arkansas"
+                }, 
+                {
+                  "code": "PIIState_CT", 
+                  "display": "Connecticut"
+                }, 
+                {
+                  "code": "PIIState_IA", 
+                  "display": "Iowa"
+                }, 
+                {
+                  "code": "PIIState_CA", 
+                  "display": "California"
+                }, 
+                {
+                  "code": "PIIState_SD", 
+                  "display": "South Dakota"
+                }, 
+                {
+                  "code": "PIIState_MD", 
+                  "display": "Maryland"
+                }, 
+                {
+                  "code": "PIIState_NJ", 
+                  "display": "New Jersey"
+                }, 
+                {
+                  "code": "PIIState_HI", 
+                  "display": "Hawaii"
+                }, 
+                {
+                  "code": "PIIState_VA", 
+                  "display": "Virginia"
+                }, 
+                {
+                  "code": "PIIState_LA", 
+                  "display": "Louisiana"
+                }, 
+                {
+                  "code": "PIIState_ND", 
+                  "display": "North Dakota"
+                }, 
+                {
+                  "code": "PMI_None", 
+                  "display": "None"
+                }, 
+                {
+                  "code": "PIIState_MA", 
+                  "display": "Massachusetts"
+                }, 
+                {
+                  "code": "PIIState_DE", 
+                  "display": "Delaware"
+                }, 
+                {
+                  "code": "PIIState_AL", 
+                  "display": "Alabama"
+                }, 
+                {
+                  "code": "PMI_PreferNotToAnswer", 
+                  "display": "PMI Prefer Not To Answer"
+                }, 
+                {
+                  "code": "PMI_Skip", 
+                  "display": "PMI Skip"
+                }, 
+                {
+                  "code": "PIIState_IL", 
+                  "display": "Illinois"
+                }, 
+                {
+                  "code": "PIIState_MO", 
+                  "display": "Missouri"
+                }, 
+                {
+                  "code": "PIIState_NY", 
+                  "display": "New York"
+                }, 
+                {
+                  "code": "PIIState_KS", 
+                  "display": "Kansas"
+                }, 
+                {
+                  "code": "PIIState_PR", 
+                  "display": "Puerto Rico"
+                }, 
+                {
+                  "code": "PIIState_MN", 
+                  "display": "Minnesota"
+                }, 
+                {
+                  "code": "PIIState_GU", 
+                  "display": "Guam"
+                }, 
+                {
+                  "code": "PIIState_NM", 
+                  "display": "New Mexico"
+                }, 
+                {
+                  "code": "PIIState_SC", 
+                  "display": "South Carolina"
+                }
+              ], 
+              "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+            }
+          ]
+        }
+      }
+    }, 
+    {
+      "resource": {
+        "status": "draft", 
+        "url": "http://terminology.pmi-ops.org/ValueSet/ppi-PPIFeedback_SkippingQuestions", 
+        "version": "0.2.88", 
+        "date": "2018-04-17", 
+        "name": "values-for-PPIFeedback_SkippingQuestions", 
+        "title": "Values for Did you skip any of the questions?", 
+        "resourceType": "ValueSet", 
+        "publisher": "Precision Medicine Initiative: All of Us Resarch Program", 
+        "compose": {
+          "include": [
+            {
+              "concept": [
+                {
+                  "code": "SkippingQuestions_Yes", 
+                  "display": "YES, I skipped at least 1 question"
+                }, 
+                {
+                  "code": "SkippingQuestions_No", 
+                  "display": "NO, I answered every single question"
                 }
               ], 
               "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
