@@ -276,3 +276,4 @@ Washington,Extra Consent Items,Answer,http://terminology.pmi-ops.org/CodeSystem/
 West Virginia,Extra Consent Items,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SOR_WV,,StateOfResidence,3/28/2018,,,,,,,,,,,,
 Wisconsin,Extra Consent Items,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SOR_WI,,StateOfResidence,3/28/2018,,,,,,,,,,,,
 Wyoming,Extra Consent Items,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SOR_WY,,StateOfResidence,3/28/2018,,,,,,,,,,,,
+YouTube Video,Extra Consent Items,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,ExtraConsent_DNAVideo,,ConsentPII_ExtraConsent,4/17/2018,,,,,,,,,,,,

@@ -2113,20 +2113,6 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "PersonOneAddressState_LA", 
-                      "display": "Louisiana"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Secondary Contact", 
-                          "code": "concept-topic"
-                        }
-                      ], 
                       "code": "PersonOneAddressState_WA", 
                       "display": "Washington"
                     }, 
@@ -2323,6 +2309,20 @@
                           "code": "concept-topic"
                         }
                       ], 
+                      "code": "PersonOneAddressState_LA", 
+                      "display": "Louisiana"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Secondary Contact", 
+                          "code": "concept-topic"
+                        }
+                      ], 
                       "code": "PersonOneAddressState_ND", 
                       "display": "North Dakota"
                     }, 
@@ -2437,20 +2437,6 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "SecondContactsRelationship_ParentGuardian", 
-                  "display": "Parent or Guardian"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Secondary Contact", 
-                      "code": "concept-topic"
-                    }
-                  ], 
                   "code": "SecondContactsRelationship_Child", 
                   "display": "Child"
                 }, 
@@ -2495,6 +2481,20 @@
                   ], 
                   "code": "SecondContactsRelationship_Relative", 
                   "display": "Relative"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Secondary Contact", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SecondContactsRelationship_ParentGuardian", 
+                  "display": "Parent or Guardian"
                 }
               ], 
               "property": [
@@ -6497,8 +6497,8 @@
                   "code": "concept-topic"
                 }
               ], 
-              "code": "GeneralMentalHealth_Fair", 
-              "display": "Fair"
+              "code": "GeneralMentalHealth_Poor", 
+              "display": "Poor"
             }, 
             {
               "property": [
@@ -6511,8 +6511,8 @@
                   "code": "concept-topic"
                 }
               ], 
-              "code": "GeneralMentalHealth_Poor", 
-              "display": "Poor"
+              "code": "GeneralMentalHealth_Fair", 
+              "display": "Fair"
             }, 
             {
               "property": [
@@ -9429,6 +9429,80 @@
         {
           "concept": [
             {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "EHR", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "DVEHRSharing_No", 
+              "display": "No"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "EHR", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "DVEHRSharing_NotSure", 
+              "display": "Not Sure"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "EHR", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "DVEHRSharing_Yes", 
+              "display": "Yes"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "EHR", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "DVEHRSharing_AreYouInterested", 
+          "display": "Would you be interested in sharing your electronic health records with All of Us in the future?"
+        }
+      ], 
+      "property": [
+        {
+          "valueCode": "Module", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "DVEHRSharing", 
+      "display": "Sharing Your Electronic Health Records"
+    }, 
+    {
+      "concept": [
+        {
+          "concept": [
+            {
               "concept": [
                 {
                   "property": [
@@ -11353,6 +11427,20 @@
               ], 
               "code": "ExtraConsent_21YearsofAge", 
               "display": "Because of specific laws in the territory of Puerto Rico, you need to be 21 or older to join All of Us. Are you 21 or older?"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Extra Consent Items", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "ExtraConsent_DNAVideo", 
+              "display": "YouTube Video"
             }, 
             {
               "concept": [
@@ -14151,6 +14239,50 @@
                   ], 
                   "code": "AZSitepairingLocation_TuscsonSouthCampus", 
                   "display": "TUCSON: South Campus: Banner University Medical Center \u2013 South (formerly known as Kino Hospital)"
+                }, 
+                {
+                  "concept": [
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Arizona Site Pairing", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "AZSitepairingLocation_BannerHealth", 
+                      "display": "Banner Health"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Arizona Site Pairing", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "AZSitepairingLocation_Walgreens", 
+                      "display": "Walgreens"
+                    }
+                  ], 
+                  "property": [
+                    {
+                      "valueCode": "Question", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Arizona Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "ArizonaSitePairing_AZWalgreensSitepairingLocation", 
+                  "display": "You may be invited to schedule an appointment to provide physical measurements and biosamples. This appointment can take place at Banner Health or at select Walgreens Clinic locations. Which will you prefer:"
                 }, 
                 {
                   "property": [
@@ -17953,6 +18085,20 @@
                           "code": "concept-topic"
                         }
                       ], 
+                      "code": "OtherStimulant3MonthUse_Monthly", 
+                      "display": "Monthly"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Recreational Drugs", 
+                          "code": "concept-topic"
+                        }
+                      ], 
                       "code": "OtherStimulant3MonthUse_OnceOrTwice", 
                       "display": "Once or twice"
                     }, 
@@ -17969,20 +18115,6 @@
                       ], 
                       "code": "OtherStimulant3MonthUse_Weekly", 
                       "display": "Weekly"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Recreational Drugs", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "OtherStimulant3MonthUse_Monthly", 
-                      "display": "Monthly"
                     }, 
                     {
                       "property": [
@@ -18447,6 +18579,20 @@
               "code": "concept-topic"
             }
           ], 
+          "code": "PIIState_UT", 
+          "display": "Utah"
+        }, 
+        {
+          "property": [
+            {
+              "valueCode": "Answer", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "States", 
+              "code": "concept-topic"
+            }
+          ], 
           "code": "PIIState_VI", 
           "display": "Virgin Islands"
         }, 
@@ -18519,20 +18665,6 @@
           ], 
           "code": "PIIState_WY", 
           "display": "Wyoming"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "States", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "PIIState_UT", 
-          "display": "Utah"
         }, 
         {
           "property": [
@@ -19448,14 +19580,14 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 1351, 
+  "count": 1360, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.2.87", 
+  "version": "0.2.88", 
   "hierarchyMeaning": "grouped-by", 
-  "date": "2018-03-28", 
+  "date": "2018-04-17", 
   "property": [
     {
       "code": "concept-type", 
