@@ -15,7 +15,7 @@ Veteran’s Administration (VA) (including those who have ever used or enrolled 
 Indian Health Service,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,InsuranceType_IndianHealthService,Insurance_InsuranceType,,1/31/2018,,,,,,,,,,,
 "Any other type of health insurance or health coverage plan
 ",Insurance,Question,,http://terminology.pmi-ops.org/CodeSystem/ppi,InsuraceType_OtherInsuranceType,Insurance_InsuranceType,,1/31/2018,,,,,,,,,,,
-Free Text Box,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,OtherInsuranceType_FreeText,Insurance_InsuranceType,,1/31/2018,,,,,,,,,,,
+Free Text Box,Insurance,Question,,http://terminology.pmi-ops.org/CodeSystem/ppi,OtherInsuranceType_FreeText,Insurance_InsuranceType,,1/31/2018,,,,,,,,,,,
 I don’ t have insurance; Self-Pay,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,InsuranceType_SelfPayOrNone,Insurance_InsuranceType,,1/31/2018,,,,,,,,,,,
 "DURING THE PAST 12 MONTHS, were you told by a health care provider or doctor’s office that they did not accept your health care coverage? ",Insurance,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,Insurance_InsuranceAccepted,HealthcareAccess_Insurance,,1/31/2018,,,,,,,,,,,
 Yes,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,InsuranceAccepted_Yes,Insurance_InsuranceAccepted,,1/31/2018,,,,,,,,,,,
