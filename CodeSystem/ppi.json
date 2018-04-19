@@ -10127,7 +10127,7 @@
                 {
                   "property": [
                     {
-                      "valueCode": "Answer", 
+                      "valueCode": "Question", 
                       "code": "concept-type"
                     }, 
                     {
@@ -10179,6 +10179,34 @@
                   ], 
                   "code": "InsuranceType_Medicare", 
                   "display": "Medicare, for people 65 and older or people with certain disabilities"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Insurance", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "InsuranceType_OtherInsuranceType", 
+                  "display": "any other type of health insurance or health coverage plan"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Insurance", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "InsuranceType_PurchasedInsurance", 
+                  "display": "insurance purchased directly from an insurance company (by you or another family member)"
                 }, 
                 {
                   "property": [
@@ -10441,6 +10469,64 @@
               ], 
               "code": "CantAffordCare_DentalCare", 
               "display": "DURING THE PAST 12 MONTHS, was there any time when you needed any of the following, but didn't get it because you couldn't afford it?...Dental care (including check ups)"
+            }, 
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Can't Afford Medical Care", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "WorriedAboutPaying_VeryWorried", 
+                  "display": "very worried"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Can't Afford Medical Care", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "WorriedAboutPaying_NotAtAllWorried", 
+                  "display": "not at all worried"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Can't Afford Medical Care", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "WorriedAboutPaying_SomewhatWorried", 
+                  "display": "somewhat worried"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Can't Afford Medical Care", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "CantAffordCare_WorriedAboutPaying", 
+              "display": "If you get sick or have an accident, how worried are you that you will be able to pay your medical bills? Are you very worried, somewhat worried, or not at all worried?"
             }, 
             {
               "concept": [
@@ -13557,6 +13643,50 @@
                       "code": "concept-topic"
                     }
                   ], 
+                  "code": "RuralArea_No", 
+                  "display": "No"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Delayed Medical Care", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "RuralArea_Yes", 
+                  "display": "Yes"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Delayed Medical Care", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "DelayedMedicalCare_RuralArea", 
+              "display": "You live in a rural area where distance to the health care provider is too far"
+            }, 
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Delayed Medical Care", 
+                      "code": "concept-topic"
+                    }
+                  ], 
                   "code": "TimeOffWork_Yes", 
                   "display": "Yes"
                 }, 
@@ -13601,6 +13731,50 @@
                       "code": "concept-topic"
                     }
                   ], 
+                  "code": "Nervous_No", 
+                  "display": "No"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Delayed Medical Care", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "Nervous_Yes", 
+                  "display": "Yes"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Delayed Medical Care", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "DelayedMedicalCare_Nervous", 
+              "display": "You were nervous about seeing a health care provider"
+            }, 
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Delayed Medical Care", 
+                      "code": "concept-topic"
+                    }
+                  ], 
                   "code": "ElderlyCare_No", 
                   "display": "No"
                 }, 
@@ -13631,6 +13805,20 @@
               ], 
               "code": "DelayedMedicalCare_ElderlyCare", 
               "display": "There are many reasons people delay getting medical care. Have you delayed getting care for any of the following reasons in the PAST 12 MONTHS?...Couldn\u2019t get elderly care."
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Delayed Medical Care", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "OtherDelayedMedicalCare_FreeText", 
+              "display": "Free Text Box"
             }, 
             {
               "concept": [
@@ -23568,12 +23756,12 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 1636, 
+  "count": 1649, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.2.93", 
+  "version": "0.2.94", 
   "hierarchyMeaning": "grouped-by", 
   "date": "2018-04-19", 
   "property": [
