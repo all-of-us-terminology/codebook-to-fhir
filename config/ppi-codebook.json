@@ -25,7 +25,8 @@
     "EauClaire_Additional_Scheduling_Information" : "1635167012",
     "UPMC" : "886972091",
     "JacksonHindsScheduling" : "1497126864",
-    "DVEHRSharing" : "1013014788"
+    "DVEHRSharing" : "1013014788",
+    "HealthcareAccessAndUtilization" : "1228679841"
   },
   "sheetsToIgnore": {
     "FamilyHistory": "2141379887",
