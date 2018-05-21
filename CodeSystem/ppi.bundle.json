@@ -183,6 +183,150 @@
                         "display": "What kind of health insurance or health care coverage do you have? Include those that pay for only one type of service (nursing home care, accidents, or dental care). Exclude private plans that only provide extra cash while hospitalized. If you have more than one kind of health insurance, mark all plans that you have."
                       }, 
                       {
+                        "concept": [
+                          {
+                            "property": [
+                              {
+                                "valueCode": "Answer", 
+                                "code": "concept-type"
+                              }, 
+                              {
+                                "valueCode": "Insurance", 
+                                "code": "concept-topic"
+                              }
+                            ], 
+                            "code": "InsuranceTypeUpdate_Medicare", 
+                            "display": "Medicare, for people 65 and older or people with certain disabilities"
+                          }, 
+                          {
+                            "concept": [
+                              {
+                                "property": [
+                                  {
+                                    "valueCode": "Question", 
+                                    "code": "concept-type"
+                                  }, 
+                                  {
+                                    "valueCode": "Insurance", 
+                                    "code": "concept-topic"
+                                  }
+                                ], 
+                                "code": "OtherHealthPlan_FreeText", 
+                                "display": "other (please specify)"
+                              }
+                            ], 
+                            "property": [
+                              {
+                                "valueCode": "Answer", 
+                                "code": "concept-type"
+                              }, 
+                              {
+                                "valueCode": "Insurance", 
+                                "code": "concept-topic"
+                              }
+                            ], 
+                            "code": "InsuranceTypeUpdate_OtherHealthPlan", 
+                            "display": "Any other type of health insurance or health coverage plan"
+                          }, 
+                          {
+                            "property": [
+                              {
+                                "valueCode": "Answer", 
+                                "code": "concept-type"
+                              }, 
+                              {
+                                "valueCode": "Insurance", 
+                                "code": "concept-topic"
+                              }
+                            ], 
+                            "code": "InsuranceTypeUpdate_Indian", 
+                            "display": "Indian Health Service"
+                          }, 
+                          {
+                            "property": [
+                              {
+                                "valueCode": "Answer", 
+                                "code": "concept-type"
+                              }, 
+                              {
+                                "valueCode": "Insurance", 
+                                "code": "concept-topic"
+                              }
+                            ], 
+                            "code": "InsuranceTypeUpdate_Medicaid", 
+                            "display": "Medicaid, Medical Assistance, or any kind of government-assistance plan for those with low incomes or disability"
+                          }, 
+                          {
+                            "property": [
+                              {
+                                "valueCode": "Answer", 
+                                "code": "concept-type"
+                              }, 
+                              {
+                                "valueCode": "Insurance", 
+                                "code": "concept-topic"
+                              }
+                            ], 
+                            "code": "InsuranceTypeUpdate_Military", 
+                            "display": "TRICARE or other military health care"
+                          }, 
+                          {
+                            "property": [
+                              {
+                                "valueCode": "Answer", 
+                                "code": "concept-type"
+                              }, 
+                              {
+                                "valueCode": "Insurance", 
+                                "code": "concept-topic"
+                              }
+                            ], 
+                            "code": "InsuranceTypeUpdate_None", 
+                            "display": "I don\u2019t have health insurance, self-pay"
+                          }, 
+                          {
+                            "property": [
+                              {
+                                "valueCode": "Answer", 
+                                "code": "concept-type"
+                              }, 
+                              {
+                                "valueCode": "Insurance", 
+                                "code": "concept-topic"
+                              }
+                            ], 
+                            "code": "InsuranceTypeUpdate_VA", 
+                            "display": "Veterans Affairs (VA) (including those who have ever used or enrolled for VA health care)"
+                          }, 
+                          {
+                            "property": [
+                              {
+                                "valueCode": "Answer", 
+                                "code": "concept-type"
+                              }, 
+                              {
+                                "valueCode": "Insurance", 
+                                "code": "concept-topic"
+                              }
+                            ], 
+                            "code": "InsuranceTypeUpdate_Purchased", 
+                            "display": "Insurance purchased directly from an insurance company (by you or another family member)"
+                          }
+                        ], 
+                        "property": [
+                          {
+                            "valueCode": "Question", 
+                            "code": "concept-type"
+                          }, 
+                          {
+                            "valueCode": "Insurance", 
+                            "code": "concept-topic"
+                          }
+                        ], 
+                        "code": "HealthInsurance_InsuranceTypeUpdate", 
+                        "display": "Are you currently covered by any of the following types of health insurance or health coverage plans? Select all that apply from one group."
+                      }, 
+                      {
                         "property": [
                           {
                             "valueCode": "Answer", 
@@ -23760,14 +23904,14 @@
         "name": "pmi-codebook", 
         "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
         "resourceType": "CodeSystem", 
-        "count": 1649, 
+        "count": 1659, 
         "compositional": false, 
         "content": "complete", 
         "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
         "caseSensitive": true, 
-        "version": "0.2.95", 
+        "version": "0.2.96", 
         "hierarchyMeaning": "grouped-by", 
-        "date": "2018-04-19", 
+        "date": "2018-05-17", 
         "property": [
           {
             "code": "concept-type", 
@@ -23787,8 +23931,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-BiologicalSexAtBirth_SexAtBirth", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-BiologicalSexAtBirth_SexAtBirth", 
         "title": "Values for What was your biological sex assigned at birth?", 
         "resourceType": "ValueSet", 
@@ -24101,8 +24245,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-CigarSmoking_CurrentCigarFrequency", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-CigarSmoking_CurrentCigarFrequency", 
         "title": "Values for Do you now smoke a traditional cigar, cigarillo, or filtered cigar?", 
         "resourceType": "ValueSet", 
@@ -24411,8 +24555,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-ActiveDuty_AvtiveDutyServeStatus", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-ActiveDuty_AvtiveDutyServeStatus", 
         "title": "Values for Have you ever served on active duty in the United States Armed forces, either in the regular military or in a National Guard or military reserve unit?", 
         "resourceType": "ValueSet", 
@@ -24717,8 +24861,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-EHRConsentPII_AccessPrivacyGuaruntee", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-EHRConsentPII_AccessPrivacyGuaruntee", 
         "title": "Values for If give access to my EHR is my privacy guaranteed?", 
         "resourceType": "ValueSet", 
@@ -25023,8 +25167,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-HealthAdvice_SpokenToOBGYN", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-HealthAdvice_SpokenToOBGYN", 
         "title": "Values for DURING THE PAST 12 MONTHS, have you seen or talked to any of the following health care providers about your own health? ...A doctor who specializes in women's health (an obstetrician/gynecologist)", 
         "resourceType": "ValueSet", 
@@ -25329,8 +25473,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-SecondaryContactInfo_SecondContactsAddressOne", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-SecondaryContactInfo_SecondContactsAddressOne", 
         "title": "Values for Person 2 Address Line 1", 
         "resourceType": "ValueSet", 
@@ -25639,8 +25783,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-MississippiSitePairing_JH", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-MississippiSitePairing_JH", 
         "title": "Values for Have you already scheduled an All of Us research appointment at the Jackson-Hinds Comprehensive Health Center's Main Site (James Anderson Clinic) or the Copiah Clinic?", 
         "resourceType": "ValueSet", 
@@ -25945,8 +26089,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-Insurance_HealthInsurance", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-Insurance_HealthInsurance", 
         "title": "Values for Are you covered by health insurance or some other kind of health care plan?", 
         "resourceType": "ValueSet", 
@@ -25958,6 +26102,10 @@
                 {
                   "code": "HealthInsurance_HealthInsuranceType", 
                   "display": "What kind of health insurance or health care coverage do you have? Include those that pay for only one type of service (nursing home care, accidents, or dental care). Exclude private plans that only provide extra cash while hospitalized. If you have more than one kind of health insurance, mark all plans that you have."
+                }, 
+                {
+                  "code": "HealthInsurance_InsuranceTypeUpdate", 
+                  "display": "Are you currently covered by any of the following types of health insurance or health coverage plans? Select all that apply from one group."
                 }, 
                 {
                   "code": "HealthInsurance_Yes", 
@@ -26255,8 +26403,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-EHRConsentPII_JoinAllOfUs", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-EHRConsentPII_JoinAllOfUs", 
         "title": "Values for Take the time you need to decide about joining All of Us. We are here to answer any questions you have.", 
         "resourceType": "ValueSet", 
@@ -26561,8 +26709,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-AccountCreation_WasItEasy", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-AccountCreation_WasItEasy", 
         "title": "Values for Was it easy or hard to create an account?", 
         "resourceType": "ValueSet", 
@@ -26875,8 +27023,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-SecondaryContactInfo_PersonOneRelationship", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-SecondaryContactInfo_PersonOneRelationship", 
         "title": "Values for Relationship to respondent", 
         "resourceType": "ValueSet", 
@@ -27193,8 +27341,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-HealthAdvice_PhysicalTherapistVisits", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-HealthAdvice_PhysicalTherapistVisits", 
         "title": "Values for What is the total number visits to a physical therapist, speech therapist, respiratory therapist, audiologist, or occupational therapist that you made in the last 12 months", 
         "resourceType": "ValueSet", 
@@ -27523,8 +27671,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-Past3MonthUseFrequency_PrescriptionOpiod3MonthUse", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-Past3MonthUseFrequency_PrescriptionOpiod3MonthUse", 
         "title": "Values for In the PAST THREE MONTHS, how often have you used Prescription opioids for non-medical reasons (obana, fentanyl, oxycodone [OxyContin, Percocet], hydrocodone [Vicodin], methadone, buprenorphine [Supoxone], etc.)", 
         "resourceType": "ValueSet", 
@@ -27841,8 +27989,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-ExtraConsent_PrivacyGuaranteeQuestion", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-ExtraConsent_PrivacyGuaranteeQuestion", 
         "title": "Values for Using smartphones, apps, and sensors are always a potential risk to privacy. Can All of Us research guarantee your privacy?", 
         "resourceType": "ValueSet", 
@@ -28147,8 +28295,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-NewYorkSitePairing_HRHCare", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-NewYorkSitePairing_HRHCare", 
         "title": "Values for Have you ever received care at the Peekskill Health Center, or any other HRHCare health center?", 
         "resourceType": "ValueSet", 
@@ -28453,8 +28601,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-HealthAdvice_MedicalSpecialistVisits", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-HealthAdvice_MedicalSpecialistVisits", 
         "title": "Values for What is the total number visits to a medical doctor who specializes in a particular medical disease or problem that you made in the last 12 months", 
         "resourceType": "ValueSet", 
@@ -28783,8 +28931,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-ScheduledWithPACares", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-ScheduledWithPACares", 
         "title": "Values for Have you already scheduled an appointment with your local All of Us Pennsylvania team for physical measurements and biosample collection?", 
         "resourceType": "ValueSet", 
@@ -29089,8 +29237,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-SitePairing_SouthernProviders", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-SitePairing_SouthernProviders", 
         "title": "Values for The following Clinics, Healthcare Providers and Hospitals in your area are enrolling participants into the All of Us Research Program. At which institution do you receive care and wish to schedule an enrollment visit with?", 
         "resourceType": "ValueSet", 
@@ -29435,8 +29583,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-Alcohol_AverageDailyDrinkCount", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-Alcohol_AverageDailyDrinkCount", 
         "title": "Values for On a typical day when you drink, how many drinks do you have?", 
         "resourceType": "ValueSet", 
@@ -29753,8 +29901,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-SouthCarolinaSitePairing_EC", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-SouthCarolinaSitePairing_EC", 
         "title": "Values for Have you already scheduled an appointment with the All of Us Research Program team?", 
         "resourceType": "ValueSet", 
@@ -30059,8 +30207,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-Past3MonthUseFrequency_Hallucinogen3MonthUse", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-Past3MonthUseFrequency_Hallucinogen3MonthUse", 
         "title": "Values for In the PAST THREE MONTHS, how often have you used Hallucinogens (LSD, acid, mushrooms, PCP, Special K, ecstasy, etc.)", 
         "resourceType": "ValueSet", 
@@ -30377,8 +30525,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-EducationLevel_HighestGrade", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-EducationLevel_HighestGrade", 
         "title": "Values for What is the highest grade or year of school you completed?", 
         "resourceType": "ValueSet", 
@@ -30707,8 +30855,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-CantAffordCare_PrescriptionMedicines", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-CantAffordCare_PrescriptionMedicines", 
         "title": "Values for DURING THE PAST 12 MONTHS, was there any time when you needed any of the following, but didn't get it because you couldn't afford it? ...Prescription medicines", 
         "resourceType": "ValueSet", 
@@ -31013,8 +31161,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-DelayedMedicalCare_HadToPayOutOfPocket", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-DelayedMedicalCare_HadToPayOutOfPocket", 
         "title": "Values for There are many reasons people delay getting medical care. Have you delayed getting care for any of the following reasons in the PAST 12 MONTHS?\u2026You had to pay out of pocket for some or all of the procedure", 
         "resourceType": "ValueSet", 
@@ -31319,8 +31467,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-OverallHealth_MedicalFormConfidence", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-OverallHealth_MedicalFormConfidence", 
         "title": "Values for How confident are you filling out medical forms by yourself?", 
         "resourceType": "ValueSet", 
@@ -31637,8 +31785,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-PIIAddress_StreetAddress", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-PIIAddress_StreetAddress", 
         "title": "Values for Street Address1", 
         "resourceType": "ValueSet", 
@@ -31947,8 +32095,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-EHRConsentPII_SensitiveInfoAccess", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-EHRConsentPII_SensitiveInfoAccess", 
         "title": "Values for Will all of us access sensitive information in the EHR?", 
         "resourceType": "ValueSet", 
@@ -32253,8 +32401,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-NewEnglandSitePairing_CareReceived", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-NewEnglandSitePairing_CareReceived", 
         "title": "Values for Have you ever received care at any hospital, health center or clinic affiliated with Boston Medical Center (BMC) or Partners HealthCare (Partners)?", 
         "resourceType": "ValueSet", 
@@ -32563,8 +32711,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-HealthAdvice_OBGYNVisits", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-HealthAdvice_OBGYNVisits", 
         "title": "Values for What is the total number visits to a doctor who specializes in women's health that you made in the last 12 months", 
         "resourceType": "ValueSet", 
@@ -32893,8 +33041,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-ExtraConsent_AllOfUsPurpose", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-ExtraConsent_AllOfUsPurpose", 
         "title": "Values for What is the purpose of All of Us?", 
         "resourceType": "ValueSet", 
@@ -33199,8 +33347,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-HealthProviderRaceReligion_HowOften", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-HealthProviderRaceReligion_HowOften", 
         "title": "Values for The following questions are about your experiences with health care providers in the past year. Some people think it is important for their providers to understand or share their race or ethnicity or gender or religion or beliefs or native language. \n\nHow often were you able to see health care providers who were similar to you in any of these ways? Would you say\u2026", 
         "resourceType": "ValueSet", 
@@ -33513,8 +33661,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-CantAffordCare_DentalCare", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-CantAffordCare_DentalCare", 
         "title": "Values for DURING THE PAST 12 MONTHS, was there any time when you needed any of the following, but didn't get it because you couldn't afford it?...Dental care (including check ups)", 
         "resourceType": "ValueSet", 
@@ -33819,8 +33967,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-Alcohol_6orMoreDrinksOccurence", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-Alcohol_6orMoreDrinksOccurence", 
         "title": "Values for How often did you have six or more drinks on one occasion in the past year?", 
         "resourceType": "ValueSet", 
@@ -34137,8 +34285,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-ArizonaSitePairing_AZSitepairingLocation", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-ArizonaSitePairing_AZSitepairingLocation", 
         "title": "Values for The All of Us Research Program is enrolling participants at the following healthcare sites. At which location do you wish to schedule your visit?", 
         "resourceType": "ValueSet", 
@@ -34495,8 +34643,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-PostPMBFeedback_SatisfactionWithSite", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-PostPMBFeedback_SatisfactionWithSite", 
         "title": "Values for How satisfied are you with your visit at the site where your blood was drawn?", 
         "resourceType": "ValueSet", 
@@ -34813,8 +34961,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-OverallHealth_EverydayActivities", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-OverallHealth_EverydayActivities", 
         "title": "Values for To what extent are you able to carry out your everyday physical activities such as walking, climbing stairs, carrying groceries, or moving a chair?", 
         "resourceType": "ValueSet", 
@@ -35131,8 +35279,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-WesternMichiganSitePairing_SpectrumHealthSitePairing", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-WesternMichiganSitePairing_SpectrumHealthSitePairing", 
         "title": "Values for Have you ever received care at a Spectrum Health System facility or are you currently affiliated with the system? This may include receiving care in a Spectrum hospital, urgent care, emergency department, outpatient clinic or through employee health", 
         "resourceType": "ValueSet", 
@@ -35437,8 +35585,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-OverallHealth_HealthMaterialAssistance", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-OverallHealth_HealthMaterialAssistance", 
         "title": "Values for How often do you have someone help you read health-related materials?", 
         "resourceType": "ValueSet", 
@@ -35755,8 +35903,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-HealthAdvice_SpokenToGeneralDoctor", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-HealthAdvice_SpokenToGeneralDoctor", 
         "title": "Values for DURING THE PAST 12 MONTHS, have you seen or talked to any of the following health care providers about your own health? ...A general doctor who treats a variety of illnesses (a physician in general practice, primary care, family medicine, or internal medicine)?", 
         "resourceType": "ValueSet", 
@@ -36061,8 +36209,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-Pregnancy_1PregnancyStatus", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-Pregnancy_1PregnancyStatus", 
         "title": "Values for Are you currently pregnant?", 
         "resourceType": "ValueSet", 
@@ -36371,8 +36519,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-SecondContactsAddress_SecondContactState", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-SecondContactsAddress_SecondContactState", 
         "title": "Values for State", 
         "resourceType": "ValueSet", 
@@ -36905,8 +37053,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-Insurance_InsuranceType", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-Insurance_InsuranceType", 
         "title": "Values for Are you currently covered by any of the following types of health insurance or health coverage plans? Mark yes or no for EACH type of coverage below", 
         "resourceType": "ValueSet", 
@@ -37251,8 +37399,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-RefresherConsent_VoluntaryParticipation", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-RefresherConsent_VoluntaryParticipation", 
         "title": "Values for Participation is voluntary. You do not have to have measurements taken or give samples.", 
         "resourceType": "ValueSet", 
@@ -37561,8 +37709,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-Black_BlackSpecific", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-Black_BlackSpecific", 
         "title": "Values for Black, African American, or African (For example: African American, Ethiopian, Haitian, Jamaican, Nigerian, Somali, etc.) *", 
         "resourceType": "ValueSet", 
@@ -37907,8 +38055,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-Employment_EmploymentWorkAddress", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-Employment_EmploymentWorkAddress", 
         "title": "Values for If DSS5a= employed for wages or self-\u00ad\u2010employed: What is your work street address?", 
         "resourceType": "ValueSet", 
@@ -38229,8 +38377,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-Insurance_HealthcareCoverage", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-Insurance_HealthcareCoverage", 
         "title": "Values for In regard to your health insurance or health care coverage, how does it compare to a year ago? Is it better, worse, or about the same?", 
         "resourceType": "ValueSet", 
@@ -38539,8 +38687,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-HealthAdvice_ChiropractorVisits", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-HealthAdvice_ChiropractorVisits", 
         "title": "Values for What is the total number visits to a chiropractor that you made in the last 12 months", 
         "resourceType": "ValueSet", 
@@ -38869,8 +39017,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-HealthAdvice_TraditionalHealerVisits", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-HealthAdvice_TraditionalHealerVisits", 
         "title": "Values for What is the total number visits to a traditional healer that you made in the last 12 months", 
         "resourceType": "ValueSet", 
@@ -39199,8 +39347,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-DelayedMedicalCare_ChildCare", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-DelayedMedicalCare_ChildCare", 
         "title": "Values for There are many reasons people delay getting medical care. Have you delayed getting care for any of the following reasons in the PAST 12 MONTHS?...Couldn\u2019t get child care.", 
         "resourceType": "ValueSet", 
@@ -39505,8 +39653,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-HealthInsurance_HealthInsuranceType", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-HealthInsurance_HealthInsuranceType", 
         "title": "Values for What kind of health insurance or health care coverage do you have? Include those that pay for only one type of service (nursing home care, accidents, or dental care). Exclude private plans that only provide extra cash while hospitalized. If you have more than one kind of health insurance, mark all plans that you have.", 
         "resourceType": "ValueSet", 
@@ -39847,8 +39995,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-HealthAdvice_SpokenToDentist", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-HealthAdvice_SpokenToDentist", 
         "title": "Values for DURING THE PAST 12 MONTHS, have you seen or talked to any of the following health care providers about your own health?...A dentist or orthodontist", 
         "resourceType": "ValueSet", 
@@ -40153,8 +40301,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-PostPMBFeedback_RespectOfStaff", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-PostPMBFeedback_RespectOfStaff", 
         "title": "Values for Would you say that the study staff, overall, have been respectful or disrespectful when they have interacted with you?\u201d", 
         "resourceType": "ValueSet", 
@@ -40471,8 +40619,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-Past3MonthUseFrequency_OtherStimulant3MonthUse", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-Past3MonthUseFrequency_OtherStimulant3MonthUse", 
         "title": "Values for In the PAST THREE MONTHS, how often have you used Other stimulants (methamphetamine, speed, crystal meth, ice, k2/spice, bath salts, etc.)", 
         "resourceType": "ValueSet", 
@@ -40789,8 +40937,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-OverallHealth_DifficultUnderstandInfo", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-OverallHealth_DifficultUnderstandInfo", 
         "title": "Values for How often do you have problems learning about your medical condition because of difficulty understanding written information?", 
         "resourceType": "ValueSet", 
@@ -41107,8 +41255,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-Asian_AsianSpecific", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-Asian_AsianSpecific", 
         "title": "Values for Asian (For example: Asian Indian, Chinese, Filipino, Japanese, Korean, Vietnamese, etc.) *", 
         "resourceType": "ValueSet", 
@@ -41445,8 +41593,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-CantAffordCare_WorriedAboutPaying", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-CantAffordCare_WorriedAboutPaying", 
         "title": "Values for If you get sick or have an accident, how worried are you that you will be able to pay your medical bills? Are you very worried, somewhat worried, or not at all worried?", 
         "resourceType": "ValueSet", 
@@ -41755,8 +41903,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-CantAffordCare_DelayedFillingRxToSaveMoney", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-CantAffordCare_DelayedFillingRxToSaveMoney", 
         "title": "Values for DURING THE PAST 12 MONTHS, were any of the following true for you?\u2026You delayed filling a prescription to save money", 
         "resourceType": "ValueSet", 
@@ -42061,8 +42209,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-HealthAdvice_SpokenToMentalHealthProfessional", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-HealthAdvice_SpokenToMentalHealthProfessional", 
         "title": "Values for DURING THE PAST 12 MONTHS, have you seen or talked to any of the following health care providers about your own health?...A mental health professional such as a psychiatrist, psychologist, psychiatric nurse, or clinical social worker", 
         "resourceType": "ValueSet", 
@@ -42367,8 +42515,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-OverallHealth_OvaryRemovalHistory", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-OverallHealth_OvaryRemovalHistory", 
         "title": "Values for Have you ever had an ovary removed?", 
         "resourceType": "ValueSet", 
@@ -42685,8 +42833,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-Alcohol_DrinkFrequencyPastYear", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-Alcohol_DrinkFrequencyPastYear", 
         "title": "Values for How often did you have a drink containing alcohol in the past year?", 
         "resourceType": "ValueSet", 
@@ -43003,8 +43151,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-CantAffordCare_AbleToPayMedicalBills", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-CantAffordCare_AbleToPayMedicalBills", 
         "title": "Values for If you get sick or have an accident, how worried are you that you will be able to pay your medical bills? Are you very worried, somewhat worried, or not at all worried?", 
         "resourceType": "ValueSet", 
@@ -43313,8 +43461,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-HealthAdvice_WhatKindOfPlace", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-HealthAdvice_WhatKindOfPlace", 
         "title": "Values for What kind of place do you go to most often?", 
         "resourceType": "ValueSet", 
@@ -43631,8 +43779,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-OverallHealth_MenstrualStopped", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-OverallHealth_MenstrualStopped", 
         "title": "Values for Have your menstrual periods stopped permanently?", 
         "resourceType": "ValueSet", 
@@ -43945,8 +44093,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-PPIFeedback_SkippingQuestions", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-PPIFeedback_SkippingQuestions", 
         "title": "Values for Did you skip any of the questions?", 
         "resourceType": "ValueSet", 
@@ -44251,8 +44399,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-PostPMBFeedback_RecommendJoiningAoU", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-PostPMBFeedback_RecommendJoiningAoU", 
         "title": "Values for Would you recommend to your friends to join the All of Us Research Program?", 
         "resourceType": "ValueSet", 
@@ -44561,8 +44709,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-HealthAdvice_SpokenToNursePractitioner", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-HealthAdvice_SpokenToNursePractitioner", 
         "title": "Values for DURING THE PAST 12 MONTHS, have you seen or talked to any of the following health care providers about your own health? ...A nurse practitioner, physician assistant, or midwife", 
         "resourceType": "ValueSet", 
@@ -44867,8 +45015,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-DelayedMedicalCare_DeductibleTooHigh", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-DelayedMedicalCare_DeductibleTooHigh", 
         "title": "Values for There are many reasons people delay getting medical care. Have you delayed getting care for any of the following reasons in the PAST 12 MONTHS?\u2026Your deductible was too high/or could not afford the deductible", 
         "resourceType": "ValueSet", 
@@ -45173,8 +45321,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-CantAffordCare_EmergencyCare", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-CantAffordCare_EmergencyCare", 
         "title": "Values for DURING THE PAST 12 MONTHS, was there any time when you needed any of the following, but didn't get it because you couldn't afford it? \u2026Emergency care", 
         "resourceType": "ValueSet", 
@@ -45479,8 +45627,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-Gender_CloserGenderDescription", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-Gender_CloserGenderDescription", 
         "title": "Values for Are any of these a closer description to your gender identity?", 
         "resourceType": "ValueSet", 
@@ -45809,8 +45957,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-Smoking_SmokeFrequency", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-Smoking_SmokeFrequency", 
         "title": "Values for Do you now smoke cigarettes every day, some days, or not at all?", 
         "resourceType": "ValueSet", 
@@ -46119,8 +46267,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-NHPI_NHPISpecific", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-NHPI_NHPISpecific", 
         "title": "Values for Native Hawaiian or other Pacific Islander (For example: Chamorro, Fijian, Marshallese, Native Hawaiian, Tongan, etc.) *", 
         "resourceType": "ValueSet", 
@@ -46457,8 +46605,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-SanDiegoBloodBankScheduling_EMSIOrSDBBPreference", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-SanDiegoBloodBankScheduling_EMSIOrSDBBPreference", 
         "title": "Values for Would you prefer to schedule with the San Diego Blood Bank or would you prefer a home visit?", 
         "resourceType": "ValueSet", 
@@ -46763,8 +46911,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-OverallHealth_GeneralHealth", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-OverallHealth_GeneralHealth", 
         "title": "Values for In general, would you say your health is:", 
         "resourceType": "ValueSet", 
@@ -47080,9 +47228,339 @@
     {
       "resource": {
         "status": "draft", 
+        "url": "http://terminology.pmi-ops.org/ValueSet/ppi-HealthInsurance_InsuranceTypeUpdate", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
+        "name": "values-for-HealthInsurance_InsuranceTypeUpdate", 
+        "title": "Values for Are you currently covered by any of the following types of health insurance or health coverage plans? Select all that apply from one group.", 
+        "resourceType": "ValueSet", 
+        "publisher": "Precision Medicine Initiative: All of Us Resarch Program", 
+        "compose": {
+          "include": [
+            {
+              "concept": [
+                {
+                  "code": "InsuranceTypeUpdate_Medicare", 
+                  "display": "Medicare, for people 65 and older or people with certain disabilities"
+                }, 
+                {
+                  "code": "InsuranceTypeUpdate_OtherHealthPlan", 
+                  "display": "Any other type of health insurance or health coverage plan"
+                }, 
+                {
+                  "code": "InsuranceTypeUpdate_Indian", 
+                  "display": "Indian Health Service"
+                }, 
+                {
+                  "code": "InsuranceTypeUpdate_Medicaid", 
+                  "display": "Medicaid, Medical Assistance, or any kind of government-assistance plan for those with low incomes or disability"
+                }, 
+                {
+                  "code": "InsuranceTypeUpdate_Military", 
+                  "display": "TRICARE or other military health care"
+                }, 
+                {
+                  "code": "InsuranceTypeUpdate_None", 
+                  "display": "I don\u2019t have health insurance, self-pay"
+                }, 
+                {
+                  "code": "InsuranceTypeUpdate_VA", 
+                  "display": "Veterans Affairs (VA) (including those who have ever used or enrolled for VA health care)"
+                }, 
+                {
+                  "code": "InsuranceTypeUpdate_Purchased", 
+                  "display": "Insurance purchased directly from an insurance company (by you or another family member)"
+                }
+              ], 
+              "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+            }, 
+            {
+              "concept": [
+                {
+                  "code": "PIIState_IN", 
+                  "display": "Indiana"
+                }, 
+                {
+                  "code": "PIIState_UT", 
+                  "display": "Utah"
+                }, 
+                {
+                  "code": "PIIState_OK", 
+                  "display": "Oklahoma"
+                }, 
+                {
+                  "code": "PIIState_WA", 
+                  "display": "Washington"
+                }, 
+                {
+                  "code": "PIIState_OH", 
+                  "display": "Ohio"
+                }, 
+                {
+                  "code": "PIIState_VI", 
+                  "display": "Virgin Islands"
+                }, 
+                {
+                  "code": "PIIState_PA", 
+                  "display": "Pennsylvania"
+                }, 
+                {
+                  "code": "PIIState_MN", 
+                  "display": "Minnesota"
+                }, 
+                {
+                  "code": "PIIState_ME", 
+                  "display": "Maine"
+                }, 
+                {
+                  "code": "PIIState_IA", 
+                  "display": "Iowa"
+                }, 
+                {
+                  "code": "PIIState_NE", 
+                  "display": "Nebraska"
+                }, 
+                {
+                  "code": "PIIState_DC", 
+                  "display": "District of Columbia"
+                }, 
+                {
+                  "code": "PIIState_PW", 
+                  "display": "Palau"
+                }, 
+                {
+                  "code": "PIIState_CT", 
+                  "display": "Connecticut"
+                }, 
+                {
+                  "code": "PIIState_SD", 
+                  "display": "South Dakota"
+                }, 
+                {
+                  "code": "PIIState_HI", 
+                  "display": "Hawaii"
+                }, 
+                {
+                  "code": "PIIState_KY", 
+                  "display": "Kentucky"
+                }, 
+                {
+                  "code": "PIIState_NJ", 
+                  "display": "New Jersey"
+                }, 
+                {
+                  "code": "PMI_DoesNotApplyToMe", 
+                  "display": "Does Not Apply To Me"
+                }, 
+                {
+                  "code": "PIIState_KS", 
+                  "display": "Kansas"
+                }, 
+                {
+                  "code": "PIIState_GA", 
+                  "display": "Georgia"
+                }, 
+                {
+                  "code": "PIIState_MO", 
+                  "display": "Missouri"
+                }, 
+                {
+                  "code": "PIIState_OR", 
+                  "display": "Oregon"
+                }, 
+                {
+                  "code": "PIIState_MT", 
+                  "display": "Montana"
+                }, 
+                {
+                  "code": "PIIState_ND", 
+                  "display": "North Dakota"
+                }, 
+                {
+                  "code": "PIIState_RI", 
+                  "display": "Rhode Island"
+                }, 
+                {
+                  "code": "PIIState_AK", 
+                  "display": "Alaska"
+                }, 
+                {
+                  "code": "PMI_FreeText", 
+                  "display": "PMI Free Text Answer"
+                }, 
+                {
+                  "code": "PIIState_MH", 
+                  "display": "Marshall Islands"
+                }, 
+                {
+                  "code": "PIIState_TN", 
+                  "display": "Tennessee"
+                }, 
+                {
+                  "code": "PIIState_CA", 
+                  "display": "California"
+                }, 
+                {
+                  "code": "PMI_None", 
+                  "display": "None"
+                }, 
+                {
+                  "code": "PIIState_SC", 
+                  "display": "South Carolina"
+                }, 
+                {
+                  "code": "PMI_PreferNotToAnswer", 
+                  "display": "PMI Prefer Not To Answer"
+                }, 
+                {
+                  "code": "PIIState_AL", 
+                  "display": "Alabama"
+                }, 
+                {
+                  "code": "PIIState_WI", 
+                  "display": "Wisconsin"
+                }, 
+                {
+                  "code": "PIIState_AZ", 
+                  "display": "Arizona"
+                }, 
+                {
+                  "code": "PIIState_WV", 
+                  "display": "West Virginia"
+                }, 
+                {
+                  "code": "PMI_Skip", 
+                  "display": "PMI Skip"
+                }, 
+                {
+                  "code": "PIIState_TX", 
+                  "display": "Texas"
+                }, 
+                {
+                  "code": "PIIState_MI", 
+                  "display": "Michigan"
+                }, 
+                {
+                  "code": "PIIState_NH", 
+                  "display": "New Hampshire"
+                }, 
+                {
+                  "code": "PIIState_ID", 
+                  "display": "Idaho"
+                }, 
+                {
+                  "code": "PIIState_WY", 
+                  "display": "Wyoming"
+                }, 
+                {
+                  "code": "PIIState_LA", 
+                  "display": "Louisiana"
+                }, 
+                {
+                  "code": "PIIState_FM", 
+                  "display": "Federated States of Micronesia"
+                }, 
+                {
+                  "code": "PIIState_AR", 
+                  "display": "Arkansas"
+                }, 
+                {
+                  "code": "PIIState_VA", 
+                  "display": "Virginia"
+                }, 
+                {
+                  "code": "PIIState_MA", 
+                  "display": "Massachusetts"
+                }, 
+                {
+                  "code": "PIIState_IL", 
+                  "display": "Illinois"
+                }, 
+                {
+                  "code": "PIIState_NY", 
+                  "display": "New York"
+                }, 
+                {
+                  "code": "PIIState_PR", 
+                  "display": "Puerto Rico"
+                }, 
+                {
+                  "code": "PIIState_FL", 
+                  "display": "Florida"
+                }, 
+                {
+                  "code": "PMI_Unanswered", 
+                  "display": "PMI Question Unanswered"
+                }, 
+                {
+                  "code": "PIIState_AS", 
+                  "display": "American Samoa"
+                }, 
+                {
+                  "code": "PIIState_MS", 
+                  "display": "Mississippi"
+                }, 
+                {
+                  "code": "PMI_NotSure", 
+                  "display": "PMI Not Sure"
+                }, 
+                {
+                  "code": "PIIState_VT", 
+                  "display": "Vermont"
+                }, 
+                {
+                  "code": "PIIState_NC", 
+                  "display": "North Carolina"
+                }, 
+                {
+                  "code": "PIIState_DE", 
+                  "display": "Delaware"
+                }, 
+                {
+                  "code": "PMI_DontKnow", 
+                  "display": "PMI Don't Know"
+                }, 
+                {
+                  "code": "PIIState_CO", 
+                  "display": "Colorado"
+                }, 
+                {
+                  "code": "PIIState_MP", 
+                  "display": "North Marianas Islands"
+                }, 
+                {
+                  "code": "PIIState_NV", 
+                  "display": "Nevada"
+                }, 
+                {
+                  "code": "PMI_Other", 
+                  "display": "PMI Other (Qualifier Value)"
+                }, 
+                {
+                  "code": "PIIState_GU", 
+                  "display": "Guam"
+                }, 
+                {
+                  "code": "PIIState_MD", 
+                  "display": "Maryland"
+                }, 
+                {
+                  "code": "PIIState_NM", 
+                  "display": "New Mexico"
+                }
+              ], 
+              "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+            }
+          ]
+        }
+      }
+    }, 
+    {
+      "resource": {
+        "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-CigarSmoking_CigarSmokeParticipant", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-CigarSmoking_CigarSmokeParticipant", 
         "title": "Values for Have you ever smoked a traditional cigar, cigarillo, or filtered cigar, even one or two puffs?", 
         "resourceType": "ValueSet", 
@@ -47387,8 +47865,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-SecondaryContactInfo_PersonOneAddressOne", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-SecondaryContactInfo_PersonOneAddressOne", 
         "title": "Values for Person 1 Address Line 1", 
         "resourceType": "ValueSet", 
@@ -47697,8 +48175,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-CantAffordCare_MentalHealthCounseling", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-CantAffordCare_MentalHealthCounseling", 
         "title": "Values for DURING THE PAST 12 MONTHS, was there any time when you needed any of the following, but didn't get it because you couldn't afford it? ..Mental health care or counseling", 
         "resourceType": "ValueSet", 
@@ -48003,8 +48481,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-EHRConsentPII_ConsentPermission", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-EHRConsentPII_ConsentPermission", 
         "title": "Values for Do you consent?", 
         "resourceType": "ValueSet", 
@@ -48309,8 +48787,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-AccountCreation_AccountCreationTime", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-AccountCreation_AccountCreationTime", 
         "title": "Values for Did creating your account take less or more time than you thought it would?", 
         "resourceType": "ValueSet", 
@@ -48627,8 +49105,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-Past3MonthUseFrequency_StreetOpioid3MonthUse", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-Past3MonthUseFrequency_StreetOpioid3MonthUse", 
         "title": "Values for In the PAST THREE MONTHS, how often have you used Street opioids (heroin, opium, etc.)", 
         "resourceType": "ValueSet", 
@@ -48945,8 +49423,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-PIIContactInformation_RecontactMethod", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-PIIContactInformation_RecontactMethod", 
         "title": "Values for Method of Recontact", 
         "resourceType": "ValueSet", 
@@ -49259,8 +49737,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-HealthAdvice_AskedForOpinion", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-HealthAdvice_AskedForOpinion", 
         "title": "Values for How often did your health care providers ask for your opinions or beliefs about your medical care or treatment? For example, what kind of tests, procedures, or medications you prefer. Would you say\u2026", 
         "resourceType": "ValueSet", 
@@ -49573,8 +50051,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-CantAffordCare_HealthcareProvider", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-CantAffordCare_HealthcareProvider", 
         "title": "Values for DURING THE PAST 12 MONTHS, was there any time when you needed any of the following, but didn't get it because you couldn't afford it?\u2026To see a regular doctor or general health provider (in primary care, general practice, internal medicine, family medicine)", 
         "resourceType": "ValueSet", 
@@ -49879,8 +50357,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-HealthAdvice_RespectedByProvider", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-HealthAdvice_RespectedByProvider", 
         "title": "Values for How often were you treated with respect by your health care providers? Would you say\u2026", 
         "resourceType": "ValueSet", 
@@ -50193,8 +50671,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-CHCSitePairing_CHCCareatLocation", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-CHCSitePairing_CHCCareatLocation", 
         "title": "Values for Please indicate where you have received care at one of the following locations: CHC Inc Middletown CHC Inc Meriden", 
         "resourceType": "ValueSet", 
@@ -50499,8 +50977,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-EHRConsentPII_ILHIPPAReminder", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-EHRConsentPII_ILHIPPAReminder", 
         "title": "Values for If you live in the state of Illinois, we can not access your EHR (electronic health record) unless you get someone to sign as your witness. Do you want us to remind you about the witness signature?", 
         "resourceType": "ValueSet", 
@@ -50805,8 +51283,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-OverallHealth_OrganTransplant", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-OverallHealth_OrganTransplant", 
         "title": "Values for Have you had a transplant of any type?", 
         "resourceType": "ValueSet", 
@@ -51119,8 +51597,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-TheBasics_SexualOrientation", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-TheBasics_SexualOrientation", 
         "title": "Values for Which of the following best represents how you think of yourself?", 
         "resourceType": "ValueSet", 
@@ -51437,8 +51915,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-OverallHealth_SocialSatisfaction", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-OverallHealth_SocialSatisfaction", 
         "title": "Values for In general, how would you rate your satisfaction with your social activities and relationships?", 
         "resourceType": "ValueSet", 
@@ -51755,8 +52233,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-HealthAdvice_EyeDoctorVisits", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-HealthAdvice_EyeDoctorVisits", 
         "title": "Values for What is the total number visits to an eye doctor that you made in the last 12 months", 
         "resourceType": "ValueSet", 
@@ -52085,8 +52563,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-SitePairing_WisconsinSitePairing", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-SitePairing_WisconsinSitePairing", 
         "title": "Values for The following Healthcare Providers in your area are enrolling participants into the All of Us Research Program. At which institution do you receive care and wish to schedule an enrollment visit with?", 
         "resourceType": "ValueSet", 
@@ -52399,8 +52877,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-HookahSmoking_HookahSmokeParticipant", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-HookahSmoking_HookahSmokeParticipant", 
         "title": "Values for Have you ever smoked tobacco in a hookah, even one or two puffs?", 
         "resourceType": "ValueSet", 
@@ -52705,8 +53183,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-EHRConsentPII_AreYouReady", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-EHRConsentPII_AreYouReady", 
         "title": "Values for Are you ready to take the quiz?", 
         "resourceType": "ValueSet", 
@@ -53011,8 +53489,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-ExtraConsent_CanIWithdraw", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-ExtraConsent_CanIWithdraw", 
         "title": "Values for If I join, can I withdraw (\u201cquit\u201d)?", 
         "resourceType": "ValueSet", 
@@ -53317,8 +53795,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-ResideAZCArizona_AZCArizonaSpecific", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-ResideAZCArizona_AZCArizonaSpecific", 
         "title": "Values for CArizona", 
         "resourceType": "ValueSet", 
@@ -53675,8 +54153,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-PostPMBFeedback_TimeToComplete", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-PostPMBFeedback_TimeToComplete", 
         "title": "Values for Did your visit take less or more time than you thought it would, from start to finish? This includes finding parking, finding the location, being greeted, etc?", 
         "resourceType": "ValueSet", 
@@ -53993,8 +54471,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-VeteransHealthAdministration", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-VeteransHealthAdministration", 
         "title": "Values for Have you received care at the Veterans Health Administration?", 
         "resourceType": "ValueSet", 
@@ -54299,8 +54777,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-OverallHealth_GeneralSocial", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-OverallHealth_GeneralSocial", 
         "title": "Values for In general, please rate how well you carry out your usual social roles. (This includes activities at home, at work and in your community, and responsibilities as a parent, child, spouse, employee, friend, etc.)", 
         "resourceType": "ValueSet", 
@@ -54617,8 +55095,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-LivingSituation_StableHouseConcern", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-LivingSituation_StableHouseConcern", 
         "title": "Values for In the past 6 months, have you been worried or concerned about NOT having a place to live?", 
         "resourceType": "ValueSet", 
@@ -54923,8 +55401,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-HealthProviderRaceReligion_DelayedOrNoCare", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-HealthProviderRaceReligion_DelayedOrNoCare", 
         "title": "Values for The following questions are about your experiences with health care providers in the past year. Some people think it is important for their providers to understand or share their race or ethnicity or gender or religion or beliefs or native language. \n\nHow often have you either delayed or not gone to see health care providers because they were different from you in any of these ways?", 
         "resourceType": "ValueSet", 
@@ -55237,8 +55715,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-GeneralConsent_UnderstandingofAoU", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-GeneralConsent_UnderstandingofAoU", 
         "title": "Values for Do you feel like you have a good understanding of what this Program is about?", 
         "resourceType": "ValueSet", 
@@ -55551,8 +56029,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-ElectronicSmoking_ElectricSmokeFrequency", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-ElectronicSmoking_ElectricSmokeFrequency", 
         "title": "Values for Do you now use electronic nicotine products\u2026", 
         "resourceType": "ValueSet", 
@@ -55861,8 +56339,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-HealthAdvice_SpokenToPhysicalTherapist", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-HealthAdvice_SpokenToPhysicalTherapist", 
         "title": "Values for DURING THE PAST 12 MONTHS, have you seen or talked to any of the following health care providers about your own health?...A physical therapist, speech therapist, respiratory therapist, audiologist, or occupational therapist", 
         "resourceType": "ValueSet", 
@@ -56167,8 +56645,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-HealthAdvice_SpokenToPodiatrist", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-HealthAdvice_SpokenToPodiatrist", 
         "title": "Values for DURING THE PAST 12 MONTHS, have you seen or talked to any of the following health care providers about your own health?....A podiatrist or foot doctor", 
         "resourceType": "ValueSet", 
@@ -56473,8 +56951,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-OrganTransplant_OrganTransplantDescription", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-OrganTransplant_OrganTransplantDescription", 
         "title": "Values for If yes, please check all that apply.", 
         "resourceType": "ValueSet", 
@@ -56823,8 +57301,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-Employment_EmploymentStatus", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-Employment_EmploymentStatus", 
         "title": "Values for What is your current employment status? Please select 1 or more of these categories.", 
         "resourceType": "ValueSet", 
@@ -57153,8 +57631,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-White_WhiteSpecific", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-White_WhiteSpecific", 
         "title": "Values for White (For example: English, European, French, German, Irish, Italian, Polish, etc.) *", 
         "resourceType": "ValueSet", 
@@ -57499,8 +57977,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-Smoking_100CigsLifetime", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-Smoking_100CigsLifetime", 
         "title": "Values for Have you smoked at least 100 cigarettes in your entire life? (There are 20 cigarettes in a pack.)", 
         "resourceType": "ValueSet", 
@@ -57805,8 +58283,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-HealthAdvice_PlaceforHealthAdvice", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-HealthAdvice_PlaceforHealthAdvice", 
         "title": "Values for Is there a place that you USUALLY go to when you are sick or need advice about your health?", 
         "resourceType": "ValueSet", 
@@ -58115,8 +58593,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-EHRConsentPII_TXandMAHIPPA", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-EHRConsentPII_TXandMAHIPPA", 
         "title": "Values for TX and MA two step consent", 
         "resourceType": "ValueSet", 
@@ -58421,8 +58899,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-ExtraConsent_21YearsofAge", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-ExtraConsent_21YearsofAge", 
         "title": "Values for Because of specific laws in the territory of Puerto Rico, you need to be 21 or older to join All of Us. Are you 21 or older?", 
         "resourceType": "ValueSet", 
@@ -58727,8 +59205,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-HealthAdvice_NursePractitionerVisits", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-HealthAdvice_NursePractitionerVisits", 
         "title": "Values for What is the total number of nurse practitioner, physician assistant, or midwife visits you made in the last 12 months", 
         "resourceType": "ValueSet", 
@@ -59057,8 +59535,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-LivingSituation_HowManyLivingYears", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-LivingSituation_HowManyLivingYears", 
         "title": "Values for How many years have you lived at your current address?", 
         "resourceType": "ValueSet", 
@@ -59379,8 +59857,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-SitePairingConfirmation_ConfirmHPO", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-SitePairingConfirmation_ConfirmHPO", 
         "title": "Values for Welcome to the All of Us Research Program!\nThank you for completing the consent process! You have been paired with [profile HPO_full_name]. Before you can proceed, please confirm this is correct.", 
         "resourceType": "ValueSet", 
@@ -59685,8 +60163,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-EHRConsentPII_TakeAsMuchTime", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-EHRConsentPII_TakeAsMuchTime", 
         "title": "Values for Take as much time you need to decide about giving All of Us access to your EHR. You can review these screens as many times as you like.", 
         "resourceType": "ValueSet", 
@@ -59991,8 +60469,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-CantAffordCare_SkippedMedToSaveMoney", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-CantAffordCare_SkippedMedToSaveMoney", 
         "title": "Values for DURING THE PAST 12 MONTHS, were any of the following true for you?\u2026You skipped medication doses to save money", 
         "resourceType": "ValueSet", 
@@ -60297,8 +60775,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-ExtraConsent_19YearsofAge", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-ExtraConsent_19YearsofAge", 
         "title": "Values for Because of specific laws in the territory of Alabama, you need to be 19 or older to join All of Us. Are you 19 or older?", 
         "resourceType": "ValueSet", 
@@ -60603,8 +61081,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-HealthAdvice_GeneralDoctorVisits", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-HealthAdvice_GeneralDoctorVisits", 
         "title": "Values for What is the total number of general doctor visits you made in the last 12 months", 
         "resourceType": "ValueSet", 
@@ -60933,8 +61411,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-OverallHealth_AverageFatigue7Days", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-OverallHealth_AverageFatigue7Days", 
         "title": "Values for In the past 7 days, how would you rate your fatigue on average?", 
         "resourceType": "ValueSet", 
@@ -61251,8 +61729,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-EHRConsentPII_YoutubeVideos", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-EHRConsentPII_YoutubeVideos", 
         "title": "Values for Youtube Videos", 
         "resourceType": "ValueSet", 
@@ -61557,8 +62035,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-DelayedMedicalCare_RuralArea", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-DelayedMedicalCare_RuralArea", 
         "title": "Values for You live in a rural area where distance to the health care provider is too far", 
         "resourceType": "ValueSet", 
@@ -61863,8 +62341,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-HomeOwn_CurrentHomeOwn", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-HomeOwn_CurrentHomeOwn", 
         "title": "Values for Do you own or rent the place where you live?", 
         "resourceType": "ValueSet", 
@@ -62173,8 +62651,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-OverallHealth_GeneralPhysicalHealth", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-OverallHealth_GeneralPhysicalHealth", 
         "title": "Values for In general, how would you rate your physical health?", 
         "resourceType": "ValueSet", 
@@ -62491,8 +62969,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-ExtraConsent_TakePartAllOfUs", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-ExtraConsent_TakePartAllOfUs", 
         "title": "Values for Do I have to take part in All of Us?", 
         "resourceType": "ValueSet", 
@@ -62797,8 +63275,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-HealthAdvice_DentistVisits", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-HealthAdvice_DentistVisits", 
         "title": "Values for What is the total number visits to a dentist or orthodontist that you made in the last 12 months", 
         "resourceType": "ValueSet", 
@@ -63127,8 +63605,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-CantAffordCare_BoughtRxFromOtherCountry", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-CantAffordCare_BoughtRxFromOtherCountry", 
         "title": "Values for DURING THE PAST 12 MONTHS, were any of the following true for you?\u2026You bought prescription drugs from another country to save money", 
         "resourceType": "ValueSet", 
@@ -63433,8 +63911,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-SitePairingConfirmation_Awardee", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-SitePairingConfirmation_Awardee", 
         "title": "Values for Thank you for completing the consent process! You have been paired with [profile Awardee_full_name value]. Before you can proceed, please confirm this is correct.", 
         "resourceType": "ValueSet", 
@@ -63739,8 +64217,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-TennesseeSitePairing_CherokeeHealthPatient", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-TennesseeSitePairing_CherokeeHealthPatient", 
         "title": "Values for Are you a Cherokee Health Systems patient?", 
         "resourceType": "ValueSet", 
@@ -64045,8 +64523,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-HealthAdvice_SpokenToTraditionalHealer", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-HealthAdvice_SpokenToTraditionalHealer", 
         "title": "Values for DURING THE PAST 12 MONTHS, have you seen or talked to any of the following health care providers about your own health?\u2026Traditional healers such as, Shaman, acupuncturist, or non-western medicine?", 
         "resourceType": "ValueSet", 
@@ -64351,8 +64829,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-PPIFeedback_TimeToAnswerQuestions", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-PPIFeedback_TimeToAnswerQuestions", 
         "title": "Values for Did answering the survey questions take less time or more time than what you thought it would?", 
         "resourceType": "ValueSet", 
@@ -64669,8 +65147,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-SouthCarolinaSitePairing_EauClaire", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-SouthCarolinaSitePairing_EauClaire", 
         "title": "Values for Are you currently a patient at any of the following Eau Claire clinics or health centers?\nWaverly Family Practice\nPelion Family Practice", 
         "resourceType": "ValueSet", 
@@ -64975,8 +65453,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-GeneralConsent_PreferredContactMethod", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-GeneralConsent_PreferredContactMethod", 
         "title": "Values for We would like to send you updates about events and activities taking place in the Program. But we want you to have the choice in how much we contact you. How often would you like to hear from us:", 
         "resourceType": "ValueSet", 
@@ -65293,8 +65771,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-DVEHRSharing_AreYouInterested", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-DVEHRSharing_AreYouInterested", 
         "title": "Values for Would you be interested in sharing your electronic health records with All of Us in the future?", 
         "resourceType": "ValueSet", 
@@ -65603,8 +66081,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-QTCQuestScheduling_QTCQuestSite", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-QTCQuestScheduling_QTCQuestSite", 
         "title": "Values for Now that you have completed base consent, please select the site where you would like to schedule your physical measurement and biosample appointment", 
         "resourceType": "ValueSet", 
@@ -65909,8 +66387,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-ExtraConsent_EverReceivedUPMCCare", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-ExtraConsent_EverReceivedUPMCCare", 
         "title": "Values for Have you ever received care at a UPMC healthcare provider?", 
         "resourceType": "ValueSet", 
@@ -66215,8 +66693,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-SmokelessTobacco_SmokelessTobaccoFrequency", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-SmokelessTobacco_SmokelessTobaccoFrequency", 
         "title": "Values for Do you now use smokeless tobacco products\u2026", 
         "resourceType": "ValueSet", 
@@ -66525,8 +67003,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-GenderIdentity_SexualityCloserDescription", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-GenderIdentity_SexualityCloserDescription", 
         "title": "Values for Are any of these a closer description of how you think of yourself?", 
         "resourceType": "ValueSet", 
@@ -66863,8 +67341,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-Past3MonthUseFrequency_PrescriptionStimulant3MonthUse", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-Past3MonthUseFrequency_PrescriptionStimulant3MonthUse", 
         "title": "Values for In the PAST THREE MONTHS, how often have you used Prescription stimulants for non-medical reasons (Vyvanse, Ritalin, Concerta, Dexedrine, Adderall, diet pills, etc.)", 
         "resourceType": "ValueSet", 
@@ -67181,8 +67659,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-IllinoisSitePairing_IllinoisInstitution", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-IllinoisSitePairing_IllinoisInstitution", 
         "title": "Values for The following Healthcare Providers in your area are enrolling participants into the All of Us Research Program. At which institution do you receive care and wish to schedule an enrollment visit with? Please choose 1 institution", 
         "resourceType": "ValueSet", 
@@ -67507,8 +67985,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-HealthAdvice_PodiatristVisits", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-HealthAdvice_PodiatristVisits", 
         "title": "Values for What is the total number visits to a foot doctor that you made in the last 12 months", 
         "resourceType": "ValueSet", 
@@ -67837,8 +68315,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-ExtraConsent_ReadyOrNeedHelp", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-ExtraConsent_ReadyOrNeedHelp", 
         "title": "Values for Take the time you need to decide about joining All of Us. We are here to answer any questions you have.", 
         "resourceType": "ValueSet", 
@@ -68143,8 +68621,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-SitePairing_CurrentlyReside", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-SitePairing_CurrentlyReside", 
         "title": "Values for Where do you currently reside?", 
         "resourceType": "ValueSet", 
@@ -68461,8 +68939,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-SecondaryContactInfo_SecondContactsRelationship", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-SecondaryContactInfo_SecondContactsRelationship", 
         "title": "Values for What is this second person's relationship to you?", 
         "resourceType": "ValueSet", 
@@ -68779,8 +69257,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-RecreationalDrugUse_WhichDrugsUsed", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-RecreationalDrugUse_WhichDrugsUsed", 
         "title": "Values for In your LIFETIME, which of the following substances have you ever used?", 
         "resourceType": "ValueSet", 
@@ -69121,8 +69599,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-CantAffordCare_Specialist", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-CantAffordCare_Specialist", 
         "title": "Values for DURING THE PAST 12 MONTHS, was there any time when you needed any of the following, but didn't get it because you couldn't afford it?...To see a specialist", 
         "resourceType": "ValueSet", 
@@ -69427,8 +69905,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-HealthAdvice_SpokenToMedicalSpecialist", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-HealthAdvice_SpokenToMedicalSpecialist", 
         "title": "Values for DURING THE PAST 12 MONTHS, have you seen or talked to any of the following health care providers about your own health?...A medical doctor who specializes in a particular medical disease or problem (other than obstetrician/gynecologist, psychiatrist, or ophthalmologist", 
         "resourceType": "ValueSet", 
@@ -69733,8 +70211,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-HookahSmoking_CurrentHookahFrequency", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-HookahSmoking_CurrentHookahFrequency", 
         "title": "Values for Do you now smoke hookah\u2026", 
         "resourceType": "ValueSet", 
@@ -70043,8 +70521,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-Smoking_SeriousQuitAttempt", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-Smoking_SeriousQuitAttempt", 
         "title": "Values for In the past, have you ever made a serious attempt to quit smoking? That is, have you stopped smoking for at least one day or longer because you were trying to quit?", 
         "resourceType": "ValueSet", 
@@ -70349,8 +70827,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-TheBasics_Birthplace", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-TheBasics_Birthplace", 
         "title": "Values for In what country were you born?", 
         "resourceType": "ValueSet", 
@@ -70651,8 +71129,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-Past3MonthUseFrequency_Other3MonthUse", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-Past3MonthUseFrequency_Other3MonthUse", 
         "title": "Values for In the PAST THREE MONTHS, how often have you used Other [INSERT LANGUAGE FROM SU01j]", 
         "resourceType": "ValueSet", 
@@ -70969,8 +71447,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-Race_WhatRaceEthnicity", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-Race_WhatRaceEthnicity", 
         "title": "Values for Which categories describe you? Select all that apply. Note, you may select more than one group.", 
         "resourceType": "ValueSet", 
@@ -71303,8 +71781,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-EHRConsentPII_AllOfAccess", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-EHRConsentPII_AllOfAccess", 
         "title": "Values for Do I have to give all of us access to my EHR?", 
         "resourceType": "ValueSet", 
@@ -71609,8 +72087,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-MississippiSitePairing_JacksonHindsAppointment", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-MississippiSitePairing_JacksonHindsAppointment", 
         "title": "Values for Have you already scheduled an All of Us research appointment at the Jackson-Hinds Comprehensive Health Center's Main Site (James Anderson Clinic) or the Copiah Clinic?", 
         "resourceType": "ValueSet", 
@@ -71915,8 +72393,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-MichiganSitePairing_LiveInFollowingAreas", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-MichiganSitePairing_LiveInFollowingAreas", 
         "title": "Values for Do you live in any of the following general areas? (others coming soon!)", 
         "resourceType": "ValueSet", 
@@ -72225,8 +72703,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-Language_SpokenWrittenLanguage", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-Language_SpokenWrittenLanguage", 
         "title": "Values for Spoken/Written Language", 
         "resourceType": "ValueSet", 
@@ -72743,8 +73221,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-General_WhyDidYouJoin", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-General_WhyDidYouJoin", 
         "title": "Values for Why did you join the All of Us Research Program? (Please check all that apply)", 
         "resourceType": "ValueSet", 
@@ -73081,8 +73559,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-OverallHealth_HysterectomyHistory", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-OverallHealth_HysterectomyHistory", 
         "title": "Values for Have you ever had a hysterectomy (that is, surgery to remove your uterus or womb)?", 
         "resourceType": "ValueSet", 
@@ -73391,8 +73869,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-TexasSitePairing_BaylorScott", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-TexasSitePairing_BaylorScott", 
         "title": "Values for Have you ever received care at any Baylor Scott & White Healthcare and/or Health Texas Provider Network facility such as:\nBSWH hospitals\nBSWH Urgent care centers\nBSWH Emergency rooms\nHillcrest Health Clinics\nHealth Texas Physician Network (HTPN) clinics/physician offices\nFor the full list, please click on this link: https://www.bswhealth.com/locations/pages/default.aspx?type=All%20Locations\nIf you are uncertain, please call at 844-4US-BSWH (1-844-487-2794).", 
         "resourceType": "ValueSet", 
@@ -73697,8 +74175,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-Past3MonthUseFrequency_Sedative3MonthUse", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-Past3MonthUseFrequency_Sedative3MonthUse", 
         "title": "Values for In the PAST THREE MONTHS, how often have you used Sedatives or sleeping pills for non-medical reasons (Valium, Serepax, Ativan, Xanax, Librium, Rohypnol, GHB, etc.)", 
         "resourceType": "ValueSet", 
@@ -74015,8 +74493,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-DelayedMedicalCare_TimeOffWork", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-DelayedMedicalCare_TimeOffWork", 
         "title": "Values for There are many reasons people delay getting medical care. Have you delayed getting care for any of the following reasons in the PAST 12 MONTHS? ...Couldn\u2019t get time off work.", 
         "resourceType": "ValueSet", 
@@ -74321,8 +74799,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-DelayedMedicalCare_Nervous", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-DelayedMedicalCare_Nervous", 
         "title": "Values for You were nervous about seeing a health care provider", 
         "resourceType": "ValueSet", 
@@ -74627,8 +75105,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-DelayedMedicalCare_ElderlyCare", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-DelayedMedicalCare_ElderlyCare", 
         "title": "Values for There are many reasons people delay getting medical care. Have you delayed getting care for any of the following reasons in the PAST 12 MONTHS?...Couldn\u2019t get elderly care.", 
         "resourceType": "ValueSet", 
@@ -74933,8 +75411,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-YesNone_MenstrualStoppedReason", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-YesNone_MenstrualStoppedReason", 
         "title": "Values for Why did your periods stop?", 
         "resourceType": "ValueSet", 
@@ -75247,8 +75725,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-GeneralConsent_ConsentEaseOfUnderstanding", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-GeneralConsent_ConsentEaseOfUnderstanding", 
         "title": "Values for Was the consent information easy or hard to understand?", 
         "resourceType": "ValueSet", 
@@ -75565,8 +76043,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-CantAffordCare_FollowupCare", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-CantAffordCare_FollowupCare", 
         "title": "Values for DURING THE PAST 12 MONTHS, was there any time when you needed any of the following, but didn't get it because you couldn't afford it?...Follow-up care", 
         "resourceType": "ValueSet", 
@@ -75871,8 +76349,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-SouthCarolinaSitePairing_EauClaireAppointment", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-SouthCarolinaSitePairing_EauClaireAppointment", 
         "title": "Values for Have you already scheduled an appointment with the All of Us Research Program team?", 
         "resourceType": "ValueSet", 
@@ -76177,8 +76655,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-GeneralConsent_TimeForConsent", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-GeneralConsent_TimeForConsent", 
         "title": "Values for Did going through the consent information take less or more time than you thought it would?", 
         "resourceType": "ValueSet", 
@@ -76495,8 +76973,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-ResideAZSArizona_AZSArizonaSpecific", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-ResideAZSArizona_AZSArizonaSpecific", 
         "title": "Values for SArizona", 
         "resourceType": "ValueSet", 
@@ -76813,8 +77291,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-CantAffordCare_TookLessMedToSaveMoney", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-CantAffordCare_TookLessMedToSaveMoney", 
         "title": "Values for DURING THE PAST 12 MONTHS, were any of the following true for you?\u2026You took less medicine to save money", 
         "resourceType": "ValueSet", 
@@ -77119,8 +77597,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-SanDiegoSitePairing_SanDiegoBloodBank", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-SanDiegoSitePairing_SanDiegoBloodBank", 
         "title": "Values for Have you ever donated blood at the San Diego Blood Bank?", 
         "resourceType": "ValueSet", 
@@ -77425,8 +77903,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-CantAffordCare_AlternativeTherapies", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-CantAffordCare_AlternativeTherapies", 
         "title": "Values for DURING THE PAST 12 MONTHS, were any of the following true for you?\u2026You used alternative therapies to save money", 
         "resourceType": "ValueSet", 
@@ -77731,8 +78209,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-ReceiveCare_PIIState", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-ReceiveCare_PIIState", 
         "title": "Values for Where do you get most of your healthcare?", 
         "resourceType": "ValueSet", 
@@ -78265,8 +78743,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-OverallHealth_GeneralQuality", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-OverallHealth_GeneralQuality", 
         "title": "Values for In general, would you say your quality of life is:", 
         "resourceType": "ValueSet", 
@@ -78583,8 +79061,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-HealthAdvice_MentalHealthProfessionalVisits", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-HealthAdvice_MentalHealthProfessionalVisits", 
         "title": "Values for What is the total number visits to a mental health professional that you made in the last 12 months", 
         "resourceType": "ValueSet", 
@@ -78913,8 +79391,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-CantAffordCare_LowerCostRxToSaveMoney", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-CantAffordCare_LowerCostRxToSaveMoney", 
         "title": "Values for DURING THE PAST 12 MONTHS, were any of the following true for you?\u2026You asked your doctor for a lower cost medication to save money", 
         "resourceType": "ValueSet", 
@@ -79219,8 +79697,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-EastSoutheastMichigan_CareAtHenryFord", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-EastSoutheastMichigan_CareAtHenryFord", 
         "title": "Values for Have you ever received care at a Henry Ford Health System facility or are you currently affiliated with the institution? This many include receiving care in a HFHS hospital, urgent care, emergency department, outpatient clinic or thru HFHS employee health.", 
         "resourceType": "ValueSet", 
@@ -79525,8 +80003,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-MississippiSitePairing_JacksonHinds", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-MississippiSitePairing_JacksonHinds", 
         "title": "Values for Have you ever received care from a health provider at the Jackson-Hinds Comprehensive Health Center's Main Site (James Anderson Clinic) or the Copiah Clinic?", 
         "resourceType": "ValueSet", 
@@ -79831,8 +80309,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-OverallHealth_EmotionalProblem7Days", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-OverallHealth_EmotionalProblem7Days", 
         "title": "Values for In the past 7 days, how often have you been bothered by emotional problems such as feeling anxious, depressed or irritable?", 
         "resourceType": "ValueSet", 
@@ -80149,8 +80627,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-AccountCreation_WhyWasItHard", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-AccountCreation_WhyWasItHard", 
         "title": "Values for Why was it hard to create an account? [check all that apply]", 
         "resourceType": "ValueSet", 
@@ -80467,8 +80945,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-Past3MonthUseFrequency_Marijuana3MonthUse", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-Past3MonthUseFrequency_Marijuana3MonthUse", 
         "title": "Values for In the PAST THREE MONTHS, how often have you used Marijuana (cannabis, pot, grass, hash, weed, etc.)", 
         "resourceType": "ValueSet", 
@@ -80785,8 +81263,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-OverallHealth_GeneralMentalHealth", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-OverallHealth_GeneralMentalHealth", 
         "title": "Values for In general, how would you rate your mental health, including your mood and your ability to think?", 
         "resourceType": "ValueSet", 
@@ -81103,8 +81581,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-Alcohol_AlcoholParticipant", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-Alcohol_AlcoholParticipant", 
         "title": "Values for In your entire life, have you had at least 1 drink of any kind of alcohol, not counting small tastes or sips? (By a \u201cdrink,\u201d we mean a can or bottle of beer, a glass of wine or a wine cooler, a shot of liquor, or a mixed drink with liquor in it.)", 
         "resourceType": "ValueSet", 
@@ -81409,8 +81887,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-MaritalStatus_CurrentMaritalStatus", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-MaritalStatus_CurrentMaritalStatus", 
         "title": "Values for What is your current marital status?", 
         "resourceType": "ValueSet", 
@@ -81731,8 +82209,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-HealthAdvice_EaseofUnderstanding", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-HealthAdvice_EaseofUnderstanding", 
         "title": "Values for How often did your health care providers tell or give you information about your health and health care that was easy to understand? Would you say\u2026", 
         "resourceType": "ValueSet", 
@@ -82045,8 +82523,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-ColumbiaSitePairing_ColumbiaCare", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-ColumbiaSitePairing_ColumbiaCare", 
         "title": "Values for Have you ever received care at any of the following?", 
         "resourceType": "ValueSet", 
@@ -82359,8 +82837,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-ExtraConsent_ScheduledWithPACares", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-ExtraConsent_ScheduledWithPACares", 
         "title": "Values for Have you already scheduled an appointment with your local PA Cares for Us team for physical measurements and biosample collection?", 
         "resourceType": "ValueSet", 
@@ -82665,8 +83143,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-HealthProviderRaceReligion_HowImportant", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-HealthProviderRaceReligion_HowImportant", 
         "title": "Values for The following questions are about your experiences with health care providers in the past year. Some people think it is important for their providers to understand or share their race or ethnicity or gender or religion or beliefs or native language. \n\nHow important is it to you that your health care providers understand or are similar to you in any of these ways? Would you say...", 
         "resourceType": "ValueSet", 
@@ -82979,8 +83457,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-CantAffordCare_Eyeglasses", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-CantAffordCare_Eyeglasses", 
         "title": "Values for DURING THE PAST 12 MONTHS, was there any time when you needed any of the following, but didn't get it because you couldn't afford it?...Eyeglasses", 
         "resourceType": "ValueSet", 
@@ -83285,8 +83763,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-SmokelessTobacco_SmokelessTobaccoParticipant", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-SmokelessTobacco_SmokelessTobaccoParticipant", 
         "title": "Values for Have you ever used smokeless tobacco products, even one or two times? (Smokeless tobacco products include snus pouches, Skoal Bandits, loose snus, moist snuff, dip, spit, and chewing tobacco.)", 
         "resourceType": "ValueSet", 
@@ -83591,8 +84069,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-CaliforniaSitePairing_CaliforniaUniversityCare", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-CaliforniaSitePairing_CaliforniaUniversityCare", 
         "title": "Values for Have you ever received care at any of the following health centers?\nUniversity of California Irvine Health\nUniversity of Southern California\nUniversity of California San Diego", 
         "resourceType": "ValueSet", 
@@ -83897,8 +84375,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-General_FirstHearAboutAoU", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-General_FirstHearAboutAoU", 
         "title": "Values for Where did you first hear about the All of Us Research Program? (Please check all that apply)", 
         "resourceType": "ValueSet", 
@@ -84239,8 +84717,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-PPIFeedback_UnderstandingQuestions", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-PPIFeedback_UnderstandingQuestions", 
         "title": "Values for Were the questions easy or hard to understand?", 
         "resourceType": "ValueSet", 
@@ -84553,8 +85031,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-ExtraConsent_18YearsofAge", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-ExtraConsent_18YearsofAge", 
         "title": "Values for Copy of Multi Selector", 
         "resourceType": "ValueSet", 
@@ -84859,8 +85337,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-ArizonaSitePairing_AZWalgreensSitepairingLocation", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-ArizonaSitePairing_AZWalgreensSitepairingLocation", 
         "title": "Values for You may be invited to schedule an appointment to provide physical measurements and biosamples. This appointment can take place at Banner Health or at select Walgreens Clinic locations. Which will you prefer:", 
         "resourceType": "ValueSet", 
@@ -85165,8 +85643,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-EHRConsentPII_NavigationalText", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-EHRConsentPII_NavigationalText", 
         "title": "Values for Navigational Text", 
         "resourceType": "ValueSet", 
@@ -85471,8 +85949,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-Hispanic_HispanicSpecific", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-Hispanic_HispanicSpecific", 
         "title": "Values for Hispanic, Latino, or Spanish (For example: Columbian, Cuban, Dominican, Mexican or Mexican American, Puerto Rican, Salvadoran, etc.) *", 
         "resourceType": "ValueSet", 
@@ -85809,8 +86287,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-Past3MonthUseFrequency_Cocaine3MonthUse", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-Past3MonthUseFrequency_Cocaine3MonthUse", 
         "title": "Values for In the PAST THREE MONTHS, how often have you used Cocaine (coke, crack, etc.)", 
         "resourceType": "ValueSet", 
@@ -86127,8 +86605,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-ExtraConsent_PresentlyRegisteredPatient", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-ExtraConsent_PresentlyRegisteredPatient", 
         "title": "Values for Are you presently a registered patient at any of the following clinics?", 
         "resourceType": "ValueSet", 
@@ -86433,8 +86911,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-Income_AnnualIncome", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-Income_AnnualIncome", 
         "title": "Values for What is your annual household income from all sources?", 
         "resourceType": "ValueSet", 
@@ -86767,8 +87245,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-HealthAdvice_SpokenToEyeDoctor", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-HealthAdvice_SpokenToEyeDoctor", 
         "title": "Values for DURING THE PAST 12 MONTHS, have you seen or talked to any of the following health care providers about your own health?...An optometrist, ophthalmologist, or eye doctor (someone who prescribes eyeglasses)", 
         "resourceType": "ValueSet", 
@@ -87073,8 +87551,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-MENA_MENASpecific", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-MENA_MENASpecific", 
         "title": "Values for Middle Eastern or North African (For example: Algerian, Egyptian, Iranian, Lebanese, Moroccan, Syrian, etc.) *", 
         "resourceType": "ValueSet", 
@@ -87415,8 +87893,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-Past3MonthUseFrequency_Inhalant3MonthUse", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-Past3MonthUseFrequency_Inhalant3MonthUse", 
         "title": "Values for In the PAST THREE MONTHS, how often have you used Inhalants (nitrous oxide, glue, gas, paint thinner, etc.)", 
         "resourceType": "ValueSet", 
@@ -87733,8 +88211,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-StateOfResidence", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-StateOfResidence", 
         "title": "Values for What is your state of residence?", 
         "resourceType": "ValueSet", 
@@ -88267,8 +88745,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-Gender_GenderIdentity", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-Gender_GenderIdentity", 
         "title": "Values for What terms best express how you describe your gender identity?", 
         "resourceType": "ValueSet", 
@@ -88585,8 +89063,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-HealthAdvice_SpokenToProfessional", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-HealthAdvice_SpokenToProfessional", 
         "title": "Values for About how long has it been since you last saw or talked to a doctor or other health care \nprofessional about your own health?", 
         "resourceType": "ValueSet", 
@@ -88907,8 +89385,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-LivingSituation_CurrentLiving", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-LivingSituation_CurrentLiving", 
         "title": "Values for Where are you currently living?", 
         "resourceType": "ValueSet", 
@@ -89241,8 +89719,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-QTCNorthCarolinaSchedulingNBC", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-QTCNorthCarolinaSchedulingNBC", 
         "title": "Values for Please select where you would like to schedule your physical measurement and biosample appointment.", 
         "resourceType": "ValueSet", 
@@ -89547,8 +90025,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-SitePairing_SEEC", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-SitePairing_SEEC", 
         "title": "Values for The following Clinics, Healthcare Providers and Hospitals in your area are enrolling participants into the All of Us Research Program. At which institution do you receive care and wish to schedule an enrollment visit with? Please choose one institution.", 
         "resourceType": "ValueSet", 
@@ -89869,8 +90347,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-PersonOneAddress_PersonOneAddressState", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-PersonOneAddress_PersonOneAddressState", 
         "title": "Values for State", 
         "resourceType": "ValueSet", 
@@ -90403,8 +90881,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-EHRConsentPII_AccessChangeMind", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-EHRConsentPII_AccessChangeMind", 
         "title": "Values for Once I give access to my EHR can I change my mind?", 
         "resourceType": "ValueSet", 
@@ -90709,8 +91187,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-HealthAdvice_SpokenToChiropractor", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-HealthAdvice_SpokenToChiropractor", 
         "title": "Values for DURING THE PAST 12 MONTHS, have you seen or talked to any of the following health care providers about your own health?...A chiropractor", 
         "resourceType": "ValueSet", 
@@ -91015,8 +91493,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-DelayedMedicalCare_Transportation", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-DelayedMedicalCare_Transportation", 
         "title": "Values for There are many reasons people delay getting medical care. Have you delayed getting care for any of the following reasons in the PAST 12 MONTHS? ...Didn't have transportation", 
         "resourceType": "ValueSet", 
@@ -91321,8 +91799,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-ElectronicSmoking_ElectricSmokeParticipant", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-ElectronicSmoking_ElectricSmokeParticipant", 
         "title": "Values for Have you ever used an electronic nicotine product, even one or two times? (Electronic nicotine products include e-cigarettes, vape pens, hookah pens, personal vaporizers and mods, e-cigars, e-pipes, and e-hookahs.)", 
         "resourceType": "ValueSet", 
@@ -91627,8 +92105,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-DelayedMedicalCare_CantAffordCoPay", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-DelayedMedicalCare_CantAffordCoPay", 
         "title": "Values for There are many reasons people delay getting medical care. Have you delayed getting care for any of the following reasons in the PAST 12 MONTHS?\u2026Couldn\u2019t afford the co-pay", 
         "resourceType": "ValueSet", 
@@ -91933,8 +92411,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-GeneralConsent_EaseOfUnderstanding", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-GeneralConsent_EaseOfUnderstanding", 
         "title": "Values for What information in the consent was hard to understand? (check all that apply)", 
         "resourceType": "ValueSet", 
@@ -92275,8 +92753,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-PostPMBFeedback_SatisfactionWithStaff", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-PostPMBFeedback_SatisfactionWithStaff", 
         "title": "Values for How satisfied are you with how the staff treated you during your visit?", 
         "resourceType": "ValueSet", 
@@ -92593,8 +93071,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-OverallHealth_OutsideTravel6Month", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-OverallHealth_OutsideTravel6Month", 
         "title": "Values for Have you traveled outside of the United States within the past 6 months?", 
         "resourceType": "ValueSet", 
@@ -92903,8 +93381,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-Insurance_InsuranceAccepted", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-Insurance_InsuranceAccepted", 
         "title": "Values for DURING THE PAST 12 MONTHS, were you told by a health care provider or doctor\u2019s office that they did not accept your health care coverage?", 
         "resourceType": "ValueSet", 
@@ -93209,8 +93687,8 @@
       "resource": {
         "status": "draft", 
         "url": "http://terminology.pmi-ops.org/ValueSet/ppi-AIAN_AIANSpecific", 
-        "version": "0.2.95", 
-        "date": "2018-04-19", 
+        "version": "0.2.96", 
+        "date": "2018-05-17", 
         "name": "values-for-AIAN_AIANSpecific", 
         "title": "Values for American Indian or Alaska Native (For example: Aztec, Blackfeet Tribe, Mayan, Navajo Nation, Native Village of Barrow Inupiat Traditional Government, Nome Eskimo Community, etc.)*", 
         "resourceType": "ValueSet", 

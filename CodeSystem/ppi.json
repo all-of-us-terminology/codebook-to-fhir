@@ -179,6 +179,150 @@
                   "display": "What kind of health insurance or health care coverage do you have? Include those that pay for only one type of service (nursing home care, accidents, or dental care). Exclude private plans that only provide extra cash while hospitalized. If you have more than one kind of health insurance, mark all plans that you have."
                 }, 
                 {
+                  "concept": [
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Insurance", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "InsuranceTypeUpdate_Medicare", 
+                      "display": "Medicare, for people 65 and older or people with certain disabilities"
+                    }, 
+                    {
+                      "concept": [
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Question", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Insurance", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "OtherHealthPlan_FreeText", 
+                          "display": "other (please specify)"
+                        }
+                      ], 
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Insurance", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "InsuranceTypeUpdate_OtherHealthPlan", 
+                      "display": "Any other type of health insurance or health coverage plan"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Insurance", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "InsuranceTypeUpdate_Indian", 
+                      "display": "Indian Health Service"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Insurance", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "InsuranceTypeUpdate_Medicaid", 
+                      "display": "Medicaid, Medical Assistance, or any kind of government-assistance plan for those with low incomes or disability"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Insurance", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "InsuranceTypeUpdate_Military", 
+                      "display": "TRICARE or other military health care"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Insurance", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "InsuranceTypeUpdate_None", 
+                      "display": "I don\u2019t have health insurance, self-pay"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Insurance", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "InsuranceTypeUpdate_VA", 
+                      "display": "Veterans Affairs (VA) (including those who have ever used or enrolled for VA health care)"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Insurance", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "InsuranceTypeUpdate_Purchased", 
+                      "display": "Insurance purchased directly from an insurance company (by you or another family member)"
+                    }
+                  ], 
+                  "property": [
+                    {
+                      "valueCode": "Question", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Insurance", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "HealthInsurance_InsuranceTypeUpdate", 
+                  "display": "Are you currently covered by any of the following types of health insurance or health coverage plans? Select all that apply from one group."
+                }, 
+                {
                   "property": [
                     {
                       "valueCode": "Answer", 
@@ -23756,14 +23900,14 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 1649, 
+  "count": 1659, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.2.95", 
+  "version": "0.2.96", 
   "hierarchyMeaning": "grouped-by", 
-  "date": "2018-04-19", 
+  "date": "2018-05-17", 
   "property": [
     {
       "code": "concept-type", 
