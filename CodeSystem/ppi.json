@@ -9227,34 +9227,6 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "DaughterKidneyCondition_KidneyDisease", 
-                      "display": "Kidney disease"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Child History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "DaughterKidneyCondition_KidneyStones", 
-                      "display": "Kidney stones"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Child History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
                       "code": "DaughterEndocrineCondition_Type1Diabetes", 
                       "display": "Type 1 diabetes (Type 1 diabetics do not produce enough insulin on their own, so they have get insulin injections. Type 1 diabetes used to be called juvenile onset diabetes.)"
                     }, 
@@ -10643,6 +10615,36 @@
                   "display": "Vision Conditions:"
                 }, 
                 {
+                  "concept": [
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Child History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "DaughterKidneyCondition_KidneyDisease", 
+                      "display": "Kidney disease"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Child History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "DaughterKidneyCondition_KidneyStones", 
+                      "display": "Kidney stones"
+                    }
+                  ], 
                   "property": [
                     {
                       "valueCode": "Question", 
@@ -12859,6 +12861,20 @@
                           "code": "concept-topic"
                         }
                       ], 
+                      "code": "FatherCirculatoryCondition_PeripheralVascularDisease", 
+                      "display": "Peripheral Vascular Disease"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Parent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
                       "code": "FatherCirculatoryCondition_SuddenDeath", 
                       "display": "Sudden death"
                     }, 
@@ -12921,6 +12937,20 @@
                       ], 
                       "code": "FatherCirculatoryCondition_CongestiveHeartFailure", 
                       "display": "Congestive heart failure"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Question", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Parent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "FatherCirculatoryCondition_Anemia", 
+                      "display": "Anemia"
                     }, 
                     {
                       "property": [
@@ -17449,6 +17479,20 @@
                           "code": "concept-topic"
                         }
                       ], 
+                      "code": "MotherNervousCondition_Neuropathy", 
+                      "display": "Neuropathy"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Parent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
                       "code": "MotherNervousCondition_MigraineHeadaches", 
                       "display": "Migraine headaches"
                     }, 
@@ -18793,6 +18837,20 @@
                           "code": "concept-topic"
                         }
                       ], 
+                      "code": "MotherCirculatoryCondition_SickleCellDisease", 
+                      "display": "Sickle Cell Disease"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Parent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
                       "code": "MotherCirculatoryCondition_HighBloodPressure", 
                       "display": "High blood pressure (Hypertension)"
                     }, 
@@ -19089,20 +19147,6 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "MotherNervousCondition_Neuropathy", 
-                      "display": "Neuropathy"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Parent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
                       "code": "MotherMentalCondition_DrugUse", 
                       "display": "Drug use disorder"
                     }, 
@@ -19221,7 +19265,7 @@
       ], 
       "property": [
         {
-          "valueCode": "Module", 
+          "valueCode": "Module Name", 
           "code": "concept-type"
         }, 
         {
@@ -35478,12 +35522,12 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 2455, 
+  "count": 2458, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.2.97", 
+  "version": "0.2.98", 
   "hierarchyMeaning": "grouped-by", 
   "date": "2018-05-17", 
   "property": [
