@@ -741,7 +741,7 @@ Fibroids,Parent History,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Mo
 Polycystic Ovarian Syndrome,Parent History,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,MotherOtherHealthCondition_PolycysticOvarianSyndrome,,DiagnosedHealthCondition_MotherOtherHealthCondition,,5/21/2018,,,,,,,,,,,
 Other,Parent History,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,MotherOtherHealthCondition_OtherCondition,,DiagnosedHealthCondition_MotherOtherHealthCondition,,5/21/2018,,,,,,,,,,,
 Other (free text),Parent History,Question,text,http://terminology.pmi-ops.org/CodeSystem/ppi,OtherCondition_MotherFreeTextBox,,MotherOtherHealthCondition_OtherCondition,,5/21/2018,,,,,,,,,,,
-Anemia,Parent History,Question,,http://terminology.pmi-ops.org/CodeSystem/ppi,FatherCirculatoryCondition_Anemia,,DiagnosedHealthCondition_FatherCirculatoryCondition,,5/21/2018,,,,,,,,,,,
+Anemia,Parent History,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,FatherCirculatoryCondition_Anemia,,DiagnosedHealthCondition_FatherCirculatoryCondition,,5/21/2018,,,,,,,,,,,
 Heart Valve Disease,Parent History,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,FatherCirculatoryCondition_HeartValveDisease,,DiagnosedHealthCondition_FatherCirculatoryCondition,,5/21/2018,,,,,,,,,,,
 Sickle Cell Disease,Parent History,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,FatherCirculatoryCondition_SickleCellDisease,,DiagnosedHealthCondition_FatherCirculatoryCondition,,5/21/2018,,,,,,,,,,,
 Celiac Disease,Parent History,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,FatherDigestiveCondition_CeliacDisease,,DiagnosedHealthCondition_FatherDigestiveCondition,,5/21/2018,,,,,,,,,,,
