@@ -1,22 +1,6 @@
 Display,Topic,Type,Answer Type,PMI System,PMI Code,Parent code,Item ID,Date of Last Update,,Standard Code Source,Source URL,LOINC Category Code (Search This),LOINC Category ID,LOINC Answer ID,FHIR System OID,FHIR Level,FHIR Code,UMLS (SNOMED) ConceptID,UMLS (SNOMED) DescriptionID
 Healthcare Access & Utilization,Module Name,Module Name,,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthcareAccess,,,4/19/2018,,,,,,,,,,,
 Insurance,Insurance,Topic,,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthcareAccess_Insurance,HealthcareAccess,,1/31/2018,,,,,,,,,,,
-Are you currently covered by any of the following types of health insurance or health coverage plans? Mark yes or no for EACH type of coverage below ,Insurance,Question,multi-select,http://terminology.pmi-ops.org/CodeSystem/ppi,Insurance_InsuranceType,HealthcareAccess_Insurance,,1/31/2018,,,,,,,,,,,
-"Insurance through a current or former employer 
-or union (by you or another family member)",Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,InsuranceType_EmployerOrUnion,Insurance_InsuranceType,,1/31/2018,,,,,,,,,,,
-"Insurance purchased directly from an insurance company (by you or another family member)
-",Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,InsuranceType_PurchasedInsurace,Insurance_InsuranceType,,1/31/2018,,,,,,,,,,,
-"Medicare, for people 65 and older or people with certain disabilities
-",Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,InsuranceType_Medicare,Insurance_InsuranceType,,1/31/2018,,,,,,,,,,,
-"Medicaid, Medical Assistance, or any kind of government-assistance plan
-for those with low incomes or disability",Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,InsuranceType_GovernmentAssistancePlan,Insurance_InsuranceType,,1/31/2018,,,,,,,,,,,
-TRICARE or other military health care,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,InsuranceType_TricareOrMilitary,Insurance_InsuranceType,,1/31/2018,,,,,,,,,,,
-Veteran’s Administration (VA) (including those who have ever used or enrolled for VA health care),Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,InsuranceType_VeteranAdministration,Insurance_InsuranceType,,1/31/2018,,,,,,,,,,,
-Indian Health Service,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,InsuranceType_IndianHealthService,Insurance_InsuranceType,,1/31/2018,,,,,,,,,,,
-"Any other type of health insurance or health coverage plan
-",Insurance,Question,,http://terminology.pmi-ops.org/CodeSystem/ppi,InsuraceType_OtherInsuranceType,Insurance_InsuranceType,,1/31/2018,,,,,,,,,,,
-Free Text Box,Insurance,Question,,http://terminology.pmi-ops.org/CodeSystem/ppi,OtherInsuranceType_FreeText,Insurance_InsuranceType,,1/31/2018,,,,,,,,,,,
-I don’ t have insurance; Self-Pay,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,InsuranceType_SelfPayOrNone,Insurance_InsuranceType,,1/31/2018,,,,,,,,,,,
 "DURING THE PAST 12 MONTHS, were you told by a health care provider or doctor’s office that they did not accept your health care coverage? ",Insurance,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,Insurance_InsuranceAccepted,HealthcareAccess_Insurance,,1/31/2018,,,,,,,,,,,
 Yes,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,InsuranceAccepted_Yes,Insurance_InsuranceAccepted,,1/31/2018,,,,,,,,,,,
 No,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,InsuranceAccepted_No,Insurance_InsuranceAccepted,,1/31/2018,,,,,,,,,,,
@@ -298,6 +282,4 @@ not at all worried,Can't Afford Medical Care,Answer,,http://terminology.pmi-ops.
 You live in a rural area where distance to the health care provider is too far,Delayed Medical Care,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,DelayedMedicalCare_RuralArea,HealthcareAccess_DelayedMedicalCare,,4/19/2018,,,,,,,,,,,
 Yes,Delayed Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,RuralArea_Yes,DelayedMedicalCare_RuralArea,,4/19/2018,,,,,,,,,,,
 No,Delayed Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,RuralArea_No,DelayedMedicalCare_RuralArea,,4/19/2018,,,,,,,,,,,
-any other type of health insurance or health coverage plan,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,InsuranceType_OtherInsuranceType,Insurance_InsuranceType,,4/19/2018,,,,,,,,,,,
 Free Text Box,Delayed Medical Care,Question,text input,http://terminology.pmi-ops.org/CodeSystem/ppi,OtherDelayedMedicalCare_FreeText,HealthcareAccess_DelayedMedicalCare,,4/19/2018,,,,,,,,,,,
-insurance purchased directly from an insurance company (by you or another family member),Insurance,Answer,text input,http://terminology.pmi-ops.org/CodeSystem/ppi,InsuranceType_PurchasedInsurance,Insurance_InsuranceType,,4/19/2018,,,,,,,,,,,
