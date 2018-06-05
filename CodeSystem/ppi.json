@@ -255,7 +255,7 @@
                     {
                       "property": [
                         {
-                          "valueCode": "Question", 
+                          "valueCode": "Answer", 
                           "code": "concept-type"
                         }, 
                         {
@@ -264,7 +264,7 @@
                         }
                       ], 
                       "code": "InsuranceTypeUpdate_EmployerOrUnion", 
-                      "display": "Are you currently covered by any of the following types of health insurance or health coverage plans? Mark yes or no for EACH type of coverage below"
+                      "display": "Insurance through a current or former employer or union (by you or another family member)"
                     }, 
                     {
                       "property": [
@@ -35357,7 +35357,7 @@
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.3.03", 
+  "version": "0.3.05", 
   "hierarchyMeaning": "grouped-by", 
   "date": "2018-06-05", 
   "property": [
