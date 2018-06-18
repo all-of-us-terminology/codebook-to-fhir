@@ -143,3 +143,13 @@ SUN CITY WEST: Banner Del E Webb Medical Center,Arizona Site Pairing,Answer,http
 TUCSON: University of Arizona Alvernon Clinic,Arizona Site Pairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,AZSitepairingLocation_AlvernonClinic,,ArizonaSitePairing_AZSitepairingLocation,4/17/2018,,,,,,,,,,,,
 TUCSON: North Campus: Banner-University Medicine North,Arizona Site Pairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,AZSitepairingLocation_TucsonNorthCampus,,ArizonaSitePairing_AZSitepairingLocation,4/17/2018,,,,,,,,,,,,
 UAB Huntsville Regional Medical Campus,Southern Consortium Site Pairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SouthernProviders_UABHuntsvilleRegionalMedical,,SitePairing_SouthernProviders,4/17/2018,,,,,,,,,,,,
+"The following Healthcare Providers in your area are enrolling participants into the All of Us Research Program.
+
+At which institution do you wish to schedule an enrollment visit with?",California Site Pairing,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,CaliforniaSitePairing_CaliforniaPairing,,ConsentPII_CaliforniaSitePairing,6/18/2018,,,,,,,,,,,,
+UC Davis Health,California Site Pairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,CaliforniaPairing_UCDavis,,CaliforniaSitePairing_CaliforniaPairing,6/18/2018,,,,,,,,,,,,
+UC Irvine Health,California Site Pairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,CaliforniaPairing_UCIrvine,,CaliforniaSitePairing_CaliforniaPairing,6/18/2018,,,,,,,,,,,,
+UCSD Health (or San Diego Blood Bank if you receive care at UCSD Health or affiliates),California Site Pairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,CaliforniaPairing_UCSD,,CaliforniaSitePairing_CaliforniaPairing,6/18/2018,,,,,,,,,,,,
+UCSF Health,California Site Pairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,CaliforniaPairing_UCSF,,CaliforniaSitePairing_CaliforniaPairing,6/18/2018,,,,,,,,,,,,
+Cedars Sinai,California Site Pairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,CaliforniaPairing_CedarsSinai,,CaliforniaSitePairing_CaliforniaPairing,6/18/2018,,,,,,,,,,,,
+Keck Medicine of USC,California Site Pairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,CaliforniaPairing_Keck,,CaliforniaSitePairing_CaliforniaPairing,6/18/2018,,,,,,,,,,,,
+None of these,California Site Pairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,CaliforniaPairing_None,,CaliforniaSitePairing_CaliforniaPairing,6/18/2018,,,,,,,,,,,,

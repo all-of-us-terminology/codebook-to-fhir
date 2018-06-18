@@ -13379,6 +13379,20 @@
                           "code": "concept-topic"
                         }
                       ], 
+                      "code": "SiblingCirculatoryCondition_AtrialFibrilation", 
+                      "display": "Atrial fibrillation (or a-fib) or atrial flutter (or a-flutter). (These conditions cause irregular, often fast, heart beats that can cause poor blood flow. A-fib and a-flutter are not the same as a heart murmur.)"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Sibling History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
                       "code": "SiblingCirculatoryCondition_Anemia", 
                       "display": "Anemia"
                     }, 
@@ -13423,20 +13437,6 @@
                       ], 
                       "code": "SiblingCirculatoryCondition_PeripheralVascularDisease", 
                       "display": "Peripheral Vascular Disease"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Sibling History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "SiblingCirculatoryCondition_AtrialFibrilation", 
-                      "display": "Atrial fibrillation (or a-fib) or atrial flutter (or a-flutter). (These conditions cause irregular, often fast, heart beats that can cause poor blood flow. A-fib and a-flutter are not the same as a heart murmur.)"
                     }, 
                     {
                       "property": [
@@ -28143,6 +28143,20 @@
               "code": "concept-topic"
             }
           ], 
+          "code": "PIIState_NH", 
+          "display": "New Hampshire"
+        }, 
+        {
+          "property": [
+            {
+              "valueCode": "Answer", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "States", 
+              "code": "concept-topic"
+            }
+          ], 
           "code": "PIIState_PA", 
           "display": "Pennsylvania"
         }, 
@@ -28327,20 +28341,6 @@
           ], 
           "code": "PIIState_MI", 
           "display": "Michigan"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "States", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "PIIState_NH", 
-          "display": "New Hampshire"
         }, 
         {
           "property": [
@@ -34371,6 +34371,120 @@
                       "code": "concept-topic"
                     }
                   ], 
+                  "code": "CaliforniaPairing_UCIrvine", 
+                  "display": "UC Irvine Health"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "California Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "CaliforniaPairing_CedarsSinai", 
+                  "display": "Cedars Sinai"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "California Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "CaliforniaPairing_None", 
+                  "display": "None of these"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "California Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "CaliforniaPairing_Keck", 
+                  "display": "Keck Medicine of USC"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "California Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "CaliforniaPairing_UCDavis", 
+                  "display": "UC Davis Health"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "California Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "CaliforniaPairing_UCSF", 
+                  "display": "UCSF Health"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "California Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "CaliforniaPairing_UCSD", 
+                  "display": "UCSD Health (or San Diego Blood Bank if you receive care at UCSD Health or affiliates)"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "California Site Pairing", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "CaliforniaSitePairing_CaliforniaPairing", 
+              "display": "The following Healthcare Providers in your area are enrolling participants into the All of Us Research Program.\r\n\r\nAt which institution do you wish to schedule an enrollment visit with?"
+            }, 
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "California Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
                   "code": "CaliforniaUniversityCare_CaliforniaHealthCareYes", 
                   "display": "Yes"
                 }, 
@@ -35352,14 +35466,14 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 2446, 
+  "count": 2454, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.3.05", 
+  "version": "0.3.06", 
   "hierarchyMeaning": "grouped-by", 
-  "date": "2018-06-05", 
+  "date": "2018-06-18", 
   "property": [
     {
       "code": "concept-type", 
