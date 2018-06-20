@@ -34413,8 +34413,36 @@
                       "code": "concept-topic"
                     }
                   ], 
+                  "code": "CaliforniaPairing_SDBB", 
+                  "display": "San Diego Blood Bank (4 sites)"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "California Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
                   "code": "CaliforniaPairing_Keck", 
                   "display": "Keck Medicine of USC"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "California Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "CaliforniaPairing_SanYsidro", 
+                  "display": "San Ysidro Health Center"
                 }, 
                 {
                   "property": [
@@ -34443,6 +34471,20 @@
                   ], 
                   "code": "CaliforniaPairing_UCSF", 
                   "display": "UCSF Health"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "California Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "CaliforniaPairing_QTC", 
+                  "display": "QTC (3 sites in Sacramento)"
                 }, 
                 {
                   "property": [
@@ -35466,14 +35508,14 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 2454, 
+  "count": 2457, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.3.06", 
+  "version": "0.3.07", 
   "hierarchyMeaning": "grouped-by", 
-  "date": "2018-06-18", 
+  "date": "2018-06-20", 
   "property": [
     {
       "code": "concept-type", 
