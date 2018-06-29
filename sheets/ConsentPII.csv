@@ -277,3 +277,7 @@ West Virginia,Extra Consent Items,Answer,http://terminology.pmi-ops.org/CodeSyst
 Wisconsin,Extra Consent Items,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SOR_WI,,StateOfResidence,3/28/2018,,,,,,,,,,,,
 Wyoming,Extra Consent Items,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SOR_WY,,StateOfResidence,3/28/2018,,,,,,,,,,,,
 YouTube Video,Extra Consent Items,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,ExtraConsent_DNAVideo,,ConsentPII_ExtraConsent,4/17/2018,,,,,,,,,,,,
+Did someone from All of Us help you with the consent process?,Assisted Consent,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,ConsentPII_HelpWithConsent,,ConsentPII,6/25/2018,,,,,,,,,,,,
+Yes,Assisted Consent,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,HelpWithConsent_Yes,,ConsentPII_HelpWithConsent,6/25/2018,,,,,,,,,,,,
+No,Assisted Consent,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,HelpWithConsent_No,,ConsentPII_HelpWithConsent,6/25/2018,,,,,,,,,,,,
+Please have the person that helped you type their name below.,Assisted Consent,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,ConsentPII_HelpWithConsentSignature,,ConsentPII,6/25/2018,,,,,,,,,,,,

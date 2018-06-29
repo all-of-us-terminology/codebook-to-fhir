@@ -43,3 +43,7 @@ IL Date Box,IL HIPPA,Question,,http://terminology.pmi-ops.org/CodeSystem/ppi,EHR
 "If you live in the state of Illinois, we can not access your EHR (electronic health record) unless you get someone to sign as your witness. Do you want us to remind you about the witness signature?",IL HIPPA,Question,,http://terminology.pmi-ops.org/CodeSystem/ppi,EHRConsentPII_ILHIPPAReminder,EHRConsentPII,9/25/2017,,,,,,,,,,,,
 "Yes, remind me",IL HIPPA,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,ILHIPPAReminder_Yes,EHRConsentPII_ILHIPPAReminder,9/25/2017,,,,,,,,,,,,
 "No, do not remind me",IL HIPPA,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,ILHIPPAReminder_No,EHRConsentPII_ILHIPPAReminder,9/25/2017,,,,,,,,,,,,
+Did someone from All of Us help you with the consent process?,Assisted Consent,Question,,http://terminology.pmi-ops.org/CodeSystem/ppi,EHRConsentPII_HelpWithEHRConsent,EHRConsentPII,6/25/2018,,,,,,,,,,,,
+Yes,Assisted Consent,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,HelpWithEHRConsent_Yes,EHRConsentPII_HelpWithEHRConsent,6/25/2018,,,,,,,,,,,,
+No,Assisted Consent,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,HelpWithEHRConsent_No,EHRConsentPII_HelpWithEHRConsent,6/25/2018,,,,,,,,,,,,
+Please have the person that helped you type their name below.,Assisted Consent,Question,,http://terminology.pmi-ops.org/CodeSystem/ppi,EHRConsentPII_HelpWithConsentSignature,EHRConsentPII,6/25/2018,,,,,,,,,,,,

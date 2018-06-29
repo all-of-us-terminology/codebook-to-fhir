@@ -7897,6 +7897,142 @@
         {
           "concept": [
             {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Parent History", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "DiagnosedHealthCondition_FatherNoSelection", 
+              "display": "Other selection"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Topic", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Parent History", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "FamilyMembersDiagnosed_FatherUpdate", 
+          "display": "Please indicate if your father has ever been diagnosed with the following health conditions and/or health events. Think only of the person you are related to by blood. (select all that apply)"
+        }, 
+        {
+          "concept": [
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Child History", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "DaughterHealthCondition_NoDaughtersRelated", 
+                  "display": "I do not have any daughters related by blood."
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Child History", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "DiagnosedHealthCondition_DaughterNoSelection", 
+              "display": "Other selection"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Topic", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Child History", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "FamilyMembersDiagnosed_DaughterUpdate", 
+          "display": "Please indicate if your daughter(s) has/have ever been diagnosed with the following health conditions and/or health events. Think only of those people you are related to by blood. (select all that apply)"
+        }, 
+        {
+          "concept": [
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Sibling History", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SiblingHealthCondition_NoBloodRelatedSiblings", 
+                  "display": "I do not have any brothers or sisters related by blood."
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Sibling History", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "DiagnosedHealthCondition_SiblingNoSelection", 
+              "display": "Other selection"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Topic", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Sibling History", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "FamilyMembersDiagnosed_SiblingUpdate", 
+          "display": "Please indicate if your brothers and/or sisters [people with the same mother and/or father as you] have ever been diagnosed with the following health conditions and/or health events. Think only of those people you are related to by blood. If you have more than one brother or sister, check the box if any of your brothers or sisters have the condition. (select all that apply)"
+        }, 
+        {
+          "property": [
+            {
+              "valueCode": "Topic", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Child History", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "FamilyMembersDiagnosed_SonUpdate", 
+          "display": "Please indicate if your son(s) has/have ever been diagnosed with the following health conditions and/or health events. Think only of those people you are related to by blood. (select all that apply)"
+        }, 
+        {
+          "concept": [
+            {
               "concept": [
                 {
                   "property": [
@@ -8193,6 +8329,36 @@
             {
               "property": [
                 {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Parent History", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "DiagnosedHealthCondition_MotherNoSelection", 
+              "display": "Other selection"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Topic", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Parent History", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "FamilyMembersDiagnosed_MotherUpdate", 
+          "display": "Please indicate if your mother has ever been diagnosed with the following health conditions and/or health events. Think only of the person you are related to by blood.(select all that apply)"
+        }, 
+        {
+          "concept": [
+            {
+              "property": [
+                {
                   "valueCode": "Answer", 
                   "code": "concept-type"
                 }, 
@@ -8273,6 +8439,36 @@
           ], 
           "code": "FamilyHistory_FamilyMedicalHistoryAware", 
           "display": "Do you know your family\u2019s medical history? Please think only of those family members you are related to by blood."
+        }, 
+        {
+          "concept": [
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Grandparent History", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "DiagnosedHealthCondition_GrandparentNoSelection", 
+              "display": "Other selection"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Topic", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Grandparent History", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "FamilyMembersDiagnosed_Grandparents", 
+          "display": "Please indicate if your grandparent(s) have ever been diagnosed with the following health conditions and/or health events. Think only of those people you are related to by blood. (select all that apply)"
         }, 
         {
           "concept": [
@@ -14703,10 +14899,14 @@
                         {
                           "valueCode": "Parent History", 
                           "code": "concept-topic"
+                        }, 
+                        {
+                          "valueCode": "MotherSkeletalMuscularCondition_RheumatoidArth", 
+                          "code": "short-code"
                         }
                       ], 
-                      "code": "MotherSkeletalMuscularCondition_Osteoarthritis", 
-                      "display": "Osteoarthriris"
+                      "code": "MotherSkeletalMuscularCondition_RheumatoidArthritis", 
+                      "display": "Rheumatoid arthritis"
                     }, 
                     {
                       "property": [
@@ -14717,14 +14917,10 @@
                         {
                           "valueCode": "Parent History", 
                           "code": "concept-topic"
-                        }, 
-                        {
-                          "valueCode": "MotherSkeletalMuscularCondition_RheumatoidArth", 
-                          "code": "short-code"
                         }
                       ], 
-                      "code": "MotherSkeletalMuscularCondition_RheumatoidArthritis", 
-                      "display": "Rheumatoid arthritis"
+                      "code": "MotherSkeletalMuscularCondition_Osteoarthritis", 
+                      "display": "Osteoarthriris"
                     }
                   ], 
                   "property": [
@@ -19249,6 +19445,38 @@
               "display": "Don\u2019t Know"
             }, 
             {
+              "concept": [
+                {
+                  "concept": [
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Child History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "SonOtherHealthCondition_NoSonsRelated", 
+                      "display": "I do not have any sons related by blood."
+                    }
+                  ], 
+                  "property": [
+                    {
+                      "valueCode": "Question", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Child History", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "DiagnosedHealthCondition_SonNoSelection", 
+                  "display": "Other selection"
+                }
+              ], 
               "property": [
                 {
                   "valueCode": "Answer", 
@@ -28045,20 +28273,6 @@
               "code": "concept-topic"
             }
           ], 
-          "code": "PIIState_OR", 
-          "display": "Oregon"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "States", 
-              "code": "concept-topic"
-            }
-          ], 
           "code": "PIIState_MT", 
           "display": "Montana"
         }, 
@@ -28223,20 +28437,6 @@
               "code": "concept-type"
             }, 
             {
-              "valueCode": "States", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "PIIState_SC", 
-          "display": "South Carolina"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
               "valueCode": "PMI", 
               "code": "concept-topic"
             }
@@ -28381,6 +28581,20 @@
               "code": "concept-topic"
             }
           ], 
+          "code": "PIIState_OR", 
+          "display": "Oregon"
+        }, 
+        {
+          "property": [
+            {
+              "valueCode": "Answer", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "States", 
+              "code": "concept-topic"
+            }
+          ], 
           "code": "PIIState_FM", 
           "display": "Federated States of Micronesia"
         }, 
@@ -28453,6 +28667,20 @@
           ], 
           "code": "PIIState_PR", 
           "display": "Puerto Rico"
+        }, 
+        {
+          "property": [
+            {
+              "valueCode": "Answer", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "States", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "PIIState_SC", 
+          "display": "South Carolina"
         }, 
         {
           "property": [
@@ -28787,20 +29015,6 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "SpokenWrittenLanguage_ChineseChina", 
-                  "display": "Chinese (China)"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Language", 
-                      "code": "concept-topic"
-                    }
-                  ], 
                   "code": "SpokenWrittenLanguage_English", 
                   "display": "English"
                 }, 
@@ -28873,6 +29087,20 @@
                   ], 
                   "code": "SpokenWrittenLanguage_SpanishUruguay", 
                   "display": "Spanish (Uruguay)"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Language", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SpokenWrittenLanguage_ChineseChina", 
+                  "display": "Chinese (China)"
                 }, 
                 {
                   "property": [
@@ -30213,6 +30441,66 @@
         {
           "concept": [
             {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Community Health Center Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "CHCCareatLocation_Yes", 
+                  "display": "yes"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Community Health Center Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "CHCCareatLocation_No", 
+                  "display": "no"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Community Health Center Site Pairing", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "CHCSitePairing_CHCCareatLocation", 
+              "display": "Please indicate where you have received care at one of the following locations: CHC Inc Middletown CHC Inc Meriden"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Topic", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Community Health Center Site Pairing", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "ConsentPII_CHCSitePairing", 
+          "display": "Community Health Center Site Pairing"
+        }, 
+        {
+          "concept": [
+            {
               "property": [
                 {
                   "valueCode": "Question", 
@@ -30713,62 +31001,60 @@
         {
           "concept": [
             {
-              "concept": [
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Community Health Center Site Pairing", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "CHCCareatLocation_Yes", 
-                  "display": "yes"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Community Health Center Site Pairing", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "CHCCareatLocation_No", 
-                  "display": "no"
-                }
-              ], 
               "property": [
                 {
-                  "valueCode": "Question", 
+                  "valueCode": "Answer", 
                   "code": "concept-type"
                 }, 
                 {
-                  "valueCode": "Community Health Center Site Pairing", 
+                  "valueCode": "Assisted Consent", 
                   "code": "concept-topic"
                 }
               ], 
-              "code": "CHCSitePairing_CHCCareatLocation", 
-              "display": "Please indicate where you have received care at one of the following locations: CHC Inc Middletown CHC Inc Meriden"
+              "code": "HelpWithConsent_No", 
+              "display": "No"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Assisted Consent", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "HelpWithConsent_Yes", 
+              "display": "Yes"
             }
           ], 
           "property": [
             {
-              "valueCode": "Topic", 
+              "valueCode": "Question", 
               "code": "concept-type"
             }, 
             {
-              "valueCode": "Community Health Center Site Pairing", 
+              "valueCode": "Assisted Consent", 
               "code": "concept-topic"
             }
           ], 
-          "code": "ConsentPII_CHCSitePairing", 
-          "display": "Community Health Center Site Pairing"
+          "code": "ConsentPII_HelpWithConsent", 
+          "display": "Did someone from All of Us help you with the consent process?"
+        }, 
+        {
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Assisted Consent", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "ConsentPII_HelpWithConsentSignature", 
+          "display": "Please have the person that helped you type their name below."
         }, 
         {
           "concept": [
@@ -34597,6 +34883,50 @@
                   "code": "concept-type"
                 }, 
                 {
+                  "valueCode": "Assisted Consent", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "HelpWithEHRConsent_No", 
+              "display": "No"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Assisted Consent", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "HelpWithEHRConsent_Yes", 
+              "display": "Yes"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Assisted Consent", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "EHRConsentPII_HelpWithEHRConsent", 
+          "display": "Did someone from All of Us help you with the consent process?"
+        }, 
+        {
+          "concept": [
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
                   "valueCode": "Access Questioning", 
                   "code": "concept-topic"
                 }
@@ -34893,6 +35223,20 @@
           ], 
           "code": "EHRConsentPII_AreYouReady", 
           "display": "Are you ready to take the quiz?"
+        }, 
+        {
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Assisted Consent", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "EHRConsentPII_HelpWithConsentSignature", 
+          "display": "Please have the person that helped you type their name below."
         }, 
         {
           "concept": [
@@ -35508,14 +35852,14 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 2457, 
+  "count": 2480, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.3.07", 
+  "version": "0.3.09", 
   "hierarchyMeaning": "grouped-by", 
-  "date": "2018-06-20", 
+  "date": "2018-06-28", 
   "property": [
     {
       "code": "concept-type", 
