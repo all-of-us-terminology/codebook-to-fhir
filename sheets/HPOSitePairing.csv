@@ -156,3 +156,5 @@ None of these,California Site Pairing,Answer,http://terminology.pmi-ops.org/Code
 San Diego Blood Bank (4 sites),California Site Pairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,CaliforniaPairing_SDBB,,CaliforniaSitePairing_CaliforniaPairing,6/20/2018,,,,,,,,,,,,
 San Ysidro Health Center,California Site Pairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,CaliforniaPairing_SanYsidro,,CaliforniaSitePairing_CaliforniaPairing,6/20/2018,,,,,,,,,,,,
 QTC (3 sites in Sacramento),California Site Pairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,CaliforniaPairing_QTC,,CaliforniaSitePairing_CaliforniaPairing,6/20/2018,,,,,,,,,,,,
+TUCSON: Mobile health unit,Arizona Site Pairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,AZSitepairingLocation_TucsonMobile,,ArizonaSitePairing_AZSitepairingLocation,,,,,,,,,,,,,
+PHOENIX: Mobile health unit,Arizona Site Pairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,AZSitepairingLocation_PhoenixMobile,,ArizonaSitePairing_AZSitepairingLocation,,,,,,,,,,,,,

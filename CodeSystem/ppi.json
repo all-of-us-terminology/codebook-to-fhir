@@ -10541,6 +10541,10 @@
                         {
                           "valueCode": "Child History", 
                           "code": "concept-topic"
+                        }, 
+                        {
+                          "valueCode": "DaughterOtherHealthCondition_PolycysticOvarianSynd", 
+                          "code": "short-code"
                         }
                       ], 
                       "code": "DaughterOtherHealthCondition_PolycysticOvarianSyndrome", 
@@ -11113,6 +11117,10 @@
                         {
                           "valueCode": "Grandparent History", 
                           "code": "concept-topic"
+                        }, 
+                        {
+                          "valueCode": "GrandparentSkeletalMuscularCondition_Osteoarth", 
+                          "code": "short-code"
                         }
                       ], 
                       "code": "GrandparentSkeletalMuscularCondition_Osteoarthritis", 
@@ -13069,6 +13077,10 @@
                         {
                           "valueCode": "Parent History", 
                           "code": "concept-topic"
+                        }, 
+                        {
+                          "valueCode": "FatherCirculatoryCondition_PeripheralVascular", 
+                          "code": "short-code"
                         }
                       ], 
                       "code": "FatherCirculatoryCondition_PeripheralVascularDisease", 
@@ -13629,6 +13641,10 @@
                         {
                           "valueCode": "Sibling History", 
                           "code": "concept-topic"
+                        }, 
+                        {
+                          "valueCode": "SiblingCirculatoryCondition_PeripheralVascular", 
+                          "code": "short-code"
                         }
                       ], 
                       "code": "SiblingCirculatoryCondition_PeripheralVascularDisease", 
@@ -13805,6 +13821,10 @@
                         {
                           "valueCode": "Parent History", 
                           "code": "concept-topic"
+                        }, 
+                        {
+                          "valueCode": "MotherOtherHealthCondition_PolycysticOvarianSynd", 
+                          "code": "short-code"
                         }
                       ], 
                       "code": "MotherOtherHealthCondition_PolycysticOvarianSyndrome", 
@@ -16371,6 +16391,10 @@
                         {
                           "valueCode": "Child History", 
                           "code": "concept-topic"
+                        }, 
+                        {
+                          "valueCode": "DaughterCirculatoryCondition_PeripheralVascular", 
+                          "code": "short-code"
                         }
                       ], 
                       "code": "DaughterCirculatoryCondition_PeripheralVascularDisease", 
@@ -17419,6 +17443,10 @@
                         {
                           "valueCode": "Sibling History", 
                           "code": "concept-topic"
+                        }, 
+                        {
+                          "valueCode": "SiblingOtherHealthCondition_PolycysticOvarianSynd", 
+                          "code": "short-code"
                         }
                       ], 
                       "code": "SiblingOtherHealthCondition_PolycysticOvarianSyndrome", 
@@ -18063,6 +18091,10 @@
                         {
                           "valueCode": "Grandparent History", 
                           "code": "concept-topic"
+                        }, 
+                        {
+                          "valueCode": "GrandparentCirculatoryCondition_PeripheralVascular", 
+                          "code": "short-code"
                         }
                       ], 
                       "code": "GrandparentCirculatoryCondition_PeripheralVascularDisease", 
@@ -18595,6 +18627,10 @@
                         {
                           "valueCode": "Grandparent History", 
                           "code": "concept-topic"
+                        }, 
+                        {
+                          "valueCode": "GrandparentOtherHealthCondition_PolycysticOvarianSynd", 
+                          "code": "short-code"
                         }
                       ], 
                       "code": "GrandparentOtherHealthCondition_PolycysticOvarianSyndrome", 
@@ -19017,6 +19053,10 @@
                         {
                           "valueCode": "Parent History", 
                           "code": "concept-topic"
+                        }, 
+                        {
+                          "valueCode": "MotherCirculatoryCondition_PeripheralVascular", 
+                          "code": "short-code"
                         }
                       ], 
                       "code": "MotherCirculatoryCondition_PeripheralVascularDisease", 
@@ -32047,6 +32087,20 @@
                       "code": "concept-topic"
                     }
                   ], 
+                  "code": "AZSitepairingLocation_PhoenixMobile", 
+                  "display": "PHOENIX: Mobile health unit"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Arizona Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
                   "code": "AZSitepairingLocation_AlvernonClinic", 
                   "display": "TUCSON: University of Arizona Alvernon Clinic"
                 }, 
@@ -32077,6 +32131,20 @@
                   ], 
                   "code": "AZSitepairingLocation_TucsonUniversityCampus", 
                   "display": "TUCSON: University Campus: Banner University Medical Center \u2013 Tucson (formerly known as University of Arizona Medical Center or UMC, University Physicians or UPH)"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Arizona Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "AZSitepairingLocation_TucsonMobile", 
+                  "display": "TUCSON: Mobile health unit"
                 }, 
                 {
                   "property": [
@@ -35852,14 +35920,14 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 2480, 
+  "count": 2482, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.3.09", 
+  "version": "0.3.11", 
   "hierarchyMeaning": "grouped-by", 
-  "date": "2018-06-28", 
+  "date": "2018-08-01", 
   "property": [
     {
       "code": "concept-type", 
