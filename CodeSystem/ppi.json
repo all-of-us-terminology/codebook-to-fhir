@@ -7817,7 +7817,7 @@
                 {
                   "property": [
                     {
-                      "valueCode": "Answer", 
+                      "valueCode": "Question", 
                       "code": "concept-type"
                     }, 
                     {
@@ -22481,6 +22481,162 @@
                 {
                   "property": [
                     {
+                      "valueCode": "Question", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Insurance", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "OtherInsuranceType_FreeText", 
+                  "display": "Free Text Box"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Insurance", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "InsuranceType_SelfPayOrNone", 
+                  "display": "I don\u2019 t have insurance; Self-Pay"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Insurance", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "InsuranceType_EmployerOrUnion", 
+                  "display": "Insurance through a current or former employer \nor union (by you or another family member)"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Insurance", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "InsuraceType_OtherInsuranceType", 
+                  "display": "Any other type of health insurance or health coverage plan"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Insurance", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "InsuranceType_PurchasedInsurace", 
+                  "display": "Insurance purchased directly from an insurance company (by you or another family member)"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Insurance", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "InsuranceType_GovernmentAssistancePlan", 
+                  "display": "Medicaid, Medical Assistance, or any kind of government-assistance plan\nfor those with low incomes or disability"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Insurance", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "InsuranceType_Medicare", 
+                  "display": "Medicare, for people 65 and older or people with certain disabilities"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Insurance", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "InsuranceType_VeteranAdministration", 
+                  "display": "Veteran\u2019s Administration (VA) (including those who have ever used or enrolled for VA health care)"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Insurance", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "InsuranceType_TricareOrMilitary", 
+                  "display": "TRICARE or other military health care"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Insurance", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "InsuranceType_IndianHealthService", 
+                  "display": "Indian Health Service"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Insurance", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Insurance_InsuranceType", 
+              "display": "Are you currently covered by any of the following types of health insurance or health coverage plans? Mark yes or no for EACH type of coverage below"
+            }, 
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
                       "valueCode": "Answer", 
                       "code": "concept-type"
                     }, 
@@ -36108,12 +36264,12 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 2495, 
+  "count": 2506, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.3.14", 
+  "version": "0.3.15", 
   "hierarchyMeaning": "grouped-by", 
   "date": "2018-08-15", 
   "property": [
