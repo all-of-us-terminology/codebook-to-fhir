@@ -283,8 +283,7 @@ You live in a rural area where distance to the health care provider is too far,D
 Yes,Delayed Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,RuralArea_Yes,DelayedMedicalCare_RuralArea,,,,,,,,,,,,,
 No,Delayed Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,RuralArea_No,DelayedMedicalCare_RuralArea,,,,,,,,,,,,,
 Free Text Box,Delayed Medical Care,Question,text input,http://terminology.pmi-ops.org/CodeSystem/ppi,OtherDelayedMedicalCare_FreeText,HealthcareAccess_DelayedMedicalCare,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,
-Are you currently covered by any of the following types of health insurance or health coverage plans? Mark yes or no for EACH type of coverage below,Insurance,Question,multi-select,http://terminology.pmi-ops.org/CodeSystem/ppi,Insurance_InsuranceType,HealthcareAccess_Insurance,,08/15/2018,,,,,,,,,,,
+Are you currently covered by any of the following types of health insurance or health coverage plans?,Health Insurance Type,Question,,http://terminology.pmi-ops.org/CodeSystem/ppi,Insurance_InsuranceType,HealthcareAccess,,,,,,,,,,,,,
 "Insurance through a current or former employer 
 or union (by you or another family member)",Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,InsuranceType_EmployerOrUnion,Insurance_InsuranceType,,08/15/2018,,,,,,,,,,,
 Insurance purchased directly from an insurance company (by you or another family member),Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,InsuranceType_PurchasedInsurace,Insurance_InsuranceType,,08/15/2018,,,,,,,,,,,

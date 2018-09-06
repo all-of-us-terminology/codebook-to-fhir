@@ -7707,6 +7707,80 @@
                   "code": "concept-type"
                 }, 
                 {
+                  "valueCode": "App use", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Apps_HealthDietFitness", 
+              "display": "health, diet, or fitness"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "App use", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Apps_MusicEntertainment", 
+              "display": "music or entertainment"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "App use", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Apps_SocialMedia", 
+              "display": "social media"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "App use", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "Snap_AppUse", 
+          "display": "I mostly use apps for ___ on my cell phone."
+        }
+      ], 
+      "property": [
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "SNAP_APPUSE_092018", 
+      "display": "September Snap App Use"
+    }, 
+    {
+      "concept": [
+        {
+          "concept": [
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
                   "valueCode": "EMSI", 
                   "code": "concept-topic"
                 }
@@ -9319,20 +9393,6 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "MotherRespiratoryCondition_ChronicLungDisease", 
-                      "display": "Chronic lung disease (COPD, emphysema or bronchitis)"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Parent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
                       "code": "MotherRespiratoryCondition_SleepApnea", 
                       "display": "Sleep apnea"
                     }, 
@@ -9349,6 +9409,20 @@
                       ], 
                       "code": "MotherRespiratoryCondition_Asthma", 
                       "display": "Asthma"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Parent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "MotherRespiratoryCondition_ChronicLungDisease", 
+                      "display": "Chronic lung disease (COPD, emphysema or bronchitis)"
                     }
                   ], 
                   "property": [
@@ -15069,6 +15143,36 @@
                       "display": "Fibroids"
                     }, 
                     {
+                      "concept": [
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Question", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Child History", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "OtherCondition_DaughterFreeTextBox", 
+                          "display": "Other (free text)"
+                        }
+                      ], 
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Child History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "DaughterOtherHealthCondition_OtherCondition", 
+                      "display": "Other"
+                    }, 
+                    {
                       "property": [
                         {
                           "valueCode": "Answer", 
@@ -15151,36 +15255,6 @@
                       ], 
                       "code": "DaughterOtherHealthCondition_HearingLoss", 
                       "display": "Hearing loss"
-                    }, 
-                    {
-                      "concept": [
-                        {
-                          "property": [
-                            {
-                              "valueCode": "Question", 
-                              "code": "concept-type"
-                            }, 
-                            {
-                              "valueCode": "Child History", 
-                              "code": "concept-topic"
-                            }
-                          ], 
-                          "code": "OtherCondition_DaughterFreeTextBox", 
-                          "display": "Other (free text)"
-                        }
-                      ], 
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Child History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "DaughterOtherHealthCondition_OtherCondition", 
-                      "display": "Other"
                     }, 
                     {
                       "property": [
@@ -17039,20 +17113,6 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "SiblingCancerCondition_EsophagealCancer", 
-                      "display": "Esophageal cancer"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Sibling History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
                       "code": "SiblingCancerCondition_BladderCancer", 
                       "display": "Bladder cancer"
                     }, 
@@ -17139,6 +17199,20 @@
                       ], 
                       "code": "SiblingCancerCondition_EndometrialCancer", 
                       "display": "Endometrial cancer"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Sibling History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "SiblingCancerCondition_EsophagealCancer", 
+                      "display": "Esophageal cancer"
                     }, 
                     {
                       "property": [
@@ -22187,6 +22261,162 @@
         {
           "concept": [
             {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Insurance", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "OtherInsuranceType_FreeText", 
+              "display": "Free Text Box"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Insurance", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "InsuranceType_SelfPayOrNone", 
+              "display": "I don\u2019 t have insurance; Self-Pay"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Insurance", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "InsuranceType_EmployerOrUnion", 
+              "display": "Insurance through a current or former employer \nor union (by you or another family member)"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Insurance", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "InsuraceType_OtherInsuranceType", 
+              "display": "Any other type of health insurance or health coverage plan"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Insurance", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "InsuranceType_PurchasedInsurace", 
+              "display": "Insurance purchased directly from an insurance company (by you or another family member)"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Insurance", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "InsuranceType_GovernmentAssistancePlan", 
+              "display": "Medicaid, Medical Assistance, or any kind of government-assistance plan\nfor those with low incomes or disability"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Insurance", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "InsuranceType_Medicare", 
+              "display": "Medicare, for people 65 and older or people with certain disabilities"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Insurance", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "InsuranceType_VeteranAdministration", 
+              "display": "Veteran\u2019s Administration (VA) (including those who have ever used or enrolled for VA health care)"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Insurance", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "InsuranceType_TricareOrMilitary", 
+              "display": "TRICARE or other military health care"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Insurance", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "InsuranceType_IndianHealthService", 
+              "display": "Indian Health Service"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Health Insurance Type", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "Insurance_InsuranceType", 
+          "display": "Are you currently covered by any of the following types of health insurance or health coverage plans?"
+        }, 
+        {
+          "concept": [
+            {
               "concept": [
                 {
                   "property": [
@@ -22475,162 +22705,6 @@
               ], 
               "code": "Insurance_HealthcareCoverage", 
               "display": "In regard to your health insurance or health care coverage, how does it compare to a year ago? Is it better, worse, or about the same?"
-            }, 
-            {
-              "concept": [
-                {
-                  "property": [
-                    {
-                      "valueCode": "Question", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Insurance", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "OtherInsuranceType_FreeText", 
-                  "display": "Free Text Box"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Insurance", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "InsuranceType_SelfPayOrNone", 
-                  "display": "I don\u2019 t have insurance; Self-Pay"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Insurance", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "InsuranceType_EmployerOrUnion", 
-                  "display": "Insurance through a current or former employer \nor union (by you or another family member)"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Insurance", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "InsuraceType_OtherInsuranceType", 
-                  "display": "Any other type of health insurance or health coverage plan"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Insurance", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "InsuranceType_PurchasedInsurace", 
-                  "display": "Insurance purchased directly from an insurance company (by you or another family member)"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Insurance", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "InsuranceType_GovernmentAssistancePlan", 
-                  "display": "Medicaid, Medical Assistance, or any kind of government-assistance plan\nfor those with low incomes or disability"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Insurance", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "InsuranceType_Medicare", 
-                  "display": "Medicare, for people 65 and older or people with certain disabilities"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Insurance", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "InsuranceType_VeteranAdministration", 
-                  "display": "Veteran\u2019s Administration (VA) (including those who have ever used or enrolled for VA health care)"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Insurance", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "InsuranceType_TricareOrMilitary", 
-                  "display": "TRICARE or other military health care"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Insurance", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "InsuranceType_IndianHealthService", 
-                  "display": "Indian Health Service"
-                }
-              ], 
-              "property": [
-                {
-                  "valueCode": "Question", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Insurance", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "Insurance_InsuranceType", 
-              "display": "Are you currently covered by any of the following types of health insurance or health coverage plans? Mark yes or no for EACH type of coverage below"
             }, 
             {
               "concept": [
@@ -25243,6 +25317,20 @@
                       "code": "concept-topic"
                     }
                   ], 
+                  "code": "GeneralDoctorVisits_10to12", 
+                  "display": "10-12"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Insurance", 
+                      "code": "concept-topic"
+                    }
+                  ], 
                   "code": "GeneralDoctorVisits_2to3", 
                   "display": "2-3"
                 }, 
@@ -25273,20 +25361,6 @@
                   ], 
                   "code": "GeneralDoctorVisits_6to7", 
                   "display": "6-7"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Insurance", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "GeneralDoctorVisits_10to12", 
-                  "display": "10-12"
                 }, 
                 {
                   "property": [
@@ -26245,6 +26319,80 @@
       ], 
       "code": "HealthcareAccess", 
       "display": "Healthcare Access & Utilization"
+    }, 
+    {
+      "concept": [
+        {
+          "concept": [
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Cell phone use", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "CellPhoneUse_Internet", 
+              "display": "check the internet"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Cell phone use", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "CellPhoneUse_Pictures", 
+              "display": "take pictures"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Cell phone use", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "CellPhoneUse_CallsText", 
+              "display": "make phone calls or text"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Cell phone use", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "Snap_CellPhoneUse", 
+          "display": "I mostly use my cell phone to __"
+        }
+      ], 
+      "property": [
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "SNAP_CELLPHONEUSE_092018", 
+      "display": "September Snap Cell Phone Use"
     }, 
     {
       "concept": [
@@ -28245,6 +28393,80 @@
                   "code": "concept-type"
                 }, 
                 {
+                  "valueCode": "Without Cell", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "WithoutCell_PartMissing", 
+              "display": "a part of me is missing"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Without Cell", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "WithoutCell_DontNotice", 
+              "display": "I don't even notice"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Without Cell", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "WithoutCell_LittleWorried", 
+              "display": "I'm a little worried"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Without Cell", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "Snap_WithoutCell", 
+          "display": "When I don't have my cell phone, ___."
+        }
+      ], 
+      "property": [
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "SNAP_WITHOUTCELL_092018", 
+      "display": "September Snap Without Cell"
+    }, 
+    {
+      "concept": [
+        {
+          "concept": [
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
                   "valueCode": "All of Us PA Scheduling", 
                   "code": "concept-topic"
                 }
@@ -28379,20 +28601,6 @@
           ], 
           "code": "PIIState_VI", 
           "display": "Virgin Islands"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "States", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "PIIState_NJ", 
-          "display": "New Jersey"
         }, 
         {
           "property": [
@@ -28561,6 +28769,20 @@
           ], 
           "code": "PIIState_KY", 
           "display": "Kentucky"
+        }, 
+        {
+          "property": [
+            {
+              "valueCode": "Answer", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "States", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "PIIState_NJ", 
+          "display": "New Jersey"
         }, 
         {
           "property": [
@@ -30463,8 +30685,8 @@
                   "code": "concept-topic"
                 }
               ], 
-              "code": "PIIName_First", 
-              "display": "First name"
+              "code": "PIIName_Middle", 
+              "display": "Middle name"
             }, 
             {
               "property": [
@@ -30477,8 +30699,8 @@
                   "code": "concept-topic"
                 }
               ], 
-              "code": "PIIName_Middle", 
-              "display": "Middle name"
+              "code": "PIIName_First", 
+              "display": "First name"
             }
           ], 
           "property": [
@@ -31569,50 +31791,6 @@
               "display": "Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Youtube Video"
             }, 
             {
-              "concept": [
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Extra Consent Items", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "ReadyOrNeedHelp_Ready", 
-                  "display": "ready"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Extra Consent Items", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "ReadyOrNeedHelp_NeedHelp", 
-                  "display": "help"
-                }
-              ], 
-              "property": [
-                {
-                  "valueCode": "Question", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Extra Consent Items", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "ExtraConsent_ReadyOrNeedHelp", 
-              "display": "Take the time you need to decide about joining All of Us. We are here to answer any questions you have."
-            }, 
-            {
               "property": [
                 {
                   "valueCode": "Question", 
@@ -31931,6 +32109,50 @@
               "display": "ExtraConsent_FitnessTracker_Video"
             }, 
             {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Extra Consent Items", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "ReadyOrNeedHelp_Ready", 
+                  "display": "ready"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Extra Consent Items", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "ReadyOrNeedHelp_NeedHelp", 
+                  "display": "help"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Extra Consent Items", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "ExtraConsent_ReadyOrNeedHelp", 
+              "display": "Take the time you need to decide about joining All of Us. We are here to answer any questions you have."
+            }, 
+            {
               "property": [
                 {
                   "valueCode": "Question", 
@@ -32153,6 +32375,20 @@
                       "code": "concept-topic"
                     }
                   ], 
+                  "code": "PIIStateCare_WI", 
+                  "display": "Wisconsin"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Extra Consent Items", 
+                      "code": "concept-topic"
+                    }
+                  ], 
                   "code": "PIIStateCare_CT", 
                   "display": "Connecticut"
                 }, 
@@ -32267,20 +32503,6 @@
                   ], 
                   "code": "PIIStateCare_RI", 
                   "display": "Rhode Island"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Extra Consent Items", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PIIStateCare_WI", 
-                  "display": "Wisconsin"
                 }, 
                 {
                   "property": [
@@ -33721,6 +33943,20 @@
                       "code": "concept-topic"
                     }
                   ], 
+                  "code": "SEEC_MorehouseSchoolOfMed", 
+                  "display": "Morehouse School of Medicine - Westview"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "SEEC Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
                   "code": "SEEC_UMiamiHealthSystem", 
                   "display": "University of Miami Health System"
                 }, 
@@ -33737,20 +33973,6 @@
                   ], 
                   "code": "SEEC_GradyMemorialHospital", 
                   "display": "Grady Memorial Hospital"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "SEEC Site Pairing", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "SEEC_MorehouseSchoolOfMed", 
-                  "display": "Morehouse School of Medicine - Westview"
                 }, 
                 {
                   "property": [
@@ -36264,14 +36486,14 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 2506, 
+  "count": 2521, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.3.15", 
+  "version": "0.3.17", 
   "hierarchyMeaning": "grouped-by", 
-  "date": "2018-08-15", 
+  "date": "2018-09-06", 
   "property": [
     {
       "code": "concept-type", 
