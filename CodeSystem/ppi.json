@@ -14155,6 +14155,20 @@
                           "code": "concept-topic"
                         }
                       ], 
+                      "code": "DaughterNervousCondition_OtherHeadaches", 
+                      "display": "Other types of headaches"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Child History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
                       "code": "DaughterNervousCondition_Dementia", 
                       "display": "Dementia (includes Alzheimer's, vascular, etc.)"
                     }, 
@@ -14287,20 +14301,6 @@
                       ], 
                       "code": "DaughterNervousCondition_AmyotrophicLateralSclerosis", 
                       "display": "Amyotrophic lateral sclerosis (Lou Gehrig\u2019s disease)"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Child History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "DaughterNervousCondition_OtherHeadaches", 
-                      "display": "Other types of headaches"
                     }, 
                     {
                       "property": [
@@ -22355,20 +22355,6 @@
                   "code": "concept-topic"
                 }
               ], 
-              "code": "InsuranceType_Medicare", 
-              "display": "Medicare, for people 65 and older or people with certain disabilities"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Insurance", 
-                  "code": "concept-topic"
-                }
-              ], 
               "code": "InsuranceType_VeteranAdministration", 
               "display": "Veteran\u2019s Administration (VA) (including those who have ever used or enrolled for VA health care)"
             }, 
@@ -22399,6 +22385,20 @@
               ], 
               "code": "InsuranceType_IndianHealthService", 
               "display": "Indian Health Service"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Insurance", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "InsuranceType_Medicare", 
+              "display": "Medicare, for people 65 and older or people with certain disabilities"
             }
           ], 
           "property": [
@@ -26331,6 +26331,80 @@
                   "code": "concept-type"
                 }, 
                 {
+                  "valueCode": "Dancing style", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "DancingMakesMeFeel_Uncomfortable", 
+              "display": "uncomfortable"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Dancing style", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "DancingMakesMeFeel_Happy", 
+              "display": "happy"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Dancing style", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "DancingMakesMeFeel_Free", 
+              "display": "free"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Dancing style", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "Snap_DancingMakesMeFeel", 
+          "display": "Dancing makes me feel __"
+        }
+      ], 
+      "property": [
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "SNAP_DANCINGFEEL_092018", 
+      "display": "Dancing 3"
+    }, 
+    {
+      "concept": [
+        {
+          "concept": [
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
                   "valueCode": "Cell phone use", 
                   "code": "concept-topic"
                 }
@@ -28211,6 +28285,80 @@
                   "code": "concept-type"
                 }, 
                 {
+                  "valueCode": "Why dance", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "DancingReason_Fun", 
+              "display": "fun"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Why dance", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "DancingReason_DontDance", 
+              "display": "I don't dance"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Why dance", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "DancingReason_Exercise", 
+              "display": "exercise"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Why dance", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "Snap_DancingReason", 
+          "display": "I dance for __"
+        }
+      ], 
+      "property": [
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "SNAP_DANCINGREASON_092018", 
+      "display": "Dancing 1"
+    }, 
+    {
+      "concept": [
+        {
+          "concept": [
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
                   "valueCode": "Western MIchigan Site Pairing", 
                   "code": "concept-topic"
                 }
@@ -28455,6 +28603,80 @@
       ], 
       "code": "SNAP_WITHOUTCELL_092018", 
       "display": "September Snap Without Cell"
+    }, 
+    {
+      "concept": [
+        {
+          "concept": [
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Dancing style", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "DancingStyle_Professional", 
+              "display": "like a professional"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Dancing style", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "DancingStyle_InDreams", 
+              "display": "only in my dreams"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Dancing style", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "DancingStyle_OwnWay", 
+              "display": "my own way"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Dancing style", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "Snap_DancingStyle", 
+          "display": "I dance __"
+        }
+      ], 
+      "property": [
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "SNAP_DANCINGSTYLE_092018", 
+      "display": "Dancing 2"
     }, 
     {
       "concept": [
@@ -36486,14 +36708,14 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 2521, 
+  "count": 2536, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.3.17", 
+  "version": "0.3.18", 
   "hierarchyMeaning": "grouped-by", 
-  "date": "2018-09-06", 
+  "date": "2018-09-14", 
   "property": [
     {
       "code": "concept-type", 
