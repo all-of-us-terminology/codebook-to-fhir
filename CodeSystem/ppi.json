@@ -19637,8 +19637,8 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "SonDigestiveCondition_CeliacDisease", 
-                      "display": "Celiac Disease"
+                      "code": "SonDigestiveCondition_ColonPolyps", 
+                      "display": "Colon polyps"
                     }, 
                     {
                       "property": [
@@ -19651,8 +19651,8 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "SonDigestiveCondition_ColonPolyps", 
-                      "display": "Colon polyps"
+                      "code": "SonDigestiveCondition_CeliacDisease", 
+                      "display": "Celiac Disease"
                     }, 
                     {
                       "property": [
@@ -27861,6 +27861,20 @@
                       "code": "concept-topic"
                     }
                   ], 
+                  "code": "PreferredContactMethod_OnceEvery3Months", 
+                  "display": "Once every 3 months"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "General Consent", 
+                      "code": "concept-topic"
+                    }
+                  ], 
                   "code": "PreferredContactMethod_OnceAYear", 
                   "display": "Once a year"
                 }, 
@@ -27891,20 +27905,6 @@
                   ], 
                   "code": "PreferredContactMethod_OnceAMonth", 
                   "display": "Once a month"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "General Consent", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PreferredContactMethod_OnceEvery3Months", 
-                  "display": "Once every 3 months"
                 }, 
                 {
                   "property": [
@@ -28595,6 +28595,154 @@
       ], 
       "code": "GeneralFeedback", 
       "display": "GeneralFeedback"
+    }, 
+    {
+      "concept": [
+        {
+          "concept": [
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Flu shot barriers", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "FluShotBarrier_Never", 
+              "display": "never"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Flu shot barriers", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "FluShotBarrier_Convenient", 
+              "display": "if it was more convenient"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Flu shot barriers", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "FluShotBarrier_IfFree", 
+              "display": "if it was free"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Flu shot barriers", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "Snap_FluShotBarrier", 
+          "display": "I would get a flu shot ___."
+        }
+      ], 
+      "property": [
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "SNAP_FLUSHOTBARRIERS_102018", 
+      "display": "October Snap Questions 3"
+    }, 
+    {
+      "concept": [
+        {
+          "concept": [
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Get flu shot", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "FluShot_PlanTo", 
+              "display": "did not, but plan to"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Get flu shot", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "FluShot_Yes", 
+              "display": "did"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Get flu shot", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "FluShot_No", 
+              "display": "did not and won't"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Get flu shot", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "Snap_FluShot", 
+          "display": "I ___ get a flu shot this year."
+        }
+      ], 
+      "property": [
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "SNAP_GETFLUSHOT_102018", 
+      "display": "October Snap Questions 1"
     }, 
     {
       "concept": [
@@ -29401,6 +29549,80 @@
       ], 
       "code": "HPOSitePairing", 
       "display": "HPOSitePairing"
+    }, 
+    {
+      "concept": [
+        {
+          "concept": [
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Flu shot effective", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "FluShotEffective_Sometimes", 
+              "display": "sometimes"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Flu shot effective", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "FluShotEffective_Never", 
+              "display": "never"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Flu shot effective", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "FluShotEffective_Usually", 
+              "display": "usually"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Flu shot effective", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "Snap_FluShotEffective", 
+          "display": "The flu does ___ works."
+        }
+      ], 
+      "property": [
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "SNAP_FLUSHOTEFFECTIVE_102018", 
+      "display": "October Snap Questions 2"
     }, 
     {
       "concept": [
@@ -31987,6 +32209,20 @@
           ], 
           "code": "ConsentPII_SouthCarolinaSitePairing", 
           "display": "South Carolina Pairing"
+        }, 
+        {
+          "property": [
+            {
+              "valueCode": null, 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "SMS Feature", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "ConsentPII_VerifiedPrimaryPhoneNumber", 
+          "display": "SMS Phone Number"
         }, 
         {
           "concept": [
@@ -37608,14 +37844,14 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 2600, 
+  "count": 2616, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.3.20", 
+  "version": "0.3.21", 
   "hierarchyMeaning": "grouped-by", 
-  "date": "2018-09-25", 
+  "date": "2018-10-09", 
   "property": [
     {
       "code": "concept-type", 
