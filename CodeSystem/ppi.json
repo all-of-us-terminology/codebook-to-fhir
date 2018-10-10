@@ -13191,6 +13191,134 @@
                       "code": "concept-topic"
                     }
                   ], 
+                  "code": "GeneralDoctorVisits_10to12", 
+                  "display": "10-12"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Insurance", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "GeneralDoctorVisits_2to3", 
+                  "display": "2-3"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Insurance", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "GeneralDoctorVisits_6to7", 
+                  "display": "6-7"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Insurance", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "GeneralDoctorVisits_1", 
+                  "display": "1"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Insurance", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "GeneralDoctorVisits_4to5", 
+                  "display": "4-5"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Insurance", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "GeneralDoctorVisits_16orMore", 
+                  "display": "16 or more"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Insurance", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "GeneralDoctorVisits_8to9", 
+                  "display": "8-9"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Insurance", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "GeneralDoctorVisits_13to15", 
+                  "display": "13-15"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Insurance", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "HealthAdvice_GeneralDoctorVisits", 
+              "display": "What is the total number of general doctor visits you made in the last 12 months"
+            }, 
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Insurance", 
+                      "code": "concept-topic"
+                    }
+                  ], 
                   "code": "NursePractitionerVisits_1", 
                   "display": "1"
                 }, 
@@ -14523,134 +14651,6 @@
               ], 
               "code": "HealthAdvice_PhysicalTherapistVisits", 
               "display": "What is the total number visits to a physical therapist, speech therapist, respiratory therapist, audiologist, or occupational therapist that you made in the last 12 months"
-            }, 
-            {
-              "concept": [
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Insurance", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "GeneralDoctorVisits_10to12", 
-                  "display": "10-12"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Insurance", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "GeneralDoctorVisits_2to3", 
-                  "display": "2-3"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Insurance", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "GeneralDoctorVisits_6to7", 
-                  "display": "6-7"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Insurance", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "GeneralDoctorVisits_1", 
-                  "display": "1"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Insurance", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "GeneralDoctorVisits_4to5", 
-                  "display": "4-5"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Insurance", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "GeneralDoctorVisits_16orMore", 
-                  "display": "16 or more"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Insurance", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "GeneralDoctorVisits_8to9", 
-                  "display": "8-9"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Insurance", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "GeneralDoctorVisits_13to15", 
-                  "display": "13-15"
-                }
-              ], 
-              "property": [
-                {
-                  "valueCode": "Question", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Insurance", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "HealthAdvice_GeneralDoctorVisits", 
-              "display": "What is the total number of general doctor visits you made in the last 12 months"
             }, 
             {
               "concept": [
@@ -21779,8 +21779,8 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "SiblingVisionCondition_HearingLoss", 
-                      "display": "Severe hearing loss or partial deafness in one or both ears"
+                      "code": "SiblingVisionCondition_Cataracts", 
+                      "display": "Cataracts"
                     }, 
                     {
                       "property": [
@@ -21793,8 +21793,8 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "SiblingVisionCondition_Cataracts", 
-                      "display": "Cataracts"
+                      "code": "SiblingVisionCondition_HearingLoss", 
+                      "display": "Severe hearing loss or partial deafness in one or both ears"
                     }, 
                     {
                       "property": [
@@ -36837,6 +36837,20 @@
                       "code": "concept-topic"
                     }
                   ], 
+                  "code": "DigestiveSystemConditions_CrohnsDisease", 
+                  "display": "Crohn's Disease"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": null, 
+                      "code": "concept-topic"
+                    }
+                  ], 
                   "code": "DigestiveSystemConditions_AcidReflux", 
                   "display": "Acid reflux"
                 }, 
@@ -46291,6 +46305,20 @@
                   ], 
                   "code": "RespiratoryConditions_Asthma", 
                   "display": "Asthma"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": null, 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "RespiratoryConditions_NoLungCondition", 
+                  "display": "I have no respiratory condition"
                 }, 
                 {
                   "property": [
@@ -67088,12 +67116,12 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 4628, 
+  "count": 4630, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.3.26", 
+  "version": "0.3.27", 
   "hierarchyMeaning": "grouped-by", 
   "date": "2018-10-10", 
   "property": [

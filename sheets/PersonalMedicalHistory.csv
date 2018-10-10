@@ -2011,3 +2011,5 @@ Elderly (75+),,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,HowOldWereY
 Are you currently prescribed medications and/or receiving treatment for this condition?,,Question,MULTI_SELECTOR,http://terminology.pmi-ops.org/CodeSystem/ppi,Other_RxMedsforOtherDiagnosis,,PersonalMedicalHistory_Other,,10/9/2018,,,,,,,,,,,,
 Yes,,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,RxMedsforOtherDiagnosis_Yes,,Other_RxMedsforOtherDiagnosis,,10/9/2018,,,,,,,,,,,,
 No,,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,RxMedsforOtherDiagnosis_No,,Other_RxMedsforOtherDiagnosis,,10/9/2018,,,,,,,,,,,,
+I have no respiratory condition,,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,RespiratoryConditions_NoLungCondition,,Respiratory_RespiratoryConditions,,10/10/2018,,,,,,,,,,,,
+Crohn's Disease,,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,DigestiveSystemConditions_CrohnsDisease,,Digestive_DigestiveSystemConditions,,10/10/2018,,,,,,,,,,,,
