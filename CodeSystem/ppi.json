@@ -61985,7 +61985,7 @@
         {
           "property": [
             {
-              "valueCode": null, 
+              "valueCode": "Question", 
               "code": "concept-type"
             }, 
             {
@@ -67121,7 +67121,7 @@
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.3.27", 
+  "version": "0.3.28", 
   "hierarchyMeaning": "grouped-by", 
   "date": "2018-10-10", 
   "property": [

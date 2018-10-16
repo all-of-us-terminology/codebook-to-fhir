@@ -281,4 +281,4 @@ Did someone from All of Us help you with the consent process?,Assisted Consent,Q
 Yes,Assisted Consent,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,HelpWithConsent_Yes,,ConsentPII_HelpWithConsent,6/25/2018,,,,,,,,,,,,
 No,Assisted Consent,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,HelpWithConsent_No,,ConsentPII_HelpWithConsent,6/25/2018,,,,,,,,,,,,
 Please have the person that helped you type their name below.,Assisted Consent,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,ConsentPII_HelpWithConsentSignature,,ConsentPII,6/25/2018,,,,,,,,,,,,
-SMS Phone Number,SMS Feature,,http://terminology.pmi-ops.org/CodeSystem/ppi,ConsentPII_VerifiedPrimaryPhoneNumber,,ConsentPII,,,,,,,,,,,,,
+SMS Phone Number,SMS Feature,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,ConsentPII_VerifiedPrimaryPhoneNumber,,ConsentPII,10/12/2018,,,,,,,,,,,,
