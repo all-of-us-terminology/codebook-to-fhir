@@ -16777,34 +16777,6 @@
                   "code": "concept-type"
                 }, 
                 {
-                  "valueCode": "Sleeping", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "TroubleSleeping_CountSheep", 
-              "display": "count sheep"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Sleeping", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "TroubleSleeping_OTCMedication", 
-              "display": "use over-the-counter medicine"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
                   "valueCode": "Get flu shot", 
                   "code": "concept-topic"
                 }
@@ -17825,6 +17797,34 @@
               ], 
               "code": "TroubleSleeping_RxMedication", 
               "display": "use prescription medicine"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Sleeping", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "TroubleSleeping_CountSheep", 
+              "display": "count sheep"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Sleeping", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "TroubleSleeping_OTCMedication", 
+              "display": "use over-the-counter medicine"
             }
           ], 
           "property": [
@@ -67343,7 +67343,7 @@
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.3.29", 
+  "version": "0.3.30", 
   "hierarchyMeaning": "grouped-by", 
   "date": "2018-11-06", 
   "property": [
