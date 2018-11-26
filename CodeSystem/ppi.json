@@ -64143,6 +64143,20 @@
                       "code": "concept-topic"
                     }
                   ], 
+                  "code": "AZSitepairingLocation_Nogales", 
+                  "display": "NOGALES: Mariposa Community Health Center"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Arizona Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
                   "code": "AZSitepairingLocation_None", 
                   "display": "None"
                 }, 
@@ -67588,12 +67602,12 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 4662, 
+  "count": 4663, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.3.31", 
+  "version": "0.3.32", 
   "hierarchyMeaning": "grouped-by", 
   "date": "2018-11-26", 
   "property": [
