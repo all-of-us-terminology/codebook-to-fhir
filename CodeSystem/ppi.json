@@ -2265,6 +2265,20 @@
                           "code": "concept-topic"
                         }
                       ], 
+                      "code": "PersonOneAddressState_HI", 
+                      "display": "Hawaii"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Secondary Contact", 
+                          "code": "concept-topic"
+                        }
+                      ], 
                       "code": "PersonOneAddressState_MS", 
                       "display": "Mississippi"
                     }, 
@@ -2281,20 +2295,6 @@
                       ], 
                       "code": "PersonOneAddressState_NM", 
                       "display": "New Mexico"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Secondary Contact", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "PersonOneAddressState_HI", 
-                      "display": "Hawaii"
                     }, 
                     {
                       "property": [
@@ -6619,6 +6619,80 @@
       ], 
       "code": "TheBasics", 
       "display": "The Basics"
+    }, 
+    {
+      "concept": [
+        {
+          "concept": [
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Music technology", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "MusicTech_Radio", 
+              "display": "radio"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Music technology", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "MusicTech_CassetteVinyl8Track", 
+              "display": "cassettes/CDs/vinyl/8-track"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Music technology", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "MusicTech_PhoneMP3", 
+              "display": "my phone/mp3 player"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Music technology", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "Snap_MusicTech", 
+          "display": "I mainly use ___ to listen to music."
+        }
+      ], 
+      "property": [
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "SNAP_MUSICTECH_122018", 
+      "display": "December Snap Questions 3"
     }, 
     {
       "concept": [
@@ -15457,6 +15531,80 @@
         {
           "concept": [
             {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Enjoy music", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "EnjoyMusic_Cooking", 
+              "display": "cooking"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Enjoy music", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "EnjoyMusic_Exercising", 
+              "display": "exercising"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Enjoy music", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "EnjoyMusic_Commuting", 
+              "display": "commuting"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Enjoy music", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "Snap_EnjoyMusic", 
+          "display": "I enjoy music most when I'm ____."
+        }
+      ], 
+      "property": [
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "SNAP_MOODMUSIC_122018", 
+      "display": "December Snap Questions 1"
+    }, 
+    {
+      "concept": [
+        {
+          "concept": [
+            {
               "concept": [
                 {
                   "property": [
@@ -17557,8 +17705,8 @@
                   "code": "concept-topic"
                 }
               ], 
-              "code": "EssentiaHealth_No", 
-              "display": "None of the above"
+              "code": "EssentiaHealth_Yes", 
+              "display": "Essentia Health"
             }, 
             {
               "property": [
@@ -17571,8 +17719,8 @@
                   "code": "concept-topic"
                 }
               ], 
-              "code": "EssentiaHealth_Yes", 
-              "display": "Essentia Health"
+              "code": "EssentiaHealth_No", 
+              "display": "None of the above"
             }
           ], 
           "property": [
@@ -17987,6 +18135,80 @@
       ], 
       "code": "UPMC", 
       "display": "All of Us PA Scheduling Information"
+    }, 
+    {
+      "concept": [
+        {
+          "concept": [
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Music emotions", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "UseMusic_Happy", 
+              "display": "happy"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Music emotions", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "UseMusic_Energized", 
+              "display": "energized"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Music emotions", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "UseMusic_Relaxed", 
+              "display": "relaxed"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Music emotions", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "Snap_UseMusic", 
+          "display": "I use music to feel____"
+        }
+      ], 
+      "property": [
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "SNAP_USEMUSICFOR_122018", 
+      "display": "December Snap Questions 2"
     }, 
     {
       "concept": [
@@ -21913,8 +22135,8 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "SonMentalCondition_AnxietyPanic", 
-                      "display": "Anxiety reaction/panic disorder"
+                      "code": "SonMentalCondition_Schizophrenia", 
+                      "display": "Schizophrenia"
                     }, 
                     {
                       "property": [
@@ -21927,8 +22149,8 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "SonMentalCondition_Schizophrenia", 
-                      "display": "Schizophrenia"
+                      "code": "SonMentalCondition_AnxietyPanic", 
+                      "display": "Anxiety reaction/panic disorder"
                     }, 
                     {
                       "property": [
@@ -26527,6 +26749,20 @@
                           "code": "concept-topic"
                         }
                       ], 
+                      "code": "GrandparentCancerCondition_CervicalCancer", 
+                      "display": "Cervical cancer"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Grandparent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
                       "code": "GrandparentCancerCondition_EndocrineCancer", 
                       "display": "Endocrine cancer"
                     }, 
@@ -26543,20 +26779,6 @@
                       ], 
                       "code": "GrandparentCancerCondition_SkinCancer", 
                       "display": "Skin cancer"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Grandparent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "GrandparentCancerCondition_CervicalCancer", 
-                      "display": "Cervical cancer"
                     }, 
                     {
                       "property": [
@@ -27027,6 +27249,20 @@
                         {
                           "valueCode": "Child History", 
                           "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "DaughterCirculatoryCondition_HeartAttack", 
+                      "display": "Heart attack"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Child History", 
+                          "code": "concept-topic"
                         }, 
                         {
                           "valueCode": "DaughterCirculatoryCondition_PeripheralVascular", 
@@ -27063,20 +27299,6 @@
                       ], 
                       "code": "DaughterCirculatoryCondition_HeartValveDisease", 
                       "display": "Heart Valve Disease"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Child History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "DaughterCirculatoryCondition_HeartAttack", 
-                      "display": "Heart attack"
                     }, 
                     {
                       "property": [
@@ -30629,20 +30851,6 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "SonEndocrineCondition_Hyperthyroidism", 
-                      "display": "Hyperthyroidism"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Child History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
                       "code": "SonEndocrineCondition_OtherDiabetes", 
                       "display": "Other/unknown diabetes (This includes gestational diabetes (diabetes during pregnancy) and borderline diabetes (pre-diabetes).)"
                     }, 
@@ -30687,6 +30895,20 @@
                       ], 
                       "code": "SonEndocrineCondition_Hypothyroidism", 
                       "display": "Hypothyroidism"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Child History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "SonEndocrineCondition_Hyperthyroidism", 
+                      "display": "Hyperthyroidism"
                     }, 
                     {
                       "property": [
@@ -37423,8 +37645,8 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "RxMedsforPepticUlcers_Yes", 
-                  "display": "Yes"
+                  "code": "RxMedsforPepticUlcers_No", 
+                  "display": "No"
                 }, 
                 {
                   "property": [
@@ -37437,8 +37659,8 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "RxMedsforPepticUlcers_No", 
-                  "display": "No"
+                  "code": "RxMedsforPepticUlcers_Yes", 
+                  "display": "Yes"
                 }
               ], 
               "property": [
@@ -40387,8 +40609,8 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "HowOldWereYouLupus_Child", 
-                  "display": "Child (0-11)"
+                  "code": "HowOldWereYouLupus_Elderly", 
+                  "display": "Elderly (75+)"
                 }, 
                 {
                   "property": [
@@ -40401,8 +40623,8 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "HowOldWereYouLupus_Elderly", 
-                  "display": "Elderly (75+)"
+                  "code": "HowOldWereYouLupus_Child", 
+                  "display": "Child (0-11)"
                 }
               ], 
               "property": [
@@ -48709,8 +48931,8 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "RxMedsforLouGehrigsDisease_Yes", 
-                  "display": "Yes"
+                  "code": "RxMedsforLouGehrigsDisease_No", 
+                  "display": "No"
                 }, 
                 {
                   "property": [
@@ -48723,8 +48945,8 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "RxMedsforLouGehrigsDisease_No", 
-                  "display": "No"
+                  "code": "RxMedsforLouGehrigsDisease_Yes", 
+                  "display": "Yes"
                 }
               ], 
               "property": [
@@ -62335,6 +62557,20 @@
                       "code": "concept-topic"
                     }
                   ], 
+                  "code": "IllinoisInstitution_CookCounty", 
+                  "display": "Cook County Health, Chicago"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Illinois Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
                   "code": "IllinoisInstitution_Noneofthese", 
                   "display": "None of these"
                 }, 
@@ -62379,6 +62615,20 @@
                   ], 
                   "code": "IllinoisInstitution_NorthShoreU", 
                   "display": "NorthShore University HealthSystem"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Illinois Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "IllinoisInstitution_UnityPoint", 
+                  "display": "UnityPoint Health, Peoria"
                 }, 
                 {
                   "property": [
@@ -67338,14 +67588,14 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 4645, 
+  "count": 4662, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.3.30", 
+  "version": "0.3.31", 
   "hierarchyMeaning": "grouped-by", 
-  "date": "2018-11-06", 
+  "date": "2018-11-26", 
   "property": [
     {
       "code": "concept-type", 
