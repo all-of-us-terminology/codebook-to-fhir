@@ -15333,8 +15333,8 @@
                   "code": "concept-topic"
                 }
               ], 
-              "code": "HoursSleep_6orLess", 
-              "display": "6 hours or less"
+              "code": "HoursSleep_7to8", 
+              "display": "7-8 hours"
             }, 
             {
               "property": [
@@ -15347,8 +15347,8 @@
                   "code": "concept-topic"
                 }
               ], 
-              "code": "HoursSleep_7to8", 
-              "display": "7-8 hours"
+              "code": "HoursSleep_6orLess", 
+              "display": "6 hours or less"
             }
           ], 
           "property": [
@@ -18221,6 +18221,80 @@
                   "code": "concept-type"
                 }, 
                 {
+                  "valueCode": "Exercise time", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "ExerciseTime_Morning", 
+              "display": "in the morning"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Exercise time", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "ExerciseTime_Night", 
+              "display": "at night"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Exercise time", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "ExerciseTime_MiddleofDay", 
+              "display": "in the middle of the day"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Exercise time", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "Snap_ExerciseTime", 
+          "display": "I would rather be active ___."
+        }
+      ], 
+      "property": [
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "SNAP_EXERCISETIME_012019", 
+      "display": "January Snap Questions 3"
+    }, 
+    {
+      "concept": [
+        {
+          "concept": [
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
                   "valueCode": "Agreeing to Participate", 
                   "code": "concept-topic"
                 }
@@ -19555,6 +19629,80 @@
       ], 
       "code": "PPIModuleFeedback", 
       "display": "PPI Module Feedback"
+    }, 
+    {
+      "concept": [
+        {
+          "concept": [
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Exercise preference", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "ExercisePreference_WithOthers", 
+              "display": "with others"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Exercise preference", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "ExercisePreference_ByMyself", 
+              "display": "by myself"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Exercise preference", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "ExercisePreference_WithTVRemote", 
+              "display": "with the TV remote"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Exercise preference", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "Snap_ExercisePreference", 
+          "display": "I prefer to be active ____."
+        }
+      ], 
+      "property": [
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "SNAP_EXERCISEPREF_012019", 
+      "display": "January Snap Questions 2"
     }, 
     {
       "concept": [
@@ -24447,20 +24595,6 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "GrandparentNervousCondition_MuscularDystrophy", 
-                      "display": "Muscular dystrophy"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Grandparent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
                       "code": "GrandparentNervousCondition_MultipleSclerosis", 
                       "display": "Multiple sclerosis"
                     }, 
@@ -24491,6 +24625,20 @@
                       ], 
                       "code": "GrandparentNervousCondition_Narcolepsy", 
                       "display": "Narcolepsy"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Grandparent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "GrandparentNervousCondition_MuscularDystrophy", 
+                      "display": "Muscular dystrophy"
                     }, 
                     {
                       "property": [
@@ -27109,6 +27257,20 @@
                           "code": "concept-topic"
                         }
                       ], 
+                      "code": "MotherDigestiveCondition_CrohnsDisease", 
+                      "display": "Crohn's disease"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Parent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
                       "code": "MotherDigestiveCondition_GallStones", 
                       "display": "Gall Stones"
                     }, 
@@ -27167,20 +27329,6 @@
                       ], 
                       "code": "MotherDigestiveCondition_UlcerativeColitis", 
                       "display": "Ulcerative colitis"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Parent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "MotherDigestiveCondition_CrohnsDisease", 
-                      "display": "Crohn's disease"
                     }, 
                     {
                       "property": [
@@ -29275,6 +29423,20 @@
                           "code": "concept-topic"
                         }
                       ], 
+                      "code": "MotherNervousCondition_OtherHeadaches", 
+                      "display": "Other types of headaches"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Parent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
                       "code": "MotherNervousCondition_Neuropathy", 
                       "display": "Neuropathy"
                     }, 
@@ -29305,20 +29467,6 @@
                       ], 
                       "code": "MotherNervousCondition_MuscularDystrophy", 
                       "display": "Muscular dystrophy"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Parent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "MotherNervousCondition_OtherHeadaches", 
-                      "display": "Other types of headaches"
                     }, 
                     {
                       "property": [
@@ -66909,6 +67057,80 @@
                   "code": "concept-type"
                 }, 
                 {
+                  "valueCode": "Exercise method", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "ExerciseMethod_Sports", 
+              "display": "sports"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Exercise method", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "ExerciseMethod_Walking", 
+              "display": "walking"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Exercise method", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "ExerciseMethod_Classes", 
+              "display": "exercise classes"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Exercise method", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "Snap_ExerciseMethod", 
+          "display": "To be active, I prefer  ____."
+        }
+      ], 
+      "property": [
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "SNAP_EXERCISEMETHOD_012019", 
+      "display": "January Snap Questions 1"
+    }, 
+    {
+      "concept": [
+        {
+          "concept": [
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
                   "valueCode": "Assisted Consent", 
                   "code": "concept-topic"
                 }
@@ -67602,14 +67824,14 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 4663, 
+  "count": 4678, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.3.32", 
+  "version": "0.3.33", 
   "hierarchyMeaning": "grouped-by", 
-  "date": "2018-11-26", 
+  "date": "2018-11-29", 
   "property": [
     {
       "code": "concept-type", 
