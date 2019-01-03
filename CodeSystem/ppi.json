@@ -18843,6 +18843,20 @@
               "code": "concept-type"
             }, 
             {
+              "valueCode": "States", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "PIIState_VI", 
+          "display": "Virgin Islands"
+        }, 
+        {
+          "property": [
+            {
+              "valueCode": "Answer", 
+              "code": "concept-type"
+            }, 
+            {
               "valueCode": "PMI", 
               "code": "concept-topic"
             }
@@ -18975,20 +18989,6 @@
           ], 
           "code": "PIIState_LA", 
           "display": "Louisiana"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "States", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "PIIState_VI", 
-          "display": "Virgin Islands"
         }, 
         {
           "property": [
@@ -63067,6 +63067,66 @@
                       "code": "concept-type"
                     }, 
                     {
+                      "valueCode": "Colorado Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "COSitepairingLocation_None", 
+                  "display": "None of these"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Colorado Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "COSitepairingLocation_Greeley", 
+                  "display": "GREELEY: Banner North Colorado Medical Center"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Colorado Site Pairing", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "ColoradoSitePairing_COSitepairingLocation", 
+              "display": "The All of Us Research Program is enrolling participants at the following healthcare sites. At which location do you wish to schedule your visit?"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Topic", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Colorado Site Pairing", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "ConsentPII_ColoradoSitePairing", 
+          "display": "Colorado Site Pairing"
+        }, 
+        {
+          "concept": [
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
                       "valueCode": "San Diego Site Pairing - OLD", 
                       "code": "concept-topic"
                     }
@@ -67824,14 +67884,14 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 4678, 
+  "count": 4682, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.3.33", 
+  "version": "0.3.34", 
   "hierarchyMeaning": "grouped-by", 
-  "date": "2018-11-29", 
+  "date": "2018-12-28", 
   "property": [
     {
       "code": "concept-type", 
