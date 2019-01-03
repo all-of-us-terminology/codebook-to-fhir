@@ -166,3 +166,7 @@ Essentia Health,Wisconsin Consortium Site Pairing,Answer,http://terminology.pmi-
 "UnityPoint Health, Peoria",Illinois Site Pairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,IllinoisInstitution_UnityPoint,,IllinoisSitePairing_IllinoisInstitution,11/26/2018,,,,,,,,,,,,
 "Cook County Health, Chicago",Illinois Site Pairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,IllinoisInstitution_CookCounty,,IllinoisSitePairing_IllinoisInstitution,11/26/2018,,,,,,,,,,,,
 NOGALES: Mariposa Community Health Center,Arizona Site Pairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,AZSitepairingLocation_Nogales,,ArizonaSitePairing_AZSitepairingLocation,11/26/2018,,,,,,,,,,,,
+Colorado Site Pairing,Colorado Site Pairing,Topic,http://terminology.pmi-ops.org/CodeSystem/ppi,ConsentPII_ColoradoSitePairing,,ConsentPII,12/27/2018,,,,,,,,,,,,
+The All of Us Research Program is enrolling participants at the following healthcare sites. At which location do you wish to schedule your visit?,Colorado Site Pairing,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,ColoradoSitePairing_COSitepairingLocation,,ConsentPII_ColoradoSitePairing,12/27/2018,,,,,,,,,,,,
+GREELEY: Banner North Colorado Medical Center,Colorado Site Pairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,COSitepairingLocation_Greeley,,ColoradoSitePairing_COSitepairingLocation,12/27/2018,,,,,,,,,,,,
+None of these,Colorado Site Pairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,COSitepairingLocation_None,,ColoradoSitePairing_COSitepairingLocation,12/27/2018,,,,,,,,,,,,
