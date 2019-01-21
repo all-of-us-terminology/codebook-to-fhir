@@ -56,7 +56,7 @@ no,Community Health Center Site Pairing,Answer,http://terminology.pmi-ops.org/Co
 Do you live in any of the following general areas? (others coming soon!),Michigan Site Pairing,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,MichiganSitePairing_LiveInFollowingAreas,,ConsentPII_MichiganSitePairing,12/5/2017,,,,,,,,,,,,
 *East/Southeast Michigan (Metropolitan Detroit area),Michigan Site Pairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,LiveInFollowingAreas_LiveInEastSouthEastMichigan,,MichiganSitePairing_LiveInFollowingAreas,12/5/2017,,,,,,,,,,,,
 Western Michigan,Michigan Site Pairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,LiveInFollowingAreas_LiveInWesternMichigan        ,,MichiganSitePairing_LiveInFollowingAreas,12/5/2017,,,,,,,,,,,,
-*I do not live in any listed area,Michigan Site Pairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,LiveInFollowingAreas_DoNotLiveInListedAreas,,MichiganSitePairing_LiveInFollowingAreas,12/5/2017,,,,,,,,,,,,
+Northern/ Upper Peninsula,Michigan Site Pairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,LiveInFollowingAreas_NorthUpperPeninsula,,MichiganSitePairing_LiveInFollowingAreas,1/17/2019,,,,,,,,,,,,
 If participant lives in the East/Southeast Michigan Area:,Michigan Site Pairing,Topic,http://terminology.pmi-ops.org/CodeSystem/ppi,MichiganSitePairing_EastSoutheastMichigan,,ConsentPII_MichiganSitePairing,6/7/2017,,,,,,,,,,,,
 "Have you ever received care at a Henry Ford Health System facility or are you currently affiliated with the institution? This many include receiving care in a HFHS hospital, urgent care, emergency department, outpatient clinic or thru HFHS employee health.",Michigan Site Pairing,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,EastSoutheastMichigan_CareAtHenryFord,,MichiganSitePairing_EastSoutheastMichigan,12/5/2017,,,,,,,,,,,,
 Yes,Michigan Site Pairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,CareAtHenryFord_YesCareAtHenryFord,,EastSoutheastMichigan_CareAtHenryFord,12/5/2017,,,,,,,,,,,,
@@ -170,3 +170,10 @@ Colorado Site Pairing,Colorado Site Pairing,Topic,http://terminology.pmi-ops.org
 The All of Us Research Program is enrolling participants at the following healthcare sites. At which location do you wish to schedule your visit?,Colorado Site Pairing,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,ColoradoSitePairing_COSitepairingLocation,,ConsentPII_ColoradoSitePairing,12/27/2018,,,,,,,,,,,,
 GREELEY: Banner North Colorado Medical Center,Colorado Site Pairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,COSitepairingLocation_Greeley,,ColoradoSitePairing_COSitepairingLocation,12/27/2018,,,,,,,,,,,,
 None of these,Colorado Site Pairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,COSitepairingLocation_None,,ColoradoSitePairing_COSitepairingLocation,12/27/2018,,,,,,,,,,,,
+Northern Michigan Site Pairing,Michigan Site Pairing,Topic,http://terminology.pmi-ops.org/CodeSystem/ppi,MichiganSitePairing_North_UpperPeninsula,,ConsentPII,1/21/2019,,,,,,,,,,,,
+"The following Healthcare Providers in your area are enrolling participants into the All of Us Research Program. 
+ Which institution might be closest to schedule an enrollment visit with? 
+ Please choose 1 institution.",Michigan Site Pairing,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,NorthernMichigan,,MichiganSitePairing_North_UpperPeninsula,1/21/2019,,,,,,,,,,,,
+Henry Ford Health System,Michigan Site Pairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,NorthMichigan_CareAtHenryFord_YesCareAtHenryFord,,NorthernMichigan,1/21/2019,,,,,,,,,,,,
+Spectrum Health,Michigan Site Pairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,NorthMichigan_SpectrumHealthSitePairing_Yes,,NorthernMichigan,1/21/2019,,,,,,,,,,,,
+Essentia Health,Michigan Site Pairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,NorthMichigan_EssentiaHealthSitePairing_Yes,,NorthernMichigan,1/21/2019,,,,,,,,,,,,
