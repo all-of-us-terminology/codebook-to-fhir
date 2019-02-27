@@ -8897,6 +8897,80 @@
         {
           "concept": [
             {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Nutrition (diets)", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Nutrition_Meat_Always", 
+              "display": "sometimes"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Nutrition (diets)", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Nutrition_Meat_Never", 
+              "display": "never"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Nutrition (diets)", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Nutrition_Meat_Sometimes", 
+              "display": "always"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Nutrition (diets)", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "Snap_Meat", 
+          "display": "I ___ eat meat."
+        }
+      ], 
+      "property": [
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "SNAP_NUTRITION_MEAT_032019", 
+      "display": "March Snap Questions 1"
+    }, 
+    {
+      "concept": [
+        {
+          "concept": [
+            {
               "concept": [
                 {
                   "property": [
@@ -18087,6 +18161,80 @@
                   "code": "concept-type"
                 }, 
                 {
+                  "valueCode": "Nutrition (diets)", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Nutrition_Gluten_Sometimes", 
+              "display": "always"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Nutrition (diets)", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Nutrition_Gluten_Never", 
+              "display": "never"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Nutrition (diets)", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Nutrition_Gluten_Always", 
+              "display": "sometimes"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Nutrition (diets)", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "Snap_Gluten", 
+          "display": "I ___ eat gluten."
+        }
+      ], 
+      "property": [
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "SNAP_NUTRITION_GLUTEN_032019", 
+      "display": "March Snap Questions 3"
+    }, 
+    {
+      "concept": [
+        {
+          "concept": [
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
                   "valueCode": "Without Cell", 
                   "code": "concept-topic"
                 }
@@ -18767,6 +18915,20 @@
               "code": "concept-topic"
             }
           ], 
+          "code": "PIIState_LA", 
+          "display": "Louisiana"
+        }, 
+        {
+          "property": [
+            {
+              "valueCode": "Answer", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "States", 
+              "code": "concept-topic"
+            }
+          ], 
           "code": "PIIState_OR", 
           "display": "Oregon"
         }, 
@@ -19049,20 +19211,6 @@
           ], 
           "code": "PIIState_WY", 
           "display": "Wyoming"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "States", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "PIIState_LA", 
-          "display": "Louisiana"
         }, 
         {
           "property": [
@@ -19777,6 +19925,80 @@
       ], 
       "code": "SNAP_EXERCISEPREF_012019", 
       "display": "January Snap Questions 2"
+    }, 
+    {
+      "concept": [
+        {
+          "concept": [
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Nutrition (diets)", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Nutrition_Dairy_Sometimes", 
+              "display": "always"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Nutrition (diets)", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Nutrition_Dairy_Always", 
+              "display": "sometimes"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Nutrition (diets)", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Nutrition_Dairy_Never", 
+              "display": "never"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Nutrition (diets)", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "Snap_Dairy", 
+          "display": "I ___ eat dairy."
+        }
+      ], 
+      "property": [
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "SNAP_NUTRITION_DAIRY_032019", 
+      "display": "March Snap Questions 2"
     }, 
     {
       "concept": [
@@ -26663,20 +26885,6 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "FatherCirculatoryCondition_Stroke", 
-                      "display": "Stroke"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Parent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
                       "code": "FatherCirculatoryCondition_SuddenDeath", 
                       "display": "Sudden death"
                     }, 
@@ -26697,6 +26905,20 @@
                       ], 
                       "code": "FatherCirculatoryCondition_CoronaryArteryHeartDisease", 
                       "display": "Coronary artery/coronary heart disease (included angina)"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Parent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "FatherCirculatoryCondition_Stroke", 
+                      "display": "Stroke"
                     }, 
                     {
                       "property": [
@@ -27445,6 +27667,20 @@
                           "code": "concept-topic"
                         }
                       ], 
+                      "code": "DaughterCirculatoryCondition_Stroke", 
+                      "display": "Stroke"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Child History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
                       "code": "DaughterCirculatoryCondition_AtrialFibrilation", 
                       "display": "Atrial fibrillation (or a-fib) or atrial flutter (or a-flutter). (These conditions cause irregular, often fast, heart beats that can cause poor blood flow. A-fib and a-flutter are not the same as a heart murmur.)"
                     }, 
@@ -27599,20 +27835,6 @@
                       ], 
                       "code": "DaughterCirculatoryCondition_HighCholesterol", 
                       "display": "High cholesterol"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Child History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "DaughterCirculatoryCondition_Stroke", 
-                      "display": "Stroke"
                     }, 
                     {
                       "property": [
@@ -30119,20 +30341,6 @@
                         {
                           "valueCode": "Grandparent History", 
                           "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "GrandparentCirculatoryCondition_AtrialFibrilation", 
-                      "display": "Atrial fibrillation (or a-fib) or atrial flutter (or a-flutter). (These conditions cause irregular, often fast, heart beats that can cause poor blood flow. A-fib and a-flutter are not the same as a heart murmur.)"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Grandparent History", 
-                          "code": "concept-topic"
                         }, 
                         {
                           "valueCode": "GrandparentCirculatoryCondition_CoroArteryHeart", 
@@ -30223,6 +30431,20 @@
                       ], 
                       "code": "GrandparentCirculatoryCondition_CongestiveHeartFailure", 
                       "display": "Congestive heart failure"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Grandparent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "GrandparentCirculatoryCondition_AtrialFibrilation", 
+                      "display": "Atrial fibrillation (or a-fib) or atrial flutter (or a-flutter). (These conditions cause irregular, often fast, heart beats that can cause poor blood flow. A-fib and a-flutter are not the same as a heart murmur.)"
                     }, 
                     {
                       "property": [
@@ -68180,14 +68402,14 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 4702, 
+  "count": 4717, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.3.37", 
+  "version": "0.3.38", 
   "hierarchyMeaning": "grouped-by", 
-  "date": "2019-01-02", 
+  "date": "2019-02-27", 
   "property": [
     {
       "code": "concept-type", 
