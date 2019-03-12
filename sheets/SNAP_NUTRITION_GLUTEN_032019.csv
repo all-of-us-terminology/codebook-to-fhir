@@ -1,6 +1,6 @@
-Display,Topic,Type,PMI System,PMI Code,Parent code,Date of Last Update
-March Snap Questions 3,Module Name,Module Name,http://terminology.pmi-ops.org/CodeSystem/ppi,SNAP_NUTRITION_GLUTEN_032019,,02/27/2019
-I ___ eat gluten.,Nutrition (diets),Question,http://terminology.pmi-ops.org/CodeSystem/ppi,Snap_Gluten,SNAP_NUTRITION_GLUTEN_032019,02/27/2019
-sometimes,Nutrition (diets),Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,Nutrition_Gluten_Always,Snap_Gluten,02/27/2019
-always,Nutrition (diets),Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,Nutrition_Gluten_Sometimes,Snap_Gluten,02/27/2019
+Display,Topic,Type,PMI System,PMI Code,Parent code,Date of Last Update
+March Snap Questions 3,Module Name,Module Name,http://terminology.pmi-ops.org/CodeSystem/ppi,SNAP_NUTRITION_GLUTEN_032019,,02/27/2019
+I ___ eat gluten.,Nutrition (diets),Question,http://terminology.pmi-ops.org/CodeSystem/ppi,Snap_Gluten,SNAP_NUTRITION_GLUTEN_032019,02/27/2019
+sometimes,Nutrition (diets),Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,Nutrition_Gluten_Always,Snap_Gluten,02/27/2019
+always,Nutrition (diets),Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,Nutrition_Gluten_Sometimes,Snap_Gluten,02/27/2019
 never,Nutrition (diets),Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,Nutrition_Gluten_Never,Snap_Gluten,02/27/2019

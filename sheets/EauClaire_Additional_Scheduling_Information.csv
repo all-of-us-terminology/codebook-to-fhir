@@ -1,5 +1,5 @@
-Display,Topic,Type,PMI System,PMI Code,Parent code,Date of Last Update
-Eau Claire Scheduling Information,Module Name,Module Name,http://terminology.pmi-ops.org/CodeSystem/ppi,EauClaire_Additional_Scheduling_Information,,2/16/2018
-Have you already scheduled an appointment with the All of Us Research Program team?,Eau Clair Scheduling,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,SouthCarolinaSitePairing_EC,EauClaire_Additional_Scheduling_Information,2/20/2018
-yes,Eau Clair Scheduling,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,EauClaire_Yes_New,SouthCarolinaSitePairing_EC,2/20/2018
+Display,Topic,Type,PMI System,PMI Code,Parent code,Date of Last Update
+Eau Claire Scheduling Information,Module Name,Module Name,http://terminology.pmi-ops.org/CodeSystem/ppi,EauClaire_Additional_Scheduling_Information,,2/16/2018
+Have you already scheduled an appointment with the All of Us Research Program team?,Eau Clair Scheduling,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,SouthCarolinaSitePairing_EC,EauClaire_Additional_Scheduling_Information,2/20/2018
+yes,Eau Clair Scheduling,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,EauClaire_Yes_New,SouthCarolinaSitePairing_EC,2/20/2018
 no,Eau Clair Scheduling,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,EauClaire_No_New,SouthCarolinaSitePairing_EC,2/20/2018
