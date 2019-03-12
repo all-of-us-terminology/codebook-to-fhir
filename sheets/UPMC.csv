@@ -1,5 +1,5 @@
-Display,Topic,Type,PMI System,PMI Code,Parent code,Date of Last Update
-All of Us PA Scheduling Information,Module Name,Module Name,http://terminology.pmi-ops.org/CodeSystem/ppi,UPMC,,2/16/2018
-Have you already scheduled an appointment with your local All of Us Pennsylvania team for physical measurements and biosample collection?,All of Us PA Scheduling,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,ScheduledWithPACares,UPMC,2/20/2018
-yes,All of Us PA Scheduling,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,ScheduledWithPACares_Yes_New,ScheduledWithPACares,2/20/2018
+Display,Topic,Type,PMI System,PMI Code,Parent code,Date of Last Update
+All of Us PA Scheduling Information,Module Name,Module Name,http://terminology.pmi-ops.org/CodeSystem/ppi,UPMC,,2/16/2018
+Have you already scheduled an appointment with your local All of Us Pennsylvania team for physical measurements and biosample collection?,All of Us PA Scheduling,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,ScheduledWithPACares,UPMC,2/20/2018
+yes,All of Us PA Scheduling,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,ScheduledWithPACares_Yes_New,ScheduledWithPACares,2/20/2018
 no,All of Us PA Scheduling,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,ScheduledWithPACares_No_New,ScheduledWithPACares,2/20/2018

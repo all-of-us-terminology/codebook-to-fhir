@@ -6041,8 +6041,8 @@
                               "code": "concept-topic"
                             }
                           ], 
-                          "code": "WhiteSpecific_German", 
-                          "display": "German"
+                          "code": "WhiteSpecific_Irish", 
+                          "display": "Irish"
                         }, 
                         {
                           "property": [
@@ -6055,8 +6055,8 @@
                               "code": "concept-topic"
                             }
                           ], 
-                          "code": "WhiteSpecific_Irish", 
-                          "display": "Irish"
+                          "code": "WhiteSpecific_German", 
+                          "display": "German"
                         }, 
                         {
                           "property": [
@@ -6939,92 +6939,6 @@
           ], 
           "code": "OverallHealth_EverydayActivities", 
           "display": "To what extent are you able to carry out your everyday physical activities such as walking, climbing stairs, carrying groceries, or moving a chair?"
-        }, 
-        {
-          "concept": [
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "General Health", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "GeneralHealth_Poor", 
-              "display": "Poor"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "General Health", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "GeneralHealth_Excellent", 
-              "display": "Excellent"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "General Health", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "GeneralHealth_Fair", 
-              "display": "Fair"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "General Health", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "GeneralHealth_VeryGood", 
-              "display": "Very Good"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "General Health", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "GeneralHealth_Good", 
-              "display": "Good"
-            }
-          ], 
-          "property": [
-            {
-              "valueCode": "Question", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "General Health", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "OverallHealth_GeneralHealth", 
-          "display": "In general, would you say your health is:"
         }, 
         {
           "concept": [
@@ -7969,6 +7883,92 @@
                   "code": "concept-type"
                 }, 
                 {
+                  "valueCode": "General Health", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "GeneralHealth_Poor", 
+              "display": "Poor"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "General Health", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "GeneralHealth_Excellent", 
+              "display": "Excellent"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "General Health", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "GeneralHealth_Fair", 
+              "display": "Fair"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "General Health", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "GeneralHealth_VeryGood", 
+              "display": "Very Good"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "General Health", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "GeneralHealth_Good", 
+              "display": "Good"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "General Health", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "OverallHealth_GeneralHealth", 
+          "display": "In general, would you say your health is:"
+        }, 
+        {
+          "concept": [
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
                   "valueCode": "Medical Form Confidence", 
                   "code": "concept-topic"
                 }
@@ -8631,6 +8631,20 @@
               "display": "Have to travel a long time to the nearest clinic location for in-person visit"
             }, 
             {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "EMSI", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "EMSIFeedback_PhysicallyUnableToTravel", 
+              "display": "Physically difficult to travel"
+            }, 
+            {
               "concept": [
                 {
                   "property": [
@@ -8659,34 +8673,6 @@
               ], 
               "code": "EMSIFeedback_Other", 
               "display": "Other"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "EMSI", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "EMSIFeedback_PhysicallyUnableToTravel", 
-              "display": "Physically difficult to travel"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "EMSI", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "EMSIFeedback_MoreComfortableAtHome", 
-              "display": "I feel more comfortable having my measurements and biospecimens collected at home"
             }, 
             {
               "property": [
@@ -8729,6 +8715,20 @@
               ], 
               "code": "EMSIFeedback_NoClinicInMyArea", 
               "display": "No clinic in my area"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "EMSI", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "EMSIFeedback_MoreComfortableAtHome", 
+              "display": "I feel more comfortable having my measurements and biospecimens collected at home"
             }
           ], 
           "property": [
@@ -11253,782 +11253,6 @@
                       "code": "concept-type"
                     }, 
                     {
-                      "valueCode": "Health Provider", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "HowImportant_VeryImportant", 
-                  "display": "Very Important"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Health Provider", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "HowImportant_NotImportant", 
-                  "display": "Not important at all"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Health Provider", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "HowImportant_SomewhatImportant", 
-                  "display": "Somewhat important"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Health Provider", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "HowImportant_SlightlyImportant", 
-                  "display": "Slightly important"
-                }
-              ], 
-              "property": [
-                {
-                  "valueCode": "Question", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Health Provider", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "HealthProviderRaceReligion_HowImportant", 
-              "display": "The following questions are about your experiences with health care providers in the past year. Some people think it is important for their providers to understand or share their race or ethnicity or gender or religion or beliefs or native language. \n\nHow important is it to you that your health care providers understand or are similar to you in any of these ways? Would you say..."
-            }, 
-            {
-              "concept": [
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Health Provider", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "HowOften_Always", 
-                  "display": "Always"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Health Provider", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "HowOften_SomeOfTheTime", 
-                  "display": "Some of the time"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Health Provider", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "HowOften_NoneOfTheTime", 
-                  "display": "None of the time"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Health Provider", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "HowOften_MostOfTheTime", 
-                  "display": "Most of the time"
-                }
-              ], 
-              "property": [
-                {
-                  "valueCode": "Question", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Health Provider", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "HealthProviderRaceReligion_HowOften", 
-              "display": "The following questions are about your experiences with health care providers in the past year. Some people think it is important for their providers to understand or share their race or ethnicity or gender or religion or beliefs or native language. \n\nHow often were you able to see health care providers who were similar to you in any of these ways? Would you say\u2026"
-            }, 
-            {
-              "concept": [
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Health Provider", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "DelayedOrNoCare_SomeOfTheTime", 
-                  "display": "Some of the time"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Health Provider", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "DelayedOrNoCare_MostOfTheTime", 
-                  "display": "Most of the time"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Health Provider", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "DelayedOrNoCare_Always", 
-                  "display": "Always"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Health Provider", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "DelayedOrNoCare_NoneOfTheTime", 
-                  "display": "None of the time"
-                }
-              ], 
-              "property": [
-                {
-                  "valueCode": "Question", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Health Provider", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "HealthProviderRaceReligion_DelayedOrNoCare", 
-              "display": "The following questions are about your experiences with health care providers in the past year. Some people think it is important for their providers to understand or share their race or ethnicity or gender or religion or beliefs or native language. \n\nHow often have you either delayed or not gone to see health care providers because they were different from you in any of these ways?"
-            }
-          ], 
-          "property": [
-            {
-              "valueCode": "Topic", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Health Provider", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "HealthcareAccess_HealthProviderRaceReligion", 
-          "display": "Health Provider"
-        }, 
-        {
-          "concept": [
-            {
-              "concept": [
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Insurance", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "HealthcareCoverage_Better", 
-                  "display": "Better"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Insurance", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "HealthcareCoverage_AboutTheSame", 
-                  "display": "About the same"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Insurance", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "HealthcareCoverage_Worse", 
-                  "display": "Worse"
-                }
-              ], 
-              "property": [
-                {
-                  "valueCode": "Question", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Insurance", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "Insurance_HealthcareCoverage", 
-              "display": "In regard to your health insurance or health care coverage, how does it compare to a year ago? Is it better, worse, or about the same?"
-            }, 
-            {
-              "concept": [
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Insurance", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "InsuranceAccepted_Yes", 
-                  "display": "Yes"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Insurance", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "InsuranceAccepted_No", 
-                  "display": "No"
-                }
-              ], 
-              "property": [
-                {
-                  "valueCode": "Question", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Insurance", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "Insurance_InsuranceAccepted", 
-              "display": "DURING THE PAST 12 MONTHS, were you told by a health care provider or doctor\u2019s office that they did not accept your health care coverage?"
-            }
-          ], 
-          "property": [
-            {
-              "valueCode": "Topic", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Insurance", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "HealthcareAccess_Insurance", 
-          "display": "Insurance"
-        }, 
-        {
-          "concept": [
-            {
-              "concept": [
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Delayed Medical Care", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "DeductibleTooHigh_No", 
-                  "display": "No"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Delayed Medical Care", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "DeductibleTooHigh_Yes", 
-                  "display": "Yes"
-                }
-              ], 
-              "property": [
-                {
-                  "valueCode": "Question", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Delayed Medical Care", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "DelayedMedicalCare_DeductibleTooHigh", 
-              "display": "There are many reasons people delay getting medical care. Have you delayed getting care for any of the following reasons in the PAST 12 MONTHS?\u2026Your deductible was too high/or could not afford the deductible"
-            }, 
-            {
-              "concept": [
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Delayed Medical Care", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "HadToPayOutOfPocket_No", 
-                  "display": "No"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Delayed Medical Care", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "HadToPayOutOfPocket_Yes", 
-                  "display": "Yes"
-                }
-              ], 
-              "property": [
-                {
-                  "valueCode": "Question", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Delayed Medical Care", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "DelayedMedicalCare_HadToPayOutOfPocket", 
-              "display": "There are many reasons people delay getting medical care. Have you delayed getting care for any of the following reasons in the PAST 12 MONTHS?\u2026You had to pay out of pocket for some or all of the procedure"
-            }, 
-            {
-              "concept": [
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Delayed Medical Care", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "RuralArea_Yes", 
-                  "display": "Yes"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Delayed Medical Care", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "RuralArea_No", 
-                  "display": "No"
-                }
-              ], 
-              "property": [
-                {
-                  "valueCode": "Question", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Delayed Medical Care", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "DelayedMedicalCare_RuralArea", 
-              "display": "You live in a rural area where distance to the health care provider is too far"
-            }, 
-            {
-              "concept": [
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Delayed Medical Care", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "ChildCare_Yes", 
-                  "display": "Yes"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Delayed Medical Care", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "ChildCare_No", 
-                  "display": "No"
-                }
-              ], 
-              "property": [
-                {
-                  "valueCode": "Question", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Delayed Medical Care", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "DelayedMedicalCare_ChildCare", 
-              "display": "There are many reasons people delay getting medical care. Have you delayed getting care for any of the following reasons in the PAST 12 MONTHS?...Couldn\u2019t get child care."
-            }, 
-            {
-              "concept": [
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Delayed Medical Care", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "Transportation_No", 
-                  "display": "No"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Delayed Medical Care", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "Transportation_Yes", 
-                  "display": "Yes"
-                }
-              ], 
-              "property": [
-                {
-                  "valueCode": "Question", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Delayed Medical Care", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "DelayedMedicalCare_Transportation", 
-              "display": "There are many reasons people delay getting medical care. Have you delayed getting care for any of the following reasons in the PAST 12 MONTHS? ...Didn't have transportation"
-            }, 
-            {
-              "concept": [
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Delayed Medical Care", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "TimeOffWork_Yes", 
-                  "display": "Yes"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Delayed Medical Care", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "TimeOffWork_No", 
-                  "display": "No"
-                }
-              ], 
-              "property": [
-                {
-                  "valueCode": "Question", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Delayed Medical Care", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "DelayedMedicalCare_TimeOffWork", 
-              "display": "There are many reasons people delay getting medical care. Have you delayed getting care for any of the following reasons in the PAST 12 MONTHS? ...Couldn\u2019t get time off work."
-            }, 
-            {
-              "concept": [
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Delayed Medical Care", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "Nervous_No", 
-                  "display": "No"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Delayed Medical Care", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "Nervous_Yes", 
-                  "display": "Yes"
-                }
-              ], 
-              "property": [
-                {
-                  "valueCode": "Question", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Delayed Medical Care", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "DelayedMedicalCare_Nervous", 
-              "display": "You were nervous about seeing a health care provider"
-            }, 
-            {
-              "concept": [
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Delayed Medical Care", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "ElderlyCare_No", 
-                  "display": "No"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Delayed Medical Care", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "ElderlyCare_Yes", 
-                  "display": "Yes"
-                }
-              ], 
-              "property": [
-                {
-                  "valueCode": "Question", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Delayed Medical Care", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "DelayedMedicalCare_ElderlyCare", 
-              "display": "There are many reasons people delay getting medical care. Have you delayed getting care for any of the following reasons in the PAST 12 MONTHS?...Couldn\u2019t get elderly care."
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Question", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Delayed Medical Care", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "OtherDelayedMedicalCare_FreeText", 
-              "display": "Free Text Box"
-            }, 
-            {
-              "concept": [
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Delayed Medical Care", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "CantAffordCoPay_No", 
-                  "display": "No"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Delayed Medical Care", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "CantAffordCoPay_Yes", 
-                  "display": "Yes"
-                }
-              ], 
-              "property": [
-                {
-                  "valueCode": "Question", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Delayed Medical Care", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "DelayedMedicalCare_CantAffordCoPay", 
-              "display": "There are many reasons people delay getting medical care. Have you delayed getting care for any of the following reasons in the PAST 12 MONTHS?\u2026Couldn\u2019t afford the co-pay"
-            }
-          ], 
-          "property": [
-            {
-              "valueCode": "Topic", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Delayed Medical Care", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "HealthcareAccess_DelayedMedicalCare", 
-          "display": "Delayed Medical Care"
-        }, 
-        {
-          "concept": [
-            {
-              "concept": [
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
                       "valueCode": "Can't Afford Medical Care", 
                       "code": "concept-topic"
                     }
@@ -12325,8 +11549,8 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "AbleToPayMedicalBills_SomewhatWorried", 
-                  "display": "Somewhat worried"
+                  "code": "AbleToPayMedicalBills_VeryWorried", 
+                  "display": "Very worried"
                 }, 
                 {
                   "property": [
@@ -12339,8 +11563,8 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "AbleToPayMedicalBills_VeryWorried", 
-                  "display": "Very worried"
+                  "code": "AbleToPayMedicalBills_SomewhatWorried", 
+                  "display": "Somewhat worried"
                 }
               ], 
               "property": [
@@ -12769,6 +11993,782 @@
         {
           "concept": [
             {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Health Provider", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "HowImportant_VeryImportant", 
+                  "display": "Very Important"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Health Provider", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "HowImportant_NotImportant", 
+                  "display": "Not important at all"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Health Provider", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "HowImportant_SomewhatImportant", 
+                  "display": "Somewhat important"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Health Provider", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "HowImportant_SlightlyImportant", 
+                  "display": "Slightly important"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Health Provider", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "HealthProviderRaceReligion_HowImportant", 
+              "display": "The following questions are about your experiences with health care providers in the past year. Some people think it is important for their providers to understand or share their race or ethnicity or gender or religion or beliefs or native language. \r\n\r\nHow important is it to you that your health care providers understand or are similar to you in any of these ways? Would you say..."
+            }, 
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Health Provider", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "HowOften_Always", 
+                  "display": "Always"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Health Provider", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "HowOften_SomeOfTheTime", 
+                  "display": "Some of the time"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Health Provider", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "HowOften_NoneOfTheTime", 
+                  "display": "None of the time"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Health Provider", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "HowOften_MostOfTheTime", 
+                  "display": "Most of the time"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Health Provider", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "HealthProviderRaceReligion_HowOften", 
+              "display": "The following questions are about your experiences with health care providers in the past year. Some people think it is important for their providers to understand or share their race or ethnicity or gender or religion or beliefs or native language. \r\n\r\nHow often were you able to see health care providers who were similar to you in any of these ways? Would you say\u2026"
+            }, 
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Health Provider", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "DelayedOrNoCare_SomeOfTheTime", 
+                  "display": "Some of the time"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Health Provider", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "DelayedOrNoCare_MostOfTheTime", 
+                  "display": "Most of the time"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Health Provider", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "DelayedOrNoCare_Always", 
+                  "display": "Always"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Health Provider", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "DelayedOrNoCare_NoneOfTheTime", 
+                  "display": "None of the time"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Health Provider", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "HealthProviderRaceReligion_DelayedOrNoCare", 
+              "display": "The following questions are about your experiences with health care providers in the past year. Some people think it is important for their providers to understand or share their race or ethnicity or gender or religion or beliefs or native language. \r\n\r\nHow often have you either delayed or not gone to see health care providers because they were different from you in any of these ways?"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Topic", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Health Provider", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "HealthcareAccess_HealthProviderRaceReligion", 
+          "display": "Health Provider"
+        }, 
+        {
+          "concept": [
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Insurance", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "HealthcareCoverage_Better", 
+                  "display": "Better"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Insurance", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "HealthcareCoverage_AboutTheSame", 
+                  "display": "About the same"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Insurance", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "HealthcareCoverage_Worse", 
+                  "display": "Worse"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Insurance", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Insurance_HealthcareCoverage", 
+              "display": "In regard to your health insurance or health care coverage, how does it compare to a year ago? Is it better, worse, or about the same?"
+            }, 
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Insurance", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "InsuranceAccepted_Yes", 
+                  "display": "Yes"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Insurance", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "InsuranceAccepted_No", 
+                  "display": "No"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Insurance", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Insurance_InsuranceAccepted", 
+              "display": "DURING THE PAST 12 MONTHS, were you told by a health care provider or doctor\u2019s office that they did not accept your health care coverage?"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Topic", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Insurance", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "HealthcareAccess_Insurance", 
+          "display": "Insurance"
+        }, 
+        {
+          "concept": [
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Delayed Medical Care", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "HadToPayOutOfPocket_No", 
+                  "display": "No"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Delayed Medical Care", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "HadToPayOutOfPocket_Yes", 
+                  "display": "Yes"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Delayed Medical Care", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "DelayedMedicalCare_HadToPayOutOfPocket", 
+              "display": "There are many reasons people delay getting medical care. Have you delayed getting care for any of the following reasons in the PAST 12 MONTHS?\u2026You had to pay out of pocket for some or all of the procedure"
+            }, 
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Delayed Medical Care", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "RuralArea_Yes", 
+                  "display": "Yes"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Delayed Medical Care", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "RuralArea_No", 
+                  "display": "No"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Delayed Medical Care", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "DelayedMedicalCare_RuralArea", 
+              "display": "You live in a rural area where distance to the health care provider is too far"
+            }, 
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Delayed Medical Care", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "Transportation_No", 
+                  "display": "No"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Delayed Medical Care", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "Transportation_Yes", 
+                  "display": "Yes"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Delayed Medical Care", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "DelayedMedicalCare_Transportation", 
+              "display": "There are many reasons people delay getting medical care. Have you delayed getting care for any of the following reasons in the PAST 12 MONTHS? ...Didn't have transportation"
+            }, 
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Delayed Medical Care", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "TimeOffWork_Yes", 
+                  "display": "Yes"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Delayed Medical Care", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "TimeOffWork_No", 
+                  "display": "No"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Delayed Medical Care", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "DelayedMedicalCare_TimeOffWork", 
+              "display": "There are many reasons people delay getting medical care. Have you delayed getting care for any of the following reasons in the PAST 12 MONTHS? ...Couldn\u2019t get time off work."
+            }, 
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Delayed Medical Care", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "Nervous_No", 
+                  "display": "No"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Delayed Medical Care", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "Nervous_Yes", 
+                  "display": "Yes"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Delayed Medical Care", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "DelayedMedicalCare_Nervous", 
+              "display": "You were nervous about seeing a health care provider"
+            }, 
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Delayed Medical Care", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "ChildCare_Yes", 
+                  "display": "Yes"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Delayed Medical Care", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "ChildCare_No", 
+                  "display": "No"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Delayed Medical Care", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "DelayedMedicalCare_ChildCare", 
+              "display": "There are many reasons people delay getting medical care. Have you delayed getting care for any of the following reasons in the PAST 12 MONTHS?...Couldn\u2019t get child care."
+            }, 
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Delayed Medical Care", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "ElderlyCare_No", 
+                  "display": "No"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Delayed Medical Care", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "ElderlyCare_Yes", 
+                  "display": "Yes"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Delayed Medical Care", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "DelayedMedicalCare_ElderlyCare", 
+              "display": "There are many reasons people delay getting medical care. Have you delayed getting care for any of the following reasons in the PAST 12 MONTHS?...Couldn\u2019t get elderly care."
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Delayed Medical Care", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "OtherDelayedMedicalCare_FreeText", 
+              "display": "Free Text Box"
+            }, 
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Delayed Medical Care", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "DeductibleTooHigh_Yes", 
+                  "display": "Yes"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Delayed Medical Care", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "DeductibleTooHigh_No", 
+                  "display": "No"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Delayed Medical Care", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "DelayedMedicalCare_DeductibleTooHigh", 
+              "display": "There are many reasons people delay getting medical care. Have you delayed getting care for any of the following reasons in the PAST 12 MONTHS?\u2026Your deductible was too high/or could not afford the deductible"
+            }, 
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Delayed Medical Care", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "CantAffordCoPay_No", 
+                  "display": "No"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Delayed Medical Care", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "CantAffordCoPay_Yes", 
+                  "display": "Yes"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Delayed Medical Care", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "DelayedMedicalCare_CantAffordCoPay", 
+              "display": "There are many reasons people delay getting medical care. Have you delayed getting care for any of the following reasons in the PAST 12 MONTHS?\u2026Couldn\u2019t afford the co-pay"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Topic", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Delayed Medical Care", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "HealthcareAccess_DelayedMedicalCare", 
+          "display": "Delayed Medical Care"
+        }, 
+        {
+          "concept": [
+            {
               "property": [
                 {
                   "valueCode": "Answer", 
@@ -12808,21 +12808,7 @@
                 }
               ], 
               "code": "InsuranceType_EmployerOrUnion", 
-              "display": "Insurance through a current or former employer \nor union (by you or another family member)"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Insurance", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "InsuraceType_OtherInsuranceType", 
-              "display": "Any other type of health insurance or health coverage plan"
+              "display": "Insurance through a current or former employer \r\nor union (by you or another family member)"
             }, 
             {
               "property": [
@@ -12850,7 +12836,7 @@
                 }
               ], 
               "code": "InsuranceType_GovernmentAssistancePlan", 
-              "display": "Medicaid, Medical Assistance, or any kind of government-assistance plan\nfor those with low incomes or disability"
+              "display": "Medicaid, Medical Assistance, or any kind of government-assistance plan\r\nfor those with low incomes or disability"
             }, 
             {
               "property": [
@@ -12865,6 +12851,20 @@
               ], 
               "code": "InsuranceType_IndianHealthService", 
               "display": "Indian Health Service"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Insurance", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "InsuraceType_OtherInsuranceType", 
+              "display": "Any other type of health insurance or health coverage plan"
             }, 
             {
               "property": [
@@ -13151,6 +13151,20 @@
                       "code": "concept-topic"
                     }
                   ], 
+                  "code": "MedicalSpecialistVisits_2to3", 
+                  "display": "2-3"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Insurance", 
+                      "code": "concept-topic"
+                    }
+                  ], 
                   "code": "MedicalSpecialistVisits_16orMore", 
                   "display": "16 or more"
                 }, 
@@ -13181,20 +13195,6 @@
                   ], 
                   "code": "MedicalSpecialistVisits_6to7", 
                   "display": "6-7"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Insurance", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "MedicalSpecialistVisits_2to3", 
-                  "display": "2-3"
                 }, 
                 {
                   "property": [
@@ -13495,6 +13495,20 @@
                       "code": "concept-topic"
                     }
                   ], 
+                  "code": "NursePractitionerVisits_6to7", 
+                  "display": "6-7"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Insurance", 
+                      "code": "concept-topic"
+                    }
+                  ], 
                   "code": "NursePractitionerVisits_2to3", 
                   "display": "2-3"
                 }, 
@@ -13511,20 +13525,6 @@
                   ], 
                   "code": "NursePractitionerVisits_8to9", 
                   "display": "8-9"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Insurance", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "NursePractitionerVisits_6to7", 
-                  "display": "6-7"
                 }, 
                 {
                   "property": [
@@ -13581,6 +13581,78 @@
               ], 
               "code": "HealthAdvice_NursePractitionerVisits", 
               "display": "What is the total number of nurse practitioner, physician assistant, or midwife visits you made in the last 12 months"
+            }, 
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Insurance", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "RespectedByProvider_NoneOfTheTime", 
+                  "display": "None of the time"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Insurance", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "RespectedByProvider_MostOfTheTime", 
+                  "display": "Most of the time"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Insurance", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "RespectedByProvider_SomeOfTheTime", 
+                  "display": "Some of the time"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Insurance", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "RespectedByProvider_Always", 
+                  "display": "Always"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Insurance", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "HealthAdvice_RespectedByProvider", 
+              "display": "How often were you treated with respect by your health care providers? Would you say\u2026"
             }, 
             {
               "concept": [
@@ -13927,6 +13999,20 @@
                       "code": "concept-topic"
                     }
                   ], 
+                  "code": "PodiatristVisits_16orMore", 
+                  "display": "16 or more"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Insurance", 
+                      "code": "concept-topic"
+                    }
+                  ], 
                   "code": "PodiatristVisits_8to9", 
                   "display": "8-9"
                 }, 
@@ -13971,20 +14057,6 @@
                   ], 
                   "code": "PodiatristVisits_1", 
                   "display": "1"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Insurance", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "PodiatristVisits_16orMore", 
-                  "display": "16 or more"
                 }
               ], 
               "property": [
@@ -14027,6 +14099,20 @@
                       "code": "concept-topic"
                     }
                   ], 
+                  "code": "EyeDoctorVisits_13to15", 
+                  "display": "13-15"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Insurance", 
+                      "code": "concept-topic"
+                    }
+                  ], 
                   "code": "EyeDoctorVisits_10to12", 
                   "display": "10-12"
                 }, 
@@ -14057,20 +14143,6 @@
                   ], 
                   "code": "EyeDoctorVisits_8to9", 
                   "display": "8-9"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Insurance", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "EyeDoctorVisits_13to15", 
-                  "display": "13-15"
                 }, 
                 {
                   "property": [
@@ -14269,6 +14341,20 @@
                       "code": "concept-topic"
                     }
                   ], 
+                  "code": "DentistVisits_6to7", 
+                  "display": "6-7"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Insurance", 
+                      "code": "concept-topic"
+                    }
+                  ], 
                   "code": "DentistVisits_2to3", 
                   "display": "2-3"
                 }, 
@@ -14297,36 +14383,22 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "DentistVisits_16orMore", 
-                  "display": "16 or more"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Insurance", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "DentistVisits_6to7", 
-                  "display": "6-7"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Insurance", 
-                      "code": "concept-topic"
-                    }
-                  ], 
                   "code": "DentistVisits_4to5", 
                   "display": "4-5"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Insurance", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "DentistVisits_16orMore", 
+                  "display": "16 or more"
                 }, 
                 {
                   "property": [
@@ -14569,8 +14641,8 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "RespectedByProvider_MostOfTheTime", 
-                  "display": "Most of the time"
+                  "code": "SpokenToPhysicalTherapist_Yes", 
+                  "display": "Yes"
                 }, 
                 {
                   "property": [
@@ -14583,36 +14655,8 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "RespectedByProvider_NoneOfTheTime", 
-                  "display": "None of the time"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Insurance", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "RespectedByProvider_SomeOfTheTime", 
-                  "display": "Some of the time"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Insurance", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "RespectedByProvider_Always", 
-                  "display": "Always"
+                  "code": "SpokenToPhysicalTherapist_No", 
+                  "display": "No"
                 }
               ], 
               "property": [
@@ -14625,8 +14669,8 @@
                   "code": "concept-topic"
                 }
               ], 
-              "code": "HealthAdvice_RespectedByProvider", 
-              "display": "How often were you treated with respect by your health care providers? Would you say\u2026"
+              "code": "HealthAdvice_SpokenToPhysicalTherapist", 
+              "display": "DURING THE PAST 12 MONTHS, have you seen or talked to any of the following health care providers about your own health?...A physical therapist, speech therapist, respiratory therapist, audiologist, or occupational therapist"
             }, 
             {
               "concept": [
@@ -14857,50 +14901,6 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "SpokenToPhysicalTherapist_Yes", 
-                  "display": "Yes"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Insurance", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "SpokenToPhysicalTherapist_No", 
-                  "display": "No"
-                }
-              ], 
-              "property": [
-                {
-                  "valueCode": "Question", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Insurance", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "HealthAdvice_SpokenToPhysicalTherapist", 
-              "display": "DURING THE PAST 12 MONTHS, have you seen or talked to any of the following health care providers about your own health?...A physical therapist, speech therapist, respiratory therapist, audiologist, or occupational therapist"
-            }, 
-            {
-              "concept": [
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Insurance", 
-                      "code": "concept-topic"
-                    }
-                  ], 
                   "code": "OBGYNVisits_10to12", 
                   "display": "10-12"
                 }, 
@@ -14929,8 +14929,8 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "OBGYNVisits_13to15", 
-                  "display": "13-15"
+                  "code": "OBGYNVisits_16orMore", 
+                  "display": "16 or more"
                 }, 
                 {
                   "property": [
@@ -14943,8 +14943,8 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "OBGYNVisits_16orMore", 
-                  "display": "16 or more"
+                  "code": "OBGYNVisits_13to15", 
+                  "display": "13-15"
                 }, 
                 {
                   "property": [
@@ -15230,7 +15230,7 @@
                 }
               ], 
               "code": "HealthAdvice_SpokenToProfessional", 
-              "display": "About how long has it been since you last saw or talked to a doctor or other health care \nprofessional about your own health?"
+              "display": "About how long has it been since you last saw or talked to a doctor or other health care \r\nprofessional about your own health?"
             }, 
             {
               "concept": [
@@ -15393,20 +15393,6 @@
                   "code": "concept-topic"
                 }
               ], 
-              "code": "HoursSleep_MoreThan8", 
-              "display": "more than 8 hours"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Sleeping", 
-                  "code": "concept-topic"
-                }
-              ], 
               "code": "HoursSleep_7to8", 
               "display": "7-8 hours"
             }, 
@@ -15423,6 +15409,20 @@
               ], 
               "code": "HoursSleep_6orLess", 
               "display": "6 hours or less"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Sleeping", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "HoursSleep_MoreThan8", 
+              "display": "more than 8 hours"
             }
           ], 
           "property": [
@@ -17928,7 +17928,7 @@
                 }
               ], 
               "code": "SitePairingConfirmation_ConfirmHPO", 
-              "display": "Welcome to the All of Us Research Program!\nThank you for completing the consent process! You have been paired with [profile HPO_full_name]. Before you can proceed, please confirm this is correct."
+              "display": "Welcome to the All of Us Research Program!\r\nThank you for completing the consent process! You have been paired with [profile HPO_full_name]. Before you can proceed, please confirm this is correct."
             }, 
             {
               "concept": [
@@ -18691,20 +18691,6 @@
               "code": "concept-topic"
             }
           ], 
-          "code": "PIIState_MP", 
-          "display": "North Marianas Islands"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "States", 
-              "code": "concept-topic"
-            }
-          ], 
           "code": "PIIState_MN", 
           "display": "Minnesota"
         }, 
@@ -18785,20 +18771,6 @@
               "code": "concept-type"
             }, 
             {
-              "valueCode": "States", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "PIIState_TX", 
-          "display": "Texas"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
               "valueCode": "PMI", 
               "code": "concept-topic"
             }
@@ -18847,6 +18819,20 @@
           ], 
           "code": "PIIState_KS", 
           "display": "Kansas"
+        }, 
+        {
+          "property": [
+            {
+              "valueCode": "Answer", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "States", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "PIIState_MP", 
+          "display": "North Marianas Islands"
         }, 
         {
           "property": [
@@ -19225,6 +19211,20 @@
           ], 
           "code": "PIIState_FM", 
           "display": "Federated States of Micronesia"
+        }, 
+        {
+          "property": [
+            {
+              "valueCode": "Answer", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "States", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "PIIState_TX", 
+          "display": "Texas"
         }, 
         {
           "property": [
@@ -20031,8 +20031,8 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "SonDiagnosisHistory_No", 
-                  "display": "No"
+                  "code": "SonDiagnosisHistory_Yes", 
+                  "display": "Yes"
                 }, 
                 {
                   "property": [
@@ -20045,8 +20045,8 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "SonDiagnosisHistory_Yes", 
-                  "display": "Yes"
+                  "code": "SonDiagnosisHistory_No", 
+                  "display": "No"
                 }, 
                 {
                   "property": [
@@ -21945,6 +21945,20 @@
                           "code": "concept-topic"
                         }
                       ], 
+                      "code": "DaughterMentalCondition_DrugUse", 
+                      "display": "Drug use disorder"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Child History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
                       "code": "DaughterMentalCondition_AnxietyPanic", 
                       "display": "Anxiety reaction/panic disorder"
                     }, 
@@ -21975,20 +21989,6 @@
                       ], 
                       "code": "DaughterMentalCondition_Addiction", 
                       "display": "Addiction to alcohol or drugs"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Child History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "DaughterMentalCondition_DrugUse", 
-                      "display": "Drug use disorder"
                     }, 
                     {
                       "property": [
@@ -22675,190 +22675,6 @@
                           "code": "concept-type"
                         }, 
                         {
-                          "valueCode": "Parent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "FatherNervousCondition_MigraineHeadaches", 
-                      "display": "Migraine headaches"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Parent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "FatherNervousCondition_RestlessLegsSyndrome", 
-                      "display": "Restless legs syndrome"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Parent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "FatherNervousCondition_EpilepsySeizure", 
-                      "display": "Epilepsy/seizure"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Parent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "FatherNervousCondition_MultipleSclerosis", 
-                      "display": "Multiple sclerosis"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Parent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "FatherNervousCondition_AmyotrophicLateralSclerosis", 
-                      "display": "Amyotrophic lateral sclerosis (Lou Gehrig\u2019s disease)"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Parent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "FatherNervousCondition_Neuropathy", 
-                      "display": "Neuropathy"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Parent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "FatherNervousCondition_OtherHeadaches", 
-                      "display": "Other types of headaches"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Parent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "FatherNervousCondition_Dementia", 
-                      "display": "Dementia (includes Alzheimer's, vascular, etc.)"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Parent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "FatherNervousCondition_Parkinsons", 
-                      "display": "Parkinson's disease"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Parent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "FatherNervousCondition_MuscularDystrophy", 
-                      "display": "Muscular dystrophy"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Parent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "FatherNervousCondition_Narcolepsy", 
-                      "display": "Narcolepsy"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Parent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "FatherNervousCondition_Insomnia", 
-                      "display": "Insomnia"
-                    }
-                  ], 
-                  "property": [
-                    {
-                      "valueCode": "Question", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Parent History", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "DiagnosedHealthCondition_FatherNervousCondition", 
-                  "display": "Brain and nervous system conditions:"
-                }, 
-                {
-                  "concept": [
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
                           "valueCode": "Child History", 
                           "code": "concept-topic"
                         }
@@ -22877,8 +22693,8 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "SonRespiratoryCondition_SleepApnea", 
-                      "display": "Sleep apnea"
+                      "code": "SonRespiratoryCondition_Asthma", 
+                      "display": "Asthma"
                     }, 
                     {
                       "property": [
@@ -22891,8 +22707,8 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "SonRespiratoryCondition_Asthma", 
-                      "display": "Asthma"
+                      "code": "SonRespiratoryCondition_SleepApnea", 
+                      "display": "Sleep apnea"
                     }
                   ], 
                   "property": [
@@ -23453,20 +23269,6 @@
                         {
                           "valueCode": "Grandparent History", 
                           "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "GrandparentEndocrineCondition_Hypothyroidism", 
-                      "display": "Hypothyroidism"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Grandparent History", 
-                          "code": "concept-topic"
                         }, 
                         {
                           "valueCode": "GrandparentEndocrineCondition_OtherThyroid", 
@@ -23475,20 +23277,6 @@
                       ], 
                       "code": "GrandparentEndocrineCondition_OtherThyroidCondition", 
                       "display": "Other or unknown thyroid condition"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Grandparent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "GrandparentEndocrineCondition_Type2Diabetes", 
-                      "display": "Type 2 diabetes (Type 1 diabetics do not produce enough insulin on their own, so they have get insulin injections. Type 1 diabetes used to be called juvenile onset diabetes.)"
                     }, 
                     {
                       "property": [
@@ -23515,8 +23303,36 @@
                           "code": "concept-topic"
                         }
                       ], 
+                      "code": "GrandparentEndocrineCondition_Type2Diabetes", 
+                      "display": "Type 2 diabetes (Type 1 diabetics do not produce enough insulin on their own, so they have get insulin injections. Type 1 diabetes used to be called juvenile onset diabetes.)"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Grandparent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
                       "code": "GrandparentEndocrineCondition_Type1Diabetes", 
                       "display": "Type 1 diabetes (Type 1 diabetics do not produce enough insulin on their own, so they have get insulin injections. Type 1 diabetes used to be called juvenile onset diabetes.)"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Grandparent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "GrandparentEndocrineCondition_Hypothyroidism", 
+                      "display": "Hypothyroidism"
                     }, 
                     {
                       "property": [
@@ -23675,12 +23491,210 @@
                           "code": "concept-type"
                         }, 
                         {
+                          "valueCode": "Parent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "FatherNervousCondition_MigraineHeadaches", 
+                      "display": "Migraine headaches"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Parent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "FatherNervousCondition_RestlessLegsSyndrome", 
+                      "display": "Restless legs syndrome"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Parent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "FatherNervousCondition_EpilepsySeizure", 
+                      "display": "Epilepsy/seizure"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Parent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "FatherNervousCondition_MultipleSclerosis", 
+                      "display": "Multiple sclerosis"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Parent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "FatherNervousCondition_AmyotrophicLateralSclerosis", 
+                      "display": "Amyotrophic lateral sclerosis (Lou Gehrig\u2019s disease)"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Parent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "FatherNervousCondition_Neuropathy", 
+                      "display": "Neuropathy"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Parent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "FatherNervousCondition_OtherHeadaches", 
+                      "display": "Other types of headaches"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Parent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "FatherNervousCondition_Dementia", 
+                      "display": "Dementia (includes Alzheimer's, vascular, etc.)"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Parent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "FatherNervousCondition_Parkinsons", 
+                      "display": "Parkinson's disease"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Parent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "FatherNervousCondition_MuscularDystrophy", 
+                      "display": "Muscular dystrophy"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Parent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "FatherNervousCondition_Narcolepsy", 
+                      "display": "Narcolepsy"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Parent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "FatherNervousCondition_Insomnia", 
+                      "display": "Insomnia"
+                    }
+                  ], 
+                  "property": [
+                    {
+                      "valueCode": "Question", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Parent History", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "DiagnosedHealthCondition_FatherNervousCondition", 
+                  "display": "Brain and nervous system conditions:"
+                }, 
+                {
+                  "concept": [
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
                           "valueCode": "Grandparent History", 
                           "code": "concept-topic"
                         }
                       ], 
                       "code": "GrandparentMentalCondition_Addiction", 
                       "display": "Addiction to alcohol or drugs"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Grandparent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "GrandparentMentalCondition_Depression", 
+                      "display": "Depression"
                     }, 
                     {
                       "property": [
@@ -23723,20 +23737,6 @@
                       ], 
                       "code": "GrandparentMentalCondition_Bipolar", 
                       "display": "Bipolar disorder"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Grandparent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "GrandparentMentalCondition_Depression", 
-                      "display": "Depression"
                     }, 
                     {
                       "property": [
@@ -24205,6 +24205,20 @@
                           "code": "concept-topic"
                         }
                       ], 
+                      "code": "SiblingCirculatoryCondition_CongestiveHeartFailure", 
+                      "display": "Congestive heart failure"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Sibling History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
                       "code": "SiblingCirculatoryCondition_Anemia", 
                       "display": "Anemia"
                     }, 
@@ -24221,20 +24235,6 @@
                       ], 
                       "code": "SiblingCirculatoryCondition_SickleCellDisease", 
                       "display": "Sickle Cell Disease"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Sibling History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "SiblingCirculatoryCondition_CongestiveHeartFailure", 
-                      "display": "Congestive heart failure"
                     }, 
                     {
                       "property": [
@@ -24673,8 +24673,8 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "SonKidneyCondition_KidneyDisease", 
-                      "display": "Kidney disease"
+                      "code": "SonKidneyCondition_KidneyStones", 
+                      "display": "Kidney stones"
                     }, 
                     {
                       "property": [
@@ -24687,8 +24687,8 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "SonKidneyCondition_KidneyStones", 
-                      "display": "Kidney stones"
+                      "code": "SonKidneyCondition_KidneyDisease", 
+                      "display": "Kidney disease"
                     }
                   ], 
                   "property": [
@@ -24919,20 +24919,6 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "GrandparentNervousCondition_Narcolepsy", 
-                      "display": "Narcolepsy"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Grandparent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
                       "code": "GrandparentNervousCondition_MuscularDystrophy", 
                       "display": "Muscular dystrophy"
                     }, 
@@ -25009,6 +24995,20 @@
                       ], 
                       "code": "GrandparentNervousCondition_EpilepsySeizure", 
                       "display": "Epilepsy/seizure"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Grandparent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "GrandparentNervousCondition_Narcolepsy", 
+                      "display": "Narcolepsy"
                     }, 
                     {
                       "property": [
@@ -25367,20 +25367,6 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "SonOtherHealthCondition_Allergies", 
-                      "display": "Allergies or hay fever"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Child History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
                       "code": "SonOtherHealthCondition_ReactionsToAnesthesia", 
                       "display": "Reactions to anesthesia (such as hyperthermia)"
                     }, 
@@ -25465,6 +25451,20 @@
                           "code": "concept-topic"
                         }
                       ], 
+                      "code": "SonOtherHealthCondition_Allergies", 
+                      "display": "Allergies or hay fever"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Child History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
                       "code": "SonOtherHealthCondition_LiverCondition", 
                       "display": "Liver condition (e.g., cirrhosis)"
                     }, 
@@ -25510,6 +25510,214 @@
                     }
                   ], 
                   "code": "DiagnosedHealthCondition_SonOtherHealthCondition", 
+                  "display": "Other Conditions"
+                }, 
+                {
+                  "concept": [
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Parent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "MotherOtherHealthCondition_Endometriosis", 
+                      "display": "Endometriosis"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Parent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "MotherOtherHealthCondition_Anemia", 
+                      "display": "Anemia"
+                    }, 
+                    {
+                      "concept": [
+                        {
+                          "property": [
+                            {
+                              "valueCode": "Question", 
+                              "code": "concept-type"
+                            }, 
+                            {
+                              "valueCode": "Parent History", 
+                              "code": "concept-topic"
+                            }
+                          ], 
+                          "code": "OtherCondition_MotherFreeTextBox", 
+                          "display": "Other (free text)"
+                        }
+                      ], 
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Parent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "MotherOtherHealthCondition_OtherCondition", 
+                      "display": "Other"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Parent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "MotherOtherHealthCondition_Allergies", 
+                      "display": "Allergies or hay fever"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Parent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "MotherOtherHealthCondition_SickleCell", 
+                      "display": "Sickle cell disease, sickle cell trait, thalassemia"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Parent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "MotherOtherHealthCondition_SkinCondition", 
+                      "display": "Skin condition (e.g., eczema, psoriasis)"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Parent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "MotherOtherHealthCondition_Fibroids", 
+                      "display": "Fibroids"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Parent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "MotherOtherHealthCondition_LiverCondition", 
+                      "display": "Liver condition (e.g., cirrhosis)"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Parent History", 
+                          "code": "concept-topic"
+                        }, 
+                        {
+                          "valueCode": "MotherOtherHealthCondition_PolycysticOvarianSynd", 
+                          "code": "short-code"
+                        }
+                      ], 
+                      "code": "MotherOtherHealthCondition_PolycysticOvarianSyndrome", 
+                      "display": "Polycystic Ovarian Syndrome"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Parent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "MotherOtherHealthCondition_Obesity", 
+                      "display": "Obesity"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Parent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "MotherOtherHealthCondition_HearingLoss", 
+                      "display": "Hearing loss"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Parent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "MotherOtherHealthCondition_ReactionToAnesthesia", 
+                      "display": "Reactions to anesthesia (such as hyperthermia)"
+                    }
+                  ], 
+                  "property": [
+                    {
+                      "valueCode": "Question", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Parent History", 
+                      "code": "concept-topic"
+                    }, 
+                    {
+                      "valueCode": "DiagnosedHealthCondition_MotherOtherHealth", 
+                      "code": "short-code"
+                    }
+                  ], 
+                  "code": "DiagnosedHealthCondition_MotherOtherHealthCondition", 
                   "display": "Other Conditions"
                 }, 
                 {
@@ -26061,24 +26269,6 @@
                         {
                           "valueCode": "Grandparent History", 
                           "code": "concept-topic"
-                        }, 
-                        {
-                          "valueCode": "GrandparentOtherHealthCond_PolycysticOvarianSyn", 
-                          "code": "short-code"
-                        }
-                      ], 
-                      "code": "GrandparentOtherHealthCondition_PolycysticOvarianSyndrome", 
-                      "display": "Polycystic Ovarian Syndrome"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Grandparent History", 
-                          "code": "concept-topic"
                         }
                       ], 
                       "code": "GrandparentOtherHealthCondition_Obesity", 
@@ -26187,6 +26377,24 @@
                       ], 
                       "code": "GrandparentOtherHealthCondition_Allergies", 
                       "display": "Allergies or hay fever"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Grandparent History", 
+                          "code": "concept-topic"
+                        }, 
+                        {
+                          "valueCode": "GrandparentOtherHealthCond_PolycysticOvarianSyn", 
+                          "code": "short-code"
+                        }
+                      ], 
+                      "code": "GrandparentOtherHealthCondition_PolycysticOvarianSyndrome", 
+                      "display": "Polycystic Ovarian Syndrome"
                     }, 
                     {
                       "property": [
@@ -26319,138 +26527,6 @@
                   ], 
                   "code": "DiagnosedHealthCondition_MotherEndocrineCondition", 
                   "display": "Hormone/endocrine conditions:"
-                }, 
-                {
-                  "concept": [
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Child History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "SonSkeletalMuscularCondition_Gout", 
-                      "display": "Gout"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Child History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "SonSkeletalMuscularCondition_SpineMuscleBone", 
-                      "display": "Spine muscle or bone disorders"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Child History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "SonSkeletalMuscularCondition_Pseudogout", 
-                      "display": "Pseudogout"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Child History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "SonSkeletalMuscularCondition_RheumatoidArthritis", 
-                      "display": "Rheumatoid arthritis"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Child History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "SonSkeletalMuscularCondition_Osteoporosis", 
-                      "display": "Osteoporosis"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Child History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "SonSkeletalMuscularCondition_SystemicLupus", 
-                      "display": "Systemic Lupus"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Child History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "SonSkeletalMuscularCondition_Fibromyalgia", 
-                      "display": "Fibromyalgia"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Child History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "SonSkeletalMuscularCondition_Osteoarthritis", 
-                      "display": "Osteoarthriris"
-                    }
-                  ], 
-                  "property": [
-                    {
-                      "valueCode": "Question", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Child History", 
-                      "code": "concept-topic"
-                    }, 
-                    {
-                      "valueCode": "DiagnosedHealthCondition_SonSkelMuscCondition", 
-                      "code": "short-code"
-                    }
-                  ], 
-                  "code": "DiagnosedHealthCondition_SonSkeletalMuscularCondition", 
-                  "display": "Skeletal/Muscular Conditions:"
                 }, 
                 {
                   "concept": [
@@ -26945,6 +27021,20 @@
                           "code": "concept-topic"
                         }
                       ], 
+                      "code": "FatherCirculatoryCondition_SickleCellDisease", 
+                      "display": "Sickle Cell Disease"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Parent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
                       "code": "FatherCirculatoryCondition_AtrialFibrilation", 
                       "display": "Atrial fibrillation (or a-fib) or atrial flutter (or a-flutter). (These conditions cause irregular, often fast, heart beats that can cause poor blood flow. A-fib and a-flutter are not the same as a heart murmur.)"
                     }, 
@@ -27003,20 +27093,6 @@
                       ], 
                       "code": "FatherCirculatoryCondition_HeartValveDisease", 
                       "display": "Heart Valve Disease"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Parent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "FatherCirculatoryCondition_SickleCellDisease", 
-                      "display": "Sickle Cell Disease"
                     }, 
                     {
                       "property": [
@@ -27321,20 +27397,6 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "GrandparentCancerCondition_BloodCancer", 
-                      "display": "Blood or soft tissue cancer"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Grandparent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
                       "code": "GrandparentCancerCondition_StomachCancer", 
                       "display": "Stomach cancer"
                     }, 
@@ -27351,6 +27413,20 @@
                       ], 
                       "code": "GrandparentCancerCondition_OvarianCancer", 
                       "display": "Ovarian Cancer"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Grandparent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "GrandparentCancerCondition_BloodCancer", 
+                      "display": "Blood or soft tissue cancer"
                     }, 
                     {
                       "property": [
@@ -27781,20 +27857,6 @@
                         {
                           "valueCode": "Child History", 
                           "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "DaughterCirculatoryCondition_SickleCellDisease", 
-                      "display": "Sickle Cell Disease"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Child History", 
-                          "code": "concept-topic"
                         }, 
                         {
                           "valueCode": "DaughterCirculatoryCondition_CoronaryArteryHeart", 
@@ -27867,6 +27929,20 @@
                       ], 
                       "code": "DaughterCirculatoryCondition_SuddenDeath", 
                       "display": "Sudden death"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Child History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "DaughterCirculatoryCondition_SickleCellDisease", 
+                      "display": "Sickle Cell Disease"
                     }
                   ], 
                   "property": [
@@ -27959,6 +28035,20 @@
                           "code": "concept-topic"
                         }
                       ], 
+                      "code": "DaughterSkeletalMuscularCondition_Gout", 
+                      "display": "Gout"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Child History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
                       "code": "DaughterSkeletalMuscularCondition_SystemicLupus", 
                       "display": "Systemic Lupus"
                     }, 
@@ -27989,20 +28079,6 @@
                       ], 
                       "code": "DaughterSkeletalMuscularCondition_Osteoporosis", 
                       "display": "Osteoporosis"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Child History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "DaughterSkeletalMuscularCondition_Gout", 
-                      "display": "Gout"
                     }
                   ], 
                   "property": [
@@ -28273,207 +28349,13 @@
                           "code": "concept-type"
                         }, 
                         {
-                          "valueCode": "Parent History", 
+                          "valueCode": "Sibling History", 
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "MotherOtherHealthCondition_Endometriosis", 
-                      "display": "Endometriosis"
+                      "code": "SiblingNervousCondition_MultipleSclerosis", 
+                      "display": "Multiple sclerosis"
                     }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Parent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "MotherOtherHealthCondition_Anemia", 
-                      "display": "Anemia"
-                    }, 
-                    {
-                      "concept": [
-                        {
-                          "property": [
-                            {
-                              "valueCode": "Question", 
-                              "code": "concept-type"
-                            }, 
-                            {
-                              "valueCode": "Parent History", 
-                              "code": "concept-topic"
-                            }
-                          ], 
-                          "code": "OtherCondition_MotherFreeTextBox", 
-                          "display": "Other (free text)"
-                        }
-                      ], 
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Parent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "MotherOtherHealthCondition_OtherCondition", 
-                      "display": "Other"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Parent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "MotherOtherHealthCondition_Allergies", 
-                      "display": "Allergies or hay fever"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Parent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "MotherOtherHealthCondition_SickleCell", 
-                      "display": "Sickle cell disease, sickle cell trait, thalassemia"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Parent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "MotherOtherHealthCondition_SkinCondition", 
-                      "display": "Skin condition (e.g., eczema, psoriasis)"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Parent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "MotherOtherHealthCondition_Fibroids", 
-                      "display": "Fibroids"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Parent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "MotherOtherHealthCondition_LiverCondition", 
-                      "display": "Liver condition (e.g., cirrhosis)"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Parent History", 
-                          "code": "concept-topic"
-                        }, 
-                        {
-                          "valueCode": "MotherOtherHealthCondition_PolycysticOvarianSynd", 
-                          "code": "short-code"
-                        }
-                      ], 
-                      "code": "MotherOtherHealthCondition_PolycysticOvarianSyndrome", 
-                      "display": "Polycystic Ovarian Syndrome"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Parent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "MotherOtherHealthCondition_Obesity", 
-                      "display": "Obesity"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Parent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "MotherOtherHealthCondition_HearingLoss", 
-                      "display": "Hearing loss"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Parent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "MotherOtherHealthCondition_ReactionToAnesthesia", 
-                      "display": "Reactions to anesthesia (such as hyperthermia)"
-                    }
-                  ], 
-                  "property": [
-                    {
-                      "valueCode": "Question", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Parent History", 
-                      "code": "concept-topic"
-                    }, 
-                    {
-                      "valueCode": "DiagnosedHealthCondition_MotherOtherHealth", 
-                      "code": "short-code"
-                    }
-                  ], 
-                  "code": "DiagnosedHealthCondition_MotherOtherHealthCondition", 
-                  "display": "Other Conditions"
-                }, 
-                {
-                  "concept": [
                     {
                       "property": [
                         {
@@ -28485,8 +28367,8 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "SiblingNervousCondition_MultipleSclerosis", 
-                      "display": "Multiple sclerosis"
+                      "code": "SiblingNervousCondition_EpilepsySeizure", 
+                      "display": "Epilepsy/seizure"
                     }, 
                     {
                       "property": [
@@ -28587,20 +28469,6 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "SiblingNervousCondition_EpilepsySeizure", 
-                      "display": "Epilepsy/seizure"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Sibling History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
                       "code": "SiblingNervousCondition_Parkinsons", 
                       "display": "Parkinson's disease"
                     }, 
@@ -28662,6 +28530,20 @@
                 }, 
                 {
                   "concept": [
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Sibling History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "SiblingCancerCondition_BladderCancer", 
+                      "display": "Bladder cancer"
+                    }, 
                     {
                       "property": [
                         {
@@ -28815,20 +28697,6 @@
                       ], 
                       "code": "SiblingCancerCondition_BrainCancer", 
                       "display": "Brain cancer"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Sibling History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "SiblingCancerCondition_BladderCancer", 
-                      "display": "Bladder cancer"
                     }, 
                     {
                       "property": [
@@ -29577,6 +29445,20 @@
                           "code": "concept-topic"
                         }
                       ], 
+                      "code": "SonCancerCondition_EndometrialCancer", 
+                      "display": "Endometrial cancer"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Child History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
                       "code": "SonCancerCondition_BrainCancer", 
                       "display": "Brain cancer"
                     }, 
@@ -29593,20 +29475,6 @@
                       ], 
                       "code": "SonCancerCondition_EyeCancer", 
                       "display": "Eye cancer"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Child History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "SonCancerCondition_EndometrialCancer", 
-                      "display": "Endometrial cancer"
                     }, 
                     {
                       "property": [
@@ -29701,13 +29569,131 @@
                           "code": "concept-type"
                         }, 
                         {
-                          "valueCode": "Parent History", 
+                          "valueCode": "Child History", 
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "MotherNervousCondition_AmyotrophicLateralSclerosis", 
-                      "display": "Amyotrophic lateral sclerosis (Lou Gehrig\u2019s disease)"
+                      "code": "SonSkeletalMuscularCondition_Gout", 
+                      "display": "Gout"
                     }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Child History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "SonSkeletalMuscularCondition_SpineMuscleBone", 
+                      "display": "Spine muscle or bone disorders"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Child History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "SonSkeletalMuscularCondition_Pseudogout", 
+                      "display": "Pseudogout"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Child History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "SonSkeletalMuscularCondition_RheumatoidArthritis", 
+                      "display": "Rheumatoid arthritis"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Child History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "SonSkeletalMuscularCondition_Osteoporosis", 
+                      "display": "Osteoporosis"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Child History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "SonSkeletalMuscularCondition_SystemicLupus", 
+                      "display": "Systemic Lupus"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Child History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "SonSkeletalMuscularCondition_Fibromyalgia", 
+                      "display": "Fibromyalgia"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Child History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "SonSkeletalMuscularCondition_Osteoarthritis", 
+                      "display": "Osteoarthriris"
+                    }
+                  ], 
+                  "property": [
+                    {
+                      "valueCode": "Question", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Child History", 
+                      "code": "concept-topic"
+                    }, 
+                    {
+                      "valueCode": "DiagnosedHealthCondition_SonSkelMuscCondition", 
+                      "code": "short-code"
+                    }
+                  ], 
+                  "code": "DiagnosedHealthCondition_SonSkeletalMuscularCondition", 
+                  "display": "Skeletal/Muscular Conditions:"
+                }, 
+                {
+                  "concept": [
                     {
                       "property": [
                         {
@@ -29719,8 +29705,8 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "MotherNervousCondition_OtherHeadaches", 
-                      "display": "Other types of headaches"
+                      "code": "MotherNervousCondition_AmyotrophicLateralSclerosis", 
+                      "display": "Amyotrophic lateral sclerosis (Lou Gehrig\u2019s disease)"
                     }, 
                     {
                       "property": [
@@ -29777,6 +29763,20 @@
                       ], 
                       "code": "MotherNervousCondition_RestlessLegSyndrome", 
                       "display": "Restless legs syndrome"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Parent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "MotherNervousCondition_OtherHeadaches", 
+                      "display": "Other types of headaches"
                     }, 
                     {
                       "property": [
@@ -30287,8 +30287,8 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "GrandparentCirculatoryCondition_SuddenDeath", 
-                      "display": "Sudden death"
+                      "code": "GrandparentCirculatoryCondition_Anemia", 
+                      "display": "Anemia"
                     }, 
                     {
                       "property": [
@@ -30301,8 +30301,8 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "GrandparentCirculatoryCondition_Anemia", 
-                      "display": "Anemia"
+                      "code": "GrandparentCirculatoryCondition_SuddenDeath", 
+                      "display": "Sudden death"
                     }, 
                     {
                       "property": [
@@ -30377,20 +30377,6 @@
                         {
                           "valueCode": "Grandparent History", 
                           "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "GrandparentCirculatoryCondition_Stroke", 
-                      "display": "Stroke"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Grandparent History", 
-                          "code": "concept-topic"
                         }, 
                         {
                           "valueCode": "GrandparentCirculatoryCondition_PeripheralVascular", 
@@ -30445,6 +30431,20 @@
                       ], 
                       "code": "GrandparentCirculatoryCondition_AtrialFibrilation", 
                       "display": "Atrial fibrillation (or a-fib) or atrial flutter (or a-flutter). (These conditions cause irregular, often fast, heart beats that can cause poor blood flow. A-fib and a-flutter are not the same as a heart murmur.)"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Grandparent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "GrandparentCirculatoryCondition_Stroke", 
+                      "display": "Stroke"
                     }, 
                     {
                       "property": [
@@ -30717,20 +30717,6 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "MotherMentalCondition_Depression", 
-                      "display": "Depression"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Parent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
                       "code": "MotherMentalCondition_Addiction", 
                       "display": "Addiction to alcohol or drugs"
                     }, 
@@ -30761,6 +30747,20 @@
                       ], 
                       "code": "MotherMentalCondition_Schizophrenia", 
                       "display": "Schizophrenia"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Parent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "MotherMentalCondition_Depression", 
+                      "display": "Depression"
                     }, 
                     {
                       "property": [
@@ -31295,6 +31295,20 @@
                           "code": "concept-topic"
                         }
                       ], 
+                      "code": "SonEndocrineCondition_Hyperthyroidism", 
+                      "display": "Hyperthyroidism"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Child History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
                       "code": "SonEndocrineCondition_OtherDiabetes", 
                       "display": "Other/unknown diabetes (This includes gestational diabetes (diabetes during pregnancy) and borderline diabetes (pre-diabetes).)"
                     }, 
@@ -31339,20 +31353,6 @@
                       ], 
                       "code": "SonEndocrineCondition_Hypothyroidism", 
                       "display": "Hypothyroidism"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Child History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "SonEndocrineCondition_Hyperthyroidism", 
-                      "display": "Hyperthyroidism"
                     }, 
                     {
                       "property": [
@@ -31577,20 +31577,6 @@
                 {
                   "property": [
                     {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Sibling History", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "SiblingDiagnosisHistory_No", 
-                  "display": "No"
-                }, 
-                {
-                  "property": [
-                    {
                       "valueCode": "Question", 
                       "code": "concept-type"
                     }, 
@@ -31629,6 +31615,20 @@
                   ], 
                   "code": "SiblingDiagnosisHistory_Yes", 
                   "display": "Yes"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Sibling History", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SiblingDiagnosisHistory_No", 
+                  "display": "No"
                 }
               ], 
               "property": [
@@ -39503,20 +39503,6 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "HowOldWereYouOsteoarthritis_OlderAdult", 
-                  "display": "Older adult (65-74)"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": null, 
-                      "code": "concept-topic"
-                    }
-                  ], 
                   "code": "HowOldWereYouOsteoarthritis_Child", 
                   "display": "Child (0-11)"
                 }, 
@@ -39547,6 +39533,20 @@
                   ], 
                   "code": "HowOldWereYouOsteoarthritis_Elderly", 
                   "display": "Elderly (75+)"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": null, 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "HowOldWereYouOsteoarthritis_OlderAdult", 
+                  "display": "Older adult (65-74)"
                 }, 
                 {
                   "property": [
@@ -40289,8 +40289,8 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "RxMedsforRheumatoidArthritis_Yes", 
-                  "display": "Yes"
+                  "code": "RxMedsforRheumatoidArthritis_No", 
+                  "display": "No"
                 }, 
                 {
                   "property": [
@@ -40303,8 +40303,8 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "RxMedsforRheumatoidArthritis_No", 
-                  "display": "No"
+                  "code": "RxMedsforRheumatoidArthritis_Yes", 
+                  "display": "Yes"
                 }
               ], 
               "property": [
@@ -40521,6 +40521,20 @@
                       "code": "concept-topic"
                     }
                   ], 
+                  "code": "SkeletalMuscularConditions_Rheumatoidarthritis", 
+                  "display": "Rheumatoid arthritis"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": null, 
+                      "code": "concept-topic"
+                    }
+                  ], 
                   "code": "SkeletalMuscularConditions_Fibromyalgia", 
                   "display": "Fibromyalgia"
                 }, 
@@ -40579,20 +40593,6 @@
                   ], 
                   "code": "SkeletalMuscularConditions_NoBoneJointMuscle", 
                   "display": "I have no bone| joint or muscle condition"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": null, 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "SkeletalMuscularConditions_Rheumatoidarthritis", 
-                  "display": "Rheumatoid arthritis"
                 }, 
                 {
                   "property": [
@@ -40853,6 +40853,20 @@
                       "code": "concept-topic"
                     }
                   ], 
+                  "code": "HowOldWereYouRheumatoidArthritis_Elderly", 
+                  "display": "Elderly (75+)"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": null, 
+                      "code": "concept-topic"
+                    }
+                  ], 
                   "code": "HowOldWereYouRheumatoidArthritis_Adult", 
                   "display": "Adult (18-64)"
                 }, 
@@ -40869,20 +40883,6 @@
                   ], 
                   "code": "HowOldWereYouRheumatoidArthritis_Child", 
                   "display": "Child (0-11)"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": null, 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "HowOldWereYouRheumatoidArthritis_Elderly", 
-                  "display": "Elderly (75+)"
                 }, 
                 {
                   "property": [
@@ -44365,6 +44365,20 @@
                       "code": "concept-topic"
                     }
                   ], 
+                  "code": "HowOldWereYouEsophagealCancer_Adult", 
+                  "display": "Adult (18-64)"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": null, 
+                      "code": "concept-topic"
+                    }
+                  ], 
                   "code": "HowOldWereYouEsophagealCancer_Elderly", 
                   "display": "Elderly (75+)"
                 }, 
@@ -44395,20 +44409,6 @@
                   ], 
                   "code": "HowOldWereYouEsophagealCancer_OlderAdult", 
                   "display": "Older adult (65-74)"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": null, 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "HowOldWereYouEsophagealCancer_Adult", 
-                  "display": "Adult (18-64)"
                 }, 
                 {
                   "property": [
@@ -62292,7 +62292,7 @@
                 }
               ], 
               "code": "NorthernMichigan", 
-              "display": "The following Healthcare Providers in your area are enrolling participants into the All of Us Research Program. \n Which institution might be closest to schedule an enrollment visit with? \n Please choose 1 institution."
+              "display": "The following Healthcare Providers in your area are enrolling participants into the All of Us Research Program. \r\n Which institution might be closest to schedule an enrollment visit with? \r\n Please choose 1 institution."
             }
           ], 
           "property": [
@@ -62854,7 +62854,7 @@
                 }
               ], 
               "code": "SouthCarolinaSitePairing_EauClaire", 
-              "display": "Are you currently a patient at any of the following Eau Claire clinics or health centers?\nWaverly Family Practice\nPelion Family Practice"
+              "display": "Are you currently a patient at any of the following Eau Claire clinics or health centers?\r\nWaverly Family Practice\r\nPelion Family Practice"
             }, 
             {
               "concept": [
@@ -63076,7 +63076,7 @@
                 }
               ], 
               "code": "TexasSitePairing_BaylorScott", 
-              "display": "Have you ever received care at any Baylor Scott & White Healthcare and/or Health Texas Provider Network facility such as:\nBSWH hospitals\nBSWH Urgent care centers\nBSWH Emergency rooms\nHillcrest Health Clinics\nHealth Texas Physician Network (HTPN) clinics/physician offices\nFor the full list, please click on this link: https://www.bswhealth.com/locations/pages/default.aspx?type=All%20Locations\nIf you are uncertain, please call at 844-4US-BSWH (1-844-487-2794)."
+              "display": "Have you ever received care at any Baylor Scott & White Healthcare and/or Health Texas Provider Network facility such as:\r\nBSWH hospitals\r\nBSWH Urgent care centers\r\nBSWH Emergency rooms\r\nHillcrest Health Clinics\r\nHealth Texas Physician Network (HTPN) clinics/physician offices\r\nFor the full list, please click on this link: https://www.bswhealth.com/locations/pages/default.aspx?type=All%20Locations\r\nIf you are uncertain, please call at 844-4US-BSWH (1-844-487-2794)."
             }
           ], 
           "property": [
@@ -63191,6 +63191,20 @@
                       "code": "concept-topic"
                     }
                   ], 
+                  "code": "IllinoisInstitution_NearNorth", 
+                  "display": "Near North Health Services Corporation, Chicago"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Illinois Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
                   "code": "IllinoisInstitution_UChicagoMed", 
                   "display": "University of Chicago Medicine"
                 }, 
@@ -63207,6 +63221,20 @@
                   ], 
                   "code": "IllinoisInstitution_NorthShoreU", 
                   "display": "NorthShore University HealthSystem"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Illinois Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "IllinoisInstitution_SwedishAmerican", 
+                  "display": "SwedishAmerican-A Division of UW Health, Rockford"
                 }, 
                 {
                   "property": [
@@ -66571,20 +66599,6 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "PIIStateCare_RI", 
-                  "display": "Rhode Island"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Extra Consent Items", 
-                      "code": "concept-topic"
-                    }
-                  ], 
                   "code": "PIIStateCare_VA", 
                   "display": "Virginia"
                 }, 
@@ -66657,6 +66671,20 @@
                   ], 
                   "code": "PIIStateCare_CA", 
                   "display": "California"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Extra Consent Items", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PIIStateCare_RI", 
+                  "display": "Rhode Island"
                 }, 
                 {
                   "property": [
@@ -67476,7 +67504,7 @@
                 }
               ], 
               "code": "CaliforniaSitePairing_CaliforniaPairing", 
-              "display": "The following Healthcare Providers in your area are enrolling participants into the All of Us Research Program.\r\n\r\nAt which institution do you wish to schedule an enrollment visit with?"
+              "display": "The following Healthcare Providers in your area are enrolling participants into the All of Us Research Program.\r\r\n\r\r\nAt which institution do you wish to schedule an enrollment visit with?"
             }, 
             {
               "concept": [
@@ -67520,7 +67548,7 @@
                 }
               ], 
               "code": "CaliforniaSitePairing_CaliforniaUniversityCare", 
-              "display": "Have you ever received care at any of the following health centers?\nUniversity of California Irvine Health\nUniversity of Southern California\nUniversity of California San Diego"
+              "display": "Have you ever received care at any of the following health centers?\r\nUniversity of California Irvine Health\r\nUniversity of Southern California\r\nUniversity of California San Diego"
             }
           ], 
           "property": [
@@ -68402,14 +68430,14 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 4717, 
+  "count": 4719, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.3.38", 
+  "version": "0.3.39", 
   "hierarchyMeaning": "grouped-by", 
-  "date": "2019-02-27", 
+  "date": "2019-03-11", 
   "property": [
     {
       "code": "concept-type", 
