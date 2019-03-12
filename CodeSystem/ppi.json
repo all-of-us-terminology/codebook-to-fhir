@@ -63379,6 +63379,20 @@
               ], 
               "code": "PIIContactInformation_RecontactMethod", 
               "display": "Method of Recontact"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Email Consent", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "PIIContactInformation_Email", 
+              "display": "Email"
             }
           ], 
           "property": [
@@ -68430,12 +68444,12 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 4719, 
+  "count": 4720, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.3.40", 
+  "version": "0.3.41", 
   "hierarchyMeaning": "grouped-by", 
   "date": "2019-03-12", 
   "property": [
