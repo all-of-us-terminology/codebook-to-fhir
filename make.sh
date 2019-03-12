@@ -15,9 +15,9 @@ case $command in
    "validate-prerelease") echo "running validate-prerelease"
               rm -rf dist/* && python build.py --config config/ppi-codebook-prerelease.json;;
    "tag") echo "Running build and tag"
-              rm -rf dist/* && python build.py --config config/ppi-codebook.json && ./tag.sh;;
+              rm -rf dist/* && python build.py --config config/ppi-codebook.json && tag.sh;;
    "publish") echo "Running publish"
-              rm -rf dist/* && python build.py --config config/ppi-codebook.json && ./tag.sh && git push origin gh-pages && git push --tags;;
+              rm -rf dist/* && python build.py --config config/ppi-codebook.json && tag.sh && git push origin gh-pages && git push --tags;;
    "invalid") echo "Error: Please input a valid command [build | validate-prerelease | tag | publish]";;
    *) echo "Error: There is no command  for $command.";;
 esac
