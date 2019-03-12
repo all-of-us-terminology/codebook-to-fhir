@@ -21,3 +21,5 @@ case $command in
    "invalid") echo "Error: Please input a valid command [build | validate-prerelease | tag | publish]";;
    *) echo "Error: There is no command  for $command.";;
 esac
+echo "Press any key to exit"
+read anykey
