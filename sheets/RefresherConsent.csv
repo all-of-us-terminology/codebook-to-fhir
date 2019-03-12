@@ -1,8 +1,8 @@
-Display,Topic,Type,PMI System,PMI Code,Parent code,Date of Last Update,,Standard Code Source,Source URL,LOINC Category Code (Search This),LOINC Category ID,LOINC Answer ID,FHIR System OID,FHIR Level,FHIR Code,UMLS (SNOMED) ConceptID,UMLS (SNOMED) DescriptionID
-Refresher Consent,Module Name,Module Name,http://terminology.pmi-ops.org/CodeSystem/ppi,RefresherConsent,,6/14/2017,,,,,,,,,,,
-Physical Measurements Youtube Video,Video,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,RefresherConsent_PhysicalMeasurements,RefresherConsent,6/14/2017,,,,,,,,,,,
-Samples Youtube Video,Video,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,RefresherConsent_SamplesVideo,RefresherConsent,6/14/2017,,,,,,,,,,,
-Participation is voluntary. You do not have to have measurements taken or give samples.,Agreeing to Participate,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,RefresherConsent_VoluntaryParticipation,RefresherConsent,6/14/2017,,,,,,,,,,,
-I don't want to have measurements,Agreeing to Participate,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,VoluntaryParticipation_DoNotWantToHaveMeasurements,RefresherConsent_VoluntaryParticipation,6/14/2017,,,,,,,,,,,
-I don't want to give samples,Agreeing to Participate,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,VoluntaryParticipation_DoNotWantToGiveSamples,RefresherConsent_VoluntaryParticipation,6/14/2017,,,,,,,,,,,
+Display,Topic,Type,PMI System,PMI Code,Parent code,Date of Last Update,,Standard Code Source,Source URL,LOINC Category Code (Search This),LOINC Category ID,LOINC Answer ID,FHIR System OID,FHIR Level,FHIR Code,UMLS (SNOMED) ConceptID,UMLS (SNOMED) DescriptionID
+Refresher Consent,Module Name,Module Name,http://terminology.pmi-ops.org/CodeSystem/ppi,RefresherConsent,,6/14/2017,,,,,,,,,,,
+Physical Measurements Youtube Video,Video,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,RefresherConsent_PhysicalMeasurements,RefresherConsent,6/14/2017,,,,,,,,,,,
+Samples Youtube Video,Video,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,RefresherConsent_SamplesVideo,RefresherConsent,6/14/2017,,,,,,,,,,,
+Participation is voluntary. You do not have to have measurements taken or give samples.,Agreeing to Participate,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,RefresherConsent_VoluntaryParticipation,RefresherConsent,6/14/2017,,,,,,,,,,,
+I don't want to have measurements,Agreeing to Participate,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,VoluntaryParticipation_DoNotWantToHaveMeasurements,RefresherConsent_VoluntaryParticipation,6/14/2017,,,,,,,,,,,
+I don't want to give samples,Agreeing to Participate,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,VoluntaryParticipation_DoNotWantToGiveSamples,RefresherConsent_VoluntaryParticipation,6/14/2017,,,,,,,,,,,
 I am ready to participate,Agreeing to Participate,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,VoluntaryParticipation_IAmReadyToParticipate,RefresherConsent_VoluntaryParticipation,6/14/2017,,,,,,,,,,,

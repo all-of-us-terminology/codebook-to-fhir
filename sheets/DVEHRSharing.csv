@@ -1,6 +1,6 @@
-Display,Topic,Type,PMI System,PMI Code,Parent code,Date of Last Update
-Sharing Your Electronic Health Records,Module Name,Module Name,http://terminology.pmi-ops.org/CodeSystem/ppi,DVEHRSharing,,4/17/2018
-Would you be interested in sharing your electronic health records with All of Us in the future?,EHR,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,DVEHRSharing_AreYouInterested,DVEHRSharing,4/17/2018
-Yes,EHR,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,DVEHRSharing_Yes,DVEHRSharing_AreYouInterested,4/17/2018
-Not Sure,EHR,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,DVEHRSharing_NotSure,DVEHRSharing_AreYouInterested,4/17/2018
+Display,Topic,Type,PMI System,PMI Code,Parent code,Date of Last Update
+Sharing Your Electronic Health Records,Module Name,Module Name,http://terminology.pmi-ops.org/CodeSystem/ppi,DVEHRSharing,,4/17/2018
+Would you be interested in sharing your electronic health records with All of Us in the future?,EHR,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,DVEHRSharing_AreYouInterested,DVEHRSharing,4/17/2018
+Yes,EHR,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,DVEHRSharing_Yes,DVEHRSharing_AreYouInterested,4/17/2018
+Not Sure,EHR,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,DVEHRSharing_NotSure,DVEHRSharing_AreYouInterested,4/17/2018
 No,EHR,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,DVEHRSharing_No,DVEHRSharing_AreYouInterested,4/17/2018

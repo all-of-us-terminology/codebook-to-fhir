@@ -1,6 +1,6 @@
-Display,Topic,Type,PMI System,PMI Code,Parent code,Date of Last Update
-February Snap Questions 2,Module Name,Module Name,http://terminology.pmi-ops.org/CodeSystem/ppi,SNAP_HANDWASHING_FOOD_022019,,1/16/19
-"Before I handle food, I _____ wash my hands.",Snap_Food,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,Snap_Food,SNAP_HANDWASHING_FOOD_022019,1/16/19
-always,Snap_Food,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,Handwash_Food_Always,Snap_Food,1/16/19
-sometimes,Snap_Food,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,Handwash_Food_Sometimes,Snap_Food,1/16/19
+Display,Topic,Type,PMI System,PMI Code,Parent code,Date of Last Update
+February Snap Questions 2,Module Name,Module Name,http://terminology.pmi-ops.org/CodeSystem/ppi,SNAP_HANDWASHING_FOOD_022019,,1/16/19
+"Before I handle food, I _____ wash my hands.",Snap_Food,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,Snap_Food,SNAP_HANDWASHING_FOOD_022019,1/16/19
+always,Snap_Food,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,Handwash_Food_Always,Snap_Food,1/16/19
+sometimes,Snap_Food,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,Handwash_Food_Sometimes,Snap_Food,1/16/19
 never,Snap_Food,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,Handwash_Food_Never,Snap_Food,1/16/19
