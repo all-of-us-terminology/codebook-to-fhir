@@ -63149,20 +63149,6 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "WisconsinInstitution_SwedishAmerican", 
-                  "display": "SwedishAmerican-A Division of UW Health, Rockford"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Illinois Site Pairing", 
-                      "code": "concept-topic"
-                    }
-                  ], 
                   "code": "IllinoisInstitution_CookCounty", 
                   "display": "Cook County Health, Chicago"
                 }, 
@@ -63235,6 +63221,20 @@
                   ], 
                   "code": "IllinoisInstitution_NorthShoreU", 
                   "display": "NorthShore University HealthSystem"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Illinois Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "IllinoisInstitution_SwedishAmerican", 
+                  "display": "SwedishAmerican-A Division of UW Health, Rockford"
                 }, 
                 {
                   "property": [
@@ -68449,9 +68449,9 @@
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.3.42", 
+  "version": "0.3.43", 
   "hierarchyMeaning": "grouped-by", 
-  "date": "2019-03-14", 
+  "date": "2019-03-15", 
   "property": [
     {
       "code": "concept-type", 
