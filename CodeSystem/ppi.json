@@ -8769,6 +8769,80 @@
                   "code": "concept-type"
                 }, 
                 {
+                  "valueCode": "Pet Ownership", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Pets_Type_None", 
+              "display": "no pet"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Pet Ownership", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Pets_Type_Cat", 
+              "display": "cat"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Pet Ownership", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Pets_Type_Dog", 
+              "display": "dog"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Pet Ownership", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "Snap_Type", 
+          "display": "I'm more of a ___ person"
+        }
+      ], 
+      "property": [
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "SNAP_PETS_OWNER_042019", 
+      "display": "April Snap Questions 2"
+    }, 
+    {
+      "concept": [
+        {
+          "concept": [
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
                   "valueCode": "EHR", 
                   "code": "concept-topic"
                 }
@@ -15389,6 +15463,80 @@
                   "code": "concept-type"
                 }, 
                 {
+                  "valueCode": "Pet Ownership", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Pets_Number_Zero", 
+              "display": "0 pets"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Pet Ownership", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Pets_Number_More", 
+              "display": "2 or more pets"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Pet Ownership", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Pets_Number_One", 
+              "display": "1 pet"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Pet Ownership", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "Snap_Number", 
+          "display": "I currently have ___."
+        }
+      ], 
+      "property": [
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "SNAP_PETS_NUMBER_042019", 
+      "display": "April Snap Questions 1"
+    }, 
+    {
+      "concept": [
+        {
+          "concept": [
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
                   "valueCode": "Sleeping", 
                   "code": "concept-topic"
                 }
@@ -16885,8 +17033,8 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "WhyWasItHard_TechnicalProblems", 
-                  "display": "technical problems on computer/tablet/smartphone"
+                  "code": "WhyWasItHard_DifficultInstructions", 
+                  "display": "hard to understand the instructions"
                 }, 
                 {
                   "property": [
@@ -16899,8 +17047,8 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "WhyWasItHard_DifficultInstructions", 
-                  "display": "hard to understand the instructions"
+                  "code": "WhyWasItHard_TechnicalProblems", 
+                  "display": "technical problems on computer/tablet/smartphone"
                 }, 
                 {
                   "concept": [
@@ -18075,6 +18223,80 @@
       ], 
       "code": "SNAP_FLUSHOTEFFECTIVE_102018", 
       "display": "October Snap Questions 2"
+    }, 
+    {
+      "concept": [
+        {
+          "concept": [
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Pet Ownership", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Pets_Effect_Moving", 
+              "display": "gets me moving"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Pet Ownership", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Pets_Effect_Listener", 
+              "display": "is a good listener"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Pet Ownership", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Pets_Effect_Happy", 
+              "display": "makes me happy"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Pet Ownership", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "Snap_Effect", 
+          "display": "My pet ___."
+        }
+      ], 
+      "property": [
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "SNAP_PETS_EFFECT_042019", 
+      "display": "April Snap Questions 3"
     }, 
     {
       "concept": [
@@ -22951,24 +23173,6 @@
                         {
                           "valueCode": "Grandparent History", 
                           "code": "concept-topic"
-                        }, 
-                        {
-                          "valueCode": "GrandparentSkeletalMuscularCondition_RheumaArth", 
-                          "code": "short-code"
-                        }
-                      ], 
-                      "code": "GrandparentSkeletalMuscularCondition_RheumatoidArthritis", 
-                      "display": "Rheumatoid arthritis"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Grandparent History", 
-                          "code": "concept-topic"
                         }
                       ], 
                       "code": "GrandparentSkeletalMuscularCondition_Osteoporosis", 
@@ -22987,6 +23191,24 @@
                       ], 
                       "code": "GrandparentSkeletalMuscularCondition_SystemicLupus", 
                       "display": "Systemic Lupus"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Grandparent History", 
+                          "code": "concept-topic"
+                        }, 
+                        {
+                          "valueCode": "GrandparentSkeletalMuscularCondition_RheumaArth", 
+                          "code": "short-code"
+                        }
+                      ], 
+                      "code": "GrandparentSkeletalMuscularCondition_RheumatoidArthritis", 
+                      "display": "Rheumatoid arthritis"
                     }, 
                     {
                       "property": [
@@ -23911,8 +24133,8 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "SonCirculatoryCondition_SuddenDeath", 
-                      "display": "Sudden death"
+                      "code": "SonCirculatoryCondition_Anemia", 
+                      "display": "Anemia"
                     }, 
                     {
                       "property": [
@@ -23925,8 +24147,8 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "SonCirculatoryCondition_Anemia", 
-                      "display": "Anemia"
+                      "code": "SonCirculatoryCondition_SuddenDeath", 
+                      "display": "Sudden death"
                     }, 
                     {
                       "property": [
@@ -26329,138 +26551,6 @@
                           "code": "concept-type"
                         }, 
                         {
-                          "valueCode": "Child History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "SonSkeletalMuscularCondition_Gout", 
-                      "display": "Gout"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Child History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "SonSkeletalMuscularCondition_SpineMuscleBone", 
-                      "display": "Spine muscle or bone disorders"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Child History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "SonSkeletalMuscularCondition_Pseudogout", 
-                      "display": "Pseudogout"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Child History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "SonSkeletalMuscularCondition_RheumatoidArthritis", 
-                      "display": "Rheumatoid arthritis"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Child History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "SonSkeletalMuscularCondition_Osteoporosis", 
-                      "display": "Osteoporosis"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Child History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "SonSkeletalMuscularCondition_SystemicLupus", 
-                      "display": "Systemic Lupus"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Child History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "SonSkeletalMuscularCondition_Fibromyalgia", 
-                      "display": "Fibromyalgia"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Child History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "SonSkeletalMuscularCondition_Osteoarthritis", 
-                      "display": "Osteoarthriris"
-                    }
-                  ], 
-                  "property": [
-                    {
-                      "valueCode": "Question", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Child History", 
-                      "code": "concept-topic"
-                    }, 
-                    {
-                      "valueCode": "DiagnosedHealthCondition_SonSkelMuscCondition", 
-                      "code": "short-code"
-                    }
-                  ], 
-                  "code": "DiagnosedHealthCondition_SonSkeletalMuscularCondition", 
-                  "display": "Skeletal/Muscular Conditions:"
-                }, 
-                {
-                  "concept": [
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
                           "valueCode": "Parent History", 
                           "code": "concept-topic"
                         }
@@ -26777,6 +26867,138 @@
                   ], 
                   "code": "DiagnosedHealthCondition_MotherCancerCondition", 
                   "display": "Cancer:"
+                }, 
+                {
+                  "concept": [
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Child History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "SonSkeletalMuscularCondition_Gout", 
+                      "display": "Gout"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Child History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "SonSkeletalMuscularCondition_SpineMuscleBone", 
+                      "display": "Spine muscle or bone disorders"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Child History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "SonSkeletalMuscularCondition_Pseudogout", 
+                      "display": "Pseudogout"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Child History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "SonSkeletalMuscularCondition_RheumatoidArthritis", 
+                      "display": "Rheumatoid arthritis"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Child History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "SonSkeletalMuscularCondition_Osteoporosis", 
+                      "display": "Osteoporosis"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Child History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "SonSkeletalMuscularCondition_SystemicLupus", 
+                      "display": "Systemic Lupus"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Child History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "SonSkeletalMuscularCondition_Fibromyalgia", 
+                      "display": "Fibromyalgia"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Child History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "SonSkeletalMuscularCondition_Osteoarthritis", 
+                      "display": "Osteoarthriris"
+                    }
+                  ], 
+                  "property": [
+                    {
+                      "valueCode": "Question", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Child History", 
+                      "code": "concept-topic"
+                    }, 
+                    {
+                      "valueCode": "DiagnosedHealthCondition_SonSkelMuscCondition", 
+                      "code": "short-code"
+                    }
+                  ], 
+                  "code": "DiagnosedHealthCondition_SonSkeletalMuscularCondition", 
+                  "display": "Skeletal/Muscular Conditions:"
                 }, 
                 {
                   "concept": [
@@ -29171,6 +29393,20 @@
                           "code": "concept-topic"
                         }
                       ], 
+                      "code": "SiblingOtherHealthCondition_Fibroids", 
+                      "display": "Fibroids"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Sibling History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
                       "code": "SiblingOtherHealthCondition_NoBloodRelatedSiblings", 
                       "display": "I do not have any brothers or sisters I am related to by blood."
                     }, 
@@ -29247,20 +29483,6 @@
                       ], 
                       "code": "SiblingOtherHealthCondition_Allergies", 
                       "display": "Allergies or hay fever"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Sibling History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "SiblingOtherHealthCondition_Fibroids", 
-                      "display": "Fibroids"
                     }, 
                     {
                       "property": [
@@ -68444,14 +68666,14 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 4720, 
+  "count": 4735, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.3.45", 
+  "version": "0.3.46", 
   "hierarchyMeaning": "grouped-by", 
-  "date": "2019-03-25", 
+  "date": "2019-03-26", 
   "property": [
     {
       "code": "concept-type", 

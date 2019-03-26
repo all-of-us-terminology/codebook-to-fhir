@@ -1,0 +1,6 @@
+Display,Topic,Type,PMI System,PMI Code,Parent code,Date of Last Update
+April Snap Questions 3,Module Name,Module Name,http://terminology.pmi-ops.org/CodeSystem/ppi,SNAP_PETS_EFFECT_042019,,03/25/2019
+My pet ___.,Pet Ownership,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,Snap_Effect,SNAP_PETS_EFFECT_042019,03/25/2019
+is a good listener,Pet Ownership,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,Pets_Effect_Listener,Snap_Effect,03/25/2019
+makes me happy,Pet Ownership,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,Pets_Effect_Happy,Snap_Effect,03/25/2019
+gets me moving,Pet Ownership,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,Pets_Effect_Moving,Snap_Effect,03/25/2019
