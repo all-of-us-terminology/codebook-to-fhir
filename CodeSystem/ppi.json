@@ -8541,8 +8541,8 @@
                   "code": "concept-topic"
                 }
               ], 
-              "code": "GeneralMentalHealth_Excllent", 
-              "display": "Excellent"
+              "code": "GeneralMentalHealth_Good", 
+              "display": "Good"
             }, 
             {
               "property": [
@@ -8555,8 +8555,8 @@
                   "code": "concept-topic"
                 }
               ], 
-              "code": "GeneralMentalHealth_Good", 
-              "display": "Good"
+              "code": "GeneralMentalHealth_Excellent", 
+              "display": "Excellent"
             }
           ], 
           "property": [
