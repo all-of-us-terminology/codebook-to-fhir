@@ -114,7 +114,7 @@ No,New England Site Pairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi
 None of these,Southern Consortium Site Pairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SouthernProviders_NoneOfThese,,SitePairing_SouthernProviders,12/5/2017,,,,,,,,,,,,
 "The following Clinics, Healthcare Providers and Hospitals in your area are enrolling participants into the All of Us Research Program. At which institution do you receive care and wish to schedule an enrollment visit with? Please choose one institution.",SEEC Site Pairing,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,SitePairing_SEEC,,ConsentPII_SitePairing,12/5/2017,,,,,,,,,,,,
 University of Miami Health System,SEEC Site Pairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SEEC_UMiamiHealthSystem,,SitePairing_SEEC,12/5/2017,,,,,,,,,,,,
-UF Health - Gainesville,SEEC Site Pairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SEEC_UFHealthGainsville,,SitePairing_SEEC,12/5/2017,,,,,,,,,,,,
+UF Health,SEEC Site Pairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SEEC_UFHealth,,SitePairing_SEEC,4/1/2019,,,,,,,,,,,,
 Emory Healthcare,SEEC Site Pairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SEEC_EmoryHealthcare,,SitePairing_SEEC,12/5/2017,,,,,,,,,,,,
 Grady Memorial Hospital,SEEC Site Pairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SEEC_GradyMemorialHospital,,SitePairing_SEEC,12/5/2017,,,,,,,,,,,,
 Morehouse School of Medicine - Westview,SEEC Site Pairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SEEC_MorehouseSchoolOfMed,,SitePairing_SEEC,12/5/2017,,,,,,,,,,,,
