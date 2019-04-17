@@ -18303,6 +18303,148 @@
               ], 
               "code": "SitePairingConfirmation_Awardee", 
               "display": "Thank you for completing the consent process! You have been paired with [profile Awardee_full_name value]. Before you can proceed, please confirm this is correct."
+            }, 
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Confirm VA Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "VAAwardee_VAAtlanta", 
+                  "display": "VA Atlanta"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Confirm VA Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "VAAwardee_VABoston", 
+                  "display": "VA Boston"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Confirm VA Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "VAAwardee_VAPopupEvent", 
+                  "display": "VA Pop-up Event (select only if instructed by staff)"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Confirm VA Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "VAAwardee_VANYHarbor", 
+                  "display": "VA NY Harbor"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Confirm VA Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "VAAwardee_None", 
+                  "display": "None of these are within a reasonable distance to which I can travel (1-2 hours away)"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Confirm VA Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "VAAwardee_VAEasternKansas", 
+                  "display": "VA Eastern Kansas Leavenworth"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Confirm VA Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "VAAwardee_VAMinneapolis", 
+                  "display": "VA Minneapolis"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Confirm VA Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "VAAwardee_VAPhoenix", 
+                  "display": "VA Phoenix"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Confirm VA Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "VAAwardee_VAPaloAlto", 
+                  "display": "VA Palo Alto"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Confirm VA Site Pairing", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "SitePairingConfirmation_VAAwardee", 
+              "display": "Thank you for completing the consent process. Below is a list of VA sites currently enrolling for All of Us. Please select the site that you would be able to go to for an All of Us study appointment."
             }
           ], 
           "property": [
@@ -64337,6 +64479,20 @@
                       "code": "concept-topic"
                     }
                   ], 
+                  "code": "WisconsinSitePairing_SixteenthStreet", 
+                  "display": "Sixteenth Street Community Health Center"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Wisconsin Consortium Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
                   "code": "WisconsinSitePairing_Marshfield", 
                   "display": "Marshfield Clinic or Family Health Center of Marshfield, Marshfield, Wisconsin"
                 }, 
@@ -68848,14 +69004,14 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 4748, 
+  "count": 4759, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.3.51", 
+  "version": "0.3.53", 
   "hierarchyMeaning": "grouped-by", 
-  "date": "2019-04-02", 
+  "date": "2019-04-16", 
   "property": [
     {
       "code": "concept-type", 
