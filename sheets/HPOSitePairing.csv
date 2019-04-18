@@ -190,3 +190,4 @@ VA Phoenix,Confirm VA Site Pairing,Answer,http://terminology.pmi-ops.org/CodeSys
 VA Pop-up Event (select only if instructed by staff),Confirm VA Site Pairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,VAAwardee_VAPopupEvent,,SitePairingConfirmation_VAAwardee,4/16/19,,,,,,,,,,,,
 None of these are within a reasonable distance to which I can travel (1-2 hours away),Confirm VA Site Pairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,VAAwardee_None,,SitePairingConfirmation_VAAwardee,4/16/19,,,,,,,,,,,,
 Sixteenth Street Community Health Center,Wisconsin Consortium Site Pairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,WisconsinSitePairing_SixteenthStreet,,SitePairing_WisconsinSitePairing,4/16/19,,,,,,,,,,,,
+VA Event (select only if instructed by staff),Confirm VA Site Pairing,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,VAAwardee_Event,,SitePairingConfirmation_VAAwardee,4/18/19,,,,,,,,,,,,

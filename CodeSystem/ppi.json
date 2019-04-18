@@ -18431,6 +18431,20 @@
                   ], 
                   "code": "VAAwardee_VAPaloAlto", 
                   "display": "VA Palo Alto"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Confirm VA Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "VAAwardee_Event", 
+                  "display": "VA Event (select only if instructed by staff)"
                 }
               ], 
               "property": [
@@ -69004,14 +69018,14 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 4759, 
+  "count": 4760, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.3.53", 
+  "version": "0.3.54", 
   "hierarchyMeaning": "grouped-by", 
-  "date": "2019-04-16", 
+  "date": "2019-04-18", 
   "property": [
     {
       "code": "concept-type", 
