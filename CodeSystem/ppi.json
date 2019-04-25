@@ -17614,7 +17614,7 @@
                 }
               ], 
               "code": "RespectOfStaff_Neutral", 
-              "display": "Neither satisfied nor unsatisfied"
+              "display": "No opinion"
             }, 
             {
               "property": [
@@ -17628,7 +17628,7 @@
                 }
               ], 
               "code": "RespectOfStaff_SomewhatSatisfied", 
-              "display": "Somewhat satisfied"
+              "display": "Somewhat respectful"
             }, 
             {
               "property": [
@@ -17642,7 +17642,7 @@
                 }
               ], 
               "code": "RespectOfStaff_VerySatisfied", 
-              "display": "Very satisfied"
+              "display": "Very respectful"
             }, 
             {
               "property": [
@@ -17656,7 +17656,7 @@
                 }
               ], 
               "code": "RespectOfStaff_SomewhatUnsatisfied", 
-              "display": "Somewhat unsatisfied"
+              "display": "Somewhat disrespectful"
             }, 
             {
               "property": [
@@ -17670,7 +17670,7 @@
                 }
               ], 
               "code": "RespectOfStaff_VeryUnsatisfied", 
-              "display": "Very unsatisfied"
+              "display": "Very disrespectful"
             }
           ], 
           "property": [
@@ -18108,6 +18108,164 @@
     }, 
     {
       "concept": [
+        {
+          "concept": [
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Confirm VA Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "VAAwardee_VAAtlanta", 
+                  "display": "VA Atlanta"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Confirm VA Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "VAAwardee_VABoston", 
+                  "display": "VA Boston"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Confirm VA Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "VAAwardee_VAEvent", 
+                  "display": "VA Event (select only if instructed by staff)"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Confirm VA Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "VAAwardee_VANYHarbor", 
+                  "display": "VA NY Harbor"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Confirm VA Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "VAAwardee_None", 
+                  "display": "None of these are within a reasonable distance to which I can travel (1-2 hours away)"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Confirm VA Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "VAAwardee_VAEasternKansas", 
+                  "display": "VA Eastern Kansas Leavenworth"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Confirm VA Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "VAAwardee_VAMinneapolis", 
+                  "display": "VA Minneapolis"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Confirm VA Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "VAAwardee_VAPhoenix", 
+                  "display": "VA Phoenix"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Confirm VA Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "VAAwardee_VAPaloAlto", 
+                  "display": "VA Palo Alto"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Confirm VA Site Pairing", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "VASitePairingConfirmation_VAAwardee", 
+              "display": "Thank you for completing the consent process. Below is a list of VA sites currently enrolling for All of Us. Please select the site that you would be able to go to for an All of Us study appointment."
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Topic", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "VA Site Pairing Confirmation", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "ConsentPII_VASitePairingConfirmation", 
+          "display": "VA Site Pairing Confirmation"
+        }, 
         {
           "concept": [
             {
@@ -23801,8 +23959,8 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "SiblingMentalCondition_DrugUse", 
-                      "display": "Drug use disorder"
+                      "code": "SiblingMentalCondition_Schizophrenia", 
+                      "display": "Schizophrenia"
                     }, 
                     {
                       "property": [
@@ -23815,8 +23973,8 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "SiblingMentalCondition_Schizophrenia", 
-                      "display": "Schizophrenia"
+                      "code": "SiblingMentalCondition_DrugUse", 
+                      "display": "Drug use disorder"
                     }, 
                     {
                       "property": [
@@ -63465,6 +63623,20 @@
                       "code": "concept-topic"
                     }
                   ], 
+                  "code": "IllinoisInstitution_Erie", 
+                  "display": "Erie Family Health Centers"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Illinois Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
                   "code": "IllinoisInstitution_CookCounty", 
                   "display": "Cook County Health, Chicago"
                 }, 
@@ -68862,14 +69034,14 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 4749, 
+  "count": 4761, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.3.55", 
+  "version": "0.3.58", 
   "hierarchyMeaning": "grouped-by", 
-  "date": "2019-04-19", 
+  "date": "2019-04-25", 
   "property": [
     {
       "code": "concept-type", 
