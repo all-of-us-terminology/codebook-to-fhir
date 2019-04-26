@@ -1,0 +1,6 @@
+Display,Topic,Type,PMI System,PMI Code,Parent code,Date of Last Update
+May Snap Questions 1,Module Name,Module Name,http://terminology.pmi-ops.org/CodeSystem/ppi,SNAP_DRINKINGWATERHOME_052019,,04/24/2019
+At home| I drink ____.,Drinking Water Access,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,Snap_Home,SNAP_DRINKINGWATERHOME_052019,04/24/2019
+tap water (or from the hose),Drinking Water Access,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,Home_Tap,Snap_Home,04/24/2019
+filtered tap water,Drinking Water Access,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,Home_Filtered,Snap_Home,04/24/2019
+bottled water,Drinking Water Access,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,Home_Bottled,Snap_Home,04/24/2019
