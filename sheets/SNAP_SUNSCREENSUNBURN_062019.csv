@@ -1,0 +1,7 @@
+Display,Topic,Type,PMI System,PMI Code,Parent code,Date of Last Update
+"June Snap Questions 3
+",Module Name,Module Name,http://terminology.pmi-ops.org/CodeSystem/ppi,SNAP_SUNSCREENSUNBURN_062019,,05/25/2019
+I have been sunburned ___.,Sunscreen,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,Snap_Sunburn,SNAP_SUNSCREENSUNBURN_062019,05/25/2019
+many times,Sunscreen,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,Sunburn_Many,Snap_Sunburn,05/25/2019
+once or twice,Sunscreen,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,Sunburn_Once,Snap_Sunburn,05/25/2019
+never,Sunscreen,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,Sunburn_Never,Snap_Sunburn,05/25/2019

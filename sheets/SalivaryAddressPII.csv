@@ -1,0 +1,10 @@
+Display,Topic,Type,PMI System,PMI Code,Parent code,Date of Last Update
+Salivary Collection Kit,Module Name,Module Name,http://terminology.pmi-ops.org/CodeSystem/ppi,SalivaryAddressPII,,5/24/19
+First Name,Address,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,SalivaryAdressPII_FirstName,SalivaryAddressPII,5/25/19
+Middle Initial,Address,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,SalivaryAdressPII_MiddleName,SalivaryAddressPII,5/25/19
+Last Name,Address,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,SalivaryAdressPII_LastName,SalivaryAddressPII,5/25/19
+Street 1,Address,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,SalivaryAddressPII_StreetAddress,SalivaryAddressPII,5/25/19
+Street 2,Address,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,SalivaryAddressPII_StreetAddress2,SalivaryAddressPII,5/25/19
+City,Address,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,SalivaryAddressPII_PIICity,SalivaryAddressPII,5/25/19
+State,Address,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,SalivaryAddressPII_PIIState,SalivaryAddressPII,5/25/19
+Zip,Address,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,SalivaryAddressPII_PIIZIP,SalivaryAddressPII,5/25/19
