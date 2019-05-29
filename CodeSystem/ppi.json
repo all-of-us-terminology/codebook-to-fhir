@@ -13435,20 +13435,6 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "PhysicalTherapistVisits_2to3", 
-                  "display": "2-3"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Insurance", 
-                      "code": "concept-topic"
-                    }
-                  ], 
                   "code": "PhysicalTherapistVisits_8to9", 
                   "display": "8-9"
                 }, 
@@ -13493,6 +13479,20 @@
                   ], 
                   "code": "PhysicalTherapistVisits_6to7", 
                   "display": "6-7"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Insurance", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PhysicalTherapistVisits_2to3", 
+                  "display": "2-3"
                 }
               ], 
               "property": [
@@ -18349,8 +18349,36 @@
               "code": "concept-topic"
             }
           ], 
+          "code": "SalivaryAddressPII_MiddleName", 
+          "display": "Middle Initial"
+        }, 
+        {
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Address", 
+              "code": "concept-topic"
+            }
+          ], 
           "code": "SalivaryAddressPII_PIICity", 
           "display": "City"
+        }, 
+        {
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Address", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "SalivaryAddressPII_LastName", 
+          "display": "Last Name"
         }, 
         {
           "property": [
@@ -18377,8 +18405,8 @@
               "code": "concept-topic"
             }
           ], 
-          "code": "SalivaryAdressPII_LastName", 
-          "display": "Last Name"
+          "code": "SalivaryAddressPII_FirstName", 
+          "display": "First Name"
         }, 
         {
           "property": [
@@ -18393,34 +18421,6 @@
           ], 
           "code": "SalivaryAddressPII_PIIState", 
           "display": "State"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Question", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Address", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "SalivaryAdressPII_FirstName", 
-          "display": "First Name"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Question", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Address", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "SalivaryAdressPII_MiddleName", 
-          "display": "Middle Initial"
         }, 
         {
           "property": [
@@ -25483,20 +25483,6 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "SonCirculatoryCondition_CoronaryArteryHeartDisease", 
-                      "display": "Coronary artery/coronary heart disease (included angina)"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Child History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
                       "code": "SonCirculatoryCondition_Stroke", 
                       "display": "Stroke"
                     }, 
@@ -25569,6 +25555,20 @@
                       ], 
                       "code": "SonCirculatoryCondition_PulmonaryEmbolismThrombosis", 
                       "display": "Pulmonary embolism or deep vein thrombosis (DVT)"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Child History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "SonCirculatoryCondition_CoronaryArteryHeartDisease", 
+                      "display": "Coronary artery/coronary heart disease (included angina)"
                     }, 
                     {
                       "property": [
@@ -30687,6 +30687,20 @@
                           "code": "concept-topic"
                         }
                       ], 
+                      "code": "SonCancerCondition_EyeCancer", 
+                      "display": "Eye cancer"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Child History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
                       "code": "SonCancerCondition_BreastCancer", 
                       "display": "Breast cancer"
                     }, 
@@ -30717,20 +30731,6 @@
                       ], 
                       "code": "SonCancerCondition_BrainCancer", 
                       "display": "Brain cancer"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Child History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "SonCancerCondition_EyeCancer", 
-                      "display": "Eye cancer"
                     }, 
                     {
                       "property": [
@@ -31935,6 +31935,20 @@
                           "code": "concept-topic"
                         }
                       ], 
+                      "code": "MotherCirculatoryCondition_AtrialFibrilation", 
+                      "display": "Atrial fibrillation (or a-fib) or atrial flutter (or a-flutter). (These conditions cause irregular, often fast, heart beats that can cause poor blood flow. A-fib and a-flutter are not the same as a heart murmur.)"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Parent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
                       "code": "MotherCirculatoryCondition_SickleCellDisease", 
                       "display": "Sickle Cell Disease"
                     }, 
@@ -31979,20 +31993,6 @@
                       ], 
                       "code": "MotherCirculatoryCondition_HighBloodPressure", 
                       "display": "High blood pressure (Hypertension)"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Parent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "MotherCirculatoryCondition_AtrialFibrilation", 
-                      "display": "Atrial fibrillation (or a-fib) or atrial flutter (or a-flutter). (These conditions cause irregular, often fast, heart beats that can cause poor blood flow. A-fib and a-flutter are not the same as a heart murmur.)"
                     }, 
                     {
                       "property": [
@@ -69241,9 +69241,9 @@
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.3.67", 
+  "version": "0.3.68", 
   "hierarchyMeaning": "grouped-by", 
-  "date": "2019-05-28", 
+  "date": "2019-05-29", 
   "property": [
     {
       "code": "concept-type", 
