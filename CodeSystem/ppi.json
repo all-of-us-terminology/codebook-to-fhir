@@ -619,20 +619,6 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "SecondContactState_NorthDakota", 
-                      "display": "NorthDakota"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Secondary Contact", 
-                          "code": "concept-topic"
-                        }
-                      ], 
                       "code": "SecondContactState_Iowa", 
                       "display": "Iowa"
                     }, 
@@ -957,6 +943,20 @@
                       ], 
                       "code": "SecondContactState_Pennsylvania", 
                       "display": "Pennsylvania"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Secondary Contact", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "SecondContactState_NorthDakota", 
+                      "display": "NorthDakota"
                     }, 
                     {
                       "property": [
@@ -3355,6 +3355,20 @@
                       "code": "concept-topic"
                     }
                   ], 
+                  "code": "CurrentLiving_TemporaryInstitute", 
+                  "display": "Hospital, rehabilitation center, drug treatment center, or other temporary institution"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Living Situation", 
+                      "code": "concept-topic"
+                    }
+                  ], 
                   "code": "CurrentLiving_Transitional", 
                   "display": "Transitional housing"
                 }, 
@@ -3413,20 +3427,6 @@
                   ], 
                   "code": "CurrentLiving_Family", 
                   "display": "With family"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Living Situation", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "CurrentLiving_TemporaryInstitute", 
-                  "display": "Hospital, rehabilitation center, drug treatment center, or other temporary institution"
                 }
               ], 
               "property": [
@@ -3892,134 +3892,6 @@
         }, 
         {
           "concept": [
-            {
-              "concept": [
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Employment", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "EmploymentStatus_Retired", 
-                  "display": "Retired"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Employment", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "EmploymentStatus_OutOfWorkOneOrMore", 
-                  "display": "Out of work for 1 year or more"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Employment", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "EmploymentStatus_OutOfWorkLessThanOne", 
-                  "display": "Out of work for less than 1 year"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Employment", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "EmploymentStatus_Homemaker", 
-                  "display": "A homemaker"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Employment", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "EmploymentStatus_EmployedForWages", 
-                  "display": "Employed for wages (part-\u00ad\u2010 time or full-\u00ad\u2010time)"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Employment", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "EmploymentStatus_Student", 
-                  "display": "A student"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Employment", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "EmploymentStatus_UnableToWork", 
-                  "display": "Unable to work (disabled)"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Employment", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "EmploymentStatus_SelfEmployed", 
-                  "display": "Self-\u00ad\u2010employed"
-                }
-              ], 
-              "property": [
-                {
-                  "valueCode": "Question", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Employment", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "Employment_EmploymentStatus", 
-              "display": "What is your current employment status? Please select 1 or more of these categories."
-            }, 
             {
               "concept": [
                 {
@@ -4947,6 +4819,134 @@
               ], 
               "code": "Employment_EmploymentWorkAddress", 
               "display": "If DSS5a= employed for wages or self-\u00ad\u2010employed: What is your work street address?"
+            }, 
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Employment", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "EmploymentStatus_Retired", 
+                  "display": "Retired"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Employment", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "EmploymentStatus_OutOfWorkOneOrMore", 
+                  "display": "Out of work for 1 year or more"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Employment", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "EmploymentStatus_OutOfWorkLessThanOne", 
+                  "display": "Out of work for less than 1 year"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Employment", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "EmploymentStatus_Homemaker", 
+                  "display": "A homemaker"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Employment", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "EmploymentStatus_EmployedForWages", 
+                  "display": "Employed for wages (part-\u00ad\u2010 time or full-\u00ad\u2010time)"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Employment", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "EmploymentStatus_Student", 
+                  "display": "A student"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Employment", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "EmploymentStatus_UnableToWork", 
+                  "display": "Unable to work (disabled)"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Employment", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "EmploymentStatus_SelfEmployed", 
+                  "display": "Self-\u00ad\u2010employed"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Employment", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Employment_EmploymentStatus", 
+              "display": "What is your current employment status? Please select 1 or more of these categories."
             }
           ], 
           "property": [
@@ -9257,6 +9257,80 @@
                   "code": "concept-type"
                 }, 
                 {
+                  "valueCode": "Music", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Activity_Cooking", 
+              "display": "cooking"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Music", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Activity_Exercising", 
+              "display": "exercising"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Music", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Activity_Commuting", 
+              "display": "commuting"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Music", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "Snap_Activity", 
+          "display": "I enjoy music most when I'm _____."
+        }
+      ], 
+      "property": [
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "SNAP_MUSICACTIVITY_072019", 
+      "display": "July Snap Questions 1"
+    }, 
+    {
+      "concept": [
+        {
+          "concept": [
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
                   "valueCode": "San Diego Site Pairing", 
                   "code": "concept-topic"
                 }
@@ -13435,20 +13509,6 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "PhysicalTherapistVisits_2to3", 
-                  "display": "2-3"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Insurance", 
-                      "code": "concept-topic"
-                    }
-                  ], 
                   "code": "PhysicalTherapistVisits_8to9", 
                   "display": "8-9"
                 }, 
@@ -13493,6 +13553,20 @@
                   ], 
                   "code": "PhysicalTherapistVisits_6to7", 
                   "display": "6-7"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Insurance", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "PhysicalTherapistVisits_2to3", 
+                  "display": "2-3"
                 }
               ], 
               "property": [
@@ -18259,6 +18333,80 @@
                   "code": "concept-type"
                 }, 
                 {
+                  "valueCode": "Music", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Feel_Relaxed", 
+              "display": "relaxed"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Music", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Feel_Energized", 
+              "display": "energized"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Music", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Feel_Happy", 
+              "display": "happy"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Music", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "Snap_Feel", 
+          "display": "I use music to feel ___."
+        }
+      ], 
+      "property": [
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "SNAP_MUSICFEEL_072019", 
+      "display": "July Snap Questions 2"
+    }, 
+    {
+      "concept": [
+        {
+          "concept": [
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
                   "valueCode": "Sleeping", 
                   "code": "concept-topic"
                 }
@@ -18349,8 +18497,36 @@
               "code": "concept-topic"
             }
           ], 
+          "code": "SalivaryAddressPII_MiddleName", 
+          "display": "Middle Initial"
+        }, 
+        {
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Address", 
+              "code": "concept-topic"
+            }
+          ], 
           "code": "SalivaryAddressPII_PIICity", 
           "display": "City"
+        }, 
+        {
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Address", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "SalivaryAddressPII_LastName", 
+          "display": "Last Name"
         }, 
         {
           "property": [
@@ -18377,8 +18553,8 @@
               "code": "concept-topic"
             }
           ], 
-          "code": "SalivaryAdressPII_LastName", 
-          "display": "Last Name"
+          "code": "SalivaryAddressPII_FirstName", 
+          "display": "First Name"
         }, 
         {
           "property": [
@@ -18393,34 +18569,6 @@
           ], 
           "code": "SalivaryAddressPII_PIIState", 
           "display": "State"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Question", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Address", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "SalivaryAdressPII_FirstName", 
-          "display": "First Name"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Question", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Address", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "SalivaryAdressPII_MiddleName", 
-          "display": "Middle Initial"
         }, 
         {
           "property": [
@@ -21055,6 +21203,80 @@
         {
           "concept": [
             {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Music", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Player_Radio", 
+              "display": "radio"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Music", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Player_PhoneMP3", 
+              "display": "my phone/mp3 player"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Music", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Player_Cassettes", 
+              "display": "casettes/CDs/vinyl/8-track"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Music", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "Snap_Player", 
+          "display": "I mainly use  ___ to listen to music."
+        }
+      ], 
+      "property": [
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "SNAP_MUSICPLAYER_072019", 
+      "display": "July Snap Questions 3"
+    }, 
+    {
+      "concept": [
+        {
+          "concept": [
+            {
               "concept": [
                 {
                   "property": [
@@ -22887,6 +23109,20 @@
                           "code": "concept-topic"
                         }
                       ], 
+                      "code": "MotherVisionCondition_Cataracts", 
+                      "display": "Cataracts"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Parent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
                       "code": "MotherVisionCondition_HearingLoss", 
                       "display": "Severe hearing loss or partial deafness in one or both ears"
                     }, 
@@ -22903,20 +23139,6 @@
                       ], 
                       "code": "MotherVisionCondition_MacularDegeneration", 
                       "display": "Macular degeneration"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Parent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "MotherVisionCondition_Cataracts", 
-                      "display": "Cataracts"
                     }, 
                     {
                       "property": [
@@ -25483,20 +25705,6 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "SonCirculatoryCondition_CoronaryArteryHeartDisease", 
-                      "display": "Coronary artery/coronary heart disease (included angina)"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Child History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
                       "code": "SonCirculatoryCondition_Stroke", 
                       "display": "Stroke"
                     }, 
@@ -25569,6 +25777,20 @@
                       ], 
                       "code": "SonCirculatoryCondition_PulmonaryEmbolismThrombosis", 
                       "display": "Pulmonary embolism or deep vein thrombosis (DVT)"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Child History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "SonCirculatoryCondition_CoronaryArteryHeartDisease", 
+                      "display": "Coronary artery/coronary heart disease (included angina)"
                     }, 
                     {
                       "property": [
@@ -29207,134 +29429,6 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "CirculatoryCondition_CoronaryArteryHeartDisease", 
-                      "display": "Coronary artery/coronary heart disease (included angina)"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Health Conditions", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "CirculatoryCondition_HeartAttack", 
-                      "display": "Heart attack"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Health Conditions", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "CirculatoryCondition_HighCholesterol", 
-                      "display": "High cholesterol"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Health Conditions", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "CirculatoryCondition_PulmonaryEmbolismThrombosis", 
-                      "display": "Pulmonary embolism or deep vein thrombosis (DVT)"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Health Conditions", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "CirculatoryCondition_CongestiveHeartFailure", 
-                      "display": "Congestive heart failure"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Health Conditions", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "CirculatoryCondition_Stroke", 
-                      "display": "Stroke"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Health Conditions", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "CirculatoryCondition_AtrialFibrilation", 
-                      "display": "Atrial fibrillation (or a-fib) or atrial flutter (or a-flutter). (These conditions cause irregular, often fast, heart beats that can cause poor blood flow. A-fib and a-flutter are not the same as a heart murmur.)"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Health Conditions", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "CirculatoryCondition_HighBloodPressure", 
-                      "display": "High blood pressure (Hypertension)"
-                    }
-                  ], 
-                  "property": [
-                    {
-                      "valueCode": "Topic", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Health Conditions", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "DiagnosedHealthCondition_CirculatoryCondition", 
-                  "display": "Circulatory System Conditions:"
-                }, 
-                {
-                  "concept": [
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Health Conditions", 
-                          "code": "concept-topic"
-                        }
-                      ], 
                       "code": "EndocrineCondition_OtherThyroidCondition", 
                       "display": "Other or unknown thyroid condition"
                     }, 
@@ -30145,6 +30239,134 @@
                           "code": "concept-topic"
                         }
                       ], 
+                      "code": "CirculatoryCondition_CoronaryArteryHeartDisease", 
+                      "display": "Coronary artery/coronary heart disease (included angina)"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Health Conditions", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "CirculatoryCondition_HeartAttack", 
+                      "display": "Heart attack"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Health Conditions", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "CirculatoryCondition_HighCholesterol", 
+                      "display": "High cholesterol"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Health Conditions", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "CirculatoryCondition_PulmonaryEmbolismThrombosis", 
+                      "display": "Pulmonary embolism or deep vein thrombosis (DVT)"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Health Conditions", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "CirculatoryCondition_CongestiveHeartFailure", 
+                      "display": "Congestive heart failure"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Health Conditions", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "CirculatoryCondition_Stroke", 
+                      "display": "Stroke"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Health Conditions", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "CirculatoryCondition_AtrialFibrilation", 
+                      "display": "Atrial fibrillation (or a-fib) or atrial flutter (or a-flutter). (These conditions cause irregular, often fast, heart beats that can cause poor blood flow. A-fib and a-flutter are not the same as a heart murmur.)"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Health Conditions", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "CirculatoryCondition_HighBloodPressure", 
+                      "display": "High blood pressure (Hypertension)"
+                    }
+                  ], 
+                  "property": [
+                    {
+                      "valueCode": "Topic", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Health Conditions", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "DiagnosedHealthCondition_CirculatoryCondition", 
+                  "display": "Circulatory System Conditions:"
+                }, 
+                {
+                  "concept": [
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Health Conditions", 
+                          "code": "concept-topic"
+                        }
+                      ], 
                       "code": "VisionCondition_Glaucoma", 
                       "display": "Glaucoma"
                     }, 
@@ -30659,8 +30881,8 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "SonCancerCondition_BoneCancer", 
-                      "display": "Bone cancer"
+                      "code": "SonCancerCondition_EndocrineCancer", 
+                      "display": "Endocrine cancer"
                     }, 
                     {
                       "property": [
@@ -30673,8 +30895,8 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "SonCancerCondition_EndocrineCancer", 
-                      "display": "Endocrine cancer"
+                      "code": "SonCancerCondition_EyeCancer", 
+                      "display": "Eye cancer"
                     }, 
                     {
                       "property": [
@@ -30729,8 +30951,8 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "SonCancerCondition_EyeCancer", 
-                      "display": "Eye cancer"
+                      "code": "SonCancerCondition_BoneCancer", 
+                      "display": "Bone cancer"
                     }, 
                     {
                       "property": [
@@ -31935,6 +32157,20 @@
                           "code": "concept-topic"
                         }
                       ], 
+                      "code": "MotherCirculatoryCondition_AtrialFibrilation", 
+                      "display": "Atrial fibrillation (or a-fib) or atrial flutter (or a-flutter). (These conditions cause irregular, often fast, heart beats that can cause poor blood flow. A-fib and a-flutter are not the same as a heart murmur.)"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Parent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
                       "code": "MotherCirculatoryCondition_SickleCellDisease", 
                       "display": "Sickle Cell Disease"
                     }, 
@@ -31979,20 +32215,6 @@
                       ], 
                       "code": "MotherCirculatoryCondition_HighBloodPressure", 
                       "display": "High blood pressure (Hypertension)"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Parent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "MotherCirculatoryCondition_AtrialFibrilation", 
-                      "display": "Atrial fibrillation (or a-fib) or atrial flutter (or a-flutter). (These conditions cause irregular, often fast, heart beats that can cause poor blood flow. A-fib and a-flutter are not the same as a heart murmur.)"
                     }, 
                     {
                       "property": [
@@ -32277,8 +32499,8 @@
                   "code": "concept-topic"
                 }
               ], 
-              "code": "FamilyMembersDiagnosed_Sibling", 
-              "display": "Sibling(s) [people with the same mother and/or father as you]"
+              "code": "FamilyMembersDiagnosed_Daughter", 
+              "display": "Daughter(s)"
             }, 
             {
               "property": [
@@ -32291,8 +32513,8 @@
                   "code": "concept-topic"
                 }
               ], 
-              "code": "FamilyMembersDiagnosed_Daughter", 
-              "display": "Daughter(s)"
+              "code": "FamilyMembersDiagnosed_Sibling", 
+              "display": "Sibling(s) [people with the same mother and/or father as you]"
             }, 
             {
               "property": [
@@ -41603,20 +41825,6 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "HowOldWereYouRheumatoidArthritis_Adult", 
-                  "display": "Adult (18-64)"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": null, 
-                      "code": "concept-topic"
-                    }
-                  ], 
                   "code": "HowOldWereYouRheumatoidArthritis_Child", 
                   "display": "Child (0-11)"
                 }, 
@@ -41647,6 +41855,20 @@
                   ], 
                   "code": "HowOldWereYouRheumatoidArthritis_Elderly", 
                   "display": "Elderly (75+)"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": null, 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "HowOldWereYouRheumatoidArthritis_Adult", 
+                  "display": "Adult (18-64)"
                 }
               ], 
               "property": [
@@ -42603,8 +42825,8 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "HowOldWereYouSkinCancer_Elderly", 
-                  "display": "Elderly (75+)"
+                  "code": "HowOldWereYouSkinCancer_Child", 
+                  "display": "Child (0-11)"
                 }, 
                 {
                   "property": [
@@ -42617,8 +42839,8 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "HowOldWereYouSkinCancer_Child", 
-                  "display": "Child (0-11)"
+                  "code": "HowOldWereYouSkinCancer_Elderly", 
+                  "display": "Elderly (75+)"
                 }, 
                 {
                   "property": [
@@ -68667,50 +68889,6 @@
           "display": "Take the time you need to decide about joining All of Us. We are here to answer any questions you have."
         }, 
         {
-          "concept": [
-            {
-              "property": [
-                {
-                  "valueCode": "Question", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Extra Consent Items", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "YoutubeVideos_WhatAreWeAsking", 
-              "display": "what are we asking you to do?"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Question", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Extra Consent Items", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "YoutubeVideos_RiskToPrivacy", 
-              "display": "risk to privacy"
-            }
-          ], 
-          "property": [
-            {
-              "valueCode": "Question", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Extra Consent Items", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "EHRConsentPII_YoutubeVideos", 
-          "display": "Youtube Videos"
-        }, 
-        {
           "property": [
             {
               "valueCode": "Question", 
@@ -69147,6 +69325,50 @@
           "display": "Are you ready to take the quiz?"
         }, 
         {
+          "concept": [
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Extra Consent Items", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "YoutubeVideos_WhatAreWeAsking", 
+              "display": "what are we asking you to do?"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Extra Consent Items", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "YoutubeVideos_RiskToPrivacy", 
+              "display": "risk to privacy"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Extra Consent Items", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "EHRConsentPII_YoutubeVideos", 
+          "display": "Youtube Videos"
+        }, 
+        {
           "property": [
             {
               "valueCode": "Question", 
@@ -69236,14 +69458,14 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 4801, 
+  "count": 4816, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.3.67", 
+  "version": "0.3.69", 
   "hierarchyMeaning": "grouped-by", 
-  "date": "2019-05-28", 
+  "date": "2019-06-19", 
   "property": [
     {
       "code": "concept-type", 
