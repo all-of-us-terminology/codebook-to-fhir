@@ -1,0 +1,6 @@
+Display,Topic,Type,PMI System,PMI Code,Parent code,Date of Last Update
+August Snap Questions 3,Module Name,Module Name,http://terminology.pmi-ops.org/CodeSystem/ppi,SNAP_TEMPERATUREHOT_082019,,07/25/2019
+"When it’s hot outside, I ____.",Body Temperature,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,Snap_Hot,SNAP_TEMPERATUREHOT_082019,07/25/2019
+open windows,Body Temperature,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,Hot_OpenWindows,Snap_Hot,07/25/2019
+turn on fans or A/C,Body Temperature,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,Hot_TurnOnFansOrAC,Snap_Hot,07/25/2019
+eat ice cream,Body Temperature,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,Hot_EatIceCream,Snap_Hot,07/25/2019

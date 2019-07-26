@@ -1,0 +1,6 @@
+Display,Topic,Type,PMI System,PMI Code,Parent code,Date of Last Update
+August Snap Questions 1,Module Name,Module Name,http://terminology.pmi-ops.org/CodeSystem/ppi,SNAP_DAYTEMPERATURE_082019,,07/25/2019
+"During the day, I usually feel ____.",Body Temperature,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,Snap_DayTemperature,SNAP_DAYTEMPERATURE_082019,07/25/2019
+hot,Body Temperature,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,Temperature_Hot,Snap_DayTemperature,07/25/2019
+cold,Body Temperature,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,Temperature_Cold,Snap_DayTemperature,07/25/2019
+pretty comfortable,Body Temperature,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,Temperature_PrettyComfortable,Snap_DayTemperature,07/25/2019

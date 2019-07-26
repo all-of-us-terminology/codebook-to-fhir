@@ -13293,6 +13293,20 @@
                   "code": "concept-topic"
                 }
               ], 
+              "code": "InsuranceType_Medicare", 
+              "display": "Medicare, for people 65 and older or people with certain disabilities"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Insurance", 
+                  "code": "concept-topic"
+                }
+              ], 
               "code": "InsuraceType_OtherInsuranceType", 
               "display": "Any other type of health insurance or health coverage plan"
             }, 
@@ -13365,20 +13379,6 @@
               ], 
               "code": "InsuranceType_TricareOrMilitary", 
               "display": "TRICARE or other military health care"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Insurance", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "InsuranceType_Medicare", 
-              "display": "Medicare, for people 65 and older or people with certain disabilities"
             }
           ], 
           "property": [
@@ -14769,6 +14769,20 @@
                       "code": "concept-topic"
                     }
                   ], 
+                  "code": "DentistVisits_4to5", 
+                  "display": "4-5"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Insurance", 
+                      "code": "concept-topic"
+                    }
+                  ], 
                   "code": "DentistVisits_16orMore", 
                   "display": "16 or more"
                 }, 
@@ -14785,20 +14799,6 @@
                   ], 
                   "code": "DentistVisits_6to7", 
                   "display": "6-7"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Insurance", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "DentistVisits_4to5", 
-                  "display": "4-5"
                 }, 
                 {
                   "property": [
@@ -16071,6 +16071,80 @@
       ], 
       "code": "SNAP_FLUSHOTBARRIERS_102018", 
       "display": "October Snap Questions 3"
+    }, 
+    {
+      "concept": [
+        {
+          "concept": [
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Body Temperature", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Preference_Warmer", 
+              "display": "warmer"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Body Temperature", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Preference_Cooler", 
+              "display": "cooler"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Body Temperature", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Preference_ItDoesntMatterToMe", 
+              "display": "it doesn't matter to me"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Body Temperature", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "Snap_Preference", 
+          "display": "In general, I prefer to feel _____."
+        }
+      ], 
+      "property": [
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "SNAP_TEMPERATUREPREFERENCE_082019", 
+      "display": "August Snap Questions 2"
     }, 
     {
       "concept": [
@@ -19273,6 +19347,80 @@
       ], 
       "code": "SNAP_CANTSLEEP_110918", 
       "display": "November Snap Question 3"
+    }, 
+    {
+      "concept": [
+        {
+          "concept": [
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Body Temperature", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Hot_OpenWindows", 
+              "display": "open windows"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Body Temperature", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Hot_EatIceCream", 
+              "display": "eat ice cream"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Body Temperature", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Hot_TurnOnFansOrAC", 
+              "display": "turn on fans or A/C"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Body Temperature", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "Snap_Hot", 
+          "display": "When it\u2019s hot outside, I ____."
+        }
+      ], 
+      "property": [
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "SNAP_TEMPERATUREHOT_082019", 
+      "display": "August Snap Questions 3"
     }, 
     {
       "concept": [
@@ -23423,6 +23571,218 @@
                   ], 
                   "code": "DiagnosedHealthCondition_MotherSkeletalMuscularCondition", 
                   "display": "Bone, joint and muscle conditions:"
+                }, 
+                {
+                  "concept": [
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Parent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "FatherCirculatoryCondition_AorticAneurysm", 
+                      "display": "Aortic aneurysm"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Parent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "FatherCirculatoryCondition_PeripheralVascularDisease", 
+                      "display": "Peripheral Vascular Disease"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Parent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "FatherCirculatoryCondition_SuddenDeath", 
+                      "display": "Sudden death"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Parent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "FatherCirculatoryCondition_CoronaryArteryHeartDisease", 
+                      "display": "Coronary artery/coronary heart disease (included angina)"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Parent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "FatherCirculatoryCondition_Stroke", 
+                      "display": "Stroke"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Parent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "FatherCirculatoryCondition_HighCholesterol", 
+                      "display": "High cholesterol"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Parent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "FatherCirculatoryCondition_AtrialFibrilation", 
+                      "display": "Atrial fibrillation (or a-fib) or atrial flutter (or a-flutter). (These conditions cause irregular, often fast, heart beats that can cause poor blood flow. A-fib and a-flutter are not the same as a heart murmur.)"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Parent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "FatherCirculatoryCondition_HeartAttack", 
+                      "display": "Heart attack"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Parent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "FatherCirculatoryCondition_CongestiveHeartFailure", 
+                      "display": "Congestive heart failure"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Parent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "FatherCirculatoryCondition_Anemia", 
+                      "display": "Anemia"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Parent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "FatherCirculatoryCondition_SickleCellDisease", 
+                      "display": "Sickle Cell Disease"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Parent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "FatherCirculatoryCondition_HeartValveDisease", 
+                      "display": "Heart Valve Disease"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Parent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "FatherCirculatoryCondition_PulmonaryEmbolismThrombosis", 
+                      "display": "Pulmonary embolism or deep vein thrombosis (DVT)"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Parent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "FatherCirculatoryCondition_HighBloodPressure", 
+                      "display": "High blood pressure (Hypertension)"
+                    }
+                  ], 
+                  "property": [
+                    {
+                      "valueCode": "Question", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Parent History", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "DiagnosedHealthCondition_FatherCirculatoryCondition", 
+                  "display": "Circulatory System Conditions:"
                 }, 
                 {
                   "concept": [
@@ -28277,218 +28637,6 @@
                           "code": "concept-type"
                         }, 
                         {
-                          "valueCode": "Parent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "FatherCirculatoryCondition_AorticAneurysm", 
-                      "display": "Aortic aneurysm"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Parent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "FatherCirculatoryCondition_PeripheralVascularDisease", 
-                      "display": "Peripheral Vascular Disease"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Parent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "FatherCirculatoryCondition_SuddenDeath", 
-                      "display": "Sudden death"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Parent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "FatherCirculatoryCondition_CoronaryArteryHeartDisease", 
-                      "display": "Coronary artery/coronary heart disease (included angina)"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Parent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "FatherCirculatoryCondition_Stroke", 
-                      "display": "Stroke"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Parent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "FatherCirculatoryCondition_HighCholesterol", 
-                      "display": "High cholesterol"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Parent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "FatherCirculatoryCondition_AtrialFibrilation", 
-                      "display": "Atrial fibrillation (or a-fib) or atrial flutter (or a-flutter). (These conditions cause irregular, often fast, heart beats that can cause poor blood flow. A-fib and a-flutter are not the same as a heart murmur.)"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Parent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "FatherCirculatoryCondition_HeartAttack", 
-                      "display": "Heart attack"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Parent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "FatherCirculatoryCondition_CongestiveHeartFailure", 
-                      "display": "Congestive heart failure"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Parent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "FatherCirculatoryCondition_Anemia", 
-                      "display": "Anemia"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Parent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "FatherCirculatoryCondition_SickleCellDisease", 
-                      "display": "Sickle Cell Disease"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Parent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "FatherCirculatoryCondition_HeartValveDisease", 
-                      "display": "Heart Valve Disease"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Parent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "FatherCirculatoryCondition_PulmonaryEmbolismThrombosis", 
-                      "display": "Pulmonary embolism or deep vein thrombosis (DVT)"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Parent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "FatherCirculatoryCondition_HighBloodPressure", 
-                      "display": "High blood pressure (Hypertension)"
-                    }
-                  ], 
-                  "property": [
-                    {
-                      "valueCode": "Question", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Parent History", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "DiagnosedHealthCondition_FatherCirculatoryCondition", 
-                  "display": "Circulatory System Conditions:"
-                }, 
-                {
-                  "concept": [
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
                           "valueCode": "Grandparent History", 
                           "code": "concept-topic"
                         }
@@ -30767,20 +30915,6 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "SonCancerCondition_PancreaticCancer", 
-                      "display": "Pancreatic cancer"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Child History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
                       "code": "SonCancerCondition_CervicalCancer", 
                       "display": "Cervical cancer"
                     }, 
@@ -30897,6 +31031,20 @@
                       ], 
                       "code": "SonCancerCondition_EyeCancer", 
                       "display": "Eye cancer"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Child History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "SonCancerCondition_PancreaticCancer", 
+                      "display": "Pancreatic cancer"
                     }, 
                     {
                       "property": [
@@ -68765,6 +68913,80 @@
                   "code": "concept-type"
                 }, 
                 {
+                  "valueCode": "Body Temperature", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Temperature_PrettyComfortable", 
+              "display": "pretty comfortable"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Body Temperature", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Temperature_Cold", 
+              "display": "cold"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Body Temperature", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Temperature_Hot", 
+              "display": "hot"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Body Temperature", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "Snap_DayTemperature", 
+          "display": "During the day, I usually feel ____."
+        }
+      ], 
+      "property": [
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "SNAP_DAYTEMPERATURE_082019", 
+      "display": "August Snap Questions 1"
+    }, 
+    {
+      "concept": [
+        {
+          "concept": [
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
                   "valueCode": "Assisted Consent", 
                   "code": "concept-topic"
                 }
@@ -69458,14 +69680,14 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 4816, 
+  "count": 4831, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.3.70", 
+  "version": "0.3.71", 
   "hierarchyMeaning": "grouped-by", 
-  "date": "2019-06-19", 
+  "date": "2019-07-25", 
   "property": [
     {
       "code": "concept-type", 
