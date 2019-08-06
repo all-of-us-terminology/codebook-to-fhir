@@ -32,9 +32,6 @@ Take the time you need to decide about joining All of Us. We are here to answer 
 ready,Extra Consent Items,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,JoinAllOfUs_Ready,EHRConsentPII_JoinAllOfUs,5/19/2017
 help,Extra Consent Items,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,JoinAllOfUs_Help,EHRConsentPII_JoinAllOfUs,5/19/2017
 Email a copy to me,Extra Consent Items,Question,Boolean,http://terminology.pmi-ops.org/CodeSystem/ppi,EHRConsentPII_EmailCopy,EHRConsentPII,5/19/2017
-Youtube Videos,Extra Consent Items,Question,,http://terminology.pmi-ops.org/CodeSystem/ppi,EHRConsentPII_YoutubeVideos,EHRConsentPII,5/23/17
-what are we asking you to do?,Extra Consent Items,Question,,http://terminology.pmi-ops.org/CodeSystem/ppi,YoutubeVideos_WhatAreWeAsking,EHRConsentPII_YoutubeVideos,5/25/17
-risk to privacy,Extra Consent Items,Question,,http://terminology.pmi-ops.org/CodeSystem/ppi,YoutubeVideos_RiskToPrivacy,EHRConsentPII_YoutubeVideos,5/25/17
 TX and MA two step consent,TX and MA HIPPA,Question,,http://terminology.pmi-ops.org/CodeSystem/ppi,EHRConsentPII_TXandMAHIPPA,EHRConsentPII,9/25/2017
 I do agree,TX and MA HIPPA,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,TXandMAHIPPA_IDoAgree,EHRConsentPII_TXandMAHIPPA,9/25/2017
 I do not agree,TX and MA HIPPA,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,TXandMAHIPPA_IDoNotAgree,EHRConsentPII_TXandMAHIPPA,9/25/2017

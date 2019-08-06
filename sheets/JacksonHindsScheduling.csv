@@ -1,5 +1,0 @@
-Display,Topic,Type,PMI System,PMI Code,Parent code,Date of Last Update
-Jackson-Hinds Comprehensive Health Center,Module Name,Module Name,http://terminology.pmi-ops.org/CodeSystem/ppi,JacksonHindsScheduling,,2/16/2018
-Have you already scheduled an All of Us research appointment at the Jackson-Hinds Comprehensive Health Center's Main Site (James Anderson Clinic) or the Copiah Clinic?,Jackson-Hinds Scheduling,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,MississippiSitePairing_JH,JacksonHindsScheduling ,2/20/2018
-yes,Jackson-Hinds Scheduling,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,JacksonHinds_Yes_New,MississippiSitePairing_JH,2/20/2018
-no,Jackson-Hinds Scheduling,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,JacksonHinds_No_New,MississippiSitePairing_JH,2/20/2018

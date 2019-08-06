@@ -1,5 +1,0 @@
-Display,Topic,Type,PMI System,PMI Code,Parent code,Date of Last Update
-QTC/Community Blood Center of the Carolina's Scheduling,Module Name,Module Name,http://terminology.pmi-ops.org/CodeSystem/ppi,QTCNBCScheduling,,2/16/2018
-Please select where you would like to schedule your physical measurement and biosample appointment.,QTC NBC Scheduling,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,QTCNorthCarolinaSchedulingNBC,QTCNBCScheduling,2/20/2018
-QTC,QTC NBC Scheduling,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,QTCNorthCarolinaScheduling_QTC_New,QTCNorthCarolinaSchedulingNBC,2/20/2018
-Community Blood Center of the Carolinas,QTC NBC Scheduling,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,QTCNorthCarolinaScheduling_CBCC_New,QTCNorthCarolinaSchedulingNBC,2/20/2018
