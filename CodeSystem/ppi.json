@@ -19627,6 +19627,20 @@
               "code": "concept-type"
             }, 
             {
+              "valueCode": "States", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "PIIState_TX", 
+          "display": "Texas"
+        }, 
+        {
+          "property": [
+            {
+              "valueCode": "Answer", 
+              "code": "concept-type"
+            }, 
+            {
               "valueCode": "PMI", 
               "code": "concept-topic"
             }
@@ -19997,20 +20011,6 @@
           ], 
           "code": "PMI_Skip", 
           "display": "PMI Skip"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Answer", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "States", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "PIIState_TX", 
-          "display": "Texas"
         }, 
         {
           "property": [
@@ -24705,8 +24705,8 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "SiblingMentalCondition_Autism", 
-                      "display": "Autsm spectrum disorder"
+                      "code": "SiblingMentalCondition_Addiction", 
+                      "display": "Addiction to alcohol or drugs"
                     }, 
                     {
                       "property": [
@@ -24719,8 +24719,8 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "SiblingMentalCondition_Addiction", 
-                      "display": "Addiction to alcohol or drugs"
+                      "code": "SiblingMentalCondition_Autism", 
+                      "display": "Autsm spectrum disorder"
                     }, 
                     {
                       "property": [
@@ -46391,8 +46391,8 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "RxMedsforHyperthyroidism_No", 
-                  "display": "No"
+                  "code": "RxMedsforHyperthyroidism_Yes", 
+                  "display": "Yes"
                 }, 
                 {
                   "property": [
@@ -46405,8 +46405,8 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "RxMedsforHyperthyroidism_Yes", 
-                  "display": "Yes"
+                  "code": "RxMedsforHyperthyroidism_No", 
+                  "display": "No"
                 }
               ], 
               "property": [
@@ -53475,6 +53475,20 @@
                       "code": "concept-topic"
                     }
                   ], 
+                  "code": "HowOldWereYouAtrialFibrillation_Adult", 
+                  "display": "Adult (18-64)"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": null, 
+                      "code": "concept-topic"
+                    }
+                  ], 
                   "code": "HowOldWereYouAtrialFibrillation_Adolescent", 
                   "display": "Adolescent (12-17)"
                 }, 
@@ -53491,20 +53505,6 @@
                   ], 
                   "code": "HowOldWereYouAtrialFibrillation_Elderly", 
                   "display": "Elderly (75+)"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": null, 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "HowOldWereYouAtrialFibrillation_Adult", 
-                  "display": "Adult (18-64)"
                 }
               ], 
               "property": [
@@ -58139,8 +58139,8 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "HowOldWereYouFarSightedness_OlderAdult", 
-                  "display": "Older adult (65-74)"
+                  "code": "HowOldWereYouFarSightedness_Child", 
+                  "display": "Child (0-11)"
                 }, 
                 {
                   "property": [
@@ -58153,8 +58153,8 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "HowOldWereYouFarSightedness_Child", 
-                  "display": "Child (0-11)"
+                  "code": "HowOldWereYouFarSightedness_OlderAdult", 
+                  "display": "Older adult (65-74)"
                 }
               ], 
               "property": [
@@ -63221,6 +63221,20 @@
                       "code": "concept-topic"
                     }
                   ], 
+                  "code": "LiveInFollowingAreas_NorthUpperPeninsula", 
+                  "display": "Northern/Upper Peninsula"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Michigan Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
                   "code": "LiveInFollowingAreas_LiveInEastSouthEastMichigan", 
                   "display": "*East/Southeast Michigan (Metropolitan Detroit area)"
                 }
@@ -64801,6 +64815,20 @@
                   ], 
                   "code": "18YearsofAge_18YearsYes", 
                   "display": "18 Years Yes"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Extra Consent Items", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "18YearsofAge_18YearsNo", 
+                  "display": "18 Years No"
                 }
               ], 
               "property": [
@@ -68076,14 +68104,14 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 4719, 
+  "count": 4721, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.3.72", 
+  "version": "0.3.73", 
   "hierarchyMeaning": "grouped-by", 
-  "date": "2019-08-02", 
+  "date": "2019-08-27", 
   "property": [
     {
       "code": "concept-type", 

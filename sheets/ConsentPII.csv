@@ -19,6 +19,7 @@ Language,Language,Topic,http://terminology.pmi-ops.org/CodeSystem/ppi,ConsentPII
 Extra Consent,Extra Consent Items,Topic,http://terminology.pmi-ops.org/CodeSystem/ppi,ConsentPII_ExtraConsent,ConsentPII,5/17/2017,
 Are you 18 years of age or older?,Extra Consent Items,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,ExtraConsent_18YearsofAge,ConsentPII_ExtraConsent,8/5/2019,
 18 Years Yes,Extra Consent Items,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,18YearsofAge_18YearsYes,ExtraConsent_18YearsofAge,5/23/2017,
+18 Years No,Extra Consent Items,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,18YearsofAge_18YearsNo,ExtraConsent_18YearsofAge,5/23/2017,
 New Day Selector,Extra Consent Items,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,ExtraConsent_TodaysDate,ConsentPII_ExtraConsent,5/17/2017,
 Signature Box,Extra Consent Items,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,ExtraConsent_Signature,ConsentPII_ExtraConsent,5/17/2017,
 What is the purpose of All of Us?,Extra Consent Items,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,ExtraConsent_AllOfUsPurpose,ConsentPII_ExtraConsent,5/22/2017,
