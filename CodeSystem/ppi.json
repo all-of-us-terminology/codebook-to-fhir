@@ -66277,6 +66277,20 @@
                   "code": "concept-topic"
                 }
               ], 
+              "code": "ExtraConsent_RisktoPrivacyVideo", 
+              "display": "Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Youtube Video"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Extra Consent Items", 
+                  "code": "concept-topic"
+                }
+              ], 
               "code": "ExtraConsent_FitnessTrackerVideo", 
               "display": "ExtraConsent_FitnessTracker_Video"
             }, 
@@ -68480,12 +68494,12 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 4747, 
+  "count": 4748, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.3.75", 
+  "version": "0.3.76", 
   "hierarchyMeaning": "grouped-by", 
   "date": "2019-08-28", 
   "property": [
