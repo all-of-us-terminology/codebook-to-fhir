@@ -1,0 +1,6 @@
+Display,Topic,Type,PMI System,PMI Code,Parent code,Date of Last Update
+September Snap Questions 2,Module Name,Module Name,http://terminology.pmi-ops.org/CodeSystem/ppi,SNAP_CAFFEINEFEEL_092019,,08/27/2019
+Drinking caffeine makes me feel ____.,Caffeine Consumption,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,Snap_CaffeineFeel,SNAP_CAFFEINEFEEL_092019,08/27/2019
+jittery,Caffeine Consumption,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,CaffeineFeel_Jittery,Snap_CaffeineFeel,08/27/2019
+awake,Caffeine Consumption,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,CaffeineFeel_Awake,Snap_CaffeineFeel,08/27/2019
+nothing or I don’t drink caffeine,Caffeine Consumption,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,CaffeineFeel_Nothing,Snap_CaffeineFeel,08/27/2019
