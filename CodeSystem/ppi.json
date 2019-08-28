@@ -17211,20 +17211,6 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "AccountCreationTime_MuchLessTime", 
-                  "display": "Much less time than I thought"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Account Creation", 
-                      "code": "concept-topic"
-                    }
-                  ], 
                   "code": "AccountCreationTime_SlightlyMoreTime", 
                   "display": "Slightly more time than I thought"
                 }, 
@@ -17241,6 +17227,20 @@
                   ], 
                   "code": "AccountCreationTime_NoOpinion", 
                   "display": "No opinion"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Account Creation", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "AccountCreationTime_MuchLessTime", 
+                  "display": "Much less time than I thought"
                 }
               ], 
               "property": [
@@ -23765,6 +23765,20 @@
                           "code": "concept-topic"
                         }
                       ], 
+                      "code": "FatherNervousCondition_EpilepsySeizure", 
+                      "display": "Epilepsy/seizure"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Parent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
                       "code": "FatherNervousCondition_MultipleSclerosis", 
                       "display": "Multiple sclerosis"
                     }, 
@@ -23809,20 +23823,6 @@
                       ], 
                       "code": "FatherNervousCondition_Dementia", 
                       "display": "Dementia (includes Alzheimer's, vascular, etc.)"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Parent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "FatherNervousCondition_EpilepsySeizure", 
-                      "display": "Epilepsy/seizure"
                     }, 
                     {
                       "property": [
@@ -24219,8 +24219,8 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "FatherDigestiveCondition_IrritableBowelSyndrome", 
-                      "display": "Irritable bowel syndrome (IBS)"
+                      "code": "FatherDigestiveCondition_PepticUlcers", 
+                      "display": "Peptic (stomach) ulcers"
                     }, 
                     {
                       "property": [
@@ -24233,8 +24233,8 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "FatherDigestiveCondition_PepticUlcers", 
-                      "display": "Peptic (stomach) ulcers"
+                      "code": "FatherDigestiveCondition_IrritableBowelSyndrome", 
+                      "display": "Irritable bowel syndrome (IBS)"
                     }
                   ], 
                   "property": [
@@ -26697,6 +26697,20 @@
                           "code": "concept-topic"
                         }
                       ], 
+                      "code": "SiblingDigestiveCondition_PepticUlcers", 
+                      "display": "Peptic (stomach) ulcers"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Sibling History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
                       "code": "SiblingDigestiveCondition_CeliacDisease", 
                       "display": "Celiac Disease"
                     }, 
@@ -26783,20 +26797,6 @@
                       ], 
                       "code": "SiblingDigestiveCondition_Diverticulitis", 
                       "display": "Diverticulitis"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Sibling History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "SiblingDigestiveCondition_PepticUlcers", 
-                      "display": "Peptic (stomach) ulcers"
                     }, 
                     {
                       "property": [
@@ -41855,6 +41855,20 @@
                       "code": "concept-topic"
                     }
                   ], 
+                  "code": "HowOldWereYouOtherArthritis_Adult", 
+                  "display": "Adult (18-64)"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": null, 
+                      "code": "concept-topic"
+                    }
+                  ], 
                   "code": "HowOldWereYouOtherArthritis_Elderly", 
                   "display": "Elderly (75+)"
                 }, 
@@ -41871,20 +41885,6 @@
                   ], 
                   "code": "HowOldWereYouOtherArthritis_Child", 
                   "display": "Child (0-11)"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": null, 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "HowOldWereYouOtherArthritis_Adult", 
-                  "display": "Adult (18-64)"
                 }
               ], 
               "property": [
@@ -63551,6 +63551,20 @@
               "display": "Using smartphones, apps, and sensors are always a potential risk to privacy. Can All of Us research guarantee your privacy?"
             }, 
             {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Extra Consent Items", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "ExtraConsent_SamplesVideo", 
+              "display": "Copy of Copy of Copy of Copy of Youtube Video"
+            }, 
+            {
               "concept": [
                 {
                   "property": [
@@ -63605,8 +63619,50 @@
                   "code": "concept-topic"
                 }
               ], 
+              "code": "ExtraConsent_KeepinginTouchVideo", 
+              "display": "Copy of Youtube Video"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Extra Consent Items", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "ExtraConsent__CABoRTodaysDate", 
+              "display": "Copy of New Day Selector"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Extra Consent Items", 
+                  "code": "concept-topic"
+                }
+              ], 
               "code": "ExtraConsent_TodaysDate", 
               "display": "New Day Selector"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Extra Consent Items", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "ExtraConsent_EmailACopyToMe", 
+              "display": "Boolean selector"
             }, 
             {
               "concept": [
@@ -63695,6 +63751,20 @@
               ], 
               "code": "ExtraConsent_ScheduledWithPACares", 
               "display": "Have you already scheduled an appointment with your local PA Cares for Us team for physical measurements and biosample collection?"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Extra Consent Items", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "ExtraConsent_CABoRSignature", 
+              "display": "Copy of Signature Box"
             }, 
             {
               "concept": [
@@ -63943,6 +64013,34 @@
               ], 
               "code": "ExtraConsent_AgreeToConsent", 
               "display": "Agree to Consent"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Extra Consent Items", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "ExtraConsent_FitnessTrackerVideo", 
+              "display": "ExtraConsent_FitnessTracker_Video"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Extra Consent Items", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "ExtraConsent_HealthRecordVideo", 
+              "display": "Copy of Copy of Copy of Copy of Copy of Copy of Youtube Video"
             }, 
             {
               "concept": [
@@ -64797,8 +64895,36 @@
                   "code": "concept-topic"
                 }
               ], 
+              "code": "ExtraConsent_DataSharingVideo", 
+              "display": "Copy of Copy of Copy of Copy of Copy of Youtube Video"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Extra Consent Items", 
+                  "code": "concept-topic"
+                }
+              ], 
               "code": "ExtraConsent_Signature", 
               "display": "Signature Box"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Extra Consent Items", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "ExtraConsent_OtherHealthDataVideo", 
+              "display": "Copy of Copy of Copy of Copy of Copy of Copy of Copy of Youtube Video"
             }, 
             {
               "concept": [
@@ -64887,6 +65013,20 @@
               ], 
               "code": "ExtraConsent_PresentlyRegisteredPatient", 
               "display": "Are you presently a registered patient at any of the following clinics?"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Extra Consent Items", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "ExtraConsent_WelcomeVideo", 
+              "display": "Youtube Video"
             }
           ], 
           "property": [
@@ -68104,14 +68244,14 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 4721, 
+  "count": 4731, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.3.73", 
+  "version": "0.3.74", 
   "hierarchyMeaning": "grouped-by", 
-  "date": "2019-08-27", 
+  "date": "2019-08-28", 
   "property": [
     {
       "code": "concept-type", 
