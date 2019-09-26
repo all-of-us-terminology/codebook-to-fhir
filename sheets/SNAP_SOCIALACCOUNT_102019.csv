@@ -1,0 +1,6 @@
+Display,Topic,Type,PMI System,PMI Code,Parent code,Date of Last Update
+October Snap Questions 3,Module Name,Module Name,http://terminology.pmi-ops.org/CodeSystem/ppi,SNAP_SOCIALACCOUNT_102019,,09/24/2019
+I usually check my social media accounts _____.,Social media,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,Snap_SocialAccount,SNAP_SOCIALACCOUNT_102019,09/24/2019
+all the time,Social media,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SocialAccount_AllTime,Snap_SocialAccount,09/24/2019
+once a day,Social media,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SocialAccount_Once,Snap_SocialAccount,09/24/2019
+never,Social media,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SocialAccount_Never,Snap_SocialAccount,09/24/2019

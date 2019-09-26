@@ -1,0 +1,6 @@
+Display,Topic,Type,PMI System,PMI Code,Parent code,Date of Last Update
+October Snap Questions 2,Module Name,Module Name,http://terminology.pmi-ops.org/CodeSystem/ppi,SNAP_SOCIALMEDIAUSE_102019,,09/24/2019
+I mainly use social media to ____.,Social media,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,Snap_SocialMediaUse,SNAP_SOCIALMEDIAUSE_102019,09/24/2019
+follow friends and family,Social media,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SocialMediaUse_FollFam,Snap_SocialMediaUse,09/24/2019
+follow the news/sports,Social media,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SocialMediaUse_FollNews,Snap_SocialMediaUse,09/24/2019
+I don’t use social media,Social media,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SocialMediaUse_NoUse,Snap_SocialMediaUse,09/24/2019

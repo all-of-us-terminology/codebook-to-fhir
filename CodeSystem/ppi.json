@@ -5735,29 +5735,29 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "WhatTribeAffiliation_FreeText", 
-                      "display": "Provide the name of the tribe in which you are enrolled or affiliated or your tribal descent. (for example, Navajo Nation, Blackfeet Tribe, Mayan, Aztec, Native Village of Barrow Inupiat Traditional Government, Nome Eskimo Community, etc.)"
+                      "code": "RaceEthnicityNoneOfThese_RaceEthnicityFreeTextBox", 
+                      "display": "Race None of These Free Text"
+                    }
+                  ], 
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
                     }, 
                     {
-                      "concept": [
-                        {
-                          "property": [
-                            {
-                              "valueCode": "Question", 
-                              "code": "concept-type"
-                            }, 
-                            {
-                              "valueCode": "Race Ethnicity", 
-                              "code": "concept-topic"
-                            }
-                          ], 
-                          "code": "RaceEthnicityNoneOfThese_RaceEthnicityFreeTextBox", 
-                          "display": "Race None of These Free Text"
-                        }
-                      ], 
+                      "valueCode": "Race Ethnicity", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "WhatRaceEthnicity_RaceEthnicityNoneOfThese", 
+                  "display": "None of these fully describe me"
+                }, 
+                {
+                  "concept": [
+                    {
                       "property": [
                         {
-                          "valueCode": "Answer", 
+                          "valueCode": "Question", 
                           "code": "concept-type"
                         }, 
                         {
@@ -5765,8 +5765,8 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "WhatRaceEthnicity_RaceEthnicityNoneOfThese", 
-                      "display": "None of these fully describe me"
+                      "code": "WhatTribeAffiliation_FreeText", 
+                      "display": "Provide the name of the tribe in which you are enrolled or affiliated or your tribal descent. (for example, Navajo Nation, Blackfeet Tribe, Mayan, Aztec, Native Village of Barrow Inupiat Traditional Government, Nome Eskimo Community, etc.)"
                     }
                   ], 
                   "property": [
@@ -6633,6 +6633,80 @@
       ], 
       "code": "TheBasics", 
       "display": "The Basics"
+    }, 
+    {
+      "concept": [
+        {
+          "concept": [
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Social media", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "SocialPlatform_JustOne", 
+              "display": "Just 1 or 2"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Social media", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "SocialPlatform_SoMany", 
+              "display": "So many I've lost count"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Social media", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "SocialPlatform_WhatMedia", 
+              "display": "What's social media"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Social media", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "Snap_SocialPlatform", 
+          "display": "How many social media platforms do you use?"
+        }
+      ], 
+      "property": [
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "SNAP_SOCIALPLATFORM_102019", 
+      "display": "October Snap Questions 1"
     }, 
     {
       "concept": [
@@ -15953,8 +16027,8 @@
                   "code": "concept-topic"
                 }
               ], 
-              "code": "Preference_Warmer", 
-              "display": "warmer"
+              "code": "Preference_Cooler", 
+              "display": "cooler"
             }, 
             {
               "property": [
@@ -15967,8 +16041,8 @@
                   "code": "concept-topic"
                 }
               ], 
-              "code": "Preference_Cooler", 
-              "display": "cooler"
+              "code": "Preference_Warmer", 
+              "display": "warmer"
             }, 
             {
               "property": [
@@ -18329,6 +18403,80 @@
       ], 
       "code": "SalivaryAddressPII", 
       "display": "Salivary Collection Kit"
+    }, 
+    {
+      "concept": [
+        {
+          "concept": [
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Social media", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "SocialMediaUse_FollFam", 
+              "display": "follow friends and family"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Social media", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "SocialMediaUse_FollNews", 
+              "display": "follow the news/sports"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Social media", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "SocialMediaUse_NoUse", 
+              "display": "I don\u2019t use social media"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Social media", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "Snap_SocialMediaUse", 
+          "display": "I mainly use social media to ____."
+        }
+      ], 
+      "property": [
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "SNAP_SOCIALMEDIAUSE_102019", 
+      "display": "October Snap Questions 2"
     }, 
     {
       "concept": [
@@ -68427,6 +68575,80 @@
                   "code": "concept-type"
                 }, 
                 {
+                  "valueCode": "Social media", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "SocialAccount_AllTime", 
+              "display": "all the time"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Social media", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "SocialAccount_Once", 
+              "display": "once a day"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Social media", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "SocialAccount_Never", 
+              "display": "never"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Social media", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "Snap_SocialAccount", 
+          "display": "I usually check my social media accounts _____."
+        }
+      ], 
+      "property": [
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "SNAP_SOCIALACCOUNT_102019", 
+      "display": "October Snap Questions 3"
+    }, 
+    {
+      "concept": [
+        {
+          "concept": [
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
                   "valueCode": "Caffeine Consumption", 
                   "code": "concept-topic"
                 }
@@ -68494,7 +68716,7 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 4748, 
+  "count": 4763, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
