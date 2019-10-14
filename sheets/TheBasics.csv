@@ -105,6 +105,7 @@ Transman/Transgender Man/FTM,Gender,Answer,,http://terminology.pmi-ops.org/CodeS
 Genderqueer,Gender,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,CloserGenderDescription_Genderqueer,Gender_CloserGenderDescription,4/24/2017
 Genderfluid,Gender,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,CloserGenderDescription_Genderfluid,Gender_CloserGenderDescription,4/24/2017
 Gender Variant,Gender,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,CloserGenderDescription_GenderVariant,Gender_CloserGenderDescription,4/24/2017
+Two-Spirit,Gender,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,CloserGenderDescription_TwoSpirit,Gender_CloserGenderDescription,10/14/2019
 Questioning or unsure of your gender identity,Gender,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,CloserGenderDescription_Unsure,Gender_CloserGenderDescription,4/24/2017
 Gender,Gender,Topic,,http://terminology.pmi-ops.org/CodeSystem/ppi,TheBasics_Gender,TheBasics,5/17/2017
 "None of these describe me, and I want to specify",Gender,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,CloserGenderDescription_SpecifiedGender,Gender_CloserGenderDescription,5/17/2017
@@ -463,3 +464,28 @@ Social Security,Social Security,Topic,,http://terminology.pmi-ops.org/CodeSystem
 What is your Social Security Number,Social Security,Question,text,http://terminology.pmi-ops.org/CodeSystem/ppi,SocialSecurity_SocialSecurityNumber,TheBasics_SocialSecurity,5/17/17
 Prefer not to answer,Social Security,Question,single select,http://terminology.pmi-ops.org/CodeSystem/ppi,SocialSecurity_PreferNotToAnswer,TheBasics_SocialSecurity,10/5/17
 "Provide the name of the tribe in which you are enrolled or affiliated or your tribal descent. (for example, Navajo Nation, Blackfeet Tribe, Mayan, Aztec, Native Village of Barrow Inupiat Traditional Government, Nome Eskimo Community, etc.)",Race Ethnicity,Question,text,http://terminology.pmi-ops.org/CodeSystem/ppi,AIAN_Tribe,WhatRaceEthnicity_AIAN,5/25/2019
+Disability,Disability,Topic,,http://terminology.pmi-ops.org/CodeSystem/ppi,TheBasics_Disability,TheBasics,10/11/2019
+Are you deaf or do you have serious difficulty hearing?,Disability,Question,,http://terminology.pmi-ops.org/CodeSystem/ppi,Disability_Deaf,TheBasics_Disability,10/11/2019
+Yes,Disability,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Deaf_Yes,Disability_Deaf,10/11/2019
+No,Disability,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Deaf_No,Disability_Deaf,10/11/2019
+Prefer not to answer,Disability,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Deaf_PreferNotToAnswer,Disability_Deaf,10/11/2019
+"Are you blind or do you have serious difficulty seeing, even when wearing glasses?",Disability,Question,,http://terminology.pmi-ops.org/CodeSystem/ppi,Disability_Blind,TheBasics_Disability,10/11/2019
+Yes,Disability,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Blind_Yes,Disability_Blind,10/11/2019
+No,Disability,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Blind_No,Disability_Blind,10/11/2019
+Prefer not to answer,Disability,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Blind_PreferNotToAnswer,Disability_Blind,10/11/2019
+"Because of a physical, mental, or emotional condition, do you have serious difficulty concentrating, remembering or making decisions?",Disability,Question,,http://terminology.pmi-ops.org/CodeSystem/ppi,Disability_DifficultyConcentrating,TheBasics_Disability,10/11/2019
+Yes,Disability,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,DifficultyConcentrating_Yes,Disability_DifficultyConcentrating,10/11/2019
+No,Disability,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,DifficultyConcentrating_No,Disability_DifficultyConcentrating,10/11/2019
+Prefer not to answer,Disability,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,DifficultyConcentrating_PreferNotToAnswer,Disability_DifficultyConcentrating,10/11/2019
+Do you have serious difficulty walking or climbing stairs?,Disability,Question,,http://terminology.pmi-ops.org/CodeSystem/ppi,Disability_WalkingClimbing,TheBasics_Disability,10/11/2019
+Yes,Disability,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,WalkingClimbing_Yes,Disability_WalkingClimbing,10/11/2019
+No,Disability,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,WalkingClimbing_No,Disability_WalkingClimbing,10/11/2019
+Prefer not to answer,Disability,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,WalkingClimbing_PreferNotToAnswer,Disability_WalkingClimbing,10/11/2019
+Do you have difficulty dressing or bathing?,Disability,Question,,http://terminology.pmi-ops.org/CodeSystem/ppi,Disability_DressingBathing,TheBasics_Disability,10/11/2019
+Yes,Disability,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,DressingBathing_Yes,Disability_DressingBathing,10/11/2019
+No,Disability,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,DressingBathing_No,Disability_DressingBathing,10/11/2019
+Prefer not to answer,Disability,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,DressingBathing_PreferNotToAnswer,Disability_DressingBathing,10/11/2019
+"Because of a physical, mental, or emotional condition, do you have difficulty doing errands alone such as visiting doctor’s office or shopping?",Disability,Question,,http://terminology.pmi-ops.org/CodeSystem/ppi,Disability_ErrandsAlone,TheBasics_Disability,10/11/2019
+Yes,Disability,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,ErrandsAlone_Yes,Disability_ErrandsAlone,10/11/2019
+No,Disability,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,ErrandsAlone_No,Disability_ErrandsAlone,10/11/2019
+Prefer not to answer,Disability,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,ErrandsAlone_PreferNotToAnswer,Disability_ErrandsAlone,10/11/2019

@@ -2667,6 +2667,20 @@
                   "display": "Genderfluid"
                 }, 
                 {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Gender", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "CloserGenderDescription_TwoSpirit", 
+                  "display": "Two-Spirit"
+                }, 
+                {
                   "concept": [
                     {
                       "concept": [
@@ -3039,6 +3053,370 @@
           ], 
           "code": "TheBasics_HomeOwn", 
           "display": "Home Ownership"
+        }, 
+        {
+          "concept": [
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Disability", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "Blind_PreferNotToAnswer", 
+                  "display": "Prefer not to answer"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Disability", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "Blind_No", 
+                  "display": "No"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Disability", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "Blind_Yes", 
+                  "display": "Yes"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Disability", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Disability_Blind", 
+              "display": "Are you blind or do you have serious difficulty seeing, even when wearing glasses?"
+            }, 
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Disability", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "WalkingClimbing_Yes", 
+                  "display": "Yes"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Disability", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "WalkingClimbing_PreferNotToAnswer", 
+                  "display": "Prefer not to answer"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Disability", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "WalkingClimbing_No", 
+                  "display": "No"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Disability", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Disability_WalkingClimbing", 
+              "display": "Do you have serious difficulty walking or climbing stairs?"
+            }, 
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Disability", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "DressingBathing_PreferNotToAnswer", 
+                  "display": "Prefer not to answer"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Disability", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "DressingBathing_No", 
+                  "display": "No"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Disability", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "DressingBathing_Yes", 
+                  "display": "Yes"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Disability", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Disability_DressingBathing", 
+              "display": "Do you have difficulty dressing or bathing?"
+            }, 
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Disability", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "ErrandsAlone_Yes", 
+                  "display": "Yes"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Disability", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "ErrandsAlone_No", 
+                  "display": "No"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Disability", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "ErrandsAlone_PreferNotToAnswer", 
+                  "display": "Prefer not to answer"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Disability", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Disability_ErrandsAlone", 
+              "display": "Because of a physical, mental, or emotional condition, do you have difficulty doing errands alone such as visiting doctor\u2019s office or shopping?"
+            }, 
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Disability", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "Deaf_Yes", 
+                  "display": "Yes"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Disability", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "Deaf_PreferNotToAnswer", 
+                  "display": "Prefer not to answer"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Disability", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "Deaf_No", 
+                  "display": "No"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Disability", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Disability_Deaf", 
+              "display": "Are you deaf or do you have serious difficulty hearing?"
+            }, 
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Disability", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "DifficultyConcentrating_PreferNotToAnswer", 
+                  "display": "Prefer not to answer"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Disability", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "DifficultyConcentrating_No", 
+                  "display": "No"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Disability", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "DifficultyConcentrating_Yes", 
+                  "display": "Yes"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Disability", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Disability_DifficultyConcentrating", 
+              "display": "Because of a physical, mental, or emotional condition, do you have serious difficulty concentrating, remembering or making decisions?"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Topic", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Disability", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "TheBasics_Disability", 
+          "display": "Disability"
         }, 
         {
           "concept": [
@@ -13405,8 +13783,8 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "MentalHealthProfessionalVisits_8to9", 
-                  "display": "8-9"
+                  "code": "MentalHealthProfessionalVisits_4to5", 
+                  "display": "4-5"
                 }, 
                 {
                   "property": [
@@ -13419,8 +13797,8 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "MentalHealthProfessionalVisits_4to5", 
-                  "display": "4-5"
+                  "code": "MentalHealthProfessionalVisits_8to9", 
+                  "display": "8-9"
                 }, 
                 {
                   "property": [
@@ -16437,6 +16815,20 @@
                       "code": "concept-topic"
                     }
                   ], 
+                  "code": "WhyDidYouJoin_ProviderRecommended", 
+                  "display": "Health care provider recommended it"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "General", 
+                      "code": "concept-topic"
+                    }
+                  ], 
                   "code": "WhyDidYouJoin_FriendFamilyRecommended", 
                   "display": "Friend/family recommended it"
                 }, 
@@ -16495,20 +16887,6 @@
                   ], 
                   "code": "WhyDidYouJoin_HelpOthers", 
                   "display": "I want to help others"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "General", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "WhyDidYouJoin_ProviderRecommended", 
-                  "display": "Health care provider recommended it"
                 }, 
                 {
                   "concept": [
@@ -24657,6 +25035,190 @@
                           "code": "concept-type"
                         }, 
                         {
+                          "valueCode": "Grandparent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "GrandparentNervousCondition_MigraineHeadaches", 
+                      "display": "Migraine headaches"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Grandparent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "GrandparentNervousCondition_Narcolepsy", 
+                      "display": "Narcolepsy"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Grandparent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "GrandparentNervousCondition_MuscularDystrophy", 
+                      "display": "Muscular dystrophy"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Grandparent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "GrandparentNervousCondition_MultipleSclerosis", 
+                      "display": "Multiple sclerosis"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Grandparent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "GrandparentNervousCondition_Parkinsons", 
+                      "display": "Parkinson's disease"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Grandparent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "GrandparentNervousCondition_Dementia", 
+                      "display": "Dementia (includes Alzheimer's, vascular, etc.)"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Grandparent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "GrandparentNervousCondition_Insomnia", 
+                      "display": "Insomnia"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Grandparent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "GrandparentNervousCondition_OtherHeadaches", 
+                      "display": "Other types of headaches"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Grandparent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "GrandparentNervousCondition_EpilepsySeizure", 
+                      "display": "Epilepsy/seizure"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Grandparent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "GrandparentNervousCondition_RestlessLegsSyndrome", 
+                      "display": "Restless legs syndrome"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Grandparent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "GrandparentNervousCondition_Neuropathy", 
+                      "display": "Neuropathy"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Grandparent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "GrandparentNervousCondition_AmyotrophicLateralSclerosis", 
+                      "display": "Amyotrophic lateral sclerosis (Lou Gehrig\u2019s disease)"
+                    }
+                  ], 
+                  "property": [
+                    {
+                      "valueCode": "Question", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Grandparent History", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "DiagnosedHealthCondition_GrandparentNervousCondition", 
+                  "display": "Nervous System Conditions:"
+                }, 
+                {
+                  "concept": [
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
                           "valueCode": "Parent History", 
                           "code": "concept-topic"
                         }
@@ -26795,190 +27357,6 @@
                   ], 
                   "code": "DiagnosedHealthCondition_DaughterDigestiveCondition", 
                   "display": "Digestive System Conditions:"
-                }, 
-                {
-                  "concept": [
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Grandparent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "GrandparentNervousCondition_MigraineHeadaches", 
-                      "display": "Migraine headaches"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Grandparent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "GrandparentNervousCondition_Narcolepsy", 
-                      "display": "Narcolepsy"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Grandparent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "GrandparentNervousCondition_MuscularDystrophy", 
-                      "display": "Muscular dystrophy"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Grandparent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "GrandparentNervousCondition_MultipleSclerosis", 
-                      "display": "Multiple sclerosis"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Grandparent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "GrandparentNervousCondition_Parkinsons", 
-                      "display": "Parkinson's disease"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Grandparent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "GrandparentNervousCondition_Dementia", 
-                      "display": "Dementia (includes Alzheimer's, vascular, etc.)"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Grandparent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "GrandparentNervousCondition_Insomnia", 
-                      "display": "Insomnia"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Grandparent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "GrandparentNervousCondition_OtherHeadaches", 
-                      "display": "Other types of headaches"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Grandparent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "GrandparentNervousCondition_EpilepsySeizure", 
-                      "display": "Epilepsy/seizure"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Grandparent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "GrandparentNervousCondition_RestlessLegsSyndrome", 
-                      "display": "Restless legs syndrome"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Grandparent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "GrandparentNervousCondition_Neuropathy", 
-                      "display": "Neuropathy"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Grandparent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "GrandparentNervousCondition_AmyotrophicLateralSclerosis", 
-                      "display": "Amyotrophic lateral sclerosis (Lou Gehrig\u2019s disease)"
-                    }
-                  ], 
-                  "property": [
-                    {
-                      "valueCode": "Question", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Grandparent History", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "DiagnosedHealthCondition_GrandparentNervousCondition", 
-                  "display": "Nervous System Conditions:"
                 }, 
                 {
                   "concept": [
@@ -30891,6 +31269,20 @@
                           "code": "concept-topic"
                         }
                       ], 
+                      "code": "SonCancerCondition_EsophagealCancer", 
+                      "display": "Esophageal cancer"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Child History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
                       "code": "SonCancerCondition_BrainCancer", 
                       "display": "Brain cancer"
                     }, 
@@ -30935,20 +31327,6 @@
                       ], 
                       "code": "SonCancerCondition_HeadNeckCancer", 
                       "display": "Head and neck (This includes cancers of the mouth, sinuses, nose, or throat. This does not include brain cancer.)"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Child History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "SonCancerCondition_EsophagealCancer", 
-                      "display": "Esophageal cancer"
                     }, 
                     {
                       "property": [
@@ -68730,14 +69108,14 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 4764, 
+  "count": 4790, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.3.78", 
+  "version": "0.3.80", 
   "hierarchyMeaning": "grouped-by", 
-  "date": "2019-09-30", 
+  "date": "2019-10-14", 
   "property": [
     {
       "code": "concept-type", 
