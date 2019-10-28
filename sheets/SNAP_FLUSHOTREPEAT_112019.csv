@@ -1,0 +1,6 @@
+Display,Topic,Type,PMI System,PMI Code,Parent code,Date of Last Update
+November Snap Questions 1,Module Name,Module Name,http://terminology.pmi-ops.org/CodeSystem/ppi,SNAP_FLUSHOTREPEAT_112019,,10/25/2019
+I ____ get a flu shot this year.,Flu,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,Snap_FluShotRepeat,SNAP_FLUSHOTREPEAT_112019,10/25/2019
+did,Flu,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,FluShotRepeat_Did,Snap_FluShotRepeat,10/25/2019
+"did not, but plan to",Flu,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,FluShotRepeat_PlanTo,Snap_FluShotRepeat,10/25/2019
+did not and won't,Flu,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,FluShotRepeat_Wont,Snap_FluShotRepeat,10/25/2019

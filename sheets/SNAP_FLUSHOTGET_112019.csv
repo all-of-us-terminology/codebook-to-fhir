@@ -1,0 +1,6 @@
+Display,Topic,Type,PMI System,PMI Code,Parent code,Date of Last Update
+November Snap Questions 3,Module Name,Module Name,http://terminology.pmi-ops.org/CodeSystem/ppi,SNAP_FLUSHOTGET_112019,,10/25/2019
+I would get a flu shot ____.,Flu,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,Snap_FluShotGet,SNAP_FLUSHOTGET_112019,10/25/2019
+if it was free,Flu,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,FluShotGet_Free,Snap_FluShotGet,10/25/2019
+if it was more convenient,Flu,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,FluShotGet_MoreConvenient,Snap_FluShotGet,10/25/2019
+never,Flu,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,FluShotGet_Never,Snap_FluShotGet,10/25/2019

@@ -10509,8 +10509,8 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "OtherStimulant3MonthUse_Daily", 
-                      "display": "Daily or almost daily"
+                      "code": "OtherStimulant3MonthUse_Never", 
+                      "display": "Never"
                     }, 
                     {
                       "property": [
@@ -10523,8 +10523,8 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "OtherStimulant3MonthUse_Never", 
-                      "display": "Never"
+                      "code": "OtherStimulant3MonthUse_Daily", 
+                      "display": "Daily or almost daily"
                     }
                   ], 
                   "property": [
@@ -11069,8 +11069,8 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "Inhalant3MonthUse_Daily", 
-                      "display": "Daily or almost daily"
+                      "code": "Inhalant3MonthUse_OnceOrTwice", 
+                      "display": "Once or twice"
                     }, 
                     {
                       "property": [
@@ -11083,8 +11083,8 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "Inhalant3MonthUse_OnceOrTwice", 
-                      "display": "Once or twice"
+                      "code": "Inhalant3MonthUse_Daily", 
+                      "display": "Daily or almost daily"
                     }, 
                     {
                       "property": [
@@ -13611,8 +13611,8 @@
                   "code": "concept-topic"
                 }
               ], 
-              "code": "InsuranceType_Medicare", 
-              "display": "Medicare, for people 65 and older or people with certain disabilities"
+              "code": "InsuraceType_OtherInsuranceType", 
+              "display": "Any other type of health insurance or health coverage plan"
             }, 
             {
               "property": [
@@ -13625,8 +13625,8 @@
                   "code": "concept-topic"
                 }
               ], 
-              "code": "InsuraceType_OtherInsuranceType", 
-              "display": "Any other type of health insurance or health coverage plan"
+              "code": "InsuranceType_Medicare", 
+              "display": "Medicare, for people 65 and older or people with certain disabilities"
             }, 
             {
               "property": [
@@ -16167,6 +16167,80 @@
       ], 
       "code": "SNAP_DANCINGFEEL_092018", 
       "display": "Dancing 3"
+    }, 
+    {
+      "concept": [
+        {
+          "concept": [
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Flu", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "FluShotRepeat_Did", 
+              "display": "did"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Flu", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "FluShotRepeat_Wont", 
+              "display": "did not and won't"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Flu", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "FluShotRepeat_PlanTo", 
+              "display": "did not, but plan to"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Flu", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "Snap_FluShotRepeat", 
+          "display": "I ____ get a flu shot this year."
+        }
+      ], 
+      "property": [
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "SNAP_FLUSHOTREPEAT_112019", 
+      "display": "November Snap Questions 1"
     }, 
     {
       "concept": [
@@ -21305,6 +21379,80 @@
                   "code": "concept-type"
                 }, 
                 {
+                  "valueCode": "Flu", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "FluShotGet_MoreConvenient", 
+              "display": "if it was more convenient"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Flu", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "FluShotGet_Free", 
+              "display": "if it was free"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Flu", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "FluShotGet_Never", 
+              "display": "never"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Flu", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "Snap_FluShotGet", 
+          "display": "I would get a flu shot ____."
+        }
+      ], 
+      "property": [
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "SNAP_FLUSHOTGET_112019", 
+      "display": "November Snap Questions 3"
+    }, 
+    {
+      "concept": [
+        {
+          "concept": [
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
                   "valueCode": "Exercise preference", 
                   "code": "concept-topic"
                 }
@@ -21367,6 +21515,80 @@
       ], 
       "code": "SNAP_EXERCISEPREF_012019", 
       "display": "January Snap Questions 2"
+    }, 
+    {
+      "concept": [
+        {
+          "concept": [
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Flu", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "FluShotWorks_Usually", 
+              "display": "usually"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Flu", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "FluShotWorks_Never", 
+              "display": "sometimes"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Flu", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "FluShotWorks_Sometimes", 
+              "display": "follow the news/sports"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Flu", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "Snap_FluShotWorks", 
+          "display": "I think the flu shot ____ works."
+        }
+      ], 
+      "property": [
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "SNAP_FLUSHOTWORKS_112019", 
+      "display": "November Snap Questions 2"
     }, 
     {
       "concept": [
@@ -24297,20 +24519,6 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "SonMentalCondition_Depression", 
-                      "display": "Depression"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Child History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
                       "code": "SonMentalCondition_Schizophrenia", 
                       "display": "Schizophrenia"
                     }, 
@@ -24355,6 +24563,20 @@
                       ], 
                       "code": "SonMentalCondition_Addiction", 
                       "display": "Addiction to alcohol or drugs"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Child History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "SonMentalCondition_Depression", 
+                      "display": "Depression"
                     }, 
                     {
                       "property": [
@@ -27859,20 +28081,6 @@
                       "display": "Hearing loss"
                     }, 
                     {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Parent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "FatherOtherHealthCondition_SickleCell", 
-                      "display": "Sickle cell disease, sickle cell trait, thalassemia"
-                    }, 
-                    {
                       "concept": [
                         {
                           "property": [
@@ -27943,6 +28151,20 @@
                       ], 
                       "code": "FatherOtherHealthCondition_Anemia", 
                       "display": "Anemia (low number of red blood cells)"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Parent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "FatherOtherHealthCondition_SickleCell", 
+                      "display": "Sickle cell disease, sickle cell trait, thalassemia"
                     }, 
                     {
                       "property": [
@@ -28225,8 +28447,8 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "SiblingSkeletalMuscularCondition_RheumatoidArthritis", 
-                      "display": "Rheumatoid arthritis"
+                      "code": "SiblingSkeletalMuscularCondition_Fibromyalgia", 
+                      "display": "Fibromyalgia"
                     }, 
                     {
                       "property": [
@@ -28239,8 +28461,8 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "SiblingSkeletalMuscularCondition_Fibromyalgia", 
-                      "display": "Fibromyalgia"
+                      "code": "SiblingSkeletalMuscularCondition_RheumatoidArthritis", 
+                      "display": "Rheumatoid arthritis"
                     }, 
                     {
                       "property": [
@@ -69108,14 +69330,14 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 4790, 
+  "count": 4805, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.3.80", 
+  "version": "0.3.82", 
   "hierarchyMeaning": "grouped-by", 
-  "date": "2019-10-14", 
+  "date": "2019-10-28", 
   "property": [
     {
       "code": "concept-type", 
