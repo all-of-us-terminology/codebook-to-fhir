@@ -21975,6 +21975,20 @@
           "display": "Child History"
         }, 
         {
+          "property": [
+            {
+              "valueCode": "Topic", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Child History", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "FamilyMembersDiagnosed_SonUpdate", 
+          "display": "Please indicate if your son(s) has/have ever been diagnosed with the following health conditions and/or health events. Think only of those people you are related to by blood. (select all that apply)"
+        }, 
+        {
           "concept": [
             {
               "property": [
@@ -33319,20 +33333,6 @@
           ], 
           "code": "FamilyHistory_ParentHistory", 
           "display": "Parent History"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Topic", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Child History", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "FamilyMembersDiagnosed_SonUpdate", 
-          "display": "Please indicate if your son(s) has/have ever been diagnosed with the following health conditions and/or health events. Think only of those people you are related to by blood. (select all that apply)"
         }, 
         {
           "concept": [
@@ -66507,20 +66507,6 @@
         {
           "concept": [
             {
-              "property": [
-                {
-                  "valueCode": "Question", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Extra Consent Items", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "ExtraConsent_PhysicalMeasurementsVideo", 
-              "display": "Youtube Video"
-            }, 
-            {
               "concept": [
                 {
                   "property": [
@@ -66719,6 +66705,20 @@
               ], 
               "code": "ExtraConsent_EmailACopyToMe", 
               "display": "Boolean selector"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Extra Consent Items", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "ExtraConsent_PhysicalMeasurements", 
+              "display": "Youtube Video"
             }, 
             {
               "concept": [
@@ -69391,7 +69391,7 @@
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.3.85", 
+  "version": "0.3.86", 
   "hierarchyMeaning": "grouped-by", 
   "date": "2019-11-13", 
   "property": [

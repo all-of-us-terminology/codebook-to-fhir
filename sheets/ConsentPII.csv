@@ -224,4 +224,4 @@ Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Youtube 
 Physical Measurements Youtube Video,Extra Consent Items,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,ExtraConsen_PhysicalMeasurements,ConsentPII_ExtraConsent,11/8/2019,
 VA Validation Code,Extra Consent Items,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,ConsentPII_VAValidationCode,ConsentPII,11/8/2019,
 Boolean selector,Extra Consent Items,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,VAExtraConsent_EmailACopyToMe,ConsentPII_ExtraConsent,11/13/2019,
-Youtube Video,Extra Consent Items,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,ExtraConsent_PhysicalMeasurementsVideo,ConsentPII_ExtraConsent,11/13/2019,
+Youtube Video,Extra Consent Items,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,ExtraConsent_PhysicalMeasurements,ConsentPII_ExtraConsent,11/13/2019,
