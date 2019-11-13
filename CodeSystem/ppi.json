@@ -21975,20 +21975,6 @@
           "display": "Child History"
         }, 
         {
-          "property": [
-            {
-              "valueCode": "Topic", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Child History", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "FamilyMembersDiagnosed_SonUpdate", 
-          "display": "Please indicate if your son(s) has/have ever been diagnosed with the following health conditions and/or health events. Think only of those people you are related to by blood. (select all that apply)"
-        }, 
-        {
           "concept": [
             {
               "property": [
@@ -22276,6 +22262,108 @@
         }, 
         {
           "concept": [
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Family History", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "FamilyMembersDiagnosed_Father", 
+              "display": "Father"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Family History", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "FamilyMembersDiagnosed_Grandparent", 
+              "display": "Grandparent(s)"
+            }, 
+            {
+              "concept": [
+                {
+                  "concept": [
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Child History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "SonOtherHealthCondition_NoSonsRelated", 
+                      "display": "I do not have any sons related by blood."
+                    }
+                  ], 
+                  "property": [
+                    {
+                      "valueCode": "Question", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Child History", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "DiagnosedHealthCondition_SonNoSelection", 
+                  "display": "Other selection"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Family History", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "FamilyMembersDiagnosed_Son", 
+              "display": "Son(s)"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Family History", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "FamilyMembersDiagnosed_Mother", 
+              "display": "Mother"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Family History", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "FamilyMembersDiagnosed_Daughter", 
+              "display": "Daughter(s)"
+            }, 
             {
               "concept": [
                 {
@@ -32951,108 +33039,6 @@
                   "code": "concept-topic"
                 }
               ], 
-              "code": "FamilyMembersDiagnosed_Father", 
-              "display": "Father"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Family History", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "FamilyMembersDiagnosed_Grandparent", 
-              "display": "Grandparent(s)"
-            }, 
-            {
-              "concept": [
-                {
-                  "concept": [
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Child History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "SonOtherHealthCondition_NoSonsRelated", 
-                      "display": "I do not have any sons related by blood."
-                    }
-                  ], 
-                  "property": [
-                    {
-                      "valueCode": "Question", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Child History", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "DiagnosedHealthCondition_SonNoSelection", 
-                  "display": "Other selection"
-                }
-              ], 
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Family History", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "FamilyMembersDiagnosed_Son", 
-              "display": "Son(s)"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Family History", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "FamilyMembersDiagnosed_Mother", 
-              "display": "Mother"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Family History", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "FamilyMembersDiagnosed_Daughter", 
-              "display": "Daughter(s)"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Family History", 
-                  "code": "concept-topic"
-                }
-              ], 
               "code": "FamilyMembersDiagnosed_Sibling", 
               "display": "Sibling(s) [people with the same mother and/or father as you]"
             }, 
@@ -33333,6 +33319,20 @@
           ], 
           "code": "FamilyHistory_ParentHistory", 
           "display": "Parent History"
+        }, 
+        {
+          "property": [
+            {
+              "valueCode": "Topic", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Child History", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "FamilyMembersDiagnosed_SonUpdate", 
+          "display": "Please indicate if your son(s) has/have ever been diagnosed with the following health conditions and/or health events. Think only of those people you are related to by blood. (select all that apply)"
         }, 
         {
           "concept": [
@@ -39561,8 +39561,8 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "RxMedsforPepticUlcers_No", 
-                  "display": "No"
+                  "code": "RxMedsforPepticUlcers_Yes", 
+                  "display": "Yes"
                 }, 
                 {
                   "property": [
@@ -39575,8 +39575,8 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "RxMedsforPepticUlcers_Yes", 
-                  "display": "Yes"
+                  "code": "RxMedsforPepticUlcers_No", 
+                  "display": "No"
                 }
               ], 
               "property": [
@@ -41453,8 +41453,8 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "LupusCurrently_No", 
-                  "display": "No"
+                  "code": "LupusCurrently_Yes", 
+                  "display": "Yes"
                 }, 
                 {
                   "property": [
@@ -41467,8 +41467,8 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "LupusCurrently_Yes", 
-                  "display": "Yes"
+                  "code": "LupusCurrently_No", 
+                  "display": "No"
                 }
               ], 
               "property": [
@@ -63015,6 +63015,20 @@
                       "code": "concept-topic"
                     }
                   ], 
+                  "code": "NorthMichigan_CareAtHenryFord_YesCareAtHenryFord", 
+                  "display": "Henry Ford Health System"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Michigan Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
                   "code": "NorthMichigan_EssentiaHealthSitePairing_Yes", 
                   "display": "Essentia Health"
                 }, 
@@ -63031,20 +63045,6 @@
                   ], 
                   "code": "NorthMichigan_SpectrumHealthSitePairing_Yes", 
                   "display": "Spectrum Health"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Michigan Site Pairing", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "NorthMichigan_CareAtHenryFord_YesCareAtHenryFord", 
-                  "display": "Henry Ford Health System"
                 }
               ], 
               "property": [
@@ -66507,6 +66507,20 @@
         {
           "concept": [
             {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Extra Consent Items", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "ExtraConsent_PhysicalMeasurementsVideo", 
+              "display": "Youtube Video"
+            }, 
+            {
               "concept": [
                 {
                   "property": [
@@ -67041,6 +67055,20 @@
               ], 
               "code": "ExtraConsent_ReadyOrNeedHelp", 
               "display": "Take the time you need to decide about joining All of Us. We are here to answer any questions you have."
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Extra Consent Items", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "VAExtraConsent_EmailACopyToMe", 
+              "display": "Boolean selector"
             }, 
             {
               "property": [
@@ -69358,12 +69386,12 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 4807, 
+  "count": 4809, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.3.84", 
+  "version": "0.3.85", 
   "hierarchyMeaning": "grouped-by", 
   "date": "2019-11-13", 
   "property": [
