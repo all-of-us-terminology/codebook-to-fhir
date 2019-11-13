@@ -64029,6 +64029,20 @@
           "display": "Contact Information"
         }, 
         {
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Extra Consent Items", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "ConsentPII_VAValidationCode", 
+          "display": "VA Validation Code"
+        }, 
+        {
           "concept": [
             {
               "concept": [
@@ -66547,6 +66561,20 @@
                   "code": "concept-topic"
                 }
               ], 
+              "code": "ExtraConsent_DNAVideo", 
+              "display": "YouTube Video"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Extra Consent Items", 
+                  "code": "concept-topic"
+                }
+              ], 
               "code": "ExtraConsent_HealthDataVideo", 
               "display": "Copy of Copy of Youtube Video"
             }, 
@@ -66635,6 +66663,20 @@
               ], 
               "code": "ExtraConsent__CABoRTodaysDate", 
               "display": "Copy of New Day Selector"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Extra Consent Items", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "ExtraConsen_PhysicalMeasurements", 
+              "display": "Physical Measurements Youtube Video"
             }, 
             {
               "property": [
@@ -66999,20 +67041,6 @@
               ], 
               "code": "ExtraConsent_ReadyOrNeedHelp", 
               "display": "Take the time you need to decide about joining All of Us. We are here to answer any questions you have."
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Question", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Extra Consent Items", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "ExtraConsent_DNAVideo", 
-              "display": "YouTube Video"
             }, 
             {
               "property": [
@@ -69330,14 +69358,14 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 4805, 
+  "count": 4807, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.3.82", 
+  "version": "0.3.84", 
   "hierarchyMeaning": "grouped-by", 
-  "date": "2019-10-28", 
+  "date": "2019-11-13", 
   "property": [
     {
       "code": "concept-type", 
