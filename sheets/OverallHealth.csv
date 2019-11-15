@@ -137,3 +137,5 @@ Date of valve transplant,Surgery,Question,date,http://terminology.pmi-ops.org/Co
 Date of skin transplant,Surgery,Question,date,http://terminology.pmi-ops.org/CodeSystem/ppi,OrganTransplant_SkinTransplantDate,OverallHealth_OrganTransplant,4/2/2019
 Date of blood vessel transplant,Surgery,Question,date,http://terminology.pmi-ops.org/CodeSystem/ppi,OrganTransplant_BloodVesselTransplantDate,OverallHealth_OrganTransplant,4/2/2019
 Date of other tissue transplant,Surgery,Question,date,http://terminology.pmi-ops.org/CodeSystem/ppi,OrganTransplant_OtherTissueTransplantDate,OverallHealth_OrganTransplant,4/2/2019
+Other Organ (new free text field),Transplant,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,OtherOrgan_FreeTextBox,OrganTransplantDescription_OtherOrgan,11/15/19
+Other Tissue (new free text field),Transplant,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,OtherTissue_FreeTextBox,OrganTransplantDescription_OtherTissue,11/15/19

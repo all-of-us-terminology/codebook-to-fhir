@@ -7985,6 +7985,22 @@
                   "display": "Blood vessels"
                 }, 
                 {
+                  "concept": [
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Transplant", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "OtherOrgan_FreeTextBox", 
+                      "display": "Other Organ (new free text field)"
+                    }
+                  ], 
                   "property": [
                     {
                       "valueCode": "Answer", 
@@ -8125,6 +8141,22 @@
                   "display": "Lung"
                 }, 
                 {
+                  "concept": [
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Transplant", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "OtherTissue_FreeTextBox", 
+                      "display": "Other Tissue (new free text field)"
+                    }
+                  ], 
                   "property": [
                     {
                       "valueCode": "Answer", 
@@ -16903,20 +16935,6 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "WhyDidYouJoin_FriendFamilyRecommended", 
-                  "display": "Friend/family recommended it"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "General", 
-                      "code": "concept-topic"
-                    }
-                  ], 
                   "code": "WhyDidYouJoin_LearnAboutMyHealth", 
                   "display": "I want to learn more about my health"
                 }, 
@@ -16961,6 +16979,20 @@
                   ], 
                   "code": "WhyDidYouJoin_HelpOthers", 
                   "display": "I want to help others"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "General", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "WhyDidYouJoin_FriendFamilyRecommended", 
+                  "display": "Friend/family recommended it"
                 }, 
                 {
                   "concept": [
@@ -66561,20 +66593,6 @@
                   "code": "concept-topic"
                 }
               ], 
-              "code": "ExtraConsent_DNAVideo", 
-              "display": "YouTube Video"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Question", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Extra Consent Items", 
-                  "code": "concept-topic"
-                }
-              ], 
               "code": "ExtraConsent_HealthDataVideo", 
               "display": "Copy of Copy of Youtube Video"
             }, 
@@ -66675,20 +66693,6 @@
                   "code": "concept-topic"
                 }
               ], 
-              "code": "ExtraConsen_PhysicalMeasurements", 
-              "display": "Physical Measurements Youtube Video"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Question", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Extra Consent Items", 
-                  "code": "concept-topic"
-                }
-              ], 
               "code": "ExtraConsent_TodaysDate", 
               "display": "New Day Selector"
             }, 
@@ -66718,7 +66722,7 @@
                 }
               ], 
               "code": "ExtraConsent_PhysicalMeasurements", 
-              "display": "Youtube Video"
+              "display": "Physical Measurements Youtube Video"
             }, 
             {
               "concept": [
@@ -67055,6 +67059,20 @@
               ], 
               "code": "ExtraConsent_ReadyOrNeedHelp", 
               "display": "Take the time you need to decide about joining All of Us. We are here to answer any questions you have."
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Extra Consent Items", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "ExtraConsent_DNAVideo", 
+              "display": "YouTube Video"
             }, 
             {
               "property": [
@@ -69386,14 +69404,14 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 4809, 
+  "count": 4810, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.3.86", 
+  "version": "0.3.87", 
   "hierarchyMeaning": "grouped-by", 
-  "date": "2019-11-13", 
+  "date": "2019-11-14", 
   "property": [
     {
       "code": "concept-type", 
