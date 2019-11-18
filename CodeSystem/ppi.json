@@ -7989,7 +7989,7 @@
                     {
                       "property": [
                         {
-                          "valueCode": "Answer", 
+                          "valueCode": "Question", 
                           "code": "concept-type"
                         }, 
                         {
@@ -8145,7 +8145,7 @@
                     {
                       "property": [
                         {
-                          "valueCode": "Answer", 
+                          "valueCode": "Question", 
                           "code": "concept-type"
                         }, 
                         {
@@ -17295,8 +17295,8 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "TimeForConsent_MuchLessTime", 
-                  "display": "Much less time than I thought"
+                  "code": "TimeForConsent_SlightlyLessTime", 
+                  "display": "Slightly less time than I thought"
                 }, 
                 {
                   "property": [
@@ -17309,8 +17309,8 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "TimeForConsent_SlightlyLessTime", 
-                  "display": "Slightly less time than I thought"
+                  "code": "TimeForConsent_MuchLessTime", 
+                  "display": "Much less time than I thought"
                 }, 
                 {
                   "property": [
@@ -18235,8 +18235,8 @@
                   "code": "concept-topic"
                 }
               ], 
-              "code": "RespectOfStaff_SomewhatUnsatisfied", 
-              "display": "Somewhat disrespectful"
+              "code": "RespectOfStaff_VeryUnsatisfied", 
+              "display": "Very disrespectful"
             }, 
             {
               "property": [
@@ -18249,8 +18249,8 @@
                   "code": "concept-topic"
                 }
               ], 
-              "code": "RespectOfStaff_VeryUnsatisfied", 
-              "display": "Very disrespectful"
+              "code": "RespectOfStaff_SomewhatUnsatisfied", 
+              "display": "Somewhat disrespectful"
             }
           ], 
           "property": [
@@ -21341,6 +21341,20 @@
                   "code": "concept-topic"
                 }
               ], 
+              "code": "CaffeineFeel_Jittery", 
+              "display": "jittery"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Caffeine Consumption", 
+                  "code": "concept-topic"
+                }
+              ], 
               "code": "CaffeineFeel_Awake", 
               "display": "awake"
             }, 
@@ -21357,20 +21371,6 @@
               ], 
               "code": "CaffeineFeel_Nothing", 
               "display": "nothing or I don\u2019t drink caffeine"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Caffeine Consumption", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "CaffeineFeel_Jittery", 
-              "display": "jittery"
             }
           ], 
           "property": [
@@ -30645,6 +30645,20 @@
                           "code": "concept-topic"
                         }
                       ], 
+                      "code": "SiblingCancerCondition_BladderCancer", 
+                      "display": "Bladder cancer"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Sibling History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
                       "code": "SiblingCancerCondition_OvarianCancer", 
                       "display": "Ovarian Cancer"
                     }, 
@@ -30773,20 +30787,6 @@
                       ], 
                       "code": "SiblingCancerCondition_BrainCancer", 
                       "display": "Brain cancer"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Sibling History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "SiblingCancerCondition_BladderCancer", 
-                      "display": "Bladder cancer"
                     }, 
                     {
                       "property": [
@@ -53163,6 +53163,20 @@
                       ], 
                       "code": "OtherHeartorBloodCondition_FreeTextBox", 
                       "display": "please specify"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Question", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": null, 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "OtherHeartandBloodCondition_FreeTextBox", 
+                      "display": "please specify"
                     }
                   ], 
                   "property": [
@@ -68737,12 +68751,54 @@
               "code": "concept-type"
             }, 
             {
+              "valueCode": "Extra Consent Items", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "VAEHRConsentPII_EmailCopy", 
+          "display": "Email a copy to me"
+        }, 
+        {
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
               "valueCode": "IL HIPPA", 
               "code": "concept-topic"
             }
           ], 
           "code": "EHRConsentPII_TodaysDateILHIPPAWitness", 
           "display": "IL Date Box"
+        }, 
+        {
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Extra Consent Items", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "ILEHRConsentPII_EmailCopy", 
+          "display": "Email a copy to me"
+        }, 
+        {
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Extra Consent Items", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "12MoEHRConsentPII_EmailCopy", 
+          "display": "Email a copy to me"
         }, 
         {
           "property": [
@@ -69133,6 +69189,34 @@
               "code": "concept-topic"
             }
           ], 
+          "code": "ExpiryEHRConsentPII_EmailCopy", 
+          "display": "Email a copy to me"
+        }, 
+        {
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Extra Consent Items", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "30MoEHRConsentPII_EmailCopy", 
+          "display": "Email a copy to me"
+        }, 
+        {
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Extra Consent Items", 
+              "code": "concept-topic"
+            }
+          ], 
           "code": "EHRConsentPII_PrivacyRisk", 
           "display": "Risk to Privacy"
         }, 
@@ -69404,14 +69488,14 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 4810, 
+  "count": 4816, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.3.87", 
+  "version": "0.3.88", 
   "hierarchyMeaning": "grouped-by", 
-  "date": "2019-11-14", 
+  "date": "2019-11-18", 
   "property": [
     {
       "code": "concept-type", 

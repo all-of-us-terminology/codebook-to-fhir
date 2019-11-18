@@ -18,6 +18,7 @@ Stroke,,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,CirculatoryConditi
 Transient ischemic attacks (TIAs or mini-strokes),,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,CirculatoryConditions_TransientIschemicAttack,Circulatory_CirculatoryConditions,10/9/2018
 Other heart or blood condition,,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,CirculatoryConditions_OtherHeartorBloodCondition,Circulatory_CirculatoryConditions,10/9/2018
 I have no heart or blood condition,,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,CirculatoryConditions_NoHeartorBloodCondition,Circulatory_CirculatoryConditions,10/9/2018
+please specify,,Question,EMBEDDED_TEXT_INPUT,http://terminology.pmi-ops.org/CodeSystem/ppi,OtherHeartandBloodCondition_FreeTextBox,CirculatoryConditions_OtherHeartorBloodCondition,10/9/2018
 please specify,,Question,EMBEDDED_TEXT_INPUT,http://terminology.pmi-ops.org/CodeSystem/ppi,OtherHeartorBloodCondition_FreeTextBox,CirculatoryConditions_OtherHeartorBloodCondition,10/9/2018
 Are you still seeing a doctor or health care provider for this condition?,,Question,MULTI_SELECTOR,http://terminology.pmi-ops.org/CodeSystem/ppi,Circulatory_AnemiaCurrently,Circulatory_HeartandBlood,10/9/2018
 Yes,,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,AnemiaCurrently_Yes,Circulatory_AnemiaCurrently,10/9/2018
