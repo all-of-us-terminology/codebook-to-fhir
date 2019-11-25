@@ -1,157 +1,157 @@
-Display,Topic,Type,Answer Type,PMI System,PMI Code,Parent code,Date of Last Update
-Lifestyle,Module Name,Module Name,,http://terminology.pmi-ops.org/CodeSystem/ppi,Lifestyle,,4/24/2017
-Smoking,Smoking,Topic,,http://terminology.pmi-ops.org/CodeSystem/ppi,Lifestyle_Smoking,Lifestyle,4/24/2017
-Have you smoked at least 100 cigarettes in your entire life? (There are 20 cigarettes in a pack.),Smoking,Question,boolean,http://terminology.pmi-ops.org/CodeSystem/ppi,Smoking_100CigsLifetime,Lifestyle_Smoking,4/24/2017
-Yes,Smoking,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,100CigsLifetime_Yes,Smoking_100CigsLifetime,4/24/2017
-No,Smoking,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,100CigsLifetime_No,Smoking_100CigsLifetime,4/24/2017
-"Do you now smoke cigarettes every day, some days, or not at all?",Smoking,Question,single select,http://terminology.pmi-ops.org/CodeSystem/ppi,Smoking_SmokeFrequency,Lifestyle_Smoking,4/24/2017
-Every day,Smoking,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SmokeFrequency_EveryDay,Smoking_SmokeFrequency,4/24/2017
-Some days,Smoking,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SmokeFrequency_SomeDays,Smoking_SmokeFrequency,4/24/2017
-Not at all,Smoking,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SmokeFrequency_NotAtAll,Smoking_SmokeFrequency,4/24/2017
-How old were you when you first started regular cigarette smoking every day?,Smoking,Question,integer,http://terminology.pmi-ops.org/CodeSystem/ppi,Smoking_DailySmokeStartingAge,Lifestyle_Smoking,4/24/2017
-Don't Know,Smoking,Question,boolean,http://terminology.pmi-ops.org/CodeSystem/ppi,Smoking_DailySmokeStartingAgeDontKnow,Lifestyle_Smoking,4/24/2017
-Prefer not to answer,Smoking,Question,boolean,http://terminology.pmi-ops.org/CodeSystem/ppi,Smoking_DailySmokeStartingAgePreferNotToAnswer,Lifestyle_Smoking,4/24/2017
-"In the past, have you ever made a serious attempt to quit smoking? That is, have you stopped smoking for at least one day or longer because you were trying to quit?",Smoking,Question,single select,http://terminology.pmi-ops.org/CodeSystem/ppi,Smoking_SeriousQuitAttempt,Lifestyle_Smoking,4/24/2017
-Yes,Smoking,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SeriousQuitAttempt_AttemptQuitSmoking,Smoking_SeriousQuitAttempt,5/17/2017
-No,Smoking,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SeriousQuitAttempt_NoAttemptQuitSmoking,Smoking_SeriousQuitAttempt,5/17/2017
-"If you have completely stopped smoking cigarettes, how old were you when you stopped?",Smoking,Question,integer,http://terminology.pmi-ops.org/CodeSystem/ppi,AttemptQuitSmoking_CompletelyQuitAge,SeriousQuitAttempt_AttemptQuitSmoking,5/17/2017
-Don't Know,Smoking,Question,boolean,http://terminology.pmi-ops.org/CodeSystem/ppi,AttemptQuitSmoking_CompletelyQuitAgeDontKnow,SeriousQuitAttempt_AttemptQuitSmoking,5/26/2017
-Prefer not to answer,Smoking,Question,boolean,http://terminology.pmi-ops.org/CodeSystem/ppi,AttemptQuitSmoking_CompletelyQuitAgePreferNotToAnswer,SeriousQuitAttempt_AttemptQuitSmoking,5/26/2017
-How many years have you or did you smoke cigarettes?,Smoking,Question,integer,http://terminology.pmi-ops.org/CodeSystem/ppi,Smoking_NumberOfYears,Lifestyle_Smoking,4/24/2017
-Don't Know,Smoking,Question,boolean,http://terminology.pmi-ops.org/CodeSystem/ppi,Smoking_NumberOfYearsDontKnow,Lifestyle_Smoking,5/26/2017
-Prefer not to answer,Smoking,Question,boolean,http://terminology.pmi-ops.org/CodeSystem/ppi,Smoking_NumberOfYearsPreferNotToKnow,Lifestyle_Smoking,5/26/2017
-"On average, how many cigarettes do you smoke per day now? (There are 20 cigarettes in a pack.)",Smoking,Question,integer,http://terminology.pmi-ops.org/CodeSystem/ppi,Smoking_CurrentDailyCigaretteNumber,Lifestyle_Smoking,4/24/2017
-Don't Know,Smoking,Question,boolean,http://terminology.pmi-ops.org/CodeSystem/ppi,Smoking_CurrentDailyCigaretteNumberDontKnow,Lifestyle_Smoking,5/26/2017
-Prefer not to answer,Smoking,Question,boolean,http://terminology.pmi-ops.org/CodeSystem/ppi,Smoking_CurrentDailyCigaretteNumberPreferNotToAnswer,Lifestyle_Smoking,5/26/2017
-"On average, over the entire time that you smoked, how many cigarettes did you smoke each day? (There are 20 cigarettes in a pack.)",Smoking,Question,integer,http://terminology.pmi-ops.org/CodeSystem/ppi,Smoking_AverageDailyCigaretteNumber,Lifestyle_Smoking,4/24/2017
-Don't Know,Smoking,Question,boolean,http://terminology.pmi-ops.org/CodeSystem/ppi,Smoking_AverageDailyCigaretteNumberDontKnow,Lifestyle_Smoking,5/26/2017
-Prefer not to answer,Smoking,Question,boolean,http://terminology.pmi-ops.org/CodeSystem/ppi,Smoking_AverageDailyCigaretteNumberPreferNotToAnswer,Lifestyle_Smoking,5/26/2017
-Electronic Smoking,Electronic Smoking,Topic,,http://terminology.pmi-ops.org/CodeSystem/ppi,Smoking_ElectronicSmoking,Lifestyle_Smoking,4/24/2017
-"Have you ever used an electronic nicotine product, even one or two times? (Electronic nicotine products include e-cigarettes, vape pens, hookah pens, personal vaporizers and mods, e-cigars, e-pipes, and e-hookahs.)",Electronic Smoking,Question,single select,http://terminology.pmi-ops.org/CodeSystem/ppi,ElectronicSmoking_ElectricSmokeParticipant,Smoking_ElectronicSmoking,4/24/2017
-Yes,Electronic Smoking,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,ElectricSmokeParticipant_Yes,ElectronicSmoking_ElectricSmokeParticipant,4/24/2017
-No,Electronic Smoking,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,ElectricSmokeParticipant_No,ElectronicSmoking_ElectricSmokeParticipant,4/24/2017
-Do you now use electronic nicotine products…,Electronic Smoking,Question,single select,http://terminology.pmi-ops.org/CodeSystem/ppi,ElectronicSmoking_ElectricSmokeFrequency,Smoking_ElectronicSmoking,4/24/2017
-Every day,Electronic Smoking,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,ElectricSmokeFrequency_EveryDay,ElectronicSmoking_ElectricSmokeFrequency,4/24/2017
-Some days,Electronic Smoking,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,ElectricSmokeFrequency_SomeDays,ElectronicSmoking_ElectricSmokeFrequency,4/24/2017
-Not at all,Electronic Smoking,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,ElectricSmokeFrequency_NotAtAll,ElectronicSmoking_ElectricSmokeFrequency,4/24/2017
-Cigar Smoking,Cigar Smoking,Topic,,http://terminology.pmi-ops.org/CodeSystem/ppi,Smoking_CigarSmoking,Lifestyle_Smoking,4/24/2017
-"Have you ever smoked a traditional cigar, cigarillo, or filtered cigar, even one or two puffs?",Cigar Smoking,Question,single select,http://terminology.pmi-ops.org/CodeSystem/ppi,CigarSmoking_CigarSmokeParticipant,Smoking_CigarSmoking,4/24/2017
-Yes,Cigar Smoking,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,CigarSmokeParticipant_Yes,CigarSmoking_CigarSmokeParticipant,4/24/2017
-No,Cigar Smoking,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,CigarSmokeParticipant_No,CigarSmoking_CigarSmokeParticipant,4/24/2017
-"Do you now smoke a traditional cigar, cigarillo, or filtered cigar?",Cigar Smoking,Question,single select,http://terminology.pmi-ops.org/CodeSystem/ppi,CigarSmoking_CurrentCigarFrequency,Smoking_CigarSmoking,5/17/2017
-Every day,Cigar Smoking,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,CurrentCigarFrequency_EveryDay,CigarSmoking_CurrentCigarFrequency,4/24/2017
-Some days,Cigar Smoking,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,CurrentCigarFrequency_SomeDays,CigarSmoking_CurrentCigarFrequency,4/24/2017
-Not at all,Cigar Smoking,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,CurrentCigarFrequency_NotAtAll,CigarSmoking_CurrentCigarFrequency,4/24/2017
-Hookah Smoking,Hookah Smoking,Topic,,http://terminology.pmi-ops.org/CodeSystem/ppi,Smoking_HookahSmoking,Lifestyle_Smoking,4/24/2017
-"Have you ever smoked tobacco in a hookah, even one or two puffs?",Hookah Smoking,Question,single select,http://terminology.pmi-ops.org/CodeSystem/ppi,HookahSmoking_HookahSmokeParticipant,Smoking_HookahSmoking,4/24/2017
-Yes,Hookah Smoking,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,HookahSmokeParticipant_Yes,HookahSmoking_HookahSmokeParticipant,4/24/2017
-No,Hookah Smoking,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,HookahSmokeParticipant_No,HookahSmoking_HookahSmokeParticipant,4/24/2017
-Do you now smoke hookah…,Hookah Smoking,Question,single select,http://terminology.pmi-ops.org/CodeSystem/ppi,HookahSmoking_CurrentHookahFrequency,Smoking_HookahSmoking,4/24/2017
-Every day,Hookah Smoking,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,CurrentHookahFrequency_EveryDay,HookahSmoking_CurrentHookahFrequency,4/24/2017
-Some days,Hookah Smoking,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,CurrentHookahFrequency_SomeDays,HookahSmoking_CurrentHookahFrequency,4/24/2017
-Not at all,Hookah Smoking,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,CurrentHookahFrequency_NotAtAll,HookahSmoking_CurrentHookahFrequency,4/24/2017
-Smokeless Tobacco,Smokeless Tobacco,Topic,,http://terminology.pmi-ops.org/CodeSystem/ppi,Smoking_SmokelessTobacco,Lifestyle_Smoking,4/24/2017
-"Have you ever used smokeless tobacco products, even one or two times? (Smokeless tobacco products include snus pouches, Skoal Bandits, loose snus, moist snuff, dip, spit, and chewing tobacco.)",Smokeless Tobacco,Question,single select,http://terminology.pmi-ops.org/CodeSystem/ppi,SmokelessTobacco_SmokelessTobaccoParticipant,Smoking_SmokelessTobacco,4/24/2017
-Yes,Smokeless Tobacco,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SmokelessTobaccoParticipant_Yes,SmokelessTobacco_SmokelessTobaccoParticipant,4/24/2017
-No,Smokeless Tobacco,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SmokelessTobaccoParticipant_No,SmokelessTobacco_SmokelessTobaccoParticipant,4/24/2017
-Do you now use smokeless tobacco products…,Smokeless Tobacco,Question,single select,http://terminology.pmi-ops.org/CodeSystem/ppi,SmokelessTobacco_SmokelessTobaccoFrequency,Smoking_SmokelessTobacco,4/24/2017
-Every day,Smokeless Tobacco,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SmokelessTobaccoFrequency_EveryDay,SmokelessTobacco_SmokelessTobaccoFrequency,4/24/2017
-Some days,Smokeless Tobacco,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SmokelessTobaccoFrequency_SomeDays,SmokelessTobacco_SmokelessTobaccoFrequency,4/24/2017
-Not at all,Smokeless Tobacco,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SmokelessTobaccoFrequency_NotAtAll,SmokelessTobacco_SmokelessTobaccoFrequency,4/24/2017
-Alcohol,Alcohol,Topic,,http://terminology.pmi-ops.org/CodeSystem/ppi,Lifestyle_Alcohol,Lifestyle,4/24/2017
-"In your entire life, have you had at least 1 drink of any kind of alcohol, not counting small tastes or sips? (By a “drink,” we mean a can or bottle of beer, a glass of wine or a wine cooler, a shot of liquor, or a mixed drink with liquor in it.)",Alcohol,Question,single select,http://terminology.pmi-ops.org/CodeSystem/ppi,Alcohol_AlcoholParticipant,Lifestyle_Alcohol,4/24/2017
-Yes,Alcohol,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,AlcoholParticipant_Yes,Alcohol_AlcoholParticipant,4/24/2017
-No,Alcohol,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,AlcoholParticipant_No,Alcohol_AlcoholParticipant,4/24/2017
-How often did you have a drink containing alcohol in the past year?,Alcohol,Question,single select,http://terminology.pmi-ops.org/CodeSystem/ppi,Alcohol_DrinkFrequencyPastYear,Lifestyle_Alcohol,4/24/2017
-Never,Alcohol,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,DrinkFrequencyPastYear_Never,Alcohol_DrinkFrequencyPastYear,4/24/2017
-Monthly or less,Alcohol,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,DrinkFrequencyPastYear_MonthlyOrLess,Alcohol_DrinkFrequencyPastYear,4/24/2017
-Two to four times a month,Alcohol,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,DrinkFrequencyPastYear_2to4PerMonth,Alcohol_DrinkFrequencyPastYear,4/24/2017
-Two to three times a week,Alcohol,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,DrinkFrequencyPastYear_2to3PerWeek,Alcohol_DrinkFrequencyPastYear,4/24/2017
-Four or more times a week,Alcohol,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,DrinkFrequencyPastYear_4orMorePerWeek,Alcohol_DrinkFrequencyPastYear,4/24/2017
-"On a typical day when you drink, how many drinks do you have?",Alcohol,Question,single select,http://terminology.pmi-ops.org/CodeSystem/ppi,Alcohol_AverageDailyDrinkCount,Lifestyle_Alcohol,5/17/2017
-1 or 2,Alcohol,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,AverageDailyDrinkCount_1or2,Alcohol_AverageDailyDrinkCount,4/24/2017
-3 or 4,Alcohol,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,AverageDailyDrinkCount_3or4,Alcohol_AverageDailyDrinkCount,4/24/2017
-5 or 6,Alcohol,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,AverageDailyDrinkCount_5or6,Alcohol_AverageDailyDrinkCount,4/24/2017
-7 to 9,Alcohol,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,AverageDailyDrinkCount_7to9,Alcohol_AverageDailyDrinkCount,4/24/2017
-10 or more,Alcohol,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,AverageDailyDrinkCount_10orMore,Alcohol_AverageDailyDrinkCount,4/24/2017
-How often did you have six or more drinks on one occasion in the past year?,Alcohol,Question,single select,http://terminology.pmi-ops.org/CodeSystem/ppi,Alcohol_6orMoreDrinksOccurence,Lifestyle_Alcohol,4/24/2017
-Less than monthly,Alcohol,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,6orMoreDrinksOccurence_LessThanMonthly,Alcohol_6orMoreDrinksOccurence,4/24/2017
-Monthly,Alcohol,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,6orMoreDrinksOccurence_Monthly,Alcohol_6orMoreDrinksOccurence,4/24/2017
-Weekly,Alcohol,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,6orMoreDrinksOccurence_Weekly,Alcohol_6orMoreDrinksOccurence,4/24/2017
-Daily or almost daily,Alcohol,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,6orMoreDrinksOccurence_Daily,Alcohol_6orMoreDrinksOccurence,4/24/2017
-Never in the last year,Alcohol,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,6orMoreDrinksOccurence_NeverInLastYear,Alcohol_6orMoreDrinksOccurence,4/24/2017
-Recreational Drug Use,Recreational Drugs,Topic,,http://terminology.pmi-ops.org/CodeSystem/ppi,Lifestyle_RecreationalDrugUse,Lifestyle,4/24/2017
-"In your LIFETIME, which of the following substances have you ever used?",Recreational Drugs,Question,multi-select,http://terminology.pmi-ops.org/CodeSystem/ppi,RecreationalDrugUse_WhichDrugsUsed,Lifestyle_RecreationalDrugUse,5/17/2017
-"a. Marijuana (cannabis, pot, grass, hash, weed, etc.)",Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,WhichDrugsUsed_MarijuanaUse,RecreationalDrugUse_WhichDrugsUsed,5/17/2017
-"b. Cocaine (coke, crack, etc.)",Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,WhichDrugsUsed_CocaineUse,RecreationalDrugUse_WhichDrugsUsed,5/17/2017
-"c. Prescription stimulants for non-medical reasons (Ritalin, Concerta, Dexedrine, Adderall, diet pills, etc.)",Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,WhichDrugsUsed_PrescriptionStimulantsUse,RecreationalDrugUse_WhichDrugsUsed,5/17/2017
-"d. Other stimulants (methamphetamine, speed, crystal meth, ice, k2/spice, bath salts, etc.)",Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,WhichDrugsUsed_MethamphetamineUse,RecreationalDrugUse_WhichDrugsUsed,5/17/2017
-"e. Inhalants (nitrous oxide, glue, gas, paint thinner, etc.)",Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,WhichDrugsUsed_InhalantsUse,RecreationalDrugUse_WhichDrugsUsed,5/17/2017
-"f. Sedatives or sleeping pills for non-medical reasons (Valium, Serepax, Ativan, Xanax, Librium, Rohypnol, GHB, etc.)",Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,WhichDrugsUsed_SedativesUse,RecreationalDrugUse_WhichDrugsUsed,5/17/2017
-"g. Hallucinogens (LSD, acid, mushrooms, PCP, Special K, ecstasy, etc.)",Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,WhichDrugsUsed_HallucinogensUse,RecreationalDrugUse_WhichDrugsUsed,5/17/2017
-"h. Street opioids (heroin, opium, etc.)",Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,WhichDrugsUsed_StreetOpioidsUse,RecreationalDrugUse_WhichDrugsUsed,5/17/2017
-"i. Prescription opioids for non-medical reasons (fentanyl, oxycodone [OxyContin, Percocet], hydrocodone [Vicodin], methadone, buprenorphine, etc.)",Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,WhichDrugsUsed_PrescriptionOpioidsUse,RecreationalDrugUse_WhichDrugsUsed,5/17/2017
-j. Other (Specify),Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,WhichDrugsUsed_OtherSpecify,RecreationalDrugUse_WhichDrugsUsed,5/17/2017
-Other Drug(s) Free Text,Recreational Drugs,Question,text,http://terminology.pmi-ops.org/CodeSystem/ppi,OtherSpecify_OtherDrugsTextBox,WhichDrugsUsed_OtherSpecify,5/26/2017
-None of these drugs,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,WhichDrugsUsed_NoneOfTheseDrugs,RecreationalDrugUse_WhichDrugsUsed,5/17/2017
-How Often Topic,Recreational Drugs,Topic,,http://terminology.pmi-ops.org/CodeSystem/ppi,RecreationalDrugUse_Past3MonthUseFrequency,Lifestyle_RecreationalDrugUse,5/25/2017
-"In the PAST THREE MONTHS, how often have you used Marijuana (cannabis, pot, grass, hash, weed, etc.)",Recreational Drugs,Question,single select,http://terminology.pmi-ops.org/CodeSystem/ppi,Past3MonthUseFrequency_Marijuana3MonthUse,RecreationalDrugUse_Past3MonthUseFrequency,5/24/2017
-Never,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Marijuana3MonthUse_Never,Past3MonthUseFrequency_Marijuana3MonthUse,4/24/2017
-Once or twice,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Marijuana3MonthUse_OneOrTwice,Past3MonthUseFrequency_Marijuana3MonthUse,4/24/2017
-Monthly,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Marijuana3MonthUse_Monthly,Past3MonthUseFrequency_Marijuana3MonthUse,4/24/2017
-Weekly,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Marijuana3MonthUse_Weekly,Past3MonthUseFrequency_Marijuana3MonthUse,4/24/2017
-Daily or almost daily,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Marijuana3MonthUse_Daily,Past3MonthUseFrequency_Marijuana3MonthUse,4/24/2017
-"In the PAST THREE MONTHS, how often have you used Cocaine (coke, crack, etc.)",Recreational Drugs,Question,single select,http://terminology.pmi-ops.org/CodeSystem/ppi,Past3MonthUseFrequency_Cocaine3MonthUse,RecreationalDrugUse_Past3MonthUseFrequency,5/24/2017
-Never,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Cocaine3MonthUse_Never,Past3MonthUseFrequency_Cocaine3MonthUse,4/24/2017
-Once or twice,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Cocaine3MonthUse_OnceOrTwice,Past3MonthUseFrequency_Cocaine3MonthUse,4/24/2017
-Monthly,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Cocaine3MonthUse_Monthly,Past3MonthUseFrequency_Cocaine3MonthUse,4/24/2017
-Weekly,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Cocaine3MonthUse_Weekly,Past3MonthUseFrequency_Cocaine3MonthUse,4/24/2017
-Daily or almost daily,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Cocaine3MonthUse_Daily,Past3MonthUseFrequency_Cocaine3MonthUse,4/24/2017
-"In the PAST THREE MONTHS, how often have you used Prescription stimulants for non-medical reasons (Vyvanse, Ritalin, Concerta, Dexedrine, Adderall, diet pills, etc.)",Recreational Drugs,Question,single select,http://terminology.pmi-ops.org/CodeSystem/ppi,Past3MonthUseFrequency_PrescriptionStimulant3MonthUse,RecreationalDrugUse_Past3MonthUseFrequency,5/24/2017
-Never,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,PrescriptionStimulant3MonthUse_Never,Past3MonthUseFrequency_PrescriptionStimulant3MonthUse,4/24/2017
-Once or twice,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,PrescriptionStimulant3MonthUse_OnceOrTwice,Past3MonthUseFrequency_PrescriptionStimulant3MonthUse,4/24/2017
-Monthly,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,PrescriptionStimulant3MonthUse_Monthly,Past3MonthUseFrequency_PrescriptionStimulant3MonthUse,4/24/2017
-Weekly,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,PrescriptionStimulant3MonthUse_Weekly,Past3MonthUseFrequency_PrescriptionStimulant3MonthUse,4/24/2017
-Daily or almost daily,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,PrescriptionStimulant3MonthUse_Daily,Past3MonthUseFrequency_PrescriptionStimulant3MonthUse,4/24/2017
-"In the PAST THREE MONTHS, how often have you used Other stimulants (methamphetamine, speed, crystal meth, ice, k2/spice, bath salts, etc.)",Recreational Drugs,Question,single select,http://terminology.pmi-ops.org/CodeSystem/ppi,Past3MonthUseFrequency_OtherStimulant3MonthUse,RecreationalDrugUse_Past3MonthUseFrequency,5/24/2017
-Never,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,OtherStimulant3MonthUse_Never,Past3MonthUseFrequency_OtherStimulant3MonthUse,4/24/2017
-Once or twice,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,OtherStimulant3MonthUse_OnceOrTwice,Past3MonthUseFrequency_OtherStimulant3MonthUse,4/24/2017
-Monthly,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,OtherStimulant3MonthUse_Monthly,Past3MonthUseFrequency_OtherStimulant3MonthUse,4/24/2017
-Weekly,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,OtherStimulant3MonthUse_Weekly,Past3MonthUseFrequency_OtherStimulant3MonthUse,4/24/2017
-Daily or almost daily,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,OtherStimulant3MonthUse_Daily,Past3MonthUseFrequency_OtherStimulant3MonthUse,4/24/2017
-"In the PAST THREE MONTHS, how often have you used Inhalants (nitrous oxide, glue, gas, paint thinner, etc.)",Recreational Drugs,Question,single select,http://terminology.pmi-ops.org/CodeSystem/ppi,Past3MonthUseFrequency_Inhalant3MonthUse,RecreationalDrugUse_Past3MonthUseFrequency,5/24/2017
-Never,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Inhalant3MonthUse_Never,Past3MonthUseFrequency_Inhalant3MonthUse,4/24/2017
-Once or twice,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Inhalant3MonthUse_OnceOrTwice,Past3MonthUseFrequency_Inhalant3MonthUse,4/24/2017
-Monthly,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Inhalant3MonthUse_Monthly,Past3MonthUseFrequency_Inhalant3MonthUse,4/24/2017
-Weekly,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Inhalant3MonthUse_Weekly,Past3MonthUseFrequency_Inhalant3MonthUse,4/24/2017
-Daily or almost daily,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Inhalant3MonthUse_Daily,Past3MonthUseFrequency_Inhalant3MonthUse,4/24/2017
-"In the PAST THREE MONTHS, how often have you used Sedatives or sleeping pills for non-medical reasons (Valium, Serepax, Ativan, Xanax, Librium, Rohypnol, GHB, etc.)",Recreational Drugs,Question,single select,http://terminology.pmi-ops.org/CodeSystem/ppi,Past3MonthUseFrequency_Sedative3MonthUse,RecreationalDrugUse_Past3MonthUseFrequency,5/24/2017
-Never,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Sedative3MonthUse_Never,Past3MonthUseFrequency_Sedative3MonthUse,4/24/2017
-Once or twice,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Sedative3MonthUse_OnceOrTwice,Past3MonthUseFrequency_Sedative3MonthUse,4/24/2017
-Monthly,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Sedative3MonthUse_Monthly,Past3MonthUseFrequency_Sedative3MonthUse,4/24/2017
-Weekly,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Sedative3MonthUse_Weekly,Past3MonthUseFrequency_Sedative3MonthUse,4/24/2017
-Daily or almost daily,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Sedative3MonthUse_Daily,Past3MonthUseFrequency_Sedative3MonthUse,4/24/2017
-"In the PAST THREE MONTHS, how often have you used Hallucinogens (LSD, acid, mushrooms, PCP, Special K, ecstasy, etc.)",Recreational Drugs,Question,single select,http://terminology.pmi-ops.org/CodeSystem/ppi,Past3MonthUseFrequency_Hallucinogen3MonthUse,RecreationalDrugUse_Past3MonthUseFrequency,5/24/2017
-Never,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Hallucinogen3MonthUse_Never,Past3MonthUseFrequency_Hallucinogen3MonthUse,4/24/2017
-Once or twice,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Hallucinogen3MonthUse_OnceOrTwice,Past3MonthUseFrequency_Hallucinogen3MonthUse,4/24/2017
-Monthly,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Hallucinogen3MonthUse_Monthly,Past3MonthUseFrequency_Hallucinogen3MonthUse,4/24/2017
-Weekly,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Hallucinogen3MonthUse_Weekly,Past3MonthUseFrequency_Hallucinogen3MonthUse,4/24/2017
-Daily or almost daily,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Hallucinogen3MonthUse_Daily,Past3MonthUseFrequency_Hallucinogen3MonthUse,4/24/2017
-"In the PAST THREE MONTHS, how often have you used Street opioids (heroin, opium, etc.)",Recreational Drugs,Question,single select,http://terminology.pmi-ops.org/CodeSystem/ppi,Past3MonthUseFrequency_StreetOpioid3MonthUse,RecreationalDrugUse_Past3MonthUseFrequency,4/24/2017
-Never,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,StreetOpioid3MonthUse_Never,Past3MonthUseFrequency_StreetOpioid3MonthUse,4/24/2017
-Once or twice,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,StreetOpioid3MonthUse_OnceOrTwice,Past3MonthUseFrequency_StreetOpioid3MonthUse,4/24/2017
-Monthly,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,StreetOpioid3MonthUse_Monthly,Past3MonthUseFrequency_StreetOpioid3MonthUse,4/24/2017
-Weekly,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,StreetOpioid3MonthUse_Weekly,Past3MonthUseFrequency_StreetOpioid3MonthUse,4/24/2017
-Daily or almost daily,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,StreetOpioid3MonthUse_Daily,Past3MonthUseFrequency_StreetOpioid3MonthUse,4/24/2017
-"In the PAST THREE MONTHS, how often have you used Prescription opioids for non-medical reasons (obana, fentanyl, oxycodone [OxyContin, Percocet], hydrocodone [Vicodin], methadone, buprenorphine [Supoxone], etc.)",Recreational Drugs,Question,single select,http://terminology.pmi-ops.org/CodeSystem/ppi,Past3MonthUseFrequency_PrescriptionOpiod3MonthUse,RecreationalDrugUse_Past3MonthUseFrequency,5/24/2017
-Never,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,PrescriptionOpiod3MonthUse_Never,Past3MonthUseFrequency_PrescriptionOpiod3MonthUse,4/24/2017
-Once or twice,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,PrescriptionOpiod3MonthUse_OnceOrTwice,Past3MonthUseFrequency_PrescriptionOpiod3MonthUse,4/24/2017
-Monthly,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,PrescriptionOpiod3MonthUse_Monthly,Past3MonthUseFrequency_PrescriptionOpiod3MonthUse,4/24/2017
-Weekly,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,PrescriptionOpiod3MonthUse_Weekly,Past3MonthUseFrequency_PrescriptionOpiod3MonthUse,4/24/2017
-Daily or almost daily,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,PrescriptionOpiod3MonthUse_Daily,Past3MonthUseFrequency_PrescriptionOpiod3MonthUse,4/24/2017
-"In the PAST THREE MONTHS, how often have you used Other [INSERT LANGUAGE FROM SU01j]",Recreational Drugs,Question,single select,http://terminology.pmi-ops.org/CodeSystem/ppi,Past3MonthUseFrequency_Other3MonthUse,RecreationalDrugUse_Past3MonthUseFrequency,4/24/2017
-Never,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Other3MonthUse_Never,Past3MonthUseFrequency_Other3MonthUse,4/24/2017
-Once or twice,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Other3MonthUse_OnceOrTwice,Past3MonthUseFrequency_Other3MonthUse,4/24/2017
-Monthly,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Other3MonthUse_Monthly,Past3MonthUseFrequency_Other3MonthUse,4/24/2017
-Weekly,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Other3MonthUse_Weekly,Past3MonthUseFrequency_Other3MonthUse,4/24/2017
+Display,Topic,Type,Answer Type,PMI System,PMI Code,Parent code,Date of Last Update
+Lifestyle,Module Name,Module Name,,http://terminology.pmi-ops.org/CodeSystem/ppi,Lifestyle,,4/24/2017
+Smoking,Smoking,Topic,,http://terminology.pmi-ops.org/CodeSystem/ppi,Lifestyle_Smoking,Lifestyle,4/24/2017
+Have you smoked at least 100 cigarettes in your entire life? (There are 20 cigarettes in a pack.),Smoking,Question,boolean,http://terminology.pmi-ops.org/CodeSystem/ppi,Smoking_100CigsLifetime,Lifestyle_Smoking,4/24/2017
+Yes,Smoking,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,100CigsLifetime_Yes,Smoking_100CigsLifetime,4/24/2017
+No,Smoking,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,100CigsLifetime_No,Smoking_100CigsLifetime,4/24/2017
+"Do you now smoke cigarettes every day, some days, or not at all?",Smoking,Question,single select,http://terminology.pmi-ops.org/CodeSystem/ppi,Smoking_SmokeFrequency,Lifestyle_Smoking,4/24/2017
+Every day,Smoking,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SmokeFrequency_EveryDay,Smoking_SmokeFrequency,4/24/2017
+Some days,Smoking,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SmokeFrequency_SomeDays,Smoking_SmokeFrequency,4/24/2017
+Not at all,Smoking,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SmokeFrequency_NotAtAll,Smoking_SmokeFrequency,4/24/2017
+How old were you when you first started regular cigarette smoking every day?,Smoking,Question,integer,http://terminology.pmi-ops.org/CodeSystem/ppi,Smoking_DailySmokeStartingAge,Lifestyle_Smoking,4/24/2017
+Don't Know,Smoking,Question,boolean,http://terminology.pmi-ops.org/CodeSystem/ppi,Smoking_DailySmokeStartingAgeDontKnow,Lifestyle_Smoking,4/24/2017
+Prefer not to answer,Smoking,Question,boolean,http://terminology.pmi-ops.org/CodeSystem/ppi,Smoking_DailySmokeStartingAgePreferNotToAnswer,Lifestyle_Smoking,4/24/2017
+"In the past, have you ever made a serious attempt to quit smoking? That is, have you stopped smoking for at least one day or longer because you were trying to quit?",Smoking,Question,single select,http://terminology.pmi-ops.org/CodeSystem/ppi,Smoking_SeriousQuitAttempt,Lifestyle_Smoking,4/24/2017
+Yes,Smoking,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SeriousQuitAttempt_AttemptQuitSmoking,Smoking_SeriousQuitAttempt,5/17/2017
+No,Smoking,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SeriousQuitAttempt_NoAttemptQuitSmoking,Smoking_SeriousQuitAttempt,5/17/2017
+"If you have completely stopped smoking cigarettes, how old were you when you stopped?",Smoking,Question,integer,http://terminology.pmi-ops.org/CodeSystem/ppi,AttemptQuitSmoking_CompletelyQuitAge,SeriousQuitAttempt_AttemptQuitSmoking,5/17/2017
+Don't Know,Smoking,Question,boolean,http://terminology.pmi-ops.org/CodeSystem/ppi,AttemptQuitSmoking_CompletelyQuitAgeDontKnow,SeriousQuitAttempt_AttemptQuitSmoking,5/26/2017
+Prefer not to answer,Smoking,Question,boolean,http://terminology.pmi-ops.org/CodeSystem/ppi,AttemptQuitSmoking_CompletelyQuitAgePreferNotToAnswer,SeriousQuitAttempt_AttemptQuitSmoking,5/26/2017
+How many years have you or did you smoke cigarettes?,Smoking,Question,integer,http://terminology.pmi-ops.org/CodeSystem/ppi,Smoking_NumberOfYears,Lifestyle_Smoking,4/24/2017
+Don't Know,Smoking,Question,boolean,http://terminology.pmi-ops.org/CodeSystem/ppi,Smoking_NumberOfYearsDontKnow,Lifestyle_Smoking,5/26/2017
+Prefer not to answer,Smoking,Question,boolean,http://terminology.pmi-ops.org/CodeSystem/ppi,Smoking_NumberOfYearsPreferNotToKnow,Lifestyle_Smoking,5/26/2017
+"On average, how many cigarettes do you smoke per day now? (There are 20 cigarettes in a pack.)",Smoking,Question,integer,http://terminology.pmi-ops.org/CodeSystem/ppi,Smoking_CurrentDailyCigaretteNumber,Lifestyle_Smoking,4/24/2017
+Don't Know,Smoking,Question,boolean,http://terminology.pmi-ops.org/CodeSystem/ppi,Smoking_CurrentDailyCigaretteNumberDontKnow,Lifestyle_Smoking,5/26/2017
+Prefer not to answer,Smoking,Question,boolean,http://terminology.pmi-ops.org/CodeSystem/ppi,Smoking_CurrentDailyCigaretteNumberPreferNotToAnswer,Lifestyle_Smoking,5/26/2017
+"On average, over the entire time that you smoked, how many cigarettes did you smoke each day? (There are 20 cigarettes in a pack.)",Smoking,Question,integer,http://terminology.pmi-ops.org/CodeSystem/ppi,Smoking_AverageDailyCigaretteNumber,Lifestyle_Smoking,4/24/2017
+Don't Know,Smoking,Question,boolean,http://terminology.pmi-ops.org/CodeSystem/ppi,Smoking_AverageDailyCigaretteNumberDontKnow,Lifestyle_Smoking,5/26/2017
+Prefer not to answer,Smoking,Question,boolean,http://terminology.pmi-ops.org/CodeSystem/ppi,Smoking_AverageDailyCigaretteNumberPreferNotToAnswer,Lifestyle_Smoking,5/26/2017
+Electronic Smoking,Electronic Smoking,Topic,,http://terminology.pmi-ops.org/CodeSystem/ppi,Smoking_ElectronicSmoking,Lifestyle_Smoking,4/24/2017
+"Have you ever used an electronic nicotine product, even one or two times? (Electronic nicotine products include e-cigarettes, vape pens, hookah pens, personal vaporizers and mods, e-cigars, e-pipes, and e-hookahs.)",Electronic Smoking,Question,single select,http://terminology.pmi-ops.org/CodeSystem/ppi,ElectronicSmoking_ElectricSmokeParticipant,Smoking_ElectronicSmoking,4/24/2017
+Yes,Electronic Smoking,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,ElectricSmokeParticipant_Yes,ElectronicSmoking_ElectricSmokeParticipant,4/24/2017
+No,Electronic Smoking,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,ElectricSmokeParticipant_No,ElectronicSmoking_ElectricSmokeParticipant,4/24/2017
+Do you now use electronic nicotine products…,Electronic Smoking,Question,single select,http://terminology.pmi-ops.org/CodeSystem/ppi,ElectronicSmoking_ElectricSmokeFrequency,Smoking_ElectronicSmoking,4/24/2017
+Every day,Electronic Smoking,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,ElectricSmokeFrequency_EveryDay,ElectronicSmoking_ElectricSmokeFrequency,4/24/2017
+Some days,Electronic Smoking,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,ElectricSmokeFrequency_SomeDays,ElectronicSmoking_ElectricSmokeFrequency,4/24/2017
+Not at all,Electronic Smoking,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,ElectricSmokeFrequency_NotAtAll,ElectronicSmoking_ElectricSmokeFrequency,4/24/2017
+Cigar Smoking,Cigar Smoking,Topic,,http://terminology.pmi-ops.org/CodeSystem/ppi,Smoking_CigarSmoking,Lifestyle_Smoking,4/24/2017
+"Have you ever smoked a traditional cigar, cigarillo, or filtered cigar, even one or two puffs?",Cigar Smoking,Question,single select,http://terminology.pmi-ops.org/CodeSystem/ppi,CigarSmoking_CigarSmokeParticipant,Smoking_CigarSmoking,4/24/2017
+Yes,Cigar Smoking,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,CigarSmokeParticipant_Yes,CigarSmoking_CigarSmokeParticipant,4/24/2017
+No,Cigar Smoking,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,CigarSmokeParticipant_No,CigarSmoking_CigarSmokeParticipant,4/24/2017
+"Do you now smoke a traditional cigar, cigarillo, or filtered cigar?",Cigar Smoking,Question,single select,http://terminology.pmi-ops.org/CodeSystem/ppi,CigarSmoking_CurrentCigarFrequency,Smoking_CigarSmoking,5/17/2017
+Every day,Cigar Smoking,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,CurrentCigarFrequency_EveryDay,CigarSmoking_CurrentCigarFrequency,4/24/2017
+Some days,Cigar Smoking,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,CurrentCigarFrequency_SomeDays,CigarSmoking_CurrentCigarFrequency,4/24/2017
+Not at all,Cigar Smoking,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,CurrentCigarFrequency_NotAtAll,CigarSmoking_CurrentCigarFrequency,4/24/2017
+Hookah Smoking,Hookah Smoking,Topic,,http://terminology.pmi-ops.org/CodeSystem/ppi,Smoking_HookahSmoking,Lifestyle_Smoking,4/24/2017
+"Have you ever smoked tobacco in a hookah, even one or two puffs?",Hookah Smoking,Question,single select,http://terminology.pmi-ops.org/CodeSystem/ppi,HookahSmoking_HookahSmokeParticipant,Smoking_HookahSmoking,4/24/2017
+Yes,Hookah Smoking,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,HookahSmokeParticipant_Yes,HookahSmoking_HookahSmokeParticipant,4/24/2017
+No,Hookah Smoking,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,HookahSmokeParticipant_No,HookahSmoking_HookahSmokeParticipant,4/24/2017
+Do you now smoke hookah…,Hookah Smoking,Question,single select,http://terminology.pmi-ops.org/CodeSystem/ppi,HookahSmoking_CurrentHookahFrequency,Smoking_HookahSmoking,4/24/2017
+Every day,Hookah Smoking,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,CurrentHookahFrequency_EveryDay,HookahSmoking_CurrentHookahFrequency,4/24/2017
+Some days,Hookah Smoking,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,CurrentHookahFrequency_SomeDays,HookahSmoking_CurrentHookahFrequency,4/24/2017
+Not at all,Hookah Smoking,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,CurrentHookahFrequency_NotAtAll,HookahSmoking_CurrentHookahFrequency,4/24/2017
+Smokeless Tobacco,Smokeless Tobacco,Topic,,http://terminology.pmi-ops.org/CodeSystem/ppi,Smoking_SmokelessTobacco,Lifestyle_Smoking,4/24/2017
+"Have you ever used smokeless tobacco products, even one or two times? (Smokeless tobacco products include snus pouches, Skoal Bandits, loose snus, moist snuff, dip, spit, and chewing tobacco.)",Smokeless Tobacco,Question,single select,http://terminology.pmi-ops.org/CodeSystem/ppi,SmokelessTobacco_SmokelessTobaccoParticipant,Smoking_SmokelessTobacco,4/24/2017
+Yes,Smokeless Tobacco,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SmokelessTobaccoParticipant_Yes,SmokelessTobacco_SmokelessTobaccoParticipant,4/24/2017
+No,Smokeless Tobacco,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SmokelessTobaccoParticipant_No,SmokelessTobacco_SmokelessTobaccoParticipant,4/24/2017
+Do you now use smokeless tobacco products…,Smokeless Tobacco,Question,single select,http://terminology.pmi-ops.org/CodeSystem/ppi,SmokelessTobacco_SmokelessTobaccoFrequency,Smoking_SmokelessTobacco,4/24/2017
+Every day,Smokeless Tobacco,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SmokelessTobaccoFrequency_EveryDay,SmokelessTobacco_SmokelessTobaccoFrequency,4/24/2017
+Some days,Smokeless Tobacco,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SmokelessTobaccoFrequency_SomeDays,SmokelessTobacco_SmokelessTobaccoFrequency,4/24/2017
+Not at all,Smokeless Tobacco,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SmokelessTobaccoFrequency_NotAtAll,SmokelessTobacco_SmokelessTobaccoFrequency,4/24/2017
+Alcohol,Alcohol,Topic,,http://terminology.pmi-ops.org/CodeSystem/ppi,Lifestyle_Alcohol,Lifestyle,4/24/2017
+"In your entire life, have you had at least 1 drink of any kind of alcohol, not counting small tastes or sips? (By a “drink,” we mean a can or bottle of beer, a glass of wine or a wine cooler, a shot of liquor, or a mixed drink with liquor in it.)",Alcohol,Question,single select,http://terminology.pmi-ops.org/CodeSystem/ppi,Alcohol_AlcoholParticipant,Lifestyle_Alcohol,4/24/2017
+Yes,Alcohol,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,AlcoholParticipant_Yes,Alcohol_AlcoholParticipant,4/24/2017
+No,Alcohol,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,AlcoholParticipant_No,Alcohol_AlcoholParticipant,4/24/2017
+How often did you have a drink containing alcohol in the past year?,Alcohol,Question,single select,http://terminology.pmi-ops.org/CodeSystem/ppi,Alcohol_DrinkFrequencyPastYear,Lifestyle_Alcohol,4/24/2017
+Never,Alcohol,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,DrinkFrequencyPastYear_Never,Alcohol_DrinkFrequencyPastYear,4/24/2017
+Monthly or less,Alcohol,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,DrinkFrequencyPastYear_MonthlyOrLess,Alcohol_DrinkFrequencyPastYear,4/24/2017
+Two to four times a month,Alcohol,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,DrinkFrequencyPastYear_2to4PerMonth,Alcohol_DrinkFrequencyPastYear,4/24/2017
+Two to three times a week,Alcohol,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,DrinkFrequencyPastYear_2to3PerWeek,Alcohol_DrinkFrequencyPastYear,4/24/2017
+Four or more times a week,Alcohol,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,DrinkFrequencyPastYear_4orMorePerWeek,Alcohol_DrinkFrequencyPastYear,4/24/2017
+"On a typical day when you drink, how many drinks do you have?",Alcohol,Question,single select,http://terminology.pmi-ops.org/CodeSystem/ppi,Alcohol_AverageDailyDrinkCount,Lifestyle_Alcohol,5/17/2017
+1 or 2,Alcohol,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,AverageDailyDrinkCount_1or2,Alcohol_AverageDailyDrinkCount,4/24/2017
+3 or 4,Alcohol,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,AverageDailyDrinkCount_3or4,Alcohol_AverageDailyDrinkCount,4/24/2017
+5 or 6,Alcohol,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,AverageDailyDrinkCount_5or6,Alcohol_AverageDailyDrinkCount,4/24/2017
+7 to 9,Alcohol,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,AverageDailyDrinkCount_7to9,Alcohol_AverageDailyDrinkCount,4/24/2017
+10 or more,Alcohol,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,AverageDailyDrinkCount_10orMore,Alcohol_AverageDailyDrinkCount,4/24/2017
+How often did you have six or more drinks on one occasion in the past year?,Alcohol,Question,single select,http://terminology.pmi-ops.org/CodeSystem/ppi,Alcohol_6orMoreDrinksOccurence,Lifestyle_Alcohol,4/24/2017
+Less than monthly,Alcohol,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,6orMoreDrinksOccurence_LessThanMonthly,Alcohol_6orMoreDrinksOccurence,4/24/2017
+Monthly,Alcohol,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,6orMoreDrinksOccurence_Monthly,Alcohol_6orMoreDrinksOccurence,4/24/2017
+Weekly,Alcohol,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,6orMoreDrinksOccurence_Weekly,Alcohol_6orMoreDrinksOccurence,4/24/2017
+Daily or almost daily,Alcohol,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,6orMoreDrinksOccurence_Daily,Alcohol_6orMoreDrinksOccurence,4/24/2017
+Never in the last year,Alcohol,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,6orMoreDrinksOccurence_NeverInLastYear,Alcohol_6orMoreDrinksOccurence,4/24/2017
+Recreational Drug Use,Recreational Drugs,Topic,,http://terminology.pmi-ops.org/CodeSystem/ppi,Lifestyle_RecreationalDrugUse,Lifestyle,4/24/2017
+"In your LIFETIME, which of the following substances have you ever used?",Recreational Drugs,Question,multi-select,http://terminology.pmi-ops.org/CodeSystem/ppi,RecreationalDrugUse_WhichDrugsUsed,Lifestyle_RecreationalDrugUse,5/17/2017
+"a. Marijuana (cannabis, pot, grass, hash, weed, etc.)",Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,WhichDrugsUsed_MarijuanaUse,RecreationalDrugUse_WhichDrugsUsed,5/17/2017
+"b. Cocaine (coke, crack, etc.)",Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,WhichDrugsUsed_CocaineUse,RecreationalDrugUse_WhichDrugsUsed,5/17/2017
+"c. Prescription stimulants for non-medical reasons (Ritalin, Concerta, Dexedrine, Adderall, diet pills, etc.)",Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,WhichDrugsUsed_PrescriptionStimulantsUse,RecreationalDrugUse_WhichDrugsUsed,5/17/2017
+"d. Other stimulants (methamphetamine, speed, crystal meth, ice, k2/spice, bath salts, etc.)",Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,WhichDrugsUsed_MethamphetamineUse,RecreationalDrugUse_WhichDrugsUsed,5/17/2017
+"e. Inhalants (nitrous oxide, glue, gas, paint thinner, etc.)",Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,WhichDrugsUsed_InhalantsUse,RecreationalDrugUse_WhichDrugsUsed,5/17/2017
+"f. Sedatives or sleeping pills for non-medical reasons (Valium, Serepax, Ativan, Xanax, Librium, Rohypnol, GHB, etc.)",Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,WhichDrugsUsed_SedativesUse,RecreationalDrugUse_WhichDrugsUsed,5/17/2017
+"g. Hallucinogens (LSD, acid, mushrooms, PCP, Special K, ecstasy, etc.)",Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,WhichDrugsUsed_HallucinogensUse,RecreationalDrugUse_WhichDrugsUsed,5/17/2017
+"h. Street opioids (heroin, opium, etc.)",Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,WhichDrugsUsed_StreetOpioidsUse,RecreationalDrugUse_WhichDrugsUsed,5/17/2017
+"i. Prescription opioids for non-medical reasons (fentanyl, oxycodone [OxyContin, Percocet], hydrocodone [Vicodin], methadone, buprenorphine, etc.)",Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,WhichDrugsUsed_PrescriptionOpioidsUse,RecreationalDrugUse_WhichDrugsUsed,5/17/2017
+j. Other (Specify),Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,WhichDrugsUsed_OtherSpecify,RecreationalDrugUse_WhichDrugsUsed,5/17/2017
+Other Drug(s) Free Text,Recreational Drugs,Question,text,http://terminology.pmi-ops.org/CodeSystem/ppi,OtherSpecify_OtherDrugsTextBox,WhichDrugsUsed_OtherSpecify,5/26/2017
+None of these drugs,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,WhichDrugsUsed_NoneOfTheseDrugs,RecreationalDrugUse_WhichDrugsUsed,5/17/2017
+How Often Topic,Recreational Drugs,Topic,,http://terminology.pmi-ops.org/CodeSystem/ppi,RecreationalDrugUse_Past3MonthUseFrequency,Lifestyle_RecreationalDrugUse,5/25/2017
+"In the PAST THREE MONTHS, how often have you used Marijuana (cannabis, pot, grass, hash, weed, etc.)",Recreational Drugs,Question,single select,http://terminology.pmi-ops.org/CodeSystem/ppi,Past3MonthUseFrequency_Marijuana3MonthUse,RecreationalDrugUse_Past3MonthUseFrequency,5/24/2017
+Never,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Marijuana3MonthUse_Never,Past3MonthUseFrequency_Marijuana3MonthUse,4/24/2017
+Once or twice,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Marijuana3MonthUse_OneOrTwice,Past3MonthUseFrequency_Marijuana3MonthUse,4/24/2017
+Monthly,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Marijuana3MonthUse_Monthly,Past3MonthUseFrequency_Marijuana3MonthUse,4/24/2017
+Weekly,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Marijuana3MonthUse_Weekly,Past3MonthUseFrequency_Marijuana3MonthUse,4/24/2017
+Daily or almost daily,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Marijuana3MonthUse_Daily,Past3MonthUseFrequency_Marijuana3MonthUse,4/24/2017
+"In the PAST THREE MONTHS, how often have you used Cocaine (coke, crack, etc.)",Recreational Drugs,Question,single select,http://terminology.pmi-ops.org/CodeSystem/ppi,Past3MonthUseFrequency_Cocaine3MonthUse,RecreationalDrugUse_Past3MonthUseFrequency,5/24/2017
+Never,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Cocaine3MonthUse_Never,Past3MonthUseFrequency_Cocaine3MonthUse,4/24/2017
+Once or twice,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Cocaine3MonthUse_OnceOrTwice,Past3MonthUseFrequency_Cocaine3MonthUse,4/24/2017
+Monthly,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Cocaine3MonthUse_Monthly,Past3MonthUseFrequency_Cocaine3MonthUse,4/24/2017
+Weekly,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Cocaine3MonthUse_Weekly,Past3MonthUseFrequency_Cocaine3MonthUse,4/24/2017
+Daily or almost daily,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Cocaine3MonthUse_Daily,Past3MonthUseFrequency_Cocaine3MonthUse,4/24/2017
+"In the PAST THREE MONTHS, how often have you used Prescription stimulants for non-medical reasons (Vyvanse, Ritalin, Concerta, Dexedrine, Adderall, diet pills, etc.)",Recreational Drugs,Question,single select,http://terminology.pmi-ops.org/CodeSystem/ppi,Past3MonthUseFrequency_PrescriptionStimulant3MonthUse,RecreationalDrugUse_Past3MonthUseFrequency,5/24/2017
+Never,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,PrescriptionStimulant3MonthUse_Never,Past3MonthUseFrequency_PrescriptionStimulant3MonthUse,4/24/2017
+Once or twice,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,PrescriptionStimulant3MonthUse_OnceOrTwice,Past3MonthUseFrequency_PrescriptionStimulant3MonthUse,4/24/2017
+Monthly,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,PrescriptionStimulant3MonthUse_Monthly,Past3MonthUseFrequency_PrescriptionStimulant3MonthUse,4/24/2017
+Weekly,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,PrescriptionStimulant3MonthUse_Weekly,Past3MonthUseFrequency_PrescriptionStimulant3MonthUse,4/24/2017
+Daily or almost daily,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,PrescriptionStimulant3MonthUse_Daily,Past3MonthUseFrequency_PrescriptionStimulant3MonthUse,4/24/2017
+"In the PAST THREE MONTHS, how often have you used Other stimulants (methamphetamine, speed, crystal meth, ice, k2/spice, bath salts, etc.)",Recreational Drugs,Question,single select,http://terminology.pmi-ops.org/CodeSystem/ppi,Past3MonthUseFrequency_OtherStimulant3MonthUse,RecreationalDrugUse_Past3MonthUseFrequency,5/24/2017
+Never,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,OtherStimulant3MonthUse_Never,Past3MonthUseFrequency_OtherStimulant3MonthUse,4/24/2017
+Once or twice,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,OtherStimulant3MonthUse_OnceOrTwice,Past3MonthUseFrequency_OtherStimulant3MonthUse,4/24/2017
+Monthly,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,OtherStimulant3MonthUse_Monthly,Past3MonthUseFrequency_OtherStimulant3MonthUse,4/24/2017
+Weekly,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,OtherStimulant3MonthUse_Weekly,Past3MonthUseFrequency_OtherStimulant3MonthUse,4/24/2017
+Daily or almost daily,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,OtherStimulant3MonthUse_Daily,Past3MonthUseFrequency_OtherStimulant3MonthUse,4/24/2017
+"In the PAST THREE MONTHS, how often have you used Inhalants (nitrous oxide, glue, gas, paint thinner, etc.)",Recreational Drugs,Question,single select,http://terminology.pmi-ops.org/CodeSystem/ppi,Past3MonthUseFrequency_Inhalant3MonthUse,RecreationalDrugUse_Past3MonthUseFrequency,5/24/2017
+Never,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Inhalant3MonthUse_Never,Past3MonthUseFrequency_Inhalant3MonthUse,4/24/2017
+Once or twice,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Inhalant3MonthUse_OnceOrTwice,Past3MonthUseFrequency_Inhalant3MonthUse,4/24/2017
+Monthly,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Inhalant3MonthUse_Monthly,Past3MonthUseFrequency_Inhalant3MonthUse,4/24/2017
+Weekly,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Inhalant3MonthUse_Weekly,Past3MonthUseFrequency_Inhalant3MonthUse,4/24/2017
+Daily or almost daily,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Inhalant3MonthUse_Daily,Past3MonthUseFrequency_Inhalant3MonthUse,4/24/2017
+"In the PAST THREE MONTHS, how often have you used Sedatives or sleeping pills for non-medical reasons (Valium, Serepax, Ativan, Xanax, Librium, Rohypnol, GHB, etc.)",Recreational Drugs,Question,single select,http://terminology.pmi-ops.org/CodeSystem/ppi,Past3MonthUseFrequency_Sedative3MonthUse,RecreationalDrugUse_Past3MonthUseFrequency,5/24/2017
+Never,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Sedative3MonthUse_Never,Past3MonthUseFrequency_Sedative3MonthUse,4/24/2017
+Once or twice,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Sedative3MonthUse_OnceOrTwice,Past3MonthUseFrequency_Sedative3MonthUse,4/24/2017
+Monthly,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Sedative3MonthUse_Monthly,Past3MonthUseFrequency_Sedative3MonthUse,4/24/2017
+Weekly,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Sedative3MonthUse_Weekly,Past3MonthUseFrequency_Sedative3MonthUse,4/24/2017
+Daily or almost daily,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Sedative3MonthUse_Daily,Past3MonthUseFrequency_Sedative3MonthUse,4/24/2017
+"In the PAST THREE MONTHS, how often have you used Hallucinogens (LSD, acid, mushrooms, PCP, Special K, ecstasy, etc.)",Recreational Drugs,Question,single select,http://terminology.pmi-ops.org/CodeSystem/ppi,Past3MonthUseFrequency_Hallucinogen3MonthUse,RecreationalDrugUse_Past3MonthUseFrequency,5/24/2017
+Never,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Hallucinogen3MonthUse_Never,Past3MonthUseFrequency_Hallucinogen3MonthUse,4/24/2017
+Once or twice,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Hallucinogen3MonthUse_OnceOrTwice,Past3MonthUseFrequency_Hallucinogen3MonthUse,4/24/2017
+Monthly,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Hallucinogen3MonthUse_Monthly,Past3MonthUseFrequency_Hallucinogen3MonthUse,4/24/2017
+Weekly,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Hallucinogen3MonthUse_Weekly,Past3MonthUseFrequency_Hallucinogen3MonthUse,4/24/2017
+Daily or almost daily,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Hallucinogen3MonthUse_Daily,Past3MonthUseFrequency_Hallucinogen3MonthUse,4/24/2017
+"In the PAST THREE MONTHS, how often have you used Street opioids (heroin, opium, etc.)",Recreational Drugs,Question,single select,http://terminology.pmi-ops.org/CodeSystem/ppi,Past3MonthUseFrequency_StreetOpioid3MonthUse,RecreationalDrugUse_Past3MonthUseFrequency,4/24/2017
+Never,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,StreetOpioid3MonthUse_Never,Past3MonthUseFrequency_StreetOpioid3MonthUse,4/24/2017
+Once or twice,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,StreetOpioid3MonthUse_OnceOrTwice,Past3MonthUseFrequency_StreetOpioid3MonthUse,4/24/2017
+Monthly,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,StreetOpioid3MonthUse_Monthly,Past3MonthUseFrequency_StreetOpioid3MonthUse,4/24/2017
+Weekly,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,StreetOpioid3MonthUse_Weekly,Past3MonthUseFrequency_StreetOpioid3MonthUse,4/24/2017
+Daily or almost daily,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,StreetOpioid3MonthUse_Daily,Past3MonthUseFrequency_StreetOpioid3MonthUse,4/24/2017
+"In the PAST THREE MONTHS, how often have you used Prescription opioids for non-medical reasons (obana, fentanyl, oxycodone [OxyContin, Percocet], hydrocodone [Vicodin], methadone, buprenorphine [Supoxone], etc.)",Recreational Drugs,Question,single select,http://terminology.pmi-ops.org/CodeSystem/ppi,Past3MonthUseFrequency_PrescriptionOpiod3MonthUse,RecreationalDrugUse_Past3MonthUseFrequency,5/24/2017
+Never,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,PrescriptionOpiod3MonthUse_Never,Past3MonthUseFrequency_PrescriptionOpiod3MonthUse,4/24/2017
+Once or twice,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,PrescriptionOpiod3MonthUse_OnceOrTwice,Past3MonthUseFrequency_PrescriptionOpiod3MonthUse,4/24/2017
+Monthly,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,PrescriptionOpiod3MonthUse_Monthly,Past3MonthUseFrequency_PrescriptionOpiod3MonthUse,4/24/2017
+Weekly,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,PrescriptionOpiod3MonthUse_Weekly,Past3MonthUseFrequency_PrescriptionOpiod3MonthUse,4/24/2017
+Daily or almost daily,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,PrescriptionOpiod3MonthUse_Daily,Past3MonthUseFrequency_PrescriptionOpiod3MonthUse,4/24/2017
+"In the PAST THREE MONTHS, how often have you used Other [INSERT LANGUAGE FROM SU01j]",Recreational Drugs,Question,single select,http://terminology.pmi-ops.org/CodeSystem/ppi,Past3MonthUseFrequency_Other3MonthUse,RecreationalDrugUse_Past3MonthUseFrequency,4/24/2017
+Never,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Other3MonthUse_Never,Past3MonthUseFrequency_Other3MonthUse,4/24/2017
+Once or twice,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Other3MonthUse_OnceOrTwice,Past3MonthUseFrequency_Other3MonthUse,4/24/2017
+Monthly,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Other3MonthUse_Monthly,Past3MonthUseFrequency_Other3MonthUse,4/24/2017
+Weekly,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Other3MonthUse_Weekly,Past3MonthUseFrequency_Other3MonthUse,4/24/2017
 Daily or almost daily,Recreational Drugs,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Other3MonthUse_Daily,Past3MonthUseFrequency_Other3MonthUse,4/24/2017

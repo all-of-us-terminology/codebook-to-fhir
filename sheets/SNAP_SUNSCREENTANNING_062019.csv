@@ -1,7 +1,7 @@
-Display,Topic,Type,PMI System,PMI Code,Parent code,Date of Last Update
-June Snap Questions 1,Module Name,Module Name,http://terminology.pmi-ops.org/CodeSystem/ppi,SNAP_SUNSCREENTANNING_062019,,05/25/2019
+Display,Topic,Type,PMI System,PMI Code,Parent code,Date of Last Update
+June Snap Questions 1,Module Name,Module Name,http://terminology.pmi-ops.org/CodeSystem/ppi,SNAP_SUNSCREENTANNING_062019,,05/25/2019
 "I go tanning _____.
-",Sunscreen,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,Snap_Tanning,SNAP_SUNSCREENTANNING_062019,05/25/2019
-often,Sunscreen,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,Tanning_Often,Snap_Tanning,05/25/2019
-sometimes,Sunscreen,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,Tanning_Sometimes,Snap_Tanning,05/25/2019
+",Sunscreen,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,Snap_Tanning,SNAP_SUNSCREENTANNING_062019,05/25/2019
+often,Sunscreen,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,Tanning_Often,Snap_Tanning,05/25/2019
+sometimes,Sunscreen,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,Tanning_Sometimes,Snap_Tanning,05/25/2019
 never,Sunscreen,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,Tanning_Never,Snap_Tanning,05/25/2019

@@ -1,0 +1,6 @@
+Display,Topic,Type,PMI System,PMI Code,Parent code,Date of Last Update
+December Snap Questions 1,Module Name,Module Name,http://terminology.pmi-ops.org/CodeSystem/ppi,SNAP_NUTRITIONMEAT_122019,,11/25/2019
+I ____ eat meat.,Nutrition (diets),Question,http://terminology.pmi-ops.org/CodeSystem/ppi,Snap_NutritionMeat,SNAP_NUTRITIONMEAT_122019,11/25/2019
+always,Nutrition (diets),Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,NutritionMeat_EatAlways,Snap_NutritionMeat,11/25/2019
+sometimes,Nutrition (diets),Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,NutritionMeat_EatSometimes,Snap_NutritionMeat,11/25/2019
+never,Nutrition (diets),Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,NutritionMeat_EatNever,Snap_NutritionMeat,11/25/2019

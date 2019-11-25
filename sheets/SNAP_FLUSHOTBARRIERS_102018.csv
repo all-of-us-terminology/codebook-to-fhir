@@ -1,6 +1,6 @@
-Display,Topic,Type,PMI System,PMI Code,Parent code,Date of Last Update
-October Snap Questions 3,Module Name,Module Name,http://terminology.pmi-ops.org/CodeSystem/ppi,SNAP_FLUSHOTBARRIERS_102018,,05/25/2019
-I would get a flu shot ___.,Flu shot barriers,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,Snap_FluShotBarrier,SNAP_FLUSHOTBARRIERS_102018,05/25/2019
-if it was free,Flu shot barriers,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,FluShotBarrier_IfFree,Snap_FluShotBarrier,05/25/2019
-if it was more convenient,Flu shot barriers,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,FluShotBarrier_Convenient,Snap_FluShotBarrier,05/25/2019
+Display,Topic,Type,PMI System,PMI Code,Parent code,Date of Last Update
+October Snap Questions 3,Module Name,Module Name,http://terminology.pmi-ops.org/CodeSystem/ppi,SNAP_FLUSHOTBARRIERS_102018,,05/25/2019
+I would get a flu shot ___.,Flu shot barriers,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,Snap_FluShotBarrier,SNAP_FLUSHOTBARRIERS_102018,05/25/2019
+if it was free,Flu shot barriers,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,FluShotBarrier_IfFree,Snap_FluShotBarrier,05/25/2019
+if it was more convenient,Flu shot barriers,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,FluShotBarrier_Convenient,Snap_FluShotBarrier,05/25/2019
 never,Flu shot barriers,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,FluShotBarrier_Never,Snap_FluShotBarrier,05/25/2019

@@ -1,298 +1,298 @@
-Display,Topic,Type,Answer Type,PMI System,PMI Code,Parent code,Date of Last Update
-Healthcare Access & Utilization,Module Name,Module Name,,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthcareAccess,,4/19/2018
-Insurance,Insurance,Topic,,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthcareAccess_Insurance,HealthcareAccess,1/31/2018
-"DURING THE PAST 12 MONTHS, were you told by a health care provider or doctor’s office that they did not accept your health care coverage? ",Insurance,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,Insurance_InsuranceAccepted,HealthcareAccess_Insurance,1/31/2018
-Yes,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,InsuranceAccepted_Yes,Insurance_InsuranceAccepted,1/31/2018
-No,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,InsuranceAccepted_No,Insurance_InsuranceAccepted,1/31/2018
+Display,Topic,Type,Answer Type,PMI System,PMI Code,Parent code,Date of Last Update
+Healthcare Access & Utilization,Module Name,Module Name,,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthcareAccess,,4/19/2018
+Insurance,Insurance,Topic,,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthcareAccess_Insurance,HealthcareAccess,1/31/2018
+"DURING THE PAST 12 MONTHS, were you told by a health care provider or doctor’s office that they did not accept your health care coverage? ",Insurance,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,Insurance_InsuranceAccepted,HealthcareAccess_Insurance,1/31/2018
+Yes,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,InsuranceAccepted_Yes,Insurance_InsuranceAccepted,1/31/2018
+No,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,InsuranceAccepted_No,Insurance_InsuranceAccepted,1/31/2018
 "In regard to your health insurance or health care coverage, how does it compare to a year ago? Is it better, worse, or about the same?
-",Insurance,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,Insurance_HealthcareCoverage,HealthcareAccess_Insurance,1/31/2018
-Better,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthcareCoverage_Better,Insurance_HealthcareCoverage,1/31/2018
-Worse,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthcareCoverage_Worse,Insurance_HealthcareCoverage,1/31/2018
-About the same,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthcareCoverage_AboutTheSame,Insurance_HealthcareCoverage,1/31/2018
-Health Advice,Insurance,Topic,,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthcareAccess_HealthAdvice,HealthcareAccess,1/31/2018
-Is there a place that you USUALLY go to when you are sick or need advice about your health? ,Insurance,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthAdvice_PlaceforHealthAdvice,HealthcareAccess_HealthAdvice,1/31/2018
-Yes,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,PlaceforHealthAdvice_Yes,HealthAdvice_PlaceforHealthAdvice,1/31/2018
-There is NO place,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,PlaceforHealthAdvice_No,HealthAdvice_PlaceforHealthAdvice,1/31/2018
-There is MORE THAN ONE place,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,PlaceforHealthAdvice_MoreThanOne,HealthAdvice_PlaceforHealthAdvice,1/31/2018
-What kind of place do you go to most often? ,Insurance,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthAdvice_WhatKindOfPlace,HealthcareAccess_HealthAdvice,1/31/2018
-"Doctor’s Office, Clinic or Health Center",Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,WhatKindOfPlace_DoctorsOffice,HealthAdvice_WhatKindOfPlace,1/31/2018
-Urgent Care or Minute Clinic,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,WhatKindOfPlace_UrgentCare,HealthAdvice_WhatKindOfPlace,1/31/2018
-Hospital Emergency Room,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,WhatKindOfPlace_EmergencyRoom,HealthAdvice_WhatKindOfPlace,1/31/2018
-Some other place,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,WhatKindOfPlace_SomeOtherPlace,HealthAdvice_WhatKindOfPlace,1/31/2018
-Don't go to one place most often,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,WhatKindOfPlace_NoOnePlaceMostOften,HealthAdvice_WhatKindOfPlace,1/31/2018
+",Insurance,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,Insurance_HealthcareCoverage,HealthcareAccess_Insurance,1/31/2018
+Better,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthcareCoverage_Better,Insurance_HealthcareCoverage,1/31/2018
+Worse,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthcareCoverage_Worse,Insurance_HealthcareCoverage,1/31/2018
+About the same,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthcareCoverage_AboutTheSame,Insurance_HealthcareCoverage,1/31/2018
+Health Advice,Insurance,Topic,,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthcareAccess_HealthAdvice,HealthcareAccess,1/31/2018
+Is there a place that you USUALLY go to when you are sick or need advice about your health? ,Insurance,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthAdvice_PlaceforHealthAdvice,HealthcareAccess_HealthAdvice,1/31/2018
+Yes,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,PlaceforHealthAdvice_Yes,HealthAdvice_PlaceforHealthAdvice,1/31/2018
+There is NO place,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,PlaceforHealthAdvice_No,HealthAdvice_PlaceforHealthAdvice,1/31/2018
+There is MORE THAN ONE place,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,PlaceforHealthAdvice_MoreThanOne,HealthAdvice_PlaceforHealthAdvice,1/31/2018
+What kind of place do you go to most often? ,Insurance,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthAdvice_WhatKindOfPlace,HealthcareAccess_HealthAdvice,1/31/2018
+"Doctor’s Office, Clinic or Health Center",Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,WhatKindOfPlace_DoctorsOffice,HealthAdvice_WhatKindOfPlace,1/31/2018
+Urgent Care or Minute Clinic,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,WhatKindOfPlace_UrgentCare,HealthAdvice_WhatKindOfPlace,1/31/2018
+Hospital Emergency Room,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,WhatKindOfPlace_EmergencyRoom,HealthAdvice_WhatKindOfPlace,1/31/2018
+Some other place,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,WhatKindOfPlace_SomeOtherPlace,HealthAdvice_WhatKindOfPlace,1/31/2018
+Don't go to one place most often,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,WhatKindOfPlace_NoOnePlaceMostOften,HealthAdvice_WhatKindOfPlace,1/31/2018
 "About how long has it been since you last saw or talked to a doctor or other health care 
-professional about your own health? ",Insurance,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthAdvice_SpokenToProfessional,HealthcareAccess_HealthAdvice,1/31/2018
-Never,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenToProfessional_Never,HealthAdvice_SpokenToProfessional,1/31/2018
-6 months or less,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenToProfessional_6moOrLess,HealthAdvice_SpokenToProfessional,1/31/2018
-"More than 6 mos, but not more than 1 yr ago",Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenToProfessional_6MoTo1YearAgo,HealthAdvice_SpokenToProfessional,1/31/2018
-"More than 1 yr, but not more than 2 yrs ago ",Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenToProfessional_1To2YearsAgo,HealthAdvice_SpokenToProfessional,1/31/2018
-"More than 2 yrs, but not more than 5 yrs ago ",Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenToProfessional_2To5YearsAgo,HealthAdvice_SpokenToProfessional,1/31/2018
-More than 5 years ago ,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenToProfessional_MoreThan5YearsAgo,HealthAdvice_SpokenToProfessional,1/31/2018
+professional about your own health? ",Insurance,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthAdvice_SpokenToProfessional,HealthcareAccess_HealthAdvice,1/31/2018
+Never,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenToProfessional_Never,HealthAdvice_SpokenToProfessional,1/31/2018
+6 months or less,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenToProfessional_6moOrLess,HealthAdvice_SpokenToProfessional,1/31/2018
+"More than 6 mos, but not more than 1 yr ago",Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenToProfessional_6MoTo1YearAgo,HealthAdvice_SpokenToProfessional,1/31/2018
+"More than 1 yr, but not more than 2 yrs ago ",Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenToProfessional_1To2YearsAgo,HealthAdvice_SpokenToProfessional,1/31/2018
+"More than 2 yrs, but not more than 5 yrs ago ",Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenToProfessional_2To5YearsAgo,HealthAdvice_SpokenToProfessional,1/31/2018
+More than 5 years ago ,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenToProfessional_MoreThan5YearsAgo,HealthAdvice_SpokenToProfessional,1/31/2018
 "DURING THE PAST 12 MONTHS, have you seen or talked to any of the following health care providers about your own health? ...A general doctor who treats a variety of illnesses (a physician in general practice, primary care, family medicine, or internal medicine)? 
-",Insurance,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthAdvice_SpokenToGeneralDoctor,HealthcareAccess_HealthAdvice,1/31/2018
-Yes,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenToGeneralDoctor_Yes,HealthAdvice_SpokenToGeneralDoctor,1/31/2018
-No,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenToGeneralDoctor_No,HealthAdvice_SpokenToGeneralDoctor,1/31/2018
+",Insurance,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthAdvice_SpokenToGeneralDoctor,HealthcareAccess_HealthAdvice,1/31/2018
+Yes,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenToGeneralDoctor_Yes,HealthAdvice_SpokenToGeneralDoctor,1/31/2018
+No,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenToGeneralDoctor_No,HealthAdvice_SpokenToGeneralDoctor,1/31/2018
 "What is the total number of general doctor visits you made in the last 12 months
-",Insurance,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthAdvice_GeneralDoctorVisits,HealthcareAccess_HealthAdvice,1/31/2018
-1,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,GeneralDoctorVisits_1,HealthAdvice_GeneralDoctorVisits,1/31/2018
-2-3,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,GeneralDoctorVisits_2to3,HealthAdvice_GeneralDoctorVisits,1/31/2018
-4-5,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,GeneralDoctorVisits_4to5,HealthAdvice_GeneralDoctorVisits,1/31/2018
-6-7,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,GeneralDoctorVisits_6to7,HealthAdvice_GeneralDoctorVisits,1/31/2018
-8-9,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,GeneralDoctorVisits_8to9,HealthAdvice_GeneralDoctorVisits,1/31/2018
-10-12,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,GeneralDoctorVisits_10to12,HealthAdvice_GeneralDoctorVisits,1/31/2018
-13-15,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,GeneralDoctorVisits_13to15,HealthAdvice_GeneralDoctorVisits,1/31/2018
-16 or more,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,GeneralDoctorVisits_16orMore,HealthAdvice_GeneralDoctorVisits,1/31/2018
-"DURING THE PAST 12 MONTHS, have you seen or talked to any of the following health care providers about your own health? ...A nurse practitioner, physician assistant, or midwife ",Insurance,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthAdvice_SpokenToNursePractitioner,HealthcareAccess_HealthAdvice,1/31/2018
-Yes,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenToNursePractitioner_Yes,HealthAdvice_SpokenToNursePractitioner,1/31/2018
-No,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenToNursePractitioner_No,HealthAdvice_SpokenToNursePractitioner,1/31/2018
-"What is the total number of nurse practitioner, physician assistant, or midwife visits you made in the last 12 months",Insurance,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthAdvice_NursePractitionerVisits,HealthcareAccess_HealthAdvice,1/31/2018
-1,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,NursePractitionerVisits_1,HealthAdvice_NursePractitionerVisits,1/31/2018
-2-3,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,NursePractitionerVisits_2to3,HealthAdvice_NursePractitionerVisits,1/31/2018
-4-5,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,NursePractitionerVisits_4to5,HealthAdvice_NursePractitionerVisits,1/31/2018
-6-7,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,NursePractitionerVisits_6to7,HealthAdvice_NursePractitionerVisits,1/31/2018
-8-9,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,NursePractitionerVisits_8to9,HealthAdvice_NursePractitionerVisits,1/31/2018
-10-12,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,NursePractitionerVisits_10to12,HealthAdvice_NursePractitionerVisits,1/31/2018
-13-15,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,NursePractitionerVisits_13to15,HealthAdvice_NursePractitionerVisits,1/31/2018
-16 or more,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,NursePractitionerVisits_16orMore,HealthAdvice_NursePractitionerVisits,1/31/2018
-"DURING THE PAST 12 MONTHS, have you seen or talked to any of the following health care providers about your own health? ...A doctor who specializes in women's health (an obstetrician/gynecologist) ",Insurance,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthAdvice_SpokenToOBGYN,HealthcareAccess_HealthAdvice,1/31/2018
-Yes,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenToOBGYN_Yes,HealthAdvice_SpokenToOBGYN,1/31/2018
-No,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenToOBGYN_No,HealthAdvice_SpokenToOBGYN,1/31/2018
-What is the total number visits to a doctor who specializes in women's health that you made in the last 12 months,Insurance,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthAdvice_OBGYNVisits,HealthcareAccess_HealthAdvice,1/31/2018
-1,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,OBGYNVisits_1,HealthAdvice_OBGYNVisits,1/31/2018
-2-3,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,OBGYNVisits_2to3,HealthAdvice_OBGYNVisits,1/31/2018
-4-5,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,OBGYNVisits_4to5,HealthAdvice_OBGYNVisits,1/31/2018
-6-7,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,OBGYNVisits_6to7,HealthAdvice_OBGYNVisits,1/31/2018
-8-9,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,OBGYNVisits_8to9,HealthAdvice_OBGYNVisits,1/31/2018
-10-12,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,OBGYNVisits_10to12,HealthAdvice_OBGYNVisits,1/31/2018
-13-15,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,OBGYNVisits_13to15,HealthAdvice_OBGYNVisits,1/31/2018
-16 or more,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,OBGYNVisits_16orMore,HealthAdvice_OBGYNVisits,1/31/2018
-"DURING THE PAST 12 MONTHS, have you seen or talked to any of the following health care providers about your own health?...A mental health professional such as a psychiatrist, psychologist, psychiatric nurse, or clinical social worker ",Insurance,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthAdvice_SpokenToMentalHealthProfessional,HealthcareAccess_HealthAdvice,1/31/2018
-Yes,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenToMentalHealthProfessional_Yes,HealthAdvice_SpokenToMentalHealthProfessional,1/31/2018
-No,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenToMentalHealthProfessional_No,HealthAdvice_SpokenToMentalHealthProfessional,1/31/2018
-What is the total number visits to a mental health professional that you made in the last 12 months,Insurance,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthAdvice_MentalHealthProfessionalVisits,HealthcareAccess_HealthAdvice,1/31/2018
-1,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,MentalHealthProfessionalVisits_1,HealthAdvice_MentalHealthProfessionalVisits,1/31/2018
-2-3,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,MentalHealthProfessionalVisits_2to3,HealthAdvice_MentalHealthProfessionalVisits,1/31/2018
-4-5,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,MentalHealthProfessionalVisits_4to5,HealthAdvice_MentalHealthProfessionalVisits,1/31/2018
-6-7,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,MentalHealthProfessionalVisits_6to7,HealthAdvice_MentalHealthProfessionalVisits,1/31/2018
-8-9,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,MentalHealthProfessionalVisits_8to9,HealthAdvice_MentalHealthProfessionalVisits,1/31/2018
-10-12,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,MentalHealthProfessionalVisits_10to12,HealthAdvice_MentalHealthProfessionalVisits,1/31/2018
-13-15,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,MentalHealthProfessionalVisits_13to15,HealthAdvice_MentalHealthProfessionalVisits,1/31/2018
-16 or more,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,MentalHealthProfessionalVisits_16orMore,HealthAdvice_MentalHealthProfessionalVisits,1/31/2018
-"DURING THE PAST 12 MONTHS, have you seen or talked to any of the following health care providers about your own health?...An optometrist, ophthalmologist, or eye doctor (someone who prescribes eyeglasses) ",Insurance,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthAdvice_SpokenToEyeDoctor,HealthcareAccess_HealthAdvice,1/31/2018
-Yes,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenToEyeDoctor_Yes,HealthAdvice_SpokenToEyeDoctor,1/31/2018
-No,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenToEyeDoctor_No,HealthAdvice_SpokenToEyeDoctor,1/31/2018
+",Insurance,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthAdvice_GeneralDoctorVisits,HealthcareAccess_HealthAdvice,1/31/2018
+1,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,GeneralDoctorVisits_1,HealthAdvice_GeneralDoctorVisits,1/31/2018
+2-3,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,GeneralDoctorVisits_2to3,HealthAdvice_GeneralDoctorVisits,1/31/2018
+4-5,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,GeneralDoctorVisits_4to5,HealthAdvice_GeneralDoctorVisits,1/31/2018
+6-7,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,GeneralDoctorVisits_6to7,HealthAdvice_GeneralDoctorVisits,1/31/2018
+8-9,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,GeneralDoctorVisits_8to9,HealthAdvice_GeneralDoctorVisits,1/31/2018
+10-12,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,GeneralDoctorVisits_10to12,HealthAdvice_GeneralDoctorVisits,1/31/2018
+13-15,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,GeneralDoctorVisits_13to15,HealthAdvice_GeneralDoctorVisits,1/31/2018
+16 or more,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,GeneralDoctorVisits_16orMore,HealthAdvice_GeneralDoctorVisits,1/31/2018
+"DURING THE PAST 12 MONTHS, have you seen or talked to any of the following health care providers about your own health? ...A nurse practitioner, physician assistant, or midwife ",Insurance,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthAdvice_SpokenToNursePractitioner,HealthcareAccess_HealthAdvice,1/31/2018
+Yes,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenToNursePractitioner_Yes,HealthAdvice_SpokenToNursePractitioner,1/31/2018
+No,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenToNursePractitioner_No,HealthAdvice_SpokenToNursePractitioner,1/31/2018
+"What is the total number of nurse practitioner, physician assistant, or midwife visits you made in the last 12 months",Insurance,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthAdvice_NursePractitionerVisits,HealthcareAccess_HealthAdvice,1/31/2018
+1,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,NursePractitionerVisits_1,HealthAdvice_NursePractitionerVisits,1/31/2018
+2-3,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,NursePractitionerVisits_2to3,HealthAdvice_NursePractitionerVisits,1/31/2018
+4-5,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,NursePractitionerVisits_4to5,HealthAdvice_NursePractitionerVisits,1/31/2018
+6-7,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,NursePractitionerVisits_6to7,HealthAdvice_NursePractitionerVisits,1/31/2018
+8-9,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,NursePractitionerVisits_8to9,HealthAdvice_NursePractitionerVisits,1/31/2018
+10-12,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,NursePractitionerVisits_10to12,HealthAdvice_NursePractitionerVisits,1/31/2018
+13-15,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,NursePractitionerVisits_13to15,HealthAdvice_NursePractitionerVisits,1/31/2018
+16 or more,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,NursePractitionerVisits_16orMore,HealthAdvice_NursePractitionerVisits,1/31/2018
+"DURING THE PAST 12 MONTHS, have you seen or talked to any of the following health care providers about your own health? ...A doctor who specializes in women's health (an obstetrician/gynecologist) ",Insurance,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthAdvice_SpokenToOBGYN,HealthcareAccess_HealthAdvice,1/31/2018
+Yes,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenToOBGYN_Yes,HealthAdvice_SpokenToOBGYN,1/31/2018
+No,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenToOBGYN_No,HealthAdvice_SpokenToOBGYN,1/31/2018
+What is the total number visits to a doctor who specializes in women's health that you made in the last 12 months,Insurance,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthAdvice_OBGYNVisits,HealthcareAccess_HealthAdvice,1/31/2018
+1,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,OBGYNVisits_1,HealthAdvice_OBGYNVisits,1/31/2018
+2-3,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,OBGYNVisits_2to3,HealthAdvice_OBGYNVisits,1/31/2018
+4-5,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,OBGYNVisits_4to5,HealthAdvice_OBGYNVisits,1/31/2018
+6-7,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,OBGYNVisits_6to7,HealthAdvice_OBGYNVisits,1/31/2018
+8-9,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,OBGYNVisits_8to9,HealthAdvice_OBGYNVisits,1/31/2018
+10-12,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,OBGYNVisits_10to12,HealthAdvice_OBGYNVisits,1/31/2018
+13-15,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,OBGYNVisits_13to15,HealthAdvice_OBGYNVisits,1/31/2018
+16 or more,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,OBGYNVisits_16orMore,HealthAdvice_OBGYNVisits,1/31/2018
+"DURING THE PAST 12 MONTHS, have you seen or talked to any of the following health care providers about your own health?...A mental health professional such as a psychiatrist, psychologist, psychiatric nurse, or clinical social worker ",Insurance,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthAdvice_SpokenToMentalHealthProfessional,HealthcareAccess_HealthAdvice,1/31/2018
+Yes,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenToMentalHealthProfessional_Yes,HealthAdvice_SpokenToMentalHealthProfessional,1/31/2018
+No,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenToMentalHealthProfessional_No,HealthAdvice_SpokenToMentalHealthProfessional,1/31/2018
+What is the total number visits to a mental health professional that you made in the last 12 months,Insurance,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthAdvice_MentalHealthProfessionalVisits,HealthcareAccess_HealthAdvice,1/31/2018
+1,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,MentalHealthProfessionalVisits_1,HealthAdvice_MentalHealthProfessionalVisits,1/31/2018
+2-3,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,MentalHealthProfessionalVisits_2to3,HealthAdvice_MentalHealthProfessionalVisits,1/31/2018
+4-5,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,MentalHealthProfessionalVisits_4to5,HealthAdvice_MentalHealthProfessionalVisits,1/31/2018
+6-7,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,MentalHealthProfessionalVisits_6to7,HealthAdvice_MentalHealthProfessionalVisits,1/31/2018
+8-9,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,MentalHealthProfessionalVisits_8to9,HealthAdvice_MentalHealthProfessionalVisits,1/31/2018
+10-12,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,MentalHealthProfessionalVisits_10to12,HealthAdvice_MentalHealthProfessionalVisits,1/31/2018
+13-15,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,MentalHealthProfessionalVisits_13to15,HealthAdvice_MentalHealthProfessionalVisits,1/31/2018
+16 or more,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,MentalHealthProfessionalVisits_16orMore,HealthAdvice_MentalHealthProfessionalVisits,1/31/2018
+"DURING THE PAST 12 MONTHS, have you seen or talked to any of the following health care providers about your own health?...An optometrist, ophthalmologist, or eye doctor (someone who prescribes eyeglasses) ",Insurance,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthAdvice_SpokenToEyeDoctor,HealthcareAccess_HealthAdvice,1/31/2018
+Yes,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenToEyeDoctor_Yes,HealthAdvice_SpokenToEyeDoctor,1/31/2018
+No,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenToEyeDoctor_No,HealthAdvice_SpokenToEyeDoctor,1/31/2018
 "What is the total number visits to an eye doctor that you made in the last 12 months
-",Insurance,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthAdvice_EyeDoctorVisits,HealthcareAccess_HealthAdvice,1/31/2018
-1,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,EyeDoctorVisits_1,HealthAdvice_EyeDoctorVisits,1/31/2018
-2-3,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,EyeDoctorVisits_2to3,HealthAdvice_EyeDoctorVisits,1/31/2018
-4-5,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,EyeDoctorVisits_4to5,HealthAdvice_EyeDoctorVisits,1/31/2018
-6-7,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,EyeDoctorVisits_6to7,HealthAdvice_EyeDoctorVisits,1/31/2018
-8-9,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,EyeDoctorVisits_8to9,HealthAdvice_EyeDoctorVisits,1/31/2018
-10-12,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,EyeDoctorVisits_10to12,HealthAdvice_EyeDoctorVisits,1/31/2018
-13-15,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,EyeDoctorVisits_13to15,HealthAdvice_EyeDoctorVisits,1/31/2018
-16 or more,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,EyeDoctorVisits_16orMore,HealthAdvice_EyeDoctorVisits,1/31/2018
-"DURING THE PAST 12 MONTHS, have you seen or talked to any of the following health care providers about your own health?....A podiatrist or foot doctor ",Insurance,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthAdvice_SpokenToPodiatrist,HealthcareAccess_HealthAdvice,1/31/2018
-Yes,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenToPodiatrist_Yes,HealthAdvice_SpokenToPodiatrist,1/31/2018
-No,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenToPodiatrist_No,HealthAdvice_SpokenToPodiatrist,1/31/2018
+",Insurance,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthAdvice_EyeDoctorVisits,HealthcareAccess_HealthAdvice,1/31/2018
+1,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,EyeDoctorVisits_1,HealthAdvice_EyeDoctorVisits,1/31/2018
+2-3,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,EyeDoctorVisits_2to3,HealthAdvice_EyeDoctorVisits,1/31/2018
+4-5,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,EyeDoctorVisits_4to5,HealthAdvice_EyeDoctorVisits,1/31/2018
+6-7,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,EyeDoctorVisits_6to7,HealthAdvice_EyeDoctorVisits,1/31/2018
+8-9,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,EyeDoctorVisits_8to9,HealthAdvice_EyeDoctorVisits,1/31/2018
+10-12,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,EyeDoctorVisits_10to12,HealthAdvice_EyeDoctorVisits,1/31/2018
+13-15,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,EyeDoctorVisits_13to15,HealthAdvice_EyeDoctorVisits,1/31/2018
+16 or more,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,EyeDoctorVisits_16orMore,HealthAdvice_EyeDoctorVisits,1/31/2018
+"DURING THE PAST 12 MONTHS, have you seen or talked to any of the following health care providers about your own health?....A podiatrist or foot doctor ",Insurance,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthAdvice_SpokenToPodiatrist,HealthcareAccess_HealthAdvice,1/31/2018
+Yes,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenToPodiatrist_Yes,HealthAdvice_SpokenToPodiatrist,1/31/2018
+No,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenToPodiatrist_No,HealthAdvice_SpokenToPodiatrist,1/31/2018
 "What is the total number visits to a foot doctor that you made in the last 12 months
-",Insurance,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthAdvice_PodiatristVisits,HealthcareAccess_HealthAdvice,1/31/2018
-1,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,PodiatristVisits_1,HealthAdvice_PodiatristVisits,1/31/2018
-2-3,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,PodiatristVisits_2to3,HealthAdvice_PodiatristVisits,1/31/2018
-4-5,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,PodiatristVisits_4to5,HealthAdvice_PodiatristVisits,1/31/2018
-6-7,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,PodiatristVisits_6to7,HealthAdvice_PodiatristVisits,1/31/2018
-8-9,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,PodiatristVisits_8to9,HealthAdvice_PodiatristVisits,1/31/2018
-10-12,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,PodiatristVisits_10to12,HealthAdvice_PodiatristVisits,1/31/2018
-13-15,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,PodiatristVisits_13to15,HealthAdvice_PodiatristVisits,1/31/2018
-16 or more,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,PodiatristVisits_16orMore,HealthAdvice_PodiatristVisits,1/31/2018
-"DURING THE PAST 12 MONTHS, have you seen or talked to any of the following health care providers about your own health?...A chiropractor ",Insurance,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthAdvice_SpokenToChiropractor,HealthcareAccess_HealthAdvice,1/31/2018
-Yes,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenToChiropractor_Yes,HealthAdvice_SpokenToChiropractor,1/31/2018
-No,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenToChiropractor_No,HealthAdvice_SpokenToChiropractor,1/31/2018
+",Insurance,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthAdvice_PodiatristVisits,HealthcareAccess_HealthAdvice,1/31/2018
+1,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,PodiatristVisits_1,HealthAdvice_PodiatristVisits,1/31/2018
+2-3,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,PodiatristVisits_2to3,HealthAdvice_PodiatristVisits,1/31/2018
+4-5,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,PodiatristVisits_4to5,HealthAdvice_PodiatristVisits,1/31/2018
+6-7,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,PodiatristVisits_6to7,HealthAdvice_PodiatristVisits,1/31/2018
+8-9,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,PodiatristVisits_8to9,HealthAdvice_PodiatristVisits,1/31/2018
+10-12,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,PodiatristVisits_10to12,HealthAdvice_PodiatristVisits,1/31/2018
+13-15,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,PodiatristVisits_13to15,HealthAdvice_PodiatristVisits,1/31/2018
+16 or more,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,PodiatristVisits_16orMore,HealthAdvice_PodiatristVisits,1/31/2018
+"DURING THE PAST 12 MONTHS, have you seen or talked to any of the following health care providers about your own health?...A chiropractor ",Insurance,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthAdvice_SpokenToChiropractor,HealthcareAccess_HealthAdvice,1/31/2018
+Yes,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenToChiropractor_Yes,HealthAdvice_SpokenToChiropractor,1/31/2018
+No,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenToChiropractor_No,HealthAdvice_SpokenToChiropractor,1/31/2018
 "What is the total number visits to a chiropractor that you made in the last 12 months
-",Insurance,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthAdvice_ChiropractorVisits,HealthcareAccess_HealthAdvice,1/31/2018
-1,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,ChiropractorVisits_1,HealthAdvice_ChiropractorVisits,1/31/2018
-2-3,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,ChiropractorVisits_2to3,HealthAdvice_ChiropractorVisits,1/31/2018
-4-5,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,ChiropractorVisits_4to5,HealthAdvice_ChiropractorVisits,1/31/2018
-6-7,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,ChiropractorVisits_6to7,HealthAdvice_ChiropractorVisits,1/31/2018
-8-9,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,ChiropractorVisits_8to9,HealthAdvice_ChiropractorVisits,1/31/2018
-10-12,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,ChiropractorVisits_10to12,HealthAdvice_ChiropractorVisits,1/31/2018
-13-15,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,ChiropractorVisits_13to15,HealthAdvice_ChiropractorVisits,1/31/2018
-16 or more,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,ChiropractorVisits_16orMore,HealthAdvice_ChiropractorVisits,1/31/2018
-"DURING THE PAST 12 MONTHS, have you seen or talked to any of the following health care providers about your own health?...A physical therapist, speech therapist, respiratory therapist, audiologist, or occupational therapist ",Insurance,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthAdvice_SpokenToPhysicalTherapist,HealthcareAccess_HealthAdvice,1/31/2018
-Yes,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenToPhysicalTherapist_Yes,HealthAdvice_SpokenToPhysicalTherapist,1/31/2018
-No,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenToPhysicalTherapist_No,HealthAdvice_SpokenToPhysicalTherapist,1/31/2018
+",Insurance,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthAdvice_ChiropractorVisits,HealthcareAccess_HealthAdvice,1/31/2018
+1,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,ChiropractorVisits_1,HealthAdvice_ChiropractorVisits,1/31/2018
+2-3,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,ChiropractorVisits_2to3,HealthAdvice_ChiropractorVisits,1/31/2018
+4-5,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,ChiropractorVisits_4to5,HealthAdvice_ChiropractorVisits,1/31/2018
+6-7,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,ChiropractorVisits_6to7,HealthAdvice_ChiropractorVisits,1/31/2018
+8-9,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,ChiropractorVisits_8to9,HealthAdvice_ChiropractorVisits,1/31/2018
+10-12,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,ChiropractorVisits_10to12,HealthAdvice_ChiropractorVisits,1/31/2018
+13-15,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,ChiropractorVisits_13to15,HealthAdvice_ChiropractorVisits,1/31/2018
+16 or more,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,ChiropractorVisits_16orMore,HealthAdvice_ChiropractorVisits,1/31/2018
+"DURING THE PAST 12 MONTHS, have you seen or talked to any of the following health care providers about your own health?...A physical therapist, speech therapist, respiratory therapist, audiologist, or occupational therapist ",Insurance,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthAdvice_SpokenToPhysicalTherapist,HealthcareAccess_HealthAdvice,1/31/2018
+Yes,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenToPhysicalTherapist_Yes,HealthAdvice_SpokenToPhysicalTherapist,1/31/2018
+No,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenToPhysicalTherapist_No,HealthAdvice_SpokenToPhysicalTherapist,1/31/2018
 "What is the total number visits to a physical therapist, speech therapist, respiratory therapist, audiologist, or occupational therapist that you made in the last 12 months
-",Insurance,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthAdvice_PhysicalTherapistVisits,HealthcareAccess_HealthAdvice,1/31/2018
-1,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,PhysicalTherapistVisits_1,HealthAdvice_PhysicalTherapistVisits,1/31/2018
-2-3,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,PhysicalTherapistVisits_2to3,HealthAdvice_PhysicalTherapistVisits,1/31/2018
-4-5,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,PhysicalTherapistVisits_4to5,HealthAdvice_PhysicalTherapistVisits,1/31/2018
-6-7,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,PhysicalTherapistVisits_6to7,HealthAdvice_PhysicalTherapistVisits,1/31/2018
-8-9,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,PhysicalTherapistVisits_8to9,HealthAdvice_PhysicalTherapistVisits,1/31/2018
-10-12,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,PhysicalTherapistVisits_10to12,HealthAdvice_PhysicalTherapistVisits,1/31/2018
-13-15,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,PhysicalTherapistVisits_13to15,HealthAdvice_PhysicalTherapistVisits,1/31/2018
-16 or more,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,PhysicalTherapistVisits_16orMore,HealthAdvice_PhysicalTherapistVisits,1/31/2018
-"DURING THE PAST 12 MONTHS, have you seen or talked to any of the following health care providers about your own health?...A dentist or orthodontist ",Insurance,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthAdvice_SpokenToDentist,HealthcareAccess_HealthAdvice,1/31/2018
-Yes,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenToDentist_Yes,HealthAdvice_SpokenToDentist,1/31/2018
-No,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenToDentist_No,HealthAdvice_SpokenToDentist,1/31/2018
-What is the total number visits to a dentist or orthodontist that you made in the last 12 months,Insurance,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthAdvice_DentistVisits,HealthcareAccess_HealthAdvice,1/31/2018
-1,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,DentistVisits_1,HealthAdvice_DentistVisits,1/31/2018
-2-3,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,DentistVisits_2to3,HealthAdvice_DentistVisits,1/31/2018
-4-5,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,DentistVisits_4to5,HealthAdvice_DentistVisits,1/31/2018
-6-7,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,DentistVisits_6to7,HealthAdvice_DentistVisits,1/31/2018
-8-9,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,DentistVisits_8to9,HealthAdvice_DentistVisits,1/31/2018
-10-12,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,DentistVisits_10to12,HealthAdvice_DentistVisits,1/31/2018
-13-15,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,DentistVisits_13to15,HealthAdvice_DentistVisits,1/31/2018
-16 or more,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,DentistVisits_16orMore,HealthAdvice_DentistVisits,1/31/2018
-"DURING THE PAST 12 MONTHS, have you seen or talked to any of the following health care providers about your own health?...A medical doctor who specializes in a particular medical disease or problem (other than obstetrician/gynecologist, psychiatrist, or ophthalmologist",Insurance,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthAdvice_SpokenToMedicalSpecialist,HealthcareAccess_HealthAdvice,1/31/2018
-Yes,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenToMedicalSpecialist_Yes,HealthAdvice_SpokenToMedicalSpecialist,1/31/2018
-No,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenToMedicalSpecialist_No,HealthAdvice_SpokenToMedicalSpecialist,1/31/2018
-What is the total number visits to a medical doctor who specializes in a particular medical disease or problem that you made in the last 12 months,Insurance,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthAdvice_MedicalSpecialistVisits,HealthcareAccess_HealthAdvice,1/31/2018
-1,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,MedicalSpecialistVisits_1,HealthAdvice_MedicalSpecialistVisits,1/31/2018
-2-3,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,MedicalSpecialistVisits_2to3,HealthAdvice_MedicalSpecialistVisits,1/31/2018
-4-5,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,MedicalSpecialistVisits_4to5,HealthAdvice_MedicalSpecialistVisits,1/31/2018
-6-7,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,MedicalSpecialistVisits_6to7,HealthAdvice_MedicalSpecialistVisits,1/31/2018
-8-9,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,MedicalSpecialistVisits_8to9,HealthAdvice_MedicalSpecialistVisits,1/31/2018
-10-12,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,MedicalSpecialistVisits_10to12,HealthAdvice_MedicalSpecialistVisits,1/31/2018
-13-15,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,MedicalSpecialistVisits_13to15,HealthAdvice_MedicalSpecialistVisits,1/31/2018
-16 or more,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,MedicalSpecialistVisits_16orMore,HealthAdvice_MedicalSpecialistVisits,1/31/2018
-"DURING THE PAST 12 MONTHS, have you seen or talked to any of the following health care providers about your own health?…Traditional healers such as, Shaman, acupuncturist, or non-western medicine? ",Insurance,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthAdvice_SpokenToTraditionalHealer,HealthcareAccess_HealthAdvice,1/31/2018
-Yes,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenToTraditionalHealer_Yes,HealthAdvice_SpokenToTraditionalHealer,1/31/2018
-No,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenToTraditionalHealer_No,HealthAdvice_SpokenToTraditionalHealer,1/31/2018
-What is the total number visits to a traditional healer that you made in the last 12 months,Insurance,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthAdvice_TraditionalHealerVisits,HealthcareAccess_HealthAdvice,1/31/2018
-1,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,TraditionalHealerVisits_1,HealthAdvice_TraditionalHealerVisits,1/31/2018
-2-3,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,TraditionalHealerVisits_2to3,HealthAdvice_TraditionalHealerVisits,1/31/2018
-4-5,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,TraditionalHealerVisits_4to5,HealthAdvice_TraditionalHealerVisits,1/31/2018
-6-7,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,TraditionalHealerVisits_6to7,HealthAdvice_TraditionalHealerVisits,1/31/2018
-8-9,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,TraditionalHealerVisits_8to9,HealthAdvice_TraditionalHealerVisits,1/31/2018
-10-12,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,TraditionalHealerVisits_10to12,HealthAdvice_TraditionalHealerVisits,1/31/2018
-13-15,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,TraditionalHealerVisits_13to15,HealthAdvice_TraditionalHealerVisits,1/31/2018
-16 or more,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,TraditionalHealerVisits_16orMore,HealthAdvice_TraditionalHealerVisits,1/31/2018
-How often were you treated with respect by your health care providers? Would you say… ,Insurance,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthAdvice_RespectedByProvider,HealthcareAccess_HealthAdvice,1/31/2018
-Always,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,RespectedByProvider_Always,HealthAdvice_RespectedByProvider,1/31/2018
-Most of the time,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,RespectedByProvider_MostOfTheTime,HealthAdvice_RespectedByProvider,1/31/2018
-Some of the time,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,RespectedByProvider_SomeOfTheTime,HealthAdvice_RespectedByProvider,1/31/2018
-None of the time,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,RespectedByProvider_NoneOfTheTime,HealthAdvice_RespectedByProvider,1/31/2018
-"How often did your health care providers ask for your opinions or beliefs about your medical care or treatment? For example, what kind of tests, procedures, or medications you prefer. Would you say… ",Insurance,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthAdvice_AskedForOpinion,HealthcareAccess_HealthAdvice,1/31/2018
-Always,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,AskedForOpinion_Always,HealthAdvice_AskedForOpinion,1/31/2018
-Most of the time,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,AskedForOpinion_MostOfTheTime,HealthAdvice_AskedForOpinion,1/31/2018
-Some of the time,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,AskedForOpinion_SomeOfTheTime,HealthAdvice_AskedForOpinion,1/31/2018
-None of the time,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,AskedForOpinion_NoneOfTheTime,HealthAdvice_AskedForOpinion,1/31/2018
-How often did your health care providers tell or give you information about your health and health care that was easy to understand? Would you say… ,Insurance,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthAdvice_EaseofUnderstanding,HealthcareAccess_HealthAdvice,1/31/2018
-Always,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,EaseofUnderstanding_Always,HealthAdvice_EaseofUnderstanding,1/31/2018
-Most of the time,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,EaseofUnderstanding_MostOfTheTime,HealthAdvice_EaseofUnderstanding,1/31/2018
-Some of the time,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,EaseofUnderstanding_SomeOfTheTime,HealthAdvice_EaseofUnderstanding,1/31/2018
-None of the time,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,EaseofUnderstanding_NoneOfTheTime,HealthAdvice_EaseofUnderstanding,1/31/2018
-Delayed Medical Care,Delayed Medical Care,Topic,,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthcareAccess_DelayedMedicalCare,HealthcareAccess,1/31/2018
-There are many reasons people delay getting medical care. Have you delayed getting care for any of the following reasons in the PAST 12 MONTHS? ...Didn't have transportation,Delayed Medical Care,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,DelayedMedicalCare_Transportation,HealthcareAccess_DelayedMedicalCare,1/31/2018
-Yes,Delayed Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Transportation_Yes,DelayedMedicalCare_Transportation,1/31/2018
-No,Delayed Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Transportation_No,DelayedMedicalCare_Transportation,1/31/2018
-There are many reasons people delay getting medical care. Have you delayed getting care for any of the following reasons in the PAST 12 MONTHS? ...Couldn’t get time off work.,Delayed Medical Care,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,DelayedMedicalCare_TimeOffWork,HealthcareAccess_DelayedMedicalCare,1/31/2018
-Yes,Delayed Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,TimeOffWork_Yes,DelayedMedicalCare_TimeOffWork,1/31/2018
-No,Delayed Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,TimeOffWork_No,DelayedMedicalCare_TimeOffWork,1/31/2018
-There are many reasons people delay getting medical care. Have you delayed getting care for any of the following reasons in the PAST 12 MONTHS?...Couldn’t get child care.,Delayed Medical Care,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,DelayedMedicalCare_ChildCare,HealthcareAccess_DelayedMedicalCare,1/31/2018
-Yes,Delayed Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,ChildCare_Yes,DelayedMedicalCare_ChildCare,1/31/2018
-No,Delayed Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,ChildCare_No,DelayedMedicalCare_ChildCare,1/31/2018
-There are many reasons people delay getting medical care. Have you delayed getting care for any of the following reasons in the PAST 12 MONTHS?...Couldn’t get elderly care.,Delayed Medical Care,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,DelayedMedicalCare_ElderlyCare,HealthcareAccess_DelayedMedicalCare,1/31/2018
-Yes,Delayed Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,ElderlyCare_Yes,DelayedMedicalCare_ElderlyCare,1/31/2018
-No,Delayed Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,ElderlyCare_No,DelayedMedicalCare_ElderlyCare,1/31/2018
-There are many reasons people delay getting medical care. Have you delayed getting care for any of the following reasons in the PAST 12 MONTHS?…Couldn’t afford the co-pay ,Delayed Medical Care,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,DelayedMedicalCare_CantAffordCoPay,HealthcareAccess_DelayedMedicalCare,1/31/2018
-Yes,Delayed Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,CantAffordCoPay_Yes,DelayedMedicalCare_CantAffordCoPay,1/31/2018
-No,Delayed Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,CantAffordCoPay_No,DelayedMedicalCare_CantAffordCoPay,1/31/2018
-There are many reasons people delay getting medical care. Have you delayed getting care for any of the following reasons in the PAST 12 MONTHS?…Your deductible was too high/or could not afford the deductible ,Delayed Medical Care,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,DelayedMedicalCare_DeductibleTooHigh,HealthcareAccess_DelayedMedicalCare,1/31/2018
-Yes,Delayed Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,DeductibleTooHigh_Yes,DelayedMedicalCare_DeductibleTooHigh,1/31/2018
-No,Delayed Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,DeductibleTooHigh_No,DelayedMedicalCare_DeductibleTooHigh,1/31/2018
-There are many reasons people delay getting medical care. Have you delayed getting care for any of the following reasons in the PAST 12 MONTHS?…You had to pay out of pocket for some or all of the procedure ,Delayed Medical Care,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,DelayedMedicalCare_HadToPayOutOfPocket,HealthcareAccess_DelayedMedicalCare,1/31/2018
-Yes,Delayed Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,HadToPayOutOfPocket_Yes,DelayedMedicalCare_HadToPayOutOfPocket,1/31/2018
-No,Delayed Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,HadToPayOutOfPocket_No,DelayedMedicalCare_HadToPayOutOfPocket,1/31/2018
-Can't Afford Medical Care,Can't Afford Medical Care,Topic,,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthcareAccess_CantAffordCare,HealthcareAccess,1/31/2018
-"DURING THE PAST 12 MONTHS, was there any time when you needed any of the following, but didn't get it because you couldn't afford it? ...Prescription medicines ",Can't Afford Medical Care,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,CantAffordCare_PrescriptionMedicines,HealthcareAccess_CantAffordCare,1/31/2018
-Yes,Can't Afford Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,PrescriptionMedicines_Yes,CantAffordCare_PrescriptionMedicines,1/31/2018
-No,Can't Afford Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,PrescriptionMedicines_No,CantAffordCare_PrescriptionMedicines,1/31/2018
-"DURING THE PAST 12 MONTHS, was there any time when you needed any of the following, but didn't get it because you couldn't afford it? ..Mental health care or counseling ",Can't Afford Medical Care,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,CantAffordCare_MentalHealthCounseling,HealthcareAccess_CantAffordCare,1/31/2018
-Yes,Can't Afford Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,MentalHealthCounseling_Yes,CantAffordCare_MentalHealthCounseling,1/31/2018
-No,Can't Afford Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,MentalHealthCounseling_No,CantAffordCare_MentalHealthCounseling,1/31/2018
-"DURING THE PAST 12 MONTHS, was there any time when you needed any of the following, but didn't get it because you couldn't afford it? …Emergency care",Can't Afford Medical Care,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,CantAffordCare_EmergencyCare,HealthcareAccess_CantAffordCare,1/31/2018
-Yes,Can't Afford Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,EmergencyCare_Yes,CantAffordCare_EmergencyCare,1/31/2018
-No,Can't Afford Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,EmergencyCare_No,CantAffordCare_EmergencyCare,1/31/2018
-"DURING THE PAST 12 MONTHS, was there any time when you needed any of the following, but didn't get it because you couldn't afford it?...Dental care (including check ups)",Can't Afford Medical Care,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,CantAffordCare_DentalCare,HealthcareAccess_CantAffordCare,1/31/2018
-Yes,Can't Afford Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,DentalCare_Yes,CantAffordCare_DentalCare,1/31/2018
-No,Can't Afford Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,DentalCare_No,CantAffordCare_DentalCare,1/31/2018
-"DURING THE PAST 12 MONTHS, was there any time when you needed any of the following, but didn't get it because you couldn't afford it?...Eyeglasses ",Can't Afford Medical Care,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,CantAffordCare_Eyeglasses,HealthcareAccess_CantAffordCare,1/31/2018
-Yes,Can't Afford Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Eyeglasses_Yes,CantAffordCare_Eyeglasses,1/31/2018
-No,Can't Afford Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Eyeglasses_No,CantAffordCare_Eyeglasses,1/31/2018
-"DURING THE PAST 12 MONTHS, was there any time when you needed any of the following, but didn't get it because you couldn't afford it?…To see a regular doctor or general health provider (in primary care, general practice, internal medicine, family medicine)",Can't Afford Medical Care,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,CantAffordCare_HealthcareProvider,HealthcareAccess_CantAffordCare,1/31/2018
-Yes,Can't Afford Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthcareProvider_Yes,CantAffordCare_HealthcareProvider,1/31/2018
-No,Can't Afford Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthcareProvider_No,CantAffordCare_HealthcareProvider,1/31/2018
-"DURING THE PAST 12 MONTHS, was there any time when you needed any of the following, but didn't get it because you couldn't afford it?...To see a specialist ",Can't Afford Medical Care,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,CantAffordCare_Specialist,HealthcareAccess_CantAffordCare,1/31/2018
-Yes,Can't Afford Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Specialist_Yes,CantAffordCare_Specialist,1/31/2018
-No,Can't Afford Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Specialist_No,CantAffordCare_Specialist,1/31/2018
-"DURING THE PAST 12 MONTHS, was there any time when you needed any of the following, but didn't get it because you couldn't afford it?...Follow-up care ",Can't Afford Medical Care,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,CantAffordCare_FollowupCare,HealthcareAccess_CantAffordCare,1/31/2018
-Yes,Can't Afford Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,FollowupCare_Yes,CantAffordCare_FollowupCare,1/31/2018
-No,Can't Afford Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,FollowupCare_No,CantAffordCare_FollowupCare,1/31/2018
-"If you get sick or have an accident, how worried are you that you will be able to pay your medical bills? Are you very worried, somewhat worried, or not at all worried? ",Can't Afford Medical Care,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,CantAffordCare_AbleToPayMedicalBills,HealthcareAccess_CantAffordCare,1/31/2018
-Very worried,Can't Afford Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,AbleToPayMedicalBills_VeryWorried,CantAffordCare_AbleToPayMedicalBills,1/31/2018
-Somewhat worried,Can't Afford Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,AbleToPayMedicalBills_SomewhatWorried,CantAffordCare_AbleToPayMedicalBills,1/31/2018
-Not at all worried,Can't Afford Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,AbleToPayMedicalBills_NotWorried,CantAffordCare_AbleToPayMedicalBills,1/31/2018
-"DURING THE PAST 12 MONTHS, were any of the following true for you?…You skipped medication doses to save money ",Can't Afford Medical Care,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,CantAffordCare_SkippedMedToSaveMoney,HealthcareAccess_CantAffordCare,1/31/2018
-Yes,Can't Afford Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SkippedMedToSaveMoney_Yes,CantAffordCare_SkippedMedToSaveMoney,1/31/2018
-No,Can't Afford Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SkippedMedToSaveMoney_No,CantAffordCare_SkippedMedToSaveMoney,1/31/2018
-"DURING THE PAST 12 MONTHS, were any of the following true for you?…You took less medicine to save money ",Can't Afford Medical Care,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,CantAffordCare_TookLessMedToSaveMoney,HealthcareAccess_CantAffordCare,1/31/2018
-Yes,Can't Afford Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,TookLessMedToSaveMoney_Yes,CantAffordCare_TookLessMedToSaveMoney,1/31/2018
-No,Can't Afford Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,TookLessMedToSaveMoney_No,CantAffordCare_TookLessMedToSaveMoney,1/31/2018
-"DURING THE PAST 12 MONTHS, were any of the following true for you?…You delayed filling a prescription to save money ",Can't Afford Medical Care,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,CantAffordCare_DelayedFillingRxToSaveMoney,HealthcareAccess_CantAffordCare,1/31/2018
-Yes,Can't Afford Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,DelayedFillingRxToSaveMoney_Yes,CantAffordCare_DelayedFillingRxToSaveMoney,1/31/2018
-No,Can't Afford Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,DelayedFillingRxToSaveMoney_No,CantAffordCare_DelayedFillingRxToSaveMoney,1/31/2018
-"DURING THE PAST 12 MONTHS, were any of the following true for you?…You asked your doctor for a lower cost medication to save money ",Can't Afford Medical Care,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,CantAffordCare_LowerCostRxToSaveMoney,HealthcareAccess_CantAffordCare,1/31/2018
-Yes,Can't Afford Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,LowerCostRxToSaveMoney_Yes,CantAffordCare_LowerCostRxToSaveMoney,1/31/2018
-No,Can't Afford Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,LowerCostRxToSaveMoney_No,CantAffordCare_LowerCostRxToSaveMoney,1/31/2018
-"DURING THE PAST 12 MONTHS, were any of the following true for you?…You bought prescription drugs from another country to save money",Can't Afford Medical Care,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,CantAffordCare_BoughtRxFromOtherCountry,HealthcareAccess_CantAffordCare,1/31/2018
-Yes,Can't Afford Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,BoughtRxFromOtherCountry_Yes,CantAffordCare_BoughtRxFromOtherCountry,1/31/2018
-No,Can't Afford Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,BoughtRxFromOtherCountry_No,CantAffordCare_BoughtRxFromOtherCountry,1/31/2018
-"DURING THE PAST 12 MONTHS, were any of the following true for you?…You used alternative therapies to save money",Can't Afford Medical Care,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,CantAffordCare_AlternativeTherapies,HealthcareAccess_CantAffordCare,1/31/2018
-Yes,Can't Afford Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,AlternativeTherapies_Yes,CantAffordCare_AlternativeTherapies,1/31/2018
-No,Can't Afford Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,AlternativeTherapies_No,CantAffordCare_AlternativeTherapies,1/31/2018
-Health Provider,Health Provider,Topic,,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthcareAccess_HealthProviderRaceReligion,HealthcareAccess,1/31/2018
+",Insurance,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthAdvice_PhysicalTherapistVisits,HealthcareAccess_HealthAdvice,1/31/2018
+1,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,PhysicalTherapistVisits_1,HealthAdvice_PhysicalTherapistVisits,1/31/2018
+2-3,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,PhysicalTherapistVisits_2to3,HealthAdvice_PhysicalTherapistVisits,1/31/2018
+4-5,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,PhysicalTherapistVisits_4to5,HealthAdvice_PhysicalTherapistVisits,1/31/2018
+6-7,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,PhysicalTherapistVisits_6to7,HealthAdvice_PhysicalTherapistVisits,1/31/2018
+8-9,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,PhysicalTherapistVisits_8to9,HealthAdvice_PhysicalTherapistVisits,1/31/2018
+10-12,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,PhysicalTherapistVisits_10to12,HealthAdvice_PhysicalTherapistVisits,1/31/2018
+13-15,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,PhysicalTherapistVisits_13to15,HealthAdvice_PhysicalTherapistVisits,1/31/2018
+16 or more,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,PhysicalTherapistVisits_16orMore,HealthAdvice_PhysicalTherapistVisits,1/31/2018
+"DURING THE PAST 12 MONTHS, have you seen or talked to any of the following health care providers about your own health?...A dentist or orthodontist ",Insurance,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthAdvice_SpokenToDentist,HealthcareAccess_HealthAdvice,1/31/2018
+Yes,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenToDentist_Yes,HealthAdvice_SpokenToDentist,1/31/2018
+No,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenToDentist_No,HealthAdvice_SpokenToDentist,1/31/2018
+What is the total number visits to a dentist or orthodontist that you made in the last 12 months,Insurance,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthAdvice_DentistVisits,HealthcareAccess_HealthAdvice,1/31/2018
+1,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,DentistVisits_1,HealthAdvice_DentistVisits,1/31/2018
+2-3,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,DentistVisits_2to3,HealthAdvice_DentistVisits,1/31/2018
+4-5,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,DentistVisits_4to5,HealthAdvice_DentistVisits,1/31/2018
+6-7,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,DentistVisits_6to7,HealthAdvice_DentistVisits,1/31/2018
+8-9,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,DentistVisits_8to9,HealthAdvice_DentistVisits,1/31/2018
+10-12,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,DentistVisits_10to12,HealthAdvice_DentistVisits,1/31/2018
+13-15,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,DentistVisits_13to15,HealthAdvice_DentistVisits,1/31/2018
+16 or more,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,DentistVisits_16orMore,HealthAdvice_DentistVisits,1/31/2018
+"DURING THE PAST 12 MONTHS, have you seen or talked to any of the following health care providers about your own health?...A medical doctor who specializes in a particular medical disease or problem (other than obstetrician/gynecologist, psychiatrist, or ophthalmologist",Insurance,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthAdvice_SpokenToMedicalSpecialist,HealthcareAccess_HealthAdvice,1/31/2018
+Yes,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenToMedicalSpecialist_Yes,HealthAdvice_SpokenToMedicalSpecialist,1/31/2018
+No,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenToMedicalSpecialist_No,HealthAdvice_SpokenToMedicalSpecialist,1/31/2018
+What is the total number visits to a medical doctor who specializes in a particular medical disease or problem that you made in the last 12 months,Insurance,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthAdvice_MedicalSpecialistVisits,HealthcareAccess_HealthAdvice,1/31/2018
+1,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,MedicalSpecialistVisits_1,HealthAdvice_MedicalSpecialistVisits,1/31/2018
+2-3,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,MedicalSpecialistVisits_2to3,HealthAdvice_MedicalSpecialistVisits,1/31/2018
+4-5,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,MedicalSpecialistVisits_4to5,HealthAdvice_MedicalSpecialistVisits,1/31/2018
+6-7,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,MedicalSpecialistVisits_6to7,HealthAdvice_MedicalSpecialistVisits,1/31/2018
+8-9,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,MedicalSpecialistVisits_8to9,HealthAdvice_MedicalSpecialistVisits,1/31/2018
+10-12,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,MedicalSpecialistVisits_10to12,HealthAdvice_MedicalSpecialistVisits,1/31/2018
+13-15,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,MedicalSpecialistVisits_13to15,HealthAdvice_MedicalSpecialistVisits,1/31/2018
+16 or more,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,MedicalSpecialistVisits_16orMore,HealthAdvice_MedicalSpecialistVisits,1/31/2018
+"DURING THE PAST 12 MONTHS, have you seen or talked to any of the following health care providers about your own health?…Traditional healers such as, Shaman, acupuncturist, or non-western medicine? ",Insurance,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthAdvice_SpokenToTraditionalHealer,HealthcareAccess_HealthAdvice,1/31/2018
+Yes,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenToTraditionalHealer_Yes,HealthAdvice_SpokenToTraditionalHealer,1/31/2018
+No,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SpokenToTraditionalHealer_No,HealthAdvice_SpokenToTraditionalHealer,1/31/2018
+What is the total number visits to a traditional healer that you made in the last 12 months,Insurance,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthAdvice_TraditionalHealerVisits,HealthcareAccess_HealthAdvice,1/31/2018
+1,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,TraditionalHealerVisits_1,HealthAdvice_TraditionalHealerVisits,1/31/2018
+2-3,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,TraditionalHealerVisits_2to3,HealthAdvice_TraditionalHealerVisits,1/31/2018
+4-5,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,TraditionalHealerVisits_4to5,HealthAdvice_TraditionalHealerVisits,1/31/2018
+6-7,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,TraditionalHealerVisits_6to7,HealthAdvice_TraditionalHealerVisits,1/31/2018
+8-9,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,TraditionalHealerVisits_8to9,HealthAdvice_TraditionalHealerVisits,1/31/2018
+10-12,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,TraditionalHealerVisits_10to12,HealthAdvice_TraditionalHealerVisits,1/31/2018
+13-15,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,TraditionalHealerVisits_13to15,HealthAdvice_TraditionalHealerVisits,1/31/2018
+16 or more,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,TraditionalHealerVisits_16orMore,HealthAdvice_TraditionalHealerVisits,1/31/2018
+How often were you treated with respect by your health care providers? Would you say… ,Insurance,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthAdvice_RespectedByProvider,HealthcareAccess_HealthAdvice,1/31/2018
+Always,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,RespectedByProvider_Always,HealthAdvice_RespectedByProvider,1/31/2018
+Most of the time,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,RespectedByProvider_MostOfTheTime,HealthAdvice_RespectedByProvider,1/31/2018
+Some of the time,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,RespectedByProvider_SomeOfTheTime,HealthAdvice_RespectedByProvider,1/31/2018
+None of the time,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,RespectedByProvider_NoneOfTheTime,HealthAdvice_RespectedByProvider,1/31/2018
+"How often did your health care providers ask for your opinions or beliefs about your medical care or treatment? For example, what kind of tests, procedures, or medications you prefer. Would you say… ",Insurance,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthAdvice_AskedForOpinion,HealthcareAccess_HealthAdvice,1/31/2018
+Always,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,AskedForOpinion_Always,HealthAdvice_AskedForOpinion,1/31/2018
+Most of the time,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,AskedForOpinion_MostOfTheTime,HealthAdvice_AskedForOpinion,1/31/2018
+Some of the time,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,AskedForOpinion_SomeOfTheTime,HealthAdvice_AskedForOpinion,1/31/2018
+None of the time,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,AskedForOpinion_NoneOfTheTime,HealthAdvice_AskedForOpinion,1/31/2018
+How often did your health care providers tell or give you information about your health and health care that was easy to understand? Would you say… ,Insurance,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthAdvice_EaseofUnderstanding,HealthcareAccess_HealthAdvice,1/31/2018
+Always,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,EaseofUnderstanding_Always,HealthAdvice_EaseofUnderstanding,1/31/2018
+Most of the time,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,EaseofUnderstanding_MostOfTheTime,HealthAdvice_EaseofUnderstanding,1/31/2018
+Some of the time,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,EaseofUnderstanding_SomeOfTheTime,HealthAdvice_EaseofUnderstanding,1/31/2018
+None of the time,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,EaseofUnderstanding_NoneOfTheTime,HealthAdvice_EaseofUnderstanding,1/31/2018
+Delayed Medical Care,Delayed Medical Care,Topic,,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthcareAccess_DelayedMedicalCare,HealthcareAccess,1/31/2018
+There are many reasons people delay getting medical care. Have you delayed getting care for any of the following reasons in the PAST 12 MONTHS? ...Didn't have transportation,Delayed Medical Care,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,DelayedMedicalCare_Transportation,HealthcareAccess_DelayedMedicalCare,1/31/2018
+Yes,Delayed Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Transportation_Yes,DelayedMedicalCare_Transportation,1/31/2018
+No,Delayed Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Transportation_No,DelayedMedicalCare_Transportation,1/31/2018
+There are many reasons people delay getting medical care. Have you delayed getting care for any of the following reasons in the PAST 12 MONTHS? ...Couldn’t get time off work.,Delayed Medical Care,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,DelayedMedicalCare_TimeOffWork,HealthcareAccess_DelayedMedicalCare,1/31/2018
+Yes,Delayed Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,TimeOffWork_Yes,DelayedMedicalCare_TimeOffWork,1/31/2018
+No,Delayed Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,TimeOffWork_No,DelayedMedicalCare_TimeOffWork,1/31/2018
+There are many reasons people delay getting medical care. Have you delayed getting care for any of the following reasons in the PAST 12 MONTHS?...Couldn’t get child care.,Delayed Medical Care,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,DelayedMedicalCare_ChildCare,HealthcareAccess_DelayedMedicalCare,1/31/2018
+Yes,Delayed Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,ChildCare_Yes,DelayedMedicalCare_ChildCare,1/31/2018
+No,Delayed Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,ChildCare_No,DelayedMedicalCare_ChildCare,1/31/2018
+There are many reasons people delay getting medical care. Have you delayed getting care for any of the following reasons in the PAST 12 MONTHS?...Couldn’t get elderly care.,Delayed Medical Care,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,DelayedMedicalCare_ElderlyCare,HealthcareAccess_DelayedMedicalCare,1/31/2018
+Yes,Delayed Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,ElderlyCare_Yes,DelayedMedicalCare_ElderlyCare,1/31/2018
+No,Delayed Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,ElderlyCare_No,DelayedMedicalCare_ElderlyCare,1/31/2018
+There are many reasons people delay getting medical care. Have you delayed getting care for any of the following reasons in the PAST 12 MONTHS?…Couldn’t afford the co-pay ,Delayed Medical Care,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,DelayedMedicalCare_CantAffordCoPay,HealthcareAccess_DelayedMedicalCare,1/31/2018
+Yes,Delayed Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,CantAffordCoPay_Yes,DelayedMedicalCare_CantAffordCoPay,1/31/2018
+No,Delayed Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,CantAffordCoPay_No,DelayedMedicalCare_CantAffordCoPay,1/31/2018
+There are many reasons people delay getting medical care. Have you delayed getting care for any of the following reasons in the PAST 12 MONTHS?…Your deductible was too high/or could not afford the deductible ,Delayed Medical Care,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,DelayedMedicalCare_DeductibleTooHigh,HealthcareAccess_DelayedMedicalCare,1/31/2018
+Yes,Delayed Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,DeductibleTooHigh_Yes,DelayedMedicalCare_DeductibleTooHigh,1/31/2018
+No,Delayed Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,DeductibleTooHigh_No,DelayedMedicalCare_DeductibleTooHigh,1/31/2018
+There are many reasons people delay getting medical care. Have you delayed getting care for any of the following reasons in the PAST 12 MONTHS?…You had to pay out of pocket for some or all of the procedure ,Delayed Medical Care,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,DelayedMedicalCare_HadToPayOutOfPocket,HealthcareAccess_DelayedMedicalCare,1/31/2018
+Yes,Delayed Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,HadToPayOutOfPocket_Yes,DelayedMedicalCare_HadToPayOutOfPocket,1/31/2018
+No,Delayed Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,HadToPayOutOfPocket_No,DelayedMedicalCare_HadToPayOutOfPocket,1/31/2018
+Can't Afford Medical Care,Can't Afford Medical Care,Topic,,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthcareAccess_CantAffordCare,HealthcareAccess,1/31/2018
+"DURING THE PAST 12 MONTHS, was there any time when you needed any of the following, but didn't get it because you couldn't afford it? ...Prescription medicines ",Can't Afford Medical Care,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,CantAffordCare_PrescriptionMedicines,HealthcareAccess_CantAffordCare,1/31/2018
+Yes,Can't Afford Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,PrescriptionMedicines_Yes,CantAffordCare_PrescriptionMedicines,1/31/2018
+No,Can't Afford Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,PrescriptionMedicines_No,CantAffordCare_PrescriptionMedicines,1/31/2018
+"DURING THE PAST 12 MONTHS, was there any time when you needed any of the following, but didn't get it because you couldn't afford it? ..Mental health care or counseling ",Can't Afford Medical Care,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,CantAffordCare_MentalHealthCounseling,HealthcareAccess_CantAffordCare,1/31/2018
+Yes,Can't Afford Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,MentalHealthCounseling_Yes,CantAffordCare_MentalHealthCounseling,1/31/2018
+No,Can't Afford Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,MentalHealthCounseling_No,CantAffordCare_MentalHealthCounseling,1/31/2018
+"DURING THE PAST 12 MONTHS, was there any time when you needed any of the following, but didn't get it because you couldn't afford it? …Emergency care",Can't Afford Medical Care,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,CantAffordCare_EmergencyCare,HealthcareAccess_CantAffordCare,1/31/2018
+Yes,Can't Afford Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,EmergencyCare_Yes,CantAffordCare_EmergencyCare,1/31/2018
+No,Can't Afford Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,EmergencyCare_No,CantAffordCare_EmergencyCare,1/31/2018
+"DURING THE PAST 12 MONTHS, was there any time when you needed any of the following, but didn't get it because you couldn't afford it?...Dental care (including check ups)",Can't Afford Medical Care,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,CantAffordCare_DentalCare,HealthcareAccess_CantAffordCare,1/31/2018
+Yes,Can't Afford Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,DentalCare_Yes,CantAffordCare_DentalCare,1/31/2018
+No,Can't Afford Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,DentalCare_No,CantAffordCare_DentalCare,1/31/2018
+"DURING THE PAST 12 MONTHS, was there any time when you needed any of the following, but didn't get it because you couldn't afford it?...Eyeglasses ",Can't Afford Medical Care,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,CantAffordCare_Eyeglasses,HealthcareAccess_CantAffordCare,1/31/2018
+Yes,Can't Afford Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Eyeglasses_Yes,CantAffordCare_Eyeglasses,1/31/2018
+No,Can't Afford Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Eyeglasses_No,CantAffordCare_Eyeglasses,1/31/2018
+"DURING THE PAST 12 MONTHS, was there any time when you needed any of the following, but didn't get it because you couldn't afford it?…To see a regular doctor or general health provider (in primary care, general practice, internal medicine, family medicine)",Can't Afford Medical Care,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,CantAffordCare_HealthcareProvider,HealthcareAccess_CantAffordCare,1/31/2018
+Yes,Can't Afford Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthcareProvider_Yes,CantAffordCare_HealthcareProvider,1/31/2018
+No,Can't Afford Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthcareProvider_No,CantAffordCare_HealthcareProvider,1/31/2018
+"DURING THE PAST 12 MONTHS, was there any time when you needed any of the following, but didn't get it because you couldn't afford it?...To see a specialist ",Can't Afford Medical Care,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,CantAffordCare_Specialist,HealthcareAccess_CantAffordCare,1/31/2018
+Yes,Can't Afford Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Specialist_Yes,CantAffordCare_Specialist,1/31/2018
+No,Can't Afford Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Specialist_No,CantAffordCare_Specialist,1/31/2018
+"DURING THE PAST 12 MONTHS, was there any time when you needed any of the following, but didn't get it because you couldn't afford it?...Follow-up care ",Can't Afford Medical Care,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,CantAffordCare_FollowupCare,HealthcareAccess_CantAffordCare,1/31/2018
+Yes,Can't Afford Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,FollowupCare_Yes,CantAffordCare_FollowupCare,1/31/2018
+No,Can't Afford Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,FollowupCare_No,CantAffordCare_FollowupCare,1/31/2018
+"If you get sick or have an accident, how worried are you that you will be able to pay your medical bills? Are you very worried, somewhat worried, or not at all worried? ",Can't Afford Medical Care,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,CantAffordCare_AbleToPayMedicalBills,HealthcareAccess_CantAffordCare,1/31/2018
+Very worried,Can't Afford Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,AbleToPayMedicalBills_VeryWorried,CantAffordCare_AbleToPayMedicalBills,1/31/2018
+Somewhat worried,Can't Afford Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,AbleToPayMedicalBills_SomewhatWorried,CantAffordCare_AbleToPayMedicalBills,1/31/2018
+Not at all worried,Can't Afford Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,AbleToPayMedicalBills_NotWorried,CantAffordCare_AbleToPayMedicalBills,1/31/2018
+"DURING THE PAST 12 MONTHS, were any of the following true for you?…You skipped medication doses to save money ",Can't Afford Medical Care,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,CantAffordCare_SkippedMedToSaveMoney,HealthcareAccess_CantAffordCare,1/31/2018
+Yes,Can't Afford Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SkippedMedToSaveMoney_Yes,CantAffordCare_SkippedMedToSaveMoney,1/31/2018
+No,Can't Afford Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,SkippedMedToSaveMoney_No,CantAffordCare_SkippedMedToSaveMoney,1/31/2018
+"DURING THE PAST 12 MONTHS, were any of the following true for you?…You took less medicine to save money ",Can't Afford Medical Care,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,CantAffordCare_TookLessMedToSaveMoney,HealthcareAccess_CantAffordCare,1/31/2018
+Yes,Can't Afford Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,TookLessMedToSaveMoney_Yes,CantAffordCare_TookLessMedToSaveMoney,1/31/2018
+No,Can't Afford Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,TookLessMedToSaveMoney_No,CantAffordCare_TookLessMedToSaveMoney,1/31/2018
+"DURING THE PAST 12 MONTHS, were any of the following true for you?…You delayed filling a prescription to save money ",Can't Afford Medical Care,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,CantAffordCare_DelayedFillingRxToSaveMoney,HealthcareAccess_CantAffordCare,1/31/2018
+Yes,Can't Afford Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,DelayedFillingRxToSaveMoney_Yes,CantAffordCare_DelayedFillingRxToSaveMoney,1/31/2018
+No,Can't Afford Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,DelayedFillingRxToSaveMoney_No,CantAffordCare_DelayedFillingRxToSaveMoney,1/31/2018
+"DURING THE PAST 12 MONTHS, were any of the following true for you?…You asked your doctor for a lower cost medication to save money ",Can't Afford Medical Care,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,CantAffordCare_LowerCostRxToSaveMoney,HealthcareAccess_CantAffordCare,1/31/2018
+Yes,Can't Afford Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,LowerCostRxToSaveMoney_Yes,CantAffordCare_LowerCostRxToSaveMoney,1/31/2018
+No,Can't Afford Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,LowerCostRxToSaveMoney_No,CantAffordCare_LowerCostRxToSaveMoney,1/31/2018
+"DURING THE PAST 12 MONTHS, were any of the following true for you?…You bought prescription drugs from another country to save money",Can't Afford Medical Care,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,CantAffordCare_BoughtRxFromOtherCountry,HealthcareAccess_CantAffordCare,1/31/2018
+Yes,Can't Afford Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,BoughtRxFromOtherCountry_Yes,CantAffordCare_BoughtRxFromOtherCountry,1/31/2018
+No,Can't Afford Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,BoughtRxFromOtherCountry_No,CantAffordCare_BoughtRxFromOtherCountry,1/31/2018
+"DURING THE PAST 12 MONTHS, were any of the following true for you?…You used alternative therapies to save money",Can't Afford Medical Care,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,CantAffordCare_AlternativeTherapies,HealthcareAccess_CantAffordCare,1/31/2018
+Yes,Can't Afford Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,AlternativeTherapies_Yes,CantAffordCare_AlternativeTherapies,1/31/2018
+No,Can't Afford Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,AlternativeTherapies_No,CantAffordCare_AlternativeTherapies,1/31/2018
+Health Provider,Health Provider,Topic,,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthcareAccess_HealthProviderRaceReligion,HealthcareAccess,1/31/2018
 "The following questions are about your experiences with health care providers in the past year. Some people think it is important for their providers to understand or share their race or ethnicity or gender or religion or beliefs or native language. 
 
-How important is it to you that your health care providers understand or are similar to you in any of these ways? Would you say... ",Health Provider,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthProviderRaceReligion_HowImportant,HealthcareAccess_HealthProviderRaceReligion,1/31/2018
-Very Important,Health Provider,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,HowImportant_VeryImportant,HealthProviderRaceReligion_HowImportant,1/31/2018
-Somewhat important,Health Provider,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,HowImportant_SomewhatImportant,HealthProviderRaceReligion_HowImportant,1/31/2018
-Slightly important,Health Provider,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,HowImportant_SlightlyImportant,HealthProviderRaceReligion_HowImportant,1/31/2018
-Not important at all,Health Provider,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,HowImportant_NotImportant,HealthProviderRaceReligion_HowImportant,1/31/2018
+How important is it to you that your health care providers understand or are similar to you in any of these ways? Would you say... ",Health Provider,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthProviderRaceReligion_HowImportant,HealthcareAccess_HealthProviderRaceReligion,1/31/2018
+Very Important,Health Provider,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,HowImportant_VeryImportant,HealthProviderRaceReligion_HowImportant,1/31/2018
+Somewhat important,Health Provider,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,HowImportant_SomewhatImportant,HealthProviderRaceReligion_HowImportant,1/31/2018
+Slightly important,Health Provider,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,HowImportant_SlightlyImportant,HealthProviderRaceReligion_HowImportant,1/31/2018
+Not important at all,Health Provider,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,HowImportant_NotImportant,HealthProviderRaceReligion_HowImportant,1/31/2018
 "The following questions are about your experiences with health care providers in the past year. Some people think it is important for their providers to understand or share their race or ethnicity or gender or religion or beliefs or native language. 
 
-How often were you able to see health care providers who were similar to you in any of these ways? Would you say… ",Health Provider,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthProviderRaceReligion_HowOften,HealthcareAccess_HealthProviderRaceReligion,1/31/2018
-Always,Health Provider,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,HowOften_Always,HealthProviderRaceReligion_HowOften,1/31/2018
-Most of the time,Health Provider,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,HowOften_MostOfTheTime,HealthProviderRaceReligion_HowOften,1/31/2018
-Some of the time,Health Provider,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,HowOften_SomeOfTheTime,HealthProviderRaceReligion_HowOften,1/31/2018
-None of the time,Health Provider,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,HowOften_NoneOfTheTime,HealthProviderRaceReligion_HowOften,1/31/2018
+How often were you able to see health care providers who were similar to you in any of these ways? Would you say… ",Health Provider,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthProviderRaceReligion_HowOften,HealthcareAccess_HealthProviderRaceReligion,1/31/2018
+Always,Health Provider,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,HowOften_Always,HealthProviderRaceReligion_HowOften,1/31/2018
+Most of the time,Health Provider,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,HowOften_MostOfTheTime,HealthProviderRaceReligion_HowOften,1/31/2018
+Some of the time,Health Provider,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,HowOften_SomeOfTheTime,HealthProviderRaceReligion_HowOften,1/31/2018
+None of the time,Health Provider,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,HowOften_NoneOfTheTime,HealthProviderRaceReligion_HowOften,1/31/2018
 "The following questions are about your experiences with health care providers in the past year. Some people think it is important for their providers to understand or share their race or ethnicity or gender or religion or beliefs or native language. 
 
-How often have you either delayed or not gone to see health care providers because they were different from you in any of these ways? ",Health Provider,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthProviderRaceReligion_DelayedOrNoCare,HealthcareAccess_HealthProviderRaceReligion,1/31/2018
-Always,Health Provider,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,DelayedOrNoCare_Always,HealthProviderRaceReligion_DelayedOrNoCare,1/31/2018
-Most of the time,Health Provider,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,DelayedOrNoCare_MostOfTheTime,HealthProviderRaceReligion_DelayedOrNoCare,1/31/2018
-Some of the time,Health Provider,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,DelayedOrNoCare_SomeOfTheTime,HealthProviderRaceReligion_DelayedOrNoCare,1/31/2018
-None of the time,Health Provider,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,DelayedOrNoCare_NoneOfTheTime,HealthProviderRaceReligion_DelayedOrNoCare,1/31/2018
-You were nervous about seeing a health care provider ,Delayed Medical Care,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,DelayedMedicalCare_Nervous,HealthcareAccess_DelayedMedicalCare,4/19/2018
-Yes,Delayed Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Nervous_Yes,DelayedMedicalCare_Nervous,4/19/2018
-No,Delayed Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Nervous_No,DelayedMedicalCare_Nervous,4/19/2018
-" If you get sick or have an accident, how worried are you that you will be able to pay your medical bills? Are you very worried, somewhat worried, or not at all worried? ",Can't Afford Medical Care,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,CantAffordCare_WorriedAboutPaying,HealthcareAccess_CantAffordCare,4/19/2018
-very worried,Can't Afford Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,WorriedAboutPaying_VeryWorried,CantAffordCare_WorriedAboutPaying,4/19/2018
-somewhat worried,Can't Afford Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,WorriedAboutPaying_SomewhatWorried,CantAffordCare_WorriedAboutPaying,4/19/2018
-not at all worried,Can't Afford Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,WorriedAboutPaying_NotAtAllWorried,CantAffordCare_WorriedAboutPaying,4/19/2018
-You live in a rural area where distance to the health care provider is too far,Delayed Medical Care,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,DelayedMedicalCare_RuralArea,HealthcareAccess_DelayedMedicalCare,4/19/2018
-Yes,Delayed Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,RuralArea_Yes,DelayedMedicalCare_RuralArea,4/19/2018
-No,Delayed Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,RuralArea_No,DelayedMedicalCare_RuralArea,4/19/2018
-Free Text Box,Delayed Medical Care,Question,text input,http://terminology.pmi-ops.org/CodeSystem/ppi,OtherDelayedMedicalCare_FreeText,HealthcareAccess_DelayedMedicalCare,4/19/2018
-Are you currently covered by any of the following types of health insurance or health coverage plans?,Health Insurance Type,Question,,http://terminology.pmi-ops.org/CodeSystem/ppi,Insurance_InsuranceType,HealthcareAccess,4/19/2018
+How often have you either delayed or not gone to see health care providers because they were different from you in any of these ways? ",Health Provider,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,HealthProviderRaceReligion_DelayedOrNoCare,HealthcareAccess_HealthProviderRaceReligion,1/31/2018
+Always,Health Provider,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,DelayedOrNoCare_Always,HealthProviderRaceReligion_DelayedOrNoCare,1/31/2018
+Most of the time,Health Provider,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,DelayedOrNoCare_MostOfTheTime,HealthProviderRaceReligion_DelayedOrNoCare,1/31/2018
+Some of the time,Health Provider,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,DelayedOrNoCare_SomeOfTheTime,HealthProviderRaceReligion_DelayedOrNoCare,1/31/2018
+None of the time,Health Provider,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,DelayedOrNoCare_NoneOfTheTime,HealthProviderRaceReligion_DelayedOrNoCare,1/31/2018
+You were nervous about seeing a health care provider ,Delayed Medical Care,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,DelayedMedicalCare_Nervous,HealthcareAccess_DelayedMedicalCare,4/19/2018
+Yes,Delayed Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Nervous_Yes,DelayedMedicalCare_Nervous,4/19/2018
+No,Delayed Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,Nervous_No,DelayedMedicalCare_Nervous,4/19/2018
+" If you get sick or have an accident, how worried are you that you will be able to pay your medical bills? Are you very worried, somewhat worried, or not at all worried? ",Can't Afford Medical Care,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,CantAffordCare_WorriedAboutPaying,HealthcareAccess_CantAffordCare,4/19/2018
+very worried,Can't Afford Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,WorriedAboutPaying_VeryWorried,CantAffordCare_WorriedAboutPaying,4/19/2018
+somewhat worried,Can't Afford Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,WorriedAboutPaying_SomewhatWorried,CantAffordCare_WorriedAboutPaying,4/19/2018
+not at all worried,Can't Afford Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,WorriedAboutPaying_NotAtAllWorried,CantAffordCare_WorriedAboutPaying,4/19/2018
+You live in a rural area where distance to the health care provider is too far,Delayed Medical Care,Question,single select ,http://terminology.pmi-ops.org/CodeSystem/ppi,DelayedMedicalCare_RuralArea,HealthcareAccess_DelayedMedicalCare,4/19/2018
+Yes,Delayed Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,RuralArea_Yes,DelayedMedicalCare_RuralArea,4/19/2018
+No,Delayed Medical Care,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,RuralArea_No,DelayedMedicalCare_RuralArea,4/19/2018
+Free Text Box,Delayed Medical Care,Question,text input,http://terminology.pmi-ops.org/CodeSystem/ppi,OtherDelayedMedicalCare_FreeText,HealthcareAccess_DelayedMedicalCare,4/19/2018
+Are you currently covered by any of the following types of health insurance or health coverage plans?,Health Insurance Type,Question,,http://terminology.pmi-ops.org/CodeSystem/ppi,Insurance_InsuranceType,HealthcareAccess,4/19/2018
 "Insurance through a current or former employer 
-or union (by you or another family member)",Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,InsuranceType_EmployerOrUnion,Insurance_InsuranceType,08/15/2018
-Insurance purchased directly from an insurance company (by you or another family member),Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,InsuranceType_PurchasedInsurace,Insurance_InsuranceType,08/15/2018
-"Medicare, for people 65 and older or people with certain disabilities",Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,InsuranceType_Medicare,Insurance_InsuranceType,08/15/2018
+or union (by you or another family member)",Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,InsuranceType_EmployerOrUnion,Insurance_InsuranceType,08/15/2018
+Insurance purchased directly from an insurance company (by you or another family member),Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,InsuranceType_PurchasedInsurace,Insurance_InsuranceType,08/15/2018
+"Medicare, for people 65 and older or people with certain disabilities",Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,InsuranceType_Medicare,Insurance_InsuranceType,08/15/2018
 "Medicaid, Medical Assistance, or any kind of government-assistance plan
-for those with low incomes or disability",Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,InsuranceType_GovernmentAssistancePlan,Insurance_InsuranceType,08/15/2018
-TRICARE or other military health care,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,InsuranceType_TricareOrMilitary,Insurance_InsuranceType,08/15/2018
-Veteran’s Administration (VA) (including those who have ever used or enrolled for VA health care),Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,InsuranceType_VeteranAdministration,Insurance_InsuranceType,08/15/2018
-Indian Health Service,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,InsuranceType_IndianHealthService,Insurance_InsuranceType,08/15/2018
-Any other type of health insurance or health coverage plan,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,InsuraceType_OtherInsuranceType,Insurance_InsuranceType,08/15/2018
-Free Text Box,Insurance,Question,,http://terminology.pmi-ops.org/CodeSystem/ppi,OtherInsuranceType_FreeText,Insurance_InsuranceType,08/15/2018
+for those with low incomes or disability",Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,InsuranceType_GovernmentAssistancePlan,Insurance_InsuranceType,08/15/2018
+TRICARE or other military health care,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,InsuranceType_TricareOrMilitary,Insurance_InsuranceType,08/15/2018
+Veteran’s Administration (VA) (including those who have ever used or enrolled for VA health care),Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,InsuranceType_VeteranAdministration,Insurance_InsuranceType,08/15/2018
+Indian Health Service,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,InsuranceType_IndianHealthService,Insurance_InsuranceType,08/15/2018
+Any other type of health insurance or health coverage plan,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,InsuraceType_OtherInsuranceType,Insurance_InsuranceType,08/15/2018
+Free Text Box,Insurance,Question,,http://terminology.pmi-ops.org/CodeSystem/ppi,OtherInsuranceType_FreeText,Insurance_InsuranceType,08/15/2018
 I don’ t have insurance; Self-Pay,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,InsuranceType_SelfPayOrNone,Insurance_InsuranceType,08/15/2018

@@ -1,6 +1,6 @@
-Display,Topic,Type,PMI System,PMI Code,Parent code,Date of Last Update
-May Snap Questions 2,Module Name,Module Name,http://terminology.pmi-ops.org/CodeSystem/ppi,SNAP_DRINKINGWATERPUBLIC_052019,,05/25/2019
-When I get thirsty out in public| I usually _____.,Drinking Water Access,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,Snap_Public,SNAP_DRINKINGWATERPUBLIC_052019,05/25/2019
-use a water fountain,Drinking Water Access,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,Public_Fountain,Snap_Public,05/25/2019
-buy a drink (soda| juice),Drinking Water Access,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,Public_BuyDrink,Snap_Public,05/25/2019
+Display,Topic,Type,PMI System,PMI Code,Parent code,Date of Last Update
+May Snap Questions 2,Module Name,Module Name,http://terminology.pmi-ops.org/CodeSystem/ppi,SNAP_DRINKINGWATERPUBLIC_052019,,05/25/2019
+When I get thirsty out in public| I usually _____.,Drinking Water Access,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,Snap_Public,SNAP_DRINKINGWATERPUBLIC_052019,05/25/2019
+use a water fountain,Drinking Water Access,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,Public_Fountain,Snap_Public,05/25/2019
+buy a drink (soda| juice),Drinking Water Access,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,Public_BuyDrink,Snap_Public,05/25/2019
 buy bottled water,Drinking Water Access,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,Public_BuyWater,Snap_Public,05/25/2019
