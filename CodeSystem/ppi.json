@@ -13265,6 +13265,148 @@
                       "code": "concept-topic"
                     }
                   ], 
+                  "code": "TypeOfInsurance_OtherInsuranceType", 
+                  "display": "Any other type of health insurance or health coverage plan"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Insurance", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "TypeOfInsurance_Medicare", 
+                  "display": "Medicare, for people 65 and older or people with certain disabilities"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Insurance", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "TypeOfInsurance_GovernmentAssistancePlan", 
+                  "display": "Medicaid, Medical Assistance, or any kind of government-assistance plan\r\nfor those with low incomes or disability"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Insurance", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "TypeOfInsurance_TricareOrMilitary", 
+                  "display": "TRICARE or other military health care"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Insurance", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "TypeOfInsurance_EmployerOrUnion", 
+                  "display": "Insurance through a current or former employer \r\nor union (by you or another family member)"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Insurance", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "TypeOfInsurance_SelfPayOrNone", 
+                  "display": "I don\u2019 t have insurance; Self-Pay"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Insurance", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "TypeOfInsurance_IndianHealthService", 
+                  "display": "Indian Health Service"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Insurance", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "TypeOfInsurance_PurchasedInsurace", 
+                  "display": "Insurance purchased directly from an insurance company (by you or another family member)"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Insurance", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "TypeOfInsurance_VeteranAdministration", 
+                  "display": "Veteran\u2019s Administration (VA) (including those who have ever used or enrolled for VA health care)"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Insurance", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Insurance_TypeOfInsurance", 
+              "display": "Are you currently covered by any of the following types of health insurance or health coverage plans? Mark yes or no for EACH type of coverage below"
+            }, 
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Insurance", 
+                      "code": "concept-topic"
+                    }
+                  ], 
                   "code": "InsuranceAccepted_Yes", 
                   "display": "Yes"
                 }, 
@@ -64891,6 +65033,20 @@
                       "code": "concept-topic"
                     }
                   ], 
+                  "code": "WisconsinSitePairing_Gundersen", 
+                  "display": "Gundersen Health System"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Wisconsin Consortium Site Pairing", 
+                      "code": "concept-topic"
+                    }
+                  ], 
                   "code": "WisconsinSitePairing_Marshfield", 
                   "display": "Marshfield Clinic or Family Health Center of Marshfield, Marshfield, Wisconsin"
                 }
@@ -69724,14 +69880,14 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 4832, 
+  "count": 4843, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.3.90", 
+  "version": "0.3.91", 
   "hierarchyMeaning": "grouped-by", 
-  "date": "2019-12-10", 
+  "date": "2020-01-15", 
   "property": [
     {
       "code": "concept-type", 

@@ -295,4 +295,19 @@ Veteran’s Administration (VA) (including those who have ever used or enrolled 
 Indian Health Service,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,InsuranceType_IndianHealthService,Insurance_InsuranceType,08/15/2018
 Any other type of health insurance or health coverage plan,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,InsuraceType_OtherInsuranceType,Insurance_InsuranceType,08/15/2018
 Free Text Box,Insurance,Question,,http://terminology.pmi-ops.org/CodeSystem/ppi,OtherInsuranceType_FreeText,Insurance_InsuranceType,08/15/2018
-I don’ t have insurance; Self-Pay,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,InsuranceType_SelfPayOrNone,Insurance_InsuranceType,08/15/2018
+I don’ t have insurance; Self-Pay,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,InsuranceType_SelfPayOrNone,Insurance_InsuranceType,08/15/2018
+Are you currently covered by any of the following types of health insurance or health coverage plans? Mark yes or no for EACH type of coverage below ,Insurance,Question,multi-select,http://terminology.pmi-ops.org/CodeSystem/ppi,Insurance_TypeOfInsurance,HealthcareAccess_Insurance,1/15/2020
+"Insurance through a current or former employer 
+or union (by you or another family member)",Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,TypeOfInsurance_EmployerOrUnion,Insurance_TypeOfInsurance,1/15/2020
+"Insurance purchased directly from an insurance company (by you or another family member)
+",Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,TypeOfInsurance_PurchasedInsurace,Insurance_TypeOfInsurance,1/15/2020
+"Medicare, for people 65 and older or people with certain disabilities
+",Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,TypeOfInsurance_Medicare,Insurance_TypeOfInsurance,1/15/2020
+"Medicaid, Medical Assistance, or any kind of government-assistance plan
+for those with low incomes or disability",Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,TypeOfInsurance_GovernmentAssistancePlan,Insurance_TypeOfInsurance,1/15/2020
+TRICARE or other military health care,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,TypeOfInsurance_TricareOrMilitary,Insurance_TypeOfInsurance,1/15/2020
+Veteran’s Administration (VA) (including those who have ever used or enrolled for VA health care),Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,TypeOfInsurance_VeteranAdministration,Insurance_TypeOfInsurance,1/15/2020
+Indian Health Service,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,TypeOfInsurance_IndianHealthService,Insurance_TypeOfInsurance,1/15/2020
+"Any other type of health insurance or health coverage plan
+",Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,TypeOfInsurance_OtherInsuranceType,Insurance_TypeOfInsurance,1/15/2020
+I don’ t have insurance; Self-Pay,Insurance,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,TypeOfInsurance_SelfPayOrNone,Insurance_TypeOfInsurance,1/15/2020
