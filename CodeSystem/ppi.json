@@ -19573,6 +19573,20 @@
               ], 
               "code": "EssentiaHealth_No", 
               "display": "None of the above"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Minnesota North Dakota Site Pairing", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "HealthPartners_Institute", 
+              "display": "HealthPartners Institute"
             }
           ], 
           "property": [
@@ -69880,14 +69894,14 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 4843, 
+  "count": 4844, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.3.92", 
+  "version": "0.3.93", 
   "hierarchyMeaning": "grouped-by", 
-  "date": "2020-01-16", 
+  "date": "2020-02-11", 
   "property": [
     {
       "code": "concept-type", 
