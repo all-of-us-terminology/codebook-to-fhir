@@ -3,4 +3,8 @@ Stop Participating,,Module Name,http://terminology.pmi-ops.org/CodeSystem/ppi,St
 StoppingMeans,Stopping Means,Topic,http://terminology.pmi-ops.org/CodeSystem/ppi,StoppingMeans,StopParticipating,
 Please decide what you want to do with the information you have already shared:,Stopping Means,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,StoppingMeans_StopOptions,StoppingMeans,02/18/2020
 Allow your information and any samples you gave to be used in new studies.,Stopping Means,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,StopOptions_AllowInformation,StoppingMeans_StopOptions,02/18/2020
-Not allow your information and samples you gave to be used in new studies.,Stopping Means,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,StopOptions_NotAllowInformation,StoppingMeans_StopOptions,02/18/2020
+Not allow your information and samples you gave to be used in new studies.,Stopping Means,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,StopOptions_NotAllowInformation,StoppingMeans_StopOptions,02/18/2020
+Settings,Settings,Topic,http://terminology.pmi-ops.org/CodeSystem/ppi,StopParticipating_Settings,StopParticipating,03/17/20
+SettingsBoolean,Boolean,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,Settings_Boolean,StopParticipating_Settings,03/17/20
+DeactivatedLogin,Deactivated Login,Topic,http://terminology.pmi-ops.org/CodeSystem/ppi,StopParticipating_DeactivatedLogin2,StopParticipating,03/17/20
+Deactivated Login Boolean,Boolean,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,DeactivatedLogin2_Boolean,StopParticipating_DeactivatedLogin2,03/17/20

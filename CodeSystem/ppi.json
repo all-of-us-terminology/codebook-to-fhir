@@ -12505,6 +12505,50 @@
                       "code": "concept-topic"
                     }
                   ], 
+                  "code": "Eyeglasses_No", 
+                  "display": "No"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Can't Afford Medical Care", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "Eyeglasses_Yes", 
+                  "display": "Yes"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Can't Afford Medical Care", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "CantAffordCare_Eyeglasses", 
+              "display": "DURING THE PAST 12 MONTHS, was there any time when you needed any of the following, but didn't get it because you couldn't afford it?...Eyeglasses"
+            }, 
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Can't Afford Medical Care", 
+                      "code": "concept-topic"
+                    }
+                  ], 
                   "code": "AbleToPayMedicalBills_NotWorried", 
                   "display": "Not at all worried"
                 }, 
@@ -12813,50 +12857,6 @@
               ], 
               "code": "CantAffordCare_AlternativeTherapies", 
               "display": "DURING THE PAST 12 MONTHS, were any of the following true for you?\u2026You used alternative therapies to save money"
-            }, 
-            {
-              "concept": [
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Can't Afford Medical Care", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "Eyeglasses_No", 
-                  "display": "No"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Can't Afford Medical Care", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "Eyeglasses_Yes", 
-                  "display": "Yes"
-                }
-              ], 
-              "property": [
-                {
-                  "valueCode": "Question", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Can't Afford Medical Care", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "CantAffordCare_Eyeglasses", 
-              "display": "DURING THE PAST 12 MONTHS, was there any time when you needed any of the following, but didn't get it because you couldn't afford it?...Eyeglasses"
             }, 
             {
               "concept": [
@@ -20373,6 +20373,66 @@
           ], 
           "code": "StoppingMeans", 
           "display": "StoppingMeans"
+        }, 
+        {
+          "concept": [
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Boolean", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "DeactivatedLogin2_Boolean", 
+              "display": "Deactivated Login Boolean"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Topic", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Deactivated Login", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "StopParticipating_DeactivatedLogin2", 
+          "display": "DeactivatedLogin"
+        }, 
+        {
+          "concept": [
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Boolean", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Settings_Boolean", 
+              "display": "SettingsBoolean"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Topic", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Settings", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "StopParticipating_Settings", 
+          "display": "Settings"
         }
       ], 
       "property": [
@@ -25979,8 +26039,8 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "MotherCancerCondition_ColonRectalCancer", 
-                      "display": "Colon cancer/Rectal cancer"
+                      "code": "MotherCancerCondition_KidneyCancer", 
+                      "display": "Kidney cancer"
                     }, 
                     {
                       "property": [
@@ -25993,8 +26053,8 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "MotherCancerCondition_KidneyCancer", 
-                      "display": "Kidney cancer"
+                      "code": "MotherCancerCondition_ColonRectalCancer", 
+                      "display": "Colon cancer/Rectal cancer"
                     }
                   ], 
                   "property": [
@@ -69970,12 +70030,12 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 4849, 
+  "count": 4853, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.3.95", 
+  "version": "0.3.97", 
   "hierarchyMeaning": "grouped-by", 
   "date": "2020-03-17", 
   "property": [
