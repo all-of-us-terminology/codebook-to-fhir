@@ -1,0 +1,6 @@
+Display,Topic,Type,PMI System,PMI Code,Parent code,Date of Last Update
+Stop Participating,,Module Name,http://terminology.pmi-ops.org/CodeSystem/ppi,StopParticipating,,02/18/2020
+StoppingMeans,Stopping Means,Topic,http://terminology.pmi-ops.org/CodeSystem/ppi,StoppingMeans,StopParticipating,
+Please decide what you want to do with the information you have already shared:,Stopping Means,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,StoppingMeans_StopOptions,StoppingMeans,02/18/2020
+Allow your information and any samples you gave to be used in new studies.,Stopping Means,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,StopOptions_AllowInformation,StoppingMeans_StopOptions,02/18/2020
+Not allow your information and samples you gave to be used in new studies.,Stopping Means,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,StopOptions_NotAllowInformation,StoppingMeans_StopOptions,02/18/2020

@@ -14591,6 +14591,20 @@
                       "code": "concept-topic"
                     }
                   ], 
+                  "code": "NursePractitionerVisits_16orMore", 
+                  "display": "16 or more"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Insurance", 
+                      "code": "concept-topic"
+                    }
+                  ], 
                   "code": "NursePractitionerVisits_4to5", 
                   "display": "4-5"
                 }, 
@@ -14607,20 +14621,6 @@
                   ], 
                   "code": "NursePractitionerVisits_10to12", 
                   "display": "10-12"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Insurance", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "NursePractitionerVisits_16orMore", 
-                  "display": "16 or more"
                 }
               ], 
               "property": [
@@ -20317,6 +20317,82 @@
         {
           "concept": [
             {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Stopping Means", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "StopOptions_AllowInformation", 
+                  "display": "Allow your information and any samples you gave to be used in new studies."
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Stopping Means", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "StopOptions_NotAllowInformation", 
+                  "display": "Not allow your information and samples you gave to be used in new studies."
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Stopping Means", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "StoppingMeans_StopOptions", 
+              "display": "Please decide what you want to do with the information you have already shared:"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Topic", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Stopping Means", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "StoppingMeans", 
+          "display": "StoppingMeans"
+        }
+      ], 
+      "property": [
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": null, 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "StopParticipating", 
+      "display": "Stop Participating"
+    }, 
+    {
+      "concept": [
+        {
+          "concept": [
+            {
               "property": [
                 {
                   "valueCode": "Answer", 
@@ -22905,6 +22981,20 @@
                           "code": "concept-topic"
                         }
                       ], 
+                      "code": "DaughterCancerCondition_EyeCancer", 
+                      "display": "Eye cancer"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Child History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
                       "code": "DaughterCancerCondition_EndocrineCancer", 
                       "display": "Endocrine cancer"
                     }, 
@@ -23103,20 +23193,6 @@
                       ], 
                       "code": "DaughterCancerCondition_OvarianCancer", 
                       "display": "Ovarian Cancer"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Child History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "DaughterCancerCondition_EyeCancer", 
-                      "display": "Eye cancer"
                     }, 
                     {
                       "property": [
@@ -69894,14 +69970,14 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 4844, 
+  "count": 4849, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.3.93", 
+  "version": "0.3.95", 
   "hierarchyMeaning": "grouped-by", 
-  "date": "2020-02-11", 
+  "date": "2020-03-17", 
   "property": [
     {
       "code": "concept-type", 
