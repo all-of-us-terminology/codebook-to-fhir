@@ -7953,6 +7953,20 @@
                       "code": "concept-topic"
                     }
                   ], 
+                  "code": "OrganTransplantDescription_Liver", 
+                  "display": "Liver"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Surgery", 
+                      "code": "concept-topic"
+                    }
+                  ], 
                   "code": "OrganTransplantDescription_Intestine", 
                   "display": "Intestine"
                 }, 
@@ -8011,20 +8025,6 @@
                   ], 
                   "code": "OrganTransplantDescription_Heart", 
                   "display": "Heart"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Surgery", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "OrganTransplantDescription_Liver", 
-                  "display": "Liver"
                 }, 
                 {
                   "property": [
@@ -19713,7 +19713,7 @@
                 {
                   "property": [
                     {
-                      "valueCode": "Answer", 
+                      "valueCode": "Question", 
                       "code": "concept-type"
                     }, 
                     {
@@ -19727,7 +19727,7 @@
                 {
                   "property": [
                     {
-                      "valueCode": "Answer", 
+                      "valueCode": "Question", 
                       "code": "concept-type"
                     }, 
                     {
@@ -19741,7 +19741,7 @@
                 {
                   "property": [
                     {
-                      "valueCode": "Answer", 
+                      "valueCode": "Question", 
                       "code": "concept-type"
                     }, 
                     {
@@ -19771,7 +19771,7 @@
                 {
                   "property": [
                     {
-                      "valueCode": "Answer", 
+                      "valueCode": "Question", 
                       "code": "concept-type"
                     }, 
                     {
@@ -24239,20 +24239,6 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "DaughterCancerCondition_BrainCancer", 
-                      "display": "Brain cancer"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Child History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
                       "code": "DaughterCancerCondition_ColonRectalCancer", 
                       "display": "Colon cancer/Rectal cancer"
                     }, 
@@ -24269,6 +24255,20 @@
                       ], 
                       "code": "DaughterCancerCondition_LungCancer", 
                       "display": "Lung cancer"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Child History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "DaughterCancerCondition_BrainCancer", 
+                      "display": "Brain cancer"
                     }, 
                     {
                       "property": [
@@ -24611,8 +24611,8 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "MotherRespiratoryCondition_SleepApnea", 
-                      "display": "Sleep apnea"
+                      "code": "MotherRespiratoryCondition_Asthma", 
+                      "display": "Asthma"
                     }, 
                     {
                       "property": [
@@ -24625,8 +24625,8 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "MotherRespiratoryCondition_Asthma", 
-                      "display": "Asthma"
+                      "code": "MotherRespiratoryCondition_SleepApnea", 
+                      "display": "Sleep apnea"
                     }
                   ], 
                   "property": [
@@ -66069,6 +66069,20 @@
                   "code": "concept-topic"
                 }
               ], 
+              "code": "ExtraConsent_SeeingYourDataVideo", 
+              "display": "Vimeo Video"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Extra Consent Items", 
+                  "code": "concept-topic"
+                }
+              ], 
               "code": "ExtraConsent_KeepinginTouchVideo", 
               "display": "Copy of Youtube Video"
             }, 
@@ -66331,6 +66345,20 @@
               ], 
               "code": "ExtraConsent_19YearsofAge", 
               "display": "Because of specific laws in the territory of Alabama, you need to be 19 or older to join All of Us. Are you 19 or older?"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Extra Consent Items", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "ExtraConsent_WhatWeWillDoVideo", 
+              "display": "Vimeo Video"
             }, 
             {
               "concept": [
@@ -67521,6 +67549,20 @@
               "display": "Do I have to complete another form if I want to see my All of Us DNA results?"
             }, 
             {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Extra Consent Items", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "ExtraConsent_ResearchResultsVideo", 
+              "display": "Vimeo Video"
+            }, 
+            {
               "concept": [
                 {
                   "property": [
@@ -67563,6 +67605,20 @@
               ], 
               "code": "ExtraConsent_PresentlyRegisteredPatient", 
               "display": "Are you presently a registered patient at any of the following clinics?"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Extra Consent Items", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "ExtraConsent_PotentialRisksVideo", 
+              "display": "Vimeo Video"
             }
           ], 
           "property": [
@@ -71100,12 +71156,12 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 4926, 
+  "count": 4930, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.4.01", 
+  "version": "0.4.04", 
   "hierarchyMeaning": "grouped-by", 
   "date": "2020-04-15", 
   "property": [
