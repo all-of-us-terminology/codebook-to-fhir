@@ -19722,7 +19722,7 @@
                     }
                   ], 
                   "code": "CheckDNA_No", 
-                  "display": "Boolean Selector"
+                  "display": "No, I do not want to learn about any DNA results."
                 }, 
                 {
                   "property": [
@@ -19736,7 +19736,7 @@
                     }
                   ], 
                   "code": "CheckDNA_Yes", 
-                  "display": "Boolean Selector"
+                  "display": "Yes, I want to learn some or all of my DNA results."
                 }, 
                 {
                   "property": [
@@ -19750,7 +19750,7 @@
                     }
                   ], 
                   "code": "CheckDNA_NotSure", 
-                  "display": "Boolean Selector"
+                  "display": "I\u2019m not sure right now."
                 }
               ], 
               "property": [
@@ -71161,7 +71161,7 @@
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.4.04", 
+  "version": "0.4.06", 
   "hierarchyMeaning": "grouped-by", 
   "date": "2020-04-15", 
   "property": [

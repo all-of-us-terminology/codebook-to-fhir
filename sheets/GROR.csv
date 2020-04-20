@@ -60,10 +60,10 @@ I would still like to learn my results,Decide to Receive Results,Answer,http://t
 Results Consent,Name,Topic,http://terminology.pmi-ops.org/CodeSystem/ppi,GROR_ResultsConsent,GROR,04/09/20
 Boolean Selector,Results Consent,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,ResultsConsent_EmailMeCopy,GROR_ResultsConsent,04/09/20
 Boolean Selector,Results Consent,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,ResultsConsent_FloridaEmailMeCopy,GROR_ResultsConsent,04/09/20
-Would you like us to check your DNA and tell you what we find?,Results Consent,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,ResultsConsent_CheckDNA,GROR_ResultsConsent,04/09/20
-Boolean Selector,Results Consent,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,CheckDNA_Yes,ResultsConsent_CheckDNA,04/09/20
-Boolean Selector,Results Consent,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,CheckDNA_No,ResultsConsent_CheckDNA,04/09/20
-Boolean Selector,Results Consent,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,CheckDNA_NotSure,ResultsConsent_CheckDNA,04/09/20
+Would you like us to check your DNA and tell you what we find?,Results Consent,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,ResultsConsent_CheckDNA,GROR_ResultsConsent,04/20/20
+"Yes, I want to learn some or all of my DNA results.",Results Consent,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,CheckDNA_Yes,ResultsConsent_CheckDNA,04/20/20
+"No, I do not want to learn about any DNA results.",Results Consent,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,CheckDNA_No,ResultsConsent_CheckDNA,04/20/20
+I’m not sure right now.,Results Consent,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,CheckDNA_NotSure,ResultsConsent_CheckDNA,04/20/20
 Signature,Results Consent,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,ResultsConsent_Signature,GROR_ResultsConsent,04/09/20
 Did someone from All of Us help you with this consent process?,Results Consent,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,ResultsConsent_HelpMeWithConsent,GROR_ResultsConsent,04/09/20
 Yes,Results Consent,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,HelpMeWithConsent_Yes,ResultsConsent_HelpMeWithConsent,04/09/20
