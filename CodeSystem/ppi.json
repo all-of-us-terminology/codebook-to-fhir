@@ -19713,7 +19713,7 @@
                 {
                   "property": [
                     {
-                      "valueCode": "Question", 
+                      "valueCode": "Answer", 
                       "code": "concept-type"
                     }, 
                     {
@@ -19727,7 +19727,7 @@
                 {
                   "property": [
                     {
-                      "valueCode": "Question", 
+                      "valueCode": "Answer", 
                       "code": "concept-type"
                     }, 
                     {
@@ -19741,7 +19741,7 @@
                 {
                   "property": [
                     {
-                      "valueCode": "Question", 
+                      "valueCode": "Answer", 
                       "code": "concept-type"
                     }, 
                     {
@@ -71161,9 +71161,9 @@
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.4.07", 
+  "version": "0.4.08", 
   "hierarchyMeaning": "grouped-by", 
-  "date": "2020-04-20", 
+  "date": "2020-04-22", 
   "property": [
     {
       "code": "concept-type", 
