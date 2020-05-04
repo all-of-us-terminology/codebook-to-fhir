@@ -67,4 +67,49 @@ Virgin Islands,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIISt
 Washington,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_WA,PMI,4/24/2017
 West Virginia,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_WV,PMI,4/24/2017
 Wisconsin,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_WI,PMI,4/24/2017
-Wyoming,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_WY,PMI,4/24/2017
+Wyoming,States,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,PIIState_WY,PMI,4/24/2017
+"Yes, I still want to take the survey.",COVID Participant Experience Survey,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_44,PMI,05/04/2020
+"No, I do not want to take the survey.",COVID Participant Experience Survey,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_13,PMI,05/04/2020
+A little,COVID Participant Experience Survey,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_67,PMI,05/04/2020
+Not at all,COVID Participant Experience Survey,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_168,PMI,05/04/2020
+None of the days (0 days),COVID Participant Experience Survey,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_171,PMI,05/04/2020
+A few days (1-2 days),COVID Participant Experience Survey,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_53,PMI,05/04/2020
+Most days (3-4 days),COVID Participant Experience Survey,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_127,PMI,05/04/2020
+Every day,COVID Participant Experience Survey,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_150,PMI,05/04/2020
+I don't know,COVID Participant Experience Survey,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_202,PMI,05/04/2020
+All of the time,COVID Participant Experience Survey,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_129,PMI,05/04/2020
+Sometimes,COVID Participant Experience Survey,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_151,PMI,05/04/2020
+Rarely,COVID Participant Experience Survey,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_41,PMI,05/04/2020
+Unknown,COVID Participant Experience Survey,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_14,PMI,05/04/2020
+A little bit,COVID Participant Experience Survey,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_21,PMI,05/04/2020
+Moderately,COVID Participant Experience Survey,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_139,PMI,05/04/2020
+Quite a bit,COVID Participant Experience Survey,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_72,PMI,05/04/2020
+Extremely,COVID Participant Experience Survey,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_93,PMI,05/04/2020
+Prefer not to answer,COVID Participant Experience Survey,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_30,PMI,05/04/2020
+None of the time,COVID Participant Experience Survey,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_99,PMI,05/04/2020
+A little of the time,COVID Participant Experience Survey,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_95,PMI,05/04/2020
+Some of the time,COVID Participant Experience Survey,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_158,PMI,05/04/2020
+Most of the time,COVID Participant Experience Survey,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_102,PMI,05/04/2020
+Several days,COVID Participant Experience Survey,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_111,PMI,05/04/2020
+More than half the days,COVID Participant Experience Survey,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_75,PMI,05/04/2020
+Nearly every day,COVID Participant Experience Survey,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_161,PMI,05/04/2020
+Never,COVID Participant Experience Survey,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_120,PMI,05/04/2020
+Almost never,COVID Participant Experience Survey,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_154,PMI,05/04/2020
+Fairly often,COVID Participant Experience Survey,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_42,PMI,05/04/2020
+Very often,COVID Participant Experience Survey,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_86,PMI,05/04/2020
+Often,COVID Participant Experience Survey,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_148,PMI,05/04/2020
+Yes,COVID Participant Experience Survey,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_197,PMI,05/04/2020
+Yes,COVID Participant Experience Survey,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_169,PMI,05/04/2020
+Not currently,COVID Participant Experience Survey,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_94,PMI,05/04/2020
+No,COVID Participant Experience Survey,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_131,PMI,05/04/2020
+Weeks,COVID Participant Experience Survey,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_57,PMI,05/04/2020
+Months,COVID Participant Experience Survey,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_198,PMI,05/04/2020
+Years,COVID Participant Experience Survey,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_152,PMI,05/04/2020
+Daily,COVID Participant Experience Survey,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_107,PMI,05/04/2020
+Almost everyday,COVID Participant Experience Survey,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_113,PMI,05/04/2020
+Does not describe me at all,COVID Participant Experience Survey,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_15,PMI,05/04/2020
+Neutral,COVID Participant Experience Survey,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_176,PMI,05/04/2020
+Other,COVID Participant Experience Survey,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_204,PMI,05/04/2020
+Does not describe me,COVID Participant Experience Survey,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_35,PMI,05/04/2020
+Describes me,COVID Participant Experience Survey,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_70,PMI,05/04/2020
+Describes me very well,COVID Participant Experience Survey,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_88,PMI,05/04/2020

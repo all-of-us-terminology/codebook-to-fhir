@@ -1,0 +1,440 @@
+Display,Topic,Type,Answer Type,PMI System,PMI Code,Parent code,Date of Last Update
+COVID Participant Experience Survey,Module name,Module name,text,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE,,05/04/2020
+COVID Survey,COVID Participant Experience Survey,Topic,descriptive,http://terminology.pmi-ops.org/CodeSystem/ppi,section_intro,COPE,05/04/2020
+You can choose not to answer any question at any time. This survey will take approximately 15 to 20 minutes to complete.,COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,section_participation,COPE,05/04/2020
+"Please answer each question as honestly as possible. We are looking for your own answers, and not what you think your doctors, family, or friends want you to say.
+ 
+ Don't feel like you must spend a long time on each question. The first answer that comes to you is usually the best one. If you aren't sure how to answer a question, choose the best answer from the options given. Some questions also let you say if you don't know an answer or would rather not answer. Some of the questions may be sensitive. You can choose not to answer any question.",COVID Participant Experience Survey,Topic,descriptive,http://terminology.pmi-ops.org/CodeSystem/ppi,section_instructions,COPE,05/04/2020
+"In the past month, have recommendations for socially distancing caused stress for you?",COVID Participant Experience Survey,Question,Single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,cdc_covid_19_21,COPE,05/04/2020
+"Thinking about your current social habits, in the last 5 days:
+ I have stayed home all day.",COVID Participant Experience Survey,Question,Single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,msds_9,COPE,05/04/2020
+"Thinking about your current social habits, in the last 5 days:
+ I have gone to my workplace or volunteer site that is outside my home.",COVID Participant Experience Survey,Question,Single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,msds_10,COPE,05/04/2020
+"Thinking about your current social habits, in the last 5 days:
+ I have attended social gatherings outside my home of MORE than 10 people.",COVID Participant Experience Survey,Question,Single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,msds_11,COPE,05/04/2020
+"Thinking about your current social habits, in the last 5 days:
+ I have attended social gatherings outside my home of LESS than 10 people.",COVID Participant Experience Survey,Question,Single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,msds_12,COPE,05/04/2020
+"Thinking about your current social habits, in the last 5 days:
+ I have gone on shopping trips or outings that were ""just for fun"".",COVID Participant Experience Survey,Question,Single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,msds_13,COPE,05/04/2020
+"Thinking about your current social habits, in the last 5 days:
+ I have visited nursing homes or long-term care facilities (outside of work duties).",COVID Participant Experience Survey,Question,Single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,msds_14,COPE,05/04/2020
+"Thinking about your current social habits, in the last 5 days:
+ I have been in close contact with someone who is in a risk group for COVID-19 (adults age 50+, people with chronic medical conditions like heart, lung, liver, or kidney disease, diabetes, high blood pressure, or a suppressed immune system). This includes someone inside or outside of your household.",COVID Participant Experience Survey,Question,Single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,msds_15,COPE,05/04/2020
+"Thinking about these activities in the last 5 days, my social interaction with people outside my home was",COVID Participant Experience Survey,Question,Single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,msds_16,COPE,05/04/2020
+"Now, thinking about the COVID-19 recommendations and mandates...How often in the past month are you doing the recommended pandemic hygiene, like washing hands frequently, avoiding touching your face, covering coughs, wearing a mask, and avoiding frequently touched surfaces in public places?",COVID Participant Experience Survey,Question,Single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,msds_18,COPE,05/04/2020
+"In the past month, have you been sick for more than one day with a new illness related to COVID-19 or flu-like symptoms?",COVID Participant Experience Survey,Question,Single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,cdc_covid_19_7_xx22,COPE,05/04/2020
+Approximate date of onset,COVID Participant Experience Survey,Question,Date,http://terminology.pmi-ops.org/CodeSystem/ppi,cdc_covid_19_7_xx22_date,cdc_covid_19_7_xx22,05/04/2020
+Which of the following symptoms did you have? (select all that apply),COVID Participant Experience Survey,Question,Multi-select,http://terminology.pmi-ops.org/CodeSystem/ppi,cdc_covid_19_7_xx23,cdc_covid_19_7_xx22,05/04/2020
+"Have you EVER been near someone that you know or suspect had COVID-19 (such as co-workers, family members, or others)? Please select all that apply.",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,copect_17,COPE,05/04/2020
+Do you think you have had COVID-19?,COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,copect_40_xx15,COPE,05/04/2020
+Were you tested for COVID-19 in the past month?,COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,cdc_covid_19_9_xx25,COPE,05/04/2020
+Was the test for COVID-19 positive?,COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,cdc_covid_19_9_xx24,cdc_covid_19_9_xx25,05/04/2020
+How were you tested? Please select all that apply.,COVID Participant Experience Survey,Question,multi-select,http://terminology.pmi-ops.org/CodeSystem/ppi,cdc_covid_19_n_a,cdc_covid_19_9_xx25,05/04/2020
+Were you tested for influenza (flu) in the past month?,COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,cdc_covid_19_9b,COPE,05/04/2020
+"In the past month, if you were sick with COVID-19 symptoms, how did you receive treatment(s)? Please select all that apply.",COVID Participant Experience Survey,Question,multi-select,http://terminology.pmi-ops.org/CodeSystem/ppi,copect_63_xx20,COPE,05/04/2020
+What breathing treatment did you receive? Please select all that apply.,COVID Participant Experience Survey,Question,multi-select,http://terminology.pmi-ops.org/CodeSystem/ppi,copect_63_xx21,copect_63_xx20,05/04/2020
+Please specify.,COVID Participant Experience Survey,Question,text,http://terminology.pmi-ops.org/CodeSystem/ppi,cope_a_126,copect_63_xx21,05/04/2020
+"In the past 7 days, I thought about COVID-19 when I didn't mean to.",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,ies_r_6_1,COPE,05/04/2020
+"In the past 7 days, I felt watchful or on-guard.",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,ies_r_6_2,COPE,05/04/2020
+"In the past 7 days, other things kept making me think about COVID-19.",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,ies_r_6_3,COPE,05/04/2020
+"In the past 7 days, I was aware that I still had a lot of feelings about COVID-19, but I didn't deal with them.",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,ies_r_6_4,COPE,05/04/2020
+"In the past 7 days, I tried not to think about COVID-19.",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,ies_r_6_5,COPE,05/04/2020
+"In the past 7 days, I had trouble concentrating.",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,ies_r_6_6,COPE,05/04/2020
+"In the past month, how has the COVID-19 outbreak affected you? Please select all that apply.",COVID Participant Experience Survey,Question,multi-select,http://terminology.pmi-ops.org/CodeSystem/ppi,cdc_covid_19_18,COPE,05/04/2020
+"In the past month, have you experienced the following as a result of COVID-19? Please select all that apply.",COVID Participant Experience Survey,Question,multi-select,http://terminology.pmi-ops.org/CodeSystem/ppi,cdc_covid_19_23,COPE,05/04/2020
+"In the past month, have the following behaviors increased in your household? Please select all that apply.",COVID Participant Experience Survey,Question,multi-select,http://terminology.pmi-ops.org/CodeSystem/ppi,cdc_covid_19_26,COPE,05/04/2020
+"In the past month, to cope with social distancing and isolation, are you doing any of the following? Please select all that apply.",COVID Participant Experience Survey,Question,multi-select,http://terminology.pmi-ops.org/CodeSystem/ppi,cdc_covid_19_25,COPE,05/04/2020
+"Choose the answer that best describes how you felt in the past month.
+ In uncertain times, I usually expect the best.",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,lot_r_1,COPE,05/04/2020
+"Choose the answer that best describes how you felt in the past month.
+ In general, how happy are you?",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,ukmh_j1,COPE,05/04/2020
+"Choose the answer that best describes how you felt in the past month.
+ To what extent do you feel your life to be meaningful?",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,ukmh_j3,COPE,05/04/2020
+"Not including yourself, how many other people live at home with you?",COVID Participant Experience Survey,Question,Integer,http://terminology.pmi-ops.org/CodeSystem/ppi,basics_xx,COPE,05/04/2020
+Think of other people who live with you. How many are under the age of 18 years?,COVID Participant Experience Survey,Question,Integer,http://terminology.pmi-ops.org/CodeSystem/ppi,basics_xx20,basics_xx,05/04/2020
+What type of household do you live in?,COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,cu_covid,COPE,05/04/2020
+Please specify.,COVID Participant Experience Survey,Question,text,http://terminology.pmi-ops.org/CodeSystem/ppi,cope_a_204,cu_covid,05/04/2020
+What is your current employment status? Please select all that apply.,COVID Participant Experience Survey,Question,multi-select,http://terminology.pmi-ops.org/CodeSystem/ppi,basics_12,COPE,05/04/2020
+Are you covered by health insurance or some other kind of health care plan?,COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,basics_11,COPE,05/04/2020
+Are you currently covered by any of the following types of health insurance or health care plans? Select all that apply.,COVID Participant Experience Survey,Question,multi-select,http://terminology.pmi-ops.org/CodeSystem/ppi,basics_11a,basics_11,05/04/2020
+Please specify.,COVID Participant Experience Survey,Question,text,http://terminology.pmi-ops.org/CodeSystem/ppi,basics_11a_cope_a_33,basics_11a,05/04/2020
+Are you currently on chemotherapy or immunotherapy?,COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,copect_54,COPE,05/04/2020
+"Do you regularly take immunosuppressant medications (including steroids, methotrexate, biologic agents)?",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,copect_58,COPE,05/04/2020
+What is your current marital status?,COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,basics_8,COPE,05/04/2020
+Are you currently pregnant?,COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,overallhealth_14b,COPE,05/04/2020
+"Choose the answer that best describes how often you can find this kind of support in the past month.
+ Someone to help you if you were confined to bed",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,mos_ss_1,COPE,05/04/2020
+"Choose the answer that best describes how often you can find this kind of support in the past month.
+ Someone to take you to the doctor if you needed it",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,mos_ss_2,COPE,05/04/2020
+"Choose the answer that best describes how often you can find this kind of support in the past month.
+ Someone to prepare your meals if you were unable to do it yourself",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,mos_ss_3,COPE,05/04/2020
+"Choose the answer that best describes how often you can find this kind of support in the past month.
+ Someone to help with daily chores if you were sick",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,mos_ss_4,COPE,05/04/2020
+"Choose the answer that best describes how often you can find this kind of support in the past month.
+ Someone to have a good time with",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,mos_ss_5,COPE,05/04/2020
+"Choose the answer that best describes how often you can find this kind of support in the past month.
+ Someone to turn to for suggestions about how to deal with a personal problem",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,mos_ss_6,COPE,05/04/2020
+"Choose the answer that best describes how often you can find this kind of support in the past month.
+ Someone who understands your problems",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,mos_ss_7,COPE,05/04/2020
+"Choose the answer that best describes how often you can find this kind of support in the past month.
+ Someone to love and make you feel wanted",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,mos_ss_8,COPE,05/04/2020
+"Choose the answer that best describes how often you can find this kind of support in the past month.
+ Someone to confide in or talk to about yourself or your problems",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,mos_ss_13,COPE,05/04/2020
+"Choose the answer that best describes how often you can find this kind of support in the past month.
+ Someone to do things with to help you get your mind off things",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,mos_ss_17,COPE,05/04/2020
+"In the past 2 weeks, how often have you been bothered by the following problem?
+ Feeling nervous, anxious, or on edge",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,gad_7_1,COPE,05/04/2020
+"In the past 2 weeks, how often have you been bothered by the following problem?
+ Not being able to stop or control worrying",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,gad_7_2,COPE,05/04/2020
+"In the past 2 weeks, how often have you been bothered by the following problem?
+ Worrying too much about different things",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,gad_7_3,COPE,05/04/2020
+"In the past 2 weeks, how often have you been bothered by the following problem?
+ Trouble relaxing",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,gad_7_4,COPE,05/04/2020
+"In the past 2 weeks, how often have you been bothered by the following problem?
+ Being so restless that it's hard to sit still",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,gad_7_5,COPE,05/04/2020
+"In the past 2 weeks, how often have you been bothered by the following problem?
+ Becoming easily annoyed or irritable",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,gad_7_6,COPE,05/04/2020
+"In the past 2 weeks, how often have you been bothered by the following problem?
+ Feeling afraid as if something awful might happen",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,gad_7_7,COPE,05/04/2020
+"In the past 2 weeks, how often have you been bothered by:
+ Little interest or pleasure in doing things",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,phq_9_1,COPE,05/04/2020
+"In the past 2 weeks, how often have you been bothered by:
+ Feeling down, depressed, or hopeless",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,phq_9_2,COPE,05/04/2020
+"In the past 2 weeks, how often have you been bothered by:
+ Trouble falling or staying asleep, or sleeping too much",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,phq_9_3,COPE,05/04/2020
+"In the past 2 weeks, how often have you been bothered by:
+ Feeling tired or having little energy",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,phq_9_4,COPE,05/04/2020
+"In the past 2 weeks, how often have you been bothered by:
+ Poor appetite or overeating",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,phq_9_5,COPE,05/04/2020
+"In the past 2 weeks, how often have you been bothered by:
+ Feeling bad about yourself or that you are a failure or have let yourself or your family down",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,phq_9_6,COPE,05/04/2020
+"In the past 2 weeks, how often have you been bothered by:
+ Trouble concentrating on things, such as reading the newspaper or watching television",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,phq_9_7,COPE,05/04/2020
+"In the past 2 weeks, how often have you been bothered by:
+ Moving or speaking so slowly that other people could have noticed? Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,phq_9_8,COPE,05/04/2020
+"In the past 2 weeks, how often have you been bothered by:
+ Thoughts that you would be better off dead or of hurting yourself in some way",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,phq_9_9,COPE,05/04/2020
+"If this is how you feel, think about getting help. There are people who can help 24/7.
+ 
+ <a href=""sms:741741"">Text the Crisis Text Line at 741741</a> or <a href=""tel:1-800-273-8255"">Call the National Suicide Prevention Lifeline at 1-800-273-8255.</a>",COVID Participant Experience Survey,Question,descriptive,http://terminology.pmi-ops.org/CodeSystem/ppi,phq9_9_pop_up,phq_9_9,05/04/2020
+"In the last month, how often have you been upset because of something that happened unexpectedly?",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,cpss_1,COPE,05/04/2020
+"In the last month, how often have you felt that you were unable to control the important things in your life?",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,cpss_2,COPE,05/04/2020
+"In the last month, how often have you felt nervous and ""stressed?""",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,cpss_3,COPE,05/04/2020
+"In the last month, how often have you felt confident about your ability to handle your personal problems?",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,cpss_4,COPE,05/04/2020
+"In the last month, how often have you felt that things were going your way?",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,cpss_5,COPE,05/04/2020
+"In the last month, how often have you found that you could not cope with all the things that you had to do?",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,cpss_6,COPE,05/04/2020
+"In the last month, how often have you been able to control irritations in your life?",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,cpss_7,COPE,05/04/2020
+"In the last month, how often have you felt that you were on top of things?",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,cpss_8,COPE,05/04/2020
+"In the last month, how often have you been angered because of things that were outside of your control?",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,cpss_9,COPE,05/04/2020
+"In the last month, how often have you felt difficulties were piling up so high that you could not overcome them?",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,cpss_10,COPE,05/04/2020
+"Think about all the vigorous activities that you did in the last 7 days. Vigorous physical activities refer to activities that take hard physical effort and make you breathe much harder than normal. Think only about those physical activities that you did for at least 10 minutes at a time.
+ 
+ During the last 7 days, did you do vigorous physical activities like heavy lifting, digging, aerobics, or fast bicycling?",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,ipaq_1,COPE,05/04/2020
+How many days per week?,COVID Participant Experience Survey,Question,Integer,http://terminology.pmi-ops.org/CodeSystem/ppi,ipaq_1_cope_a_24,ipaq_1,05/04/2020
+How much time did you usually spend doing vigorous physical activities on one of those days (hours per day)?,COVID Participant Experience Survey,Question,Integer,http://terminology.pmi-ops.org/CodeSystem/ppi,ipaq_2_cope_a_160,ipaq_1,05/04/2020
+How much time did you usually spend doing vigorous physical activities on one of those days (minutes per day)?,COVID Participant Experience Survey,Question,Integer,http://terminology.pmi-ops.org/CodeSystem/ppi,ipaq_2_cope_a_85,ipaq_1,05/04/2020
+"Think about all the moderate activities that you did in the last 7 days. Moderate activities refer to activities that take moderate physical effort and make you breathe somewhat harder than normal. Think only about those physical activities that you did for at least 10 minutes at a time.
+ 
+ During the last 7 days, did you do moderate physical activity like carrying light loads, bicycling at a regular pace, or doubles tennis?",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,ipaq_3,COPE,05/04/2020
+How many days per week?,COVID Participant Experience Survey,Question,Integer,http://terminology.pmi-ops.org/CodeSystem/ppi,ipaq_3_cope_a_24,ipaq_3,05/04/2020
+How much time did you usually spend doing moderate physical activities on one of those days (hours per day)?,COVID Participant Experience Survey,Question,Integer,http://terminology.pmi-ops.org/CodeSystem/ppi,ipaq_4_cope_a_160,ipaq_3,05/04/2020
+How much time did you usually spend doing moderate physical activities on one of those those days (minutes per day)?,COVID Participant Experience Survey,Question,Integer,http://terminology.pmi-ops.org/CodeSystem/ppi,ipaq_4_cope_a_85,ipaq_3,05/04/2020
+"Think about the time you spent walking in the last 7 days. This includes at work and at home, walking to travel from place to place, and any other walking that you have done solely for recreation, sport, exercise, or leisure.
+ 
+ During the last 7 days, did you walk for at least 10 minutes at a time?",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,ipaq_5,COPE,05/04/2020
+How many days per week?,COVID Participant Experience Survey,Question,Integer,http://terminology.pmi-ops.org/CodeSystem/ppi,ipaq_5_cope_a_24,ipaq_5,05/04/2020
+How much time did you usually spend walking on one of those days (hours per day)?,COVID Participant Experience Survey,Question,Integer,http://terminology.pmi-ops.org/CodeSystem/ppi,ipaq_6_cope_a_160,ipaq_5,05/04/2020
+How much time did you usually spend walking on one of those days (minutes per day)?,COVID Participant Experience Survey,Question,Integer,http://terminology.pmi-ops.org/CodeSystem/ppi,ipaq_6_cope_a_85,ipaq_5,05/04/2020
+"The last question is about the time you spent sitting on weekdays during the last 7 days. Include time spent at work, at home, while doing course work and during leisure time. This may include time spent sitting at a desk, visiting friends, reading, or sitting or lying down to watch television.
+ 
+ During the last 7 days, how much time did you spend sitting on a weekday?",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,ipaq_7,COPE,05/04/2020
+Hours per day,COVID Participant Experience Survey,Question,Integer,http://terminology.pmi-ops.org/CodeSystem/ppi,cope_a_160,ipaq_7,05/04/2020
+Minutes per day,COVID Participant Experience Survey,Question,Integer,http://terminology.pmi-ops.org/CodeSystem/ppi,cope_a_85,ipaq_7,05/04/2020
+"Choose the answer that is true for you in the past month.
+ I lack companionship",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,ucla_ls8_2,COPE,05/04/2020
+"Choose the answer that is true for you in the past month.
+ There is no one I can turn to",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,ucla_ls8_3,COPE,05/04/2020
+"Choose the answer that is true for you in the past month.
+ I am an outgoing person",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,ucla_ls8_9,COPE,05/04/2020
+"Choose the answer that is true for you in the past month.
+ I feel left out",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,ucla_ls8_11,COPE,05/04/2020
+"Choose the answer that is true for you in the past month.
+ I feel isolated from others",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,ucla_ls8_14,COPE,05/04/2020
+"Choose the answer that is true for you in the past month.
+ I can find companionship when I want it",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,ucla_ls8_15,COPE,05/04/2020
+"Choose the answer that is true for you in the past month.
+ I am unhappy being so withdrawn",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,ucla_ls8_17,COPE,05/04/2020
+"Choose the answer that is true for you in the past month.
+ People are around me but not with me",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,ucla_ls8_18,COPE,05/04/2020
+"In the past month:
+ Did you smoke tobacco/nicotine (including cigarettes, cigar, cigarillos, pipes, hookah) every day, some days, or not at all?",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,copect_50_xx18,COPE,05/04/2020
+How long has it been since you last smoked?,COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,copect_50_xx19,copect_50_xx18,05/04/2020
+Enter the number of weeks,COVID Participant Experience Survey,Question,Integer,http://terminology.pmi-ops.org/CodeSystem/ppi,copect_50_xx19_cope_a_57,lifestyle_2_xx12,05/04/2020
+Enter the number of months,COVID Participant Experience Survey,Question,Integer,http://terminology.pmi-ops.org/CodeSystem/ppi,copect_50_xx19_cope_a_198,lifestyle_2_xx12,05/04/2020
+Enter the number of years,COVID Participant Experience Survey,Question,Integer,http://terminology.pmi-ops.org/CodeSystem/ppi,copect_50_xx19_cope_a_152,lifestyle_2_xx12,05/04/2020
+"In the past month:
+ Did someone in your home smoke tobacco/nicotine (including cigarettes, cigar, cigarillos, pipes, hookah) every day, some days, or not at all?",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,copect_50_xx17,COPE,05/04/2020
+"In the past month:
+ Did you use any type of electronic nicotine product? This includes e- cigarettes, vape pens, hookah pens, personal vaporizers and mods, e-cigars, e-pipes, and e-hookahs.",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,lifestyle_2_xx13,COPE,05/04/2020
+How long has it been since you last used an electronic nicotine product?,COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,lifestyle_2_xx12,lifestyle_2_xx13,05/04/2020
+Enter the number of weeks,COVID Participant Experience Survey,Question,Integer,http://terminology.pmi-ops.org/CodeSystem/ppi,lifestyle_2_xx12_cope_a_57,lifestyle_2_xx12,05/04/2020
+Enter the number of months,COVID Participant Experience Survey,Question,Integer,http://terminology.pmi-ops.org/CodeSystem/ppi,lifestyle_2_xx12_cope_a_198,lifestyle_2_xx12,05/04/2020
+Enter the number of years,COVID Participant Experience Survey,Question,Integer,http://terminology.pmi-ops.org/CodeSystem/ppi,lifestyle_2_xx12_cope_a_152,lifestyle_2_xx12,05/04/2020
+"In the past month:
+ How often do you have a drink containing alcohol?",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,audit_c_1,COPE,05/04/2020
+"In the past month:
+ How many standard drinks containing alcohol do you have on a typical day?",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,audit_c_2,audit_c_1,05/04/2020
+"In the past month:
+ How often do you have six or more drinks containing alcohol on one occasion?",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,audit_c_3,audit_c_1,05/04/2020
+"In the past month, have you used any of the following drugs? Select all that apply.",COVID Participant Experience Survey,Question,multi-select,http://terminology.pmi-ops.org/CodeSystem/ppi,tsu_ds5_13_xx,COPE,05/04/2020
+How often did you use cannabis?,COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,tsu_ds5_13_xx3,tsu_ds5_13_xx,05/04/2020
+Did your use include smoking cannabis?,COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,tsu_ds5_13_xx20,tsu_ds5_13_xx,05/04/2020
+Do you think you have used more or less cannabis in the past month than you used to?,COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,tsu_ds5_13_xx21,tsu_ds5_13_xx,05/04/2020
+How often did you use synthetic marijuana or fake weed?,COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,tsu_ds5_13_xx7,tsu_ds5_13_xx,05/04/2020
+Did your use include smoking synthetic marijuana or fake weed?,COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,tsu_ds5_13_xx22,tsu_ds5_13_xx,05/04/2020
+Do you think you have used more or less synthetic marijuana or fake weed in the past month than you used to?,COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,tsu_ds5_13_xx23,tsu_ds5_13_xx,05/04/2020
+How often did you use cocaine?,COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,tsu_ds5_13_xx9,tsu_ds5_13_xx,05/04/2020
+Did your use include smoking cocaine?,COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,tsu_ds5_13_xx24,tsu_ds5_13_xx,05/04/2020
+Do you think you have used more or less cocaine in the past month than you used to?,COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,tsu_ds5_13_xx25,tsu_ds5_13_xx,05/04/2020
+How often did you use prescription stimulants?,COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,tsu_ds5_13_xx11,tsu_ds5_13_xx,05/04/2020
+Did you use prescription stimulants in any way a doctor did not direct you to use it?,COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,tsu_ds5_13_xx26,tsu_ds5_13_xx,05/04/2020
+Do you think you have used more or less prescription stimulants in the past month than you used to?,COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,tsu_ds5_13_xx27,tsu_ds5_13_xx,05/04/2020
+How often did you use methamphetamine?,COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,tsu_ds5_13_xx6,tsu_ds5_13_xx,05/04/2020
+Did your use include smoking methamphetamine?,COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,tsu_ds5_13_xx28,tsu_ds5_13_xx,05/04/2020
+Do you think you have used more or less methamphetamine in the past month than you used to?,COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,tsu_ds5_13_xx29,tsu_ds5_13_xx,05/04/2020
+How often did you use synthetic stimulants?,COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,tsu_ds5_13_xx4,tsu_ds5_13_xx,05/04/2020
+Did your use include smoking synthetic stimulants?,COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,tsu_ds5_13_xx30,tsu_ds5_13_xx,05/04/2020
+Do you think you have used more or less synthetic stimulants in the past month than you used to?,COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,tsu_ds5_13_xx31,tsu_ds5_13_xx,05/04/2020
+How often did you use inhalants?,COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,tsu_ds5_13_xx5,tsu_ds5_13_xx,05/04/2020
+Do you think you have used more or less inhalants in the past month than you used to?,COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,tsu_ds5_13_xx32,tsu_ds5_13_xx,05/04/2020
+How often did you use prescription sedatives or prescription sleeping pills?,COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,tsu_ds5_13_xx8,tsu_ds5_13_xx,05/04/2020
+Did you use prescription sedatives or prescription sleeping pills in any way a doctor did not direct you to use it?,COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,tsu_ds5_13_xx33,tsu_ds5_13_xx,05/04/2020
+Do you think you have used more or less prescription sedatives or prescription sleeping pills in the past month than you used to?,COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,tsu_ds5_13_xx34,tsu_ds5_13_xx,05/04/2020
+How often did you use hallucinogens?,COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,tsu_ds5_13_xx10,tsu_ds5_13_xx,05/04/2020
+Did your use include smoking hallucinogens?,COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,tsu_ds5_13_xx35,tsu_ds5_13_xx,05/04/2020
+Do you think you have used more or less hallucinogens in the past month than you used to?,COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,tsu_ds5_13_xx36,tsu_ds5_13_xx,05/04/2020
+How often did you use heroin?,COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,tsu_ds5_13_xx2,tsu_ds5_13_xx,05/04/2020
+Did your use include smoking heroin?,COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,tsu_ds5_13_xx37,tsu_ds5_13_xx,05/04/2020
+Do you think you have used more or less heroin in the past month than you used to?,COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,tsu_ds5_13_xx38,tsu_ds5_13_xx,05/04/2020
+Did you use prescription opioids in any way a doctor did not direct you to use it?,COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,tsu_ds5_13_xx39,tsu_ds5_13_xx,05/04/2020
+How often did you use prescription opioids?,COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,tsu_ds5_13_xx1,tsu_ds5_13_xx,05/04/2020
+Did your use include smoking prescription opioids?,COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,tsu_ds5_13_xx40,tsu_ds5_13_xx,05/04/2020
+Do you think you have used more or less prescription opioids in the past month than you used to?,COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,tsu_ds5_13_xx41,tsu_ds5_13_xx,05/04/2020
+Other substance - please specify,COVID Participant Experience Survey,Question,text,http://terminology.pmi-ops.org/CodeSystem/ppi,tsu_ds5_13_xx42_cope_a_226,tsu_ds5_13_xx,05/04/2020
+How often did you use the other substance?,COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,tsu_ds5_13_xx42_cope_a_226_2,tsu_ds5_13_xx,05/04/2020
+Did your use include smoking the other substance?,COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,tsu_ds5_13_xx43,tsu_ds5_13_xx,05/04/2020
+Do you think you have used more or less of the other substance in the past month than you used to?,COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,tsu_ds5_13_xx44,tsu_ds5_13_xx,05/04/2020
+"Please select the response that best reflects your behavior in the past month.
+ I look for creative ways to alter difficult situations.",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,brcs_1,COPE,05/04/2020
+"Please select the response that best reflects your behavior in the past month.
+ Regardless of what happens to me, I believe I can control my reaction to it.",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,brcs_2,COPE,05/04/2020
+"Please select the response that best reflects your behavior in the past month.
+ I believe I can grow in positive ways by dealing with difficult situations.",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,brcs_3,COPE,05/04/2020
+"Please select the response that best reflects your behavior in the past month.
+ I actively look for ways to replace the losses I encounter in life.",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,brcs_4,COPE,05/04/2020
+"In your day-to-day life, how often did this happen to you during the past month?
+ You are treated with less courtesy than other people are.",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,eds_1,COPE,05/04/2020
+"In your day-to-day life, how often did this happen to you during the past month?
+ You are treated with less respect than other people are.",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,eds_2,COPE,05/04/2020
+"In your day-to-day life, how often did this happen to you during the past month?
+ You receive poorer service than other people at restaurants or stores.",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,eds_3,COPE,05/04/2020
+"In your day-to-day life, how often did this happen to you during the past month?
+ People act as if they think you are not smart.",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,eds_4,COPE,05/04/2020
+"In your day-to-day life, how often did this happen to you during the past month?
+ People act as if they are afraid of you.",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,eds_5,COPE,05/04/2020
+"In your day-to-day life, how often did this happen to you during the past month?
+ People act as if they think you are dishonest.",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,eds_6,COPE,05/04/2020
+"In your day-to-day life, how often did this happen to you during the past month?
+ People act as if they're better than you are.",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,eds_7,COPE,05/04/2020
+"In your day-to-day life, how often did this happen to you during the past month?
+ You are called names or insulted.",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,eds_8,COPE,05/04/2020
+"In your day-to-day life, how often did this happen to you during the past month?
+ You are threatened or harassed.",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,eds_9,COPE,05/04/2020
+What do you think is the main reason for these experiences? Select all that apply.,COVID Participant Experience Survey,Question,multi-select,http://terminology.pmi-ops.org/CodeSystem/ppi,eds_follow_up_1,COPE,05/04/2020
+Other reason - please specify.,COVID Participant Experience Survey,Question,text,http://terminology.pmi-ops.org/CodeSystem/ppi,eds_follow_up_1_xx,eds_follow_up_1,05/04/2020
+"To learn more about COVID-19: <a href=""https://www.cdc.gov"">https://www.cdc.gov</a> and <a href=""https://www.coronavirus.gov/"">https://www.coronavirus.gov/</a>
+ 
+ For more information on mental health topics and research: <a href=""https://www.nimh.nih.gov/health/index.shtml"">https://www.nimh.nih.gov/health/index.shtml</a>
+ 
+ If you or someone you care about needs help:
+ National Institute of Mental Health Getting Help page: <a href=""https://www.nimh.nih.gov/health/find-help/index.shtml"">https://www.nimh.nih.gov/health/find-help/index.shtml</a>
+ 
+ Substance Abuse and Mental Health Services Administration Treatment Locator: <a href=""https://findtreatment.samhsa.gov"">https://findtreatment.samhsa.gov</a>
+ 
+ National Suicide Prevention Lifeline: <a href=""https://suicidepreventionlifeline.org/talk-to-someone-now"">https://suicidepreventionlifeline.org/talk-to-someone-now</a> or at at <a href=""tel:1-800-273-8255"">1-800-273-8255</a> (En Español:<a href=""tel:1-888-628-9454"">1-888-628-9454</a>; Deaf and Hard of Hearing: <a href=""tel:1-800-799-4889"">1-800-799-4889</a>) 
+ 
+ Crisis Text Line by texting HOME to <a href=""sms:741741"">741741</a>",COVID Participant Experience Survey,Topic,descriptive,http://terminology.pmi-ops.org/CodeSystem/ppi,outro_text,COPE,05/04/2020
+"Thank you for answering these questions. Providing this information will help researchers better understand experience and health during a health crisis that is affecting the world. Your privacy is very important to us. Your name and identity will be separated from your answers before information is shared with approved researchers. The information is used for research purposes only and will not be shared with law enforcement.
+ 
+ In times of stress, it's important to take care of yourself. Taking short breaks throughout the day to get fresh air and connect with loved ones (while practicing social distancing guidelines) are good for your mental health and well-being.
+ 
+ You may find the following resources helpful.
+ 
+ <a href=""https://www.cdc.gov/coronavirus/2019-ncov/daily-life-coping/managing-stress-anxiety.html"">Centers for Disease Control and Prevention </a>
+ 
+ <a href=""https://www.webmd.com/balance/ss/slideshow-health-benefits-nature"">WebMD</a>",COVID Participant Experience Survey,Topic,descriptive,http://terminology.pmi-ops.org/CodeSystem/ppi,outro_text_2,COPE,05/04/2020
+Using cannabis or marijuana more than usual,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_1,cdc_covid_19_25,05/04/2020
+Very much,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_10,ukmh_j3,05/04/2020
+Your gender,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_100,eds_follow_up_1,05/04/2020
+Worked more hours than usual,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_101,cdc_covid_19_18,05/04/2020
+Daily or almost daily,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_103,audit_c_3,05/04/2020
+Living with partner,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_104,basics_8,05/04/2020
+Nausea,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_105,cdc_covid_19_7_xx23,05/04/2020
+Employed for wages (part- time or full-time),COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_106,basics_12,05/04/2020
+Some other aspect of your physical appearance,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_108,eds_follow_up_1,05/04/2020
+TRICARE or other military health care,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_109,basics_11a,05/04/2020
+Your ancestry or national origins,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_11,eds_follow_up_1,05/04/2020
+Smoking more cigarettes or vaping more,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_110,cdc_covid_19_25,05/04/2020
+Not enough money to pay for medications,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_112,cdc_covid_19_23,05/04/2020
+Diarrhea,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_114,cdc_covid_19_7_xx23,05/04/2020
+"Increasing watching, reading, or listening to news stories, including social media",COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_115,cdc_covid_19_25,05/04/2020
+Married,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_116,basics_8,05/04/2020
+Waiting for results,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_117,cdc_covid_19_9_xx24,05/04/2020
+Eating high fat or sugary foods more than usual,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_118,cdc_covid_19_25,05/04/2020
+Worked reduced hours,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_12,cdc_covid_19_18,05/04/2020
+Eating more food than usual,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_121,cdc_covid_19_25,05/04/2020
+Loss of smell or taste,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_122,cdc_covid_19_7_xx23,05/04/2020
+Cutting or self-injury more than usual,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_123,cdc_covid_19_25,05/04/2020
+Throat Swab,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_124,cdc_covid_19_n_a,05/04/2020
+Monthly or less,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_125,audit_c_1,05/04/2020
+Unable to work (disabled),COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_128,basics_12,05/04/2020
+A breathing machine (ventilator) with a tube down my throat,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_130,copect_63_xx21,05/04/2020
+An extreme amount,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_132,ukmh_j3,05/04/2020
+Divorced,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_133,basics_8,05/04/2020
+"Medicaid, Medical Assistance, or any kind of government-assistance plan for those with low incomes or disability",COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_134,basics_11a,05/04/2020
+Worked remotely or from home more than you usually do,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_135,cdc_covid_19_18,05/04/2020
+Oxygen (through an oxygen mask or tube under my nose,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_136,copect_63_xx21,05/04/2020
+A lot less than normal,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_138,msds_16,05/04/2020
+Very unhappy,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_140,ukmh_j1,05/04/2020
+I recovered at home,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_141,copect_63_xx20,05/04/2020
+A homemaker,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_142,basics_12,05/04/2020
+I disagree a lot,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_143,lot_r_1,05/04/2020
+Extremely unhappy,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_144,ukmh_j1,05/04/2020
+Your education or income level,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_145,eds_follow_up_1,05/04/2020
+About the same as normal,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_146,msds_16,05/04/2020
+Incurred increased costs for childcare expenses,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_147,cdc_covid_19_18,05/04/2020
+Not enough money to pay rent,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_149,cdc_covid_19_23,05/04/2020
+Out of work for 1 year or more,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_153,basics_12,05/04/2020
+I did not receive breathing treatment,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_155,copect_63_xx21,05/04/2020
+Over exercise,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_156,cdc_covid_19_25,05/04/2020
+"Taking care of your body, such as taking deep breaths, stretching, or meditating",COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_157,cdc_covid_19_25,05/04/2020
+4 or more times a week,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_16,audit_c_1,05/04/2020
+Did not have a regular place to sleep or stay,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_162,cdc_covid_19_23,05/04/2020
+Never married,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_163,basics_8,05/04/2020
+Not enough money to pay for gas,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_164,cdc_covid_19_23,05/04/2020
+Not enough money to pay for food,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_165,cdc_covid_19_23,05/04/2020
+Nasal swab,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_166,cdc_covid_19_n_a,05/04/2020
+2-4 times a month,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_167,audit_c_1,05/04/2020
+Not paid at all,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_17,cdc_covid_19_18,05/04/2020
+Insurance purchased directly from an insurance company (by you or another family member),COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_170,basics_11a,05/04/2020
+7 to 9,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_172,audit_c_2,05/04/2020
+Making time to relax,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_173,cdc_covid_19_25,05/04/2020
+1-5 times per week,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_174,tsu_ds5_13_xx3,05/04/2020
+"I didn't, I wasn't sick",COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_175,copect_63_xx20,05/04/2020
+Separated,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_177,basics_8,05/04/2020
+Eating less food than usual,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_178,cdc_covid_19_25,05/04/2020
+Income or pay has been reduced,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_179,cdc_covid_19_18,05/04/2020
+1-3 times per month,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_18,tsu_ds5_13_xx3,05/04/2020
+Weekly,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_180,audit_c_3,05/04/2020
+Veterans Affairs (VA) (including those who have ever used or enrolled for VA health care),COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_181,basics_11a,05/04/2020
+Contacting a healthcare provider,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_182,cdc_covid_19_25,05/04/2020
+Unusually hoarse voice,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_183,cdc_covid_19_7_xx23,05/04/2020
+Skipping meals,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_185,cdc_covid_19_7_xx23,05/04/2020
+Self-employed,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_186,basics_12,05/04/2020
+Unusual abdominal pain or stomachache,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_188,cdc_covid_19_7_xx23,05/04/2020
+Extremely happy,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_19,ukmh_j1,05/04/2020
+Your religion,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_190,eds_follow_up_1,05/04/2020
+Difficulty breathing or shortness of breath,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_192,cdc_covid_19_7_xx23,05/04/2020
+"Medicare, for people 65 and older or people with certain disabilities",COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_193,basics_11a,05/04/2020
+Most of the time,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_194,msds_18,05/04/2020
+Interpersonal conflict with friends or coworkers,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_195,cdc_covid_19_26,05/04/2020
+Retired,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_196,basics_12,05/04/2020
+"Yes, known COVID-19",COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_199,copect_17,05/04/2020
+Not that I know of,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_2,copect_17,05/04/2020
+Cough,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_20,cdc_covid_19_7_xx23,05/04/2020
+A moderate amount,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_200,ukmh_j3,05/04/2020
+Only a few times,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_201,tsu_ds5_13_xx3,05/04/2020
+Maybe,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_203,copect_40_xx15,05/04/2020
+Studio,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_205,cu_covid,05/04/2020
+One-bedroom apartment,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_206,cu_covid,05/04/2020
+Two-bedroom apartment,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_207,cu_covid,05/04/2020
+Three-bedroom (or more) apartment,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_208,cu_covid,05/04/2020
+Townhouse,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_209,cu_covid,05/04/2020
+Free-standing house,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_210,cu_covid,05/04/2020
+Nursing home,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_211,cu_covid,05/04/2020
+Homeless,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_212,cu_covid,05/04/2020
+Enter the amount of time,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_213,ipaq_7,05/04/2020
+Cannabis (also called marijuana,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_214,cdc_covid_19_25,05/04/2020
+Synthetic marijuana or fake weed (also called K2 or Spice),COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_215,cdc_covid_19_25,05/04/2020
+Cocaine (also called coke,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_216,cdc_covid_19_25,05/04/2020
+Prescription stimulants (for example,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_217,cdc_covid_19_25,05/04/2020
+Methamphetamine (also called meth,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_218,cdc_covid_19_25,05/04/2020
+Synthetic stimulants (also called bath salts,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_219,cdc_covid_19_25,05/04/2020
+Inhalants (for example,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_220,cdc_covid_19_25,05/04/2020
+Prescription sedatives or prescription sleeping pills (for example,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_221,cdc_covid_19_25,05/04/2020
+Hallucinogens (for example,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_222,cdc_covid_19_25,05/04/2020
+Heroin,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_223,cdc_covid_19_25,05/04/2020
+Prescription opioids (for example,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_224,cdc_covid_19_25,05/04/2020
+None,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_225,cdc_covid_19_25,05/04/2020
+Other breathing treatment,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_226,copect_63_xx21,05/04/2020
+3 or 4,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_23,audit_c_2,05/04/2020
+A lot more than normal,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_26,msds_16,05/04/2020
+Interpersonal conflict with family members or loved ones,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_27,cdc_covid_19_26,05/04/2020
+Using non-prescription drugs more than usual,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_28,cdc_covid_19_25,05/04/2020
+Somewhat,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_3,cdc_covid_19_21,05/04/2020
+Moderately unhappy,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_31,ukmh_j1,05/04/2020
+"Yes, suspected COVID-19",COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_32,copect_17,05/04/2020
+Any other type of health insurance or health coverage plan,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_33,basics_11a,05/04/2020
+Unusual eye soreness or discomfort (e.g.,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_36,cdc_covid_19_7_xx23,05/04/2020
+Less than monthly,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_37,audit_c_3,05/04/2020
+Very happy,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_38,ukmh_j1,05/04/2020
+Unusual chest pain or tightness in your chest,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_39,cdc_covid_19_7_xx23,05/04/2020
+1 or 2,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_4,audit_c_2,05/04/2020
+Runny or stuffy nose,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_40,cdc_covid_19_7_xx23,05/04/2020
+A lot,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_43,cdc_covid_19_21,05/04/2020
+Your sexual orientation,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_45,eds_follow_up_1,05/04/2020
+Your weight,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_46,eds_follow_up_1,05/04/2020
+I agree a little,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_47,lot_r_1,05/04/2020
+"Connecting with others, including talking with people you trust about your concerns and how you are feeling",COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_48,cdc_covid_19_25,05/04/2020
+Unusually strong muscle pains/aches,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_49,cdc_covid_19_7_xx23,05/04/2020
+Worked with children at home with me,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_5,cdc_covid_19_18,05/04/2020
+A student,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_50,basics_12,05/04/2020
+5 or 6,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_51,audit_c_2,05/04/2020
+Not sure,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_52,overallhealth_14b,05/04/2020
+A fever/feverish,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_54,cdc_covid_19_7_xx23,05/04/2020
+Blood Sample,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_55,cdc_covid_19_n_a,05/04/2020
+Monthly,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_56,audit_c_3,05/04/2020
+Widowed,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_58,basics_8,05/04/2020
+I disagree a little,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_59,lot_r_1,05/04/2020
+10 or more,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_6,audit_c_2,05/04/2020
+I don't have health insurance,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_60,basics_11a,05/04/2020
+Out of work for less than 1 year,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_61,basics_12,05/04/2020
+At least once a week,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_62,eds_1,05/04/2020
+Insurance through a current or former employer or union (by you or another family member),COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_63,basics_11a,05/04/2020
+More than normal,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_64,msds_16,05/04/2020
+Unusual fatigue,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_65,cdc_covid_19_7_xx23,05/04/2020
+Your height,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_66,eds_follow_up_1,05/04/2020
+Indian Health Service,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_68,basics_11a,05/04/2020
+Dizziness or light-headedness,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_69,cdc_covid_19_7_xx23,05/04/2020
+Moderately happy,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_7,ukmh_j1,05/04/2020
+I became unemployed,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_71,cdc_covid_19_18,05/04/2020
+Using prescription drugs (like valium,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_74,cdc_covid_19_25,05/04/2020
+I agree a lot,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_76,lot_r_1,05/04/2020
+I spoke with a healthcare professional and wasn't admitted to the hospital,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_77,copect_63_xx20,05/04/2020
+Somewhat less than normal,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_78,msds_16,05/04/2020
+Drinking alcohol more than usual,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_79,cdc_covid_19_25,05/04/2020
+Your age,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_8,eds_follow_up_1,05/04/2020
+I neither agree nor disagree,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_80,lot_r_1,05/04/2020
+Snapping at or yelling at family members,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_81,cdc_covid_19_26,05/04/2020
+"Taking breaks from watching, reading, or listening to news stories, including social media",COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_82,cdc_covid_19_25,05/04/2020
+Sore or painful throat,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_83,cdc_covid_19_7_xx23,05/04/2020
+A few times a month,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_84,eds_1,05/04/2020
+Had serious financial problems,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_87,cdc_covid_19_18,05/04/2020
+2-3 times a week,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_89,audit_c_1,05/04/2020
+I was admitted to the hospital for at least one night,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_9,copect_63_xx20,05/04/2020
+Was not able to work due to COVID-19 related illness,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_90,cdc_covid_19_18,05/04/2020
+Oxygen (through an oxygen mask,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_91,copect_63_xx21,05/04/2020
+Had difficulty arranging for childcare,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_92,cdc_covid_19_18,05/04/2020
+Headache,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_96,cdc_covid_19_7_xx23,05/04/2020
+"Engaging in healthy behaviors like trying to eat healthy, well-balanced meals, exercising regularly, getting plenty of sleep",COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_97,cdc_covid_19_25,05/04/2020
+Your race,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_98,eds_follow_up_1,05/04/2020
