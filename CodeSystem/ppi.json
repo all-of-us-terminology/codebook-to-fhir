@@ -18185,20 +18185,6 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "MentalHealthProfessionalVisits_2to3", 
-                  "display": "2-3"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Insurance", 
-                      "code": "concept-topic"
-                    }
-                  ], 
                   "code": "MentalHealthProfessionalVisits_6to7", 
                   "display": "6-7"
                 }, 
@@ -18229,6 +18215,20 @@
                   ], 
                   "code": "MentalHealthProfessionalVisits_4to5", 
                   "display": "4-5"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Insurance", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "MentalHealthProfessionalVisits_2to3", 
+                  "display": "2-3"
                 }, 
                 {
                   "property": [
@@ -21977,6 +21977,34 @@
           ], 
           "code": "PIIState_SD", 
           "display": "South Dakota"
+        }, 
+        {
+          "property": [
+            {
+              "valueCode": "Answer", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "COVID Participant Experience Survey", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "COPE_A_228", 
+          "display": "The same as usual"
+        }, 
+        {
+          "property": [
+            {
+              "valueCode": "Answer", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "COVID Participant Experience Survey", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "COPE_A_226", 
+          "display": "Other breathing treatment"
         }, 
         {
           "property": [
@@ -74407,20 +74435,6 @@
                   ], 
                   "code": "COPE_A_91", 
                   "display": "Oxygen (through an oxygen mask"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "COVID Participant Experience Survey", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "COPE_A_226", 
-                  "display": "Other breathing treatment"
                 }
               ], 
               "property": [
@@ -76185,20 +76199,6 @@
                   "code": "concept-topic"
                 }
               ], 
-              "code": "COPE_A_110", 
-              "display": "Smoking more cigarettes or vaping more"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "COVID Participant Experience Survey", 
-                  "code": "concept-topic"
-                }
-              ], 
               "code": "COPE_A_123", 
               "display": "Cutting or self-injury more than usual"
             }, 
@@ -76479,6 +76479,20 @@
                   "code": "concept-topic"
                 }
               ], 
+              "code": "COPE_A_110", 
+              "display": "Smoking more cigarettes or vaping more"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "COVID Participant Experience Survey", 
+                  "code": "concept-topic"
+                }
+              ], 
               "code": "COPE_A_214", 
               "display": "Cannabis (also called marijuana"
             }, 
@@ -76700,12 +76714,12 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 5320, 
+  "count": 5321, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.4.20", 
+  "version": "0.4.21", 
   "hierarchyMeaning": "grouped-by", 
   "date": "2020-05-04", 
   "property": [

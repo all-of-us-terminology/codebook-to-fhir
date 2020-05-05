@@ -353,7 +353,6 @@ Retired,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.o
 Not that I know of,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_2,copect_17,05/04/2020
 Cough,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_20,cdc_covid_19_7_xx23,05/04/2020
 A moderate amount,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_200,ukmh_j3,05/04/2020
-,,,,,,,
 Maybe,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_203,copect_40_xx15,05/04/2020
 Studio,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_205,cu_covid,05/04/2020
 One-bedroom apartment,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_206,cu_covid,05/04/2020
@@ -376,7 +375,7 @@ Hallucinogens (for example,COVID Participant Experience Survey,Answer,,http://te
 Heroin,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_223,cdc_covid_19_25,05/04/2020
 Prescription opioids (for example,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_224,cdc_covid_19_25,05/04/2020
 None,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_225,cdc_covid_19_25,05/04/2020
-Other breathing treatment,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_226,copect_63_xx21,05/04/2020
+,,,,,,,
 3 or 4,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_23,audit_c_2,05/04/2020
 A lot more than normal,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_26,msds_16,05/04/2020
 Interpersonal conflict with family members or loved ones,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_27,cdc_covid_19_26,05/04/2020
