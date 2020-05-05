@@ -12817,8 +12817,8 @@
                   "code": "concept-topic"
                 }
               ], 
-              "code": "Handwash_Food_Always", 
-              "display": "always"
+              "code": "Handwash_Food_Never", 
+              "display": "never"
             }, 
             {
               "property": [
@@ -12831,8 +12831,8 @@
                   "code": "concept-topic"
                 }
               ], 
-              "code": "Handwash_Food_Never", 
-              "display": "never"
+              "code": "Handwash_Food_Always", 
+              "display": "always"
             }, 
             {
               "property": [
@@ -24385,138 +24385,6 @@
         {
           "concept": [
             {
-              "concept": [
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Parent History", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "MotherDiagnosisHistory_Yes", 
-                  "display": "Yes"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Question", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Parent History", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "MotherDiagnosisHistory_WhichConditions", 
-                  "display": "If so, which conditions? (Free Text)"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Parent History", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "MotherDiagnosisHistory_No", 
-                  "display": "No"
-                }
-              ], 
-              "property": [
-                {
-                  "valueCode": "Question", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Parent History", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "ParentHistory_MotherDiagnosisHistory", 
-              "display": "Has your mother ever been diagnosed with any other health conditions?"
-            }, 
-            {
-              "concept": [
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Parent History", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "FatherDiagnosisHistory_No", 
-                  "display": "No"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Question", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Parent History", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "FatherDiagnosisHistory_WhichConditions", 
-                  "display": "If so, which conditions?"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Parent History", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "FatherDiagnosisHistory_Yes", 
-                  "display": "Yes"
-                }
-              ], 
-              "property": [
-                {
-                  "valueCode": "Question", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Parent History", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "ParentHistory_FatherDiagnosisHistory", 
-              "display": "Has your father ever been diagnosed with any other health conditions?"
-            }
-          ], 
-          "property": [
-            {
-              "valueCode": "Topic", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "Parent History", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "FamilyHistory_ParentHistory", 
-          "display": "Parent History"
-        }, 
-        {
-          "concept": [
-            {
               "property": [
                 {
                   "valueCode": "Question", 
@@ -35623,6 +35491,138 @@
           ], 
           "code": "FamilyHistory_SiblingHistory", 
           "display": "Sibling History"
+        }, 
+        {
+          "concept": [
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Parent History", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "MotherDiagnosisHistory_Yes", 
+                  "display": "Yes"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Question", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Parent History", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "MotherDiagnosisHistory_WhichConditions", 
+                  "display": "If so, which conditions? (Free Text)"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Parent History", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "MotherDiagnosisHistory_No", 
+                  "display": "No"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Parent History", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "ParentHistory_MotherDiagnosisHistory", 
+              "display": "Has your mother ever been diagnosed with any other health conditions?"
+            }, 
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Parent History", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "FatherDiagnosisHistory_No", 
+                  "display": "No"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Question", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Parent History", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "FatherDiagnosisHistory_WhichConditions", 
+                  "display": "If so, which conditions?"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Parent History", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "FatherDiagnosisHistory_Yes", 
+                  "display": "Yes"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Parent History", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "ParentHistory_FatherDiagnosisHistory", 
+              "display": "Has your father ever been diagnosed with any other health conditions?"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Topic", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Parent History", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "FamilyHistory_ParentHistory", 
+          "display": "Parent History"
         }, 
         {
           "property": [
@@ -73259,6 +73259,20 @@
             {
               "property": [
                 {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "COVID Participant Experience Survey", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "cu_covid_cope_a_204", 
+              "display": "Please specify."
+            }, 
+            {
+              "property": [
+                {
                   "valueCode": "Answer", 
                   "code": "concept-type"
                 }, 
@@ -73283,20 +73297,6 @@
               ], 
               "code": "COPE_A_205", 
               "display": "Studio"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Question", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "COVID Participant Experience Survey", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "cope_a_204", 
-              "display": "Please specify."
             }, 
             {
               "property": [
@@ -76749,7 +76749,7 @@
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.4.25", 
+  "version": "0.4.26", 
   "hierarchyMeaning": "grouped-by", 
   "date": "2020-05-04", 
   "property": [

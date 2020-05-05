@@ -53,7 +53,7 @@ Please specify.,COVID Participant Experience Survey,Question,text,http://termino
 "Not including yourself, how many other people live at home with you?",COVID Participant Experience Survey,Question,Integer,http://terminology.pmi-ops.org/CodeSystem/ppi,basics_xx,COPE,05/04/2020
 Think of other people who live with you. How many are under the age of 18 years?,COVID Participant Experience Survey,Question,Integer,http://terminology.pmi-ops.org/CodeSystem/ppi,basics_xx20,basics_xx,05/04/2020
 What type of household do you live in?,COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,cu_covid,COPE,05/04/2020
-Please specify.,COVID Participant Experience Survey,Question,text,http://terminology.pmi-ops.org/CodeSystem/ppi,cope_a_204,cu_covid,05/04/2020
+Please specify.,COVID Participant Experience Survey,Question,text,http://terminology.pmi-ops.org/CodeSystem/ppi,cu_covid_cope_a_204,cu_covid,05/04/2020
 What is your current employment status? Please select all that apply.,COVID Participant Experience Survey,Question,multi-select,http://terminology.pmi-ops.org/CodeSystem/ppi,basics_12,COPE,05/04/2020
 Are you covered by health insurance or some other kind of health care plan?,COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,basics_11,COPE,05/04/2020
 Are you currently covered by any of the following types of health insurance or health care plans? Select all that apply.,COVID Participant Experience Survey,Question,multi-select,http://terminology.pmi-ops.org/CodeSystem/ppi,basics_11a,basics_11,05/04/2020
