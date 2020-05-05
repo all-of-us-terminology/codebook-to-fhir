@@ -21723,6 +21723,20 @@
               "code": "concept-topic"
             }
           ], 
+          "code": "COPE_A_201", 
+          "display": "Only a few times"
+        }, 
+        {
+          "property": [
+            {
+              "valueCode": "Answer", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "COVID Participant Experience Survey", 
+              "code": "concept-topic"
+            }
+          ], 
           "code": "COPE_A_53", 
           "display": "A few days (1-2 days)"
         }, 
@@ -73412,20 +73426,6 @@
             }, 
             {
               "concept": [
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "COVID Participant Experience Survey", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "COPE_A_201", 
-                  "display": "Only a few times"
-                }, 
                 {
                   "property": [
                     {
