@@ -375,7 +375,6 @@ Hallucinogens (for example,COVID Participant Experience Survey,Answer,,http://te
 Heroin,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_223,cdc_covid_19_25,05/04/2020
 Prescription opioids (for example,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_224,cdc_covid_19_25,05/04/2020
 None,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_225,cdc_covid_19_25,05/04/2020
-,,,,,,,
 3 or 4,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_23,audit_c_2,05/04/2020
 A lot more than normal,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_26,msds_16,05/04/2020
 Interpersonal conflict with family members or loved ones,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_27,cdc_covid_19_26,05/04/2020
@@ -436,4 +435,5 @@ Oxygen (through an oxygen mask,COVID Participant Experience Survey,Answer,,http:
 Had difficulty arranging for childcare,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_92,cdc_covid_19_18,05/04/2020
 Headache,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_96,cdc_covid_19_7_xx23,05/04/2020
 "Engaging in healthy behaviors like trying to eat healthy, well-balanced meals, exercising regularly, getting plenty of sleep",COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_97,cdc_covid_19_25,05/04/2020
-Your race,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_98,eds_follow_up_1,05/04/2020
+Your race,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_98,eds_follow_up_1,05/04/2020
+The same as usual ,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_228,PMI,05/04/2020
