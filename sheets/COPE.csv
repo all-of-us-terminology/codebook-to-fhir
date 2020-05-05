@@ -1,5 +1,5 @@
 Display,Topic,Type,Answer Type,PMI System,PMI Code,Parent code,Date of Last Update
-COVID Participant Experience Survey,Module name,Module name,text,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE,,05/04/2020
+COVID Participant Experience Survey,Module Name,Module name,text,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE,,05/04/2020
 COVID Survey,COVID Participant Experience Survey,Topic,descriptive,http://terminology.pmi-ops.org/CodeSystem/ppi,section_intro,COPE,05/04/2020
 You can choose not to answer any question at any time. This survey will take approximately 15 to 20 minutes to complete.,COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,section_participation,COPE,05/04/2020
 "Please answer each question as honestly as possible. We are looking for your own answers, and not what you think your doctors, family, or friends want you to say.
@@ -329,12 +329,12 @@ Not paid at all,COVID Participant Experience Survey,Answer,,http://terminology.p
 Insurance purchased directly from an insurance company (by you or another family member),COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_170,basics_11a,05/04/2020
 7 to 9,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_172,audit_c_2,05/04/2020
 Making time to relax,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_173,cdc_covid_19_25,05/04/2020
-1-5 times per week,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_174,tsu_ds5_13_xx3,05/04/2020
+1-5 times per week,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_174,tsu_ds5_13_xx42_cope_a_226_2,05/04/2020
 "I didn't, I wasn't sick",COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_175,copect_63_xx20,05/04/2020
 Separated,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_177,basics_8,05/04/2020
 Eating less food than usual,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_178,cdc_covid_19_25,05/04/2020
 Income or pay has been reduced,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_179,cdc_covid_19_18,05/04/2020
-1-3 times per month,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_18,tsu_ds5_13_xx3,05/04/2020
+1-3 times per month,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_18,tsu_ds5_13_xx42_cope_a_226_2,05/04/2020
 Weekly,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_180,audit_c_3,05/04/2020
 Veterans Affairs (VA) (including those who have ever used or enrolled for VA health care),COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_181,basics_11a,05/04/2020
 Contacting a healthcare provider,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_182,cdc_covid_19_25,05/04/2020
@@ -363,18 +363,18 @@ Free-standing house,COVID Participant Experience Survey,Answer,,http://terminolo
 Nursing home,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_211,cu_covid,05/04/2020
 Homeless,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_212,cu_covid,05/04/2020
 Enter the amount of time,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_213,ipaq_7,05/04/2020
-Cannabis (also called marijuana,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_214,cdc_covid_19_25,05/04/2020
-Synthetic marijuana or fake weed (also called K2 or Spice),COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_215,cdc_covid_19_25,05/04/2020
-Cocaine (also called coke,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_216,cdc_covid_19_25,05/04/2020
-Prescription stimulants (for example,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_217,cdc_covid_19_25,05/04/2020
-Methamphetamine (also called meth,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_218,cdc_covid_19_25,05/04/2020
-Synthetic stimulants (also called bath salts,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_219,cdc_covid_19_25,05/04/2020
-Inhalants (for example,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_220,cdc_covid_19_25,05/04/2020
-Prescription sedatives or prescription sleeping pills (for example,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_221,cdc_covid_19_25,05/04/2020
-Hallucinogens (for example,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_222,cdc_covid_19_25,05/04/2020
-Heroin,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_223,cdc_covid_19_25,05/04/2020
-Prescription opioids (for example,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_224,cdc_covid_19_25,05/04/2020
-None,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_225,cdc_covid_19_25,05/04/2020
+Cannabis (also called marijuana,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_214,tsu_ds5_13_xx,05/04/2020
+Synthetic marijuana or fake weed (also called K2 or Spice),COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_215,tsu_ds5_13_xx,05/04/2020
+Cocaine (also called coke,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_216,tsu_ds5_13_xx,05/04/2020
+Prescription stimulants (for example,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_217,tsu_ds5_13_xx,05/04/2020
+Methamphetamine (also called meth,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_218,tsu_ds5_13_xx,05/04/2020
+Synthetic stimulants (also called bath salts,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_219,tsu_ds5_13_xx,05/04/2020
+Inhalants (for example,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_220,tsu_ds5_13_xx,05/04/2020
+Prescription sedatives or prescription sleeping pills (for example,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_221,tsu_ds5_13_xx,05/04/2020
+Hallucinogens (for example,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_222,tsu_ds5_13_xx,05/04/2020
+Heroin,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_223,tsu_ds5_13_xx,05/04/2020
+Prescription opioids (for example,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_224,tsu_ds5_13_xx,05/04/2020
+None,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_225,tsu_ds5_13_xx,05/04/2020
 3 or 4,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_23,audit_c_2,05/04/2020
 A lot more than normal,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_26,msds_16,05/04/2020
 Interpersonal conflict with family members or loved ones,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_27,cdc_covid_19_26,05/04/2020
@@ -407,7 +407,7 @@ I disagree a little,COVID Participant Experience Survey,Answer,,http://terminolo
 10 or more,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_6,audit_c_2,05/04/2020
 I don't have health insurance,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_60,basics_11a,05/04/2020
 Out of work for less than 1 year,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_61,basics_12,05/04/2020
-At least once a week,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_62,eds_1,05/04/2020
+At least once a week,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_62,eds_9,05/04/2020
 Insurance through a current or former employer or union (by you or another family member),COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_63,basics_11a,05/04/2020
 More than normal,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_64,msds_16,05/04/2020
 Unusual fatigue,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_65,cdc_covid_19_7_xx23,05/04/2020
@@ -426,7 +426,7 @@ I neither agree nor disagree,COVID Participant Experience Survey,Answer,,http://
 Snapping at or yelling at family members,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_81,cdc_covid_19_26,05/04/2020
 "Taking breaks from watching, reading, or listening to news stories, including social media",COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_82,cdc_covid_19_25,05/04/2020
 Sore or painful throat,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_83,cdc_covid_19_7_xx23,05/04/2020
-A few times a month,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_84,eds_1,05/04/2020
+A few times a month,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_84,eds_9,05/04/2020
 Had serious financial problems,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_87,cdc_covid_19_18,05/04/2020
 2-3 times a week,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_89,audit_c_1,05/04/2020
 I was admitted to the hospital for at least one night,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_9,copect_63_xx20,05/04/2020
@@ -436,4 +436,6 @@ Had difficulty arranging for childcare,COVID Participant Experience Survey,Answe
 Headache,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_96,cdc_covid_19_7_xx23,05/04/2020
 "Engaging in healthy behaviors like trying to eat healthy, well-balanced meals, exercising regularly, getting plenty of sleep",COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_97,cdc_covid_19_25,05/04/2020
 Your race,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_98,eds_follow_up_1,05/04/2020
-The same as usual ,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_228,tsu_ds5_13_xx21,05/04/2020
+The same as usual ,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_228,tsu_ds5_13_xx44,05/04/2020
+More often than usual,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_229,tsu_ds5_13_xx21,05/04/2020
+Less often than usual ,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_227,tsu_ds5_13_xx21,05/04/2020

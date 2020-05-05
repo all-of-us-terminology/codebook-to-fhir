@@ -73169,6 +73169,36 @@
           "display": "In the last month, how often have you found that you could not cope with all the things that you had to do?"
         }, 
         {
+          "concept": [
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "COVID Participant Experience Survey", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "COPE_A_84", 
+              "display": "A few times a month"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "COVID Participant Experience Survey", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "COPE_A_62", 
+              "display": "At least once a week"
+            }
+          ], 
           "property": [
             {
               "valueCode": "Question", 
@@ -73397,6 +73427,22 @@
               "display": "How often did you use hallucinogens?"
             }, 
             {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "COVID Participant Experience Survey", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "COPE_A_228", 
+                  "display": "The same as usual"
+                }
+              ], 
               "property": [
                 {
                   "valueCode": "Question", 
@@ -73439,36 +73485,6 @@
               "display": "How often did you use methamphetamine?"
             }, 
             {
-              "concept": [
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "COVID Participant Experience Survey", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "COPE_A_174", 
-                  "display": "1-5 times per week"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "COVID Participant Experience Survey", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "COPE_A_18", 
-                  "display": "1-3 times per month"
-                }
-              ], 
               "property": [
                 {
                   "valueCode": "Question", 
@@ -73509,6 +73525,20 @@
               ], 
               "code": "tsu_ds5_13_xx4", 
               "display": "How often did you use synthetic stimulants?"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "COVID Participant Experience Survey", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "COPE_A_215", 
+              "display": "Synthetic marijuana or fake weed (also called K2 or Spice)"
             }, 
             {
               "property": [
@@ -73583,6 +73613,20 @@
             {
               "property": [
                 {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "COVID Participant Experience Survey", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "COPE_A_220", 
+              "display": "Inhalants (for example"
+            }, 
+            {
+              "property": [
+                {
                   "valueCode": "Question", 
                   "code": "concept-type"
                 }, 
@@ -73653,6 +73697,20 @@
             {
               "property": [
                 {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "COVID Participant Experience Survey", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "COPE_A_219", 
+              "display": "Synthetic stimulants (also called bath salts"
+            }, 
+            {
+              "property": [
+                {
                   "valueCode": "Question", 
                   "code": "concept-type"
                 }, 
@@ -73663,6 +73721,48 @@
               ], 
               "code": "tsu_ds5_13_xx1", 
               "display": "How often did you use prescription opioids?"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "COVID Participant Experience Survey", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "COPE_A_225", 
+              "display": "None"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "COVID Participant Experience Survey", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "COPE_A_221", 
+              "display": "Prescription sedatives or prescription sleeping pills (for example"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "COVID Participant Experience Survey", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "COPE_A_217", 
+              "display": "Prescription stimulants (for example"
             }, 
             {
               "property": [
@@ -73751,6 +73851,20 @@
             {
               "property": [
                 {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "COVID Participant Experience Survey", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "COPE_A_222", 
+              "display": "Hallucinogens (for example"
+            }, 
+            {
+              "property": [
+                {
                   "valueCode": "Question", 
                   "code": "concept-type"
                 }, 
@@ -73763,6 +73877,50 @@
               "display": "Did your use include smoking methamphetamine?"
             }, 
             {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "COVID Participant Experience Survey", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "COPE_A_216", 
+              "display": "Cocaine (also called coke"
+            }, 
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "COVID Participant Experience Survey", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "COPE_A_174", 
+                  "display": "1-5 times per week"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "COVID Participant Experience Survey", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "COPE_A_18", 
+                  "display": "1-3 times per month"
+                }
+              ], 
               "property": [
                 {
                   "valueCode": "Question", 
@@ -73817,8 +73975,22 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "COPE_A_228", 
-                  "display": "The same as usual"
+                  "code": "COPE_A_229", 
+                  "display": "More often than usual"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "COVID Participant Experience Survey", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "COPE_A_227", 
+                  "display": "Less often than usual"
                 }
               ], 
               "property": [
@@ -73833,6 +74005,20 @@
               ], 
               "code": "tsu_ds5_13_xx21", 
               "display": "Do you think you have used more or less cannabis in the past month than you used to?"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "COVID Participant Experience Survey", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "COPE_A_223", 
+              "display": "Heroin"
             }, 
             {
               "property": [
@@ -73865,6 +74051,20 @@
             {
               "property": [
                 {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "COVID Participant Experience Survey", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "COPE_A_218", 
+              "display": "Methamphetamine (also called meth"
+            }, 
+            {
+              "property": [
+                {
                   "valueCode": "Question", 
                   "code": "concept-type"
                 }, 
@@ -73893,6 +74093,20 @@
             {
               "property": [
                 {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "COVID Participant Experience Survey", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "COPE_A_214", 
+              "display": "Cannabis (also called marijuana"
+            }, 
+            {
+              "property": [
+                {
                   "valueCode": "Question", 
                   "code": "concept-type"
                 }, 
@@ -73903,6 +74117,20 @@
               ], 
               "code": "tsu_ds5_13_xx34", 
               "display": "Do you think you have used more or less prescription sedatives or prescription sleeping pills in the past month than you used to?"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "COVID Participant Experience Survey", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "COPE_A_224", 
+              "display": "Prescription opioids (for example"
             }
           ], 
           "property": [
@@ -74161,36 +74389,6 @@
           "display": "In the past 7 days, I tried not to think about COVID-19."
         }, 
         {
-          "concept": [
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "COVID Participant Experience Survey", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "COPE_A_84", 
-              "display": "A few times a month"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "COVID Participant Experience Survey", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "COPE_A_62", 
-              "display": "At least once a week"
-            }
-          ], 
           "property": [
             {
               "valueCode": "Question", 
@@ -76229,34 +76427,6 @@
                   "code": "concept-topic"
                 }
               ], 
-              "code": "COPE_A_215", 
-              "display": "Synthetic marijuana or fake weed (also called K2 or Spice)"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "COVID Participant Experience Survey", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "COPE_A_220", 
-              "display": "Inhalants (for example"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "COVID Participant Experience Survey", 
-                  "code": "concept-topic"
-                }
-              ], 
               "code": "COPE_A_118", 
               "display": "Eating high fat or sugary foods more than usual"
             }, 
@@ -76285,92 +76455,8 @@
                   "code": "concept-topic"
                 }
               ], 
-              "code": "COPE_A_219", 
-              "display": "Synthetic stimulants (also called bath salts"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "COVID Participant Experience Survey", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "COPE_A_225", 
-              "display": "None"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "COVID Participant Experience Survey", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "COPE_A_221", 
-              "display": "Prescription sedatives or prescription sleeping pills (for example"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "COVID Participant Experience Survey", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "COPE_A_217", 
-              "display": "Prescription stimulants (for example"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "COVID Participant Experience Survey", 
-                  "code": "concept-topic"
-                }
-              ], 
               "code": "COPE_A_74", 
               "display": "Using prescription drugs (like valium"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "COVID Participant Experience Survey", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "COPE_A_222", 
-              "display": "Hallucinogens (for example"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "COVID Participant Experience Survey", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "COPE_A_216", 
-              "display": "Cocaine (also called coke"
             }, 
             {
               "property": [
@@ -76411,20 +76497,6 @@
                   "code": "concept-topic"
                 }
               ], 
-              "code": "COPE_A_223", 
-              "display": "Heroin"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "COVID Participant Experience Survey", 
-                  "code": "concept-topic"
-                }
-              ], 
               "code": "COPE_A_97", 
               "display": "Engaging in healthy behaviors like trying to eat healthy, well-balanced meals, exercising regularly, getting plenty of sleep"
             }, 
@@ -76441,20 +76513,6 @@
               ], 
               "code": "COPE_A_48", 
               "display": "Connecting with others, including talking with people you trust about your concerns and how you are feeling"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "COVID Participant Experience Survey", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "COPE_A_218", 
-              "display": "Methamphetamine (also called meth"
             }, 
             {
               "property": [
@@ -76495,36 +76553,8 @@
                   "code": "concept-topic"
                 }
               ], 
-              "code": "COPE_A_214", 
-              "display": "Cannabis (also called marijuana"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "COVID Participant Experience Survey", 
-                  "code": "concept-topic"
-                }
-              ], 
               "code": "COPE_A_28", 
               "display": "Using non-prescription drugs more than usual"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "COVID Participant Experience Survey", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "COPE_A_224", 
-              "display": "Prescription opioids (for example"
             }, 
             {
               "property": [
@@ -76631,7 +76661,7 @@
           "code": "concept-type"
         }, 
         {
-          "valueCode": "Module name", 
+          "valueCode": "Module Name", 
           "code": "concept-topic"
         }
       ], 
@@ -76716,12 +76746,12 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 5321, 
+  "count": 5323, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.4.23", 
+  "version": "0.4.24", 
   "hierarchyMeaning": "grouped-by", 
   "date": "2020-05-04", 
   "property": [
