@@ -1,5 +1,5 @@
 Display,Topic,Type,Answer Type,PMI System,PMI Code,Parent code,Date of Last Update
-COVID Participant Experience Survey,Module Name,Module name,text,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE,,05/04/2020
+COVID Participant Experience Survey,Module Name,Module Name,text,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE,,05/04/2020
 COVID Survey,COVID Participant Experience Survey,Topic,descriptive,http://terminology.pmi-ops.org/CodeSystem/ppi,section_intro,COPE,05/04/2020
 You can choose not to answer any question at any time. This survey will take approximately 15 to 20 minutes to complete.,COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,section_participation,COPE,05/04/2020
 "Please answer each question as honestly as possible. We are looking for your own answers, and not what you think your doctors, family, or friends want you to say.
@@ -437,5 +437,5 @@ Headache,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.
 "Engaging in healthy behaviors like trying to eat healthy, well-balanced meals, exercising regularly, getting plenty of sleep",COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_97,cdc_covid_19_25,05/04/2020
 Your race,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_98,eds_follow_up_1,05/04/2020
 The same as usual ,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_228,tsu_ds5_13_xx44,05/04/2020
-More often than usual,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_229,tsu_ds5_13_xx21,05/04/2020
-Less often than usual ,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_227,tsu_ds5_13_xx21,05/04/2020
+More often than usual,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_229,tsu_ds5_13_xx44,05/04/2020
+Less often than usual ,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_227,tsu_ds5_13_xx44,05/04/2020

@@ -73441,6 +73441,34 @@
                   ], 
                   "code": "COPE_A_228", 
                   "display": "The same as usual"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "COVID Participant Experience Survey", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "COPE_A_229", 
+                  "display": "More often than usual"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "COVID Participant Experience Survey", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "COPE_A_227", 
+                  "display": "Less often than usual"
                 }
               ], 
               "property": [
@@ -73963,36 +73991,6 @@
               "display": "Do you think you have used more or less heroin in the past month than you used to?"
             }, 
             {
-              "concept": [
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "COVID Participant Experience Survey", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "COPE_A_229", 
-                  "display": "More often than usual"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "COVID Participant Experience Survey", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "COPE_A_227", 
-                  "display": "Less often than usual"
-                }
-              ], 
               "property": [
                 {
                   "valueCode": "Question", 
@@ -76657,7 +76655,7 @@
       ], 
       "property": [
         {
-          "valueCode": "Module name", 
+          "valueCode": "Module Name", 
           "code": "concept-type"
         }, 
         {
@@ -76751,7 +76749,7 @@
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.4.24", 
+  "version": "0.4.25", 
   "hierarchyMeaning": "grouped-by", 
   "date": "2020-05-04", 
   "property": [
