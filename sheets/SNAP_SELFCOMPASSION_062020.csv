@@ -1,0 +1,6 @@
+Display,Topic,Type,PMI System,PMI Code,Parent code,Date of Last Update
+June Snap Questions 2,Module Name,Module Name,http://terminology.pmi-ops.org/CodeSystem/ppi,SNAP_SELFCOMPASSION_062020,,05/27/2020
+"When I make a mistake, I am more likely to ______.",Self-Compassion,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,Snap_SelfCompassion,SNAP_SELFCOMPASSION_062020,05/27/2020
+Be tough on myself,Self-Compassion,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SelfCompassion_ToughOnMyself,Snap_SelfCompassion,05/27/2020
+Be kind to myself,Self-Compassion,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SelfCompassion_KindToMyself,Snap_SelfCompassion,05/27/2020
+Shake it off,Self-Compassion,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,SelfCompassion_ShakeItOff,Snap_SelfCompassion,05/27/2020

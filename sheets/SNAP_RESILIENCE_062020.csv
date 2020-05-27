@@ -1,0 +1,5 @@
+Display,Topic,Type,PMI System,PMI Code,Parent code,Date of Last Update
+June Snap Questions 1,Module Name,Module Name,http://terminology.pmi-ops.org/CodeSystem/ppi,SNAP_RESILIENCE_062020,,05/27/2020
+"During hard times, I tend to",Reslience,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,Snap_Resilience,SNAP_RESILIENCE_062020,05/27/2020
+always,Reslience,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,Resilience_BounceBack,Snap_Resilience,05/27/2020
+sometimes,Reslience,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,Resilience_TakeTime,Snap_Resilience,05/27/2020

@@ -1,0 +1,6 @@
+Display,Topic,Type,PMI System,PMI Code,Parent code,Date of Last Update
+June Snap Questions 3,Module Name,Module Name,http://terminology.pmi-ops.org/CodeSystem/ppi,SNAP_WELLBEING_062020,,05/27/2020
+Which is the most important type of well-being to you?,General Well-Being,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,Snap_WellBeing,SNAP_WELLBEING_062020,05/27/2020
+Physical well-being (having a fit and healthy body),General Well-Being,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,WellBeing_Physical,Snap_WellBeing,05/27/2020
+Economic well-being (being financially comfortable),General Well-Being,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,WellBeing_Economic,Snap_WellBeing,05/27/2020
+Emotional well-being (feeling happy and content),General Well-Being,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,WellBeing_Emotional,Snap_WellBeing,05/27/2020

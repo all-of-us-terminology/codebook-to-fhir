@@ -25,7 +25,7 @@ You can choose not to answer any question at any time. This survey will take app
 "In the past month, have you been sick for more than one day with a new illness related to COVID-19 or flu-like symptoms?",COVID Participant Experience Survey,Question,Single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,cdc_covid_19_7_xx22,COPE,05/04/2020
 Approximate date of onset,COVID Participant Experience Survey,Question,Date,http://terminology.pmi-ops.org/CodeSystem/ppi,cdc_covid_19_7_xx22_date,cdc_covid_19_7_xx22,05/04/2020
 Which of the following symptoms did you have? (select all that apply),COVID Participant Experience Survey,Question,Multi-select,http://terminology.pmi-ops.org/CodeSystem/ppi,cdc_covid_19_7_xx23,cdc_covid_19_7_xx22,05/04/2020
-"Have you EVER been near someone that you know or suspect had COVID-19 (such as co-workers, family members, or others)? Please select all that apply.",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,copect_17,COPE,05/04/2020
+"Have you EVER been near someone that you know or suspect had COVID-19 (such as co-workers, family members, or others)? Please select all that apply.",COVID Participant Experience Survey,Question,Multi-select,http://terminology.pmi-ops.org/CodeSystem/ppi,copect_17,COPE,05/04/2020
 Do you think you have had COVID-19?,COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,copect_40_xx15,COPE,05/04/2020
 Were you tested for COVID-19 in the past month?,COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,cdc_covid_19_9_xx25,COPE,05/04/2020
 Was the test for COVID-19 positive?,COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,cdc_covid_19_9_xx24,cdc_covid_19_9_xx25,05/04/2020
@@ -438,4 +438,10 @@ Headache,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.
 Your race,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_98,eds_follow_up_1,05/04/2020
 The same as usual ,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_228,tsu_ds5_13_xx44,05/04/2020
 More often than usual,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_229,tsu_ds5_13_xx44,05/04/2020
-Less often than usual ,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_227,tsu_ds5_13_xx44,05/04/2020
+Less often than usual ,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_227,tsu_ds5_13_xx44,05/04/2020
+"Yes, I would like to take the survey at a later time.",COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_231,section_participation,5/20/2020
+Enter a response in hours,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_213_1,ipaq_7,5/20/2020
+Enter a response in minutes,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_213_2,ipaq_7,5/20/2020
+"Confusion, disorientation, or drowsiness",COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_239,cdc_covid_19_7_xx23,5/20/2020
+"Raised, red, itchy, welts on the skin or sudden swelling of the face or lips",COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_240,cdc_covid_19_7_xx23,5/20/2020
+"Red/purple sores or blisters on your feet, including your toes",COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_241,cdc_covid_19_7_xx23,5/20/2020

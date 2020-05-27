@@ -11465,6 +11465,20 @@
                   "code": "concept-topic"
                 }
               ], 
+              "code": "Smoking_DailySmokeStartingAgePreferNotToAnswer", 
+              "display": "Prefer not to answer"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Smoking", 
+                  "code": "concept-topic"
+                }
+              ], 
               "code": "Smoking_AverageDailyCigaretteNumberPreferNotToAnswer", 
               "display": "Prefer not to answer"
             }, 
@@ -12093,20 +12107,6 @@
               ], 
               "code": "Smoking_CurrentDailyCigaretteNumberPreferNotToAnswer", 
               "display": "Prefer not to answer"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Question", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Smoking", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "Smoking_DailySmokeStartingAgePreferNotToAnswer", 
-              "display": "Prefer not to answer"
             }
           ], 
           "property": [
@@ -12727,6 +12727,80 @@
       ], 
       "code": "SNAP_SUNSCREENTANNING_062019", 
       "display": "June Snap Questions 1"
+    }, 
+    {
+      "concept": [
+        {
+          "concept": [
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Self-Compassion", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "SelfCompassion_KindToMyself", 
+              "display": "Be kind to myself"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Self-Compassion", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "SelfCompassion_ToughOnMyself", 
+              "display": "Be tough on myself"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Self-Compassion", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "SelfCompassion_ShakeItOff", 
+              "display": "Shake it off"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Self-Compassion", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "Snap_SelfCompassion", 
+          "display": "When I make a mistake, I am more likely to ______."
+        }
+      ], 
+      "property": [
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "SNAP_SELFCOMPASSION_062020", 
+      "display": "June Snap Questions 2"
     }, 
     {
       "concept": [
@@ -14471,6 +14545,20 @@
           "display": "How satisfied are you with your visit at the site where your blood was drawn?"
         }, 
         {
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "PostPMBFeedback", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "PostPMBFeedback_ProblemsComingToVisit", 
+          "display": "Did you have any problems coming to the visit? Please tell us if you had problems with transportation, parking, finding the location, directions, taking time off work, needing to find childcare, etc."
+        }, 
+        {
           "concept": [
             {
               "property": [
@@ -14741,20 +14829,6 @@
           ], 
           "code": "PostPMBFeedback_SatisfactionWithStaff", 
           "display": "How satisfied are you with how the staff treated you during your visit?"
-        }, 
-        {
-          "property": [
-            {
-              "valueCode": "Question", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "PostPMBFeedback", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "PostPMBFeedback_ProblemsComingToVisit", 
-          "display": "Did you have any problems coming to the visit? Please tell us if you had problems with transportation, parking, finding the location, directions, taking time off work, needing to find childcare, etc."
         }
       ], 
       "property": [
@@ -14917,6 +14991,80 @@
       ], 
       "code": "SNAP_MUSICFEEL_072019", 
       "display": "July Snap Questions 2"
+    }, 
+    {
+      "concept": [
+        {
+          "concept": [
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "General Well-Being", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "WellBeing_Physical", 
+              "display": "Physical well-being (having a fit and healthy body)"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "General Well-Being", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "WellBeing_Emotional", 
+              "display": "Emotional well-being (feeling happy and content)"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "General Well-Being", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "WellBeing_Economic", 
+              "display": "Economic well-being (being financially comfortable)"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "General Well-Being", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "Snap_WellBeing", 
+          "display": "Which is the most important type of well-being to you?"
+        }
+      ], 
+      "property": [
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "SNAP_WELLBEING_062020", 
+      "display": "June Snap Questions 3"
     }, 
     {
       "concept": [
@@ -16675,50 +16823,6 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "FollowupCare_No", 
-                  "display": "No"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Can't Afford Medical Care", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "FollowupCare_Yes", 
-                  "display": "Yes"
-                }
-              ], 
-              "property": [
-                {
-                  "valueCode": "Question", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Can't Afford Medical Care", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "CantAffordCare_FollowupCare", 
-              "display": "DURING THE PAST 12 MONTHS, was there any time when you needed any of the following, but didn't get it because you couldn't afford it?...Follow-up care"
-            }, 
-            {
-              "concept": [
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Can't Afford Medical Care", 
-                      "code": "concept-topic"
-                    }
-                  ], 
                   "code": "TookLessMedToSaveMoney_Yes", 
                   "display": "Yes"
                 }, 
@@ -16837,6 +16941,50 @@
               ], 
               "code": "CantAffordCare_SkippedMedToSaveMoney", 
               "display": "DURING THE PAST 12 MONTHS, were any of the following true for you?\u2026You skipped medication doses to save money"
+            }, 
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Can't Afford Medical Care", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "FollowupCare_No", 
+                  "display": "No"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Can't Afford Medical Care", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "FollowupCare_Yes", 
+                  "display": "Yes"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Can't Afford Medical Care", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "CantAffordCare_FollowupCare", 
+              "display": "DURING THE PAST 12 MONTHS, was there any time when you needed any of the following, but didn't get it because you couldn't afford it?...Follow-up care"
             }, 
             {
               "concept": [
@@ -17215,20 +17363,6 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "TypeOfInsurance_Medicare", 
-                  "display": "Medicare, for people 65 and older or people with certain disabilities"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Insurance", 
-                      "code": "concept-topic"
-                    }
-                  ], 
                   "code": "TypeOfInsurance_GovernmentAssistancePlan", 
                   "display": "Medicaid, Medical Assistance, or any kind of government-assistance plan\r\nfor those with low incomes or disability"
                 }, 
@@ -17315,6 +17449,20 @@
                   ], 
                   "code": "TypeOfInsurance_VeteranAdministration", 
                   "display": "Veteran\u2019s Administration (VA) (including those who have ever used or enrolled for VA health care)"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Insurance", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "TypeOfInsurance_Medicare", 
+                  "display": "Medicare, for people 65 and older or people with certain disabilities"
                 }
               ], 
               "property": [
@@ -20979,6 +21127,66 @@
                   "code": "concept-type"
                 }, 
                 {
+                  "valueCode": "Reslience", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Resilience_BounceBack", 
+              "display": "always"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Reslience", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Resilience_TakeTime", 
+              "display": "sometimes"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Reslience", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "Snap_Resilience", 
+          "display": "During hard times, I tend to"
+        }
+      ], 
+      "property": [
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "SNAP_RESILIENCE_062020", 
+      "display": "June Snap Questions 1"
+    }, 
+    {
+      "concept": [
+        {
+          "concept": [
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
                   "valueCode": "Sunscreen", 
                   "code": "concept-topic"
                 }
@@ -21851,6 +22059,20 @@
           ], 
           "code": "PIIState_UT", 
           "display": "Utah"
+        }, 
+        {
+          "property": [
+            {
+              "valueCode": "Answer", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "COVID Participant Experience Survey", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "COPE_A_236", 
+          "display": "None of the above"
         }, 
         {
           "property": [
@@ -24711,6 +24933,20 @@
                           "code": "concept-topic"
                         }
                       ], 
+                      "code": "DaughterCancerCondition_CervicalCancer", 
+                      "display": "Cervical cancer"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Child History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
                       "code": "DaughterCancerCondition_EyeCancer", 
                       "display": "Eye cancer"
                     }, 
@@ -24741,20 +24977,6 @@
                       ], 
                       "code": "DaughterCancerCondition_EndometrialCancer", 
                       "display": "Endometrial cancer"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Child History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "DaughterCancerCondition_CervicalCancer", 
-                      "display": "Cervical cancer"
                     }, 
                     {
                       "property": [
@@ -26371,8 +26593,8 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "DaughterOtherHealthCondition_SickleCell", 
-                      "display": "Sickle cell disease, sickle cell trait, thalassemia"
+                      "code": "DaughterOtherHealthCondition_Fibroids", 
+                      "display": "Fibroids"
                     }, 
                     {
                       "property": [
@@ -26385,8 +26607,8 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "DaughterOtherHealthCondition_Fibroids", 
-                      "display": "Fibroids"
+                      "code": "DaughterOtherHealthCondition_SickleCell", 
+                      "display": "Sickle cell disease, sickle cell trait, thalassemia"
                     }, 
                     {
                       "property": [
@@ -31497,20 +31719,6 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "FatherNervousCondition_Dementia", 
-                      "display": "Dementia (includes Alzheimer's, vascular, etc.)"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Parent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
                       "code": "FatherNervousCondition_Parkinsons", 
                       "display": "Parkinson's disease"
                     }, 
@@ -31583,6 +31791,20 @@
                       ], 
                       "code": "FatherNervousCondition_OtherHeadaches", 
                       "display": "Other types of headaches"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Parent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "FatherNervousCondition_Dementia", 
+                      "display": "Dementia (includes Alzheimer's, vascular, etc.)"
                     }
                   ], 
                   "property": [
@@ -31600,6 +31822,20 @@
                 }, 
                 {
                   "concept": [
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Grandparent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "GrandparentCancerCondition_EndometrialCancer", 
+                      "display": "Endometrial cancer"
+                    }, 
                     {
                       "property": [
                         {
@@ -31669,34 +31905,6 @@
                       ], 
                       "code": "GrandparentCancerCondition_LungCancer", 
                       "display": "Lung cancer"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Grandparent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "GrandparentCancerCondition_EndometrialCancer", 
-                      "display": "Endometrial cancer"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Grandparent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "GrandparentCancerCondition_ColonRectalCancer", 
-                      "display": "Colon cancer/Rectal cancer"
                     }, 
                     {
                       "property": [
@@ -31909,6 +32117,20 @@
                       ], 
                       "code": "GrandparentCancerCondition_ProstateCancer", 
                       "display": "Prostate cancer"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Grandparent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "GrandparentCancerCondition_ColonRectalCancer", 
+                      "display": "Colon cancer/Rectal cancer"
                     }
                   ], 
                   "property": [
@@ -34847,20 +35069,6 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "SonDigestiveCondition_AcidReflux", 
-                      "display": "Acid reflux/GERD"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Child History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
                       "code": "SonDigestiveCondition_LiverCondition", 
                       "display": "Liver condition (e.g., cirrhosis)"
                     }, 
@@ -34877,6 +35085,20 @@
                       ], 
                       "code": "SonDigestiveCondition_PepticUlcers", 
                       "display": "Peptic (stomach) ulcers"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Child History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "SonDigestiveCondition_AcidReflux", 
+                      "display": "Acid reflux/GERD"
                     }, 
                     {
                       "property": [
@@ -35189,6 +35411,20 @@
                           "code": "concept-topic"
                         }
                       ], 
+                      "code": "GrandparentDigestiveCondition_GallStones", 
+                      "display": "Gall Stones"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Grandparent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
                       "code": "GrandparentDigestiveCondition_PepticUlcers", 
                       "display": "Peptic (stomach) ulcers"
                     }, 
@@ -35205,20 +35441,6 @@
                       ], 
                       "code": "GrandparentDigestiveCondition_UlcerativeColitis", 
                       "display": "Ulcerative colitis"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Grandparent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "GrandparentDigestiveCondition_GallStones", 
-                      "display": "Gall Stones"
                     }, 
                     {
                       "property": [
@@ -35571,20 +35793,6 @@
                 {
                   "property": [
                     {
-                      "valueCode": "Question", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Parent History", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "FatherDiagnosisHistory_WhichConditions", 
-                  "display": "If so, which conditions?"
-                }, 
-                {
-                  "property": [
-                    {
                       "valueCode": "Answer", 
                       "code": "concept-type"
                     }, 
@@ -35595,6 +35803,20 @@
                   ], 
                   "code": "FatherDiagnosisHistory_Yes", 
                   "display": "Yes"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Question", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Parent History", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "FatherDiagnosisHistory_WhichConditions", 
+                  "display": "If so, which conditions?"
                 }
               ], 
               "property": [
@@ -49591,8 +49813,8 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "RxMedsforHyperthyroidism_No", 
-                  "display": "No"
+                  "code": "RxMedsforHyperthyroidism_Yes", 
+                  "display": "Yes"
                 }, 
                 {
                   "property": [
@@ -49605,8 +49827,8 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "RxMedsforHyperthyroidism_Yes", 
-                  "display": "Yes"
+                  "code": "RxMedsforHyperthyroidism_No", 
+                  "display": "No"
                 }
               ], 
               "property": [
@@ -56689,6 +56911,20 @@
                       "code": "concept-topic"
                     }
                   ], 
+                  "code": "HowOldWereYouAtrialFibrillation_Adult", 
+                  "display": "Adult (18-64)"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": null, 
+                      "code": "concept-topic"
+                    }
+                  ], 
                   "code": "HowOldWereYouAtrialFibrillation_Adolescent", 
                   "display": "Adolescent (12-17)"
                 }, 
@@ -56705,20 +56941,6 @@
                   ], 
                   "code": "HowOldWereYouAtrialFibrillation_Elderly", 
                   "display": "Elderly (75+)"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": null, 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "HowOldWereYouAtrialFibrillation_Adult", 
-                  "display": "Adult (18-64)"
                 }
               ], 
               "property": [
@@ -57747,8 +57969,8 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "HeartAttackCurrently_No", 
-                  "display": "No"
+                  "code": "HeartAttackCurrently_Yes", 
+                  "display": "Yes"
                 }, 
                 {
                   "property": [
@@ -57761,8 +57983,8 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "HeartAttackCurrently_Yes", 
-                  "display": "Yes"
+                  "code": "HeartAttackCurrently_No", 
+                  "display": "No"
                 }
               ], 
               "property": [
@@ -72641,8 +72863,36 @@
                       "code": "concept-topic"
                     }
                   ], 
+                  "code": "COPE_A_241", 
+                  "display": "Red/purple sores or blisters on your feet, including your toes"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "COVID Participant Experience Survey", 
+                      "code": "concept-topic"
+                    }
+                  ], 
                   "code": "COPE_A_39", 
                   "display": "Unusual chest pain or tightness in your chest"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "COVID Participant Experience Survey", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "COPE_A_240", 
+                  "display": "Raised, red, itchy, welts on the skin or sudden swelling of the face or lips"
                 }, 
                 {
                   "property": [
@@ -72853,6 +73103,20 @@
                   ], 
                   "code": "COPE_A_49", 
                   "display": "Unusually strong muscle pains/aches"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "COVID Participant Experience Survey", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "COPE_A_239", 
+                  "display": "Confusion, disorientation, or drowsiness"
                 }
               ], 
               "property": [
@@ -74163,6 +74427,20 @@
             {
               "property": [
                 {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "COVID Participant Experience Survey", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "COPE_A_213_1", 
+              "display": "Enter a response in hours"
+            }, 
+            {
+              "property": [
+                {
                   "valueCode": "Question", 
                   "code": "concept-type"
                 }, 
@@ -74173,6 +74451,20 @@
               ], 
               "code": "cope_a_160", 
               "display": "Hours per day"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "COVID Participant Experience Survey", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "COPE_A_213_2", 
+              "display": "Enter a response in minutes"
             }, 
             {
               "property": [
@@ -76625,6 +76917,22 @@
           "display": "In the last month, how often have you felt confident about your ability to handle your personal problems?"
         }, 
         {
+          "concept": [
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "COVID Participant Experience Survey", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "COPE_A_231", 
+              "display": "Yes, I would like to take the survey at a later time."
+            }
+          ], 
           "property": [
             {
               "valueCode": "Question", 
@@ -76744,14 +77052,14 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 5323, 
+  "count": 5344, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.4.26", 
+  "version": "0.4.29", 
   "hierarchyMeaning": "grouped-by", 
-  "date": "2020-05-04", 
+  "date": "2020-05-27", 
   "property": [
     {
       "code": "concept-type", 
