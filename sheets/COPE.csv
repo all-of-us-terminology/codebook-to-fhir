@@ -169,9 +169,9 @@ Minutes per day,COVID Participant Experience Survey,Question,Integer,http://term
 "In the past month:
  Did you smoke tobacco/nicotine (including cigarettes, cigar, cigarillos, pipes, hookah) every day, some days, or not at all?",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,copect_50_xx18,COPE,05/04/2020
 How long has it been since you last smoked?,COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,copect_50_xx19,copect_50_xx18,05/04/2020
-Enter the number of weeks,COVID Participant Experience Survey,Question,Integer,http://terminology.pmi-ops.org/CodeSystem/ppi,copect_50_xx19_cope_a_57,lifestyle_2_xx12,05/04/2020
-Enter the number of months,COVID Participant Experience Survey,Question,Integer,http://terminology.pmi-ops.org/CodeSystem/ppi,copect_50_xx19_cope_a_198,lifestyle_2_xx12,05/04/2020
-Enter the number of years,COVID Participant Experience Survey,Question,Integer,http://terminology.pmi-ops.org/CodeSystem/ppi,copect_50_xx19_cope_a_152,lifestyle_2_xx12,05/04/2020
+Enter the number of weeks,COVID Participant Experience Survey,Question,Integer,http://terminology.pmi-ops.org/CodeSystem/ppi,copect_50_xx19_cope_a_57,copect_50_xx19,05/04/2020
+Enter the number of months,COVID Participant Experience Survey,Question,Integer,http://terminology.pmi-ops.org/CodeSystem/ppi,copect_50_xx19_cope_a_198,copect_50_xx19,05/04/2020
+Enter the number of years,COVID Participant Experience Survey,Question,Integer,http://terminology.pmi-ops.org/CodeSystem/ppi,copect_50_xx19_cope_a_152,copect_50_xx19,05/04/2020
 "In the past month:
  Did someone in your home smoke tobacco/nicotine (including cigarettes, cigar, cigarillos, pipes, hookah) every day, some days, or not at all?",COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,copect_50_xx17,COPE,05/04/2020
 "In the past month:

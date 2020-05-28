@@ -72221,6 +72221,50 @@
         {
           "concept": [
             {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Question", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "COVID Participant Experience Survey", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "copect_50_xx19_cope_a_198", 
+                  "display": "Enter the number of months"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Question", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "COVID Participant Experience Survey", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "copect_50_xx19_cope_a_152", 
+                  "display": "Enter the number of years"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Question", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "COVID Participant Experience Survey", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "copect_50_xx19_cope_a_57", 
+                  "display": "Enter the number of weeks"
+                }
+              ], 
               "property": [
                 {
                   "valueCode": "Question", 
@@ -75465,20 +75509,6 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "copect_50_xx19_cope_a_198", 
-                  "display": "Enter the number of months"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Question", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "COVID Participant Experience Survey", 
-                      "code": "concept-topic"
-                    }
-                  ], 
                   "code": "lifestyle_2_xx12_cope_a_152", 
                   "display": "Enter the number of years"
                 }, 
@@ -75493,35 +75523,7 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "copect_50_xx19_cope_a_152", 
-                  "display": "Enter the number of years"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Question", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "COVID Participant Experience Survey", 
-                      "code": "concept-topic"
-                    }
-                  ], 
                   "code": "lifestyle_2_xx12_cope_a_57", 
-                  "display": "Enter the number of weeks"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Question", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "COVID Participant Experience Survey", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "copect_50_xx19_cope_a_57", 
                   "display": "Enter the number of weeks"
                 }, 
                 {
@@ -77057,7 +77059,7 @@
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.4.33", 
+  "version": "0.4.34", 
   "hierarchyMeaning": "grouped-by", 
   "date": "2020-05-28", 
   "property": [
