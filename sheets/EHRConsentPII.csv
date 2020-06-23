@@ -1,5 +1,6 @@
 Display,Topic,Type,Answer Type,PMI System,PMI Code,Parent code,Date of Last Update
 EHRConsent PII,Module Name,Module Name,,http://terminology.pmi-ops.org/CodeSystem/ppi,EHRConsentPII,,4/24/2017
+Hidden text field,Consent Permission,Question,,http://terminology.pmi-ops.org/CodeSystem/ppi,EHRConsentPII_ConsentExpired,EHRConsentPII,6/17/2020
 Do you consent?,Consent Permission,Question,,http://terminology.pmi-ops.org/CodeSystem/ppi,EHRConsentPII_ConsentPermission,EHRConsentPII,4/24/2017
 Yes,Consent Permission,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,ConsentPermission_Yes,EHRConsentPII_ConsentPermission,4/24/2017
 No,Consent Permission,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,ConsentPermission_No,EHRConsentPII_ConsentPermission,4/24/2017

@@ -444,4 +444,17 @@ Enter a response in hours,COVID Participant Experience Survey,Question,,http://t
 Enter a response in minutes,COVID Participant Experience Survey,Question,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_213_2,ipaq_7,5/20/2020
 "Confusion, disorientation, or drowsiness",COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_239,cdc_covid_19_7_xx23,5/20/2020
 "Raised, red, itchy, welts on the skin or sudden swelling of the face or lips",COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_240,cdc_covid_19_7_xx23,5/20/2020
-"Red/purple sores or blisters on your feet, including your toes",COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_241,cdc_covid_19_7_xx23,5/20/2020
+"Red/purple sores or blisters on your feet, including your toes",COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_241,cdc_covid_19_7_xx23,5/20/2020
+How many times were you tested?,COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,cdc_covid_19_n_a2,cdc_covid_19_9_xx25,6/15/2020
+Delaying medical care for conditions other than COVID-19,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,COPE_A_184,cdc_covid_19_25,6/15/2020
+Do you personally know someone who has died of COVID-19?,COVID Participant Experience Survey,Question,single-select,http://terminology.pmi-ops.org/CodeSystem/ppi,nhs_covid_fhc17a,COPE,6/15/2020
+Who do you know who has died? Check all that apply.,COVID Participant Experience Survey,Question,multi-select,http://terminology.pmi-ops.org/CodeSystem/ppi,nhs_covid_fhc17b,nhs_covid_fhc17a,6/15/2020
+"Spouse, partner, boyfriend, girlfriend",COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,cope_a_242,nhs_covid_fhc17b,6/15/2020
+Parent,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,cope_a_243,nhs_covid_fhc17b,6/15/2020
+Grandparent,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,cope_a_244,nhs_covid_fhc17b,6/15/2020
+Child,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,cope_a_245,nhs_covid_fhc17b,6/15/2020
+Sibling (brother or sister),COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,cope_a_246,nhs_covid_fhc17b,6/15/2020
+Co-worker,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,cope_a_247,nhs_covid_fhc17b,6/15/2020
+Friend,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,cope_a_248,nhs_covid_fhc17b,6/15/2020
+Neighbor,COVID Participant Experience Survey,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,cope_a_249,nhs_covid_fhc17b,6/15/2020
+Please specify.,COVID Participant Experience Survey,Question,text,http://terminology.pmi-ops.org/CodeSystem/ppi,nhs_covid_fhc17b_cope_a_226,nhs_covid_fhc17b,
