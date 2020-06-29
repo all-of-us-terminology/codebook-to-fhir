@@ -12989,6 +12989,140 @@
                   "code": "concept-type"
                 }, 
                 {
+                  "valueCode": "Decision Making", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "DecisionMaking_weighoptions", 
+              "display": "Take time to weigh all my options"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Decision Making", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "DecisionMaking_makeupmind", 
+              "display": "Make up my mind very quickly"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Decision Making", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "Snap_DecisionMaking", 
+          "display": "When making decisions, I tend to_____."
+        }
+      ], 
+      "property": [
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "JULY_SNAP2_20200622", 
+      "display": "July Snap Questions 2"
+    }, 
+    {
+      "concept": [
+        {
+          "concept": [
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Grit/Determination", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "GritDetermination_Unsure", 
+              "display": "Unsure"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Grit/Determination", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "GritDetermination_Yes", 
+              "display": "Yes"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Grit/Determination", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "GritDetermination_No", 
+              "display": "No"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Grit/Determination", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "Snap_GritDetermination", 
+          "display": "I have achieved a goal that took years of work."
+        }
+      ], 
+      "property": [
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "JULY_SNAP3_20200622", 
+      "display": "July Snap Questions 3"
+    }, 
+    {
+      "concept": [
+        {
+          "concept": [
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
                   "valueCode": "Enjoy music", 
                   "code": "concept-topic"
                 }
@@ -16807,50 +16941,6 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "Specialist_No", 
-                  "display": "No"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Can't Afford Medical Care", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "Specialist_Yes", 
-                  "display": "Yes"
-                }
-              ], 
-              "property": [
-                {
-                  "valueCode": "Question", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Can't Afford Medical Care", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "CantAffordCare_Specialist", 
-              "display": "DURING THE PAST 12 MONTHS, was there any time when you needed any of the following, but didn't get it because you couldn't afford it?...To see a specialist"
-            }, 
-            {
-              "concept": [
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Can't Afford Medical Care", 
-                      "code": "concept-topic"
-                    }
-                  ], 
                   "code": "TookLessMedToSaveMoney_Yes", 
                   "display": "Yes"
                 }, 
@@ -16881,6 +16971,50 @@
               ], 
               "code": "CantAffordCare_TookLessMedToSaveMoney", 
               "display": "DURING THE PAST 12 MONTHS, were any of the following true for you?\u2026You took less medicine to save money"
+            }, 
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Can't Afford Medical Care", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "Specialist_No", 
+                  "display": "No"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Can't Afford Medical Care", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "Specialist_Yes", 
+                  "display": "Yes"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Can't Afford Medical Care", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "CantAffordCare_Specialist", 
+              "display": "DURING THE PAST 12 MONTHS, was there any time when you needed any of the following, but didn't get it because you couldn't afford it?...To see a specialist"
             }, 
             {
               "concept": [
@@ -19949,6 +20083,50 @@
                       "code": "concept-topic"
                     }
                   ], 
+                  "code": "SpokenToPodiatrist_No", 
+                  "display": "No"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Insurance", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "SpokenToPodiatrist_Yes", 
+                  "display": "Yes"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Insurance", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "HealthAdvice_SpokenToPodiatrist", 
+              "display": "DURING THE PAST 12 MONTHS, have you seen or talked to any of the following health care providers about your own health?....A podiatrist or foot doctor"
+            }, 
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Insurance", 
+                      "code": "concept-topic"
+                    }
+                  ], 
                   "code": "SpokenToTraditionalHealer_Yes", 
                   "display": "Yes"
                 }, 
@@ -20107,50 +20285,6 @@
               ], 
               "code": "HealthAdvice_OBGYNVisits", 
               "display": "What is the total number visits to a doctor who specializes in women's health that you made in the last 12 months"
-            }, 
-            {
-              "concept": [
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Insurance", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "SpokenToPodiatrist_No", 
-                  "display": "No"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Insurance", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "SpokenToPodiatrist_Yes", 
-                  "display": "Yes"
-                }
-              ], 
-              "property": [
-                {
-                  "valueCode": "Question", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Insurance", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "HealthAdvice_SpokenToPodiatrist", 
-              "display": "DURING THE PAST 12 MONTHS, have you seen or talked to any of the following health care providers about your own health?....A podiatrist or foot doctor"
             }, 
             {
               "concept": [
@@ -23773,6 +23907,80 @@
       ], 
       "code": "PPIModuleFeedback", 
       "display": "PPI Module Feedback"
+    }, 
+    {
+      "concept": [
+        {
+          "concept": [
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Hope and Optimism", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "HopeandOptimism_Smiling", 
+              "display": "Smiling and laughing"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Hope and Optimism", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "HopeandOptimism_Exercising", 
+              "display": "Exercising"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Hope and Optimism", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "HopeandOptimism_Positive", 
+              "display": "Surrounding myself with positive people"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Hope and Optimism", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "Snap_HopeandOptimism", 
+          "display": "When practicing positive behaviors, ________, is most important to me."
+        }
+      ], 
+      "property": [
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "JULY_SNAP1_20200622", 
+      "display": "July Snap Questions 1"
     }, 
     {
       "concept": [
@@ -31245,20 +31453,6 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "MotherEndocrineCondition_Hypothyroidism", 
-                      "display": "Hypothyroidism"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Parent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
                       "code": "MotherEndocrineCondition_Hyperthyroidism", 
                       "display": "Hyperthyroidism"
                     }, 
@@ -31275,6 +31469,20 @@
                       ], 
                       "code": "MotherEndocrineCondition_Type2Diabetes", 
                       "display": "Type 2 diabetes (Type 1 diabetics do not produce enough insulin on their own, so they have get insulin injections. Type 1 diabetes used to be called juvenile onset diabetes.)"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Parent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "MotherEndocrineCondition_Hypothyroidism", 
+                      "display": "Hypothyroidism"
                     }
                   ], 
                   "property": [
@@ -35393,20 +35601,6 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "GrandparentDigestiveCondition_UlcerativeColitis", 
-                      "display": "Ulcerative colitis"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Grandparent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
                       "code": "GrandparentDigestiveCondition_ColonPolyps", 
                       "display": "Colon polyps"
                     }, 
@@ -35465,6 +35659,20 @@
                       ], 
                       "code": "GrandparentDigestiveCondition_IrritableBowelSyndrome", 
                       "display": "Irritable bowel syndrome (IBS)"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Grandparent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "GrandparentDigestiveCondition_UlcerativeColitis", 
+                      "display": "Ulcerative colitis"
                     }
                   ], 
                   "property": [
@@ -77356,14 +77564,14 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 5365, 
+  "count": 5379, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.4.37", 
+  "version": "0.4.38", 
   "hierarchyMeaning": "grouped-by", 
-  "date": "2020-06-23", 
+  "date": "2020-06-26", 
   "property": [
     {
       "code": "concept-type", 

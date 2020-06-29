@@ -1,0 +1,5 @@
+Display,Topic,Type,PMI System,PMI Code,Parent code,Date of Last Update
+July Snap Questions 2,Module Name,Module Name,http://terminology.pmi-ops.org/CodeSystem/ppi,JULY_SNAP2_20200622,,06/24/2020
+"When making decisions, I tend to_____.",Decision Making,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,Snap_DecisionMaking,JULY_SNAP2_20200622,06/24/2020
+Make up my mind very quickly,Decision Making,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,DecisionMaking_makeupmind,Snap_DecisionMaking,06/24/2020
+Take time to weigh all my options,Decision Making,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,DecisionMaking_weighoptions,Snap_DecisionMaking,06/24/2020
