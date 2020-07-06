@@ -14501,8 +14501,8 @@
                   "code": "concept-topic"
                 }
               ], 
-              "code": "FluShot_Yes", 
-              "display": "did"
+              "code": "FluShot_PlanTo", 
+              "display": "did not, but plan to"
             }, 
             {
               "property": [
@@ -14515,8 +14515,8 @@
                   "code": "concept-topic"
                 }
               ], 
-              "code": "FluShot_PlanTo", 
-              "display": "did not, but plan to"
+              "code": "FluShot_Yes", 
+              "display": "did"
             }, 
             {
               "property": [
@@ -29443,20 +29443,6 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "DaughterVisionCondition_Cataracts", 
-                      "display": "Cataracts"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Child History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
                       "code": "DaughterVisionCondition_Glaucoma", 
                       "display": "Glaucoma"
                     }, 
@@ -29473,6 +29459,20 @@
                       ], 
                       "code": "DaughterVisionCondition_HearingLoss", 
                       "display": "Hearing loss"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Child History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "DaughterVisionCondition_Cataracts", 
+                      "display": "Cataracts"
                     }
                   ], 
                   "property": [
@@ -32831,6 +32831,20 @@
                           "code": "concept-topic"
                         }
                       ], 
+                      "code": "DaughterSkeletalMuscularCondition_RheumatoidArthritis", 
+                      "display": "Rheumatoid arthritis"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Child History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
                       "code": "DaughterSkeletalMuscularCondition_Pseudogout", 
                       "display": "Pseudogout"
                     }, 
@@ -32861,20 +32875,6 @@
                       ], 
                       "code": "DaughterSkeletalMuscularCondition_SystemicLupus", 
                       "display": "Systemic Lupus"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Child History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "DaughterSkeletalMuscularCondition_RheumatoidArthritis", 
-                      "display": "Rheumatoid arthritis"
                     }, 
                     {
                       "property": [
@@ -76519,35 +76519,7 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "COPE_A_244", 
-                  "display": "Grandparent"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "COVID Participant Experience Survey", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "COPE_A_246", 
-                  "display": "Sibling (brother or sister)"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "COVID Participant Experience Survey", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "COPE_A_245", 
+                  "code": "cope_a_245", 
                   "display": "Child"
                 }, 
                 {
@@ -76561,8 +76533,8 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "COPE_A_242", 
-                  "display": "Spouse, partner, boyfriend, girlfriend"
+                  "code": "cope_a_247", 
+                  "display": "Co-worker"
                 }, 
                 {
                   "property": [
@@ -76575,7 +76547,7 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "COPE_A_243", 
+                  "code": "cope_a_243", 
                   "display": "Parent"
                 }, 
                 {
@@ -76589,7 +76561,7 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "COPE_A_248", 
+                  "code": "cope_a_248", 
                   "display": "Friend"
                 }, 
                 {
@@ -76603,7 +76575,21 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "COPE_A_249", 
+                  "code": "cope_a_244", 
+                  "display": "Grandparent"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "COVID Participant Experience Survey", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "cope_a_249", 
                   "display": "Neighbor"
                 }, 
                 {
@@ -76617,8 +76603,22 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "COPE_A_247", 
-                  "display": "Co-worker"
+                  "code": "cope_a_242", 
+                  "display": "Spouse, partner, boyfriend, girlfriend"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "COVID Participant Experience Survey", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "cope_a_246", 
+                  "display": "Sibling (brother or sister)"
                 }, 
                 {
                   "property": [
@@ -77569,9 +77569,9 @@
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.4.39", 
+  "version": "0.4.40", 
   "hierarchyMeaning": "grouped-by", 
-  "date": "2020-07-01", 
+  "date": "2020-07-06", 
   "property": [
     {
       "code": "concept-type", 
