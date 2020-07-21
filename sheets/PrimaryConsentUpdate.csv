@@ -1,0 +1,19 @@
+Display,Topic,Type,PMI System,PMI Code,Parent code,Date of Last Update
+Primary Consent Update,Module Name,Module Name,http://terminology.pmi-ops.org/CodeSystem/ppi,PrimaryConsentUpdate,,7/20/2020
+Reconsent,Topic,Topic,http://terminology.pmi-ops.org/CodeSystem/ppi,PrimaryConsentUpdate_Reconsent,PrimaryConsentUpdate,7/20/2020
+What We Will Do Video,Reconsent,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,Reconsent_WhatWeWillDoVideo,PrimaryConsentUpdate_Reconsent,7/20/2020
+Data Sharing Video,Reconsent,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,Reconsent_DataSharingVideo,PrimaryConsentUpdate_Reconsent,7/20/2020
+Potential Risks Video,Reconsent,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,Reconsent_PotentialRisksVideo,PrimaryConsentUpdate_Reconsent,7/20/2020
+Research Results Video,Reconsent,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,Reconsent_ResearchResultsVideo,PrimaryConsentUpdate_Reconsent,7/20/2020
+Seeing Your Data Video,Reconsent,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,Reconsent_SeeingYourDataVideo,PrimaryConsentUpdate_Reconsent,7/20/2020
+Cohort Group,Reconsent,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,PrimaryConsentUpdate_CohortGroup,PrimaryConsentUpdate,7/20/2020
+email a copy to me,Reconsent,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,Reconsent_EmailACopyToMe,PrimaryConsentUpdate_Reconsent,7/20/2020
+Do you agree to let researchers use your DNA for research?,Reconsent,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,Reconsent_ReviewConsentAgree,PrimaryConsentUpdate_Reconsent,7/20/2020
+"Yes, I agree to let researchers use my DNA for research. I understand that:",Reconsent,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,ReviewConsentAgree_Yes,Reconsent_ReviewConsentAgree,7/20/2020
+"No, I do not agree to let researchers use my DNA for research. I understand that:",Reconsent,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,ReviewConsentAgree_No,Reconsent_ReviewConsentAgree,7/20/2020
+"If you're using a computer please use your mouse to sign below. If you are using a mobile device please use your finger to sign. If you’d rather, you can type your name instead.",Reconsent,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,Reconsent_Signature,PrimaryConsentUpdate_Reconsent,7/20/2020
+Today's Date,Reconsent,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,Reconsent_TodaysDate,PrimaryConsentUpdate_Reconsent,7/20/2020
+Did someone from All of Us help you with the consent process?,Reconsent,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,Reconsent_HelpWithReviewConsent,PrimaryConsentUpdate_Reconsent,7/20/2020
+Yes,Reconsent,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,HelpWithReviewConsent_Yes,Reconsent_HelpWithReviewConsent,7/20/2020
+No,Reconsent,Answer,http://terminology.pmi-ops.org/CodeSystem/ppi,HelpWithReviewConsent_No,Reconsent_HelpWithReviewConsent,7/20/2020
+Name of the person who helped you,Reconsent,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,Reconsent_HelpWithConsentSignature,PrimaryConsentUpdate_Reconsent,7/20/2020

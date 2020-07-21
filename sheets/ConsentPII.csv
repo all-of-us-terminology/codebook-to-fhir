@@ -230,4 +230,5 @@ Boolean selector,Extra Consent Items,Question,http://terminology.pmi-ops.org/Cod
 Vimeo Video,Extra Consent Items,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,ExtraConsent_WhatWeWillDoVideo,ConsentPII_ExtraConsent,4/15/2020,
 Vimeo Video,Extra Consent Items,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,ExtraConsent_PotentialRisksVideo,ConsentPII_ExtraConsent,4/15/2020,
 Vimeo Video,Extra Consent Items,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,ExtraConsent_ResearchResultsVideo,ConsentPII_ExtraConsent,4/15/2020,
-Vimeo Video,Extra Consent Items,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,ExtraConsent_SeeingYourDataVideo,ConsentPII_ExtraConsent,4/15/2020,
+Vimeo Video,Extra Consent Items,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,ExtraConsent_SeeingYourDataVideo,ConsentPII_ExtraConsent,4/15/2020,
+Cohort Group,Extra Consent Items,Question,http://terminology.pmi-ops.org/CodeSystem/ppi,ConsentPII_CohortGroup,ConsentPII,7/16/2020,

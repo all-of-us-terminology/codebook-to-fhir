@@ -3591,6 +3591,20 @@
                       "code": "concept-topic"
                     }
                   ], 
+                  "code": "HowManyLivingYears_1to2", 
+                  "display": "1-2 years"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Living Situation", 
+                      "code": "concept-topic"
+                    }
+                  ], 
                   "code": "HowManyLivingYears_more20", 
                   "display": "More than 20 years"
                 }, 
@@ -3607,20 +3621,6 @@
                   ], 
                   "code": "HowManyLivingYears_less1", 
                   "display": "Less than 1 year"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Living Situation", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "HowManyLivingYears_1to2", 
-                  "display": "1-2 years"
                 }, 
                 {
                   "property": [
@@ -12831,6 +12831,20 @@
                   "code": "concept-topic"
                 }
               ], 
+              "code": "ReviewConsent_CohortGroup", 
+              "display": "Cohort Group"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Review Consent", 
+                  "code": "concept-topic"
+                }
+              ], 
               "code": "ReviewConsent_ResearchResultsVideo", 
               "display": "Research Results Video"
             }, 
@@ -14323,8 +14337,8 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "WhyWasItHard_DifficultInstructions", 
-                  "display": "hard to understand the instructions"
+                  "code": "WhyWasItHard_TechnicalProblems", 
+                  "display": "technical problems on computer/tablet/smartphone"
                 }, 
                 {
                   "property": [
@@ -14337,8 +14351,8 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "WhyWasItHard_TechnicalProblems", 
-                  "display": "technical problems on computer/tablet/smartphone"
+                  "code": "WhyWasItHard_DifficultInstructions", 
+                  "display": "hard to understand the instructions"
                 }, 
                 {
                   "concept": [
@@ -17845,50 +17859,6 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "Transportation_No", 
-                  "display": "No"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Delayed Medical Care", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "Transportation_Yes", 
-                  "display": "Yes"
-                }
-              ], 
-              "property": [
-                {
-                  "valueCode": "Question", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "Delayed Medical Care", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "DelayedMedicalCare_Transportation", 
-              "display": "There are many reasons people delay getting medical care. Have you delayed getting care for any of the following reasons in the PAST 12 MONTHS? ...Didn't have transportation"
-            }, 
-            {
-              "concept": [
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Delayed Medical Care", 
-                      "code": "concept-topic"
-                    }
-                  ], 
                   "code": "Nervous_No", 
                   "display": "No"
                 }, 
@@ -18109,6 +18079,50 @@
               ], 
               "code": "DelayedMedicalCare_DeductibleTooHigh", 
               "display": "There are many reasons people delay getting medical care. Have you delayed getting care for any of the following reasons in the PAST 12 MONTHS?\u2026Your deductible was too high/or could not afford the deductible"
+            }, 
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Delayed Medical Care", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "Transportation_No", 
+                  "display": "No"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Delayed Medical Care", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "Transportation_Yes", 
+                  "display": "Yes"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Delayed Medical Care", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "DelayedMedicalCare_Transportation", 
+              "display": "There are many reasons people delay getting medical care. Have you delayed getting care for any of the following reasons in the PAST 12 MONTHS? ...Didn't have transportation"
             }
           ], 
           "property": [
@@ -18323,6 +18337,20 @@
                       "code": "concept-topic"
                     }
                   ], 
+                  "code": "MedicalSpecialistVisits_13to15", 
+                  "display": "13-15"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Insurance", 
+                      "code": "concept-topic"
+                    }
+                  ], 
                   "code": "MedicalSpecialistVisits_2to3", 
                   "display": "2-3"
                 }, 
@@ -18339,20 +18367,6 @@
                   ], 
                   "code": "MedicalSpecialistVisits_16orMore", 
                   "display": "16 or more"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Insurance", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "MedicalSpecialistVisits_13to15", 
-                  "display": "13-15"
                 }, 
                 {
                   "property": [
@@ -19383,20 +19397,6 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "EyeDoctorVisits_10to12", 
-                  "display": "10-12"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Insurance", 
-                      "code": "concept-topic"
-                    }
-                  ], 
                   "code": "EyeDoctorVisits_6to7", 
                   "display": "6-7"
                 }, 
@@ -19413,6 +19413,20 @@
                   ], 
                   "code": "EyeDoctorVisits_8to9", 
                   "display": "8-9"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Insurance", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "EyeDoctorVisits_10to12", 
+                  "display": "10-12"
                 }, 
                 {
                   "property": [
@@ -20531,6 +20545,20 @@
                       "code": "concept-topic"
                     }
                   ], 
+                  "code": "SpokenToProfessional_MoreThan5YearsAgo", 
+                  "display": "More than 5 years ago"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Insurance", 
+                      "code": "concept-topic"
+                    }
+                  ], 
                   "code": "SpokenToProfessional_2To5YearsAgo", 
                   "display": "More than 2 yrs, but not more than 5 yrs ago"
                 }, 
@@ -20547,20 +20575,6 @@
                   ], 
                   "code": "SpokenToProfessional_1To2YearsAgo", 
                   "display": "More than 1 yr, but not more than 2 yrs ago"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Insurance", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "SpokenToProfessional_MoreThan5YearsAgo", 
-                  "display": "More than 5 years ago"
                 }, 
                 {
                   "property": [
@@ -23915,6 +23929,266 @@
             {
               "property": [
                 {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Reconsent", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Reconsent_TodaysDate", 
+              "display": "Today's Date"
+            }, 
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Reconsent", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "HelpWithReviewConsent_No", 
+                  "display": "No"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Reconsent", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "HelpWithReviewConsent_Yes", 
+                  "display": "Yes"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Reconsent", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Reconsent_HelpWithReviewConsent", 
+              "display": "Did someone from All of Us help you with the consent process?"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Reconsent", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Reconsent_PotentialRisksVideo", 
+              "display": "Potential Risks Video"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Reconsent", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Reconsent_Signature", 
+              "display": "If you're using a computer please use your mouse to sign below. If you are using a mobile device please use your finger to sign. If you\u2019d rather, you can type your name instead."
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Reconsent", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Reconsent_HelpWithConsentSignature", 
+              "display": "Name of the person who helped you"
+            }, 
+            {
+              "concept": [
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Reconsent", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "ReviewConsentAgree_No", 
+                  "display": "No, I do not agree to let researchers use my DNA for research. I understand that:"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Reconsent", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "ReviewConsentAgree_Yes", 
+                  "display": "Yes, I agree to let researchers use my DNA for research. I understand that:"
+                }
+              ], 
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Reconsent", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Reconsent_ReviewConsentAgree", 
+              "display": "Do you agree to let researchers use your DNA for research?"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Reconsent", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Reconsent_EmailACopyToMe", 
+              "display": "email a copy to me"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Reconsent", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Reconsent_ResearchResultsVideo", 
+              "display": "Research Results Video"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Reconsent", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Reconsent_SeeingYourDataVideo", 
+              "display": "Seeing Your Data Video"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Reconsent", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Reconsent_DataSharingVideo", 
+              "display": "Data Sharing Video"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Question", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "Reconsent", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "Reconsent_WhatWeWillDoVideo", 
+              "display": "What We Will Do Video"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Topic", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Topic", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "PrimaryConsentUpdate_Reconsent", 
+          "display": "Reconsent"
+        }, 
+        {
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Reconsent", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "PrimaryConsentUpdate_CohortGroup", 
+          "display": "Cohort Group"
+        }
+      ], 
+      "property": [
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "PrimaryConsentUpdate", 
+      "display": "Primary Consent Update"
+    }, 
+    {
+      "concept": [
+        {
+          "concept": [
+            {
+              "property": [
+                {
                   "valueCode": "Answer", 
                   "code": "concept-type"
                 }, 
@@ -25841,20 +26115,6 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "DaughterEndocrineCondition_Type2Diabetes", 
-                      "display": "Type 2 diabetes (Type 1 diabetics do not produce enough insulin on their own, so they have get insulin injections. Type 1 diabetes used to be called juvenile onset diabetes.)"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Child History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
                       "code": "DaughterEndocrineCondition_OtherDiabetes", 
                       "display": "Other/unknown diabetes (This includes gestational diabetes (diabetes during pregnancy) and borderline diabetes (pre-diabetes).)"
                     }, 
@@ -25871,6 +26131,20 @@
                       ], 
                       "code": "DaughterEndocrineCondition_Type1Diabetes", 
                       "display": "Type 1 diabetes (Type 1 diabetics do not produce enough insulin on their own, so they have get insulin injections. Type 1 diabetes used to be called juvenile onset diabetes.)"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Child History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "DaughterEndocrineCondition_Type2Diabetes", 
+                      "display": "Type 2 diabetes (Type 1 diabetics do not produce enough insulin on their own, so they have get insulin injections. Type 1 diabetes used to be called juvenile onset diabetes.)"
                     }, 
                     {
                       "property": [
@@ -27313,162 +27587,6 @@
                   ], 
                   "code": "DiagnosedHealthCondition_GrandparentSkeletalMuscularCondition", 
                   "display": "Skeletal/Muscular Conditions:"
-                }, 
-                {
-                  "concept": [
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Parent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "FatherDigestiveCondition_GallStones", 
-                      "display": "Gall Stones"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Parent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "FatherDigestiveCondition_CrohnsDisease", 
-                      "display": "Crohn's disease"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Parent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "FatherDigestiveCondition_ColonPolyps", 
-                      "display": "Colon polyps"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Parent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "FatherDigestiveCondition_AcidReflux", 
-                      "display": "Acid reflux/GERD"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Parent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "FatherDigestiveCondition_LiverCondition", 
-                      "display": "Liver condition (e.g., cirrhosis)"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Parent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "FatherDigestiveCondition_UlcerativeColitis", 
-                      "display": "Ulcerative colitis"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Parent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "FatherDigestiveCondition_Diverticulitis", 
-                      "display": "Diverticulitis"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Parent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "FatherDigestiveCondition_CeliacDisease", 
-                      "display": "Celiac Disease"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Parent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "FatherDigestiveCondition_PepticUlcers", 
-                      "display": "Peptic (stomach) ulcers"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Parent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "FatherDigestiveCondition_IrritableBowelSyndrome", 
-                      "display": "Irritable bowel syndrome (IBS)"
-                    }
-                  ], 
-                  "property": [
-                    {
-                      "valueCode": "Question", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Parent History", 
-                      "code": "concept-topic"
-                    }
-                  ], 
-                  "code": "DiagnosedHealthCondition_FatherDigestiveCondition", 
-                  "display": "Digestive System Conditions:"
                 }, 
                 {
                   "property": [
@@ -29497,6 +29615,162 @@
                           "code": "concept-type"
                         }, 
                         {
+                          "valueCode": "Parent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "FatherDigestiveCondition_GallStones", 
+                      "display": "Gall Stones"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Parent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "FatherDigestiveCondition_CrohnsDisease", 
+                      "display": "Crohn's disease"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Parent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "FatherDigestiveCondition_ColonPolyps", 
+                      "display": "Colon polyps"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Parent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "FatherDigestiveCondition_AcidReflux", 
+                      "display": "Acid reflux/GERD"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Parent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "FatherDigestiveCondition_LiverCondition", 
+                      "display": "Liver condition (e.g., cirrhosis)"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Parent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "FatherDigestiveCondition_UlcerativeColitis", 
+                      "display": "Ulcerative colitis"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Parent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "FatherDigestiveCondition_Diverticulitis", 
+                      "display": "Diverticulitis"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Parent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "FatherDigestiveCondition_CeliacDisease", 
+                      "display": "Celiac Disease"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Parent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "FatherDigestiveCondition_PepticUlcers", 
+                      "display": "Peptic (stomach) ulcers"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Parent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "FatherDigestiveCondition_IrritableBowelSyndrome", 
+                      "display": "Irritable bowel syndrome (IBS)"
+                    }
+                  ], 
+                  "property": [
+                    {
+                      "valueCode": "Question", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Parent History", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "DiagnosedHealthCondition_FatherDigestiveCondition", 
+                  "display": "Digestive System Conditions:"
+                }, 
+                {
+                  "concept": [
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
                           "valueCode": "Health Conditions", 
                           "code": "concept-topic"
                         }
@@ -30741,6 +31015,20 @@
                           "code": "concept-topic"
                         }
                       ], 
+                      "code": "FatherOtherHealthCondition_SickleCell", 
+                      "display": "Sickle cell disease, sickle cell trait, thalassemia"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Parent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
                       "code": "FatherOtherHealthCondition_HearingLoss", 
                       "display": "Hearing loss"
                     }, 
@@ -30829,20 +31117,6 @@
                       ], 
                       "code": "FatherOtherHealthCondition_Anemia", 
                       "display": "Anemia (low number of red blood cells)"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Parent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "FatherOtherHealthCondition_SickleCell", 
-                      "display": "Sickle cell disease, sickle cell trait, thalassemia"
                     }, 
                     {
                       "property": [
@@ -32591,6 +32865,20 @@
                           "code": "concept-topic"
                         }
                       ], 
+                      "code": "DaughterCirculatoryCondition_Anemia", 
+                      "display": "Anemia"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Child History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
                       "code": "DaughterCirculatoryCondition_HighBloodPressure", 
                       "display": "High blood pressure (Hypertension)"
                     }, 
@@ -32647,20 +32935,6 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "DaughterCirculatoryCondition_Anemia", 
-                      "display": "Anemia"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Child History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
                       "code": "DaughterCirculatoryCondition_HeartValveDisease", 
                       "display": "Heart Valve Disease"
                     }, 
@@ -32675,8 +32949,8 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "DaughterCirculatoryCondition_CoronaryArteryHeartDisease", 
-                      "display": "Coronary artery/coronary heart disease (included angina)"
+                      "code": "DaughterCirculatoryCondition_CongestiveHeartFailure", 
+                      "display": "Congestive heart failure"
                     }, 
                     {
                       "property": [
@@ -32689,8 +32963,8 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "DaughterCirculatoryCondition_CongestiveHeartFailure", 
-                      "display": "Congestive heart failure"
+                      "code": "DaughterCirculatoryCondition_CoronaryArteryHeartDisease", 
+                      "display": "Coronary artery/coronary heart disease (included angina)"
                     }, 
                     {
                       "property": [
@@ -66073,6 +66347,20 @@
           "display": "South Carolina Pairing"
         }, 
         {
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "Extra Consent Items", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "ConsentPII_CohortGroup", 
+          "display": "Cohort Group"
+        }, 
+        {
           "concept": [
             {
               "concept": [
@@ -74863,64 +75151,6 @@
           "display": "The last question is about the time you spent sitting on weekdays during the last 7 days. Include time spent at work, at home, while doing course work and during leisure time. This may include time spent sitting at a desk, visiting friends, reading, or sitting or lying down to watch television.\r\n \r\n During the last 7 days, how much time did you spend sitting on a weekday?"
         }, 
         {
-          "concept": [
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "COVID Participant Experience Survey", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "COPE_A_200", 
-              "display": "A moderate amount"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "COVID Participant Experience Survey", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "COPE_A_10", 
-              "display": "Very much"
-            }, 
-            {
-              "property": [
-                {
-                  "valueCode": "Answer", 
-                  "code": "concept-type"
-                }, 
-                {
-                  "valueCode": "COVID Participant Experience Survey", 
-                  "code": "concept-topic"
-                }
-              ], 
-              "code": "COPE_A_132", 
-              "display": "An extreme amount"
-            }
-          ], 
-          "property": [
-            {
-              "valueCode": "Question", 
-              "code": "concept-type"
-            }, 
-            {
-              "valueCode": "COVID Participant Experience Survey", 
-              "code": "concept-topic"
-            }
-          ], 
-          "code": "ukmh_j3", 
-          "display": "Choose the answer that best describes how you felt in the past month.\r\n To what extent do you feel your life to be meaningful?"
-        }, 
-        {
           "property": [
             {
               "valueCode": "Question", 
@@ -76391,6 +76621,64 @@
           "display": "Thinking about your current social habits, in the last 5 days:\r\n I have gone to my workplace or volunteer site that is outside my home."
         }, 
         {
+          "concept": [
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "COVID Participant Experience Survey", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "COPE_A_200", 
+              "display": "A moderate amount"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "COVID Participant Experience Survey", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "COPE_A_10", 
+              "display": "Very much"
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": "COVID Participant Experience Survey", 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "COPE_A_132", 
+              "display": "An extreme amount"
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": "COVID Participant Experience Survey", 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "ukmh_j3", 
+          "display": "Choose the answer that best describes how you felt in the past month.\r\n To what extent do you feel your life to be meaningful?"
+        }, 
+        {
           "property": [
             {
               "valueCode": "Question", 
@@ -76533,8 +76821,8 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "cope_a_247", 
-                  "display": "Co-worker"
+                  "code": "cope_a_243", 
+                  "display": "Parent"
                 }, 
                 {
                   "property": [
@@ -76547,8 +76835,8 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "cope_a_243", 
-                  "display": "Parent"
+                  "code": "cope_a_247", 
+                  "display": "Co-worker"
                 }, 
                 {
                   "property": [
@@ -77564,14 +77852,14 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 5379, 
+  "count": 5399, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.4.40", 
+  "version": "0.4.41", 
   "hierarchyMeaning": "grouped-by", 
-  "date": "2020-07-06", 
+  "date": "2020-07-20", 
   "property": [
     {
       "code": "concept-type", 
