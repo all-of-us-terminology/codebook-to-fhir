@@ -1,0 +1,9 @@
+Display,Topic,Type,Answer Type,PMI System,PMI Code,Parent code,Date of Last Update
+Genetic Ancestry & Trait Results,Module Name,GeneticAncestry,,http://terminology.pmi-ops.org/CodeSystem/ppi,GeneticAncestry,,8/12/2020
+Would you like to get your Genetic Ancestry and Traits Results?,,Question,single select,http://terminology.pmi-ops.org/CodeSystem/ppi,GeneticAncestry_ConsentAncestryTraits,GeneticAncestry,8/12/2020
+"Yes, I want my genetic ancestry and trait results. I understand I will be able to see my trait results as soon as they are ready, but I will need to review additional information before I can see my genetic ancestry results.
+",,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,ConsentAncestryTraits_Yes,GeneticAncestry_ConsentAncestryTraits,8/12/2020
+"No, I do not want my genetic ancestry and trait results.
+I know this means I can change my mind later.",,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,ConsentAncestryTraits_No,GeneticAncestry_ConsentAncestryTraits,8/12/2020
+"I’m not sure right now.
+I know this means I can change my mind later.",,Answer,,http://terminology.pmi-ops.org/CodeSystem/ppi,ConsentAncestryTraits_NotSure,GeneticAncestry_ConsentAncestryTraits,8/12/2020

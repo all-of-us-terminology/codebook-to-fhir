@@ -13137,6 +13137,80 @@
                   "code": "concept-type"
                 }, 
                 {
+                  "valueCode": null, 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "ConsentAncestryTraits_No", 
+              "display": "No, I do not want my genetic ancestry and trait results.\r\nI know this means I can change my mind later."
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": null, 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "ConsentAncestryTraits_Yes", 
+              "display": "Yes, I want my genetic ancestry and trait results. I understand I will be able to see my trait results as soon as they are ready, but I will need to review additional information before I can see my genetic ancestry results."
+            }, 
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
+                  "valueCode": null, 
+                  "code": "concept-topic"
+                }
+              ], 
+              "code": "ConsentAncestryTraits_NotSure", 
+              "display": "I\u2019m not sure right now.\r\nI know this means I can change my mind later."
+            }
+          ], 
+          "property": [
+            {
+              "valueCode": "Question", 
+              "code": "concept-type"
+            }, 
+            {
+              "valueCode": null, 
+              "code": "concept-topic"
+            }
+          ], 
+          "code": "GeneticAncestry_ConsentAncestryTraits", 
+          "display": "Would you like to get your Genetic Ancestry and Traits Results?"
+        }
+      ], 
+      "property": [
+        {
+          "valueCode": "GeneticAncestry", 
+          "code": "concept-type"
+        }, 
+        {
+          "valueCode": "Module Name", 
+          "code": "concept-topic"
+        }
+      ], 
+      "code": "GeneticAncestry", 
+      "display": "Genetic Ancestry & Trait Results"
+    }, 
+    {
+      "concept": [
+        {
+          "concept": [
+            {
+              "property": [
+                {
+                  "valueCode": "Answer", 
+                  "code": "concept-type"
+                }, 
+                {
                   "valueCode": "Enjoy music", 
                   "code": "concept-topic"
                 }
@@ -19497,20 +19571,6 @@
                       "code": "concept-topic"
                     }
                   ], 
-                  "code": "ChiropractorVisits_16orMore", 
-                  "display": "16 or more"
-                }, 
-                {
-                  "property": [
-                    {
-                      "valueCode": "Answer", 
-                      "code": "concept-type"
-                    }, 
-                    {
-                      "valueCode": "Insurance", 
-                      "code": "concept-topic"
-                    }
-                  ], 
                   "code": "ChiropractorVisits_4to5", 
                   "display": "4-5"
                 }, 
@@ -19583,6 +19643,20 @@
                   ], 
                   "code": "ChiropractorVisits_13to15", 
                   "display": "13-15"
+                }, 
+                {
+                  "property": [
+                    {
+                      "valueCode": "Answer", 
+                      "code": "concept-type"
+                    }, 
+                    {
+                      "valueCode": "Insurance", 
+                      "code": "concept-topic"
+                    }
+                  ], 
+                  "code": "ChiropractorVisits_16orMore", 
+                  "display": "16 or more"
                 }, 
                 {
                   "property": [
@@ -30259,6 +30333,20 @@
                           "code": "concept-topic"
                         }
                       ], 
+                      "code": "FatherMentalCondition_Autism", 
+                      "display": "Autsm spectrum disorder"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Parent History", 
+                          "code": "concept-topic"
+                        }
+                      ], 
                       "code": "FatherMentalCondition_AlcoholUse", 
                       "display": "Alcohol use disorder"
                     }, 
@@ -30331,20 +30419,6 @@
                       ], 
                       "code": "FatherMentalCondition_Bipolar", 
                       "display": "Bipolar disorder"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Parent History", 
-                          "code": "concept-topic"
-                        }
-                      ], 
-                      "code": "FatherMentalCondition_Autism", 
-                      "display": "Autsm spectrum disorder"
                     }
                   ], 
                   "property": [
@@ -31799,8 +31873,8 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "SonSkeletalMuscularCondition_Gout", 
-                      "display": "Gout"
+                      "code": "SonSkeletalMuscularCondition_RheumatoidArthritis", 
+                      "display": "Rheumatoid arthritis"
                     }, 
                     {
                       "property": [
@@ -31813,8 +31887,8 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "SonSkeletalMuscularCondition_RheumatoidArthritis", 
-                      "display": "Rheumatoid arthritis"
+                      "code": "SonSkeletalMuscularCondition_Gout", 
+                      "display": "Gout"
                     }, 
                     {
                       "property": [
@@ -33857,20 +33931,6 @@
                           "code": "concept-topic"
                         }
                       ], 
-                      "code": "CirculatoryCondition_HighBloodPressure", 
-                      "display": "High blood pressure (Hypertension)"
-                    }, 
-                    {
-                      "property": [
-                        {
-                          "valueCode": "Answer", 
-                          "code": "concept-type"
-                        }, 
-                        {
-                          "valueCode": "Health Conditions", 
-                          "code": "concept-topic"
-                        }
-                      ], 
                       "code": "CirculatoryCondition_CongestiveHeartFailure", 
                       "display": "Congestive heart failure"
                     }, 
@@ -33915,6 +33975,20 @@
                       ], 
                       "code": "CirculatoryCondition_AtrialFibrilation", 
                       "display": "Atrial fibrillation (or a-fib) or atrial flutter (or a-flutter). (These conditions cause irregular, often fast, heart beats that can cause poor blood flow. A-fib and a-flutter are not the same as a heart murmur.)"
+                    }, 
+                    {
+                      "property": [
+                        {
+                          "valueCode": "Answer", 
+                          "code": "concept-type"
+                        }, 
+                        {
+                          "valueCode": "Health Conditions", 
+                          "code": "concept-topic"
+                        }
+                      ], 
+                      "code": "CirculatoryCondition_HighBloodPressure", 
+                      "display": "High blood pressure (Hypertension)"
                     }
                   ], 
                   "property": [
@@ -77852,14 +77926,14 @@
   "name": "pmi-codebook", 
   "title": "Codebook for PMI's All of Us Research Program Participant-Provided Information", 
   "resourceType": "CodeSystem", 
-  "count": 5399, 
+  "count": 5404, 
   "compositional": false, 
   "content": "complete", 
   "url": "http://terminology.pmi-ops.org/CodeSystem/ppi", 
   "caseSensitive": true, 
-  "version": "0.4.41", 
+  "version": "0.4.42", 
   "hierarchyMeaning": "grouped-by", 
-  "date": "2020-07-20", 
+  "date": "2020-08-12", 
   "property": [
     {
       "code": "concept-type", 
