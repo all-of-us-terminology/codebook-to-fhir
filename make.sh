@@ -10,7 +10,7 @@ fi
 
 # use case statement to make decision for which command.
 case $command in
-   "build") echo "runnig build"
+   "build") echo "running build"
              rm -rf dist/* && python build.py --config config/ppi-codebook.json;;
    "validate-prerelease") echo "running validate-prerelease"
               rm -rf dist/* && python build.py --config config/ppi-codebook-prerelease.json;;
